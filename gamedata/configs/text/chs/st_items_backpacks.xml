@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+	Backpacks
+-->
+
+<string_table>
+	<string id="st_itm_backpack_name">
+		<text>背包</text>
+	</string>
+	<string id="st_itm_backpack_desc">
+		<text>由耐用材料制成的背包, 能承受最恶劣的天气条件.\n \n
+			%c[ui_gray_1]属性:\n
+			%c[d_blue] • %c[ui_gray_2] 日用品\n
+			%c[d_blue] • %c[ui_gray_2] 物品存储\n
+			%c[0,100,255,150] • %c[ui_gray_2] 可用作为藏匿处\n
+			</text>
+	</string>
+	
+	<string id="st_equ_smallpack_name">
+		<text>野营背包</text>
+	</string>
+	<string id="st_equ_smallpack_desc">
+		<text>一个有着足够储存空间的背包. 内部有防水设计. 这背包不是很好, 但它确实很有效. 在潜行者和新手中它是很受欢迎的选择.\n \n
+			%c[ui_gray_1]属性:\n
+			%c[d_blue] • %c[ui_gray_2] 日用品\n
+			%c[d_blue] • %c[ui_gray_2] 物品存储\n
+			%c[0,100,255,150] • %c[ui_gray_2] 可用作为藏匿处\n
+		</text>
+	</string>
+	
+	<string id="st_equ_smilpack_name">
+		<text>旅行背包</text>
+	</string>
+	<string id="st_equ_smilpack_desc">
+		<text>长途旅行用的大背包. 由于有重量分配设计, 穿戴者可以携带足够的物品和设备进行一次长达五天的旅行.\n \n
+			%c[ui_gray_1]属性:\n
+			%c[d_blue] • %c[ui_gray_2] 日用品\n
+			%c[d_blue] • %c[ui_gray_2] 物品存储\n
+			%c[0,100,255,150] • %c[ui_gray_2] 可用作为藏匿处\n
+		</text>
+	</string>
+	
+	<string id="st_equ_milpack_name">
+		<text>战斗背包</text>
+	</string>
+	<string id="st_equ_milpack_desc">
+		<text>军用背包, 顾名思义是军队使用的一种战斗背包, 通常用于储存更多的弹药和医疗用品.\n \n
+			%c[ui_gray_1]属性:\n
+			%c[d_blue] • %c[ui_gray_2] 日用品\n
+			%c[d_blue] • %c[ui_gray_2] 物品存储\n
+			%c[0,100,255,150] • %c[ui_gray_2] 可用作为藏匿处\n
+		</text>
+	</string>
+	
+	<string id="st_equ_touristpack_name">
+		<text>旅行包</text>
+	</string>
+	<string id="st_equ_touristpack_desc">
+		<text>一个游客的背包, 里面有很大的存储空间. 由于体积笨重, 不太受欢迎.\n \n
+			%c[ui_gray_1]属性:\n
+			%c[d_blue] • %c[ui_gray_2] 日用品\n
+			%c[d_blue] • %c[ui_gray_2] 物品存储\n
+			%c[0,100,255,150] • %c[ui_gray_2] 可用作为藏匿处\n
+		</text>
+	</string>
+	
+	<string id="st_kit_hunt">
+		<text>猎人工具包</text>
+	</string>
+	<string id="st_kit_hunt_descr">
+		<text>一整袋的钩子, 刀和其他设备, 用于剥皮和清除动物和怪物. 很少有潜行者携带专业设备进行怪物狩猎. 这也许就是为什么这么多的潜行者在特异区吃了怪物肉后会消化不良的原因. 由于工具种类繁多, 这套工具可以有效地改善武器和装甲的维护.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 日用品\n
+		%c[d_blue] • %c[ui_gray_2] 物品存储\n
+		%c[0,100,255,150] • %c[ui_gray_2] 可用作为藏匿处\n
+		%c[d_orange] • %c[ui_gray_2] 分解怪物时可以获得更多肢体\n
+		</text>
+	</string>
+	
+	<string id="st_itm_actor_backpack_name">
+		<text>快速释放系统</text>
+	</string>
+	<string id="st_itm_actor_backpack_descr">
+		<text>你肯定不想在特异区里被突然袭击虽然快速释放系统不能帮助你预防这种情况, 但它有助于快速脱离危险. 它的功能很简单: 可以立即抛下身上的背包, 让你逃到一个安全的地方, 而不会让沉重的背包阻碍你的行动. 若要使用它, 请设置快捷键. 按下快捷键后, 启动紧急释放, 然后就会立即把你的背包(和里面的所有东西)扔到地上. 你的装备武器, 弹药, 装甲和装甲附件以及UPD仍然在你的手中, 这样你就能充分地应付紧急情况. 事后还可以取回你的背包.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 军用品\n
+		%c[d_blue] • %c[ui_gray_2] 内置GPS\n
+		%c[d_blue] • %c[ui_gray_2] 快速使用\n
+		%c[d_blue] • %c[ui_gray_2] 战斗装备仍在使用者手中\n</text>
+	</string>
+	<string id="st_itm_actor_backpack_desc_mlr">
+		<text>常被潜行者用作意外情况下的退路. 它的特点很简单, 由一条可以随时随背包一起放下的带子组成, 以便迅速逃跑. 相当紧凑和宽敞. 实际上, 它可以让你重新设置你的背包和一些内容.</text>
+	</string>
+	
+	<string id="st_itm_backpack_stash_name">
+		<text>PDA定位背包</text>
+	</string>
+	<string id="st_itm_backpack_stash_desc">
+		<text>一个配有GPS定位系统的耐用背包. 它的位置讯息会自动同步到您的PDA上, 一旦放下会在地图上产生一个藏匿点, 并标记在您的PDA上. 背包由坚固耐用的材料制成, 无论环境状况如何, 都能保证设备的安全和干燥. 迷彩设计确保了使用者在自然环境中能保持隐蔽.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 军用品\n
+		%c[d_blue] • %c[ui_gray_2] 内置GPS\n
+		%c[d_red] • %c[ui_gray_2] 单独使用\n</text>
+	</string>
+	
+</string_table>

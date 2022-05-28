@@ -1,0 +1,513 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+	Medical Items + Drugs
+-->
+
+<string_table>
+	
+	<string id="st_antirad">
+		<text>抗辐射药</text>
+	</string>
+	<string id="st_antirad_descr">
+		<text>一种主要成分为5-甲氧基色胺盐酸盐的抗辐射药. 在特异区里很常见. 抗辐射药会压缩血管的血液和降低呼吸频率, 这样就可以防治辐射病. 这种药没有严重的副作用, 但从得到的报告来看, 在某些情况下可能有轻微恶心, 头晕, 胃痛和呕吐的情况.\n \n
+		%c[ui_gray_3]治疗:\n
+		%c[d_red] • %c[ui_gray_2] 消耗5%生命值\n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 药品\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_blue] • %c[ui_gray_2] 快速使用(注射器)\n
+		</text>
+	</string>
+	<string id="st_bandage">
+		<text>绷带</text>
+	</string>
+	<string id="st_bandage_descr">
+		<text>弹性绷带可以止血并能预防感染. 普通的出血只需将绷带绑在伤口上就行, 动脉出血时需要紧紧地绑住伤口.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 急救物品\n
+		%c[d_blue] • %c[ui_gray_2] 快速使用(绊创膏)\n
+		</text>
+	</string>
+	
+	<string id="st_drug_coagulant">
+		<text>长春花</text>
+	</string>
+	<string id="st_drug_coagulant_descr">
+		<text>乌克兰Vikasolum - 一种人造的类似维他命K的合成物, 主要能提升伤口血液凝固速度. 潜行者对它的需求很大, 因为它可以加快被怪物撕裂的伤口凝结和康复. 它的效果可以持续很久.一次吃两片.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_red] • %c[ui_gray_2] 导致头晕\n</text>
+	</string>
+	
+	<string id="st_drug_anabiotic">
+		<text>抗菌素</text>
+	</string>
+	<string id="st_drug_anabiotic_descr">
+		<text>这是奥泽斯基教授为特异区科研团队开发的一种实验性药物. 这种药的核心成分是河豚毒素. 俗称"僵尸粉". 它会麻痹人的中枢神经系统. 从而使人能够在风暴中存活下来. 该药经过六年的实际测试. 有经验的潜行者都会准备一些. 以防突发的风暴.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 药品\n
+		%c[d_blue] • %c[ui_gray_2] 特异区土产\n
+		%c[d_red] • %c[ui_gray_2] 导致暂时休克\n</text>
+	</string>
+	
+	<string id="st_drug_psy_blockade">
+		<text>精神阻断药片</text>
+	</string>
+	<string id="st_drug_psy_blockade_descr">
+		<text>一种用来抑制神经活动的药物. 会引起短时间的断片. 在特异区主要用来抵抗psy辐射的影响. 药效可以持续很久. 一次服两片.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 药品\n
+		%c[d_red] • %c[ui_gray_2] 导致极度头晕\n
+		</text>
+	</string>
+	
+	<string id="st_drug_antidot">
+		<text>解毒剂</text>
+	</string>
+	<string id="st_drug_antidot_descr">
+		<text>IP2解毒剂是一种复方药物. 由多种成分组成. 包括甲氧氯普脒, 吡哆醇, 硫胺, 核糖核酸等药物. 用法是血液中注射一堆抗生素. 以抵御自然毒剂或者人造毒剂. IP2在特异区内并不特别受欢迎. 大多数潜行者仍然依靠防毒面具和防护服. 然而, 仍然有一些小队或者个人会备点解毒剂已防紧急情况. 药效持久. 一次吃一粒.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 药品\n
+		%c[d_red] • %c[ui_gray_2] 导致头晕\n</text>
+	</string>
+	
+	<string id="st_drug_booster">
+		<text>"大力士"类固醇</text>
+	</string>
+	<string id="st_drug_booster_descr">
+		<text>该药物的主要成分是合成型代谢雄性激素. 一种人工类固醇. 其化学成分类似于睾酮. 潜行者们经常在长期作战中服用它以缓解神经疲劳. 可以显著增加负重能力. 药效持久.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 饮品\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_blue] • %c[ui_gray_2] 药品\n
+		%c[d_blue] • %c[ui_gray_2] 轻度解酒\n
+		</text>
+	</string>
+	
+	<string id="st_drug_radioprotector">
+		<text>抗辐射胶囊</text>
+	</string>
+	<string id="st_drug_radioprotector_descr">
+		<text>B190茵德林防护剂. 包含在配发给当初清理电站的人员的特殊医疗包里. 现在在特异区里广泛流通. 内含致毒性PC1半胱胺盐酸盐. 服用过量可能会断送你的小命. 可以减轻伽玛射线对活体细胞的影响. 建议在接触辐射前服用. 因为药物需要一段时间才能被充分吸收. 药效持久. 一次服一粒.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 药品\n
+		%c[d_red] • %c[ui_gray_2] 导致轻度眩晕\n
+		</text>
+	</string>
+	
+	<string id="st_akvatab">
+		<text>净水剂</text>
+	</string>
+	<string id="st_akvatab_descr">
+		<text>装有药片的小塑料袋. 可以对含细菌或污物的污水进行消毒. 一次服两片.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_red] • %c[ui_gray_2] 起效慢(药物需要化开)\n
+		%c[d_blue] • %c[ui_gray_2] 干净营养来源\n
+		</text>
+	</string>
+	
+	<string id="st_medkit_ai1">
+		<text>普通医疗包</text>
+	</string>
+	<string id="st_medkit_ai1_descr">
+		<text>一种医疗包. 包含各种治疗轻伤的药物和工具.\n \n
+		%c[ui_gray_3]包含:\n
+		%c[d_cyan] • %c[default] 绷带(4)\n
+		%c[d_cyan] • %c[default] 双氯芬酸钠\n
+		%c[d_cyan] • %c[default] 刺激性\n
+		%c[d_cyan] • %c[default] 咪唑安瓿\n
+		%c[d_cyan] • %c[default] 矿泉水\n
+		%c[d_cyan] • %c[default] 磺胺二甲氧嘧啶\n
+		%c[d_cyan] • %c[default] 止血带\n
+		%c[d_cyan] • %c[default] 亚都林\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 医疗设备储存\n</text>
+	</string>
+	
+	<string id="st_medkit_ai2">
+		<text>军用医疗包</text>
+	</string>
+	<string id="st_medkit_ai2_descr">
+		<text>军用医疗包. 含有大量刺激性药物.\n \n
+		%c[ui_gray_3]包含:\n
+		%c[d_cyan] • %c[default] 吗啡安瓿\n
+		%c[d_cyan] • %c[default] 防辐射制剂\n
+		%c[d_cyan] • %c[default] 板装净水剂\n
+		%c[d_cyan] • %c[default] 绷带(4)\n
+		%c[d_cyan] • %c[default] 咖啡因片\n
+		%c[d_cyan] • %c[default] 双氯芬酸钠\n
+		%c[d_cyan] • %c[default] 缝合线(2)\n
+		%c[d_cyan] • %c[default] 军用刺激性\n
+		%c[d_cyan] • %c[default] 矿泉水\n
+		%c[d_cyan] • %c[default] 安眠药(粉剂)\n
+		%c[d_cyan] • %c[default] 破伤风疫苗\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 医疗设备储存\n</text>
+	</string>
+	
+	<string id="st_medkit_ai3">
+		<text>科学医疗包</text>
+	</string>
+	<string id="st_medkit_ai3_descr">
+		<text>一个专为特异区内人员设计的医疗包. 含有许多药物. 可以对抗化学、精神攻击和辐射的危害.\n \n
+		%c[ui_gray_3]包含:\n
+		%c[d_cyan] • %c[default] 抗辐射药(2)\n
+		%c[d_cyan] • %c[default] IP2抗氧化剂\n
+		%c[d_cyan] • %c[default] 大颗葡萄糖丸\n
+		%c[d_cyan] • %c[default] 胱胺(2)\n
+		%c[d_cyan] • %c[default] 双氯芬酸钠\n
+		%c[d_cyan] • %c[default] 肾上腺素\n
+		%c[d_cyan] • %c[default] 包扎绳\n
+		%c[d_cyan] • %c[default] 茵德林B190\n
+		%c[d_cyan] • %c[default] 矿泉水\n
+		%c[d_cyan] • %c[default] 精神阻断片\n
+		%c[d_cyan] • %c[default] 科学兴奋剂(2)\n
+		%c[d_cyan] • %c[default] 磺胺二甲氧嘧啶\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 医疗设备储存\n
+		</text>
+	</string>
+	
+	<string id="st_analgetic">
+		<text>双氯芬酸钠</text>
+	</string>
+	<string id="st_analgetic_descr">
+		<text>苯乙酸衍生物类的非甾体抗炎药. 吃了后会神经迟钝. 由于有大量的副作用. 例如头痛, 头晕, 疲倦. 在某些情况下还有记忆障碍, 方向障碍, 易怒. 所以大多数国家并不把它列在医药品范畴里. 然而特异区中它非常受欢迎. 因为其副作用可以降低中枢神经系统的敏感度. 所以能让人在诸如枪伤和弹片伤之类的重伤下保持冷静.\n \n
+		%c[ui_gray_3]治疗:\n
+		%c[d_red] • %c[ui_gray_2] 恢复2%生命值\n
+		%c[d_red] • %c[ui_gray_2] 恢复0.05%生命值每秒, 总共50%\n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 药品\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_purple] • %c[ui_gray_2] 增加抗伤能力\n
+		</text>
+	</string>
+	
+	<string id="st_jgut_zhgut">
+		<text>止血带</text>
+	</string>
+	<string id="st_jgut_descr">
+		<text>橡胶止血带. 可以用于止血.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 急救物品\n
+		%c[d_blue] • %c[ui_gray_2] 快速使用(止血带)\n
+		</text>
+	</string>
+	
+	<string id="st_yadylin">
+		<text>亚都林</text>
+	</string>
+	<string id="st_yadylin_descr">
+		<text>一种半基于吗啡的药物. 它可以迅速缓解疼痛. 增加肾上腺素的分泌. 帮助使用者应对高强度作战. 它在潜行者中很受欢迎. 一些强盗也喜欢嗑着玩. 据说还被黑石采用了.\n \n
+		%c[ui_gray_3]治疗:\n
+		%c[d_red] • %c[ui_gray_2] 恢复0.12%生命值每秒, 总共30%\n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 药品\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_blue] • %c[ui_gray_2] 刺激性\n
+		%c[d_red] • %c[ui_gray_2] 会导致短暂性迷离\n
+		</text>
+	</string>
+	
+		<string id="st_medkit">
+		<text>急救包</text>
+	</string>
+	<string id="st_medkit_descr">
+		<text>一个通用医疗包. 可以治疗擦伤, 青肿, 化学烧伤, 常规烧伤和各种类型的中毒.\n \n
+		%c[ui_gray_3]治疗:\n
+		%c[d_red] • %c[ui_gray_2] 恢复1.8%生命值每秒, 总共60%\n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 日用品\n
+		%c[d_red] • %c[ui_gray_2] 使用慢(急救包)\n
+		%c[d_red] • %c[ui_gray_2] 回血时间: 长\n
+		</text>
+	</string>
+	<string id="st_medkit_army">
+		<text>军用急救包</text>
+	</string>
+	<string id="st_medkit_army_descr">
+		<text>一种为战斗而生的专用急救包. 包括以甲萘醌为基础成分的凝血剂,止痛药, 抗生素和免疫催化剂. 以及一套用于清理体内子弹和破片的工具. 这种医疗包主要发放给军方人员. 如深入特异区的阿尔法小组. 同时还受到受到纪律团的欢迎.\n \n
+		%c[ui_gray_3]治疗:\n
+		%c[d_red] • %c[ui_gray_2] 恢复3%生命值每秒, 总共100%\n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 军用品\n
+		%c[d_red] • %c[ui_gray_2] 使用慢(急救包)\n
+		%c[d_red] • %c[ui_gray_2] 回血时间: 长\n
+		</text>
+	</string>
+	<string id="st_medkit_science">
+		<text>科学家急救包</text>
+	</string>
+	<string id="st_medkit_science_descr">
+		<text>专门为特异区内情况设计的急救包. 内装有处理伤口的产品. 可以减少体内的辐射. 不像其他的急救包. 它含有维卡索伦, 巴蒂洛伦和纳帕唑啉.\n \n
+		%c[ui_gray_3]治疗:\n
+		%c[d_red] • %c[ui_gray_2] 恢复3%生命值每秒, 总共100%\n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 值钱\n
+		%c[d_blue] • %c[ui_gray_2] 高品质\n
+		%c[d_red] • %c[ui_gray_2] 使用慢(急救包)\n
+		%c[d_red] • %c[ui_gray_2] 回血时间: 长\n
+		</text>
+	</string>
+	
+	<string id="st_glucose_s">
+		<text>小号葡萄糖注射剂</text>
+	</string>
+	<string id="st_glucose_s_descr">
+		<text>葡萄糖注射剂一般用于严重性糖尿病低血糖症. 但也可以用作兴奋剂. 碳水化合物的瞬间诱导反应可以提供大量的能量. 从而让使用者的机能耐力增强. 携带很方便. 可以在战斗中使用. 所以打一针葡萄糖是加快回血的好方法.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 药品\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_blue] • %c[ui_gray_2] 快速使用(注射器)\n</text>
+	</string>
+	
+	<string id="st_glucose">
+		<text>大号葡萄糖注射剂</text>
+	</string>
+	<string id="st_glucose_descr">
+		<text>葡萄糖注射剂一般用于严重性糖尿病低血糖症, 但也可以用作兴奋剂. 碳水化合物的瞬间诱导反应可以提供大量的能量, 从而让使用者的机能耐力增强. 携带很方便, 可以在战斗中使用. 所以打一针葡萄糖是加快回血的好方法.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 药品\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_blue] • %c[ui_gray_2] 快速使用(注射器)\n</text>
+	</string>
+	
+	<string id="st_stim_impro">
+		<text>简易药剂</text>
+	</string>
+	<string id="st_stim_impro_descr">
+		<text>简易医疗针在新手中很受欢迎. 因为它们容易获得而且便宜, 使用特异区内的常见原料生产. 没有适当的加工设备也没经过消毒. 这就是为何它有很多副作用的原因. 副作用包括头痛, 恶心和饥饿感增加. 注射方式为大腿注射.\n \n
+		%c[ui_gray_3]治疗:\n
+		%c[d_red] • %c[ui_gray_2] 恢复4.2%生命值每秒, 总共50%\n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 药品\n
+		%c[d_blue] • %c[ui_gray_2] 特异区土产\n
+		%c[d_blue] • %c[ui_gray_2] 快速使用(注射器)\n
+		%c[d_blue] • %c[ui_gray_2] 起效慢\n</text>
+	</string>
+	
+	<string id="st_stim_military">
+		<text>军用药剂</text>
+	</string>
+	<string id="st_stim_military_descr">
+		<text>军用医疗针是特异区中军方的战斗部队的常用装备. 在市面上不难买到. 而且价格适中, 深受特异区里老兵们的喜爱. 军用医疗针比它的同类更强力,起效更快. 很适合在紧急情况下使用. 原料从高密度的原生药材中提纯出的. 会对身体造成一定伤害, 副作用包括休克, 重度头晕和饥饿感增加.\n \n
+		%c[ui_gray_3]治疗:\n
+		%c[d_red] • %c[ui_gray_2] 恢复6%生命值每秒, 总共90%\n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 药品\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_blue] • %c[ui_gray_2] 军用品\n
+		%c[d_blue] • %c[ui_gray_2] 快速使用(注射器)\n
+		%c[d_blue] • %c[ui_gray_2] 起效快\n</text>
+	</string>
+	
+	<string id="st_stim_scientic">
+		<text>科学药剂</text>
+	</string>
+	<string id="st_stim_scientic_descr">
+		<text>和SEVA防护服的研发者相同 - 基辅防御研究中心. 这种最先进的医疗针是特异区中最好的一种. 采用最优质的原料和全面的配方.可以使你几乎瞬间恢复元气, 还能消除一定的辐射. 副作用被最小化, 极高的成本让不少人望而却步. 只有最富经验的老练潜行者才会装备.\n \n
+		%c[ui_gray_3]治疗:\n
+		%c[d_red] • %c[ui_gray_2] 恢复6%生命值每秒, 总共90%\n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 药品\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_blue] • %c[ui_gray_2] 高品质\n
+		%c[d_blue] • %c[ui_gray_2] 快速使用(注射器)\n
+		%c[d_blue] • %c[ui_gray_2] 起效极快\n</text>
+	</string>
+	
+	<string id="st_sleepingpills">
+		<text>安眠药</text>
+	</string>
+	<string id="st_sleepingpills_descr">
+		<text>一包小安眠药. 可以立即让你困倦, 也有助于预防因长期神经紧张导致的精神崩溃. 在你想要休息前服用, 然后喝几口水让药物化开生效, 一次服两片.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 药品\n
+		%c[d_blue] • %c[ui_gray_2] 即刻助眠\n
+		</text>
+	</string>
+	
+	<string id="st_cocaine">
+		<text>可卡因</text>
+	</string>
+	<string id="st_cocaine_descr">
+		<text>装有可卡因和吸食工具的小铝盒. 可卡因是一种强大的神经系统兴奋剂. 它的效果可以持续15~30分钟到一个小时, 这取决于给药方式. 可卡因能提高警觉度, 增强安全感,潜力和性欲. 常见副作用有焦虑, 偏执和不安. 过量服用会引起震颤, 抽搐和体温升高. 强盗在发动突袭或偷袭之前会服用这种毒品.\n \n
+		%c[ui_gray_3]治疗:\n
+		%c[d_red] • %c[ui_gray_2] 消耗6%生命值\n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 刺激性\n
+		%c[d_blue] • %c[ui_gray_2] 强力醒酒效果效果\n
+		</text>
+	</string>
+	
+	<string id="st_adrenalin">
+		<text>肾上腺素注射剂</text>
+	</string>
+	<string id="st_adrenalin_descr">
+		<text>肾上腺素是一种激素和神经递质. 在人体内有多种功能.可以即时调节心率, 血管和气管直径. 以及代谢速率. 肾上腺素释放会影响到交感神经系统或生物反应. 这些影响会导致血糖和脂肪酸的升高, 为体内细胞提供充足的能量需求.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 药品\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_blue] • %c[ui_gray_2] 高品质\n
+		%c[d_blue] • %c[ui_gray_2] 快速使用(注射器)\n
+		%c[d_blue] • %c[ui_gray_2] 强力醒酒效果效果\n
+		</text>
+	</string>
+	
+	<string id="st_morphine">
+		<text>吗啡安瓿瓶</text>
+	</string>
+	<string id="st_morphine_descr">
+		<text>一种为军方野战人员设计的用于瞬间止痛的野战装备. 这只安瓿瓶里装有大剂量的吗啡. 在临床医学中, 吗啡被认为是阿片类镇痛药的金标准. 常用于缓解极度疼痛. 与其他阿片类药物, 如羟考酮, 氢吗啡酮和二乙酰吗啡(海洛因)一样, 吗啡会直接作用于中枢神经系统(CNS)以减轻疼痛. 需要注射到手臂或大腿上.\n \n	
+		%c[ui_gray_3]治疗:\n
+		%c[d_red] • %c[ui_gray_2] 恢复10%生命值\n		
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 药品\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_blue] • %c[ui_gray_2] 高品质\n
+		%c[d_blue] • %c[ui_gray_2] 快速使用(注射器)\n
+		%c[d_purple] • %c[ui_gray_2] 大幅提高伤害抗性\n
+		</text>
+	</string>
+	
+	<string id="st_salicidic_acid">
+		<text>安乃近安瓿</text>
+	</string>
+	<string id="st_salicidic_acid_descr">
+		<text>一种为军方野战人员设计的用于瞬间止痛的野战装备. 这只皮下注射器里装有大剂量的吗啡. 在临床医学中, 吗啡被认为是阿片类镇痛药的金标准. 常用于缓解极度疼痛. 与其他阿片类药物,如羟考酮, 氢吗啡酮和二乙酰吗啡(海洛因)一样, 吗啡会直接作用于中枢神经系统(CNS)以减轻疼痛. 需要注射到手臂或大腿上.\n \n
+		%c[ui_gray_3]治疗:\n
+		%c[d_red] • %c[ui_gray_2] 恢复10%生命值\n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 药品\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_blue] • %c[ui_gray_2] 快速使用(注射剂)\n
+		%c[d_purple] • %c[ui_gray_2] 大幅提高伤害抗性\n
+		</text>
+	</string>
+	
+	<string id="st_caffeine">
+		<text>咖啡因片</text>
+	</string>
+	<string id="st_caffeine_descr">
+		<text>咖啡因和苯甲酸钠能使中枢神经在一定时间内处于最佳状态, 在最大程度上减少困倦. 一次服两片.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 刺激性\n
+		%c[d_blue] • %c[ui_gray_2] 强力醒酒效果效果\n
+		</text>
+	</string>
+	
+		<string id="st_antirad_cystamine">
+		<text>胱胺</text>
+	</string>
+	<string id="st_antirad_cystamine_descr">
+		<text>一种用来替代抗辐射药的物资. 用来减弱辐射对身体的影响. 胱胺酸的抗辐射性是建立在结合自由基的能力基础上的. 自由基是辐射时在组织中形成的电离和活性分子. 药物与某些酶相互作用和对电离辐射产生抵抗的能力. 胱胺不能消除已经在体内沉淀的辐射.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 药品\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_red] • %c[ui_gray_2] 轻度眩晕\n
+		</text>
+	</string>
+	
+	<string id="st_antibio_sulfad">
+		<text>磺胺二甲氧嗪</text>
+	</string>
+	<string id="st_antibio_sulfad_descr">
+		<text>磺胺类药物. 对革兰氏阳性菌和革兰氏阴性菌有效. 它可以对付肺炎球状菌, 链球菌, 葡萄球菌, 大肠杆菌, 克雷伯氏杆菌(又称弗里德兰德氏杆菌). 也就是痢疾的病原体; 对蛋白质活性相对较低; 对沙眼病毒(一种可导致失明的传染性眼病)有活性作用; 但不作用于对其他磺胺类药物耐药的细菌株. 不良反应包括头痛, 消化系统疾病, 皮疹, 发烧和白细胞减少. 药效持久.\n \n
+		%c[ui_gray_3]治疗:\n
+		%c[d_red] • %c[ui_gray_2] 消耗1.5%生命值\n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 药品\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		</text>
+	</string>
+	
+	<string id="st_antibio_chlor">
+		<text>金霉素</text>
+	</string>
+	<string id="st_antibio_chlor_descr">
+		<text>一种抗生素. 结晶性粉末, 金黄色, 味苦, 溶于水. 这是(继青霉素之后)第一批非处方抗生素之一. 盐酸氯四环素对革兰氏阳性和革兰氏阴性细菌, 立克次体和一些大型病毒有抑菌作用.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 药品\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_red] • %c[ui_gray_2] 增加困倦感\n
+		</text>
+	</string>
+	
+	<string id="st_antiemetic">
+		<text>依他拉嗪</text>
+	</string>
+	<string id="st_antiemetic_descr">
+		<text>胶囊药剂. 含有4.6毫克和10毫克的奋乃静. 它是一种精神病药物. 具有抗过敏, 镇静, 放松, 止吐, 弱抗胆碱能, 低血压和降温作用. 依他拉嗪的疗效基于D2受试体在皮中层和中边缘系统的阻滞作用. 在特异区内很少使用.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_blue] • %c[ui_gray_2] 消炎\n
+		</text>
+	</string>
+	
+	<string id="st_joint">
+		<text>大麻卷烟</text>
+	</string>
+	<string id="st_joint_descr">
+		<text>因其放松效果而闻名. 常被潜行者用来消遣. 尤其是那些经常去雷达或红森林的人. 与酒精混合使用可产生舒缓效果. 副作用是会增强饥饿感.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 刺激性\n
+		%c[d_blue] • %c[ui_gray_2] 特异区土产\n
+		%c[d_blue] • %c[ui_gray_2] 轻度解酒\n
+		</text>
+	</string>
+	
+	<string id="st_rebirth">
+		<text>"重生"注射剂</text>
+	</string>
+	<string id="st_rebirth_descr">
+		<text>警告! 不要与任何其他药物混合使用. 因为这可能会致死. 小小的注射器内含有大剂量的合成物. 可能会使你失去意识. 当你醒来时(如果你还能醒来的话). 你会感到如重生一般. 注射方法为坐下后注入大腿.\n \n
+		%c[ui_gray_3]治疗:\n
+		%c[d_red] • %c[ui_gray_2] 恢复22.5%生命值每秒, 总共190%\n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 药品\n
+		%c[d_blue] • %c[ui_gray_2] 快速使用(注射剂)\n
+		%c[d_blue] • %c[ui_gray_2] 干净营养来源\n
+		%c[d_red] • %c[ui_gray_2] 导致暂时休克\n
+		</text>
+	</string>
+	
+	<string id="st_tetanus">
+		<text>破伤风疫苗</text>
+	</string>
+	<string id="st_tetanus_descr">
+		<text>破伤风疫苗是由经过灭活处理的破伤风毒素菌组成. 用于预防破伤风. 破伤风又称牙关紧闭症. 是一种由破伤风梭菌引起的疾病. 会通过开放性伤口进入人体, 释放出一种叫做破伤风痉挛素的毒素. 破伤风是一种潜伏性致死疾病. 因为毒素会攻击神经系统, 阻断从脊髓到肌肉的神经信号. 动物和变异怪都有携带可通过咬伤转移的破伤风梭菌. 注射灭活毒素可以增强你的免疫系统. 但可能导致副作用. 此外, 该疫苗还补充了一些额外的抗毒素. 使其可用于预防破伤风以外的疾病.\n \n
+		%c[ui_gray_3]治疗:\n
+		%c[d_red] • %c[ui_gray_2] 恢复0.06%生命值每秒, 总共26.5%\n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 药品\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_blue] • %c[ui_gray_2] 快速使用(注射剂)\n</text>
+	</string>
+	
+	<string id="st_antirad_kalium">
+		<text>碘片</text>
+	</string>
+	<string id="st_antirad_kalium_descr">
+		<text>一种药理学化合物. 作为特异区内的廉价抗辐射药. 会引起很多副作用. 例如胃水肿,疼痛麻木和甲状腺功能紊乱.\n \n
+		%c[ui_gray_3]治疗:\n
+		%c[d_red] • %c[ui_gray_2] 恢复8%血\n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 药品\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_red] • %c[ui_gray_2] 轻度眩晕\n
+		</text>
+	</string>
+	
+	<string id="st_marijuana">
+		<text>大麻</text>
+	</string>
+	<string id="st_marijuana_descr">
+		<text>土产大麻. 抽大麻是一种很受欢迎的消遣方式. 特别是在某些地区驻防的自由团成员间. 在特异区到处都可以买到大麻. 有些人认为这种药有助于保持精神平衡.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 刺激性\n
+		%c[d_red] • %c[ui_gray_2] 起效慢(延时吸入)\n
+		%c[d_blue] • %c[ui_gray_2] 强力醒酒效果\n
+		</text>
+	</string>
+	
+</string_table>

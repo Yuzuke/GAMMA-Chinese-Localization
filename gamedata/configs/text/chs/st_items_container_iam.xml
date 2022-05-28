@@ -1,0 +1,719 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>		
+		
+<!--		
+	Artefacts Containers (IAM)	
+-->		
+		
+<string_table>		
+	<string id="st_af_itcher_af_iam_name">	
+		<text>内容物是投手的临时应用模块</text>
+	</string>  	
+	<string id="st_af_itcher_af_iam_descr">	
+		<text>
+		生成于火系变异点,由两层组成.表面是坚硬,致密的岩石,布满裂痕.内部柔软的黄色发光核心由未知有机物组成.神器不是很活跃,没有明显的属性.但它可以消耗多余的热量并保持恒温.
+		\n不过不建议在佩戴此神器时进入化学或酸性变异点,因为它会加重酸和毒素对使用者血液的不利影响.
+		\n \n神器带有低度辐射.\n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string> 	
+		
+	<string id="st_af_pin_af_iam_name">	
+		<text>内容物是针的临时应用模块</text>
+	</string>  	
+	<string id="st_af_pin_af_iam_descr">	
+		<text>
+		在常期高温的火系变异点中生成的小神器.外观像是维管植物的器官.进一步的研究表明,有机组织大都在内部融合.
+		\n针没什么有用的属性.但会降低使用者的体表温度,还可以降低附近物品的温度.
+		\n它能提供一点点PSY抗性,它可以在PSY波的影响下产生"共振".但不建议在佩戴此神器时进入化学或酸性变异点,因为它会加重酸和毒素对使用者血液的不利影响.
+		\n \n神器带有中度辐射.\n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string>  	
+		
+	<string id="st_af_cristall_af_iam_name">	
+		<text>内容物是水晶的临时应用模块</text>
+	</string>	
+	<string id="st_af_cristall_af_iam_descr">	
+		<text>
+		这种神器生成于超高热变异点.可以消耗多余的热量并保持恒温.
+		\n可以保护使用者免受电流的伤害.但是也会降低人体对物理伤害的抗性.因此人们不得不好好考虑如何利用它.
+		\n特异区外的珠宝商对水晶神器有很高的需求,因为其内部核心没有多少辐射,只有那1cm厚的表层带辐射.并且经过抛光和精制后非常的美丽.
+		\n但是强烈建议在把它送进民间市场前好好考虑一下,虽然神器的辐射不高但长时间接触还是会严重影响人的健康.外部的高密度层很坚硬,也比较重.
+		\n \n神器带有中度辐射.\n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string>	
+		
+	<string id="st_af_fireball_af_iam_name">	
+		<text>内容物是火球的临时应用模块</text>
+	</string>	
+	<string id="st_af_fireball_af_iam_descr">	
+		<text>
+		它在燃烧变异点中产生,是一种红色的球形晶体神器.
+		\n火球的属性很独特,无论周围环境如何,它总是能保持为75华氏度/ 24摄氏度的恒定温度.还可以吸收附近的热量,能在使用者周围构成一个保护罩,防止烧伤.
+		\n负面影响是会增加电导率,所以佩戴火球触电时将会受到更大的伤害,尤其是在风暴期间或者靠近电系变异点时.火球的密度很高,因此比较重.
+		\n \n神器带有重度辐射.\n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string>	
+		
+	<string id="st_af_blood_af_iam_name">	
+		<text>内容物是血石的临时应用模块</text>
+	</string>	
+	<string id="st_af_blood_af_iam_descr">	
+		<text>
+		压缩的动植物尸骨,呈微红色.可通过吸收化学毒物降低使用者血液中的毒素含量,中和掉部分毒素.血石很常见而且性价比很低,会使化学烧伤造成的伤口化脓.在高温下还会着火. 
+		\n另一正面作用是能加速止血,如果戴在身体上可以加快伤口凝血.但是不建议你老是带着它,因为血凝块对人体也是有害的.
+		\n \n神器带有低度辐射.\n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string>	
+		
+	<string id="st_af_mincer_meat_af_iam_name">	
+		<text>内容物是肉块的临时应用模块</text>
+	</string>	
+	<string id="st_af_mincer_meat_af_iam_descr">	
+		<text>
+		这种神器柔软多孔,有着皮肤般的质地,据说可以像海绵一样压缩,作用也和海绵类似,但只有在一定的外界条件下才能激活它的作用.
+		\n第一,我们说到过它像海绵一样,我们知道海绵可以吸收水分,而它可以吸收毒素.
+		\n第二,这种神器也会积聚psy辐射,这就影响到了使用者的精神.
+		\n第三,肉块像是我们的皮肤一样,它也会导电.
+		\n \n神器带有中度辐射.\n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string>	
+		
+	<string id="st_af_bracelet_af_iam_name">	
+		<text>内容物是手环的临时应用模块</text>
+	</string>  	
+	<string id="st_af_bracelet_af_iam_descr">	
+		<text>
+		手环是由一种暴露于高辐射和化学变异点下的苔藓类植物形成的,这说明它是有机物.
+		\n可以逐渐将PH值提高到水的水平（7）,从而可以提供针对大多数酸性物质的保护.
+		\n还可以降低某些psy变异点或者psy怪物造成的影响.
+		\n \n神器带有中度辐射.\n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string>  	
+		
+	<string id="st_af_baloon_af_iam_name">	
+		<text>内容物是气泡的临时应用模块</text>
+	</string>	
+	<string id="st_af_baloon_af_iam_descr">	
+		<text>
+		这种由多种空心有机物形成的化合物会散发出一种气体,能中和体内的化学或有毒颗粒而不会对其造成伤害. 因此提供了很大程度的毒性和化学保护.
+		\n无论周围环境如何,它都可以保持恒温.这使它可以吸收周围的热量,并在使用者周围形成一个保护罩,以防烧伤. 
+		\n但是它还具有许多负面特性.例如它极大的降低了PSY抗性.可不能轻视这个缺点：一些潜行者说带着气泡时PSY辐射的影响非常大,头疼的像要裂开一样,然后他们就不得不尖叫着逃离PSY辐射区. 
+		\n \n神器带有重度辐射. \n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string>	
+		
+	<string id="st_af_electra_sparkler_af_iam_name">	
+		<text>内容物是烟火的临时应用模块</text>
+	</string>	
+	<string id="st_af_electra_sparkler_af_iam_descr">	
+		<text>
+		该神器像是半透明蜘蛛网.性质也和蜘蛛网一样,它粘的就像胶水.
+		\n它通常产生于电系变异点,并且似乎吸收了电系变异点的一些特性：它能够充当电阻以保护使用者免受电的伤害.
+		\n应该注意的是,这种神器会增加酸的腐蚀性,从而导致装备的加速老化,并且酸性物质能够对使用者造成更大的伤害.
+		\n \n神器带有低度辐射.\n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string>	
+		
+	<string id="st_af_sponge_af_iam_name">	
+		<text>内容物是海绵的临时应用模块</text>
+	</string>  	
+	<string id="st_af_sponge_af_iam_descr">	
+		<text>
+		海绵一直是科学家之间争论的焦点.一些人认为这种神器是一种生物,而另一些人则认为它是一种更先进的生命形式,并且具有自我意识.
+		\n尽管围绕它有各种理论,但所有人都有一个共识：它会动.海绵有时会试图“抓住”它接触的物体.将其放入容器中很难,因为它会试着逃脱.
+		\n这种神器可以作为强大的电阻器,可以抵抗致命的点击.另一方面,当它暴露在明火中时会自燃.
+		\n \n神器带有中度辐射.\n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string> 	
+		
+	<string id="st_af_ring_af_iam_name">	
+		<text>内容物是环的临时应用模块</text>
+	</string>  	
+	<string id="st_af_ring_af_iam_descr">	
+		<text>
+		一种非常小的电系神器.难以发现.因由两个环组成而得名.
+		如果把环转起来,它将永不停止地旋转,这违反了热力学第一定律.科学家认为,这种神器可能继承了旋涡变异点的特性.
+		\n外环具有高导电性.它可以吸收外部导入的电流,然后在内环中消耗掉.至于内环是如何消耗电力的目前尚不清楚.
+		\n另一方面,环是易燃的.长时间佩戴还会增加它的可燃性,在高温下就会自燃.
+		\n \n神器带有中度辐射.\n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string> 	
+		
+	<string id="st_af_electra_flash_af_iam_name">	
+		<text>内容物是闪光的临时应用模块</text>
+	</string>	
+	<string id="st_af_electra_flash_af_iam_descr">	
+		<text>
+		这种神器看起来很像月光,类似于等离子球或等离子灯.
+		\n众所周知,闪光以作为强电阻,可以为使用者抵抗住致命的电流.
+		\n也有些人认为戴上它时可以略微增加对psy辐射的抵抗力.
+		\n然而,它也会影响伤口愈合,因此建议谨慎使用,尤其是受伤或出血时.这种神器非常轻,非常便携.
+		\n \n神器带有重度辐射.\n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string>	
+		
+	<string id="st_af_cristall_flower_af_iam_name">	
+		<text>内容物是石花的临时应用模块</text>
+	</string>	
+	<string id="st_af_cristall_flower_af_iam_descr">	
+		<text>
+		这种神器就像融化的芝士,中间点缀着蓝宝石般的晶体.只有黄色的外壳会散发辐射,通过仔细加工后,可以提取出用于石花内部的无辐射蓝色晶体,可以用作珠宝或者工业原料.如果经过适当的清洁和抛光,晶体还会更加漂亮,这些晶体和这颗神器一样坚硬和耐用.完美的品质和外观使石花成为世界各地珠宝商的抢手货. 
+		\n不过石花的用途可不止这些.有科学证据表明,内部的晶体能让人免受psy辐射的影响,而外壳则能略微地增强人体对毒素的抵抗力.
+		\n然而它会使附近的物体升温,在极端情况下还会烧起来.因此我们可以得出肯定的结论:它能吸收热量,并能把热量传递给其他物体.
+		\n由于密度很大,石花的重量已经超过了正常神器的标准,因此它是特异区最重的神器之一.
+		\n \n神器带有低度辐射.\n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string>	
+		
+	<string id="st_af_lobster_eyes_af_iam_name">	
+		<text>内容物是虾眼的临时应用模块</text>
+	</string>  	
+	<string id="st_af_lobster_eyes_af_iam_descr">	
+		<text>
+		顾名思义,这种神器的形状就像两个融合在一起的鸡蛋.外层很厚,密度也很大,这可能就是它颜色很深的原因.
+		\n这种神器比它的近亲-石花,提供了更多的psy保护.它在psy影响下会产生小幅共振以吸收psy能量.
+		\n另一个优点是能够消耗多余热量,无论何时都能保持低温.
+		\n由于外层密度很大,虾眼相当重.
+		\n \n神器带有中度辐射.\n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string> 	
+		
+	<string id="st_af_electra_moonlight_af_iam_name">	
+		<text>内容物是月光的临时应用模块</text>
+	</string>	
+	<string id="st_af_electra_moonlight_af_iam_descr">	
+		<text>
+		这种独特的电系神器能在psy影响下产生共振.潜行者如今会对月光进行一些调整,使其能与psy能量产生抵消共振,从而大大减轻了psy的影响.当暴露在强电流下时这个美丽的球形神器还能通过降低电导率来增加使用者的抗电能力.
+		\n需要注意的是,当月光暴露在明火中时会着火. 
+		\n \n神器带有中度辐射.\n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string>	
+		
+	<string id="st_af_black_spray_af_iam_name">	
+		<text>内容物是黑色喷雾的临时应用模块</text>
+	</string>  	
+	<string id="st_af_black_spray_af_iam_descr">	
+		<text>
+		作为一种少见的神器,人们对它的属性和来源知之甚少. 
+		\n黑色喷雾与其他类蓝宝石神器的形状相似.但与针神器的类似属性表明它是由暴露在psy辐射下的维管植物形成的.
+		\n另一个独特的特性是射入黑色喷雾的光线速度会减慢.这种神秘属性也适用于psy,所以黑色喷雾可以抵抗大范围内的psy辐射影响.
+		\n但是这是有代价的.当暴露在有毒环境中时它将变得极其危险,因为它会增强毒素的影响.因此在探索有毒区域时建议将它装进包里.
+		\n黑色喷雾散发着美丽的蓝色光环,因此受到全世界珠宝商的追捧.
+		\n \n神器带有重度辐射.\n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string>  	
+		
+	<string id="st_af_medusa_af_iam_name">	
+		<text>内容物是海胆的临时应用模块</text>
+	</string>	
+	<string id="st_af_medusa_af_iam_descr">	
+		<text>
+		在特异区中很常见,可以略微增强人体对冲击的抵抗力.
+		\n还可以保护使用者免受燃烧变异点的伤害,但效果很有限.
+		\n重力系变异点似乎影响到了海胆的性质,因此它非常重.它还会增加psy辐射和电的影响.
+		\n \n神器带有低度辐射.\n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string>	
+		
+	<string id="st_af_vyvert_af_iam_name">	
+		<text>内容物是螺旋的临时应用模块</text>
+	</string>	
+	<string id="st_af_vyvert_af_iam_descr">	
+		<text>
+		这种奇形怪状的神器出现在重力系变异点附近.
+		\n尽管它看起来像是有机物,但实际上它更类似于珊瑚.由于其引力特性,它可以抵抗冲击的影响,因为它大大减少了物体间的摩擦.
+		\n它还可以充当海绵,吸收周围的有毒物质,可以减轻进入人体的化学颗粒造成的损害.
+		\n螺旋会产生定向引力场,因此它很重.
+		\n \n神器带有中度辐射.\n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string>	
+		
+	<string id="st_af_empty_af_iam_name">	
+		<text>内容物是空洞的临时应用模块</text>
+	</string>  	
+	<string id="st_af_empty_af_iam_descr">	
+		<text>
+		由两块盘形有机物（通常是脂质,纤维素和木质素）构成,中间没有东西.因为在中心形成的独特引力场使得上下两盘的距离得以稳定.
+		\n由于它的引力场非常稳定,所以无法挤压或拉开上下两盘.它仿佛会对外界的影响力作出反应.
+		\n由于这种性质,移动空洞很难.因为引力场增加了周围空气的密度,使得它难以被移动.
+		\n它的引力场可以抵抗住较强的冲击.
+		\n \n神器带有中度辐射.\n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string> 	
+ 		
+	<string id="st_af_full_empty_af_iam_name">	
+		<text>内容物是装满的空洞的临时应用模块</text>
+	</string>  	
+	<string id="st_af_full_empty_af_iam_descr">	
+		<text>
+		与"空洞"神器类似,这种神器由两块被引力场隔开的盘形有机物构成.然而它们的区别很大:所有进入装满的空洞内部的原子,不管它们的性质如何,都在场的未知效应下相互作用.从而释放光子(发光).
+		\n科学家通常将其称为"银河效应",它使神器具有异常的光轨道.
+		\n它能使周围空气的密度变得很大.因此它会极大地影响使用者的移动速度.
+		\n由于它是空洞的高级版,因此对冲击的防护效果是显著的.一些人声称它能够抵抗住近距离来袭的9mm子弹.
+		\n \n神器带有重度辐射.\n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string> 	
+		
+	<string id="st_af_night_star_af_iam_name">	
+		<text>内容物是夜星的临时应用模块</text>
+	</string>	
+	<string id="st_af_night_star_af_iam_descr">	
+		<text>
+		这种发光的神器可以产生定向低重力场.用途和重力神器差不多,潜行者们用它来增加负重.
+		\n它的内部核心非常漂亮,各地珠宝商对它有一定的需求量,但最好小心行事,因为错误的处理方式会导致神器爆炸,那足以炸平一个小建筑.因此建议使用专业的机器来进行抛光,这样可以将爆炸的可能性降到最低.此外夜星只有外部会发出辐射.
+		\n夜星还会吸收周围的有毒和化学物质,这一点很有价值,不过对于神器猎人来说它吸收的毒素是微不足道的.但它相对便宜,一些穷潜行者也买得起. 
+		\n据说夜星受热时会发出烤肉味.长时间受热可能会导致着火.
+		\n \n神器带有低度辐射.\n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string>	
+		
+	<string id="st_af_gravi_af_iam_name">	
+		<text>内容物是重力的临时应用模块</text>
+	</string>	
+	<string id="st_af_gravi_af_iam_descr">	
+		<text>
+		重力是由长期受到引力作用的金属物质形成的.它具有一个强大的引力场,因此它可以使周围的物品变轻.在很长一段时间里它一直是个谜,杨塔的萨哈罗夫教授首先发现了重力能创造一个反引力小奇点场,这种现象每隔30分钟就会出现一次.
+		\n它的危险之处在于会增加导电性,所以戴着这种神器时电的伤害会很大,尤其是在电系变异点附近.
+		\n另一个缺点是它会增加psy辐射的负面影响.
+		\n \n神器带有中度辐射.\n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string>	
+		
+	<string id="st_af_gold_fish_af_iam_name">	
+		<text>内容物是金鱼的临时应用模块</text>
+	</string>	
+	<string id="st_af_gold_fish_af_iam_descr">	
+		<text>
+		重力神器的高级版.就像重力一样,杨塔的萨哈罗夫教授在一次大规模风暴后发现了它的独特性质.
+		\n通过进一步的细致研究,可以确定当三个重力神器相互作用并被彼此的引力场吸引时,便产生了这种新的神器. 这种现象极为少见,因此它受到高度重视.
+		\n乌克兰特种部队之间有一个传言,在特异区中有俄罗斯联邦的特工,其目的就是搜集金鱼并送到特异区外的专业实验室去.
+		\n该神器会产生一个恒定的反重力场,但仅影响其附近的一小片区域.神秘的是,一些潜行者无故消失后只留下一个金鱼神器.
+		\n但是强大的反重力场也带来了很大的不利影响：影响范围内的移动物体的速度将大大增加,会造成更强大的冲击.
+		\n \n神器带有超高辐射.\n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string>	
+		
+	<string id="st_af_dummy_glassbeads_af_iam_name">	
+		<text>内容物是妈妈的项链的临时应用模块</text>
+	</string>	
+	<string id="st_af_dummy_glassbeads_af_iam_descr">	
+		<text>
+		这种形状像DNA片段的神器是在燃烧变异点中产生的. 它们最独特的地方在于会不断跳动,产生有益于人体的排放物. 这些排放物会加快生物的新陈代谢,加速凝血和伤口愈合.至于原理目前仍然未知.
+		\n妈妈的项链还具有强大的保护作用：能够保护人体免受高热伤害.
+		\n另一方面应注意的是,它会增加电导率,因此戴着它时更容易受到电的伤害,尤其是在暴风雨期间或者电系变异点附近.
+		\n这件小神器很重,所以它的密度一定很大.
+		\n \n神器带有低度辐射.\n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string>	
+		
+	<string id="st_af_eye_af_iam_name">	
+		<text>内容物是眼睛的临时应用模块</text>
+	</string>	
+	<string id="st_af_eye_af_iam_descr">	
+		<text>
+		这种类似于人眼的神器可大大增加人体的新陈代谢,帮助伤口更快地愈合.经验丰富的潜行者说眼睛也能带来好运气.不管这个说法是不是真的,眼睛的好处一定是真的. 
+		\n这种神器可以缓解疼痛,在治疗伤口时非常有用.
+		\n佩戴时还可以稍微抵消某些PSY辐射的影响.
+		\n然而这些有好处是有代价的. 当暴露于化学变异点中时,它将极为危险,因为它会增强毒素的影响效果. 因此强烈建议在探索有毒区域时将它放在背包中,切勿佩戴,除非你想死.
+		\n也有人把它叫做铜眼,因为它的导电性和铜一样. 
+		\n \n神器带有中度辐射.\n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string>	
+		
+	<string id="st_af_fire_af_iam_name">	
+		<text>内容物是火焰的临时应用模块</text>
+	</string>	
+	<string id="st_af_fire_af_iam_descr">	
+		<text>
+		该神器在高热变异点中生成.会产生强大的红外辐射,从而加快新陈代谢过程,更快地治愈伤口.
+		\n它的治愈能力甚至比眼睛神器强,据说甚至有戴着火焰的潜行者在奇美拉的利爪下幸免于难.因此人人都想得到火焰.
+		\n许多潜行者都欠它一条命,大多数老手怪物猎人也会佩戴它,以防万一.但是它不仅具有同类神器的优点,也具有同样的缺点：戴着它进入psy辐射区域无异于自杀.它会吸收psy能量并迅速排放.
+		\n另外建议在把它送进外界的民间市场前好好考虑一下,因为长时间接触火焰的辐射会让人完蛋.
+		\n它也可以用来代替医疗包,因为它可以非常快地治愈伤口.
+		\n \n神器带有重度辐射.\n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string>	
+		
+	<string id="st_af_dummy_battery_af_iam_name">	
+		<text>内容物是电池的临时应用模块</text>
+	</string>	
+	<string id="st_af_dummy_battery_af_iam_descr">	
+		<text>
+		\n尽管长时间佩戴会对人体产生不良影响,但该神器在特异区中很受欢迎,潜行者们很重视它.
+		\n但是应该注意的是,这种神器会影响血液凝结和伤口愈合.另一方面它可以作为强电阻,能够保护使用者免受致命的电击.
+		\n作为电系神器,它具有保护使用者免受致命电击的能力.电池也会吸收热量并将其传递给其他物体.
+		\n这种神器很轻,方便携带. 
+		\n \n神器带有低度辐射.\n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string>	
+		
+	<string id="st_af_dummy_dummy_af_iam_name">	
+		<text>内容物是贝壳的临时应用模块</text>
+	</string>	
+	<string id="st_af_dummy_dummy_af_iam_descr">	
+		<text>
+		外层由两个蓝色的圆盘组成,中间由性质未知的半透明物体连接.
+		\n长期以来许多科学家一直认为这种奇怪的神器没什么用.直到最近才发现它的优点很多.
+		\n当它与身体接触时,会使人感到活力焕发,从而增加耐力恢复.当潜行者进行高强度运动时这种作用尤其明显.缺点是它会减少血液中的血小板含量,使血液难以凝固.
+		\n它提供了一定的PSY辐射保护,可以吸收PSY能量.
+		\n暴露于明火时会燃烧.带着贝壳接近热源时必须小心.
+		\n贝壳非常轻巧便携.
+		\n \n神器带有中度辐射.\n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string>	
+		
+	<string id="st_af_ice_af_iam_name">	
+		<text>内容物是雪花的临时应用模块</text>
+	</string>	
+	<string id="st_af_ice_af_iam_descr">	
+		<text>
+		也被叫做辐射雪花,看起来像是白色的薄膜神器.
+		\n该神器具有增强使用者肌肉的独特能力,可以大大提高耐力恢复能力.由于它带有重度辐射,潜行者们把它戏称为辐射雪花.
+		\n在决定是否要佩戴雪花前,你最好仔细考虑：它的耐力和抗电能力在高辐射面前值吗？ 就算你决定要戴,你也应该想想自己能不能承受住辐射.
+		\n雪花还有以下缺点：它通过吸收并放大周围的能量. 因此在装备它时接近高热变异点,化学变异点,psy辐射区无异于自杀.
+		\n雪花很轻,方便携带.
+		\n \n神器带有重度辐射.\n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string>	
+		
+	<string id="st_af_soul_af_iam_name">	
+		<text>内容物是灵魂的临时应用模块</text>
+	</string>	
+	<string id="st_af_soul_af_iam_descr">	
+		<text>
+		灵魂是一种独特的有机神器,具有与众不同的特性：它会分泌粘液,可加快伤口愈合.灵魂的外观就像它的价格一样高贵,它是珍贵的收藏品.
+		\n将其粘液涂在伤口上可以缓解疼痛并加快愈合过程. 
+		\n它还减少了psy辐射对人体的影响,不过也会降低人的耐力.灵魂密度不高,不是很重.
+		\n \n神器带有低度辐射.\n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string>	
+		
+	<string id="st_af_fuzz_kolobok_af_iam_name">	
+		<text>内容物是薄膜的临时应用模块</text>
+	</string>	
+	<string id="st_af_fuzz_kolobok_af_iam_descr">	
+		<text>
+		薄膜是比较罕见的化学系神器,因其能够在几分钟内治愈伤口并止血的独特能力而受到高度好评.
+		\n出于未知原因,科学家们在潜行者中散布谣言称神器会改变使用者的遗传基因,这一说法未经证实,可能是科学家们想把神器都独占下来用作科学研究.但是这并不意味着神器完全无害.
+		\n这种神器的缺点之一是会与放射粒子作用,因此在佩戴它时时最好避免接触辐射.带刺的它还会减少使用者的耐力.刺会不断刺伤使用者但薄膜又会将伤口快速愈合,所以会带来持续的疼痛和痒感,影响到使用者的耐力.
+		\n由于其高度易燃所以削弱了对热和酸的防护. 
+		\n很轻,不影响携带.
+		\n神器带有中度辐射.\n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string>	
+		
+	<string id="st_af_glass_af_iam_name">	
+		<text>内容物是萤火虫的临时应用模块</text>
+	</string>	
+	<string id="st_af_glass_af_iam_descr">	
+		<text>
+		萤火虫有一种目前科学还无法解释的能力,能大大加快生物组织和器官的再生并稳定代谢.
+		\n这种神器可以在几分钟之内使一个受了重伤的潜行者重新恢复健康.此外萤火虫如果暴露于强辐射下会自燃.
+		\n这种神器有一个很大的缺点,它会在愈合过程减少血液中血小板的含量,从而增加出血率.
+		\n它似乎会极大地降低耐力恢复 一些被萤火虫治愈的人说,伤好后数小时内他们无法走路.
+		\n不幸的是,萤火虫非常少见.
+		\n神器带有重度辐射.\n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string>	
+		
+	<string id="st_af_compass_af_iam_name">	
+		<text>内容物是指南针的临时应用模块</text>
+	</string>	
+	<string id="st_af_compass_af_iam_descr">	
+		<text>
+		很少见的神器,自第一个指南针被发现后已有好几年没出现新的了.
+		\n它可以显示出变异点间的安全通道.据说它可以帮助人们穿越最危险的变异点集群而不受伤.但是很少有人知道如何正确使用它.
+		\n在最近的实验中,指南针没展现出它的独特能力.它可以与移动的物体相互作用并使它们消失,也许是传送走了?
+		\n它还会消耗耐力并增加出血率. 但是最大的缺点是会产生超强的辐射.
+		\n将神器放在身体上可能会在几分钟内杀死你.\n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string>	
+		
+	<string id="st_af_oasis_heart_af_iam_name">	
+		<text>内容物是绿洲之心的临时应用模块</text>
+	</string>	
+	<string id="st_af_oasis_heart_af_iam_descr">	
+		<text>
+		这个神器位于传说中的绿洲的中心地带.核心似乎是晶化植物,目前对绿洲的已知之处是它可以治疗生物.
+		\n它不仅大大加快了伤口的恢复速度和愈合过程,还为人体提供了强大的能量源.它是一个真正的奇迹.
+		\n话虽如此,绿洲对周围环境非常敏感. 因此绿洲与变异点作用时可能会杀死使用者.
+		\n \n神器带有超高辐射.\n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string>	
+		
+	<string id="st_af_death_lamp_af_iam_name">	
+		<text>内容物是死亡之灯的临时应用模块</text>
+	</string>  	
+	<string id="st_af_death_lamp_af_iam_descr">	
+		<text>
+		硕大,鲜红,充满诅咒.
+		\n这就是当地人形容死亡之灯的方式,有人将其称为“撒旦种子”.许多商人相信有关它的谣言,因此拒绝购买死亡之灯.
+		对其来源知之甚少,到目前为止,尚未发现任何有价值的东西.
+		\n死亡之灯是几年前被三位经验丰富的潜行者首次发现的.在将神器卖给杨塔科学家后不久,他们中的两个人就死掉了,尸体的表情扭曲.关于第三个潜行者的命运我们一无所知.
+		\n在此之后,研究它的科学家声称随后的几天内一直在做噩梦.
+		\n除了未知的神秘的效果外,死亡之灯会消耗使用者的活力和意志力,还会引起头晕,在极端情况下会让使用者晕倒. 
+		\n \n神器带有超高辐射. \n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string> 	
+		
+	<string id="st_af_misery_bread_af_iam_name">	
+		<text>内容物是神器化面包的临时应用模块</text>
+	</string>	
+	<string id="st_af_misery_bread_af_iam_descr">	
+		<text>
+		一块面包,属性和它此前的拥有者一样恐怖.\n \n
+		%c[ui_gray_2]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 科技物品\n
+		%c[d_cyan] • %c[ui_gray_2] 贵重物品\n
+		%c[ui_white] • %c[ui_gray_2] 神器储存设备\n
+		%c[ui_white] • %c[ui_gray_2] 最大容量:%c[ui_gray_1] 1\n
+		%c[ui_white] • %c[ui_gray_2] 允许辐射等级:%c[ui_gray_1] 7 mSv\n
+		%c[ui_white] • %c[ui_gray_2] 状态:%c[ui_gray_1] 装满\n
+		</text>
+	</string>	
+		
+</string_table>		

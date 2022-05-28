@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  New Artefacts
+  咩=酵  暨=颅
+-->
+<string_table>
+  <string id="st_af_cocoon_name">
+    <text>石化之茧</text>
+  </string>
+  <string id="st_af_cocoon_descr">
+    <text>在重力异常点中形成的不规则形状的小型神器. 它的名字来源于两个有趣的特点, 一方面, 神器的外部结构类似于毛毛虫吐丝缠成的茧. 但更有趣的部分在于它的作用: 当靠近身体时, 每次佩戴者受到钝器或切割创伤时, 神器都会做出反应, 在佩戴者身上散布一种茧状物质, 以防止进一步的伤害. 然而, 这种保护似乎是有代价的...\n</text>
+  </string>
+  <string id="st_af_cell_name">
+    <text>分解细胞</text>
+  </string>
+  <string id="st_af_cell_descr">
+    <text>重力异常点中形成的神器, 可能是由于强烈的局部磁场造成的. 只要不受到干扰, 它的内部结构就会永远绕着它的轴旋转. 分解细胞着众所周知的超常特性: 任何高速移动的物体,只要接近它的影响范围,都会在运动中被分解掉一部分, 并同时释放出大量的放射性粒子. 尽管如此, 使用它的人却有增无减. 也许人们都天真的认为, 辐射相对于子弹来说并没有那么可怕\n</text>
+  </string>
+  <string id="st_af_fountain_name">
+    <text>魔泉</text>
+  </string>
+  <string id="st_af_fountain_descr">
+    <text>在重力异常点中形成的常见神器. 其奇异的造型让收藏家们趋之若鹜. 不过更有趣的是, 有不少潜行者们声称拥有这件神器有助于他们与商人达成更好的交易. 这一点是否确凿还有待证实, 因为所有商家对此事都拒绝发表看法 \n</text>
+  </string>
+  <string id="st_af_spaika_name">
+    <text>心灵尖刺</text>
+  </string>
+  <string id="st_af_spaika_descr">
+    <text>一种在重力异常点中形成的常见神器, 类似于石化的木头或骨头. 一些胆子大的潜行者们说戴上这件神器可以使他们的心情平静, 帮助他们在紧张的战斗中保持专注, 让他们更容易瞄准敌人的弱点. 但奇怪的是, 如果和他们谈论"没打中目标"之类的话题, 就会使空气瞬间凝固, 一些人会面露不安并马上离开谈话, 跑到角落里独自神神叨叨 \n</text>
+  </string>
+  <string id="st_af_signet_name">
+    <text>铁纹章</text>
+  </string>
+  <string id="st_af_signet_descr">
+    <text>看起来根本就是一块扭曲的金属螺母, 但很多人把它叫做幸运符, 可能是因为潜行者们都喜欢将它带在身旁, 极少有人愿意出售的缘故. 至于是否真的有什么作用... 也许更多只是心理上的吧\n</text>
+  </string>
+  <string id="st_af_repei_name">
+    <text>血棘</text>
+  </string>
+  <string id="st_af_repei_descr">
+    <text>在重力异常点中形成的常见神器. 尽管有着不规则的尖刺外表, 却并不会真的刺伤皮肤. 但最新的研究表明, 血棘会和金属铅产生某种共鸣, 使受到共鸣的铅在遇到铁的时候急速形变, 产生锯齿状裂痕, 这一点不禁让人联想到一些潜行者身上不规则的伤口, 难道子弹里的铅也会和血液中的铁发生反应? \n</text>
+  </string>
+  <string id="st_af_bat_name">
+    <text>蝙蝠</text>
+  </string>
+  <string id="st_af_bat_descr">
+    <text>一件美丽的稀有神器, 由两个不规则的"翅膀"组成, 保护着中间光泽的球形核心. 它没有任何辐射, 却异常的沉重. 戴上它完全没有任何作用, 但不知为何一些人视它如珍宝. 有人曾看到潜行者把它和其他神器故意放在一起, 并露出诡谲的笑容\n</text>
+  </string>
+  <string id="st_af_sun_name">
+    <text>恒星</text>
+  </string>
+  <string id="st_af_sun_descr">
+    <text>收藏家们十分喜爱的稀有神器之一, 它的外壳并不起眼, 但如果敲开一个裂缝, 就会露出一个漩涡状的发光核心, 不断发出温暖的光芒. 之所以被叫做这个名字, 可能是因为它与阳光有着神秘的联系...\n</text>
+  </string>
+  <string id="st_af_ear_name">
+    <text>晶核</text>
+  </string>
+  <string id="st_af_ear_descr">
+    <text>一个形状奇特的神器, 它的水晶核心外形酷似人类的心脏, 自从有传言说这个神器能够使人起死回生, 所有人就开始想尽办法得到它, 有人想把它高价卖到境外, 也有人想用它来帮助自己在特异区生存\n</text>
+  </string>
+  <string id="st_af_chelust_name">
+    <text>神仆之链</text>
+  </string>
+  <string id="st_af_chelust_descr">
+    <text>一个奇特的链状神器, 当不触碰任何物体时会生成强大的力场, 尽管很重, 但却会略微减轻疲劳和伤痛. 传闻只有那些身心都献给黑石之主的奴仆们, 才会真正领略到这件神器的威能</text>
+  </string>
+  <string id="st_af_atom_name">
+    <text>巨型原子</text>
+  </string>
+  <string id="st_af_atom_descr">
+    <text>一个非常稀有和具有巧妙外形的神器, 简直就像教科书上画的原子示意图一般, 虽然没有辐射, 但会产生微弱的热量. 收藏家和科学家们都非常重视这件物品, 不仅仅是因为外形奇特, 它还有着能降低周围辐射的神奇作用\n</text>
+  </string>
+  <string id="st_af_lighthouse_name">
+    <text>灵魂信标</text>
+  </string>
+  <string id="st_af_lighthouse_descr">
+    <text>由超级致密的金属凝结而成, 并有着整个特异区知名的神奇特性. 它似乎能够感知周围的生命活动, 当佩戴者夺取另一个鲜活的生命时, 灵魂信标会将其瞬间传送到殒命者的位置. 现代科学已经无法解释这种现象了, 谁知道呢, 在更高的维度, 所有的生命之间都有着神秘的联结也说不定\n</text>
+  </string>
+  <string id="st_af_fire_loop_name">
+    <text>契约戒指</text>
+  </string>
+  <string id="st_af_fire_loop_descr">
+    <text>这种神器偶尔会在火焰异常点的极端高温中形成. 各种诡异的传言围绕着它, 有人说它会对佩戴者一直纠缠不休, 也有人说从它身上能够获得超人般的力量, 但这些传闻中涉及的人物要么都疯了, 要么大多永远地消失在了特异区深处...\n</text>
+  </string>
+  <string id="st_af_zhelch_name">
+    <text>扭曲伤痕</text>
+  </string>
+  <string id="st_af_zhelch_descr">
+    <text>"健康的精神寓于健康的身体"这句话, 非常适合用来形容它的作用. 在以前, 潜行者们经常利用它增加身体和精神恢复能力的特性, 闯过一个又一个生死关口. 只是用过它的老兵们或多或少都有着奇怪的言行举止, 在篝火前也会经常听到--有人在谈笑间将手雷拽掉拉环丢在脚下--这样的故事, 吓得那些菜鸟潜行者们想把这个诡异的神器马上卖掉\n</text>
+  </string>
+  <string id="st_af_sandstone_name">
+    <text>赋能石</text>
+  </string>
+  <string id="st_af_sandstone_descr">
+    <text>有时会在高温异常点形成的一种神器. 似乎有着能将异常点的能量与周围的金属进行调谐的特性. \n</text>
+  </string>
+  <string id="st_af_kislushka_name">
+    <text>凝血咩母</text>
+  </string>
+  <string id="st_af_kislushka_descr">
+    <text>一种类似于某种羊皮纸材质的半透明空心球形神器. 外表覆有一层薄膜, 触感舒适. 当和血液接触时就会激活, 并将附近生物体内的能量转化为一种激素, 帮助流血的伤口更快地愈合. 这种能力在医学领域获得了很高的知名度, 因此价格不菲\n</text>
+  </string>
+  <string id="st_af_black_angel_name">
+    <text>暗黑天使</text>
+  </string>
+  <string id="st_af_black_angel_descr">
+    <text>一种由不明的奇异矿物组成的神器, 被扭曲成不祥的半对称结构. 不散发任何热量或辐射, 有着能凝结附近水汽的特性. 它似乎有着某种防御天性, 会侦测到生物投射过来的恶意, 并发出能量回敬对方\n</text>
+  </string>
+  <string id="st_af_grapes_name">
+    <text>葡萄</text>
+  </string>
+  <string id="st_af_grapes_descr">
+    <text>一种出现在重力异常点的神器, 像是多个绿色的琥珀扭曲在一起, 非常沉重. 就在最近科学家们证实, 它会发出一种电磁波, 其独特波长能影响生物的消化系统, 刺激新陈代谢, 加速伤口愈合\n</text>
+  </string>
+  <string id="st_af_skull_miser_name">
+    <text>吝啬暨骨</text>
+  </string>
+  <string id="st_af_skull_miser_descr">
+    <text>一件轻而易碎的神器, 由不知名的奇怪植物纤维纠缠而成. 潜行者们为其冠以"印钞机"的美称. 据说它会对头骨碎裂的声音产生反应, 然后在附近撒下很多钱币. 但对科学家用头骨标本做的实验却毫无反应, 至于这些货币又是从何而来也不为人知. 有不少人对滥用该物品可能引发的通货膨胀表达了担忧\n</text>
+  </string>
+  <string id="st_af_star_phantom_name">
+    <text>幻影之星</text>
+  </string>
+  <string id="st_af_star_phantom_descr">
+    <text>该神器似乎是一种悬浮在条纹透明外壳内的等离子物质. 会产生微弱的引力场, 使其难以保持静止. 幻影之星似乎会影响附近生物的心灵, 使它们无法将注意力放在自己身上, 距离神器很近的人却恰好相反, 它会使佩戴者完全丧失与外界沟通的意愿\n</text>
+  </string>
+  <string id="st_af_medallion_name">
+    <text>友情勋章</text>
+  </string>
+  <string id="st_af_medallion_descr">
+    <text>由四个三角形和嵌入其中的一个小球组成的奇怪神器, 潜行者口中关于它的传闻都和一些厄运有关, 奇怪的是这件神器并不会为佩戴者带来厄运, 但这些佩戴者几乎无一例外的没有什么朋友\n</text>
+  </string>
+  <string id="st_af_peas_name">
+    <text>新月</text>
+  </string>
+  <string id="st_af_peas_descr">
+    <text>形状像是一弯新月, 会不断发出暗淡的光, 夜晚凝视着它, 就像是狼人凝视满月一样, 会有一种强烈的兴奋感. 但在白天这种感觉反而有点类似催眠\n</text>
+  </string>
+  <string id="st_af_generator_name">
+    <text>电能核心</text>
+  </string>
+  <string id="st_af_generator_descr">
+    <text>这个奇怪的圆盘没有什么放射性, 但却会产生一个小型强磁场. 只需轻轻推动, 它就会像指尖陀螺那样一直旋转下去, 也许是和地球磁场产生了某种共鸣, 带着它快速走动时也会转个不停, 并同时为周围的设备充电, 但由于功率实在很小, 所以并没有被大量使用\n</text>
+  </string>
+  <string id="st_af_ball_name">
+    <text>动能球体</text>
+  </string>
+  <string id="st_af_ball_descr">
+    <text>尽管看起来就是一个斑驳的石球, 但却很轻, 并有着难以置信的弹性. 常见于电系异常点. 神器周围似乎有着强大的力场, 能够感知迅速的运动, 并增幅输出的动能. 奇怪的是, 用变异怪兽当作目标效果拔群, 把人类作为目标对象却毫无反应\n</text>
+  </string>
+  <string id="st_af_fonar_name">
+    <text>磁性探灯</text>
+  </string>
+  <string id="st_af_fonar_descr">
+    <text>这种轻盈的玻璃神器会发出微弱的紫外光. 围绕着它的某种能量会对视觉细胞产生奇怪的影响, 能使肉眼看到特定波长的电磁波. 潜行者们喜欢用它在夜间搜索带有发信装置的藏物点\n</text>
+  </string>
+  <string id="st_af_tapeworm_name">
+    <text>电能绦虫</text>
+  </string>
+  <string id="st_af_tapeworm_descr">
+    <text>这件神器的主要成分是二氧化硅, 在重力异常的作用下扭曲成令人厌恶的形状和颜色. 当它受到突如其来的震动, 就会对震动的来源放出强力而短暂的电流, 甚至能使体型巨大的怪物昏迷数秒. 但如果震动的来源是佩戴者自己的话好像会非常危险...\n</text>
+  </string>
+  <string id="st_af_moh_name">
+    <text>肉食苔藓</text>
+  </string>
+  <string id="st_af_moh_descr">
+    <text>在电系异常点中生成的神器, 有着尖锐的锯齿状外观, 但实际非常柔软且触感舒适. 能够增强佩戴者的消化能力, 增强新陈代谢. 最近, 生态学家对多个长期佩戴者的研究表明, 它能彻底改造消化系统的功能, 使其吸收食物中的变异因子, 并暂时获得难以置信的身体能力\n</text>
+  </string>
+  <string id="st_af_serofim_name">
+    <text>炽天使</text>
+  </string>
+  <string id="st_af_serofim_descr">
+    <text>虽然经常被认为只是一个漂亮的装饰品, 但最近关于炽天使的某些传说不断被人提起. 据说一群资深的潜行者远征归来后, 在篝火旁分享了这个传奇般的故事: 他们在途中被狙击手伏击, 一颗子弹不幸的射穿了队长的头骨, 导致他当场身亡. 正当其余的人盲目地进行火力压制时, 却见他的尸体上爆发出夺目的光芒, 紧接着他就站了起来, 毫发无伤, 头盔上还有一个明显的大洞. 回到营地后他们发现队长身上装有炽天使的容器已经空空如也, 仅残留一些缥缈的光尘. 听说过这个故事的人从那时起就开始珍视这件神器, 不过到目前为止, 还没有人敢于验证这个效果的真实性\n</text>
+  </string>
+  <string id="st_af_elektron_name">
+    <text>巨型电子</text>
+  </string>
+  <string id="st_af_elektron_descr">
+    <text>电系异常点中会生成这种奇怪的神器, 尽管看上去不大, 却有着相当的重量. 好像会对附近的强大电流产生共鸣, 把电流导入附近的电池中. 但不知为何, 有时候传导的对象也会是人体肌肉组织, 会将肌肉的爆发力瞬间强化. 这个过程对于大部分潜行者来说是难以忍受的, 但也会遇到一小撮奇怪的潜行者, 似乎会有意的去触发这项特性, 并乐在其中\n</text>
+  </string>
+  <string id="st_af_kogot_name">
+    <text>血腥利爪</text>
+  </string>
+  <string id="st_af_kogot_descr">
+    <text>一件漂亮的类似玻璃材质的神器, 偶尔会在电系异常点附近被发现. 会稳定地发射一种奇特的电磁波, 实验表明, 这种独特的波长会激发人类大脑中的原始本能, 使其渴望撕裂肉体和品尝鲜血. 关于它还有一个不为人知的故事: 曾经有两个潜行者结伴而行, 在穿越沼泽时发现了这件神器, 却紧接着被一群盲犬围攻. 其中一人为了活命, 对着同伴的腿开了一枪后仓皇逃走, 回到营地后, 出乎所有人的意料, 被抛下的另一人并没有就此丧命, 反而在众目睽睽之下出现在那个背叛者的身后, 至于后来的事态发展, 只能说背叛同伴的人, 再没有比这更悲惨的下场了\n</text>
+  </string>
+  <string id="st_af_dragon_eye_name">
+    <text>巨龙之眼</text>
+  </string>
+  <string id="st_af_dragon_eye_descr">
+    <text>这件稀世珍品是在极端的高温环境下被发现的, 有着爬行动物眼部的特征, 伴随着同样可惧的神奇特性: 它周围强大而不稳定的能量, 有时会附着于快速射出的子弹上, 当子弹夺取某人的生命时, 这股能量就会在这个倒霉的人的身体内引发强烈的爆炸, 释放出的能量会将周遭的一切生灵尽数摧毁. 有人说这股能量来自特异区亡灵的恨意, 这种不分敌我的狂暴能量使得大部分潜行者对其心存敬畏, 几乎没人愿意将它一直带在身边\n</text>
+  </string>
+  <string id="st_af_vaselisk_name">
+    <text>巨蜥</text>
+  </string>
+  <string id="st_af_vaselisk_descr">
+    <text>虽然时不时能观察到它的一些有趣特性, 但基本都没什么太大实际作用. 一些科学家们还在持续地研究, 期待从中得到什么惊人的发现\n \n
+    %c[ui_gray_2]属性:\n
+    %c[ui_cyan] %c[ui_gray_2] 惰性神器\n
+    %c[d_cyan] %c[ui_gray_2] 交易品</text>
+  </string>
+  <string id="st_af_geliy_name">
+    <text>Helium</text>
+  </string>
+  <string id="st_af_geliy_descr">
+    <text>A bright (literally) representative of the family of electrostatic artefacts. It gives off a gaseous substance that has a beneficial effect on the body. Due to its high efficiency, it is in large demand.\n \n
+    %c[ui_gray_2]PROPERTIES:\n
+    %c[ui_cyan] %c[ui_gray_2] inert artefact\n
+    %c[d_cyan] %c[ui_gray_2] valuable</text>
+  </string>
+  <string id="st_af_gimlet_name">
+    <text>Gimlet </text>
+  </string>
+  <string id="st_af_gimlet_descr">
+    <text>The bowl-shaped petals of this artefact can release a powerful stimulant vapor which can alter the balance of human hormones. Of little use to stalkers, it is very much sought after for medical research. \n \n
+    %c[ui_gray_2]PROPERTIES:\n
+    %c[ui_cyan] %c[ui_gray_2] inert artefact\n
+    %c[d_cyan] %c[ui_gray_2] valuable</text>
+  </string>
+  <string id="st_arty_save">
+    <text>Eye of the Noosphere</text>
+  </string>
+  <string id="st_arty_save_descr">
+    <text>One of the most mysterious artefacts in the Zone, the Eye of the Noosphere can transport its wielder back in time, even to escape death. A tight squeeze of the artefact activates its ability, creating a restoration point to go back to on activation or death. Frequent use can cause the artefact to change colour, but if discharged too frequently it may cease to function altogether. The Eye gradually restores its power over time, supposedly being fuelled by the anomalous energy of the Zone.\n \n
+    %c[ui_gray_2]PROPERTIES:\n
+    %c[0,81,63,22] %c[0,255,215,0] superartefact</text>
+  </string>
+</string_table>

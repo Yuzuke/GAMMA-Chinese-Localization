@@ -1,0 +1,2278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+	Weapons
+-->
+
+<string_table>
+	
+	<string id="st_trg_sako">
+		<text>萨科TRG-42</text>
+	</string>
+	
+	<string id="st_dynamo_hand_name">
+		<text>便携式发电机</text>
+	</string>
+	<string id="st_dynamo_hand_descr">
+		<text>%c[ui_gray_1]这是一台自制便携式手摇发电机. 使用老式电器中拆出的单相异步电动机制作.交流输出先经过降压变压器, 然后到达使用苏联D242二极管制作的全桥整流器, 最后输出到电池. 辅助绕组并联了一个电容作来激磁, 摇把通过齿轮组变速到1300~1500rpm的额定转速带动转子来发电. 该设备配备了由美国韦斯顿电气仪表公司制造的指针电流表. 这些设计导致它的重量有些惊人, 但在特异区仍然很受欢迎.一些技师可以对它进行改造.\n \n
+		%c[ui_gray_2]特性:\n%c[d_cyan] • %c[ui_gray_2] 技术设备\n%c[d_cyan] • %c[ui_gray_2] 额定功率 40 W%c[d_red] • %c[ui_gray_2] 有使用寿命\n%c[d_cyan]</text>
+	</string>
+	
+	<string id="st_grenade_launcher">
+		<text>GP-25"篝火晚会"下挂榴弹发射器</text>
+	</string>
+	<string id="st_grenade_launcher_descr">
+		<text>由苏联制造的单发, 前装, 带膛线的下挂式榴弹发射器. 可以大大提高步兵小队的火力. GP-25有3道保险, 第1道是位于击发机左侧的保险机; 第2道是借助一个连杆锁住击针, 只有当发射器正确装在步枪上时才能使连杆解脱击针; 第3道则是发射管内有一个定位销与发射机连杆联动, 只有当榴弹装填到位, 定位销压下去时才能使连杆解脱击针.\n \n
+		%c[d_purple] • %c[ui_gray_2] 初速: %c[ui_gray_1]约76米每秒\n
+		%c[d_purple] • %c[ui_gray_2] 有效射程: %c[ui_gray_1]约300米\n
+		%c[d_purple] • %c[ui_gray_2] 装填速度: %c[ui_gray_1]缓慢\n
+		%c[d_purple] • %c[ui_gray_2] 适用弹药: %c[ui_gray_1]VOG-25 40毫米榴弹</text>
+	</string>
+	
+	<string id="st_grenade_launcher_m203">
+		<text>M203下挂榴弹发射器</text>
+	</string>
+	<string id="st_grenade_launcher_m203_descr">
+		<text>经过改进的M203榴弹发射器, 长度减少了三英寸, 可通过皮卡汀导轨固定在武器上.因为这种模块化设计, 该榴弹发射器在世界上广受欢迎, 而且可与目前的大多数步枪适配. 虽然采用了更先进的设计, 但它的性能与苏联的GP-25榴弹发射器相差无几.\n \n
+		%c[d_purple] • %c[ui_gray_2] 初速: %c[ui_gray_1]约76米每秒\n
+		%c[d_purple] • %c[ui_gray_2] 有效射程: %c[ui_gray_1]约300米\n
+		%c[d_purple] • %c[ui_gray_2] 装填速度: %c[ui_gray_1]缓慢\n
+		%c[d_purple] • %c[ui_gray_2] 适用弹药: %c[ui_gray_1]40x46榴弹</text>
+	</string>
+	
+	<string id="st_wpn_9a91">
+		<text>9A-91</text>
+	</string>
+	<string id="st_wpn_9a91_descr">
+		<text>9A-91步枪采用导气式操作自动原理, 长行程导气活塞位于枪管上方, 其回转式枪机有4个闭锁突耳. 拉机柄位于枪机框右侧, 可以向上折叠. 枪机由钢冲压件制成, 护木和手枪式握把均由聚合物制成. 框架式枪托可以翻过枪机向上折叠. 机匣上安装有L形翻转式表尺, 射程装定在100米和200米. 由于亚音速弹的弹道比较弯曲, 因此相当于冲锋枪用途的9A-91的实际战斗距离通常在100米左右. 不过由于9×39毫米步枪弹比9毫米手枪弹有更强的杀伤力和侵彻能力, 因此9A-91比其他型号的冲锋枪或短突击步枪的威力都要大.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] EKP-8-02眼镜蛇, 1P29, PSO, PSO-1M2-1瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] 9A-91/VSK-94消音器</text>
+	</string>
+	
+	<string id="st_wpn_abakan">
+		<text>AN-94</text>
+	</string>
+	
+	<string id="st_wpn_abakan_camo">
+		<text>AN-94(迷彩版)</text>
+	</string>
+	<string id="st_wpn_abakan_descr">
+		<text>与AK-74相比, 尼科诺夫设计的AN-94的高速2发点射模式据说是最大的进步. 由于后坐力和枪口跳动的影响, AK-74在进行短点射时, 续发弹的弹着点往往距离首发弹的弹着点距离较远. 而AN-94的两发点射是以非常高的射速(1800 RPM)发射且不受后坐力导致的枪身位移所影响, 传说中一个训练有素的射手能用这种射击模式在100米靶上打出一个洞来.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] GP-25下挂榴弹发射器 (经过改造后)\n
+		%c[d_purple] • %c[ui_gray_2] EKP-8-02眼镜蛇, 1P29, PSO-1瞄准镜</text>
+	</string>
+	<string id="st_wpn_abakan_worn">
+		<text>AN-94 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_ace21">
+		<text>加利尔ACE-21</text>
+	</string>
+	<string id="st_wpn_ace21_descr">
+		<text>加利尔ACE枪族是由以色列IWI公司设计制造的. ACE的基型是加利尔突击步枪, 而后者又以AK步枪为基础. 加利尔ACE很重视人体工程学, 有较好的人机功效和模块化灵活设计. 加利尔ACE枪族可发射世界上最常见的三种弹药(5.56x45NATO, 7.62x39 M43和7.62x51 NATO), 不同的口径使用的枪管不同. 这把ACE发射5.56x45NATO弹药, 设计十分紧凑. 在特异区里这把步枪不太常见.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45消音器\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech瞄准镜</text>
+	</string>
+	
+	<string id="st_wpn_aek971">
+		<text>AEK-971突击步枪</text>
+	</string>
+	<string id="st_wpn_aek971_camo">
+		<text>AEK-971 (迷彩版)</text>
+	</string>
+	<string id="st_wpn_aek971_camo_descr">
+		<text>AEK-971最主要的特点是采用了称之为平衡动作(balanced action)原理的回转式枪机闭锁系统. 所谓的"平衡动作"是指AEK-971的导气装置有两个导气室和两个导气活塞, 第一个导气活塞如通常的一样导气杆与机框相连并一起运动, 而第二个导气活塞则与配重装置连接且运动方向与第一个导气活塞相反, 这种同步反方向移动的配重装置抵消了射击时的后座冲量, 使步枪在全自动射击时非常平稳. 这种步枪曾为俄罗斯科夫罗夫机械厂小批量试制过. 这把独特的AEK-971刷上了浅米色和红斑涂装, 象征着纪律团. 一些零件被修磨或被更可靠的零件替换了. 零件变得更加紧凑, 从而提高了初速和精度.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] EKP-8-02眼镜蛇, 1P29, PSO-1瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] TGP-A 消音器\n
+		%c[d_purple] • %c[ui_gray_2] GP-25下挂榴弹发射器</text>
+	</string>
+	<string id="st_wpn_aek971_descr">
+		<text>AEK-971最主要的特点是采用了称之为平衡动作(balanced action)原理的回转式枪机闭锁系统. 所谓的"平衡动作"是指AEK-971的导气装置有两个导气室和两个导气活塞, 第一个导气活塞如通常的一样导气杆与机框相连并一起运动, 而第二个导气活塞则与配重装置连接且运动方向与第一个导气活塞相反, 这种同步反方向移动的配重装置抵消了射击时的后座冲量, 使步枪在全自动射击时非常平稳.这种步枪曾为俄罗斯科夫罗夫机械厂小批量试制过.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] EKP-8-02眼镜蛇, 1P29, PSO-1瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] TGP-A 消音器\n
+		%c[d_purple] • %c[ui_gray_2] GP-25下挂榴弹发射器</text>
+	</string>
+	<string id="st_wpn_aek971_worn">
+		<text>AEK-971 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_aek973">
+		<text>AEK-973</text>
+	</string>
+	<string id="st_wpn_aek973_descr">
+		<text>AEK-973是换用7.62x39毫米口径的AEK-971. 而AEK-971最主要的特点是采用了称之为平衡动作(balanced action)原理的回转式枪机闭锁系统. 所谓的"平衡动作"是指AEK-971的导气装置有两个导气室和两个导气活塞, 第一个导气活塞如通常的一样导气杆与机框相连并一起运动, 而第二个导气活塞则与配重装置连接且运动方向与第一个导气活塞相反, 这种同步反方向移动的配重装置抵消了射击时的后座冲量, 使步枪在全自动射击时非常平稳. 这种步枪曾为俄罗斯科夫罗夫机械厂小批量试制过.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] EKP-8-02眼镜蛇, 1P29, PSO-1瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] TGP-A 消音器\n
+		%c[d_purple] • %c[ui_gray_2] GP-25下挂榴弹发射器</text>
+	</string>
+	
+	<string id="st_wpn_ak">
+		<text>AK-47</text>
+	</string>
+	<string id="st_wpn_ak_descr">
+		<text>AK-47突击步枪, 于1947年定型, 1949年装备部队, 使用7.62×39毫米M43步枪弹.前苏军摩托化步兵部队、空军和海军的警卫、勤务人员使用木制或塑料制固定枪托型, 伞兵、坦克乘员和特种分队使用折叠金属枪托型. AK-47的动作可靠, 勤务性好; 坚实耐用, 故障率低, 无论是在高温还是低温条件下, 射击性能都很好, 尤其在风沙泥水中使用, 性能可靠; 结构简单, 分解容易. 但是连发射击时枪口上跳严重, 影响精度, 而且重量比较大. AK-47是装备范围相当广泛的步枪, 同时是20世纪下半叶以来产量最大的步枪. 除前苏军外, 世界上还有30多个国家的军队装备AK-47, 有的还进行了仿制或特许生产. 迄今为止, 它在几十个国家中衍生出了许多不同的版本. 几乎所有的武装冲突中都能看到它的身影. 苏军所装备的AK-47于50年代末由其改进型AKM所取代. 米哈伊尔·卡拉什尼科夫结合美国M1加兰德步枪和德国StG44突击步枪的优点设计了这款步枪.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] PBS-1 消音器\n%c[d_red] • %c[d_red] 没有燕尾槽所以不能安装瞄具\n
+		%c[d_purple] • %c[ui_gray_2] GP-25下挂榴弹发射器 (经过改造后)</text>
+	</string>
+	
+	<string id="st_wpn_ak101">
+		<text>AK-101</text>
+	</string>
+	<string id="st_wpn_ak101_camo">
+		<text>AK-101 (迷彩版)</text>
+	</string>
+	<string id="st_wpn_ak101_descr">
+		<text>AK-101实际上就是发射北约5.56mm标准口径弹的AK-74M, 外观上是完全一样的, 只是机匣上用英文写着口径"CAL 5.56 NATO". 其弹匣的外形和AK-74M的弹匣也是一样, 只是弹匣体上方标有"5.56 NATO"作为识别标记. AK-101的目标客户是那些想消耗大量5.56x45子弹库存又想要AK的优良性能的家伙. 它采用了现代复合材料(包括工程塑料)以减轻重量并提高精确度. AK-10x系列都在AK-101的基础上改进.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] GP-25下挂榴弹发射器 (经过改造后)\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech, EKP-8-02眼镜蛇, 1P29, PSO-1瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] ATG 消音器</text>
+	</string>
+	
+	<string id="st_wpn_ak102">
+		<text>AK-102</text>
+	</string>
+	<string id="st_wpn_ak102_descr">
+		<text>AK-102是AK-101的卡宾枪改型. 它使用更短的枪管, 是介于全尺寸步枪和AKS74U短突击步枪之间. 步枪的枪机由钢板冲压制成; 弹匣由强化玻璃纤维制成, 枪托由中空塑料制成. 使它更加轻巧耐用, 而且可以将小工具包放进枪托里.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech, EKP-8-02眼镜蛇, PSO-1瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] ATG 消音器</text>
+	</string>
+	
+	<string id="st_wpn_ak103">
+		<text>AK-103</text>
+	</string>
+	<string id="st_wpn_ak103_camo">
+		<text>AK-103 (迷彩版)</text>
+	</string>
+	<string id="st_wpn_ak103_descr">
+		<text>AK-103突击步枪是AK-74M的衍生产物, 口径为7.62x39毫米, 与AKM和AK-47相同. 具有燕尾槽的AK-103可以安装多种瞄准器, 包括: 激光, 夜视和光学瞄准器, 以及消音器和GP-25下挂榴弹发射器. 它尽可能使用聚合物部件代替木材和金属以减轻重量.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] GP-25下挂榴弹发射器 (经过改造后)\n
+		%c[d_purple] • %c[ui_gray_2] EKP-8-02眼镜蛇, 1P29, PSO-1瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] ATG 消音器</text>
+	</string>
+	
+	<string id="st_wpn_ak104">
+		<text>AK-104</text>
+	</string>
+	<string id="st_wpn_ak104_descr">
+		<text>AK-104是AK-103步枪的卡宾枪改型, 口径为7.62×39毫米.它使用更短的枪管, 介于全尺寸步枪和AKS74U短突击步枪之间. 步枪的枪机由冲压钢制成; 弹匣由强化玻璃纤维制成, 枪托由中空塑料制成. 使它更加轻巧耐用, 而且可以将小工具包放进枪托里.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] EKP-8-02眼镜蛇, 1P29, PSO-1瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] ATG 消音器</text>
+	</string>
+	
+	<string id="st_wpn_ak105">
+		<text>AK-105</text>
+	</string>
+	<string id="st_wpn_ak105_descr">
+		<text>AK-105是AK-74M步枪卡宾枪改型, 口径为5, 45×39毫米.AK-105是俄罗斯陆军使用的AKS-74U短突击步枪的替代品. 是近距离交战的的理想选择, 但它不适合远程战斗. 机匣由钢板冲压制成; 弹匣由强化玻璃纤维制成, 枪托由中空塑料制成. 使它更加轻巧耐用, 而且可以将小工具包放进枪托里.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] EKP 1S-03眼镜蛇, 1P29, PSO-1瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] TGP-A 消音器</text>
+	</string>
+	
+	<string id="st_wpn_ak12">
+		<text>AK-12</text>
+	</string>
+	<string id="st_wpn_ak12_descr">
+		<text>AK-12是伊孜玛什公司在2012年推出的最新AK改进型, 虽然名称上仍然是"卡拉什尼科夫自动步枪", 但实际上AK-12的设计工作与卡拉什尼科夫已经没什么关系. 和AK-100系列一样, AK-12也是多种不同口径和型号构成的系列产品, 而且和欧美步枪设计的潮流一样(如FN SCAR), AK-12也将分为轻型和重型两大系列, 前者的口径将有5.45×39mm、5.56×45mm、7.62×39毫米, 而后者将有7.62×51和7.62×54R口径. 而除了标准的步枪外, 还会有卡宾型、冲锋枪型(可能是手枪弹口径)、狙击型和轻机枪型. 在自动原型上, AK-12仍然是传统上的"卡拉什尼科夫式"长行程导气活塞和回转式闭锁枪机, 但重新设计了枪机, 这使得全自动模式的精度有所提高.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] GP-25下挂榴弹发射器\n
+		%c[d_purple] • %c[ui_gray_2] TGP-A 消音器</text>
+	</string>
+	
+	<string id="st_wpn_ak74">
+		<text>AK-74N</text>
+	</string>
+	<string id="st_wpn_ak74_alt">
+		<text>AK-74N (实验型)</text>
+	</string>
+	<string id="st_wpn_ak74_custom">
+		<text>AK-74N (自组装版)</text>
+	</string>
+	<string id="st_wpn_ak74_descr">
+		<text>AK-74于70年代初装备苏联军队, 逐步取代AKM, 首次露面是在1974年11月7日的莫斯科红场阅兵式上. 由于M16的成功, 1960-1970年代许多国家都纷纷研制小口径步枪, 小口径枪弹的综合性能高于7.62mm中间威力型弹, 于是苏联也开始研制新型的小口径步枪弹及武器. 1960年代, 苏联两位子弹设计家维克多·萨巴尼科夫与利迪亚·布拉夫斯科亚研制了一种5.6×42毫米口径的步枪弹, 最后发展成现在被称为M74型的5.45×39毫米步枪弹. 同时卡拉什尼科夫也在1960年代开始对AKM进行改进, 缩小口径以发射小口径步枪弹, 研制了一些发射5.45mm弹的试验枪. 苏军最终决定采用卡拉什尼科夫研制的突击步枪, 因为这种新枪的零件中有53%延用了AKM的零件, 从生产和换装训练的角度说这是最经济实惠的. 新枪定型后的型号为AK-74, 同时由于5.45×39毫米步枪弹也是在1974年开始大批量生产, 因此也被称为1974型步枪弹.整个AK-74枪族包括有突击步枪、短突击步枪和轻机枪. AK-74的使用已经接近30年, 经受了阿富汗和车臣战争的实战考验. AK-74于东欧一些国家也装备有此枪并作了某些改进, 阿联酋、约旦和叙利亚军队中也装备有AK-74.AK-74配用的高效枪口制退器可以有效降低后坐力和枪口上挑, 但却有另一个缺点, 枪口焰比较明显, 尤其在黑暗中射击时. 机匣左侧装有光学瞄准镜座.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] GP-25下挂榴弹发射器 (经过改造后)\n
+		%c[d_purple] • %c[ui_gray_2] EKP-8-02眼镜蛇, 1P29, PSO-1瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] TGP-A 消音器</text>
+	</string>
+	<string id="st_wpn_ak74_eot">
+		<text>AK-74N特殊型</text>
+	</string>
+	<string id="st_wpn_ak74_eot_descr">
+		<text>AK-74于70年代初装备苏联军队, 逐步取代AKM, 首次露面是在1974年11月7日的莫斯科红场阅兵式上. 由于M16的成功, 1960-1970年代许多国家都纷纷研制小口径步枪, 小口径枪弹的综合性能高于7.62mm中间威力型弹, 于是苏联也开始研制新型的小口径步枪弹及武器. 1960年代, 苏联两位子弹设计家维克多·萨巴尼科夫与利迪亚·布拉夫斯科亚研制了一种5.6×42毫米口径的步枪弹, 最后发展成现在被称为M74型的5.45×39毫米步枪弹. 同时卡拉什尼科夫也在1960年代开始对AKM进行改进, 缩小口径以发射小口径步枪弹, 研制了一些发射5.45mm弹的试验枪. 苏军最终决定采用卡拉什尼科夫研制的突击步枪, 因为这种新枪的零件中有53%延用了AKM的零件, 从生产和换装训练的角度说这是最经济实惠的. 新枪定型后的型号为AK-74, 同时由于5.45×39毫米步枪弹也是在1974年开始大批量生产, 因此也被称为1974型步枪弹. 整个AK-74枪族包括有突击步枪、短突击步枪和轻机枪. AK-74的使用已经接近30年, 经受了阿富汗和车臣战争的实战考验. AK-74于东欧一些国家也装备有此枪并作了某些改进, 阿联酋、约旦和叙利亚军队中也装备有AK-74. AK-74配用的高效枪口制退器可以有效降低后坐力和枪口上挑, 但却有另一个缺点, 枪口焰比较明显, 尤其在黑暗中射击时. 机匣左侧装有光学瞄准镜座.\n该特殊型号集成了EOTech瞄准具和45发长弹匣. \n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] GP-25下挂榴弹发射器 (经过改造后)\n
+		%c[d_purple] • %c[ui_gray_2] EOTech sight (已集成)\n
+		%c[d_purple] • %c[ui_gray_2] TGP-A 消音器</text>
+	</string>
+	<string id="st_wpn_ak74_modern">
+		<text>AK-74N (现代版)</text>
+	</string>
+	<string id="st_wpn_ak74_old">
+		<text>AK-74(旧的)</text>
+	</string>
+	<string id="st_wpn_ak74_old_descr">
+		<text>AK-74于70年代初装备苏联军队, 逐步取代AKM, 首次露面是在1974年11月7日的莫斯科红场阅兵式上. 由于M16的成功, 1960-1970年代许多国家都纷纷研制小口径步枪, 小口径枪弹的综合性能高于7.62mm中间威力型弹, 于是苏联也开始研制新型的小口径步枪弹及武器. 1960年代, 苏联两位子弹设计家维克多·萨巴尼科夫与利迪亚·布拉夫斯科亚研制了一种5.6×42毫米口径的步枪弹, 最后发展成现在被称为M74型的5.45×39毫米步枪弹. 同时卡拉什尼科夫也在1960年代开始对AKM进行改进, 缩小口径以发射小口径步枪弹, 研制了一些发射5.45mm弹的试验枪. 苏军最终决定采用卡拉什尼科夫研制的突击步枪, 因为这种新枪的零件中有53%延用了AKM的零件, 从生产和换装训练的角度说这是最经济实惠的. 新枪定型后的型号为AK-74, 同时由于5.45×39毫米步枪弹也是在1974年开始大批量生产, 因此也被称为1974型步枪弹. 整个AK-74枪族包括有突击步枪、短突击步枪和轻机枪. AK-74的使用已经接近30年, 经受了阿富汗和车臣战争的实战考验. AK-74于东欧一些国家也装备有此枪并作了某些改进, 阿联酋、约旦和叙利亚军队中也装备有AK-74. AK-74配用的高效枪口制退器可以有效降低后坐力和枪口上挑, 但却有另一个缺点, 枪口焰比较明显, 尤其在黑暗中射击时. \n这个特殊版本是很早以前造出来的.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] GP-25下挂榴弹发射器 (经过改造后)\n%c[d_red] • %c[d_red] 没有燕尾槽所以不能安装瞄具\n
+		%c[d_purple] • %c[ui_gray_2] TGP-A 消音器</text>
+	</string>
+	<string id="st_wpn_ak74_rusty">
+		<text>AK-74N (已生锈)</text>
+	</string>
+	<string id="st_wpn_ak74_rusty_descr">
+		<text>AK-74于70年代初装备苏联军队, 逐步取代AKM, 首次露面是在1974年11月7日的莫斯科红场阅兵式上. 由于M16的成功, 1960-1970年代许多国家都纷纷研制小口径步枪, 小口径枪弹的综合性能高于7.62mm中间威力型弹, 于是苏联也开始研制新型的小口径步枪弹及武器.1960年代, 苏联两位子弹设计家维克多·萨巴尼科夫与利迪亚·布拉夫斯科亚研制了一种5.6×42毫米口径的步枪弹, 最后发展成现在被称为M74型的5.45×39毫米步枪弹. 同时卡拉什尼科夫也在1960年代开始对AKM进行改进, 缩小口径以发射小口径步枪弹, 研制了一些发射5.45mm弹的试验枪. 苏军最终决定采用卡拉什尼科夫研制的突击步枪, 因为这种新枪的零件中有53%延用了AKM的零件, 从生产和换装训练的角度说这是最经济实惠的. 新枪定型后的型号为AK-74, 同时由于5.45×39毫米步枪弹也是在1974年开始大批量生产, 因此也被称为1974型步枪弹. 整个AK-74枪族包括有突击步枪、短突击步枪和轻机枪. AK-74的使用已经接近30年, 经受了阿富汗和车臣战争的实战考验. AK-74于东欧一些国家也装备有此枪并作了某些改进, 阿联酋、约旦和叙利亚军队中也装备有AK-74. AK-74配用的高效枪口制退器可以有效降低后坐力和枪口上挑, 但却有另一个缺点, 枪口焰比较明显, 尤其在黑暗中射击时. 机匣左侧装有光学瞄准镜座. \n这把枪锈的厉害, 肯定很不可靠.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] GP-25下挂榴弹发射器 (经过改造后)\n
+		%c[d_purple] • %c[ui_gray_2] EKP-8-02眼镜蛇, 1P29, PSO-1瞄准镜\n
+		%c[d_purple] • %c[d_red] 无法安装消音器</text>
+	</string>
+	<string id="st_wpn_ak74_worn">
+		<text>AK-74N (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_ak74m">
+		<text>AK-74M</text>
+	</string>
+	<string id="st_wpn_ak74m_alt">
+		<text>AK-74M(实验型)</text>
+	</string>
+	<string id="st_wpn_ak74m_camo">
+		<text>AK-74M(迷彩版)</text>
+	</string>
+	<string id="st_wpn_ak74m_custom">
+		<text>AK-74M(自组装版)</text>
+	</string>
+	<string id="st_wpn_ak74m_descr">
+		<text>前苏联在1987年的时候开始研制一种AK-74的改进型, 不过这种新枪在苏联解体后的1991年才正式推出, 并命名为AK-74M, 由伊热夫斯克机械制造厂生产. 与AKM中的M一样, AK-74M中的M是"现代化"的意思, 全称就是"卡拉什尼科夫1974年式自动步枪改进型". 除了一些小改进外, 该枪还采用了一种新式合成材料, 该材料由特殊黑色复合材料制成. AK-74M还装了更强的制退器和防尘罩, 并且每支AK-74M均配有用于安装光学瞄具的侧导轨. AK-74M被选为俄军的新制式步枪.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] GP-25下挂榴弹发射器 (经过改造后)\n
+		%c[d_purple] • %c[ui_gray_2] EKP-8-02眼镜蛇, 1P29, PSO-1瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] TGP-A 消音器</text>
+	</string>
+	<string id="st_wpn_ak74m_duty">
+		<text>AK-74M (纪律团迷彩)</text>
+	</string>
+	<string id="st_wpn_ak74m_pk-a">
+		<text>AK-74M PK-A瞄准器版</text>
+	</string>
+	<string id="st_wpn_ak74m_pk-a_descr">
+		<text>前苏联在1987年的时候开始研制一种AK-74的改进型, 不过这种新枪在苏联解体后的1991年才正式推出, 并命名为AK-74M, 由伊热夫斯克机械制造厂生产. 与AKM中的M一样, AK-74M中的M是"现代化"的意思, 全称就是"卡拉什尼科夫1974年式自动步枪改进型". 除了一些小改进外, 该枪还采用了一种新式合成材料, 该材料由特殊黑色复合材料制成. AK-74M还装了更强的制退器和防尘罩, 并且每支AK-74M均配有用于安装光学瞄具的侧导轨. AK-74M被选为俄军的新制式步枪. 这把枪的MTK-83光学安装座上装了个PK-A瞄准具.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] GP-25下挂榴弹发射器 (经过改造后)\n
+		%c[d_purple] • %c[ui_gray_2] PK-A瞄准器 (已集成)\n
+		%c[d_purple] • %c[ui_gray_2] TGP-A 消音器</text>
+	</string>
+	<string id="st_wpn_ak74m_worn">
+		<text>AK-74M (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_ak74u">
+		<text>AKS-74UN短突击步枪</text>
+	</string>
+	<string id="st_wpn_ak74u_camo">
+		<text>AKS-74UN(迷彩版)</text>
+	</string>
+	<string id="st_wpn_ak74u_custom">
+		<text>AKS-74UN(自组装版)</text>
+	</string>
+	<string id="st_wpn_ak74u_descr">
+		<text>AKS-74U是在1979年被苏军采用的, 是在AKS-74的基础上改进的短枪管型突击步枪.AKS-74U的典型特征就是枪管短, 因此枪口初速也降低了, 射程也相应缩短, 是一种近距离自卫武器, 另外还设计了一种20发容量的弹匣, 方便车辆驾驶员或飞行员的携带. AKS-74U主要装备特种小分队、空降部队、工兵、通信兵、炮兵、车辆驾驶员、飞机的机组成员、导弹部队及执法机构的特种部队, 装备数量相当多, 而在它之前的AKMSU短突击步枪却只是有限地装备极少数的特种部队. 机匣左侧装有光学瞄准镜座.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] EKP-8-02眼镜蛇, 1P29, PSO-1瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] PBS-4 消音器</text>
+	</string>
+	<string id="st_wpn_ak74u_old">
+		<text>AKS-74U(旧的)</text>
+	</string>
+	<string id="st_wpn_ak74u_old_descr">
+		<text>AKS-74U是在1979年被苏军采用的, 是在AKS-74的基础上改进的短枪管型突击步枪.AKS-74U的典型特征就是枪管短, 因此枪口初速也降低了, 射程也相应缩短, 是一种近距离自卫武器, 另外还设计了一种20发容量的弹匣, 方便车辆驾驶员或飞行员的携带. AKS-74U主要装备特种小分队、空降部队、工兵、通信兵、炮兵、车辆驾驶员、飞机的机组成员、导弹部队及执法机构的特种部队, 装备数量相当多, 而在它之前的AKMSU短突击步枪却只是有限地装备极少数的特种部队. 机匣左侧装有光学瞄准镜座. \n但这把枪看起来生锈了.\n \n
+		%c[ui_gray_2]适用于:\n%c[d_red] • %c[d_red] 没有燕尾槽所以不能安装瞄具\n
+		%c[d_purple] • %c[ui_gray_2] PBS-4 消音器</text>
+	</string>
+	<string id="st_wpn_ak74u_rusty">
+		<text>AKS-74UN (已生锈)</text>
+	</string>
+	<string id="st_wpn_ak74u_rusty_descr">
+		<text>AKS-74U是在1979年被苏军采用的, 是在AKS-74的基础上改进的短枪管型突击步枪. AKS-74U的典型特征就是枪管短, 因此枪口初速也降低了, 射程也相应缩短, 是一种近距离自卫武器, 另外还设计了一种20发容量的弹匣, 方便车辆驾驶员或飞行员的携带. AKS-74U主要装备特种小分队、空降部队、工兵、通信兵、炮兵、车辆驾驶员、飞机的机组成员、导弹部队及执法机构的特种部队, 装备数量相当多, 而在它之前的AKMSU短突击步枪却只是有限地装备极少数的特种部队. 机匣左侧装有光学瞄准镜座. \n这把枪看起来锈得厉害.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] EKP-8-02眼镜蛇, 1P29, PSO-1瞄准镜\n%c[d_red] • %c[d_red] 无法安装消音器</text>
+	</string>
+	<string id="st_wpn_ak74u_snag">
+		<text>AKS-74UNB (勾手版)</text>
+	</string>
+	<string id="st_wpn_ak74u_snag_descr">
+		<text>AKS-74U是在1979年被苏军采用的, 是在AKS-74的基础上改进的短枪管型突击步枪. AKS-74U的典型特征就是枪管短, 因此枪口初速也降低了, 射程也相应缩短, 是一种近距离自卫武器, 另外还设计了一种20发容量的弹匣, 方便车辆驾驶员或飞行员的携带. AKS-74U主要装备特种小分队、空降部队、工兵、通信兵、炮兵、车辆驾驶员、飞机的机组成员、导弹部队及执法机构的特种部队, 装备数量相当多, 而在它之前的AKMSU短突击步枪却只是有限地装备极少数的特种部队. 机匣左侧装有光学瞄准镜座. \n这把特殊版本装了一个RPK的45发弹匣, 并集成了EKP-1S-03瞄准具和消音器.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] EKP-1S-03眼镜蛇 sight (已集成)\n
+		%c[d_purple] • %c[ui_gray_2] PBS-4 消音器 (已集成)</text>
+	</string>
+	<string id="st_wpn_ak74u_worn">
+		<text>AKS-74UN (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_akm">
+		<text>AKMN</text>
+	</string>
+	<string id="st_wpn_akm_descr">
+		<text>卡拉什尼科夫在1953年至1954年期间改进AK-47, 最终定型为AKM, 并在1959年开始被苏军装备. AKM最主要特点是用冲铆机匣代替AK-47第3型的铣削机匣, 使生产成本大大降低, 而且新的冲压机匣也比AK-47第1型的冲压机匣和第3型的铣削机匣都要轻, 改进后的AKM只有3.15kg重. AKM全称为Avtomat Kalashnikov Modernizirovannyi, 即卡拉什尼科夫自动步枪改进型, 这种武器已经成为至今为止生产量最高、影响最大的AK枪. 机匣左侧装有光学瞄准镜座.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] PBS-1 消音器\n
+		%c[d_purple] • %c[ui_gray_2] EKP-8-02眼镜蛇, 1P29, PSO-1瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] GP-25下挂榴弹发射器 (经过改造后)</text>
+	</string>
+	<string id="st_wpn_akm_worn">
+		<text>AKMN (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_akms">
+		<text>AKMSN</text>
+	</string>
+	<string id="st_wpn_akms_alt">
+		<text>AKMSN (实验型)</text>
+	</string>
+	<string id="st_wpn_akms_descr">
+		<text>AKM的一种变型, 用折叠金属枪托替代了木托. AKMS的金属枪托与以前的AK-47改进型的折叠枪托有所不同, 因为它可以锁住枪托的两个支撑臂. 机匣左侧装有光学瞄准镜座.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] PBS-1 消音器\n
+		%c[d_purple] • %c[ui_gray_2] EKP-8-02眼镜蛇, 1P29, PSO-1瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] GP-25下挂榴弹发射器 (经过改造后)</text>
+	</string>
+	<string id="st_wpn_akms_worn">
+		<text>AKMSN (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_aks">
+		<text>AKS-47突击步枪</text>
+	</string>
+	<string id="st_wpn_aks_descr">
+		<text>AK-47的一种变型, 用金属制的折叠枪托代替了木托. 它被装甲车组和伞兵采用.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] PBS-1 消音器\n%c[d_red] • %c[d_red] 没有燕尾槽所以不能安装瞄具\n
+		%c[d_purple] • %c[ui_gray_2] GP-25下挂榴弹发射器 (经过改造后)</text>
+	</string>
+	<string id="st_wpn_aks74">
+		<text>AKS-74N突击步枪</text>
+	</string>
+	<string id="st_wpn_aks74_descr">
+		<text>AK-74比AKM更精确可靠, 前苏联的许多加盟国仍在使用它. AKS-74是AK-74的变型, 其枪托为三角形, 可以折叠到左侧. 枪机左侧装有光学瞄准镜座.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] GP-25下挂榴弹发射器 (经过改造后)\n
+		%c[d_purple] • %c[ui_gray_2] EKP-8-02眼镜蛇, 1P29, PSO-1瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] TGP-A 消音器</text>
+	</string>
+	<string id="st_wpn_aks74_new">
+		<text>AKS-74N (崭新)</text>
+	</string>
+	<string id="st_wpn_aks74_rusty">
+		<text>AKS-74N (已生锈)</text>
+	</string>
+	<string id="st_wpn_aks74_rusty_descr">
+		<text>AK-74比AKM更精确可靠, 前苏联的许多加盟国仍在使用它. AKS-74是AK-74的变型, 其枪托为三角形, 可以折叠到左侧. 枪机左侧装有光学瞄准镜座. \n但这一把已经生锈了, 很不可靠\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] GP-25下挂榴弹发射器 (经过改造后)\n
+		%c[d_purple] • %c[ui_gray_2] EKP-8-02眼镜蛇, 1P29, PSO-1瞄准镜\n%c[d_red] • %c[d_red] 无法安装消音器</text>
+	</string>
+	<string id="st_wpn_aks74_worn">
+		<text>AKS-74N (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_aps">
+		<text>斯捷奇金APS</text>
+	</string>
+	<string id="st_wpn_aps_descr">
+		<text>苏联在1920年代后期就尝试开始为军事人员的个人防卫需要而研制一种能全自动射击的大型军用手枪, 但没有取得成功. 在第二次世界大战结束后, 这个设想被重新提出. 1948年, 在位于图拉的中央设计研究局工作的工程师伊戈尔·斯捷奇金(Igor Stechkin)正式接受了设计一种新型手枪的任务, 设计要求是要采用新的9×18mm马卡洛夫手枪弹, 进行半自动和全自动射击, 在全自动射击时要求容易操控, 并要求可驳接枪托, 也即所谓的"冲锋手枪". 这种冲锋手枪很快就设计出来, 并在1951年与马卡洛夫PM手枪一起被苏联军队采用, 这种新枪被命名为斯捷奇金自动手枪, 缩写为APS, 也常常被称为斯捷奇金手枪. APS手枪在1953-54年间大量装备给苏联军队的炮兵、坦克/装甲输送车的车组、步兵中的RPG-7射手、前线军官等军事人员, 成为世界上唯一被列为制式军用装备的冲锋手枪. 斯捷奇金APS手枪采用简单的自由后坐式工作原理, 结构类似马卡洛夫手枪, 全钢结构, 外露式击锤, 双动板机, 复进簧套在枪管外, 双排双进弹匣. 在钢制套筒的左后方有一个三位置的保险/快慢机柄, 为了在全自动射击时容易控制, APS手枪在握把内安装了一个插棒式弹簧缓冲器, 并把套筒后坐行程延长到相当于马卡洛夫手枪弹长度的2倍, 使理论射速降低到一分钟600发. 固定片形准星安装在套筒前方, 缺口式照门的射程可调, 表尺刻度有25m、50m、100m和200m.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] APS 消音器</text>
+	</string>
+	<string id="st_wpn_aps_worn">
+		<text>APS (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_aug">
+		<text>AUGA1</text>
+	</string>
+	<string id="st_wpn_aug_custom">
+		<text>AUGA1 (自组装版)</text>
+	</string>
+	<string id="st_wpn_aug_descr">
+		<text>斯太尔AUG(德语Armee Universal Gewehr的缩写, 即陆军通用步枪)是一种导气式、弹匣供弹、射击方式可选的无托结构步枪, 是在1960年代后期开始研制的, 其目的是为了替换当时奥地利军方采用的Stg.58(FN FAL)战斗步枪. AUG-A1是AUG的标准型, 枪管长508毫米, 瞄准镜兼提把与机匣是一体的. 是奥地利陆军和其他装备AUG的国家大多数士兵所配备的步枪, 奥地利陆军的编号为STG77.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45消音器\n
+		%c[d_purple] • %c[ui_gray_2] 1.5倍瞄准镜 (已集成).</text>
+	</string>
+	<string id="st_wpn_aug_freedom">
+		<text>AUGA1 (自由团涂装)</text>
+	</string>
+	<string id="st_wpn_aug_merc">
+		<text>AUGA1 (佣兵涂装)</text>
+	</string>
+	<string id="st_wpn_aug_modern">
+		<text>AUGA1 (现代版)</text>
+	</string>
+	<string id="st_wpn_aug_modern_descr">
+		<text>斯太尔AUGA1(军绿版).斯太尔AUG(德语Armee Universal Gewehr的缩写, 即陆军通用步枪)是一种导气式、弹匣供弹、射击方式可选的无托结构步枪, 是在1960年代后期开始研制的, 其目的是为了替换当时奥地利军方采用的Stg.58(FN FAL)战斗步枪. 这个改型使用7.62×51毫米NATO子弹.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45消音器\n
+		%c[d_purple] • %c[ui_gray_2] 1.5倍瞄准镜(已集成).</text>
+	</string>
+	<string id="st_wpn_aug_worn">
+		<text>斯太尔AUGA1 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_beretta">
+		<text>伯莱塔92F</text>
+	</string>
+	<string id="st_wpn_beretta_alt">
+		<text>伯莱塔92F (实验型)</text>
+	</string>
+	<string id="st_wpn_beretta_camo">
+		<text>伯莱塔92F (迷彩版)</text>
+	</string>
+	<string id="st_wpn_beretta_descr">
+		<text>伯莱塔92是枪管短后坐式工作原理的半自动手枪, 通过上下摆动的闭锁卡铁进行开锁和闭锁. 底把用铝合金制成, 握把片由木材制成, 套筒则用钢制成. 准星是固定的刀形, 照门是缺口式, 分解旋柄在挂机柄前方, 单/双动板机. 传奇的伯莱塔92F型在美军内部的编号为M9. 而在民间则因为巨大的弹容和优秀的伤害而广受欢迎. \n You're not a S.E.A.L. 'till you have eaten Italian steel... \n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] 9x19兼容消音器 (经过改造后)</text>
+	</string>
+	<string id="st_wpn_beretta_modern">
+		<text>伯莱塔92F (现代版)</text>
+	</string>
+	<string id="st_wpn_beretta_rusty">
+		<text>伯莱塔92F (已生锈)</text>
+	</string>
+	<string id="st_wpn_beretta_rusty_descr">
+		<text>伯莱塔92是枪管短后坐式工作原理的半自动手枪, 通过上下摆动的闭锁卡铁进行开锁和闭锁. 底把用铝合金制成, 握把片由木材制成, 套筒则用钢制成. 准星是固定的刀形, 照门是缺口式, 分解旋柄在挂机柄前方, 单/双动板机. 传奇的伯莱塔92F型在美军内部的编号为M9. 而在民间则因为巨大的弹容和优秀的伤害而广受欢迎. \n这把枪已经生锈, 可靠性很低. \n You're a S.E.A.L. now.\n \n
+		%c[ui_gray_2]适用于:\n%c[d_red] • %c[d_red] 无法安装消音器</text>
+	</string>
+	<string id="st_wpn_beretta_worn">
+		<text>伯莱塔92F (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_bizon">
+		<text>PP-19野牛冲锋枪</text>
+	</string>
+	<string id="st_wpn_bizon_descr">
+		<text>1993年, 伊孜玛什公司的两位工程师 - AK设计者的儿子维克多·卡拉斯尼柯夫(Victor Kalashnikov)和SVD设计者的儿子阿列克赛·德拉贡诺夫(Alexey Dragunov), 共同设计出一种新颖的冲锋枪, 名为BIZON(意为"野牛"). BIZON的枪机十分有AK特色, 事实上BIZON有60%的部件可与AK-100系列突击步枪互换, BIZON的发射机构完全取自AK-74M, 不过BIZON采用的是自由枪机式工作原理. BIZON冲锋枪最大的特色是采用64发容量的合成材料制筒形螺旋式弹匣, 虽然美国卡利科公司早已生产出类似原理的螺旋式弹筒, 但卡利科的弹匣位于枪的后上方, 使重心偏后, 而且瞄准基线高. 而BIZON的弹匣位于前下方, 本身可充当护木, 不但重心位置适当, 而且在持续射击后还可以起到隔热作用. 另外, 卡利科的螺旋弹匣可靠性和耐用性都不高, 因此没有部队或执法机构采用, 而BIZON的弹匣可靠性很高, 故障率比卡利科低, 已经被俄罗斯的许多特种部队所采用.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] EKP-8-02眼镜蛇, 1P29, PSO-1瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] PBS-1 消音器</text>
+	</string>
+	
+	<string id="st_wpn_bm16">
+		<text>TOZ-66霰弹枪(锯短版)</text>
+	</string>
+	<string id="st_wpn_bm16_alt">
+		<text>TOZ-66 (实验型锯短版)</text>
+	</string>
+	<string id="st_wpn_bm16_descr">
+		<text>锯短双管散弹枪.轻且紧凑, 在近距离上很优秀. 由于急需便宜且致命的短程武器, 许多菜鸟潜行者只好锯短TOZ-66的枪托和枪管. 这使它更加灵活, 但牺牲了射程和准确性.</text>
+	</string>
+	<string id="st_wpn_bm16_full">
+		<text>TOZ-66散弹枪</text>
+	</string>
+	<string id="st_wpn_bm16_full_alt">
+		<text>TOZ-66 (实验型)</text>
+	</string>
+	<string id="st_wpn_bm16_full_descr">
+		<text>TOZ -66这种破枪每个潜行者都买得起, 这是一把兼具可靠性和致命性的近距离武器.但是, 由于体积太大不太灵活, 许多潜行者宁愿用血汗钱来买把手枪.</text>
+	</string>
+	<string id="st_wpn_bm16_full_rusty">
+		<text>TOZ-66 (已生锈)</text>
+	</string>
+	<string id="st_wpn_bm16_full_worn">
+		<text>TOZ-66 (损坏)</text>
+	</string>
+	<string id="st_wpn_bm16_rusty">
+		<text>TOZ-66 (已生锈锯短版)</text>
+	</string>
+	<string id="st_wpn_bm16_worn">
+		<text>TOZ-66 (损坏锯短版)</text>
+	</string>
+	
+	<string id="st_wpn_colt_kimber">
+		<text>金伯沙漠勇士</text>
+	</string>
+	<string id="st_wpn_colt_kimber_descr">
+		<text>沙漠勇士是金伯公司生产的政府型M1911手枪, 是为美国特种作战司令部下属的精锐海军特遣队专门定制的, 具有一些传统M1911所不具备的特点.</text>
+	</string>
+	
+	<string id="st_wpn_colt1911">
+		<text>柯尔特M1911</text>
+	</string>
+	<string id="st_wpn_colt1911_alt">
+		<text>柯尔特M1911 (实验型)</text>
+	</string>
+	<string id="st_wpn_colt1911_camo">
+		<text>柯尔特M1911 (迷彩版)</text>
+	</string>
+	<string id="st_wpn_colt1911_camo_descr">
+		<text>1911手枪历经了多次战火的洗礼, 在美军中一直服役到1985年, 当美国武装部队打算以9毫米口径的M9代替M1911时, 让许多1911的爱好者都感到惊愕. 当国会的命令颁布时, 海军陆战队非常反对转用伯莱塔手枪. 海陆空三军内有些特种部队仍然选择使用1911式手枪作为的辅助武器, 一些SWAT也偏爱使用1911式手枪. 直到现在, 许多美国人仍然相信1911手枪是最好的战斗手枪. 而且许多国家和不同的厂商都仿制或改装了大量1911式手枪.这把M1911的颜色比较特别, 深米色涂层上带有红色斑点.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] .45 ACP 消音器 (经过改造后)</text>
+	</string>
+	<string id="st_wpn_colt1911_custom">
+		<text>柯尔特M1911 (自组装版)</text>
+	</string>
+	<string id="st_wpn_colt1911_descr">
+		<text>1911手枪历经了多次战火的洗礼, 在美军中一直服役到1985年, 当美国武装部队打算以9毫米口径的M9代替M1911时, 让许多1911的爱好者都感到惊愕. 当国会的命令颁布时, 海军陆战队非常反对转用伯莱塔手枪. 海陆空三军内有些特种部队仍然选择使用1911式手枪作为的辅助武器, 一些SWAT也偏爱使用1911式手枪. 直到现在, 许多美国人仍然相信1911手枪是最好的战斗手枪.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] .45 ACP 消音器 (经过改造后)</text>
+	</string>
+	<string id="st_wpn_colt1911_duty">
+		<text>柯尔特M1911 (纪律团迷彩)</text>
+	</string>
+	<string id="st_wpn_colt1911_duty_descr">
+		<text>1911手枪历经了多次战火的洗礼, 在美军中一直服役到1985年, 当美国武装部队打算以9毫米口径的M9代替M1911时, 让许多1911的爱好者都感到惊愕. 当国会的命令颁布时, 海军陆战队非常反对转用伯莱塔手枪. 海陆空三军内有些特种部队仍然选择使用1911式手枪作为的辅助武器, 一些SWAT也偏爱使用1911式手枪. 直到现在, 许多美国人仍然相信1911手枪是最好的战斗手枪. 这把变型枪比普通版更加致命.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] .45 ACP 消音器 (经过改造后)</text>
+	</string>
+	<string id="st_wpn_colt1911_merc">
+		<text>柯尔特 M1911 (佣兵涂装)</text>
+	</string>
+	<string id="st_wpn_colt1911_merc_descr">
+		<text>1911手枪历经了多次战火的洗礼, 在美军中一直服役到1985年, 当美国武装部队打算以9毫米口径的M9代替M1911时, 让许多1911的爱好者都感到惊愕. 当国会的命令颁布时, 海军陆战队非常反对转用伯莱塔手枪. 海陆空三军内有些特种部队仍然选择使用1911式手枪作为的辅助武器, 一些SWAT也偏爱使用1911式手枪. 直到现在, 许多美国人仍然相信1911手枪是最好的战斗手枪. 这把变型枪比普通版更加可靠准确.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] .45 ACP 消音器 (经过改造后)</text>
+	</string>
+	<string id="st_wpn_colt1911_modern">
+		<text>柯尔特M1911 (现代版)</text>
+	</string>
+	<string id="st_wpn_colt1911_new">
+		<text>柯尔特M1911 (崭新)</text>
+	</string>
+	<string id="st_wpn_colt1911_rusty">
+		<text>柯尔特M1911 (已生锈)</text>
+	</string>
+	<string id="st_wpn_colt1911_rusty_descr">
+		<text>1911手枪历经了多次战火的洗礼, 在美军中一直服役到1985年, 当美国武装部队打算以9毫米口径的M9代替M1911时, 让许多1911的爱好者都感到惊愕. 当国会的命令颁布时, 海军陆战队非常反对转用伯莱塔手枪.海陆空三军内有些特种部队仍然选择使用1911式手枪作为的辅助武器, 一些SWAT也偏爱使用1911式手枪. 直到现在, 许多美国人仍然相信1911手枪是最好的战斗手枪. \n 这把枪到处都有锈迹, 很有可能卡壳.\n \n
+		%c[ui_gray_2]适用于:\n%c[d_red] • %c[d_red] 无法安装消音器</text>
+	</string>
+	<string id="st_wpn_colt1911_worn">
+		<text>柯尔特M1911 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_cz75">
+		<text>CZ-75</text>
+	</string>
+	<string id="st_wpn_cz75_auto">
+		<text>CZ-75 自动版</text>
+	</string>
+	<string id="st_wpn_cz75_auto_descr">
+		<text>CZ 75手枪是由一对工程师兄弟约瑟夫·库斯基(Josef Koucky)和弗朗泰斯克·库斯基(Frantisek Koucky)一起研制的, 当时他们按照中央政府要求设计一种采用大容量弹匣、双动板机的制式手枪, 虽然当时的捷克斯洛伐克是华约成员国, 但这一型手枪却要求设计成发射9mm北约标准手枪弹. 这款半自动手枪于1975年首次出现, 并于1976年投入生产, 主要面向出口市场. CZ-75采用了许多前辈的优秀功能, 使得手枪不仅外观优美, 灵活性, 射击舒适度, 操作性也都令人满意. CZ系列有着各种各样的改进型, 而CZ-75自动版是1995年的型号, 拥有全自动射击模式和更长的枪管.</text>
+	</string>
+	<string id="st_wpn_cz75_custom">
+		<text>CZ-75 (自组装版)</text>
+	</string>
+	<string id="st_wpn_cz75_descr">
+		<text>CZ 75手枪是由一对工程师兄弟约瑟夫·库斯基(Josef Koucky)和弗朗泰斯克·库斯基(Frantisek Koucky)一起研制的, 当时他们按照中央政府要求设计一种采用大容量弹匣、双动板机的制式手枪, 虽然当时的捷克斯洛伐克是华约成员国, 但这一型手枪却要求设计成发射9mm北约标准手枪弹. 这款半自动手枪于1975年首次出现, 并于1976年投入生产, 主要面向出口市场. CZ-75采用了许多前辈的优秀功能, 使得手枪不仅外观优美, 灵活性, 射击舒适度, 操作性也都令人满意. CZ系列有着各种各样的改进型.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] 9x19适配消音器</text>
+	</string>
+	<string id="st_wpn_cz75_worn">
+		<text>CZ-75 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_desert_eagle">
+		<text>沙漠之鹰</text>
+	</string>
+	<string id="st_wpn_desert_eagle_custom">
+		<text>沙漠之鹰 (自组装版)</text>
+	</string>
+	<string id="st_wpn_desert_eagle_descr">
+		<text>IMI公司的沙漠之鹰是一把半自动手枪, 使用大口径手枪弹. 它是同类中最重的枪. 没有人知道为什么IMI觉得用手枪发射这么大的子弹是个好主意, 即使有很多不至于伤着射手的弹药可供选择. 虽然.50AE的后坐力巨大, 整枪无比沉重, 但它只需一发就能把敌人送去见上帝. 尽管全世界的军队和执法部门从不会用这块"砖头"来执行任务; 但好莱坞对这把枪有所偏爱, 主要是因为它又大又吊, 是悍匪和皮条客的象征, 还象征着某些FPS游戏中的最强玩家. 有传言说有一个喜欢用撬棍的潜行者带着这把枪的变型版本在特异区内旅行过一段时间, 但这只是谣言.</text>
+	</string>
+	<string id="st_wpn_desert_eagle_modern">
+		<text>沙漠之鹰 (现代版)</text>
+	</string>
+	<string id="st_wpn_desert_eagle_nimble">
+		<text>"草原雄鹰"</text>
+	</string>
+	<string id="st_wpn_desert_eagle_nimble_descr">
+		<text>IMI公司的沙漠之鹰是一把半自动手枪, 使用大口径手枪弹. 它是同类中最重的枪. 没有人知道为什么IMI觉得用手枪射击这么大的子弹是个好主意, 即使有很多不至于伤着射手的弹药可供选择. 虽然.50AE的后坐力巨大, 整枪无比沉重, 但它只需一发就能把敌人送去见上帝.这把枪是由一个叫洛根·威廉姆斯的潜行者带到区域的. 伪装成TIME摄影师的他成功进入了普里皮亚季的中心. 目前他本人下落不明, 但有传言称他是一名信息商, 专门研究特异区有关的东西.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] DOCTER 瞄准器 (已集成)</text>
+	</string>
+	<string id="st_wpn_desert_eagle_worn">
+		<text>沙漠之鹰 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_fn2000">
+		<text>FN F2000突击步枪</text>
+	</string>
+	<string id="st_wpn_fn2000_camo">
+		<text>FN F2000 (迷彩版)</text>
+	</string>
+	<string id="st_wpn_fn2000_custom">
+		<text>FN F2000 (自组装版)</text>
+	</string>
+	<string id="st_wpn_fn2000_descr">
+		<text>FN在1995年就开始着手研制一种新的武器系统, 考虑到未来特种作战的需要, FN公司将模块化思想贯穿到这个新产品的开发中, 使士兵在战场环境中很容易更换部件来适应不同情况的需求, 同时, 他们也要求这种武器为未来可能出现的新型部件留下接口. 2001年3月在阿拉伯联合酋长国阿布扎比举行的IDEX展览会上, FN公司第一次公开展示了这种新颖的武器系统, 并命名为F2000突击武器系统.F2000突击武器系统为5.56毫米口径的突击步枪, 整体为无托结构, 大量采用聚合物部件, 外表光滑, 呈流线型, 结构紧凑. 共有3种型号: 带光学瞄具的基本型、带40毫米榴弹发射器及折叠式机械瞄具型、带40毫米榴弹发射器及火控系统型. 所有型号的F2000均可戴夜视眼镜使用. 机匣上有一个聚合物框座, 里面包含有机械瞄具及模制燕尾槽, 框座里很合潮流地带有一个美国军用标准MIL-STD-1913皮卡汀尼导轨, 上面可安装光学瞄具. 拉机柄在机匣左侧, 两手均可操作. F2000采用导气式自动方式, 由活塞杆驱动一个旋转闭锁系统, 该闭锁系统的强度及可靠性均较高, 并保证没有火药燃气进入弹膛区域. 灰尘和其他一些细碎物不可能进入武器内部, 因为连拉机柄槽的缝隙也进行了密封处理. 它采用M16步枪所使用的标准30发弹匣供弹, 弹匣卡笋在戴上防核生化手套后也可使用.FN P90的几个设计特点在F2000上得到沿用, 其中包括左右手均可操作的位于扳机下方的射击选择器. 抛壳方向与常规步枪不同, F2000空弹壳自枪口右后上方的抛壳窗中向前抛出.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] FN2000 瞄准镜 (已集成)\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45消音器</text>
+	</string>
+	<string id="st_wpn_fn2000_nimble">
+		<text>FN F2000带EOTech瞄准具版</text>
+	</string>
+	<string id="st_wpn_fn2000_nimble_descr">
+		<text>FN在1995年就开始着手研制一种新的武器系统, 考虑到未来特种作战的需要, FN公司将模块化思想贯穿到这个新产品的开发中, 使士兵在战场环境中很容易更换部件来适应不同情况的需求, 同时, 他们也要求这种武器为未来可能出现的新型部件留下接口. 2001年3月在阿拉伯联合酋长国阿布扎比举行的IDEX展览会上, FN公司第一次公开展示了这种新颖的武器系统, 并命名为F2000突击武器系统. F2000突击武器系统为5.56毫米口径的突击步枪, 整体为无托结构, 大量采用聚合物部件, 外表光滑, 呈流线型, 结构紧凑.共有3种型号: 带光学瞄具的基本型、带40毫米榴弹发射器及折叠式机械瞄具型、带40毫米榴弹发射器及火控系统型. 所有型号的F2000均可戴夜视眼镜使用. 机匣上有一个聚合物框座, 里面包含有机械瞄具及模制燕尾槽, 框座里很合潮流地带有一个美国军用标准MIL-STD-1913皮卡汀尼导轨, 上面可安装光学瞄具. 拉机柄在机匣左侧, 两手均可操作. F2000采用导气式自动方式, 由活塞杆驱动一个旋转闭锁系统, 该闭锁系统的强度及可靠性均较高, 并保证没有火药燃气进入弹膛区域. 灰尘和其他一些细碎物不可能进入武器内部, 因为连拉机柄槽的缝隙也进行了密封处理. 它采用M16步枪所使用的标准30发弹匣供弹, 弹匣卡笋在戴上防核生化手套后也可使用. FN P90的几个设计特点在F2000上得到沿用, 其中包括左右手均可操作的位于扳机下方的射击选择器. 抛壳方向与常规步枪不同, F2000空弹壳自枪口右后上方的抛壳窗中向前抛出.\n这把枪已集成的EOTech瞄准具, 导致精度略有降低, 但是它针对CQC设计的, 因此射速得到了相应提高.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] EOTech 瞄准具 (已集成)\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45消音器</text>
+	</string>
+	<string id="st_wpn_fn2000_worn">
+		<text>FN F2000 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_fn57">
+		<text>Five-seveN</text>
+	</string>
+	<string id="st_wpn_fn57_descr">
+		<text>Five-seveN®手枪是一种半自动手枪, 枪机延迟式后坐, 非刚性闭锁, 回转式击锤击发. 由FN公司设计, 作为与P90冲锋枪搭配的武器. P90和Five-seveN使用相同的弹药, 即5.7x28毫米SS190子弹. 这种弹药对有装甲保护的目标有着良好的杀伤力, 同时还能将武器的重量, 尺寸和后坐力保持在合理水平.</text>
+	</string>
+	
+	<string id="st_wpn_fnp45">
+		<text>FNP-45</text>
+	</string>
+	<string id="st_wpn_fnp45_custom">
+		<text>FNP-45 (自组装版)</text>
+	</string>
+	<string id="st_wpn_fnp45_descr">
+		<text>FNP系列手枪是FN公司在2003年开始新推出的一系列聚合物底把半自动手枪, 这是一种尺寸紧凑、结构牢靠、平衡性好、操作舒适而且价格适中的警用、军用或民间自卫用手枪.采用SIG-Sauer手枪简化和改进的枪管短后坐和勃朗宁式闭锁原理, 即只由枪管后膛的闭锁块与套筒上的大型抛壳口扣合来闭锁, 这种设计更简单可靠, 容量生产和维护.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] GemTech消音器</text>
+	</string>
+	<string id="st_wpn_fnp45_worn">
+		<text>FNP-45 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_fnx45">
+		<text>FNX-45手枪 战术版</text>
+	</string>
+	<string id="st_wpn_fnx45_alt">
+		<text>FNX-45 战术版 (实验型)</text>
+	</string>
+	<string id="st_wpn_fnx45_custom">
+		<text>FNX-45 战术版 (自组装版)</text>
+	</string>
+	<string id="st_wpn_fnx45_descr">
+		<text>在2009年的时候, FN公司推出了FNX系列手枪, 官方宣称FNX系列是FNP系列的改进型, 两者外观上也差不多, 不容易识别(比较容易区别开来特征的就是手动保险柄的形状), 而且弹匣也不通用. 然后FN公司慢慢把FNP手枪退出市场, 现在只销售FNX系列. 据传推出FNX的真正原因是FNP系列推出市场后被发现其弹匣有可靠性问题, 但FN公司并没有承认, 只是重新设计了弹匣, 但为了修改设计缺陷而需要调整枪的部件尺寸, 因而导致了一型新枪的出现.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] FNX Tactical sight (已集成)\n
+		%c[d_purple] • %c[ui_gray_2] GemTech 消音器 (已集成)</text>
+	</string>
+	
+	<string id="st_wpn_fort">
+		<text>Fort-17手枪</text>
+	</string>
+	<string id="st_wpn_fort_descr">
+		<text>Fort-17手枪是乌克兰国有FORT工厂的最新产品. 它是早期Fort-12手枪换用聚合物框架的改进版, 两种手枪的所有结构和性能几乎相同. 但是, Fort-17的重量比其前辈轻, 并且具有可拆卸的握把背板, 可以调节尺寸, 以使手枪适合不同的射手. \n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] 9x19适配消音器</text>
+	</string>
+	<string id="st_wpn_fort_rusty">
+		<text>Fort-17 (已生锈)</text>
+	</string>
+	<string id="st_wpn_fort_rusty_descr">
+		<text>Fort-17手枪是乌克兰国有FORT工厂的最新产品. 它是早期Fort-12手枪换用聚合物框架的改进版, 两种手枪的所有结构和性能几乎相同. 但是, Fort-17的重量比其前辈轻, 并且具有可拆卸的握把背板, 可以调节尺寸, 以使手枪适合不同的射手. 由于糟糕的状态, 这把枪经常会卡壳. \n \n
+		%c[ui_gray_2]适用于:\n%c[d_red] • %c[d_red] 无法安装消音器</text>
+	</string>
+	<string id="st_wpn_fort_snag">
+		<text>Fort-17(勾手版)</text>
+	</string>
+	<string id="st_wpn_fort_snag_descr">
+		<text>Fort-17手枪是乌克兰国有FORT工厂的最新产品. 它是早期Fort-12手枪换用聚合物框架的改进版, 两种手枪的所有结构和性能几乎相同. 但是, Fort-17的重量比其前辈轻, 并且具有可拆卸的握把背板, 可以调节尺寸, 以使手枪适合不同的射手. 这把改型曾是勾手的. \n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] 9x19适配消音器</text>
+	</string>
+	<string id="st_wpn_fort_worn">
+		<text>Fort-17 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_g3">
+		<text>G3A3自动步枪</text>
+	</string>
+	<string id="st_wpn_g3_descr">
+		<text>1950年, 滚柱延迟闭锁技术的发明者路德维希·福尔格里姆勒跑到西班牙的特种材料技术研究中心, 参加了一个研制新枪的专家组. 参与了赛特迈步枪的研制.在1957年, HK公司购买了赛特迈步枪的生产权, 并进行了进行了小的修改, 与此同时路德维希·福尔格里姆勒也回到了德国.1959年, 德国国防军正式列装G3, 一直服役到1995年被G36取代. 虽然如今已被G36取代, 但仍有少量G3步枪被使用从1959年到现在, 世界上共有80多个国家购买了G3步枪, 其中有10多个国家获得特许生产权. 虽然在7、80年代后, 世界上出现换装小口径突击步枪的潮流, 但现在仍有40多个国家在使用G3. HK公司在G3步枪的基础上, 在很短的时间, 通过局部的变换就迅速地扩展出包括冲锋枪、轻机枪、狙击步枪在内的多种变形枪, 使G3系统成为世界上变形枪最多的枪械. 而通过G3系统起家, HK公司也成了世界上最著名的枪械厂家.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45消音器\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech瞄准镜</text>
+	</string>
+	<string id="st_wpn_g3_worn">
+		<text>G3A3 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_g36">
+		<text>G36</text>
+	</string>
+	<string id="st_wpn_g36_descr">
+		<text>HKG-36在1990年以HK-50计划的代号公之于众. 在取消G11和G41项目后, 德国国防军只有过时的G3步枪可用; 因此HK公司计划研制一种同时面向德国军方和出口市场的步枪. 新型的5.56x45毫米口径突击步枪于1995年被德国联邦国防军采用, 并已在全世界各个执法机构(包括英国警察和美国的一些警察部门)中装备. 到目前为止, 该枪没收到过什么差评. 主要问题是在持续射击中护手过热, 以及内置瞄准具的设计问题. 一些德国士兵还抱怨内置双光学瞄准镜的位置, 在恶劣天气下很容易起雾. 排除这些, G36依然是准确, 可靠且维护简单的好枪. G36标准型是G36系列的基本型号, 大量装备德国国防军. 该枪有较长的护木和480mm长的标准枪管. G36的尺寸与SIG 550、FN FNC和M16A2相近, 鸟笼式消焰器同时兼作枪榴弹发射器, 可以发射北约标准的22mm枪榴弹, 还能安装刺刀. 前护木可换成带AG36下挂式40毫米榴弹发射器的整体式护木, 而且可使用MG36所标配的两脚架.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45消音器</text>
+	</string>
+	<string id="st_wpn_g36_camo">
+		<text>G36 (迷彩版)</text>
+	</string>
+	<string id="st_wpn_g36_worn">
+		<text>G36 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_g36k">
+		<text>G36K</text>
+	</string>
+	<string id="st_wpn_g36k_descr">
+		<text>G36K(K是德语Kurz的缩写, 意为"短")是为特种部队和经常乘坐装甲车的机械化步兵设计的, 枪管长320毫米, 护木也比G36短得多. 由于枪管缩短了160毫米, 火药气体并不能完全燃烧, 因此G36K采用了与标准型G36不相同的大型四叉型消焰器, 不能发射枪榴弹也不能安装刺刀. G36K较短的尺寸使其非常适合战斗车辆成员、特种部队和执法部门. 在德国特种部队服役的G36K配备了100发C-Mag弹鼓. G36K有两种变型, 第一种装有3倍瞄准镜, 顶部带有提把, 第二种装有铁瞄具和长导轨.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] G36 瞄准镜 (已集成)\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45消音器</text>
+	</string>
+	<string id="st_wpn_g36k_worn">
+		<text>G36K (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_g3sg1">
+		<text>G3SG1狙击步枪</text>
+	</string>
+	<string id="st_wpn_g3sg1_descr">
+		<text>G3/SG1狙击步枪是G3的一种变型. 它是在标准型G3步枪的验收过程中, 将那些平均弹着点完全符合规定要求、而散布又最小的枪挑选出来, 配上两脚架、枪托贴腮板和望远瞄准镜, 再略加改装而成的. 一个蔡司1.5-6倍可变功率望远镜瞄准镜使用HK爪型安装连接到枪机. 枪托略有延长, 并带有一个沉重的双阶段缓冲和可调脸颊休息位. 添加了一套特殊的扳机组, 1磅阻力清脆的扳机扳机. 全自动射击被保留.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] G3 瞄准镜 (已集成)</text>
+	</string>
+	<string id="st_wpn_g3sg1_modern_descr">
+		<text>G3/SG1狙击步枪是G3的一种变型. 它是在标准型G3步枪的验收过程中, 将那些平均弹着点完全符合规定要求、而散布又最小的枪挑选出来, 配上两脚架、枪托贴腮板和望远瞄准镜, 再略加改装而成的. 一个蔡司1.5-6倍可变功率望远镜瞄准镜使用HK爪型安装连接到枪机. 枪托略有延长, 并带有一个沉重的双阶段缓冲和可调脸颊休息位. 添加了一套特殊的扳机组, 1磅阻力清脆的扳机扳机. 全自动射击被保留.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] G3 瞄准镜 (已集成)</text>
+	</string>
+	<string id="st_wpn_g3sg1_worn">
+		<text>G3SG1 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_g43">
+		<text>G43(带ZF4瞄准镜)</text>
+	</string>
+	<string id="st_wpn_g43_descr">
+		<text>纳粹德国对苏联SVT步枪的简化仿制版 - G43半自动步枪. 1944年, 它被更名为Karabiner 43. 配备ZF 4瞄准镜, 是一种不错的狙击步枪.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] ZF-41 瞄准镜 (已集成)</text>
+	</string>
+	
+    <string id="st_wpn_famas3"> <!-- NEW GUNS -->
+        <text>FAMAS F3</text>
+    </string>
+    <string id="st_wpn_famas3_descr">
+        <text>FAMAS是法语"轻型自动步枪, 由圣·艾蒂安生产"的缩写. 该枪在1967年开始研制, 主设计师是轻武器专家保罗·泰尔. 法国研制该枪的指导思想是既能取代MAT49式9mm冲锋枪和MAS 49/56式7.5毫米步枪, 又能取代一部分轻机枪. 第一支FAMAS原型枪于1971年制造, 法国军方于1972年开始对该步枪进行测试. 与此同时, 法国采用了瑞士设计的SIG SG-540 5.56毫米突击步枪作为备选方案. FAMAS在1978年被法国人采用, 从那以后成为法国陆军的制式步枪, 在法国士兵中被戏称为" Le Clairon"(号角).\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45消音器\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech瞄准镜 </text>
+    </string>
+	
+	<string id="st_wpn_galil">
+		<text>加利尔AR</text>
+	</string>
+	<string id="st_wpn_galil_custom">
+		<text>加利尔R (自组装版)</text>
+	</string>
+	<string id="st_wpn_galil_descr">
+		<text>IMI的加利尔步枪于1972年列装IDF部队, 基于耐旱的目标设计. 从外形上, 加利尔与FAL步枪有点相似, 但也带有AK47的明显的特征, 一眼看上去, 就是卡拉斯尼柯夫系统的继承. 其实, 加利尔真正的直系亲属是芬兰的Valmet M62. 事实上, 加利尔的第一个原型就是在芬兰首都赫尔辛基用M62机匣制造的.但后来加利尔的机匣改用铣削, 结果重量比起Valmet M62增加不少. 事实上在相同口径步枪中, 伽利尔是最重的. 在内部结构基本上, 加利尔基本上卡拉斯尼柯夫系统和美国的M1伽兰德半自动步枪的结合. 加利尔因其在战斗条件下的可靠性和易于维护而闻名世界. 它的口径为5.56x45毫米或者为7.62x51毫米.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] PBS-1 消音器\n
+		%c[d_purple] • %c[ui_gray_2] 加利尔4倍瞄准镜 (经过改造后)</text>
+	</string>
+	<string id="st_wpn_galil_modern">
+		<text>加利尔AR (现代版)</text>
+	</string>
+	<string id="st_wpn_galil_worn">
+		<text>加利尔AR (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_gauss">
+		<text>高斯步枪</text>
+	</string>
+	<string id="st_wpn_gauss_descr">
+		<text>一把由神器供动力的测试性超精确武器, 不知道是特异区的哪个阵营制造的. 它的枪声几乎听不见, 因为它使用电磁力, 而不是火药, 将子弹加速到令人难以置信的速度发射出去. 尽管高斯步枪威力如此惊人, 但后坐力极其微小. 这把枪的准确性和威力远超其他所有小型武器.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] 增强版4倍瞄准镜(已集成)</text>
+	</string>
+	
+	<string id="st_wpn_glock">
+		<text>格洛克19</text>
+	</string>
+	<string id="st_wpn_glock_custom">
+		<text>格洛克19 (自组装版)</text>
+	</string>
+	<string id="st_wpn_glock_descr">
+		<text>格洛克19是格洛克17的缩小型, 尺寸、重量都更小, 便于隐蔽携带. 标准弹匣容量为15发, 但也可以使用GLOCK17的各种弹匣. 小尺寸其便于被军方和警察部队隐蔽携带. 该手枪由奥地利格洛克有限公司于1988年首次推出. 与格洛克17相比, 格洛克19保留了其机匣的重量, 以控制后坐力, 同时缩短了握把和弹匣. 格洛克19的许多组件都可以与格洛克17互换. 简而言之, 格洛克19就是17的紧凑版.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] GemTech 消音器 (经过改造后)</text>
+	</string>
+	<string id="st_wpn_glock_modern">
+		<text>格洛克19 (现代版)</text>
+	</string>
+	<string id="st_wpn_glock_modern_descr">
+		<text>格洛克19是格洛克17的缩小型, 尺寸、重量都更小, 便于隐蔽携带. 标准弹匣容量为15发, 但也可以使用GLOCK17的各种弹匣. 小尺寸其便于被军方和警察部队隐蔽携带. 该手枪由奥地利格洛克有限公司于1988年首次推出. 与格洛克17相比, 格洛克19保留了其机匣的重量, 以控制后坐力, 同时缩短了握把和弹匣. 格洛克19的许多组件都可以与格洛克17互换. 简而言之, 格洛克19就是17的紧凑版.\n 这把变型能够进行全自动射击, 由于格洛克18的全自动发射原理很简单, 因此即使零件不通用, 但要把相关部件DIY出来也不是太难的事..\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] GemTech 消音器 (经过改造后)</text>
+	</string>
+	<string id="st_wpn_glock_worn">
+		<text>格洛克19 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_grach">
+		<text>MP-443</text>
+	</string>
+	<string id="st_wpn_grach_descr">
+		<text>PYa手枪采用枪管短后坐、勃朗宁闭锁原理, 通过抛壳口与方形的后膛配合进行闭锁. 套筒和底把均为钢制, 枪管是不锈钢. 作为一件20世纪末研制的手枪, PYa手枪并没有顺应潮流使用聚合物或轻型合金作底把材料, 而是采用全钢结构.因此重量较大, 不过却是很坚固.</text>
+	</string>
+	<string id="st_wpn_grach_worn">
+		<text>MP-443 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_groza">
+		<text>OTs-14</text>
+	</string>
+	<string id="st_wpn_groza_descr">
+		<text>OTs-14"雷电"并不只是一种突击步枪, 而是一种突击步枪+榴弹发射器的综合武器系统的名称. "雷电"是由位于图拉的CKIB SOO在1992年设计, 并由TOZ(图拉兵工厂)在1994年开始生产. 武器本身是一种无托结构的自动步枪, 机匣上具有明显的AKM风格, 事实上"雷电"就是一种AKM的无托改型. 提把上有觇孔式照门, 并可以安装光学瞄准镜. "雷电"最初是为俄罗斯内务部特种部队设计的一套突击步枪/榴弹发射器套装, 设计要求此系统能够在野外进行快速转换功能组合. 而特异区版本都配备了GP-25下挂榴弹发射器. \n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] PO 4x34 瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] GP-25下挂榴弹发射器 (已集成)</text>
+	</string>
+	<string id="st_wpn_groza_nimble">
+		<text>OTs-14-1A</text>
+	</string>
+	<string id="st_wpn_groza_nimble_descr">
+		<text>根据阿尔法小组的要求, 研制的一种7.62毫米口径型, 名为"雷电-1"(Groza-1)的OTs-14改型, 按阿尔法小组的要求, "雷电-1"通用AK-47和AKM的弹匣, 并可安装AK-74的第三型刺刀. 由于使用了更轻, 初速更快的弹药, 射速, 弹道平直度和弹匣容量得以改善. OTs-14-1A仅小批量生产过.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] PO4x34 瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] GP-25下挂榴弹发射器 (已集成)</text>
+	</string>
+	
+	<string id="st_wpn_gsh18">
+		<text>Gsh-18</text>
+	</string>
+	<string id="st_wpn_gsh18_custom">
+		<text>Gsh-18 (自组装版)</text>
+	</string>
+	<string id="st_wpn_gsh18_descr">
+		<text>GSh-18手枪是由俄罗斯KBP研制的. 主设计师是格里亚泽夫和希普诺夫, 他们曾经合作研制过航空机炮GSh-23和GSh-301等. GSh-23中的"23"是表示口径, 而GSh-18的"18"则是表示弹匣容量. GSh-18采用枪管短后坐自动方式, 枪管回转式闭锁机构. 但不同于QSZ92或Px4"风暴"等其他回转式枪管闭锁的手枪, 在GSh-18的枪管上有多达10个闭锁凸耳, 因此枪管的旋转角度很小, 只有18°.该枪采用击针平移式击发原理, 独立的枪机(击针组件)通过一个固定销安装在套筒内, 可拆卸出来进行维护或更换. 扳机组类似于格洛克手枪那种半双动模式, 通过套筒后坐进入待击状态, 但如果击针释放了的话, 就不能进行双动射击. 使用7N21和7N31穿甲弹时, 它可以在20米处穿透8毫米的钢板.</text>
+	</string>
+	<string id="st_wpn_gsh18_worn">
+		<text>Gsh-18 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_hk416">
+		<text>HK416</text>
+	</string>
+	<string id="st_wpn_hk416_descr">
+		<text>HK416步枪是HK公司基于M4步枪研发的一款突击步枪. 可以直接买到整枪, 也可用AR15步枪装上HK416的上枪机. 2004年时对HK416进行的测试表明活塞操作系统大大减少了故障率, 同时延长了枪支的使用寿命. 该项目最初叫做HKM4, 但因科尔特防卫公司的侵权诉讼而改名. 目前, 它只装备了政府控制的军事组织, 所以特异区里这种突击步枪通常由佣兵使用.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45消音器\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] M203下挂榴弹发射器</text>
+	</string>
+	
+	<string id="st_wpn_hpsa">
+		<text>勃朗宁 HP</text>
+	</string>
+	<string id="st_wpn_hpsa_alt">
+		<text>勃朗宁 HP (实验型)</text>
+	</string>
+	<string id="st_wpn_hpsa_descr">
+		<text>比利时FN公司的勃朗宁"大威力"手枪是世界上最著名的手枪之一, 曾被多个国家的军警所装备, 也受到许多枪械收藏家的喜爱. 在1920年代初期, 法国陆军决定要采用一种新式的半自动手枪, FN公司便委托著名的枪械设计大师约翰·勃朗宁按照这些法军的要求来设计一种新手枪. 然而在1926年, 时年71岁的勃朗宁却因心脏病突发而去世, 他本人没能完成该手枪的设计工作. 幸好勃朗宁已经为FN公司带出了一位徒弟 - 比利时枪械设计师迪厄多内·塞弗, 所以FN公司让塞弗继续完善HP原型枪的设计. 最终得到的产品便是Browning HP手枪. 直到今天, HP的Mark I型仍被加拿大军队、比利时陆军、英国陆军、印度陆军、澳洲防卫军、阿根廷陆军、爱尔兰陆军、卢森堡陆军、以色列警察、新加坡特种部队和委内瑞拉陆军的所装备. 就连伊拉克前总统萨达姆·候塞因也经常携带一把勃朗宁HP手枪.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] 9x19适配消音器 (经过改造后)</text>
+	</string>
+	<string id="st_wpn_hpsa_rusty">
+		<text>勃朗宁 HP (已生锈)</text>
+	</string>
+	<string id="st_wpn_hpsa_rusty_descr">
+		<text>比利时FN公司的勃朗宁"大威力"手枪是世界上最著名的手枪之一, 曾被多个国家的军警所装备, 也受到许多枪械收藏家的喜爱. 在1920年代初期, 法国陆军决定要采用一种新式的半自动手枪, FN公司便委托著名的枪械设计大师约翰·勃朗宁按照这些法军的要求来设计一种新手枪. 然而在1926年, 时年71岁的勃朗宁却因心脏病突发而去世, 他本人没能完成该手枪的设计工作. 幸好勃朗宁已经为FN公司带出了一位徒弟 - 比利时枪械设计师迪厄多内·塞弗, 所以FN公司让塞弗继续完善HP原型枪的设计. 最终得到的产品便是Browning HP手枪.直到今天, HP的Mark I型仍被加拿大军队、比利时陆军、英国陆军、印度陆军、澳洲防卫军、阿根廷陆军、爱尔兰陆军、卢森堡陆军、以色列警察、新加坡特种部队和委内瑞拉陆军的所装备. 就连伊拉克前总统萨达姆· 候塞因也经常携带一把勃朗宁HP手枪.\n 这把枪遍布的锈迹说明它一定有着惊人的卡壳率.\n \n
+		%c[ui_gray_2]适用于:\n%c[d_red] • %c[d_red] 无法安装消音器</text>
+	</string>
+	<string id="st_wpn_hpsa_worn">
+		<text>勃朗宁 HP(损坏)</text>
+	</string>
+	
+	<string id="st_wpn_k98">
+		<text>K98Kurz</text>
+	</string>
+	<string id="st_wpn_k98_descr">
+		<text>在第二次世界大战期间, 德军为某些精度高的Kar98k步枪配备了ZF39瞄准镜. 这些步枪被纳粹德国用作狙击步枪. 在精英狙击手手中, 它们的有效射程可达1000米.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] ZF 瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45消音器 (测试型)</text>
+	</string>
+	
+	<string id="st_wpn_kiparis">
+		<text>OTs-02 Kiparis</text>
+	</string>
+	<string id="st_wpn_kiparis_descr">
+		<text>OTs-02 Kiparis(柏树)冲锋枪是由图拉的中央运动和狩猎枪械设计局在1990年代初期为俄罗斯警察和内务部研制的, 目前也正被内务部和俄罗斯警察所采用, 包括OMON和SOBR等特种部队. OTs-02 Kiparis全自动机构由自由枪栓反冲驱动. 子弹从封闭式枪栓射击，增加了准确性. 用直形盒式弹匣供弹, 20发或30发容量, 钢制枪托可以折叠到枪机顶部, 托底板有橡胶缓冲垫. 特异区中这种武器并不罕见, 通常被一些穷土匪和独行者使用.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] 9x19适配消音器</text>
+	</string>
+	<string id="st_wpn_kiparis_worn">
+		<text>OTs-02 Kiparis(损坏)</text>
+	</string>
+	
+	<string id="st_wpn_l85a2">
+		<text>L85A2</text>
+	</string>
+	<string id="st_wpn_l85a2_alt">
+		<text>L85A2 (实验型)</text>
+	</string>
+	<string id="st_wpn_l85a2_custom">
+		<text>L85A2 (自组装版)</text>
+	</string>
+	<string id="st_wpn_l85a2_modern">
+		<text>L85A2 (现代版)</text>
+	</string>
+	<string id="st_wpn_l85a2_descr">
+		<text>尽管英国军队已经习惯了使用SA80枪族, 但存在的问题却不能无视. 最初解决这些问题的方法是由军队的技术人员轮流到各个作战单位对枪支进行改装, 不幸的是改进必须的零部件经常供应不足, 而且到了1994年, 由于武器停产, 连备件都无法供应了. 在1996年9月, 北约把L85A1从指定的轻武器列表中除名, 这事件最终刺激了英国军方高层, 决定对SA80进行重大改进, 于是HK公司获得了一份价值1.2亿美元的改进2万支SA80合约, 由HK公司在奥本多夫的分公司实施改进, 第一批样枪的改进工作在2001年初完成. 改进后的SA80枪族改进型(MoD)也是有步兵武器(IW)和轻型支援武器(LSW)两种型号, IW称为L85A2, LSW称为L86A2.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] SUSAT 4倍瞄准镜 (已集成)\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45消音器 (经过改造后)</text>
+	</string>
+	
+	<string id="st_wpn_l85">
+		<text>L85A1</text>
+	</string>
+	<string id="st_wpn_l85_alt">
+		<text>L85A1 (实验型)</text>
+	</string>
+	<string id="st_wpn_l85_custom">
+		<text>L85A1 (自组装版)</text>
+	</string>
+	<string id="st_wpn_l85_modern">
+		<text>L85A1 (现代版)</text>
+	</string>
+	<string id="st_wpn_l85_worn">
+		<text>L85A1 (损坏)</text>
+	</string>
+	<string id="st_wpn_l85_descr">
+		<text>L85A1突击步枪采用无托结构, 即机匣为枪托, 这种直抢托结构采取自动机后移至通常枪托所处的位置, 而发射机构移到弹匣之前, 这样, 不减短枪管就可使会枪长度缩短. L85A1枪管长520毫米, 与美国M16A2的枪管相当, 但全枪长只有785毫米, 而M16A2全枪长约1000mm.无托枪的好处是尺寸小, 士兵携行方便, 利于在狭小空间战斗, 特别适宜于机械化步兵装备, 具有灵活机动的优点. 缺点是只能抵右肩射击, 据说SA80最初设计时是提供有向左抛壳的转换装置的, 但在英国军队服役必须严格纠正使用右手, 所以就省了. 其实无托枪不能供左撇子射手使用的缺点并不重要, 反而是右撇子需要利用地形地物掩护身体右侧而换左手射击时会比较麻烦. L85A1大量采用冲压一焊接结合工艺, 仅枪机、机框和枪管是由常规机加而成的. 护木、贴腮板和托底板采用塑料高冲击韧性尼龙制成. 结构简单, 分解结合也简便, 不需任何专用工具. 机匣为冲压件, 分为上下机匣; 发射机构为一完整的组件, 组装在一个冲压成型的框架内, 并通过一个小的底板用两个销钉与机匣联结. 机匣上方的滑座, 既可装带照门的提把, 又可装光学瞄具.氚光(SUSAT)瞄准镜L9A1是L85A1的关键装置. 其瞄准分划用氚光照明, 无需电池供电, 放大率为4倍, 视场10°. L9A1瞄准镜是完全密封的, 校零调整装置位于镜筒外表, 结构非常结实. 但是由于成本方面的原因, 只有战斗步兵部队使用的L85A1是配备有氚光瞄准镜的, 而其他部队装备的枪则只是配用机械瞄准具.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] SUSAT 瞄准镜 (已集成)\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45消音器 (经过改造后)</text>
+	</string>
+	
+	<string id="st_wpn_l96a1">
+		<text>L96A1</text>
+	</string>
+	<string id="st_wpn_l96a1_descr">
+		<text>AW狙击步枪是由英国精密国际公司设计制造的一系列栓动狙击步枪. PM是AI公司第一种军用狙击步枪产品, 也是AW的前身.后来的AW系列都是保持了PM步枪的许多特征, 包括空心的两片式塑料枪托. 英军在1980年代采购了超过1,200支PM步枪并命名为L96A1, 随后其他一些国家如法国外籍兵团也购买了一些PM步枪, PM/L96A1步枪总共售卖了约2, 000支. 自1980年代问世以来, 它已被证明是民用, 警用和军用步枪中的强者. 特殊的材料使其可在非常寒冷的条件下保证性能不受影响.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] Leupold MK4瞄准镜 (已集成)</text>
+	</string>
+	<string id="st_wpn_l96a1_worn">
+		<text>L96A1 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_l96a1m">
+		<text>L96 AWSM</text>
+	</string>
+	<string id="st_wpn_l96a1m_descr">
+		<text>AWM中的"M"是Magnum的缩写, 也被称为"超级马格南"(Super Magnum), 或简称AWSM步枪(此称呼一般指.338口径的AWM). AWM的口径为北约成员国内所使用的. 300温彻斯特·马格南和. 338拉普·马格南. 在1997年推出的"AWM"步枪是以AW为基础用最小的变化来适应大容量弹壳的枪弹. 由于马格南弹发射的冲量较大, 因此在AWM的机头上有6个闭锁凸笋, 分两圈前后排列, 每圈3个..\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] Leupold MK4瞄准镜 (已集成)</text>
+	</string>
+	
+	<string id="st_wpn_lr300">
+		<text>LR-300ML</text>
+	</string>
+	<string id="st_wpn_lr300_camo">
+		<text>LR-300ML(迷彩版)</text>
+	</string>
+	<string id="st_wpn_lr300_custom">
+		<text>LR-300ML(自组装版)</text>
+	</string>
+	<string id="st_wpn_lr300_descr">
+		<text>LR-300是基于AR15改造来的一种步枪, 适合应对中近距离战斗.其牢靠的导轨可以选装各式配件以应对不同战斗任务. 该武器具有出色的人体工程学设计和轻巧的特性, 具有很高的精确度, 但对灰尘很敏感, 不适合在恶劣的条件下使用.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45消音器\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] M203榴弹发射器 (经过改造后)</text>
+	</string>
+	<string id="st_wpn_lr300_rusty">
+		<text>LR-300ML (已生锈)</text>
+	</string>
+	<string id="st_wpn_lr300_rusty_descr">
+		<text>LR-300是基于AR15改造来的一种步枪, 适合应对中近距离战斗. 其牢靠的导轨可以选装各式配件以应对不同战斗任务. 该武器具有出色的人体工程学设计和轻巧的特性, 具有很高的精确度, 但对灰尘很敏感, 不适合在恶劣的条件下使用. 这把遍布锈迹的LR-300表明娇贵的它不太适合特异区的环境.\n \n
+		%c[ui_gray_2]适用于:\n%c[d_red] • %c[d_red] 无法安装消音器\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] M203榴弹发射器 (经过改造后)</text>
+	</string>
+	<string id="st_wpn_lr300_worn">
+		<text>LR-300ML (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_m16">
+		<text>M16A4</text>
+	</string>
+	<string id="st_wpn_m16_descr">
+		<text>M16A4是将枪械作为一个模块、火控系统作为一个模块来设计的. 瞄具采用了许多的新技术, 但枪械本身改进不多. 机匣为平顶式, 上端有MIL-STD-1913皮卡汀尼导轨, 可安装瞄准设备或可拆卸提把. 枪机和其他M16系列一样有特富龙润滑涂层, 以提供可靠性. 重型枪管上刻有适用的枪弹、膛线形成的数字. 美国陆军和海军陆战队的M16A4均采用KAC公司的M5 RAS护木, 可安装直握把、激光指示器、战术灯和其他配件, 护木内侧有铝制的隔热屏. 固定式枪托后部可装擦拭工具. 由于完整的M16A4系统并不只是一支枪, 还包括一堆安装在皮卡汀尼导轨上的可选配件, 因此在美国陆军野战手册中, M16A4也被称为M16A4 MWS, 即模块化武器系统.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45消音器\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] M203榴弹发射器</text>
+	</string>
+	<string id="st_wpn_m16_worn">
+		<text>M16A4 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_m16a2">
+		<text>M16A2</text>
+	</string>
+	<string id="st_wpn_m16a2_descr">
+		<text>在1981年夏季期间, M16A1E1进行了非常彻底的测试, 并且在1982年9月定型为M16A2.但直到一年后, 即1983年11月20日它才正式地被海军陆战队采用. 而此时陆军中的部分人正试图说服相关部门不要采用M16A2, 虽然他们也承认大量的M16A1在长期使用和训练中已经很损耗严重了, 但最后, 陆军还是在1985年采用了M16A2. M16A2只具备半自动和3发点射功能, 这迎合了某些美国陆军高级军官的主张. 他们认为3发一组地射击是在节省弹药、提高命中率和增强火力之间一个最合适(不如说是妥协)的解决之道. 但美国一些军事专家和技术专家激烈反对. 因为这种设计思想从根本上动摇了突击步枪的宗旨. 突击步枪在战术使用上的主要意图是借助突然和猛烈的火力阻止、压制、歼灭或震慑敌人.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] M203榴弹发射器\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45消音器</text>
+	</string>
+	
+	<string id="st_wpn_m24">
+		<text>M24绿龙狙击枪</text>
+	</string>
+	<string id="st_wpn_m24_descr">
+		<text>M24 Sniper's Weapon System(狙击手武器系统, 简称SWS)是美国陆军的旋转后拉式枪机狙击步枪. M24称为一个"武器系统", 是因为它除了步枪外还包括瞄准镜、标配的狙击弹及其他一系列配件. M24 SWS从1988年7月开始装备美国陆军, 在1991年12月全部完成部署, 当时一共配备了3510支M24 SWS.M24 SWS的 最大有效射程为800米(875码), 但在实战中M24 SWS曾取得超过1000米的命中纪录. 而且标配的光学瞄准镜本身就具有1000米(1, 094码)射程的调节能力.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] M24狙击镜 (已集成)</text>
+	</string>
+	
+	<string id="st_wpn_m249">
+		<text>M249 SAW</text>
+	</string>
+	<string id="st_wpn_m249_descr">
+		<text>M249是弹链供弹式5.56x45毫米口径机枪, 是比利时FN米尼米机枪的美国版本. 自1989年美国入侵巴拿马以来, M249在美国参与的战争中均有出现. 尽管有报道称灰尘和泥土堵塞会枪机, 但士兵们对这种武器的性能仍然很满意. 于是, FN公司进行了一系列的改进, 包括改用可折叠的提把, 加装枪管护板, 采用新的液压气动后坐缓冲器等, 并在1987年3月向美国军方提供了改进后的M249技术数据.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech瞄准镜</text>
+	</string>
+	
+	<string id="st_wpn_m4">
+		<text>M4 RAS</text>
+	</string>
+	<string id="st_wpn_m4_descr">
+		<text>M4卡宾枪是一个系列, 其前辈是M16的早期卡宾枪型号, 全部基于阿玛利特制造的原始AR-15的设计. 它是M16突击步枪的更短更轻的版本, 有80％的零件可以互换. M4突击步枪发射5.56x45毫米北约弹药, 是气体驱动, 风冷, 弹匣进供弹的突击步枪, 带有4位伸缩式枪托. 与许多卡宾枪一样, M4比普通步枪更方便携带. 它已被美国特种作战司令部采用, 是美国陆军特种部队和海军海豹突击队的首选武器. M4首先装备82空降师, 用于取替M16A1/A2步枪、M3A1冲锋枪和车辆驾驶员使用的部分9毫米手枪, 1994年正式列装.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45消音器\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] M203榴弹发射器</text>
+	</string>
+	<string id="st_wpn_m4_worn">
+		<text>M4A1 RAS (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_m4a1">
+		<text>M4A1</text>
+	</string>
+	<string id="st_wpn_m4a1_camo">
+		<text>M4A1 (迷彩版)</text>
+	</string>
+	<string id="st_wpn_m4a1_custom">
+		<text>M4A1 (自组装版)</text>
+	</string>
+	<string id="st_wpn_m4a1_descr">
+		<text>M4A1卡宾枪是CQC(近距离战斗)的理想选择, 是M16A2突击步枪的全自动变型. 在美军中它已经基本取代了无法对抗现代护甲的冲锋枪. M4A1是M4卡宾枪的改良型, 能够全自动或半自动射击. 改造项目除了更换全自动扳机组外, 还同时更换重型枪管(导气箍后的细直径枪管也改成粗直径), 并更换新的双面操作保险/快慢机柄. 改造过程并不是像海军的Mk.18那样拿库存的M16A1下机匣来改造使用, 而是把现有的M4送到陆军的后勤修理厂更换备用零件, 并重新刻字. 例如原本快慢机"点射"位置上的"BURST"标记用激光打上4个"X"抹掉, 然后在下面补打上"AUTO". 这些改造并不是在同一个厂进行的, 而可能是送到各个基地自己的修理厂来完成.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45消音器\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] M203榴弹发射器 (经过改造后)</text>
+	</string>
+	<string id="st_wpn_m4a1_freedom">
+		<text>M4A1 (自由团涂装)</text>
+	</string>
+	<string id="st_wpn_m4a1_worn">
+		<text>M4A1 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_m79">
+		<text>M79</text>
+	</string>
+	<string id="st_wpn_m79_descr">
+		<text>在1951年, 当时的美国陆军意识到, 在手榴弹的投掷距离(约50米)和60mm迫击炮的最小射程(约400米)之间, 有一道火力空白需要填补, 枪榴弹本来正适合用于填补这片火力空白, 但发射枪榴弹时的步骤繁琐、射速慢, 而且射击精度太低. 而在同一的时候, 皮卡汀尼兵工厂设计了一种长约46mm的短粗形弹壳, 里面采用所谓的"高/低压"原理, 用于发射出这种40mm的"炮弹". 春田兵工厂也在1953年开始设计发射这种40mm高/低压榴弹的若干发射器, 样机也设计了好几种, 其中一种单发、枪管撅开式装填的方案S-3被选中. 经过改进后, 又命名为S-5, 样子就像一把大号的短筒猎枪. 最后美国陆军部在1960年10月把S-5定型为XM79. 经过进一步的试验和改进后, XM79在1960年12月15日被正式定型为M79并计划装备部队. M79榴弹发射器是一种单发射击、枪管撅开(转动开膛)、后膛装填的肩射武器, 视觉上看, M79榴弹发射器就像一支大口径的撅开式短筒猎枪, 而且设计简单, 只有五个部分: 发射管(枪管)、机匣(包含击发机构)、前托(护木)、肩托(枪托)和瞄准装置. 线膛枪管与机匣前下方通过轴销铰接在一起, 使枪管可以绕轴销旋转与机匣扣合或解脱. 装填时, 操作机匣顶部锁定枪管的卡笋, 使枪管解锁后便可向前下方旋转打开枪管, 把40mm的各类弹药从枪管尾部装入, 然后再把枪管转回来被枪管卡笋重新锁定. 在操作枪管完成装填动作的同时, 保险机和击锤会自动处于保险和待发状态. 扳机护圈也是铰接, 可以左右转动到一侧, 便于在冬季戴手套射击. 开放式瞄具包括准星和可折叠的立框式表尺, 安装在枪管顶部的前后两端. 准星部分包括固定式片状准星和准星护耳. 表尺部分包括游标及缺口照门, 并设有风偏修正分划和高低分划微调螺杆, 射程装定从75米至375米, 增量为25米一格.表尺折叠后, 有一个100米内用的直射用缺口照门. 据说受过训练的射手直接利用枪管瞄准, 也能取得相当好的射击精度.</text>
+	</string>
+	
+	<string id="st_wpn_m98b">
+		<text>巴雷特M98B"勇士"狙击枪</text>
+	</string>
+	<string id="st_wpn_m98b_descr">
+		<text>Barrett M98B是.338口径的狙击步枪.巴雷特没有照搬狩猎步枪, 而是为M98B创建了全新的设计. M98B具有可调节的枪托和托腮板(舒适性), 可调节的扳机(用于更好地控制扳机), 后单脚架和前双脚架(稳定性). 使用者可以通过将瞄准具, 照明灯和握把安装到其导轨上来DIY自己的步枪.M98B设计简单, 使用户可以轻松拆卸和清洁.巴雷特98 Bravo型这个名称看起来似乎是巴雷特M98的改进型, 而且仔细看来两种枪的某些外部特征也有相似之处, 但M98是半自动的, 而98 Bravo型却是手动操作的旋转后拉式枪机步枪, 而且98 Bravo型采用更先进的材料, 人机功效也更好. 巴雷特98 Bravo型狙击步枪第一次公开露面是在2008年美国陆军协会年会暨展示会上(AUSA2008)\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] Leupold MK4瞄准镜 (已集成)\n
+		%c[d_purple] • %c[ui_gray_2] SR-25 消音器(经过改造后)</text>
+	</string>
+	
+	<string id="st_wpn_mosin">
+		<text>莫辛纳甘</text>
+	</string>
+	<string id="st_wpn_mosin_descr">
+		<text>莫辛-纳甘步枪(英文Mosin-Nagant, 俄文Мосин-Наган), 在俄国被称为"Vintovka Mosina"(莫辛步枪), 是在俄罗斯帝国政府委托下在1880年代后期至1890年代早期研制的, 并由俄国军队在1891年正式采用, 定型为1891型3线口径步枪. 多种型号的莫辛-纳甘步枪作为俄国军队和苏联红军的制式武器, 服役期长达60年, 并被中国、芬兰、匈牙利、波兰、朝鲜和其他一些国家使用.该枪在二十世纪几乎每一场战争中都能看得到: 一战、苏联内战、二战、朝鲜、越南、阿富汗、格林纳达. 虽然在其他国家, 这种过时的步枪也逐步被AK步枪所代替, 但直到今天, 莫辛-纳甘步枪仍然可在民间收藏领域或狩猎用途方面发现踪影. 因为这种枪相对来说很便宜, 而所配用的枪弹也很便宜很容易搞到, 相比之下, 其他同时代武器所配用的弹药早已经不是制式弹药(如.30-06或8mm毛瑟等), 因此产量低价格也昂贵.\n \n
+		%c[ui_gray_2]适用于:\n%c[d_purple] • %c[ui_gray_2] PU瞄准镜</text>
+	</string>
+	<string id="st_wpn_mosin_worn">
+		<text>莫辛纳甘 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_mossberg590">
+		<text>莫斯伯格M590A1</text>
+	</string>
+	<string id="st_wpn_mossberg590_descr">
+		<text>莫斯伯格590(Mossberg Model 590)是莫斯伯格父子公司在1970年代中期针对美国要求而在莫斯伯格500的基础上改进而成, 主要是加强了枪机和其他部件, 金属表面采用磷酸盐处理. 在1987年590型开始装备美国军队, 美军订购的590型有些在枪管上安装隔热罩、刺刀卡笋和延长弹仓管, 但有些则没有安装这些附件. 莫斯伯格宣称他们的500型是唯一通过美军军规Mil-Spec 3443E测试的霰弹枪, 当这一规范更新为Mil-Spec 3443G之后, 莫斯伯格公司根据其中的要求又改进出590A1型, 主要是改用重型枪管, 并用铝合金扳机护圈取代原来500型和590型上的塑料扳机护圈, 这是考虑到在军队里分解维护时不会因为粗暴装卸而损毁, 此外手动保险按钮也改成铝合金的. 590A1型随后也得到美军的采用. 虽然美国海军陆战队在1999年开始装备半自动的伯奈利M1014战斗霰弹枪, 但美军仍在采购泵动霰弹枪. 海军就在2004年采购了几千支莫斯伯格590A1, 陆军在2005年订购了14, 818支单价约316美元的莫斯伯格590A1, 相比之下, M1014要贵很多.</text>
+	</string>
+	<string id="st_wpn_mossberg590_worn">
+		<text>莫斯伯格M590A1散弹枪 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_mp133">
+		<text>MP-133</text>
+	</string>
+	<string id="st_wpn_mp133_descr">
+		<text>MP-133是伊热夫斯克机械厂的产品. 该散弹枪是早期的IZh-81散弹枪的改进, 面向民用和安保市场. 它有两种基本型号: 带有弹仓的标准MP-133和带有可拆卸弹匣的MP-133K, 两种版本都可以选装不同长度的枪管, 木质或聚合物枪托, 固定式或侧面折叠式聚合物枪托, 手枪式握把. MP-133散弹枪使用传统的泵式设计, 具有双动杆. 通过调整锁定件开关保险, 该锁定件安装在螺栓中, 并在关闭时枪管延伸部分的槽口咬合. 弹仓可以塞入四发散弹, 也可以通过安装弹仓延长管来提高容量.</text>
+	</string>
+	<string id="st_wpn_mp133_rusty">
+		<text>MP-133 (已生锈)</text>
+	</string>
+	<string id="st_wpn_mp133_worn">
+		<text>MP-133 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_mp153">
+		<text>MP-153</text>
+	</string>
+	<string id="st_wpn_mp153_descr">
+		<text>MP-153半自动散弹枪是伊热夫斯克机械厂设计和制造的第一款半自动散弹枪.它与MP-133散弹枪一同开发, 并且可以共享许多零件. MP-153是俄罗斯最受欢迎的半自动散弹枪之一, 在俄罗斯广泛用于狩猎活动. 同时也用于出口, 在美国被称为雷明顿" Spartan" SPR-453. MP-153散弹枪以坚固的结构和高可靠性闻名.</text>
+	</string>
+	<string id="st_wpn_mp153_rusty">
+		<text>MP-153 (已生锈)</text>
+	</string>
+	<string id="st_wpn_mp153_worn">
+		<text>MP-153 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_mp412">
+		<text>MP-412雷克斯左轮手枪</text>
+	</string>
+	<string id="st_wpn_mp412_descr">
+		<text>MP412雷克斯是俄罗斯双动式.357左轮手枪, 使用中折式设计和一个自动退壳器. 它是专为出口而设计的, 但由于缺乏市场, 从未投入全面生产. 该武器是由俄罗斯国有的伊热夫斯克机械厂设计的, 该工厂还设计并生产了马卡洛夫PM半自动手枪.</text>
+	</string>
+	
+	<string id="st_wpn_mp5">
+		<text>MP5A3</text>
+	</string>
+	<string id="st_wpn_mp5_alt">
+		<text>MP5A3 (实验型)</text>
+	</string>
+	<string id="st_wpn_mp5_custom">
+		<text>MP5A3 (自组装版)</text>
+	</string>
+	<string id="st_wpn_mp5_descr">
+		<text>1970年, HK公司推出了MP5的新改型MP5A2和MP5A3. 外形上, MP5A2和A3与MP5和MP5A1一样, 只是在枪管的安装方法作了改良, 采用了浮置式枪管, 即枪管不再用前后两点固定的方式, 仅安装在机匣前端而形成浮置状态.枪管长225毫米, 6条右旋膛线 , 枪口动能为650焦耳.表尺射程为200米、300米和400米. MP5A2和A3具有基本相同的结构, 两者的区别只在于MP5A2安装固定式塑料枪托, MP5A3则为伸缩式金属枪托. 最初的MP5A2、A3使用直型弹匣, 到1977年全部改为弧型弹匣. 在1985年HK公司推出MP5A4和A5以后, 由于其大型塑料护木使用起来相当舒适, 所以新生产的MP5A2、A3都配用这种塑料护木, 另外也有些客户购买这种护木换掉原来的金属护木.\n MP5的性能优越, 特别是它的射击精度相当高, 这是因为MP5采用了与G3步枪一样的半自由枪机和滚柱闭锁方式. 当武器处于待击状态在机体复进到位前, 闭锁楔铁的闭锁斜面将两个滚柱向外挤开, 使之卡入枪管节套的闭锁槽内, 枪机便闭锁住弹膛. 射击后, 在火药气体作用下, 弹壳推动机头后退. 一旦滚柱完全脱离卡槽, 枪机的两部分就一起后坐, 直到撞击抛壳挺时才将弹壳从枪右侧的抛壳窗抛出. 由于MP5的枪机原理, 在上膛时要让枪机快速复位, 否则很容易复进不到位. 因此MP5的标准操作方式是先把拉机柄卡到拉机柄槽的尾端, 装好弹匣后, 用手拍下拉机柄, 让枪机在复进簧的推动下复位. 这种操作方式是MP5的特色, 所以我们可以在一些记录片或影视作品中看到这种使劲"拍拉机柄"的潇洒镜头. 另外因为MP5的枪机过轻而且还是闭膛待击, 不像前冲击发枪机那样到位即击发, 因此MP5的枪机框内有一个空腔, 内装有38.6克重的松散状态的钨砂作为惯性体. 当枪机前冲到位时钨砂粒前冲抵消反跳力, 防止因为枪机组高速撞击枪管节套而产生反跳, 导致闭锁不完全, 造成全自动射击中断.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] 9x19适配消音器 (经过改造后)</text>
+	</string>
+	<string id="st_wpn_mp5_nimble">
+		<text>MP5A3 "弗雷泽"</text>
+	</string>
+	<string id="st_wpn_mp5_nimble_descr">
+		<text>基于出色的HKMP5A3模型的冲锋枪原型枪制造. 作为下一代近距离战斗武器而设计, 有着于更大的口径, 射速和准确性.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] GemTech 消音器 (经过改造后)</text>
+	</string>
+	<string id="st_wpn_mp5_worn">
+		<text>MP5A3 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_mp5sd">
+		<text>MP5SD6</text>
+	</string>
+	<string id="st_wpn_mp5sd_custom">
+		<text>MP5SD6 (自组装版)</text>
+	</string>
+	<string id="st_wpn_mp5sd_descr">
+		<text>20世纪60年代末期, HK公司开始开发MP5SD, 最初是为开发特种部队用的兵器而进行MP5配装消声器的研究, 70年代初研制成功了MP5SD. MP5SD的消声器并不能完全消除枪声, 但可以在一定距离上听不出枪声. 由于反恐怖部队对恐怖分子的攻击作战方式是必须在敌人未觉察出攻击位置时, 一下子攻入其中心部位, 因此MP5SD一出现就受到反恐怖部队的重视. 1977年, GSG9在摩加迪沙机场反劫机作战中就有使用MP5SD. MP5SD消声器的结构是在枪管上钻有30个直径为3mm的小孔, 枪管外面套有消声筒, 消声筒内有两个分开的气体膨胀室. 射击时, 一部分火药气体经枪管上的小孔进入后膨胀室, 以降低燃气压力, 从而减少运动弹头的加速度; 前膨胀室用以改变燃气排出方向, 降低侧向排出气流的声响, 并使弹头以亚音速飞离枪口, 因而在飞行中不会产生激波声响. MP5SD用普通弹的初速为285米/秒, 枪口动能为380焦耳, 膛口噪声约70分贝左右, 不过有效射程也比较低, 为135米.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632瞄准镜, EOTech瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] special MP5SD 消音器 (已集成)</text>
+	</string>
+	<string id="st_wpn_mp5sd_new">
+		<text>MP5SD6 (崭新)</text>
+	</string>
+	<string id="st_wpn_mp5sd_worn">
+		<text>MP5SD6 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_oc33">
+		<text>OTs-33</text>
+	</string>
+	<string id="st_wpn_oc33_descr">
+		<text>OTs-33"佩纳赫"(钉头锤的俄语)是俄罗斯最新的冲锋手枪. OTs-33是反冲式武器, 可在自动或半自动模式下发射9x18毫米马卡洛夫手枪弹. 该枪于1995年开发, 以取代特种部队装备的APS手枪. 由俄罗斯图拉中央运动和狩猎武器设计局TSKIB SOO的伊戈尔·斯捷奇金于1995年设计, 他还是APS的设计师.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] APS 消音器 (经过改造后)</text>
+	</string>
+	<string id="st_wpn_oc33_rusty">
+		<text>OTs-33 (已生锈)</text>
+	</string>
+	<string id="st_wpn_oc33_rusty_descr">
+		<text>OTs-33"佩纳赫"(钉头锤的俄语)是俄罗斯最新的冲锋手枪. OTs-33是反冲式武器, 可在自动或半自动模式下发射9x18毫米马卡洛夫手枪弹. 该枪于1995年开发, 以取代特种部队装备的APS手枪. 由俄罗斯图拉中央运动和狩猎武器设计局TSKIB SOO的伊戈尔 斯捷奇金于1995年设计, 他还是APS的设计师. 然而这枪斑斑锈迹表明你应该把它丢进厕所.\n \n
+		%c[ui_gray_2]适用于:\n%c[d_red] • %c[d_red] 无法安装消音器</text>
+	</string>
+	<string id="st_wpn_oc33_worn">
+		<text>OTs-33 佩纳赫 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_p90">
+		<text>FN P90</text>
+	</string>
+	<string id="st_wpn_p90_descr">
+		<text>单兵自卫武器(Personal Defence Weapon, 简称PDW)的概念, 最初是在1986年美国战备协会举办的年会上提出的, 期后美国本宁堡步兵学校在《美国轻武器总规划》中正式提出开发PDW的设想, 其目的是取代手枪、冲锋枪和短突击步枪.根据该规划的要求, PDW的装备对象是驾驶员、操作员、司令部人员、装甲兵、工兵、无线电员、飞行员、后勤人员或维护保养人员等. 这些人员虽然不是一线步兵, 却占军队总人数一半以上, 他们很少有时间来提高个人射击技术, 而他们所装备的自卫武器 - 手枪和冲锋枪大多数发射9mm Para手枪弹, 不能有效对付穿着防弹衣的人敌人. 因此, 对PDW的要求要重量轻, 易于携带, 容易瞄准和操作, 能有效对付防弹衣. 在1989年4月16日, 北约组织发布的AC225文件中明确表示需要在北约各国军队中装备这种武器. 而在1986年, FN公司就以异乎寻常的速度开发PDW系统, 当时FN公司的设计人员意识到手枪和冲锋枪如果不经严格训练, 命中精度很低, 而折叠枪托的短突击步枪仍是偏大偏重, 自动射击时的后坐力也不好控制, 因此必须研制一种全新的武器. 新枪被命名为P90, 在1987年10月就进行了第一次的样枪射击表演, 1988年, FN公司生产了4支样枪, 每支枪均发射了15, 000发枪弹, 主要零件无破损现象. 到1992年P90正式投产, FN P90成了世界上第一支单兵自卫武器. P90外形相当怪异独特, 初露面是让人感觉好像科幻片中的武器. 全枪长约50cm, 无托结构, 重量轻, 携行方便.P90采用模块式设计, 可分为4个部分: 枪机组件、整体式枪托、枪管及瞄具组件、弹匣. 在全部的69个零件中有27件为塑料件. P90的自动方式为自由枪机式, 闭膛待击, 枪机较重, 以控制枪机后坐. 发射机构在整体式枪托中, 发射机座、击锤、扳机和整体式枪托均为工程塑料件. 枪托底板有软橡胶, 打开枪托底板里面有附品筒, 枪管通条刷头、通条链和油布都放在附品筒内.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] 5.7x28适配消音器</text>
+	</string>
+	
+	<string id="st_wpn_pb">
+		<text>PB消音手枪</text>
+	</string>
+	<string id="st_wpn_pb_custom">
+		<text>PB (现代版)</text>
+	</string>
+	<string id="st_wpn_pb_descr">
+		<text>PB, 在苏联军队中也称为6P9, 是1967年为苏联军队的特种部队以及克格勃特工研制的. 该枪并不只是简单地增加消声器来降低膛口噪声, 而是把套筒改为重量较轻的敞开式, 以适合膛压较低的亚音速消声弹. PB于1967年列装, 供克格勃和侦察兵使用. 消音器的前部是可拆卸的, 因此手枪可分为两部分, 以方便携带. PB的集成消音器还将子弹速度降低到亚音速以下.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] 6P9 消音器 (已集成)</text>
+	</string>
+	<string id="st_wpn_pb_worn">
+		<text>PB (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_pkm_zulus">
+		<text>祖鲁的PKM机枪</text>
+	</string>
+	<string id="st_wpn_pkm_zulus_descr">
+		<text>该武器先前归祖鲁所有. 它的特殊之处包括扩容弹药箱和特别可靠的伸缩机构设计. 重量也因此大大增加了, 但这对它的原主人来说不是问题.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] EKP-1S-03眼镜蛇瞄准具 (已集成)</text>
+	</string>
+	
+	<string id="st_wpn_pkp">
+		<text>PKP</text>
+	</string>
+	<string id="st_wpn_pkp_descr">
+		<text>佩切涅格通用机枪是一种在PKM通用机枪上改进的产品, 简称PKP机枪, 由中央精密机械研究所进行研制, 大概在2003年或2004年左右小批量生产并配发到在车臣的一些俄罗斯部队进行实战试验, 现在开始逐渐被其他部队所装备. 俄罗斯国防部火箭炮兵装备总局赋予其装备代号为6P41(俄文6П41). PKP与PKM的另外几点区别是机匣顶部的固定提把和安置在枪口的两脚架. 据厂商宣传, 在利用两脚架射击时, PKP的命中效果比PKM高出2.5倍, 如果用三脚架或车载射架, 则比PKM高出1.5倍. 强制气冷也是PKP具有另一个优点 - 在长时间射击时不会像PKM那样在枪管表面形成上升热气, 因而不会干扰瞄准目标.</text>
+	</string>
+	
+	<string id="st_wpn_pm">
+		<text>马卡洛夫PM</text>
+	</string>
+	<string id="st_wpn_pm_actor">
+		<text>马卡洛夫荣誉之枪</text>
+	</string>
+	<string id="st_wpn_pm_actor_descr">
+		<text>乌克兰安全局授予德格特雅里夫的配枪, 上面刻着"临危受命, 展现勇气. "这是至高无上的荣誉.</text>
+	</string>
+	<string id="st_wpn_pm_custom">
+		<text>PM (自组装版)</text>
+	</string>
+	<string id="st_wpn_pm_descr">
+		<text>马卡洛夫手枪采用简单的自由后坐式工作原理, 结构简单, 性能可靠, 成本低廉, 在当年是同时代最好的紧凑型自卫手枪之一.射击时火药燃气的压力通过弹壳底部作用于套筒的弹底窝, 使套筒后坐, 并利用套筒的重量和复进簧的力量, 使套筒后坐的速度降低, 在弹头离开枪口后, 才开启弹膛, 完成抛壳等一系列动作. 马卡洛夫手枪的击发机构为击锤回转式, 双动发射机构.保险装置包括有不到位保险, 外部有手动保险机柄. 马卡洛夫手枪采用由固定式片状准星和缺口式照门, 在15~20米内时有最佳的射击精度和杀伤力. 其钢制弹匣可装8发PM手枪弹, 弹匣壁镂空, 既减轻了重量也便于观察余弹数, 并有空仓挂机能力.</text>
+	</string>
+	<string id="st_wpn_pm_rusty">
+		<text>PM (已生锈)</text>
+	</string>
+	<string id="st_wpn_pm_rusty_descr">
+		<text>马卡洛夫手枪采用简单的自由后坐式工作原理, 结构简单, 性能可靠, 成本低廉, 在当年是同时代最好的紧凑型自卫手枪之一. 射击时火药燃气的压力通过弹壳底部作用于套筒的弹底窝, 使套筒后坐, 并利用套筒的重量和复进簧的力量, 使套筒后坐的速度降低, 在弹头离开枪口后, 才开启弹膛, 完成抛壳等一系列动作. 马卡洛夫手枪的击发机构为击锤回转式, 双动发射机构.保险装置包括有不到位保险, 外部有手动保险机柄.马卡洛夫手枪采用由固定式片状准星和缺口式照门, 在15~20米内时有最佳的射击精度和杀伤力. 其钢制弹匣可装8发PM手枪弹, 弹匣壁镂空, 既减轻了重量也便于观察余弹数, 并有空仓挂机能力.这把枪上面的锈迹表明你用它无异于自杀</text>
+	</string>
+	<string id="st_wpn_pm_worn">
+		<text>PM (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_pmm">
+		<text>PMM</text>
+	</string>
+	<string id="st_wpn_pmm_descr">
+		<text>在20世纪最后十年间有许多改进马卡洛夫手枪缺点的试验, 最明显的缺点是较低的停止作用和杀伤力, 以及小容量的弹匣. 首先, 改进的弹药采用更轻的弹头和燃速更快的发射药颗粒, 新枪弹的初速为430米/秒, 比原来的9×18mm弹的315米/秒要快, 使枪口动能提高到1.7倍. 增大容弹量的马卡洛夫手枪改进型与新弹药同时研制, 弹匣容量增加到12发, 改进型把原来形状纤细的握把改成可以适应较厚弹匣的形状, 握把嵌板也作了改进. 改进型马卡洛夫手枪被定型为PMM(俄文ПММ, 即马卡洛夫手枪改进型的缩写), 而新的枪弹也同时被定型为9×18mm PMM弹.P毫米手枪既可用标准的PM弹也可以用改进的PMM弹, 其使用对象为军队和执法机构, 但显然销售运气并不好. 最后俄罗斯军队决定采用一把全新的、更有希望的手枪, 就是同样由伊热夫斯克机械厂设计的雅利金PYa大容量手枪.</text>
+	</string>
+	
+	<string id="st_wpn_pp2000">
+		<text>PP-2000</text>
+	</string>
+	<string id="st_wpn_pp2000_descr">
+		<text>PP-2000冲锋枪由图拉的KBP仪器设计局研制, 在2004年夏天巴黎举办的萨托里欧洲军备展上初次公开, 其后又参加了秋天在莫斯科举办的国际军备展. PP-2000的外形非常新奇有趣, 其外观设计专利是在2001年申请. PP-2000适合作为非军事人员的个人防卫武器或特种部队和特警队的室内近战武器, 推出伊始, 有一些执法机构和军事部门都对此枪表现出兴趣, 并少量采购试用. 基本上PP-2000的特点会很容易使人联想到HK MP7, 是一种适合作为单兵自卫武器使用的小型冲锋枪. PP-2000的结构非常简单, 零部件非常少, 以简化维护作业和降低造价, 全枪外形紧凑, 机匣与握把和板机护圈由高强度塑料做成一个整体的部件, 板机护圈的前部可以兼作前握把, 其外形和功能很容易令人联想到国产的QBZ95B短突击步枪, 较大的护圈使得即使戴上厚厚的保暖手套也能方便操作. PP-2000采用冲锋枪常见的自由式枪机, 但为了提高射击精度而采用闭膛待击的方式. 最初的原型枪的枪机看起来好像是包络式, 其实是类似于华乐特MPL/MPK那样的"L"形, 而且枪机框的前部暴露于机匣外, 并兼作上膛推柄, 这样的装填方式又类似于PP-90M1, 只不过PP-2000操作起来更方便, 而且枪口露出的位置较多, 也不影响附加消声器等枪口装置. 枪管前方有可调节高低和风偏的柱形准星, 机匣顶部有固定式的缺口照门, 射程装定为100米. 虽然有资料中写可以瞄准200米处的目标, 但PP-2000比较适合对付100米范围内的目标.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] 9x19 适配消音器</text>
+	</string>
+	
+	<string id="st_wpn_ppsh41">
+		<text>PPSh-41</text>
+	</string>
+	<string id="st_wpn_ppsh41_new">
+		<text>PPSh-41 (现代版)</text>
+	</string>
+	<string id="st_wpn_ppsh41_camo">
+		<text>PPSh-41 (迷彩版)</text>
+	</string>
+	<string id="st_wpn_ppsh41_old">
+		<text>PPSh-41 (旧的)</text>
+	</string>
+	<string id="st_wpn_ppsh41_rusty">
+		<text>PPSh-41 (已生锈)</text>
+	</string>
+	<string id="st_wpn_ppsh41_worn">
+		<text>PPsh-41 (损坏)</text>
+	</string>
+	<string id="st_wpn_ppsh41_descr">
+		<text>PPSh-41是第二次世界大战期间苏军的主要冲锋枪, 是一种耐用, 不吃维护的武器, 由廉价且易于获得的材料制成. 有人建议你把它送进博物馆.使用7.62x25毫米子弹.</text>
+	</string>
+	
+	<string id="st_wpn_protecta">
+		<text>重击</text>
+	</string>
+	<string id="st_wpn_protecta_aim">
+		<text>重击 (Aim瞄具版)</text>
+	</string>
+	<string id="st_wpn_protecta_aim_descr">
+		<text>罗得西亚人希尔顿·沃克在1980年代初设计了一种类似于转轮手枪那样的大容量防暴/战斗霰弹枪. 当他离开罗得西亚移居南非后, 继续完善他的设计, 最后成功设计出这种大容量霰枪, 并命名为"打击者"(Striker), 由Armsel公司生产. 在1980年代中期, 这种霰弹枪在南非、美国和其他一些国家都有出售. 由于"打击者"霰弹枪的动作原理与转轮手枪相似, 事实上, 它的扳机也是双动的, 但因为其转轮太大太重, 不能像双动转轮手枪那样利用扳机联动的方式来转动弹轮, 因此沃克参照了机械闹钟的原理, 设计了一个自动旋转弹轮的装置. 他在转轮内安装了一个卷簧, 就绕在转轮轴上. 在转轮前面有一个上发条的旋转手柄(钥匙), 射击前先用手旋转那个手柄(上发条), 然后射击时, 只要扣下扳机, 击锤就会击发对准枪管的弹膛内的一发弹.然后卡住转轮的棘爪会后缩, 转轮旋转1/12圈再次被棘爪卡住, 下一发弹膛对准枪管, 而刚发射完的弹膛则对准了装填/抛壳口. 射手只需要连续扣动扳机便可实施持续发射, 所以, 虽然没有利用火药燃气实施自动装填动作, 但也勉强算得上是一种利用外能源的半自动霰弹枪.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] Aimpoint瞄准具 (已集成)</text>
+	</string>
+	<string id="st_wpn_protecta_camo">
+		<text>重击(迷彩版)</text>
+	</string>
+	<string id="st_wpn_protecta_custom">
+		<text>重击(自组装版)</text>
+	</string>
+	<string id="st_wpn_protecta_descr">
+		<text>罗得西亚人希尔顿·沃克在1980年代初设计了一种类似于转轮手枪那样的大容量防暴/战斗霰弹枪. 当他离开罗得西亚移居南非后, 继续完善他的设计, 最后成功设计出这种大容量霰枪, 并命名为"打击者"(Striker), 由Armsel公司生产. 在1980年代中期, 这种霰弹枪在南非、美国和其他一些国家都有出售. 由于"打击者"霰弹枪的动作原理与转轮手枪相似, 事实上, 它的扳机也是双动的, 但因为其转轮太大太重, 不能像双动转轮手枪那样利用扳机联动的方式来转动弹轮, 因此沃克参照了机械闹钟的原理, 设计了一个自动旋转弹轮的装置. 他在转轮内安装了一个卷簧, 就绕在转轮轴上. 在转轮前面有一个上发条的旋转手柄(钥匙), 射击前先用手旋转那个手柄(上发条), 然后射击时, 只要扣下扳机, 击锤就会击发对准枪管的弹膛内的一发弹.然后卡住转轮的棘爪会后缩, 转轮旋转1/12圈再次被棘爪卡住, 下一发弹膛对准枪管, 而刚发射完的弹膛则对准了装填/抛壳口. 射手只需要连续扣动扳机便可实施持续发射, 所以, 虽然没有利用火药燃气实施自动装填动作, 但也勉强算得上是一种利用外能源的半自动霰弹枪. 特异区里这玩意不太常见, 主要用于扫荡怪物巢穴.</text>
+	</string>
+	<string id="st_wpn_protecta_nimble">
+		<text>重击 (特别版)</text>
+	</string>
+	<string id="st_wpn_protecta_nimble_descr">
+		<text>罗得西亚人希尔顿·沃克在1980年代初设计了一种类似于转轮手枪那样的大容量防暴/战斗霰弹枪. 当他离开罗得西亚移居南非后, 继续完善他的设计, 最后成功设计出这种大容量霰枪, 并命名为"打击者"(Striker), 由Armsel公司生产. 在1980年代中期, 这种霰弹枪在南非、美国和其他一些国家都有出售. 由于"打击者"霰弹枪的动作原理与转轮手枪相似, 事实上, 它的扳机也是双动的, 但因为其转轮太大太重, 不能像双动转轮手枪那样利用扳机联动的方式来转动弹轮, 因此沃克参照了机械闹钟的原理, 设计了一个自动旋转弹轮的装置. 他在转轮内安装了一个卷簧, 就绕在转轮轴上.在转轮前面有一个上发条的旋转手柄(钥匙), 射击前先用手旋转那个手柄(上发条), 然后射击时, 只要扣下扳机, 击锤就会击发对准枪管的弹膛内的一发弹.然后卡住转轮的棘爪会后缩, 转轮旋转1/12圈再次被棘爪卡住, 下一发弹膛对准枪管, 而刚发射完的弹膛则对准了装填/抛壳口. 射手只需要连续扣动扳机便可实施持续发射, 所以, 虽然没有利用火药燃气实施自动装填动作, 但也勉强算得上是一种利用外能源的半自动霰弹枪. 据说这把枪曾属于TANK, 但我们对他知之甚少.</text>
+	</string>
+	<string id="st_wpn_protecta_rusty">
+		<text>重击 (已生锈)</text>
+	</string>
+	<string id="st_wpn_protecta_worn">
+		<text>重击 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_rg6">
+		<text>RG-6</text>
+	</string>
+	<string id="st_wpn_rg6_descr">
+		<text>RG-6(官方命名是6G30, 俄文相对是РГ-6或6Г30)在1993年和1994年间由TSKIB SOO(位于图拉的中央设计局)设计的, 是针对车臣战争的经验, 为战斗小分队在城市战斗中提供一种压制火力的步兵支援武器, 填补枪挂式榴弹发射器(GP-25)和自动榴弹发射器(AGS-17)之间的火力空白. RG-6在1990年代中期少量生产, 并已经装备部分俄罗斯陆军的特种部队, 和内务部的特种部队, 在第二次车臣战争中使用的效果据说效果令人满意, 尤其适合伏击行动, 因为可以迅速发射6发榴弹覆盖目标区域, 而重量和尺寸又比自动榴弹发射器要小, 方便徒步携带. RG-6的原理其实是参考南非MGL的, 也是用卷簧驱动一个6发转轮弹仓. 不同的是RG-6使用俄罗斯的40毫米无壳榴弹, 包括VOG-25和VOG-25P. 因此在具体结构和操作方式上, RG-6和MGL有着较大的区别.特异区中广泛用于快速压制敌人, 或者用它把那些强悍的怪物炸成肉泥.</text>
+	</string>
+	
+	<string id="st_wpn_rp">
+		<text>PKM</text>
+	</string>
+	<string id="st_wpn_rp_descr">
+		<text>在1950年代初, 两位苏联设计师尼克金和沙科洛夫开始设计一种弹链式供弹的7.62毫米口径机枪, 同时米哈伊尔·卡拉什尼科夫也在进行着相同的工作.尼克金·沙科洛夫和卡拉什尼科夫的武器都是采用导气式原理和回转式枪机, 有意思的是两者外形也非常相似. 两种武器在1960年开始对比试验, 卡拉什尼科夫设计的那种名为PK的机枪表现更为可靠, 而且生产成本也比较低, 因此, 在1961年, 卡拉什尼科夫设计的PK系列通用机枪被苏联红军采用.卡拉什尼科夫在1969年对PK系列进行了改进, 改进后的PK称为PKM, 其他的型号相应为装在三脚架上的PKMS(ПКМС)、装在步兵战车上的PKMB和坦克同轴机枪PKMT.要区分PK与PKM, 枪管和枪托底板是比较明显的识别方法.</text>
+	</string>
+	
+	<string id="st_wpn_rpd">
+		<text>RPD</text>
+	</string>
+	<string id="st_wpn_rpd_descr">
+		<text>RPD是由苏联的捷格加廖夫设计的一种班用轻机枪, 该枪于第二次世界大战后正式装备苏军, 代替原来的DP-27式轻机枪. 但从1960年代起, 苏联及一些东欧国家已用同口径的RPK轻机枪换装该枪.</text>
+	</string>
+	
+	<string id="st_wpn_rpg7">
+		<text>RPG-7</text>
+	</string>
+	<string id="st_wpn_rpg7_descr">
+		<text>RPG-7是RPG-2的改进型.RPG-7的第一个版本称为RPG-7V, 1961年被苏联军队采用, 目前仍在俄罗斯和至少50多个国家中使用.到目前为止, RPG-7可以说是有史以来最成功的反坦克火箭筒之一.最初是作为一种反装甲武器, 后来有了更多可选弹药后可以执行更多任务, 例如反步兵高爆破片弹和多用途温压弹. RPG-7是肩扛式, 单发, 无后坐力发射器, 从前部装填火箭弹, 后部装有文丘里喷嘴.由于无后坐力设计, 发射时站在射手后面是很危险的. RPG-7通常配有2.7倍固定放大倍率的光学瞄准镜, 称为PGO-7. RPG-7既简单又便宜, 但对现代坦克仍有很高的威胁, 还能执行许多其他任务, 使其成为一种灵活的武器.</text>
+	</string>
+	
+	<string id="st_wpn_rpk">
+		<text>RPK</text>
+	</string>
+	<string id="st_wpn_rpk_descr">
+		<text>РПК是俄语"卡拉什尼科夫轻机枪"(Ручной Пулемёт Калашников)的缩写, 英文为RPK(Ruchnoi Pulemet Kalashnikova).RPK是以AKM为基础发展出来的轻机枪, 在1959年被苏军采用.RPK在许多设计特征不同于AKM: 枪管延长并增大枪口初速; 增大弹匣容量以延长持续火力; 配备有折叠的两脚架以提高射击精度; 瞄准具增加了风偏调整; 枪托与捷格加廖夫RPD机枪的枪托相同, 并为空降部队研制了折叠式木制枪托的RPKS.</text>
+	</string>
+	<string id="st_wpn_rpk_worn">
+		<text>RPK (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_rpk74">
+		<text>RPK-74N</text>
+	</string>
+	<string id="st_wpn_rpk74_descr">
+		<text>在新的5.45mm弹和AK-74突击步枪被部队采用后, 以AK-74为基础的班用轻机枪也开始研制. 木质固定枪托的称为RPK-74(俄文РПК-74), 供伞兵部队使用的折叠枪托型的为RPKS-74(俄文РПКС-74). RPK-74和RPKS-74在1970年代后期装备苏联军队, 现在俄罗斯军队仍在使用, 每个步兵班(10人)中都有一挺RPK-74.与AK-74相比, RPK-74的枪管加长加重, 因此弹头初速上升到960m/s, 此外还增加了一个轻型的两脚架. 其它不同部分包括有加强的机匣和可调风偏的照门. RPK-74的枪口消焰器也不同于AK-74, 上面有5个柳叶状的孔, 形状类似于美国M16的鸟笼形消焰器.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] EKP-8-02眼镜蛇, 1P29, PSO-1瞄准镜 \n
+		%c[d_purple] • %c[ui_gray_2] TGP-A 消音器</text>
+	</string>
+	<string id="st_wpn_rpk74_worn">
+		<text>RPK-74N (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_saiga12s">
+		<text>Saiga-12S</text>
+	</string>
+	<string id="st_wpn_saiga12s_descr">
+		<text>Saiga-12霰弹枪由伊孜玛什公司在1990年代早期研制, 是Saiga系列半自动霰弹枪和步枪枪族的一员, 其结构和原理基于AK突击步枪, 包括长行程活塞导气系统, 两个大形闭锁突笋的回转式枪机、盒形弹匣供弹.霰弹枪系列有. 410、20号和12号马格南弹三种口径. 每种口径, 都至少有三种型号, 分别有长枪管和固定枪托、长枪管和侧折叠式AK-74M聚合物枪托、和相同的折叠枪托和短枪管. 后者主要适合作为保安、警察和自卫武器, 而且广泛地被很多俄国执法人员和私人安全服务机构使用. 作为一种可靠又有效的近距离狩猎或近战用霰弹枪, Saiga-12的优点是比伯奈利、弗兰齐和其他著名的西方霰弹枪要便宜得多. 如上所述, Saiga-12与AK突击步枪基本相似, 但也有不同的明显特征. 首先, 该枪只能半自动射击; 其次, 机匣和枪机组被重新设计以适应尺寸较大的的突缘弹壳霰弹; 第三, 单排塑料盒形弹匣的容量只有5或8发. 另外, Saiga-12的导气系统有气体调节器, 分有"标准"和"马格南"两种设定, 这是根据发射3英寸弹(长76毫米)还是2¾英寸弹(长70毫米)决定. 另外AK传统的开放式瞄具由安装在导气管顶端的短肋式霰弹枪瞄具所代替, 也可用侧式瞄准镜架安装红点镜. 枪管用螺钉固定在节套上. 护木、握把和固定或折叠式枪托均由黑色塑料制成.Saiga-12主要有三种型号: 基本型Saiga-12采用长枪管和固定枪托, Saiga-12S(俄文Saiga-12C)采用长枪管和折叠枪托, 而Saiga-12K采用短枪管和折叠枪托. 对于Saiga-12K而言, 如果是在俄罗斯国内民用市场销售的, 其折叠枪托上增加了一种特殊的保险装置, 只要张开枪托并锁紧时才能射击, 因为俄罗斯的枪支管制法中短枪管步枪如果能够折叠枪托是违法的. 而长枪管的Saiga-12S却不需要这样的保险装置.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] EKP-8-02眼镜蛇, 1P29, PSO-1瞄准镜\n
+		%c[d_purple • %c[ui_gray_2] PBS-1消音器</text>
+	</string>
+	<string id="st_wpn_saiga12s_worn">
+		<text>Saiga-12S (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_scar">
+		<text>FN SCAR-H</text>
+	</string>
+	<string id="st_wpn_scar_custom">
+		<text>FN SCAR-H (自组装版)</text>
+	</string>
+	<string id="st_wpn_scar_descr">
+		<text>特种作战部队突击步枪(SCAR)是FN公司为SOCOM制造的模块化步枪, 可以满足武器竞标要求. 该枪族包括两种类型, SCAR-H和SCAR-L. SCAR-H(重型)使用7.62x51mm北约子弹.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45消音器\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] M203榴弹发射器</text>
+	</string>
+	<string id="st_wpn_scar_new">
+		<text>FN SCAR-H (崭新)</text>
+	</string>
+	<string id="st_wpn_scar_worn">
+		<text>FN SCAR-H (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_sig220">
+		<text>SIG P220</text>
+	</string>
+	<string id="st_wpn_sig220_custom">
+		<text>SIG P220 (自组装版)</text>
+	</string>
+	<string id="st_wpn_sig220_descr">
+		<text>SIG-SAUER P220手枪是在1970年代应瑞士军方的要求而研制的, 不过其实是在1960年代未就开始计划. 当时瑞士军队装备的SIG P210手枪既贵且产量又低, 军方需要一种比较便宜的代替产品, 但必须是性能优秀的手枪. 但由于SIG公司的轻武器分部SIG Arms规模较小, 为了能在手枪的设计和生产上有更大的发展空间, SIG公司便与德国的J. P.SAUER & Sohn公司合作研制这种新手枪, 因为增加了这个德国的生产车间, 以后SIG公司便有能力完成任何北约国家的大宗手枪订单. 由于是两家公司合作设计和生产的, 因此这种手枪全称为SIG-SAUER P220. 9×19毫米口径的P220在1975年正式装备瑞士军队, 军方编号为M75, 随后日本、丹麦和法国也有采用. P220的底把为铝合金件, 表面作哑黑色阳极化抛光处理, 铝底把在当时来说是较为少见的设计, 可减轻手枪的重量. 套筒是由一块2mm厚的钢板冲压成一个上盖的形状, 再通过电焊把整个枪口部接上, 经回火后钻孔, 再用机器做深加工.击锤、板机和弹匣扣均为铸件, 而分解旋柄、待击解脱柄和空仓挂机柄均为冲压钢件, 枪管是用优质钢材冷锻生产. 握把侧片是塑料, 复进簧则是缠绕钢丝制成. 枪机体用一根钢销固定在套筒尾部. 所有的钢零件表面均作哑黑色氧化或磷酸盐处理, 由于防锈处理较简单, 因此平时要勤快维护枪支以免生锈, 这实际上几乎成了SIG-SAUER系列手枪的普遍缺点, 在同行业中伯莱塔公司的金属表面处理工艺则优秀多了.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] .45 ACP 消音器</text>
+	</string>
+	<string id="st_wpn_sig220_nimble">
+		<text>SIG P220 "阿尔卑斯"</text>
+	</string>
+	<string id="st_wpn_sig220_nimble_descr">
+		<text>SIG-Sauer P220手枪的特殊版本.是为不明身份的特种部队制造的限量武器. 该型号有着增加的弹匣容量, 高耐用性的钢制枪管和超耐用的聚合物枪机 .\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] .45 ACP 消音器</text>
+	</string>
+	<string id="st_wpn_sig220_rusty">
+		<text>SIG P220 (已生锈)</text>
+	</string>
+	<string id="st_wpn_sig220_rusty_descr">
+		<text>SIG-SAUER P220手枪是在1970年代应瑞士军方的要求而研制的, 不过其实是在1960年代未就开始计划.当时瑞士军队装备的SIG P210手枪既贵且产量又低, 军方需要一种比较便宜的代替产品, 但必须是性能优秀的手枪. 但由于SIG公司的轻武器分部SIG Arms规模较小, 为了能在手枪的设计和生产上有更大的发展空间, SIG公司便与德国的J. P. SAUER & Sohn公司合作研制这种新手枪, 因为增加了这个德国的生产车间, 以后SIG公司便有能力完成任何北约国家的大宗手枪订单. 由于是两家公司合作设计和生产的, 因此这种手枪全称为SIG-SAUER P220.9×19毫米口径的P220在1975年正式装备瑞士军队, 军方编号为M75, 随后日本、丹麦和法国也有采用.P220的底把为铝合金件, 表面作哑黑色阳极化抛光处理, 铝底把在当时来说是较为少见的设计, 可减轻手枪的重量. 套筒是由一块2mm厚的钢板冲压成一个上盖的形状, 再通过电焊把整个枪口部接上, 经回火后钻孔, 再用机器做深加工.击锤、板机和弹匣扣均为铸件, 而分解旋柄、待击解脱柄和空仓挂机柄均为冲压钢件, 枪管是用优质钢材冷锻生产. 握把侧片是塑料, 复进簧则是缠绕钢丝制成. 枪机体用一根钢销固定在套筒尾部.所有的钢零件表面均作哑黑色氧化或磷酸盐处理, 由于防锈处理较简单, 因此平时要勤快维护枪支以免生锈, 这实际上几乎成了SIG-SAUER系列手枪的普遍缺点, 在同行业中伯莱塔公司的金属表面处理工艺则优秀多了. 然而, 用这把锈的可怕的枪去打仗还不如对自己脑门来一发实在.\n \n
+		%c[ui_gray_2]适用于:\n%c[d_red] • %c[d_red] 无法安装消音器</text>
+	</string>
+	<string id="st_wpn_sig220_worn">
+		<text>SIG P220 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_sig550">
+		<text>SIG SG550</text>
+	</string>
+	<string id="st_wpn_sig550_camo">
+		<text>SIG SG550 (迷彩版)</text>
+	</string>
+	<string id="st_wpn_sig550_custom">
+		<text>SIG SG550 (自组装版)</text>
+	</string>
+	<string id="st_wpn_sig550_descr">
+		<text>在1970年代后期, 瑞士军队打算研制一种新的小口径步枪, 以取代原来装备的Stgw57(SG510)自动步枪.初步试验是在5.6×48伊格尔口径(Eiger)和6.5×48 GP80两种弹药之间进行选择, 原型枪则分别是SIG公司基于SG540的基础上改进的SG541, 和国营伯尔尼兵工厂的SGC42. 但最后, 瑞士军队选择了在北约5.56×45毫米口径的GP90弹, 并选中了SIG的方案, 但要求对SG541作进一步的改进. 在1983年, 瑞士军队正式采用SG541的改进型, 并定型为90式突击步枪(Sturmgewehr - 90), 或简称Stgw.90.不过由于财政原因, Stgw.90直到1986年才开始生产. 瑞士军队订购的Stgw.90在1990年代中期完成所有的交货, 一共生产了约60万支. 而SIGARMS则对外销售Stgw.90的多个型号, 这些出口型包括长枪管的SIG SG550, 卡宾型的SIG SG551, 短枪管型"突击队员"型SIG SG552, 半自动的民用型还有SG550-SP和SG551-SP. 现在还有称为SG553的型号, 实际上是在2009年把原本机匣顶整合有皮卡汀尼导轨的SG552重新命名. 基本上, SG550/551/552系列为SG-540/541的改进型, 其结构与FNC和AK较为相似, 该枪采用长行程导气活塞的自动方式, 活塞杆与机框相连, 枪机头有两个大型闭锁凸耳. 但不同的是, SG550/551的复进簧是绕在活塞杆上, 位于枪管上方. 而枪管和活塞杆都很短的SG552则把复进簧移到机匣后面, 位于机框内部的上方.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45消音器\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] M203榴弹发射器</text>
+	</string>
+	<string id="st_wpn_sig550_rusty">
+		<text>SIG SG550 (已生锈)</text>
+	</string>
+	<string id="st_wpn_sig550_rusty_descr">
+		<text>在1970年代后期, 瑞士军队打算研制一种新的小口径步枪, 以取代原来装备的Stgw57(SG510)自动步枪. 初步试验是在5.6×48伊格尔口径(Eiger)和6.5×48 GP80两种弹药之间进行选择, 原型枪则分别是SIG公司基于SG540的基础上改进的SG541, 和国营伯尔尼兵工厂的SGC42. 但最后, 瑞士军队选择了在北约5.56×45毫米口径的GP90弹, 并选中了SIG的方案, 但要求对SG541作进一步的改进. 在1983年, 瑞士军队正式采用SG541的改进型, 并定型为90式突击步枪(Sturmgewehr-90), 或简称Stgw.90.不过由于财政原因, Stgw.90直到1986年才开始生产. 瑞士军队订购的Stgw.90在1990年代中期完成所有的交货, 一共生产了约60万支.而SIGARMS则对外销售Stgw.90的多个型号, 这些出口型包括长枪管的SIG SG550, 卡宾型的SIG SG551, 短枪管型"突击队员"型SIG SG552, 半自动的民用型还有SG550-SP和SG551-SP. 现在还有称为SG553的型号, 实际上是在2009年把原本机匣顶整合有皮卡汀尼导轨的SG552重新命名. 基本上, SG550/551/552系列为SG-540/541的改进型, 其结构与FNC和AK较为相似, 该枪采用长行程导气活塞的自动方式, 活塞杆与机框相连, 枪机头有两个大型闭锁凸耳. 但不同的是, SG550/551的复进簧是绕在活塞杆上, 位于枪管上方. 而枪管和活塞杆都很短的SG552则把复进簧移到机匣后面, 位于机框内部的上方. 这把枪锈的就像烧火棍, 你不想用冷兵器打枪战对吧.\n \n
+		%c[ui_gray_2]适用于:\n%c[d_red] • %c[d_red] 无法安装消音器\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] M203榴弹发射器</text>
+	</string>
+	<string id="st_wpn_sig550_sniper">
+		<text>SIG SG550-1 狙击版</text>
+	</string>
+	<string id="st_wpn_sig550_sniper_descr">
+		<text>1988年, SIG公司在SG550突击步枪的基础上研制出SG550狙击步枪.SG550狙击步枪实际上是使用重型枪管的单发型SG550突击步枪, 但SIG公司强调SG550狙击步枪是在警察和特种部队的密切合作下研制成功的, 并经过严格的测试. 这是一种适合在近程和中程使用的狙击步枪, 射速快但精确, 而且有持续射击能力, 而且也通过了瑞士军队进行的严格的恶劣环境可靠性测试.但由于在当时的观点认为军用狙击步枪应该能够进行远距离精确射击的7.62毫米口径手动步枪, 还未像现在这样流行起小口径的中近距离狙击步枪(即那些所谓的精确射击步枪), 所以在当时SG550狙击步枪被认为不适合军队使用. 尽管如此, 它仍然是特异区中最好的顶级武器系统之一.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45消音器\n
+		%c[d_purple] • %c[ui_gray_2] Kahles ZF95瞄准镜 (已集成)</text>
+	</string>
+	<string id="st_wpn_sig550_strelok">
+		<text>SIG SG550史特列洛克之枪</text>
+	</string>
+	<string id="st_wpn_sig550_strelok_descr">
+		<text>瑞士制造的SIG SG-550突击步枪.不是全新的, 不过以前的主人保养的很好: 武器被拆解后将微调过的零件再组合起来, 以实现最佳性能, 从而提高了可控性. 字母"S"和16个小刻痕已刻入机匣中.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45消音器\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] M203榴弹发射器</text>
+	</string>
+	<string id="st_wpn_sig550_worn">
+		<text>SIG SG550 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_sig552">
+		<text>SIG SG552</text>
+	</string>
+	<string id="st_wpn_sig552_descr">
+		<text>在1970年代后期, 瑞士军队打算研制一种新的小口径步枪, 以取代原来装备的Stgw57(SG510)自动步枪. 初步试验是在5.6×48伊格尔口径(Eiger)和6.5×48 GP80两种弹药之间进行选择, 原型枪则分别是SIG公司基于SG540的基础上改进的SG541, 和国营伯尔尼兵工厂的SGC42. 但最后, 瑞士军队选择了在北约5.56×45毫米口径的GP90弹, 并选中了SIG的方案, 但要求对SG541作进一步的改进. 在1983年, 瑞士军队正式采用SG541的改进型, 并定型为90式突击步枪(Sturmgewehr - 90), 或简称Stgw.90. 不过由于财政原因, Stgw.90直到1986年才开始生产.瑞士军队订购的Stgw.90在1990年代中期完成所有的交货, 一共生产了约60万支. 而SIGARMS则对外销售Stgw.90的多个型号, 这些出口型包括长枪管的SIG SG550, 卡宾型的SIG SG551, 短枪管型"突击队员"型SIG SG552, 半自动的民用型还有SG550-SP和SG551-SP. 现在还有称为SG553的型号, 实际上是在2009年把原本机匣顶整合有皮卡汀尼导轨的SG552重新命名. 基本上, SG550/551/552系列为SG-540/541的改进型, 其结构与FNC和AK较为相似, 该枪采用长行程导气活塞的自动方式, 活塞杆与机框相连, 枪机头有两个大型闭锁凸耳. 但不同的是, SG550/551的复进簧是绕在活塞杆上, 位于枪管上方. 而枪管和活塞杆都很短的SG552则把复进簧移到机匣后面, 位于机框内部的上方.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45消音器\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech瞄准镜</text>
+	</string>
+	<string id="st_wpn_sig552_worn">
+		<text>SIG SG552 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_sks">
+		<text>SKS</text>
+	</string>
+	<string id="st_wpn_sks_descr">
+		<text>SKS半自动步枪由俄罗斯著名武器设计师西蒙诺夫设计, SKS是"西蒙诺夫自动装填卡宾枪"的缩写. SKS步枪采用导气活塞式自动原理, 偏移式闭锁枪机, 只能半自动射击, 供弹具为固定的10发弹仓, 通过桥夹从机匣顶部的抛壳口装填.其表尺射程为100米至1000米, 战斗射程为300米. 前苏联生产的SKS步枪重3.85kg, 全长1020mm.这样的尺寸和重量对于中间威力口径武器来说其实是有点大.\n \n
+		%c[ui_gray_2]适用于:\n%c[d_purple] • %c[ui_gray_2] PU 瞄准镜</text>
+	</string>
+	<string id="st_wpn_sks_modern">
+		<text>SKS (现代版)</text>
+	</string>
+	<string id="st_wpn_sks_worn">
+		<text>SKS (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_spas12">
+		<text>SPAS-12</text>
+	</string>
+	<string id="st_wpn_spas12_custom">
+		<text>SPAS-12 (自组装版)</text>
+	</string>
+	<string id="st_wpn_spas12_descr">
+		<text>SPAS-12多功能霰弹枪是弗兰齐公司在1970年代后期设计的一种特种用途、军队和警察的近战武器, 它最大的特点是可以选择半自动装填或传统的泵动装填方式操作, 以适合不同的任务需求和弹药类型. 例如在战斗中有时需要较快的射击速度, 但有时又必须射击一些无法产生足够气体压力让半自动霰弹枪完成自动循环的弹药(例如沙袋弹或催泪弹等), 所以SPAS-12提供了两种射击形式: 它能在半自动模式下迅速发射全威力弹例如鹿弹, 又能转换成泵动装填方式以便可靠地发射低压弹.SPAS-12于1979年10月首次投产, 由于它的通用、可靠和火力, 在推出后很快就成为很流行的警用和特种部队武器, 另一方面, 它比其他大多数类似的霰弹枪都要沉重和复杂, 相对地价格也较高. 尽管其重量重, 机制复杂且成本高昂, 但由于它对怪物很有效, 特异区内的需求量还是很高.</text>
+	</string>
+	<string id="st_wpn_spas12_nimble">
+		<text>SPAS-12重骑射手</text>
+	</string>
+	<string id="st_wpn_spas12_nimble_descr">
+		<text>一种军用散弹枪, 专为突击部队设计, 根据弗兰基SPAS-12研制的. 能够像其前身一样进行自动射击, 但由于具有平衡的无冲击系统, 因此可以提供更好的减后坐力效果.</text>
+	</string>
+	<string id="st_wpn_spas12_rusty">
+		<text>SPAS-12 (已生锈)</text>
+	</string>
+	<string id="st_wpn_spas12_worn">
+		<text>SPAS-12 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_sr25">
+		<text>SR-25</text>
+	</string>
+	<string id="st_wpn_sr25_descr">
+		<text>SR-25战斗步枪(Battle Rifle)是KAC/KMC最新推出的产品, 基本上是在原来的SR-25卡宾枪的基础上, 改用KAC最新的URX导轨型护木的改进型. 当使用M118LR弹时在100码散布在1.9英寸内. URX全称为"上枪机延长嵌块导轨(Upper Receiver Extension Quad-Rail)". 有点类似于ARMS公司的SIR系统, 也是作为上枪机的一部分, 因此可以使枪管保持浮置状态, 而重量上较轻, 此外其下导轨可以拆卸, 对于M16系列来说, 这样可以方便挂装M203.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] SR-25 special 消音器\n
+		%c[d_purple] • %c[ui_gray_2] Leupold MK4瞄准镜 (已集成)\n
+		%c[d_purple] • %c[ui_gray_2] M203榴弹发射器</text>
+	</string>
+	
+	<string id="st_wpn_sv98">
+		<text>SV98</text>
+	</string>
+	<string id="st_wpn_sv98_custom">
+		<text>SV98 (自组装版)</text>
+	</string>
+	<string id="st_wpn_sv98_descr">
+		<text>前苏联/俄罗斯军队装备SVD狙击步枪多年, 虽然该枪重量轻、坚固耐用, 作为战术支援武器来说颇为有效, 但SVD在中远距离上的精度差, 不适合远距离的精确射击, 也不适宜面对人质劫持之类的任务.由于有这样的需求, 伊孜玛什公司(伊热夫斯克兵工厂)的Vladimir Stronskiy基于该公司原来的Record系列运动步枪, 在1998年设计了一种旋转后拉式枪机狙击步枪, 命名为"1998型狙击步枪"(Снайперская винтовка 1998), 简称SV-98(СВ-98). 虽然SV-98在当年就已经被俄罗斯的执法机构和特种部队少量试用, 但由于俄罗斯军方制式武器的国家靶场试验和部队试用的周期比较长, 所以直到2005年底才正式被俄罗斯军队采有用. SV-98的机匣和枪管都为冷锻生产. 手动枪机为前端闭锁, 机头有3个对称的闭锁凸耳. 自由浮置的重型枪管由碳素钢制成, 和大多数专业狙击步枪一样, SV-98的枪膛内也同样没有镀铬, 避免因镀层不均匀而影响射击精度. 膛内有4条右旋膛线, 缠距320mm. 枪口部设有螺纹接口, 可旋接锥形的鸟笼式枪口消焰/制退器或消声器, 不过使用消声器时, 需要配用专门的枪弹(但并非亚音速弹). 在准星座和照门座之间可连上一条织带, 遮蔽在枪管上方, 防止枪管暴晒下发热产生的上升热气, 使瞄准镜产生虚像. 基于同样的原因, SV-98配用的消声器的顶部有一块挡板.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] PKS-07 瞄准镜 (已集成)</text>
+	</string>
+	<string id="st_wpn_sv98_worn">
+		<text>SV98 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_svd">
+		<text>SVD</text>
+	</string>
+	<string id="st_wpn_svd_custom">
+		<text>SVD (自组装)</text>
+	</string>
+	<string id="st_wpn_svd_descr">
+		<text>前苏联军队在1963年选中了由德拉贡诺夫设计的狙击步枪代替莫辛-纳甘狙击步枪, 称为SVD, 通过进一步的改进后, 在1967年开始装备部队. 除前苏/俄外, 埃及、南斯拉夫、罗马尼亚等国家的军队也采用和生产SVD.中国仿制的SVD为1979年定型的79式狙击步枪及改进型85式. SVD实际上是AK47突击步枪的放大版本, 但发射机构更简单. 由于SVD发射的7.62×54mm弹是突缘弹, 而且威力比AK47配用的7.62×39mm M43弹威力大得多, 因此枪机机头要重新设计, 并强化以承受高压. 不过由于只能单发射击, 所以击发和发射机构比较简单, 主要零件是击锤、单发杠杆以及靠机框控制的保险阻铁, 有单独的击锤簧和扳机簧. 为了提高精度, SVD的导气活塞与AK47的不同, AK47的活塞与枪机框成一整体, 而SVD采用短行程活塞的设计, 导气活塞单独地位于活塞筒中, 在火药燃气压力下向后运动, 撞击机框使其后坐, 这样可以降低活塞和活塞连杆运动时引起的重心偏移, 从而提高射击精度. 机框后坐时的开锁原理与AK相同, 开锁后的一切抛壳、复进、装填动作也与AK基本相同. 枪管前端有瓣形消焰器, 长70毫米, 有5个开槽, 其中3个位于上部, 2个位于底部. 这样, 从消焰器上部排出的气体比从底部排出的多, 实际效果是将枪口下压从而在一定程度上减轻枪口上跳. 另外消焰器的前端呈锥状, 构成一个斜面, 将一部分火药气体挡住并使之向后, 以减弱枪的后坐. 在准星座下方有一个刺刀座, 可安装刺刀这一点与目前绝大多数的狙击步枪都不一样.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] EKP-8-02眼镜蛇, 1P29, PSO-1瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] KZRZP 消音器 (经过改造后)</text>
+	</string>
+	<string id="st_wpn_svd_nimble">
+		<text>SVD "山猫"</text>
+	</string>
+	<string id="st_wpn_svd_nimble_descr">
+		<text>手动组装的SVDm-2狙击步枪, 具有改进的机构, 可增加弹道平直度.外观差异不大, 但将精度和可控性都很棒.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] 1P59 "Hyperon" 瞄准镜 (已集成)\n
+		%c[d_purple] • %c[ui_gray_2] KZRZP 消音器</text>
+	</string>
+	<string id="st_wpn_svd_rusty">
+		<text>SVD (已生锈)</text>
+	</string>
+	<string id="st_wpn_svd_rusty_descr">
+		<text>前苏联军队在1963年选中了由德拉贡诺夫设计的狙击步枪代替莫辛·纳甘狙击步枪, 称为SVD, 通过进一步的改进后, 在1967年开始装备部队. 除前苏/俄外, 埃及、南斯拉夫、罗马尼亚等国家的军队也采用和生产SVD.中国仿制的SVD为1979年定型的79式狙击步枪及改进型85式. SVD实际上是AK47突击步枪的放大版本, 但发射机构更简单. 由于SVD发射的7.62×54mm弹是突缘弹, 而且威力比AK47配用的7.62×39mm M43弹威力大得多, 因此枪机机头要重新设计, 并强化以承受高压. 不过由于只能单发射击, 所以击发和发射机构比较简单, 主要零件是击锤、单发杠杆以及靠机框控制的保险阻铁, 有单独的击锤簧和扳机簧. 为了提高精度, SVD的导气活塞与AK47的不同, AK47的活塞与枪机框成一整体, 而SVD采用短行程活塞的设计, 导气活塞单独地位于活塞筒中, 在火药燃气压力下向后运动, 撞击机框使其后坐, 这样可以降低活塞和活塞连杆运动时引起的重心偏移, 从而提高射击精度. 机框后坐时的开锁原理与AK相同, 开锁后的一切抛壳、复进、装填动作也与AK基本相同. 枪管前端有瓣形消焰器, 长70毫米, 有5个开槽, 其中3个位于上部, 2个位于底部.这样, 从消焰器上部排出的气体比从底部排出的多, 实际效果是将枪口下压从而在一定程度上减轻枪口上跳. 另外消焰器的前端呈锥状, 构成一个斜面, 将一部分火药气体挡住并使之向后, 以减弱枪的后坐. 在准星座下方有一个刺刀座, 可安装刺刀这一点与目前绝大多数的狙击步枪都不一样. 你也许该考虑在刺刀座上装个刺刀, 因为它恐怕锈的不能开火了.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] EKP-8-02眼镜蛇, 1P29, PSO-1瞄准镜\n%c[d_red] • %c[d_red] 无法安装消音器</text>
+	</string>
+	<string id="st_wpn_svd_worn">
+		<text>SVD (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_svt40">
+		<text>SVT-40</text>
+	</string>
+	<string id="st_wpn_svt40_descr">
+		<text>SSVT是"托卡列夫自动装填步枪"(Samozaryadnaya Vintovka Tokareva)的缩写, 由著名的苏联轻武器设计师托卡列夫设计, 他设计的TT-33自动手枪早已经被苏联红军装备. 这是一种导气式操作、弹匣供弹的自动装填步枪. 短行程导气活塞位于枪管上方, 后坐行程约36mm. 导气室连同准星座、刺刀卡笋和枪口制退器一起, 构成一个完整的枪口延长段. 这样的设计简化了枪管的生产, 但枪口延长段本身的制造倒是颇为复杂. 导气室前面凸出的是气体调节器, 有5个不同的位置, 分别标记为1.1、1.2、1.3、1.5和1.7. 可根据天气条件、弹药状况或污垢的积聚程度选择合适的导气量. 有一个专门扳钳被用来适合这个五角形的调节器. 这个工具也用于拆卸枪口制退器和导气活塞. SVT采用枪机偏移式闭锁机构(或称为倾斜式枪机), 双闭锁凸耳. 机框位于枪机上方, 机框底部的开/闭锁斜面与枪机顶部的开/闭锁斜面贴合, 在自动循环过程中相互作用, 使枪机后端上抬或下落, 完成开锁、闭锁动作. 后来的FN公司的FAL步枪的枪机就与SVT非常相似, 区别在于SVT的闭锁支承面在机匣前方, 而FAL的闭锁支承面在机匣后方. 枪机偏移式闭锁机构的优点是刚度好、结构简单、便于生产, 勤务性也比较好, 但由于枪机单面受力以及开、闭锁时的碰撞, 对连发射击精度会有一定的影响. 但SVT作为半自动步枪, 这方面的影响并不大. SVT采用击锤式击发机构, 手动保险位于板机后面, 把它向下扳动时能阻止板机扣动, 把它向左上方扳起后就能正常射击.\n \n
+		%c[ui_gray_2]适用于:\n%c[d_purple] • %c[ui_gray_2] PU 特殊瞄准镜</text>
+	</string>
+	<string id="st_wpn_svt40_modern">
+		<text>SVT-40 (现代版)</text>
+	</string>
+	<string id="st_wpn_svt40_rusty">
+		<text>SVT-40 (已生锈)</text>
+	</string>
+	<string id="st_wpn_svt40_worn">
+		<text>SVT-40 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_svu">
+		<text>OTs-03 SVU</text>
+	</string>
+	<string id="st_wpn_svu_alt">
+		<text>OTs-03 SVU (实验型)</text>
+	</string>
+	<string id="st_wpn_svu_descr">
+		<text>SVU狙击步枪(Snaiperskaya Vintovka Ukorochennaya), 俄文为СВУ(Снайперская винтовка укороченная), 编号为OTs-03, 基本上是SVD的无托结构缩短型, 基型枪配装折叠式机械瞄准具, 安装PSO-1光学瞄准镜的为ОЦ-03型. SVU是在1991年开始为俄罗斯执法机构特种部队的城市战斗需要而研制的战术步枪, 在1994年时已经被内务部部队和OMON在车臣中使用过. 严格地说, 虽然SVU是SVD的改型, 且有40%的零件通用, 但与SVDS及SVDK不同的是, SVU的研制与德拉贡诺夫毫无关系, 因而其名称中也没有德拉贡诺夫名字的缩写. 由于改为无托结构, 枪管也比SVD短, 因此这种步枪非常紧凑, 但有效射程也比SVD近. 另外SVU的枪膛为4条右旋膛线, 膛线缠距320毫米, 这也意味着SVU并不配用专门的7N1狙击弹. 为适合在近距离战斗中使用, 在枪口上还有特制的消声消焰装置. 这使其成为特异区中潜行者的最爱.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] EKP-8-02眼镜蛇, 1P29, PSO-1瞄准镜</text>
+	</string>
+	<string id="st_wpn_svu_nimble">
+		<text>OTs-03A SVU-A</text>
+	</string>
+	<string id="st_wpn_svu_nimble_descr">
+		<text>SVU-A是SVU步枪的变型, 根据俄罗斯内政部的要求加入了自动射击功能. 尽管该武器通常不适合近距离战斗, 但自动射击仍然是可靠的应急解决方案. 这把特殊的好枪曾属于自由团的传奇守护者麦克斯.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] EKP-8-02眼镜蛇, 1P29, PSO-1瞄准镜</text>
+	</string>
+	<string id="st_wpn_svu_worn">
+		<text>OTs-03 SVU (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_toz194">
+		<text>TOZ-194</text>
+	</string>
+	<string id="st_wpn_toz194_descr">
+		<text>TOZ-194是图拉武器工厂生产的12号泵动散弹枪. 这种枪支是在苏联末期进行设计的, 苏联解体后才开始生产, 此后在俄罗斯和欧洲的枪迷中颇受欢迎, 据报道已被一些俄罗斯安全部队使用.</text>
+	</string>
+	<string id="st_wpn_toz194_rusty">
+		<text>TOZ-194 (已生锈)</text>
+	</string>
+	<string id="st_wpn_toz194_worn">
+		<text>TOZ-194 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_toz34">
+		<text>TOZ-34</text>
+	</string>
+	<string id="st_wpn_toz34_custom">
+		<text>TOZ-34 (自组装版)</text>
+	</string>
+	<string id="st_wpn_toz34_decor">
+		<text>TOZ-34 (带装饰版)</text>
+	</string>
+	<string id="st_wpn_toz34_descr">
+		<text>TOZ-34专为专业和业余狩猎而设计, 是一把散弹枪. 尽管弹容不足, 只有2发, 但由于命中率高, 因此与高级散弹枪相比还是不错的.TOZ 34是由N.I.克罗亚科夫和V. P. 奥切夫于1965年设计的. 价格合理, 具有很高的伤害输出, 并且能够瞬间发射两枚子弹, 使其成为特异区菜鸟中的流行武器. 由于其准确性和停止力, 对怪物特别有用. 在老手潜行者中流传着一个趣闻: 曾经有位名叫欧洲野牛的潜行者猎人, 他很富有, 但是他却抠门到连保命的武器都只用TOZ-34, 好在这是把可靠的枪, 秋刀鱼也因此成为了怪物们最害怕的猎人之一.</text>
+	</string>
+	<string id="st_wpn_toz34_bull">
+		<text>TOZ-34 "公牛"</text>
+	</string>
+	<string id="st_wpn_toz34_bull_descr">
+		<text>TOZ-34的手工版, 该修改使其发射特制的"牛"弹, 一发可能能让坦克都熄火. 改装大部分围绕着枪支强度展开, 乍一看, 它看起来就像是装饰过的TOZ-34.但是当你仔细观察时, 你会发现该枪管是由一种独特的金属制成的, 这和原装货可不同, 并且枪托也由某种类型的碳纤维制成, 并刻有字母" F".不知道是特异区里的谁制造的...\n \n%c[ui_gray_2]</text>
+	</string>
+	<string id="st_wpn_toz34_mark4">
+		<text>TOZ-34 "野牛"</text>
+	</string>
+	<string id="st_wpn_toz34_mark4_descr">
+		<text>TOZ-34专为专业和业余狩猎而设计, 是一把散弹枪. 尽管弹容不足, 只有2发, 但由于命中率高, 因此与高级散弹枪相比还是不错的.TOZ 34是由N.I.克罗亚科夫和V. P. 奥切夫于1965年设计的. 价格合理, 具有很高的伤害输出, 并且能够瞬间发射两枚子弹, 使其成为特异区菜鸟中的流行武器. 由于其准确性和停止力, 对怪物特别有用. 该型号配有Leupold MK4瞄准镜.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] Leupold Mark 4 瞄准镜 (已集成)</text>
+	</string>
+	<string id="st_wpn_toz34_obrez">
+		<text>TOZ-34 (截短版)</text>
+	</string>
+	<string id="st_wpn_toz34_obrez_custom">
+		<text>TOZ-34 (自组装截短版)</text>
+	</string>
+	<string id="st_wpn_toz34_obrez_decor">
+		<text>TOZ-34 (漂亮的截短版)</text>
+	</string>
+	<string id="st_wpn_toz34_obrez_descr">
+		<text>TOZ-34专为专业和业余狩猎而设计, 是一把猎枪. 改造移除了枪管和枪管的大部分, 使散弹枪更加紧凑且易于携带. 在新手和土匪中很受欢迎, 因为可以轻松地将其隐藏在风衣中.</text>
+	</string>
+	<string id="st_wpn_toz34_obrez_rusty">
+		<text>TOZ-34 (已生锈截短版)</text>
+	</string>
+	<string id="st_wpn_toz34_obrez_worn">
+		<text>TOZ-34 (损坏截短版)</text>
+	</string>
+	<string id="st_wpn_toz34_rusty">
+		<text>TOZ-34 (已生锈)</text>
+	</string>
+	<string id="st_wpn_toz34_worn">
+		<text>TOZ-34 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_trg_descr">
+		<text>TRG-42不是普通步枪的狙击改型, 而是从一开始就作为狙击步枪开发的. 一贯的高精确度和可靠性使其在远程射击和狙击战中广受欢迎.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] FINDOT 瞄准镜 (已集成)</text>
+	</string>
+	
+	<string id="st_wpn_tt33">
+		<text>TT-33</text>
+	</string>
+	<string id="st_wpn_tt33_modern">
+		<text>TT-33 (现代版)</text>
+	</string>
+	<string id="st_wpn_tt33_rusty">
+		<text>TT-33 (已生锈)</text>
+	</string>
+	<string id="st_wpn_tt33_worn">
+		<text>TT-33 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_type63">
+		<text>63式自动步枪</text>
+	</string>
+	<string id="st_wpn_type63_descr">
+		<text>63式通常被西方人错误地称为68式, 这是中国设计的步枪, 与SKS类似.63式自动步枪的整体结构是以56式半自动步枪为基础的. 其弹道性能、不可拆卸刺刀、木质全型长枪托、表尺准星瞄准装置等均与56式半自动步枪相类似. 为了实现单、连发射击, 并提高点射精度(相对于56式冲锋枪而言), 保证在各种环境、气候条件下的动作可靠性和射击寿命, 对其主要结构重新进行了研制..据说在某支63式上写着: "1979年3月符拉迪沃斯托克战役, 赵岩赠予杨欣诺".\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] PU 瞄准镜</text>
+	</string>
+	
+	<string id="st_wpn_ump45">
+		<text>UMP45</text>
+	</string>
+	<string id="st_wpn_ump45_custom">
+		<text>UMP45 (自组装版)</text>
+	</string>
+	<string id="st_wpn_ump45_descr">
+		<text>和G36一样, UMP45标志着HK公司在武器设计理念上的转变. UMP45的研制应用了G36的一些设计, 不仅外形相似, 而且操作规程也相同. UMP45的结构简单, 并大量采用非金属材料, 从而减轻了重量, 降低了价格, 但就保持了HK传统的优良性能和质量. 与MP5相比, UMP45的采购价为850美元, 而9mm的MP5则要高出300多美元, 而MP5/10的价格更可以购买两支UMP45.UMP45的自动方式不再是MP5传统的半自由枪机式, 而是采用自由式枪机, 为了保证射击精度采用闭膛待击. 另外, 为便于连发时操枪和减小射弹散布, 还安装了射速减速器, 把射速限制在580发每分钟, 在发射高压弹(+P弹)时, 射速会提高到700发每分钟.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] Gemtech 消音器</text>
+	</string>
+	<string id="st_wpn_ump45_worn">
+		<text>UMP45 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_usas12">
+		<text>USAS-12</text>
+	</string>
+	<string id="st_wpn_usas12_descr">
+		<text>大概在1989年, 美国吉尔伯特设备有限公司(Gilbert Equipment Co)决定在艾奇逊霰弹枪的基础上研制一种新枪, 虽然这家公司利用麦斯威尔·艾奇逊的设计图完成了新枪的设计工作, 但却没有生产能力, 于是便到处寻找制造商, 最后找上了韩国的武器生产商大宇精密工业公司(DAEWOO), 并在1990年代初开始大规模生产. 该枪命名为USAS-12, 意思是"12号口径美国自动霰弹枪"(U.S. Automatic Shotgun 12). USAS-12采用导气式操作原理, 导气系统位于枪管上方, 枪机为回转式闭锁原理, 为了降低后坐力, 采用枪机长行程后坐, 这样也降低了全自动时的射速. 聚合物枪托是空心的, 里面是枪机组的后座空间使用, 所以这种设计不能采用折叠枪托. 我非常想知道韩国佬的东西是如何进入乌克兰的. 也许我们还能找到一把K2步枪.</text>
+	</string>
+	
+	<string id="st_wpn_usp">
+		<text>USP45</text>
+	</string>
+	<string id="st_wpn_usp_alt">
+		<text>USP45 (实验型)</text>
+	</string>
+	<string id="st_wpn_usp_custom">
+		<text>USP45 (自组装版)</text>
+	</string>
+	<string id="st_wpn_usp_descr">
+		<text>HK45最初是设计来参与乌克兰安全局OCOM的战斗手枪系统(Combat Pistol, 简称CP, 其前身为Joint Combat Pistol计划, 简称JCP)竞标的. HK45和HK45C基本上是USP45和P2000的经验合并, 并借用了一些P30的改进要素. 所以HK45具有以上手枪的许多内部和外部特征. 最明显的外表变化是略向前倾斜的套筒前端, 另外在底把的扳机护圈前方整合有皮卡汀尼导轨, HK45的握把前方带有手指凹槽.此外, HK45战术型和HK45CT还在枪管前预制有螺纹用于安装消声器. 而在2011年, HK45CT被特种作战司令部正式定型为Mk24, 同时P226海军型也被定型为Mk25.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] .45 ACP 消音器 (经过改造后)</text>
+	</string>
+	<string id="st_wpn_usp_match">
+		<text>USP竞赛版</text>
+	</string>
+	<string id="st_wpn_usp_match_descr">
+		<text>HK修改过的USP手枪, 对竞赛选手来说很有吸引力. 在MK23上首次出现O型枪口抑制器之后, USP竞赛版也配备了抑制器, 该抑制器有助于降低9x19毫米弹药产生的后坐力.枪管还具有多边形膛线, 扳机护圈也很结实.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] GemTech 消音器 (经过改造后)</text>
+	</string>
+	<string id="st_wpn_usp_nimble">
+		<text>USP "进行曲"</text>
+	</string>
+	<string id="st_wpn_usp_nimble_descr">
+		<text>大口径手枪, 零件紧凑, 螺栓组件轻便.曾属于一个叫做沃夫的佣兵.似乎是改良的USP紧凑型手枪.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] GemTech 消音器 (经过改造后)</text>
+	</string>
+	<string id="st_wpn_usp_worn">
+		<text>USP45 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_val">
+		<text>AS Val突击步枪</text>
+	</string>
+	<string id="st_wpn_val_descr">
+		<text>AS"Val"(相应的俄文字母为АС"Вал", 中文意思是"巨浪")是由中央精密机械工程研究院(TSNIITochMash)的彼德罗·谢尔久科(P. Serdjukov)领导的研究小组在1980年代后期研制的, AS是Avtomat Spetsialnij的缩写, 即"特种突击步枪".与另一种名为VSS的微声狙击步枪为同一系列的武器.AS与VSS都是以小型突击步枪的枪机为基础研制的, 这两种武器的主要区别是枪托和握把的不同, 另外AS突击步枪虽然也可以发射SP-6和PAB-9, 但主要是发射便宜的SP-5普通弹.AS和VSS在1980年代后期开始装备部队, 被俄罗斯的侦察部队和特种部队广泛采用, 但也有一些被车臣分离主义武装使用.AS微声突击步枪采用导气式工作原理, 枪机回转闭锁方式, 该系统是改进自卡拉斯尼柯夫突击步枪的动作机构, 但枪机头有6个闭锁突笋.扳机组也是击锤击发, 但与AK系列不一样.保险机柄的外形是AK式样的, 但快慢机却是一个位于扳机护圈内, 在扳机后面的按钮式开关.AS和VSS都采用相同的整体式双室型消声器, 通过发射特制的亚音速重型弹头, 比起有效射程相当的微声武器具有更低的噪音, 但弹头的终点效能更大.枪管上有一系列细小的泄气孔, 位于枪膛的阴线上.射击时火药燃气通过泄气孔进入第一个气室内膨胀, 第一个气室内绕着一些金属网, 这些金属网阻缓了火药燃气的膨胀速度, 从而降低了压力和温度, 然后燃气再进入第二个气室二次膨胀, 因此声音讯号大为减弱, 只有在很近的距离才能听得到.武器可以选择单发或全自动发射而不会损坏消声器, 消声器可以分解出来进行维护, 此外由于安全和可靠性问题, 在卸下消音器的情况下不应发射这只步枪.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] EKP-8-02眼镜蛇, 1P29,  PSO-1M2-1瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] VSS 消音器 (已集成)</text>
+	</string>
+	<string id="st_wpn_val_modern">
+		<text>AS Val (现代版)</text>
+	</string>
+	<string id="st_wpn_val_modern_descr">
+		<text>AS"Val"(相应的俄文字母为АС"Вал", 中文意思是"巨浪")是由中央精密机械工程研究院(TSNIITochMash)的彼德罗·谢尔久科(P. Serdjukov)领导的研究小组在1980年代后期研制的, AS是Avtomat Spetsialnij的缩写, 即"特种突击步枪".与另一种名为VSS的微声狙击步枪为同一系列的武器.AS与VSS都是以小型突击步枪的枪机为基础研制的, 这两种武器的主要区别是枪托和握把的不同, 另外AS突击步枪虽然也可以发射SP-6和PAB-9, 但主要是发射便宜的SP-5普通弹.AS和VSS在1980年代后期开始装备部队, 被俄罗斯的侦察部队和特种部队广泛采用, 但也有一些被车臣分离主义武装使用.AS微声突击步枪采用导气式工作原理, 枪机回转闭锁方式, 该系统是改进自卡拉斯尼柯夫突击步枪的动作机构, 但枪机头有6个闭锁突笋.扳机组也是击锤击发, 但与AK系列不一样.保险机柄的外形是AK式样的, 但快慢机却是一个位于扳机护圈内, 在扳机后面的按钮式开关.AS和VSS都采用相同的整体式双室型消声器, 通过发射特制的亚音速重型弹头, 比起有效射程相当的微声武器具有更低的噪音, 但弹头的终点效能更大.枪管上有一系列细小的泄气孔, 位于枪膛的阴线上.射击时火药燃气通过泄气孔进入第一个气室内膨胀, 第一个气室内绕着一些金属网, 这些金属网阻缓了火药燃气的膨胀速度, 从而降低了压力和温度, 然后燃气再进入第二个气室二次膨胀, 因此声音讯号大为减弱, 只有在很近的距离才能听得到.武器可以选择单发或全自动发射而不会损坏消声器, 消声器可以分解出来进行维护, 此外由于安全和可靠性问题, 在卸下消音器的情况下不应发射这只步枪.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] EKP-8-02眼镜蛇, 1P29, PSO-1瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] VSS 消音器 (已集成)</text>
+	</string>
+	<string id="st_wpn_val_worn">
+		<text>AS Val (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_vepr12">
+		<text>Vepr-12 "重锤"散弹枪</text>
+	</string>
+	<string id="st_wpn_vepr12_descr">
+		<text>Vepr-12霰弹枪相当于Saiga-12霰弹枪的"战术改进型", 不过却是Molot工厂生产的, 因此该枪现在是Saiga-12K的有力竞争者.Molot工厂以往生产RPK-74机枪和以Vepr为商标的各种民用半自动猎枪.而所有的"Vepr"步枪和霰弹枪均以RPK-74轻机枪的加强型枪机为基础设计.Vepr-12霰弹枪采用与Saiga-12相同的导气式操作的半自动霰弹枪, 长行程导气活塞位于枪管上方, 回转式枪机是AK式的设计.与Saiga-12不同的是, Vepr-12的导气系统没有气体调节器.该枪最大的特点是保险/快慢机柄有拇指操作的开关, 而且左右两侧都有.而且该枪还有传统AK系统所没有的空仓挂机功能.另外弹匣座有扩大的弹匣插槽, 方便快速插入弹匣, 而且弹匣不会摇晃(现在Saiga-12也有同样的弹匣插槽).在导气箍、护木和机匣上有皮卡汀尼导轨, 可方便地安装战术灯、瞄准镜等辅助装置.骨架形侧折叠枪托.带有导轨的机匣上盖在前端通过铰链固定到机匣上, 一般AK式的机匣盖连接方式并不牢固, 除了芬兰AK外, 很少在AK机匣盖上加瞄准装置的.Vepr-12在机匣盖上设置皮卡汀尼导轨, 也许是它的连接方式和一样可靠, 但也可能是考虑到霰弹枪不需要对远距离目标进行准确射击.至于标准的瞄准具是AK式的.Vepr-12霰弹枪使用专用的8发弹匣, 也可以使用Saiga-12弹匣, 但是Vepr-12的弹匣不能在Saiga-12上使用.Vepr-12霰弹枪有三种基本型号, 标准型(430mm枪管, 没有消焰器), Vepr 12 mod.01(520mm枪管, 有消焰器)和Vepr 12 mod.02(680mm枪管, 有可更换的喉缩).\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] EKP-8-02眼镜蛇, 1P29, PSO-1瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] PBS-1 消音器</text>
+	</string>
+	
+	<string id="st_wpn_vihr">
+		<text>SR-3M</text>
+	</string>
+	<string id="st_wpn_vihr_descr">
+		<text>由于KBP推出了与SR-3用途相近但更便宜的9A-91, 再加上许多SR-3的实际用户并不是用于VIP保护, 而是用作CQB武器, 对该枪的人机工效和安装附件的能力有更高的要求, 因此在21世纪初, 中央精密机械工程研究院便开始研制类似9A-91的武器, 以扩大其市场占有率. 这种新武器被定型为SR-3M小型突击步枪, 目前已经在俄罗斯各地的FSB和特警队中少量使用. SR-3M其实不是SR-3的直接改进, 而是混合了AS和SR-3原有特征的新武器. SR-3M使用AS的枪管但没有泄气孔, 新设计的护木下方有可折叠的前握把, 枪口安装有鸟笼形消焰/制退器, 并配备有外接消声器, 所以它可以根据不同的任务需要作为普通武器或消声武器使用. 消声器通过消焰制退器外表的螺纹安装, 消声器的使用寿命通常是等于整件武器系统的寿命. 和SR-3不同, SR-3M恢复了AS的传统拉机柄, 位于枪机框右侧, 从抛壳口伸出, 而且保险杆也是和AS一样是在机匣右侧. 快慢机则是位于扳扳机护圈内的拨杆式, 标记形式和SR-3一样, 左侧的3点标记为全自动, 右侧的单点为半自动. SR-3M的机械瞄具和SR-3相同, 但SR-3M在机匣左侧有一个典型的俄罗斯式导轨, 可安装PSO-1等低倍率瞄准镜, 或其他俄罗斯的红点镜. SR-3M安装了AS步枪的侧折叠枪托, 由钢管和塑料托底板组成, 不使用时折叠在枪的左侧. 在护木下方还有一个可折叠的前握把. SR-3M不仅可以使用AS/VSS/SR-3的10发和20发塑料弹匣, 而且还配备了新研制的30发钢冲压弹匣. 这点是由于在SR-3的用户反馈中明确提出了大容量弹匣的需求. 根据用户报告, SR-3M是优秀的CQB工具, 性能可靠, 有效射程可达100~150米, 在穿透硬障碍后还具有相当好的停止作用. 而且由于9×39本身就是专用的亚音速弹, 因此作为消声武器使用时也效果很好.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] EKP-8-02眼镜蛇, 1P29, PSO-1, PSO-1M2-1瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] SR-3M 消音器</text>
+	</string>
+	
+	<string id="st_wpn_vintorez">
+		<text>VSS 狙击步枪</text>
+	</string>
+	<string id="st_wpn_vintorez_1pn93_descr">
+		<text>VSS"Vintorez"(俄文为ВСС"Винторез", 中文为"绞丝机")其实就是AS的狙击型(虽然AS实际上也被常常当作狙击步枪使用), 也是中央精密机械工程研究院的P. Serdjukov小组的同时研制的. VSS是Vinovka Snaiperskaja Spetsialnaya的缩写, 即"特种狙击步枪". VSS相当受欢迎在于其隐蔽能力和巨大杀伤力的重型9x39毫米子弹. 有效范围限制为300~400米. 标准瞄准设备由枪机上的侧轨和4倍放大PSO-1M2-1瞄准镜组成. 任何其他瞄准镜或夜视仪可以安装在适当的支座上. 备用铁瞄由切线后部和刀片前部组成. 后准星刻度可达400米.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] 1PN93 "小孩" 瞄准镜 (已集成)\n
+		%c[d_purple] • %c[ui_gray_2] VSS 消音器 (已集成)</text>
+	</string>
+	<string id="st_wpn_vintorez_alt">
+		<text>VSS 狙击步枪 (实验型)</text>
+	</string>
+	<string id="st_wpn_vintorez_descr">
+		<text>VSS"Vintorez"(俄文为ВСС"Винторез", 中文为"绞丝机")其实就是AS的狙击型(虽然AS实际上也被常常当作狙击步枪使用), 也是中央精密机械工程研究院的P. Serdjukov小组的同时研制的. VSS是Vinovka Snaiperskaja Spetsialnaya的缩写, 即"特种狙击步枪". VSS相当受欢迎在于其隐蔽能力和巨大杀伤力的重型9x39毫米子弹. 有效范围限制为300~400米. 标准瞄准设备由枪机上的侧轨和4倍放大PSO-1M2-1瞄准镜组成. 任何其他瞄准镜或夜视仪可以安装在适当的支座上. 备用铁瞄由切线后部和刀片前部组成. 后准星刻度可达400米.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] EKP-8-02眼镜蛇, 1P29, PSO-1M2-1瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] VSS 消音器 (已集成)</text>
+	</string>
+	<string id="st_wpn_vintorez_nimble">
+		<text>VSS 狙击步枪 "潮"</text>
+	</string>
+	<string id="st_wpn_vintorez_nimble_descr">
+		<text>著名的VSS狙击步枪的特殊变型. 已进行了大幅改造. 其内部结构已被更好的所取代, 从而提高了出膛速度和准确性. 有效射程达600米.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] PSO-1 瞄准镜 (已集成)\n
+		%c[d_purple] • %c[ui_gray_2] VSS 消音器 (已集成)</text>
+	</string>
+	<string id="st_wpn_vintorez_worn">
+		<text>VSS Vintorez (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_vityaz">
+		<text>PP-19-01</text>
+	</string>
+	<string id="st_wpn_vityaz_descr">
+		<text>PP-19-01"勇士"冲锋枪是根据俄罗斯特警队Vytyaz对于PP-19"野牛"冲锋枪的反馈意见而研制的. "勇士"冲锋枪的设计是基于AKS-74U, 但实际上就是把"野牛"冲锋枪由弹筒供弹改为传统的弹匣供弹. 在2007年中期, "勇士"冲锋枪在伊孜玛什公司小批量生产, 并供给俄罗斯内务部特种部队OMON和其他执法机构. "勇士"冲锋枪与AKS-74U有70%的零件通用, 只是把自动原理改为自由式枪机, 闭膛待击. 由于9毫米手枪弹的长度较短, 因此机匣较短.弹匣为塑料外壳, 直插式固定, 因此机匣底增加了一个弹匣座.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] PBS-1 消音器</text>
+	</string>
+	
+	<string id="st_wpn_vsk94">
+		<text>VSK-94</text>
+	</string>
+	<string id="st_wpn_vsk94_descr">
+		<text>VSK-94微声狙击步枪从9A-91小型突击步枪发展而成的狙击步枪, 也是由KBP设计局研制, 是一种类似于VSS的微声狙击步枪. VSK-94在性能上并没有比9A-91步枪有太大的改进, 实际上这是在工厂里手工挑选精度最好的9A-91步枪, 用一个框架式聚合物固定枪托代替原来的折叠枪托, 再装上一个PSO-1 4X瞄准镜, 并配备了可快速拆卸的消声器, 这样就成了一种狙击型号. 所以VSK-94和VSS一样, 都保留了9A-91和AS突击步枪的射击模式选择功能. 当不安装消声器的时候, 通常会装上一个枪口帽以保护连接消声器的枪口螺纹, 其实就是一个圆形螺母. 当安装消声器的时候, 枪口帽可以存放在空心的握把内. 如果不使用瞄准镜, VSK-94上还保留有机械瞄具, 但不是9A-91那种简单的翻转式表尺, 而是一个十字形的旋转式表尺(结构类似于我国的QBZ95步枪), 射程装定从100米至400米. 另外为了方便携带或存放时节省空间, VSK-94的聚合物枪托和手枪形握把可以整体拆卸下来.由于价格便宜, 所以VSK-94和9A-91一样, 在俄罗斯的执法机构中相当受欢迎, 特别是从事打击恐怖主义和有组织犯罪的OMON和SOBR等特警队. 从2004年开始, VSK-94也已正式被俄罗斯军队采用, 大多数装备常规部队, 因为他们很少装备特种部队和侦察部队所使用的更准确、但也更昂贵的VSS狙击步枪. VSK-94在近距离内的精度也可以, 虽然其精度远达不到西方警察狙击手的要求, 发射SP-5弹时在300~400米内一般达到2-4MOA的表现, 但在100~200米用于摸哨还是足够的, 如果需要远程精确射击, 这些特警队通常都装备了更传统的狙击步枪发射更强的7.62x54R弹, 如SVD或SV-98.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] EKP-8-02眼镜蛇, 1P29, PSO-1M2-1瞄准镜\n
+		%c[d_purple] • %c[ui_gray_2] 9A-91/VSK-94 消音器 (已集成)</text>
+	</string>
+	<string id="st_wpn_vsk94_worn">
+		<text>VSK-94 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_vssk">
+		<text>VSSK"排气"狙击枪</text>
+	</string>
+	<string id="st_wpn_vssk_descr">
+		<text>VSSK是俄罗斯的无托, 直拉式栓动狙击步枪, 使用12.7x55毫米亚音速弹. 它是于2002年为FSB特种部队开发的.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] PKS-07 瞄准镜 (已集成)</text>
+	</string>
+	
+	<string id="st_wpn_vz61">
+		<text>蝎式冲锋枪</text>
+	</string>
+	<string id="st_wpn_vz61_alt">
+		<text>蝎式 (实验型)</text>
+	</string>
+	<string id="st_wpn_vz61_camo">
+		<text>蝎式 (迷彩版)</text>
+	</string>
+	<string id="st_wpn_vz61_descr">
+		<text>"蝎"式(Scorpion)冲锋枪体积不比战斗手枪大多少, 所以有人认为它应该算作冲锋手枪. 它的设计初衷确实是作为一种双用途武器, 既可像冲锋枪那样双手抵肩连发射击, 又可像手枪那样单手不抵肩单发射击, 它既可以作为近距离战斗中的突击武器, 也可以代替手枪作为个人防卫武器. 其大小很适合被车辆司机或飞机驾驶员携带或使用. 虽然它的实战效果不太理想, 然而, 该枪在轻武器历史上却占有一席之地. 该枪在捷克被警察、安全部队和反恐怖部队中获得广泛采用. 但同样的, 由于它尺寸小极易隐藏, 而且消声效果极好, 因此也被一些恐怖主义组织所使用. "蝎"式冲锋枪在1950年后期开始的研制, 由Miroslav Rybá(1924-1970)设计, 其目的是为非一线战斗步兵单位提供一种重量轻的但比手枪更有效的个人防卫武器. 该枪的第一个原型在1959年制造, 当时称为S-59冲锋枪. 在1961年正式获得采用时, 被定型为"Samopal Vzor 1961", 这句捷克语翻译成中文是"1961型冲锋枪", 或简称SA Vz.61, 其口径为7.65×17mm勃朗宁手枪短弹. 这件武器被配发到捷克斯洛伐克军队中的各种不同单位, 以及广泛地出口. 该枪定型后很快就取代了捷克斯洛伐克军队原装备M52 7.62毫米手枪, 主要装备伞兵、特种部队、装甲车/直升机组成员和军官, 捷克的警察也大量装备. 由于7.65mm勃朗宁短弹(在美国称为.32 ACP弹)在西方也很流行, 因此该枪也大量出口到国外, 一些非洲国家的军队或警察也装备该枪. 从1962年至1979年间大约生产了210, 000支(之后的产量不详). 据说有一些民航客机上的防劫机保安人员也选用该枪, 因为.32 ACP弹无法穿透机舱蒙皮. 但两种蝎式: VZ.68从未替代过VZ.61. 即使这样, 特异区里还是有很多VZ.68. \n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] 9x19适配消音器 (经过改造后)</text>
+	</string>
+	<string id="st_wpn_vz61_freedom">
+		<text>蝎式 (自由团涂装)</text>
+	</string>
+	<string id="st_wpn_vz61_rusty">
+		<text>蝎式 (已生锈)</text>
+	</string>
+	<string id="st_wpn_vz61_rusty_descr">
+		<text>"蝎"式(Scorpion)冲锋枪体积不比战斗手枪大多少, 所以有人认为它应该算作冲锋手枪. 它的设计初衷确实是作为一种双用途武器, 既可像冲锋枪那样双手抵肩连发射击, 又可像手枪那样单手不抵肩单发射击, 它既可以作为近距离战斗中的突击武器, 也可以代替手枪作为个人防卫武器. 其大小很适合被车辆司机或飞机驾驶员携带或使用. 虽然它的实战效果不太理想, 然而, 该枪在轻武器历史上却占有一席之地. 该枪在捷克被警察、安全部队和反恐怖部队中获得广泛采用. 但同样的, 由于它尺寸小极易隐藏, 而且消声效果极好, 因此也被一些恐怖主义组织所使用."蝎"式冲锋枪在1950年后期开始的研制, 由Miroslav Rybá(1924-1970)设计, 其目的是为非一线战斗步兵单位提供一种重量轻的但比手枪更有效的个人防卫武器.该枪的第一个原型在1959年制造, 当时称为S-59冲锋枪.在1961年正式获得采用时, 被定型为"Samopal Vzor 1961", 这句捷克语翻译成中文是"1961型冲锋枪", 或简称SA Vz.61, 其口径为7.65×17mm勃朗宁手枪短弹. 这件武器被配发到捷克斯洛伐克军队中的各种不同单位, 以及广泛地出口. 该枪定型后很快就取代了捷克斯洛伐克军队原装备M52 7.62毫米手枪, 主要装备伞兵、特种部队、装甲车/直升机组成员和军官, 捷克的警察也大量装备. 由于7.65mm勃朗宁短弹(在美国称为.32 ACP弹)在西方也很流行, 因此该枪也大量出口到国外, 一些非洲国家的军队或警察也装备该枪. 从1962年至1979年间大约生产了210, 000支(之后的产量不详). 据说有一些民航客机上的防劫机保安人员也选用该枪, 因为.32 ACP弹无法穿透机舱蒙皮. 但两种蝎式: VZ.68从未替代过VZ.61. 即使这样, 特异区里还是有很多VZ.68. 这把枪锈的很严重, 不可靠也不能安装消音器.\n \n
+		%c[ui_gray_2]适用于:\n%c[d_red] • %c[d_red] 无法安装消音器</text>
+	</string>
+	<string id="st_wpn_vz61_worn">
+		<text>蝎式 (损坏)</text>
+	</string>
+	
+	<string id="st_wpn_walther">
+		<text>瓦尔特P99</text>
+	</string>
+	<string id="st_wpn_walther_custom">
+		<text>瓦尔特P99 (自组装版)</text>
+	</string>
+	<string id="st_wpn_walther_descr">
+		<text>在过去30多年中, 著名的间谍电影《007》系列中主角詹姆斯·邦德的随身武器一直是瓦尔特PPK袖珍手枪, 这把手枪一直传到了第5代邦德 - 皮尔斯·布鲁斯南手上, 但是布鲁斯南接拍的第二部007电影 - 即第18集007《明日帝国》中, 他手上的武器换成一把让人眼前一亮的漂亮新手枪 - 瓦尔特P99, "刚柔并济"的第5代詹姆斯·邦德手上拿着这把线条优美的手枪更显绅士风度. 不过遗憾的是, 除了替代PPK成为新一代的007佩枪外, P99的总体评价不佳, 市场销量也不好. 瓦尔特公司在1988年推出了P88 9毫米手枪, 但可惜流行不起来. 在1994年, 瓦尔特公司以P88为基础重新设计一种适合平民自卫或执法人员使用的半自动手枪, 并吸收了市场上许多新产品的研究成果, 如聚合物制成的整体式底把. 瓦尔特的新手枪在1996年对外公开, 并命名为P99自动手枪. 最早公布的P99是发射9×19mm派拉贝鲁姆手枪弹, 在1998年又推出了.40 S&W口径的P99.针对意大利的民用市场禁止拥有了9×19毫米口径的规定, 瓦尔特公司还专门提供了9×21 IMI口径的P99. P99采用枪管短后坐原理, 其设计是仿照数十年前SIG Sauer P220手枪上的改进的勃朗宁式闭锁机构, 通过底把内一块闭锁卡铁与枪管尾部下方的一个斜槽作用使枪管上下摆动而实现开锁和闭锁. 瓦尔特公司最早是在P88手枪上使用这种结构, 现在又移植到P99手枪上. 由于聘请了奥地利格洛克公司的设计师, 因此P99在设计特点多少有点格洛克手枪的影子.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] 9x19 compatible 消音器</text>
+	</string>
+	<string id="st_wpn_walther_worn">
+		<text>瓦尔特P99 (损坏)</text>
+	</string>
+	
+	<string id="wpn_tt33_descr">
+		<text>7.62毫米TT手枪是苏军装备的第一种自动装填手枪, 由苏联著名枪械设计师托卡列夫于1930年设计出, 在图拉兵工厂生产, 所以取设计者和制造厂的名称首位字母命名该枪, 即TT手枪. 该枪长196毫米, 重854克, 容弹8发, 战斗射速、25发/分, 有效射程50米. 该抢由于威力大, 精度高, 穿透力高, 结构简单、紧凑, 动作可靠, 使用方便, 被苏军官兵称为忠实的伙伴. 在苏联卫国战争中, 托卡列夫手枪立下不少战功. 许多共产主义或苏联加盟国对TT-33手枪进行了改造, 直到1952年最终被马卡洛夫PM取代, 1954年苏联才停止生产TT-33.</text>
+	</string>
+	
+	<string id="st_wpn_umirotvoritel">
+		<text>不明武器</text>
+	</string>
+	<string id="st_wpn_umirotvoritel_descr">
+		<text>未知的武器, 不清楚其发射原理. 武器似乎有故障 - 扳机扣不动. 它非常重, 绝对是高科技. 值得注意的是, 似乎不是火药动力武器. 弹药很可能是电磁推动的. 人们只能猜测它具有什么样的破坏力.</text>
+	</string>
+	
+	<!-- New -->
+	<string id="st_wpn_ash12">
+		<text>ASh步枪</text>
+	</string>
+	<string id="st_wpn_ash12_descr">
+		<text>ASh-12.7(俄语АШ-12.7), 即"12.7毫米自动步枪(Автомат штурмовой 12.7мм)"的缩写, 是一种专门用于巷战的CQB武器, 由KBP设计局在FSB的要求下研制. 该枪在2011年底亮相, 据说首批ASh-12.7已经被送到FSB进行试用. ASh-12.7突击步枪是专门为近距离战斗设计设计的, 考虑到有效射程不需要太远, 不也需要有过高的侵彻能力, 同时又要有比较强的停止作用, 总之就是要避免没有命中目标流弹飞得太远, 或弹头穿透目标后还能飞出很远距离, 而伤及无辜的旁观者. 因此ASh-12.7突击步枪的设计者研制了专用的大口径弹药, 是一种12.7×55mm无底缘弹. 这种弹药最初是在VKS微声狙击枪的弹药上改进而来的. ASh-12.7的标配弹药是一种轻型、超音速弹, 弹芯为铝材, 弹尖的被甲开孔露出部分弹芯. 据称弹头重约7克, 初速尚未公布. 另外还研制了其他弹种, 包括重弹(可能是亚音速弹)、穿甲弹和双头弹. 这种新的俄罗斯大口径步枪弹其实和美国的.50贝奥武夫、.499 LWR之类的弹药概念相似, 但弹头要轻很多, 后坐力可能也不高.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, C-more Railway Tactical, EOTech瞄准镜</text>
+	</string>
+	
+	<string id="st_wpn_aug_a3">
+		<text>Steyr AUGA3</text>
+	</string>
+	<string id="st_wpn_aug_a3_descr">
+		<text>斯太尔AUG(德语Armee Universal Gewehr的缩写, 即陆军通用步枪)是一种导气式、弹匣供弹、射击方式可选的无托结构步枪, 是在1960年代后期开始研制的, 其目的是为了替换当时奥地利军方采用的Stg.58(FN FAL)战斗步枪. 当时军方提出的要求是: 精度不低于比利时的FN FAL步枪; 重量不大于美国的M16步枪; 全长不得超过现代冲锋枪的长度; 在恶劣环境中使用时, 可靠性不低于苏联的AK-47和AKM突击步枪. 原打算发展步枪、卡宾枪和轻机枪这3种枪型, 后来又增加了冲锋枪. AUG采用铝合金压铸机匣, 耐腐蚀, 通过28个机械加工工序成形, 有钢增强嵌件. 其中一个嵌件是枪管连接套, 用于固定锁定枪管和旋转式机头, 这样就能减轻射击时对机匣的压力, 另一个嵌件是固定枪机导杆的套管. AUG使用短活塞导气操作原理, 导气活塞插入枪管上的联接套内, 联接套内有导气室, 导气活塞的复进簧也位于导气室内. 导气系统有一个三档的气体调节器, 其中有两个为打开位置(正常工作位置和特殊工作位置, 后者是在火药残渣积聚较多或泥沙等污物进入枪内而发生故障时使用)和一个关闭位置(用于发射枪榴弹). 联接套上也包括一个枪管固定/解除锁和一个前握把的铰链, 前握把同时也是气体调节器的紧定器, 由于握把与枪管接近, 不使用时向前折叠, 防止烫伤手指, 另外在分解步枪时握把也是一个转动枪管的杠杆, 而且当枪管过热时可以不必用手直接接触枪管.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45消音器\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, C-more Railway Tactical, EOTech瞄准镜</text>
+	</string>
+	
+	<string id="st_wpn_mk14">
+		<text>Mk14 EBR</text>
+	</string>
+	<string id="st_wpn_mk14_descr">
+		<text>美国海军的Mark 14 Mod 0增强型战斗步枪(Enhanced Battle Rifle - EBR)是M14步枪的变型枪, 最初是由美国海军特种作战司令部根据海豹突击队的要求, 在2000年向枪械厂商招标设计的一种用于CQB的战斗步枪, 之所以考虑用M14, 一方面是因为7.62 NATO的侵彻能力在城市战中对付车辆、普通墙壁等掩体非常有效, 另一方面是因为M14的性能久经考验, 海豹多年来一直使用M14, 他们甚至把M14改成扳叠式枪托以方便在狭窄环境中使用. 经过试验后, 他们采用了塞奇国际有限公司的方案. 除了塞奇公司和史密斯企业公司外, 有其他厂商也曾向NSWC提供过他们的Mk14方案, 例如专门为美军提供精密枪管的洛克枪管公司(Rock Creek Barrels, Inc.)就在2001年提出了由他们的工程师吉米·里波迪(Jim Ribordy)所设计的样枪, 这个设计后来被特洛伊工业生产, 最初命名为SOPMOD M14, 但没有被采用.虽然外形不同, 但这个洛克·里波迪方案与塞奇·史密斯方案相比有一个共同点, 都是采用伸缩式的枪托、带皮卡汀尼导轨的铝合金底盘系统. 现在民用市场上都有由塞奇公司或史密斯企业所生产的EBR出售, 买家可以买回来自己改装, 或购买已经改装好的完整枪支, 当然, 那些完整枪支多数是用春田M1A(当然也有其他公司的M14)改装的.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, C-more Railway Tactical, EOTech瞄准镜</text>
+	</string>
+	
+	<string id="st_wpn_fal">
+		<text>FN FAL</text>
+	</string>
+	<string id="st_wpn_fal_descr">
+		<text>FN FAL是由FN在比利时生产的北约枪支. 世界上最知名和最受欢迎的自动步枪之一. FN FAL最初是为第二次世界大战期间德国人使用的7.92x33毫米中间威力弹开发的, 随后又出现了.280英国子弹的原型. 后来, 它采用了7.62×51毫米北约子弹, 并被北约国家大量装备. 在冷战期间, 它获得了"自由之拳"的绰号. FAL采用活塞短行程导气系统, 导气装置在枪管上方, 其结构类似于美国的勃朗宁自动步枪. 活塞筒的前端置于导气箍内, 和气体调节器相连接. 气体调节器通过改变排出气量的多少来控制作用于活塞头上气体能量, 射手根据不同气候环境或枪的污染状况来调整合适的气量, 也可关闭导气孔以便发射枪榴弹.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45消音器\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, C-more Railway Tactical, EOTech瞄准镜</text>
+	</string>
+
+	<string id="st_wpn_fort500">
+		<text>Fort-500</text>
+	</string>
+	<string id="st_wpn_fort500_descr">
+		<text>Fort 500散弹枪是由乌克兰内政部的Fort NGO在1990年代后期开发的, 旨在武装乌克兰内政部和安全部门的工作人员. 目前, 少量FORT-500步枪已在乌克兰内务部的特殊部队服役, 并以狩猎的名义出售给该国公民.</text>
+	</string>
+
+	<string id="st_wpn_m82">
+		<text>巴雷特M82</text>
+	</string>
+	<string id="st_wpn_m82_descr">
+		<text>朗尼·巴雷特在1982年设计了一支半自动的.50BMG口径步枪, 因此命名为M82, 并开始在民用市场上销售. 后来又在1986年改进出M82A1步枪. 虽然精度不高, 但性能可靠价格便宜, 而且在.50口径半自动步枪的市场营销上也占了先机, 因此巴雷特M82A1成为当今使用最广泛的大口径狙击步枪(反器材步枪)之一, 几乎占领了.50狙击步枪市场的统治地位. 目前至少已装备英国、法国、比利时、意大利、丹麦、芬兰、希腊、意大利、墨西哥、葡萄牙、荷兰、沙特阿拉伯、瑞典、西班牙、土耳其等30多个国家的军队或警察部队.M82A1半自动狙击步枪采用枪管短后坐原理, 半自动发射方式. 枪管短后座原理是著名枪械设计师勃朗宁(John M. Browning)开发的, 而巴雷特将这种原理改进使之适合作为肩射武器的自动原理. 巴雷特M82A1的后坐力很小, 这是因为一部分后坐能量作用于枪管、枪机和枪机框的向后运动及压缩复进簧, 另外, 枪本身也吸收了部分后坐能量, 但最主要还是其高效的枪口制退器减少了大部分的后坐力, 这就保证了射击时的舒适性及射击精度. 枪托底部还有一个特种橡胶后座垫, 据说后坐感觉比12号口径的霰弹枪要好, 而后坐力明显比7.62毫米口径的步枪要小. 不过这个高效制退器有个缺点, 就是每发射一发枪弹时从制退器喷出的火药气体都会在射手附近卷起大量尘土和松散颗粒.</text>
+	</string>
+
+	<string id="st_wpn_remington700">
+		<text>雷明顿700</text>
+	</string>
+	<string id="st_wpn_remington700_descr">
+		<text>雷明顿700旋转后拉式枪机步枪自1962年推出, 就以其精确性和威力受到称赞. 浮置枪管、极敏感的扳机及严格制造公差下生产的优质枪管, 使雷明顿700如其广告词所称的那样: "它是世界上最强大的旋转后拉式枪机步枪. "雷明顿公司借助雷明顿700的优异性能开发出一系列专门的狙击步枪, 而美国军方也看上了雷明顿700的精确性, 在雷明顿700的基础上开发军用狙击步枪, 如海军陆战队的M40A1和陆军的M24SWS. 此外还有多家枪械生产厂在开发比赛步枪或狙击步枪时也采用了雷明顿700的枪机系统.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] KZRZP 消音器 (经过改造后)</text>
+	</string>
+	
+	<string id="st_wpn_remington870">
+		<text>雷明顿870散弹枪</text>
+	</string>
+	<string id="st_wpn_remington870_descr">
+		<text>雷明顿870型(Remington Model 870)霰弹枪的出现, 一定程度上是由于温彻斯特12型和伊萨卡37型霰弹枪等竞争对手的市场压力所致. 伊萨卡37最初是把20号口径的雷明顿17型放大成12号口径而成, 而雷明顿公司也把雷明顿17型重新设计成12号口径的雷明顿31型. 但31型比同时代的温彻斯特12型的订单要低. 而二战结束后, 伊萨卡37也在泵动霰弹枪市场抢占了不少份额. 为了夺回市场, 雷明顿公司重新设计了一种霰弹枪, 并在1950年推出. 这种霰弹枪最初命名为雷明顿870型, 称为"翼主"(Wingmaster).雷明顿870是一种手动装填的霰弹枪, 通过推拉泵动手柄(前托)进行抛壳、供弹. 枪机为卡铁摆动式闭锁, 通过闭锁卡铁进入枪管后上方的延长段的闭锁槽中闭锁, 内置式击锤击发. 装填弹药是通过机匣底部的装弹口装入, 装弹口平时被托弹片挡住. 向弹仓装弹时, 向上顶开托弹片, 将霰弹装入弹仓中. 向后拉动枪机时, 弹仓中的最后一发弹向后进入托弹片中并被托弹片上抬至进弹位置, 再向前推动枪机时再将枪弹推进弹膛中. 而弹壳从机匣右侧的抛壳口排出.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] Barska ES AC10632, C-more Railway Tactical, EOTech瞄准镜</text>
+	</string>
+	
+	<string id="st_wpn_wa2000">
+		<text>瓦尔特WA 2000</text>
+	</string>
+	<string id="st_wpn_wa2000_descr">
+		<text>瓦尔特WA2000狙击步枪由卡尔·瓦尔特公司在1970年代末至1980年代初研制, 首次亮相是在1982年, 其后被德国和几个欧洲国家的一些特警单位所少量采用. 在当时, 许多高精度狙击步枪的设计往往都是以一些运动步枪或猎枪为基础改进而成的, 但WA2000与众不同, 该枪是完全以军/警狙击手为唯一目标用户所作的全新设计. 该枪设计优异, 射击精度极高. 由于WA2000在生产过程中完全以质量和精度为首要目标, 不计制造成本, 结果导致售价昂贵, 乏人问津, 结果产量和销售量都相当有限. 据估计, 大约只生产了176支WA2000步枪, 在1988年11月就已经停止生产. 在1988年的时候, 每枝WA2000售价大约9, 000至12, 500美元, 还不含瞄准镜. WA2000采用无托结构, 枪管长有650毫米, 但全枪长度却只有905毫米, 不足一米, 相当紧凑. 而美军的M24枪管才610毫米, 全枪长却有1092mm.WA2000设计时的弹膛是以. 300温彻斯特-马格南口径为基础, 有效射程远远超出了800米, 其他的可选口径有7.62×51mm北约标准口径和7.5×55mm瑞士口径. WA2000是一种半自动步枪, 采用导气式回转枪机, 短行程导气活塞位于枪管下方. 机头有7个螺纹形的闭锁凸耳, 机头进入弹膛尾部闭锁. 沉重的比赛级枪管为自由浮置式, 螺接在机匣上, 位于两根铝合金支柱构成的步枪框架之间, 在步枪框架下面有木制前托, 框架上面有瞄准镜架和两脚架安装点. 枪托的托底板长度和高度可以微调, 长度调节范围25毫米, 高低调节范围30mm. 但贴腮板高度不可调. 扳机力也可在1.2-1.4kg(2.65~3.1lb)之间进行调节, 虽然是无托结构, 但扳机力相当轻. 整个发射机构可作为一个独立部件从框架上拆除, 方便野战维护.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] KZRZP 消音器 (经过改造后)</text>
+	</string>
+	
+	<string id="st_wpn_apb">
+		<text>APB消音手枪</text>
+	</string>
+	<string id="st_wpn_apb_descr">
+		<text>APB是斯捷奇金APS自动手枪的衍生枪.APB于1972年为苏联的特种部队和KGB开发, 并已在阿富汗战争及以后的冲突中广泛使用. 所有APB手枪均在APS手枪的基础上重新加工而成. 装有消音器的APB的声音与未消音的.22口径手枪一样, 并且非常精确且可控, 尤其是在装有肩托的情况下.</text>
+	</string>
+	
+	<string id="st_wpn_cz52">
+		<text>CZ52手枪</text>
+	</string>
+	<string id="st_wpn_cz52_descr">
+		<text>CZ52是一种半自动手枪, 由Jan和Jaroslav Kratochvil两兄弟设计, 1950年代初为捷克斯洛伐克军队采用. 约200, 000支CZ52由Ceska Zbrojovka在1952年至1954年在Strakonice制造. 在将7.62×25毫米口径的版本标准化之前. 捷克斯洛伐克军队在三种不同口径中采用了多个改型.</text>
+	</string>
+	
+	<string id="st_wpn_fnc">
+		<text>FN FNC突击步枪</text>
+	</string>
+	<string id="st_wpn_fnc_descr">
+		<text>FN公司的设计师以CAL为基础改进出另一个产品, 命名为FNC(Fabrique Nationale Carabine, 即FN公司的卡宾枪), 正式名称是FNC76, 并参加了1976年的"北约下一代步枪选型试验". FNC76的外形和CAL基本相同, 主要不同点是FNC76的冲压钢机匣的结构简化, 而且用两个对称的闭锁凸笋代替CAL枪机上的两排闭锁断隔螺, 实际上FNC的长行程导气活塞和双闭锁凸笋枪机是直接参照了AK系统的设计. 另外, FNC使用比利时研制的SS109弹. 由于SS109弹采用铅/钢复合式弹芯, 弹头重也加大至4.02克, 因此远距离性能大为改善. 在这次改进中FN公司的设计师重视了操作简单和性能可靠, 但由于FNC样枪在选型试验中出现了枪机突笋裂缝等故障, 最终还是退出了竞争行列. FNC的枪管用高级优质钢制成, 内膛精锻成型, 故强度、硬度、韧性较好, 耐蚀抗磨. 枪管前部有一个直径22mm的圆筒形消焰器兼枪榴弹发射器.导气箍装在枪管上方, 提高了武器重心, 使之与枪管轴线重合, 消除射击时枪管上跳现象. 发射枪榴弹时, 可作枪榴弹瞄准具用的气塞架折叠在准星上方, 截断进入活塞筒的气流, 以保证火药气体压力全部作用于枪榴弹的尾部.枪口部有刺刀座安装美国的M7刺刀, 但FNC也是专门配的刺刀.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45消音器\n \n
+		</text>
+	</string>
+	
+	<string id="st_wpn_hk417">
+		<text>HK417</text>
+	</string>
+	<string id="st_wpn_hk417_descr">
+		<text>HK417是HK416的7.62×51mm NATO口径型, HK416与HK417的关系就像SCAR-L和SCAR-H, 是同一枪族的两种口径型. HK417配用G3的20发弹匣, 除口径不同外, 其他方面与HK416基本相同. 德国军队曾经在G27项目中试验过HK417, G27是预定要代替原装备的G3的DMR步枪, 但在2010年时德军宣布HK417没能通过他们的试验, 原因是精度不过关. 不过后来HK公司在HK417的民用半自动型基础上改进的DMR步枪则被德军采用为G28.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45消音器\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, EOTech瞄准镜</text>
+	</string>
+	
+	<string id="st_wpn_m60">
+		<text>M60</text>
+	</string>
+	<string id="st_wpn_m60_descr">
+		<text>M60系列有多个型号, 主要有M60、M60D、M60E3等等, 时移世易, 现在M60在许多方面都已经显得落后了, 尽管有新的改进型出来, 但由于一些固定的缺点难以改进, 因此美军装备的M60系列正逐步被M240系列(FN MAG58)所取代. 但在美军特种部队和直升机上, M60系列仍作为轻机枪或航空机枪而使用. M60的机匣、供弹机盖等大多数部件采用冲压件, 重量轻且成本低, 整体重量比起0.30口径的勃朗宁M1919A4/A6大大降低, 而且结构紧凑.在M60枪内还大量采用减少摩擦的滚轮机构, 因而射击振动较小.M60的导气装置改进自FG42, 当活塞向后移动时, 会关闭侧壁上的导气孔, 自动截断火药气体的流入, 这种自动调节导气装置的结构比较简单, 不需气体调节器, 但缺点是不能调节射速. 弹链式供弹装置改进自MG42, 借助枪机滚轮带动拨弹杆左右运动, 再通过杠杆使拨弹滑板上的拨弹齿拨弹, 单程输弹. 枪机头有两个闭锁卡笋. M60采用固定式的片状准星, U形缺口照门安装在立框式表尺上, 照门可以调整高低和风偏. 供弹机盖上方可安装一个瞄准镜座, 瞄准具座上有美国陆军标准的燕尾接口和偏心锁紧机构, 以便安装白光/夜视瞄准具、激光指示器等附件. 由于M60的枪机自由行程较长, 而缓冲器也吸收了大部分后坐能量, 因此射速较低, 大约每分钟550发左右, 射击时容易控制枪身, 经过训练的射手能够控制出单发或短点射. M60主要发射7.62×51mm北约标准弹, 美军装备的M60主要使用M61穿甲弹、M62曳光弹、M80普通弹、M63教练弹、M82空包弹等类型的弹药. M60配用的弹链在美国政府命名为M13弹链, 但是许多人只称其为M60弹链.</text>
+	</string>
+	
+	<string id="st_wpn_mp7">
+		<text>MP7</text>
+	</string>
+	<string id="st_wpn_mp7_descr">
+		<text>HKMP7PDW大量应用塑料聚合物, 重量非常轻, 而尺寸也十分短小, 其大小与SOCOM手枪相差无几. PDW共由六大组件构成: 机匣、枪管和击发机构; 枪尾及枪托和装填装置; 机匣盖及附件; 枪机; 复进簧; 弹匣. 只要拨下三个销钉, 不用其他任何工具, 就可以将全枪分解成这六大部分. 三个销钉中, 两个在机匣后端, 用于机匣与枪尾的连接, 第三个在枪口上部, 用于机匣盖与机匣的连接. MP7于2001年投入生产. 由于MP7既轻便, 又"听话", 即使很少训练的士兵, 也很容易操作并精确瞄准. 因此, 所有不配备突击步枪的单位都可以选择配备PDW.整个后勤部队包括卫生人员, 坦克、装甲车与直升机乘员, 以及只配手枪的机枪手等, 他们都适合佩带PDW. 此外, 各类特种部队人员也同样可以选用这种轻便的武器. 据说有一支MP7是诺瓦露赠与艾伊芙的自卫武器.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] 9x19 compatible 消音器\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, C-more Railway Tactical, EOTech瞄准镜</text>
+	</string>
+	
+	<string id="st_wpn_xm8">
+		<text>XM8</text>
+	</string>
+	<string id="st_wpn_xm8_descr">
+		<text>经过对阿富汗战场上美军武器表现的研究, 美国国防部希望能够尽快获得新武器, 于是武器研究发展与工程中心很快就作出了决定, 在2002年10月与ATK和HK防务公司签订了一项500万美元的研制合同, 由HK防务公司负责研制XM8轻型突击步枪, 所限定的开发周期也非常短, 只有3年时间. HK防务公司位于弗吉尼亚州的斯特林(Sterling), 是德国HK公司的一个子公司, 在XM29的研制集团中负责武器本身的设计和生产. 积极参与该项目研究的中心位于新泽西州的皮卡汀尼兵工厂(Picatinny Arsenal), 它也是ARDEC的所在地, 而位于本宁堡的陆军步兵中心(Army Infantry Center)也是该计划的热心支持者. XM8本质上是XM29的5.56毫米步枪部分, 通过模块化组合使它成为单个机构, 并可以根据不同的任务需要和作战地域, 转换成不同的枪型或发射不同口径的弹药. 由于采用了XM29的先进技术, XM8的基本型(卡宾枪型)重量将比M4/M4A1轻20%. XM8的最终发展目标, 不仅是作为代替M16系列的一种轻型卡宾枪, 而是可以转换成多种不同型号的模块化步枪系统, 不同长度的枪管及其他配件赋予其不同的角色, 甚至可以更换机匣以发射不同口径的弹药, 例如俄制的7.62×39mm中间威力步枪弹.\n \n
+		%c[ui_gray_2]适用于:\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45消音器\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, C-more Railway Tactical, EOTech瞄准镜</text>
+	</string>
+	
+	
+<!-- 
+Grenades 
+-->
+	<string id="st_grenade_f1">
+		<text>F1防御手雷</text>
+	</string>
+	<string id="st_grenade_f1_descr">
+		<text>防御手榴弹, 其碎片能够撕裂中等护甲.手榴弹的杀伤半径约为4米.潜行者可以从军队那里买到F1手榴弹, 而后者则将其用于对抗怪物.\n \n
+		%c[d_purple] • %c[ui_gray_2] 爆炸杀伤: %c[ui_gray_1]高\n
+		%c[d_purple] • %c[ui_gray_2] 爆炸半径: %c[ui_gray_1]4.2米\n
+		%c[d_purple] • %c[ui_gray_2] 破片杀伤半径: %c[ui_gray_1]48米\n
+		%c[d_purple] • %c[ui_gray_2] 平均破片数: %c[ui_gray_1]380 (小破片)\n
+		%c[d_purple] • %c[ui_gray_2] 引信时间: %c[ui_gray_1]约4秒
+		%c[d_purple] • %c[ui_gray_2] F1核弹</text>
+	</string>
+	
+	<string id="st_grenade_rgd5">
+		<text>RGD-5进攻手雷</text>
+	</string>
+	<string id="st_grenade_rgd5_descr">
+		<text>进攻手榴弹, 杀伤半径约3米. 由于其成本相对较低, 潜行者经常用它来诱杀怪物.\n \n
+		%c[d_purple] • %c[ui_gray_2] 爆炸杀伤: %c[ui_gray_1]中等\n
+		%c[d_purple] • %c[ui_gray_2] 爆炸半径: %c[ui_gray_1]3.2米\n
+		%c[d_purple] • %c[ui_gray_2] 破片杀伤半径: %c[ui_gray_1]43米\n
+		%c[d_purple] • %c[ui_gray_2] 平均破片数: %c[ui_gray_1]240(小破片)\n
+		%c[d_purple] • %c[ui_gray_2] 引信时间: %c[ui_gray_1]约4秒</text>
+	</string>
+	
+	<string id="st_grenade_smoke">
+		<text>烟雾弹</text>
+	</string>
+	<string id="st_grenade_smoke_descr">
+		<text>烟雾手榴弹.用于释放烟幕.投掷手榴弹后, 烟幕需要10秒钟才能完全散开.</text>
+	</string>
+	
+	<string id="st_grenade_thermite">
+		<text>铝热剂手雷</text>
+	</string>
+	<string id="st_grenade_thermite_descr">
+		<text>燃烧手榴弹(或铝热剂手榴弹), 通过化学反应产生大量的热, 在该反应中, 铝粉和氧化铁反应生成熔融铁和氧化铝流. 内部装有600至800克的铝热剂.\n \n
+		%c[d_purple] • %c[ui_gray_2] 爆炸杀伤: %c[ui_gray_1]中等 (热杀伤)\n
+		%c[d_purple] • %c[ui_gray_2] 爆炸半径: %c[ui_gray_1]4.6 米\n
+		%c[d_purple] • %c[ui_gray_2] 破片杀伤半径: %c[ui_gray_1]无\n
+		%c[d_purple] • %c[ui_gray_2] 平均破片数: %c[ui_gray_1]无\n
+		%c[d_purple] • %c[ui_gray_2] 引信时间: %c[ui_gray_1]约4秒</text>
+	</string>
+	
+<!--
+	Melee 
+-->
+	<string id="st_knife_combat">
+		<text>M9刺刀</text>
+	</string>
+	<string id="st_knife_combat_descr">
+		<text>%c[ui_gray_1]带有坚固橡胶刀柄的大猎刀. 锋利且维护良好. 它可能不适合对付护甲, 但由于齿状设计, 它很适合给活物放血. 这是面对怪物时的理想选择, 尤其是那些老弱病残的怪物.</text>
+	</string>
+	
+	<string id="st_knife_6x4">
+		<text>6H4刺刀</text>
+	</string>
+	<string id="st_knife_6x4_descr">
+		<text>%c[ui_gray_1]为AK步枪设计的刺刀. 它很耐用, 但除拼刺刀外也没什么功能了.\n \n
+		%c[d_red] • %c[d_red] 不适合切皮厚的怪物</text>
+	</string>
+	
+	<string id="st_knife_hunting">
+		<text>猎刀</text>
+	</string>
+	<string id="st_knife_hunting_descr">
+		<text>%c[ui_gray_1]一种非常耐用的猎刀, 刀片由不锈钢制成.是对付大型动物, 肉类和厚皮的理想选择. 它能够造成大出血. 它的缺点是无法有效对付护甲.</text>
+	</string>
+	
+	<string id="st_knife_m">
+		<text>军刀</text>
+	</string>
+	<string id="st_knife_m_descr">
+		<text>%c[ui_gray_1]标准的军刀, 标准的款式, 标准的杀伤.</text>
+	</string>
+	
+	<string id="st_knife_needle">
+		<text>NR-40</text>
+	</string>
+	<string id="st_knife_needle_descr">
+		<text>%c[ui_gray_1]这把苏联钢刀装有长达152毫米的刀片, 带有一个大挂扣, 一个黑色的木柄和一个S形的护手. 护手被"倒置"了, 因为标准的苏军握刀要求持刀时刀刃要朝向自己. 手柄采用坚固的织物加固, 以增加摩擦力. 该刀相对较小, 无法造成严重的伤口, 但是没有傻蛋会拿刀参加枪战.\n \n
+		%c[d_red] • %c[d_red] 不适合切厚皮怪物.</text>
+	</string>
+	
+	<string id="st_knife_nr40">
+		<text>NR-40 (传家宝)</text>
+	</string>
+	<string id="st_knife_nr40_descr">
+		<text>%c[ui_gray_1]很具象征价值的罕见的苏联军刀. 木柄上饰有二战伞兵师的铁徽. 无论是菜鸟还是老手, 任何拥有该刀的潜行者无论身在何时何地, 尤其是在他的派系中, 都会受到至高无上的尊重. 通常是特殊任务的奖励, 例如拯救派系的老大.</text>
+	</string>
+	
+	<string id="st_knife_swat">
+		<text>特战弹簧刀</text>
+	</string>
+	<string id="st_knife_swat_descr">
+		<text>保养良好的特战弹簧刀非常适合侦察兵使用. 据报道, 在欧洲核武交换计划的前几天, 特种部队的部队用它切开了几个MRBM基地工作人员的喉咙. 它是一种致命的武器, 是特异区中唯一能穿透装甲还能对组织造成巨大伤害的冷兵器. 终极近战武器.</text>
+	</string>
+	
+	<string id="st_axe">
+		<text>斧子</text>
+	</string>
+	<string id="st_axe_descr">
+		<text>斧子是一种有着数千年历史的工具, 可以用来加工, 劈开和切割木材, 或者用作武器或用作依仗或成就的象征. 斧子有多种款式, 但通常由手柄和铁斧头组成. 在特异区中, 多功能的斧子是生存的好帮手.\n \n
+		%c[ui_gray_1]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 冷兵器\n
+		%c[d_cyan] • %c[ui_gray_2] 日用品</text>
+	</string>
+	
+	<string id="st_axe2">
+		<text>消防斧</text>
+	</string>
+	<string id="st_axe2_descr">
+		<text>这种沉重的斧头是消防员最常使用的, 经常被潜行者用来砍伐树木, 或者像其他斧头一样用来砍人. 因此, 它可以在熟练的潜行者手中充当强大的武器.\n \n
+		%c[ui_gray_1]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 冷兵器\n
+		%c[d_cyan] • %c[ui_gray_2] 日用品</text>
+	</string>
+	
+	<string id="st_axe3">
+		<text>猎斧</text>
+	</string>
+	<string id="st_axe3_descr">
+		<text>这种方便的斧头已经有数千年的历史了, 它可以用来砍柴, 砍肉, 甚至用作仪仗用具, 虽然它通常由斧刃和手柄组成, 但形状却有很多种.在特异之类的地方, 这把斧头可以决定生死.\n \n
+		%c[ui_gray_1]属性:\n
+		%c[d_cyan] • %c[ui_gray_2] 冷兵器\n
+		%c[d_cyan] • %c[ui_gray_2] 日用品</text>
+	</string>
+	
+	<string id="st_grenade_light">
+		<text>M68手雷</text>
+	</string>
+	<string id="st_grenade_light_descr">
+		<text>M68轻型手榴弹装有大量弹片, 在伞兵, 海军陆战队和北约特种部队中很受欢迎. 使用M213保险丝, 可以将保险丝勾在腰带上以快速拉开保险.</text>
+	</string>
+	
+	<string id="st_wpn_flamewerfer">
+		<text>火焰喷射器</text>
+	</string>
+	<string id="st_wpn_flamewerfer_descr">
+		<text>自制火焰喷射器, 容易堵油, 射程近. 它的随意设计表明它是由一个特异区的潜行者手工制造的.</text>
+	</string>
+</string_table>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<string_table>
+	<string id="st_arszi_extinguish">
+		<text>熄灭</text>
+	</string>
+	<string id="st_arszi_roast">
+		<text>烤肉</text>
+	</string>
+	<string id="st_arszi_cancel">
+		<text>取消</text>
+	</string>
+</string_table>

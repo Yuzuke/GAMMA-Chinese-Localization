@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+	Devices
+-->
+
+<string_table>
+
+	<string id="st_pda_name">
+		<text>PDA</text>
+	</string>
+	<string id="st_pda_descr">
+		<text>PDA中有一些关于特异区的数字记录, 详细地图和变异点的位置信息, 如果你找到的买家合适, 你能小赚一笔.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 技术产品\n
+		%c[d_blue] • %c[ui_gray_2] 低功耗\n
+		</text>
+	</string>
+	
+	<string id="st_pda_1_name">
+		<text>PDA</text>
+	</string>
+	<string id="st_pda_1_descr">
+		<text>袖珍型电子设备, 包含了一台电脑的大多数功能. PDA对于日常信息的共享而言是必不可少的. 预装有GPS模块, 可为用户提供地理位置和时间信息.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 技术产品\n
+		%c[d_blue] • %c[ui_gray_2] 低功耗\n
+		</text>
+	</string>
+	
+	<string id="st_pda_2_name">
+		<text>第二代PDA</text>
+	</string>
+	<string id="st_pda_2_descr">
+		<text>袖珍型电子设备, 包含了一台电脑的大多数功能. PDA对于日常信息的共享是必不可少的. 预装有的GPS模块, 可为用户提供地理位置和时间信息. 此版本中的功能已得到改进, 可以检索和处理半径300米内与网络连接的其他设备的位置, 所以这种PDA在潜行者里非常受欢迎.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 技术产品\n
+		%c[d_blue] • %c[ui_gray_2] 低功耗\n
+		%c[d_purple] • %c[ui_gray_2] 显示附近小队的位置\n
+		</text>
+	</string>
+	
+	<string id="st_pda_3_name">
+		<text>第三代PDA</text>
+	</string>
+	<string id="st_pda_3_descr">
+		<text>袖珍型电子设备, 包含了一台电脑的大多数功能. PDA对于日常信息的共享是必不可少的. 预装有的GPS模块, 可为用户提供地理位置和时间信息. 此版本中的功能已得到极大改进, 以检索和处理连接到网络的其他设备的位置, 所以该PDA在潜行者中非常受欢迎. 与通常的GPS设备不同, 此设备依赖一组代码, 该代码集允许设备在连接的网络上获取特权以得到更多信息.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 技术产品\n
+		%c[d_blue] • %c[ui_gray_2] 低功耗\n
+		%c[d_purple] • %c[ui_gray_2] 显示附近小队位置及归属\n
+		</text>
+	</string>
+	
+	<string id="st_detector1">
+		<text>回声探测器</text>
+	</string>
+	<string id="st_detector1_descr">
+		<text>这个过时的变异点探测器在进入变异区域时, 就会发出警报信号. 它还可以标记神器的位置, 并测量到最近的神器的距离. 这个距离是由探测器发出的声音的频率来表示的. 要切换到神器搜索模式, 则需要开启装置的前置盖. 回声的设计很是简单, 所以只能定位常见的神器.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 探测器\n
+		%c[d_blue] • %c[ui_gray_2] 中等功耗\n
+		</text>
+	</string>
+	
+	<string id="st_detector2">
+		<text>熊式探测器</text>
+	</string>
+	<string id="st_detector2_descr">
+		<text>这种上一代变异点活动探测器可以用来定位异常地层, 它有一个彩色二极管面板, 不仅可以指示神器的方向, 还可以测量到它们之间的距离, 要切换到神器搜索模式, 则需要打开设备的前盖. 不幸的是, 这个装置是用一个有点过时的可探测神器列表来进行编程的.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 探测器\n
+		%c[d_blue] • %c[ui_gray_2] 中等功耗\n
+		</text>
+	</string>
+	
+	<string id="st_detector3">
+		<text>韦莱斯探测器</text>
+	</string>
+	<string id="st_detector3_descr">
+		<text>新一代探测器. 三个先进探头会在LED屏上显示神器位置以便寻找. 当接近时, 只显示辐射能和变异点情况. 打开前面的LED二极管, 转换到神器探测模式, 神器就会显露出来. 在这种模式下可以发现所有已知的神器.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 探测器\n
+		%c[d_blue] • %c[ui_gray_2] 高功耗\n
+		</text>
+	</string>
+	
+	<string id="st_detector4">
+		<text>火龙探测器</text>
+	</string>
+	<string id="st_detector4_descr">
+		<text>拥有扩展功能的变异点频率探测器的原型, 该设备附带有一个程序, 该程序用于识别存储在其数据库中的变异点活动的静态区域, 同时保留查找神器的能力. 变异区域和神器的位置显示在特殊屏幕上. 可以通过打开前部LED显示屏激活的神器搜索模式, 这种搜索模式已经被进行了修改, 可以检测到目前尚不为人所知的神器.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 探测器\n
+		%c[d_blue] • %c[ui_gray_2] 高功耗\n
+		</text>
+	</string>
+	
+	<string id="st_detector9">
+		<text>射频接收器</text>
+	</string>
+	<string id="st_detector9_descr">
+		<text>RF(射频)接收器是一种小型设备, 带有用于基本通信的高度敏感的RF模块. 使用的都是旧技术, 在士兵中还是很常见的. 顾名思义. 它具有与半径200 m的无线电信号进行交互的能力. 该设备能够处理频率范围在30到300 MHz之间的无线电波.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 技术产品\n
+		%c[d_blue] • %c[ui_gray_2] 中等功耗\n
+		</text>
+	</string>
+	
+	<string id="st_detector8">
+		<text>变异点测量装置</text>
+	</string>
+	<string id="st_detector8_descr">
+		<text>第一个原型是2008年在萨哈罗夫教授的监督下在杨塔移动实验室设计的. 在研究领域取得成功后, 又有更多的复制品问世. 这种装置能够测量和记录变异区域. 改进的结构和传感器保证即使在恶劣环境下也能正常工作. 在采集期间或跟踪期间的高灵敏度允许在许多不同的环境和最恶劣的操作条件下使用.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 技术产品\n
+		%c[d_blue] • %c[ui_gray_2] 中等功耗\n
+		</text>
+	</string>
+	
+	<string id="st_broken_pda">
+		<text>坏的PDA</text>
+	</string>
+	<string id="st_broken_pda_descr">
+		<text>这个PDA似乎严重损坏, 一半屏幕坏了, GPS模块也不能正常工作. 但内部硬件大部分还是保持正常的.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 技术产品\n
+		</text>
+	</string>
+	
+	<string id="st_device_torch_name">
+		<text>头灯</text>
+	</string>
+	<string id="st_device_torch_descr">
+		<text>标准的通用头戴式手电筒, 对需要在夜间外出的潜行者来说非常有用, 但是使用不当也会招来不必要的麻烦.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 技术产品\n
+		%c[d_blue] • %c[ui_gray_2] 中等功耗\n
+		</text>
+	</string>
+	
+	<string id="st_device_torch_nv_1_name">
+		<text>带1P93-1夜视仪的头灯
+		</text>
+	</string>
+	<string id="st_device_torch_nv_1_descr">
+		<text>标准的通用头戴式手电筒, 对需要在夜间外出的潜行者来说非常有用, 但是使用不当也会招来不必要的麻烦. 这个头灯配有标准配置的俄罗斯军队PN93-1夜视设备. 提供2+级图像增强, 特别适用于夜间或弱光条件下的操作.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 技术产品\n
+		%c[d_purple] • %c[ui_gray_2] 夜视仪: %c[ui_gray_1]1PN93-1.\n
+		%c[d_blue] • %c[ui_gray_2] 中等功耗\n
+		</text>
+	</string>
+	
+	<string id="st_device_torch_nv_2_name">
+		<text>带PN21KL夜视仪的头灯
+		</text>
+	</string>
+	<string id="st_device_torch_nv_2_descr">
+		<text>标准的通用头戴式手电筒, 对需要在夜间外出的潜行者来说非常有用, 但是使用不当也会招来不必要的麻烦. 这个头灯配有IIT夜视仪, 提供2+级图像增强, 用于夜间自然照明或完全黑暗中使用红外照明灯的条件下的操作.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 技术产品\n
+		%c[d_purple] • %c[ui_gray_2] 夜视仪: %c[ui_gray_1]PN21KL.\n
+		%c[d_blue] • %c[ui_gray_2] 中等功耗\n
+		</text>
+	</string>
+	
+	<string id="st_device_torch_nv_3_name">
+		<text>带"神谕"PSY监测仪的头灯</text>
+	</string>
+	<string id="st_device_torch_nv_3_descr">
+		<text>标准的通用头戴式手电筒. 对需要在夜间外出的潜行者来说非常有用, 但是使用不当也会招来不必要的麻烦. 这款夜视仪带有镜头和图像处理软件的电源, 去除噪点, 增强了PN21K组件的图像增强能力, 使其成为成熟的IIT 3+级夜视设备.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 技术产品\n
+		%c[d_purple] • %c[ui_gray_2] 夜视仪: %c[ui_gray_1]"神谕"PSY监测仪.\n
+		%c[d_blue] • %c[ui_gray_2] 中等功耗\n
+		</text>
+	</string>
+	
+	<string id="st_device_flashlight">
+		<text>手电筒</text>
+	</string>
+	<string id="st_device_flashlight_descr">
+		<text>通用手持手电筒. 不幸的是, 由于它需要占用一只手, 所以大多数武器便无法使用. 因此只能与手枪和其他单手设备同时使用.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 技术产品\n
+		%c[d_blue] • %c[ui_gray_2] 中等功耗\n
+		</text>
+	</string>
+	
+	<string id="st_batteries_dead">
+		<text>旧电池</text>
+	</string>
+	<string id="st_batteries_dead_descr">
+		<text>在特异区发现的电池中, 只有十分之一的还有些电量. 由于几乎不可能找到电池充电器, 潜行者们会在电量耗尽后就会丢弃电池. 它们的外层被腐蚀并被尘土覆盖, 这有力地表明它们几乎已经快歇逼了. 尽管如此, 像该特异区中的所有事物一样, 它们也有其用途, 至少你可以用它们试着充充电.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 技术产品\n
+		</text>
+	</string>
+	
+	<string id="st_batteries">
+		<text>一包电池</text>
+	</string>
+	<string id="st_batteries_descr">
+		<text>一包电池, 一定有人用过, 因为半数的电池已经没电了. 可适用于手电筒, PDA, 夜视仪和其他电子设备. 记住要定期更换.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 技术产品\n
+		</text>
+	</string>
+	
+	<string id="st_batteries_ccell">
+		<text>军用电池包</text>
+	</string>
+	<string id="st_batteries_ccell_descr">
+		<text>一包满电的军用电池. 在电池稀缺的特异区是很贵重的物品. 从新手到大师, 再到特异区中每一处的派系无一不在使用. 这种东西由那些试图在特异区赚取一些油水的腐败军官提供给交易商出售.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 技术产品\n
+		</text>
+	</string>
+	
+	<string id="st_geiger_dead">
+		<text>盖革计数器</text>
+	</string>
+	<string id="st_geiger_dead_descr">
+		<text>盖革计数器测量电离(放射性)辐射. 它可检测α粒子, β粒子和γ粒子的发射. 盖格计数器发明于1908年, 至今仍是常用的技术物品, 用于医学, 物理, 工业, 地质和其他科学领域的测量. 由简单的电子电路制成.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 技术物品 \n
+		%c[d_orange] • %c[ui_gray_2] 测量放射污染水平\n
+		%c[d_blue] • %c[ui_gray_2] 中等功耗\n
+		%c[d_orange] • %c[ui_gray_2] 三种操作模式\n
+		</text>
+	</string>
+	
+	<string id="st_electric power">
+		<text>通用电力装置(电能)</text>
+	</string>
+	<string id="st_electric power_descr">
+		<text>一个冷战时期的电源设备, 能够接受几乎所有的电池种类. 这种装置利用插入的电池, 通过一组微电线用升压的电流向电子设备供电. 不管目标设备有多复杂, 使用时间有多长, 通用电力装置都可以连接. 即使只剩下一块电池, 潜行者也可以顺利地使用和操作电子设备.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 技术产品\n
+		%c[d_blue] • %c[ui_gray_2] 便携式电源\n
+		%c[d_blue] • %c[ui_gray_2] 通用大多数现代电子设备\n
+		%c[d_blue] • %c[ui_gray_2] 通用所有电池\n
+		%c[d_blue] • %c[ui_gray_2] 存储容量
+		%c[ui_gray_1]3小时(安培 小时)\n
+		</text>
+	</string>
+	
+	<string id="extension_pda">
+		<text>多媒体PDA</text>
+	</string>
+	<string id="exten_sion_pda">
+		<text>一款昂贵的防潮防震PDA, 配有聊天客户端和集成音乐播放器.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 允许在潜行者网络中播放音乐和互动\n
+		</text>
+	</string>
+	
+	<string id="st_gps_tracker">
+		<text>军用GPS设备</text>
+	</string>
+	<string id="st_gps_tracker_descr">
+		<text>下一代GPS导航设备的原型. 只制作了很少的样本. 尽管其中一些已经泄露, 但仍然只分配给军衔最高的军官. 改进后的设备即使在恶劣的环境中也能保持正常运行. 采集期间或跟踪过程中的拥有高灵敏度, 这意味着设备允许在许多不同的环境中或是最恶劣的操作条件下使用. 与通常的GPS设备不同, 这一设备依赖于一组代码, 这些代码使得设备在连接的网络上获得特权以检索300米半径内的其他已连接设备的位置. 相应的, 该设备在运行时会消耗大量电能. 模块内部包含一个自动切换电路可在连续扫描20秒后将其关闭.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 技术产品\n
+		%c[d_blue] • %c[ui_gray_2] 非常高功耗\n
+		</text>
+	</string>
+
+	<string id="st_musicplayer">
+		<text>无线电</text>
+	</string>
+	<string id="st_musicplayer_desc">
+		<text>一种经过修改的无线电设备, 旨在能够与其他无线电设备进行通信, 同时又滤除了尽可能多的干扰.\n \n%c[ui_gray_2]属性:\n \n
+		%c[d_cyan] • %c[ui_gray_2] 技术产品\n
+		</text>
+	</string>
+	
+	<string id="st_weather_radar">
+		<text>多普勒天气雷达套件</text>
+	</string>
+	<string id="st_weather_radar_descr">
+		<text>一个先进的脉冲多普勒天气雷达迷你套件. 这个工具包被认为是气象学领域的奇迹. 它使用一个由波导连接到抛物面天线的空腔磁控管, 以微秒级的长度发送微波辐射的定向脉冲, 以收集气象数据.\n
+		两位科学家发现, 使用天线附近的肉块神器可以极大地放大脉冲功率, 甚至可以改变大气对流层中的离子并完全改变其性质.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 技术产品\n
+		%c[d_blue] • %c[ui_gray_2] 气象设备\n
+		%c[d_blue] • %c[ui_gray_2] 由一个肉块神器驱动\n
+		</text>
+	</string>
+	
+	<string id="st_dosimeter_mode">
+		<text>放射量测定器模式</text>
+	</string>
+	<string id="st_actor_rads">
+		<text>体辐射</text>
+	</string>
+	<string id="st_environment_rads">
+		<text>环境辐射</text>
+	</string>
+</string_table>

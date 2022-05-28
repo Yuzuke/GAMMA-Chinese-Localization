@@ -1,0 +1,1756 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<string_table>
+
+	<string id="monster_zombied_night">
+		<text>夜间活动的僵尸</text>
+	</string>
+	<string id="monster_zombied_day">
+		<text>白天活动的僵尸</text>
+	</string>
+	<string id="monster_predatory_night">
+		<text>夜间活动的捕食者</text>
+	</string>
+	<string id="monster_predatory_day">
+		<text>白天活动的捕食者</text>
+	</string>
+	<string id="monster_vegetarian">
+		<text>植食性变异生物</text>
+	</string>
+	<string id="zoo_monster">
+		<text>变异生物</text>
+	</string>
+	<string id="monster_special">
+		<text>特殊变异生物</text>
+	</string>
+
+	<string id="st_sq_enemy">
+		<text>敌人</text>
+	</string>
+	<string id="st_sq_friends">
+		<text>友好</text>
+	</string>
+	<string id="st_sq_neutral">
+		<text>中立</text>
+	</string>
+	<string id="st_sq_count">
+		<text>数量 =</text>
+	</string>
+	<string id="st_sq_count_companions">
+		<text>人数:</text>
+	</string>
+	<string id="st_sq_target">
+		<text>目标</text>
+	</string>
+	<string id="st_sq_type">
+		<text>种类:</text>
+	</string>
+
+
+	<string id="st_sm_faction">
+		<text>阵营:</text>
+	</string>
+	<string id="st_sm_squad_count">
+		<text>能力=</text>
+	</string>
+	<string id="st_sm_max_population">
+		<text>有_</text>
+	</string>
+	<string id="st_sm_respawn">
+		<text>刷新时间 %d 小时 %d 分钟 %.0f 秒</text>
+	</string>
+
+
+	<string id="st_squad_show_1">
+		<text>晴空图标1</text>
+	</string>
+	<string id="st_squad_show_2">
+		<text>晴空图标2</text>
+	</string>
+	<string id="st_squad_show_3">
+		<text>派系战争图标1</text>
+	</string>
+	<string id="st_squad_show_4">
+		<text>派系战争图标2</text>
+	</string>
+	<string id="st_squad_show_5">
+		<text>只显示中立单位</text>
+	</string>
+	<string id="st_squad_show_0">
+		<text>刷新点</text>
+	</string>
+	<string id="ui_mm_squad_on_map">
+		<text>地图上的小队</text>
+	</string>
+	<string id="ui_mm_smarts_on_map">
+		<text>显示地图小地点</text>
+	</string>
+
+
+
+
+	<string id="st_esc_smart_terrain_3_16_name">
+		<text>封锁线. 军方前哨</text>
+	</string>
+	<string id="st_esc_smart_terrain_2_12_name">
+		<text>封锁线. 新手村</text>
+	</string>
+	<string id="st_esc_smart_terrain_4_13_name">
+		<text>封锁线. 露营地</text>
+	</string>
+	<string id="st_esc_smart_terrain_2_14_name">
+		<text>封锁线. 树下篝火</text>
+	</string>
+	<string id="st_esc_smart_terrain_4_11_name">
+		<text>封锁线. 拖车旁的营地</text>
+	</string>
+	<string id="st_esc_smart_terrain_1_11_name">
+		<text>封锁线. 秘密营地</text>
+	</string>
+	<string id="st_esc_smart_terrain_5_12_name">
+		<text>封锁线. 临时帐篷</text>
+	</string>
+	<string id="st_esc_smart_terrain_7_11_name">
+		<text>封锁线. 车站</text>
+	</string>
+	<string id="st_esc_smart_terrain_5_9_name">
+		<text>封锁线. 谷物升降机</text>
+	</string>
+	<string id="st_esc_smart_terrain_4_9_name">
+		<text>封锁线. 地下通道</text>
+	</string>
+	<string id="st_esc_smart_terrain_6_8_name">
+		<text>封锁线. 断桥</text>
+	</string>
+	<string id="st_esc_smart_terrain_8_10_name">
+		<text>封锁线. 坡上营地</text>
+	</string>
+	<string id="st_esc_smart_terrain_8_9_name">
+		<text>封锁线. 树林篝火</text>
+	</string>
+	<string id="st_esc_smart_terrain_9_7_name">
+		<text>封锁线. 铁路营地</text>
+	</string>
+	<string id="st_esc_smart_terrain_6_6_name">
+		<text>封锁线. 废弃小屋</text>
+	</string>
+	<string id="st_esc_smart_terrain_5_7_name">
+		<text>封锁线. 旧农庄</text>
+	</string>
+	<string id="st_esc_smart_terrain_3_7_name">
+		<text>封锁线. 石边篝火</text>
+	</string>
+	<string id="st_esc_smart_terrain_5_6_name">
+		<text>封锁线. 林中篝火</text>
+	</string>
+	<string id="st_esc_smart_terrain_5_4_name">
+		<text>封锁线. 路旁篝火</text>
+	</string>
+	<string id="st_esc_smart_terrain_5_2_name">
+		<text>封锁线. 北方前哨</text>
+	</string>
+
+
+	<string id="st_ds_ptr4_name">
+		<text>黑暗之径. 废弃卡车</text>
+	</string>
+	<string id="st_ds2_lager_st_name">
+		<text>黑暗之径. 崖边营地</text>
+	</string>
+	<string id="st_ds2_st_dogs_name">
+		<text>黑暗之径. 林间集结点</text>
+	</string>
+	<string id="st_ds_grverfer2_name">
+		<text>黑暗之径. 路边集结点</text>
+	</string>
+	<string id="st_ds_ptr2_name">
+		<text>黑暗之径. 休息区</text>
+	</string>
+	<string id="st_ds_deb1_name">
+		<text>黑暗之径. 路障</text>
+	</string>
+	<string id="st_ds_kem2_name">
+		<text>黑暗之径. 加油站</text>
+	</string>
+	<string id="st_ds2_domik_st_name">
+		<text>黑暗之径. 森林藏身处</text>
+	</string>
+	<string id="st_ds_boars_nest_name">
+		<text>黑暗之径. 崖边集结点</text>
+	</string>
+	<string id="st_ds2_st_hoofs_name">
+		<text>黑暗之径. 伏击点</text>
+	</string>
+	<string id="st_ds_ptr_name">
+		<text>黑暗之径. 断裂铁路桥</text>
+	</string>
+	<string id="st_ds_ptr3_name">
+		<text>黑暗之径. 放射性卡车停靠站</text>
+	</string>
+	<string id="st_ds_kem3_name">
+		<text>黑暗之径. 小桥</text>
+	</string>
+	<string id="st_ds_kem1_name">
+		<text>黑暗之径. 黑暗山谷关卡</text>
+	</string>
+
+
+	<string id="st_mar_smart_terrain_base_name">
+		<text>大沼泽. 晴空基地</text>
+	</string>
+	<string id="st_mar_smart_terrain_5_12_name">
+		<text>大沼泽. 渔村</text>
+	</string>
+	<string id="st_mar_smart_terrain_6_11_name">
+		<text>大沼泽. 瞭望塔</text>
+	</string>
+	<string id="st_mar_smart_terrain_8_11_name">
+		<text>大沼泽. 破败的教堂</text>
+	</string>
+	<string id="st_mar_smart_terrain_11_11_name">
+		<text>大沼泽. 南部村庄</text>
+	</string>
+	<string id="st_mar_smart_terrain_10_10_name">
+		<text>大沼泽. 池塘边的篝火</text>
+	</string>
+	<string id="st_mar_smart_terrain_8_9_name">
+		<text>大沼泽. 路边营地</text>
+	</string>
+	<string id="st_mar_smart_terrain_6_10_name">
+		<text>大沼泽. 小池塘</text>
+	</string>
+	<string id="st_mar_smart_terrain_3_10_name">
+		<text>大沼泽. 前进站</text>
+	</string>
+	<string id="st_mar_smart_terrain_doc_2_name">
+		<text>大沼泽. 孤独瞭望塔</text>
+	</string>
+	<string id="st_mar_smart_terrain_5_8_name">
+		<text>大沼泽. 抽水站</text>
+	</string>
+	<string id="st_mar_smart_terrain_6_8_name">
+		<text>大沼泽. 船只墓地</text>
+	</string>
+	<string id="st_mar_smart_terrain_8_8_name">
+		<text>大沼泽. 烧毁农场</text>
+	</string>
+	<string id="st_mar_smart_terrain_10_7_name">
+		<text>大沼泽. 路边野火</text>
+	</string>
+	<string id="st_mar_smart_terrain_3_7_name">
+		<text>大沼泽. 露营点</text>
+	</string>
+	<string id="st_mar_smart_terrain_4_7_name">
+		<text>大沼泽. 怪异篝火</text>
+	</string>
+	<string id="st_mar_smart_terrain_6_7_name">
+		<text>大沼泽. 水管路障</text>
+	</string>
+	<string id="st_mar_smart_terrain_7_7_name">
+		<text>大沼泽. 开阔露营地</text>
+	</string>
+	<string id="st_mar_smart_terrain_10_5_name">
+		<text>大沼泽. 机械大院</text>
+	</string>
+	<string id="st_mar_smart_terrain_8_4_name">
+		<text>大沼泽. 路旁篝火</text>
+	</string>
+	<string id="st_mar_smart_terrain_6_4_name">
+		<text>大沼泽. 临时营地</text>
+	</string>
+	<string id="st_mar_smart_terrain_4_5_name">
+		<text>大沼泽. 废弃村庄</text>
+	</string>
+	<string id="st_mar_smart_terrain_3_3_name">
+		<text>大沼泽. 渔场</text>
+	</string>
+	<string id="st_mar_smart_terrain_doc_name">
+		<text>大沼泽. 水沟</text>
+	</string>
+	<string id="st_mar_smart_terrain_12_2_name">
+		<text>大沼泽. 北部村庄</text>
+	</string>
+	<string id="st_mar_smart_terrain_11_3_name">
+		<text>大沼泽. 卡车旁的篝火</text>
+	</string>
+	<string id="st_mar_smart_terrain_7_3_name">
+		<text>大沼泽. 断裂铁路</text>
+	</string>
+
+
+	<string id="st_gar_smart_terrain_3_7_name">
+		<text>废弃区. 车辆坟场</text>
+	</string>
+	<string id="st_gar_smart_terrain_6_7_name">
+		<text>废弃区. 优势要地</text>
+	</string>
+	<string id="st_gar_smart_terrain_5_6_name">
+		<text>废弃区. 毁坏的起重机</text>
+	</string>
+	<string id="st_gar_smart_terrain_6_6_name">
+		<text>废弃区. 森林藏身处</text>
+	</string>
+	<string id="st_gar_smart_terrain_1_7_name">
+		<text>废弃区. 临时前哨</text>
+	</string>
+	<string id="st_gar_smart_terrain_3_5_name">
+		<text>废弃区. 车站</text>
+	</string>
+	<string id="st_gar_smart_terrain_2_4_name">
+		<text>废弃区. 管后藏身处</text>
+	</string>
+	<string id="st_gar_smart_terrain_1_5_name">
+		<text>废弃区. 道路封锁处</text>
+	</string>
+	<string id="st_gar_smart_terrain_4_5_name">
+		<text>废弃区. 巴士站</text>
+	</string>
+	<string id="st_gar_smart_terrain_5_5_name">
+		<text>废弃区. 垃圾营地</text>
+	</string>
+	<string id="st_gar_smart_terrain_7_4_name">
+		<text>废弃区. 小封锁点</text>
+	</string>
+	<string id="st_gar_smart_terrain_6_3_name">
+		<text>废弃区. 跳蚤市场</text>
+	</string>
+	<string id="st_gar_smart_terrain_6_1_name">
+		<text>废弃区. 隐秘营地</text>
+	</string>
+	<string id="st_gar_smart_terrain_5_2_name">
+		<text>废弃区. 强化哨卡</text>
+	</string>
+	<string id="st_gar_smart_terrain_4_2_name">
+		<text>废弃区. 砾石坑</text>
+	</string>
+	<string id="st_gar_smart_terrain_5_4_name">
+		<text>废弃区. 路牌</text>
+	</string>
+	<string id="st_gar_smart_terrain_8_3_name">
+		<text>废弃区. 西部前哨</text>
+	</string>
+	<string id="st_gar_smart_terrain_8_5_name">
+		<text>废弃区. 偏僻营地</text>
+	</string>
+	<string id="st_gar_smart_terrain_5_8_name">
+		<text>废弃区. 过境站</text>
+	</string>
+
+
+	<string id="st_agr_smart_terrain_6_4_name">
+		<text>农研所. 隧道巢穴</text>
+	</string>
+	<string id="st_agr_smart_terrain_5_3_name">
+		<text>农研所. 货运火车</text>
+	</string>
+	<string id="st_agr_smart_terrain_5_2_name">
+		<text>农研所. 山顶营地</text>
+	</string>
+	<string id="st_agr_smart_terrain_2_2_name">
+		<text>农研所. 岩边篝火</text>
+	</string>
+	<string id="st_agr_smart_terrain_1_2_name">
+		<text>农研所. 泥沼营地</text>
+	</string>
+	<string id="st_agr_smart_terrain_1_3_name">
+		<text>农研所. 通讯前哨</text>
+	</string>
+	<string id="st_agr_smart_terrain_1_6_near_1_name">
+		<text>农研所. 北方入口</text>
+	</string>
+	<string id="st_agr_smart_terrain_1_6_name">
+		<text>农研所. 研究所</text>
+	</string>
+	<string id="st_agr_smart_terrain_1_6_near_2_name">
+		<text>农研所. 东部入口</text>
+	</string>
+	<string id="st_agr_smart_terrain_4_6_name">
+		<text>农研所. 检查点</text>
+	</string>
+	<string id="st_agr_smart_terrain_5_7_name">
+		<text>农研所. 地下通道边的营地</text>
+	</string>
+	<string id="st_agr_smart_terrain_7_5_name">
+		<text>农研所. 危险篝火</text>
+	</string>
+	<string id="st_agr_smart_terrain_4_4_name">
+		<text>农研所. 综合工厂</text>
+	</string>
+	<string id="st_agr_smart_terrain_4_4_near_3_name">
+		<text>农研所. 工厂入口</text>
+	</string>
+	<string id="st_agr_smart_terrain_4_4_2_name">
+		<text>农研所. 后方出口</text>
+	</string>
+	<string id="st_agr_smart_terrain_4_4_near_1_name">
+		<text>农研所. 装货间</text>
+	</string>
+	<string id="st_agr_smart_terrain_4_4_near_2_name">
+		<text>农研所. 逃离农研所的路</text>
+	</string>
+
+
+	<string id="st_val_smart_terrain_7_4_name">
+		<text>黑暗山谷. 北方工厂</text>
+	</string>
+	<string id="st_val_smart_terrain_7_3_name">
+		<text>黑暗山谷. 工厂仓库</text>
+	</string>
+	<string id="st_val_smart_terrain_9_4_name">
+		<text>黑暗山谷. 鬼屋</text>
+	</string>
+	<string id="st_val_smart_terrain_7_5_name">
+		<text>黑暗山谷. 行政楼</text>
+	</string>
+	<string id="st_val_smart_terrain_8_6_name">
+		<text>黑暗山谷. 工厂哨卡</text>
+	</string>
+	<string id="st_val_smart_terrain_9_2_name">
+		<text>黑暗山谷. 连根拔起的树</text>
+	</string>
+	<string id="st_val_smart_terrain_6_4_name">
+		<text>黑暗山谷. 山上前哨</text>
+	</string>
+	<string id="st_val_smart_terrain_6_5_name">
+		<text>黑暗山谷. 山涧营地</text>
+	</string>
+	<string id="st_val_smart_terrain_8_7_name">
+		<text>黑暗山谷. 拖车营地</text>
+	</string>
+	<string id="st_val_smart_terrain_7_8_name">
+		<text>黑暗山谷. 通讯站</text>
+	</string>
+	<string id="st_val_smart_terrain_8_9_name">
+		<text>黑暗山谷. 孤岛</text>
+	</string>
+	<string id="st_val_smart_terrain_1_2_name">
+		<text>黑暗山谷. 工厂后院</text>
+	</string>
+	<string id="st_val_smart_terrain_9_6_name">
+		<text>黑暗山谷. 厂边营地</text>
+	</string>
+	<string id="st_val_smart_terrain_9_10_name">
+		<text>黑暗山谷. 坡上篝火</text>
+	</string>
+	<string id="st_val_smart_terrain_4_0_name">
+		<text>黑暗山谷. 养猪场</text>
+	</string>
+	<string id="st_val_smart_terrain_5_10_name">
+		<text>黑暗山谷. 集结点</text>
+	</string>
+	<string id="st_val_smart_terrain_3_0_name">
+		<text>黑暗山谷. 临时营地</text>
+	</string>
+	<string id="st_val_smart_terrain_7_11_name">
+		<text>黑暗山谷. 通往黑暗之径的路</text>
+	</string>
+
+
+	<string id="st_yan_smart_terrain_6_4_name">
+		<text>杨塔. 萨哈罗夫研究所</text>
+	</string>
+	<string id="st_yan_smart_terrain_3_6_name">
+		<text>杨塔. 洼地</text>
+	</string>
+	<string id="st_yan_smart_terrain_4_5_name">
+		<text>杨塔. 变电室</text>
+	</string>
+	<string id="st_yan_smart_terrain_2_5_name">
+		<text>杨塔. 工厂入口</text>
+	</string>
+	<string id="st_yan_smart_terrain_1_6_name">
+		<text>杨塔. 异常点营地</text>
+	</string>
+	<string id="st_yan_smart_terrain_3_4_name">
+		<text>杨塔. 工厂小屋</text>
+	</string>
+	<string id="st_yan_smart_terrain_zombi_spawn_name">
+		<text>杨塔. 倒塌起重机</text>
+	</string>
+	<string id="st_yan_smart_terrain_2_4_name">
+		<text>杨塔. 神秘工厂</text>
+	</string>
+	<string id="st_yan_smart_terrain_5_5_name">
+		<text>杨塔. 排水系统入口</text>
+	</string>
+	<string id="st_yan_smart_terrain_4_4_name">
+		<text>杨塔. 坡顶</text>
+	</string>
+	<string id="st_yan_smart_terrain_5_3_name">
+		<text>杨塔. 杨塔湖</text>
+	</string>
+	<string id="st_yan_smart_terrain_6_2_name">
+		<text>杨塔. 优势点</text>
+	</string>
+	<string id="st_yan_smart_terrain_4_2_name">
+		<text>杨塔. 异常营地篝火</text>
+	</string>
+	<string id="st_yan_smart_terrain_snork_u_name">
+		<text>杨塔. 史诺克巢</text>
+	</string>
+
+
+	<string id="st_ros_smart_stalker_killers1_name">
+		<text>大荒野. 建筑工地</text>
+	</string>
+	<string id="st_ros_smart_monster7_name">
+		<text>大荒野. 地下车库</text>
+	</string>
+	<string id="st_ros_smart_snork1_name">
+		<text>大荒野. 辐射大棚</text>
+	</string>
+	<string id="st_ros_smart_killers1_name">
+		<text>大荒野. 入口</text>
+	</string>
+	<string id="st_ros_smart_stalker1_name">
+		<text>大荒野. 废弃建筑材料</text>
+	</string>
+	<string id="st_ros_smart_poltergeist2_name">
+		<text>大荒野. 破败车站</text>
+	</string>
+	<string id="st_ros_smart_monster5_name">
+		<text>大荒野. 坍塌隧道</text>
+	</string>
+	<string id="st_ros_smart_monster4_name">
+		<text>大荒野. 运煤火车</text>
+	</string>
+
+
+	<string id="st_bar_zastava_2_name">
+		<text>罗斯托克. 西部哨卡</text>
+	</string>
+	<string id="st_bar_zastava_dogs_lair_2_name">
+		<text>罗斯托克. 怪物巢</text>
+	</string>
+	<string id="st_bar_visitors_name">
+		<text>罗斯托克. 辐射100酒吧</text>
+	</string>
+	<string id="st_bar_dolg_general_name">
+		<text>罗斯托克. 基地入口</text>
+	</string>
+	<string id="st_bar_dolg_bunker_name">
+		<text>罗斯托克. 临时营房</text>
+	</string>
+	<string id="st_bar_zastava_name">
+		<text>罗斯托克. 南部哨卡</text>
+	</string>
+	<string id="st_bar_zastava_dogs_lair_name">
+		<text>罗斯托克. 壕沟</text>
+	</string>
+
+
+	<string id="st_trc_sim_20_name">
+		<text>卡车公墓. 东部检查站</text>
+	</string>
+	<string id="st_trc_sim_17_name">
+		<text>卡车公墓. 残骸后的营地</text>
+	</string>
+	<string id="st_trc_sim_7_name">
+		<text>卡车公墓. 林间优势点</text>
+	</string>
+	<string id="st_trc_sim_21_name">
+		<text>卡车公墓. 偏僻森林</text>
+	</string>
+	<string id="st_trc_sim_4_name">
+		<text>卡车公墓. 烧毁小屋旁的坡顶</text>
+	</string>
+	<string id="st_trc_sim_18_name">
+		<text>卡车公墓. 车间营地</text>
+	</string>
+	<string id="st_trc_sim_1_name">
+		<text>卡车公墓. 观察哨</text>
+	</string>
+	<string id="st_trc_sim_2_name">
+		<text>卡车公墓. 箱旁营地</text>
+	</string>
+	<string id="st_trc_sim_3_name">
+		<text>卡车公墓. 交叉路口</text>
+	</string>
+	<string id="st_trc_sim_12_name">
+		<text>卡车公墓. 林间藏身处</text>
+	</string>
+	<string id="st_trc_sim_10_name">
+		<text>卡车公墓. 森林角落</text>
+	</string>
+	<string id="st_trc_sim_11_name">
+		<text>卡车公墓. 军车弃置场</text>
+	</string>
+	<string id="st_trc_sim_14_name">
+		<text>卡车公墓. 消防车弃置场</text>
+	</string>
+	<string id="st_trc_sim_15_name">
+		<text>卡车公墓. 直升机弃置场</text>
+	</string>
+	<string id="st_trc_sim_6_name">
+		<text>卡车公墓. 瞭望塔</text>
+	</string>
+	<string id="st_trc_sim_19_name">
+		<text>卡车公墓. 卡车弃置场</text>
+	</string>
+	<string id="st_trc_sim_5_name">
+		<text>卡车公墓. 十字路口</text>
+	</string>
+	<string id="st_trc_sim_16_name">
+		<text>卡车公墓. 弃置场空地</text>
+	</string>
+	<string id="st_trc_sim_9_name">
+		<text>卡车公墓. 丘顶</text>
+	</string>
+	<string id="st_trc_sim_13_name">
+		<text>卡车公墓. 山谷集结点</text>
+	</string>
+	<string id="st_trc_sim_8_name">
+		<text>卡车公墓. 加油车弃置场</text>
+	</string>
+
+
+	<string id="st_cit_bandits_2_name">
+		<text>死城. 孤零零的房子</text>
+	</string>
+	<string id="st_cit_kanaliz1_name">
+		<text>死城. 优势点</text>
+	</string>
+	<string id="st_cit_bandits_name">
+		<text>死城. 废弃学校</text>
+	</string>
+	<string id="st_cit_killers_name">
+		<text>死城. 体育中心</text>
+	</string>
+	<string id="st_cit_killers_vs_bandits_name">
+		<text>死城. 列宁雕像</text>
+	</string>
+	<string id="st_cit_killers_2_name">
+		<text>死城. 破败房屋</text>
+	</string>
+	<string id="st_cit_kanaliz2_name">
+		<text>死城. 洼地</text>
+	</string>
+	<string id="st_zombie_smart_ds_mlr_1_name">
+		<text>死城. 废弃院子</text>
+	</string>
+	<string id="st_zombie_smart_ds_mlr_2_name">
+		<text>死城. 公寓</text>
+	</string>
+
+
+	<string id="st_mil_smart_terrain_7_4_name">
+		<text>军方仓库. 废弃村庄</text>
+	</string>
+	<string id="st_mil_smart_terrain_7_12_name">
+		<text>军方仓库. 军方基地</text>
+	</string>
+	<string id="st_mil_smart_terrain_8_3_name">
+		<text>军方仓库. 隐蔽避难所</text>
+	</string>
+	<string id="st_mil_smart_terrain_2_10_name">
+		<text>军方仓库. 吸血鬼村</text>
+	</string>
+	<string id="st_mil_smart_terrain_4_3_name">
+		<text>军方仓库. 村庄塔楼</text>
+	</string>
+	<string id="st_mil_smart_terrain_4_2_name">
+		<text>军方仓库. 村庄服务站</text>
+	</string>
+	<string id="st_mil_smart_terrain_2_2_name">
+		<text>军方仓库. 强化检查站</text>
+	</string>
+	<string id="st_mil_smart_terrain_2_4_name">
+		<text>军方仓库. 废弃农庄</text>
+	</string>
+	<string id="st_mil_smart_terrain_2_1_name">
+		<text>军方仓库. 藏身处</text>
+	</string>
+	<string id="st_mil_smart_terrain_2_6_name">
+		<text>军方仓库. 坠落直升机</text>
+	</string>
+	<string id="st_mil_smart_terrain_3_8_name">
+		<text>军方仓库. 障碍</text>
+	</string>
+	<string id="st_mil_smart_terrain_4_8_name">
+		<text>军方仓库. 障碍警戒哨</text>
+	</string>
+	<string id="st_mil_smart_terrain_4_7_name">
+		<text>军方仓库. 路边营地</text>
+	</string>
+	<string id="st_mil_smart_terrain_7_8_name">
+		<text>军方仓库. 军方仓库营地</text>
+	</string>
+	<string id="st_mil_smart_terrain_7_10_name">
+		<text>军方仓库. 毁坏变电站</text>
+	</string>
+	<string id="st_mil_smart_terrain_7_7_name">
+		<text>军方仓库. 军事基地</text>
+	</string>
+	<string id="st_mil_smart_terrain_4_5_name">
+		<text>军方仓库. 空地营地</text>
+	</string>
+
+
+	<string id="st_rad_entrance_name">
+		<text>雷达. 废弃检查站</text>
+	</string>
+	<string id="st_rad_valley_name">
+		<text>雷达. 废弃坦克</text>
+	</string>
+	<string id="st_rad_after_valley_name">
+		<text>雷达.遗弃车辆</text>
+	</string>
+	<string id="st_rad2_prip_teleport_name">
+		<text>雷达. 秘密设施</text>
+	</string>
+	<string id="st_rad2_loner_0001_name">
+		<text>雷达. 路障</text>
+	</string>
+	<string id="st_rad_snork1_name">
+		<text>雷达. 奇怪藏身处</text>
+	</string>
+	<string id="st_rad_zombied1_name">
+		<text>雷达. 怪物巢穴</text>
+	</string>
+	<string id="st_rad_snork2_name">
+		<text>雷达. 通道</text>
+	</string>
+	<string id="st_rad_pseudodogs_name">
+		<text>雷达. 直升机旁的藏身处</text>
+	</string>
+	<string id="st_rad_bloodsucker_name">
+		<text>雷达. 栅栏集结点</text>
+	</string>
+	<string id="st_rad_zombied2_name">
+		<text>雷达. 寂静之地</text>
+	</string>
+	<string id="st_rad_antenna_patrol_name">
+		<text>雷达. 焦脑器</text>
+	</string>
+	<string id="st_rad_antenna_monolith_name">
+		<text>雷达. 焦脑器入口</text>
+	</string>
+	<string id="st_rad_antenna_camper_name">
+		<text>雷达. 隧道入口</text>
+	</string>
+	<string id="st_rad2_loner_0002_name">
+		<text>雷达. 沙包</text>
+	</string>
+	<string id="st_rad2_loner_0000_name">
+		<text>雷达. 指示路牌</text>
+	</string>
+	<string id="st_rad_valley_dogs_name">
+		<text>雷达. 狗巢</text>
+	</string>
+
+
+	<string id="st_red_smart_terrain_6_3_name">
+		<text>红森林. 险恶营地</text>
+	</string>
+	<string id="st_red_smart_terrain_monsters_name">
+		<text>红森林. 废弃坦克</text>
+	</string>
+	<string id="st_red_smart_terrain_monsters_2_name">
+		<text>红森林. 矿井</text>
+	</string>
+	<string id="st_red_smart_terrain_6_6_name">
+		<text>红森林. 森林篝火</text>
+	</string>
+	<string id="st_red_smart_terrain_bridge_name">
+		<text>红森林. 利曼斯克铁桥</text>
+	</string>
+	<string id="st_red_smart_terrain_5_5_name">
+		<text>红森林. 石边藏身处</text>
+	</string>
+	<string id="st_red_smart_terrain_5_6_name">
+		<text>红森林. 林间空地</text>
+	</string>
+	<string id="st_red_smart_terrain_monsters_3_name">
+		<text>红森林. 已发现的巢</text>
+	</string>
+	<string id="st_red_smart_terrain_4_5_name">
+		<text>红森林. 林间旧营地</text>
+	</string>
+	<string id="st_red_smart_terrain_4_3_name">
+		<text>红森林. 空地</text>
+	</string>
+	<string id="st_red_smart_terrain_3_3_name">
+		<text>红森林. 集结点</text>
+	</string>
+	<string id="st_red_smart_terrain_4_2_name">
+		<text>红森林. 入口营地</text>
+	</string>
+	<string id="st_red_smart_terrain_3_1_name">
+		<text>红森林. 废弃检查站</text>
+	</string>
+	<string id="st_red_smart_terrain_3_2_name">
+		<text>红森林. 矿洞营房</text>
+	</string>
+	<string id="st_red_bridge_bandit_smart_skirmish_name">
+		<text>红森林. 利曼斯克隧道</text>
+	</string>
+
+
+	<string id="st_lim_smart_terrain_1_name">
+		<text>利曼斯克. 废弃小屋旁的营地</text>
+	</string>
+	<string id="st_lim_smart_terrain_3_name">
+		<text>利曼斯克. 检查站</text>
+	</string>
+	<string id="st_lim_smart_terrain_4_name">
+		<text>利曼斯克. 异常点之阻</text>
+	</string>
+	<string id="st_lim_smart_terrain_5_name">
+		<text>利曼斯克. 屋内通道</text>
+	</string>
+	<string id="st_lim_smart_terrain_6_name">
+		<text>利曼斯克. 废弃建筑</text>
+	</string>
+	<string id="st_lim_smart_terrain_7_name">
+		<text>利曼斯克. 断桥</text>
+	</string>
+	<string id="st_lim_smart_terrain_8_name">
+		<text>利曼斯克. 变电站附近的小屋</text>
+	</string>
+	<string id="st_lim_smart_terrain_9_name">
+		<text>利曼斯克. 旧建筑工地</text>
+	</string>
+	<string id="st_lim_smart_terrain_10_name">
+		<text>利曼斯克. 倒塌房屋</text>
+	</string>
+
+	<string id="st_katacomb_smart_terrain_name">
+		<text>废弃医院</text>
+	</string>
+
+	<string id="st_pri_smart_neutral_stalker1_name">
+		<text>普里皮亚季. 火坑营地</text>
+	</string>
+	<string id="st_pri_smart_monolith_stalker2_name">
+		<text>普里皮亚季. 雕像旁的营地</text>
+	</string>
+	<string id="st_pri_smart_monster_lair1_name">
+		<text>普里皮亚季. 拖车岗哨</text>
+	</string>
+	<string id="st_pri_smart_monolith_stalker3_name">
+		<text>普里皮亚季. 主干路</text>
+	</string>
+	<string id="st_pri_smart_controler_lair1_name">
+		<text>普里皮亚季. 毁坏的房屋</text>
+	</string>
+	<string id="st_pri_smart_monolith_stalker4_name">
+		<text>普里皮亚季. 雕像附近的哨卡</text>
+	</string>
+	<string id="st_pri_depot_name">
+		<text>普里皮亚季. 巴士站</text>
+	</string>
+	<string id="st_pri_smart_controler_lair2_name">
+		<text>普里皮亚季. 生锈巴士旁的营地</text>
+	</string>
+	<string id="st_pri_smart_snork_lair2_name">
+		<text>普里皮亚季. 倒塌的列宁像</text>
+	</string>
+	<string id="st_pri_smart_tushkano_lair1_name">
+		<text>普里皮亚季. 皮城旅馆</text>
+	</string>
+	<string id="st_pri_smart_snork_lair1_name">
+		<text>普里皮亚季. 辐射废墟旁的营地</text>
+	</string>
+	<string id="st_pri_monolith_name">
+		<text>普里皮亚季. 能量文化宫</text>
+	</string>
+	<string id="st_pri_smart_monolith_stalker6_name">
+		<text>普里皮亚季. 体育馆入口</text>
+	</string>
+	<string id="st_pri_smart_pseudodog_lair1_name">
+		<text>普里皮亚季. 孤独营地</text>
+	</string>
+	<string id="st_pri_smart_giant_lair1_name">
+		<text>普里皮亚季. 体育馆赛场</text>
+	</string>
+	<string id="st_pri_smart_bloodsucker_lair1_name">
+		<text>普里皮亚季. 旧商店</text>
+	</string>
+
+
+	<string id="st_gen_smart_terrain_cemetery_name">
+		<text>发电机. 墓地</text>
+	</string>
+	<string id="st_gen_smart_terrain_junk_name">
+		<text>发电机. 倒塌的起重机</text>
+	</string>
+	<string id="st_gen_smart_terrain_lab_entrance_2_name">
+		<text>发电机. 废弃变电站</text>
+	</string>
+	<string id="st_gen_smart_terrain_lab_entrance_name">
+		<text>发电机. 战争实验室地上设施</text>
+	</string>
+	<string id="st_gen_smart_terrain_forest_name">
+		<text>发电机. 森林藏身处</text>
+	</string>
+	<string id="st_gen_smart_terrain_urod_name">
+		<text>发电机. 警戒哨</text>
+	</string>
+	<string id="st_gen_smart_terrain_military_name">
+		<text>发电机. 废弃检查站</text>
+	</string>
+
+	<string id="st_warlab_common_consciousness_smart_terrain_name">
+		<text>黑石战争实验室</text>
+	</string>
+
+	<string id="st_pri_b36_smart_terrain_name">
+		<text>普里皮亚季郊区. 河港</text>
+	</string>
+	<string id="st_pri_sim_2_name">
+		<text>普里皮亚季郊区. 死胡同尽头</text>
+	</string>
+	<string id="st_pri_a28_heli_name">
+		<text>普里皮亚季郊区. 剧院</text>
+	</string>
+	<string id="st_pri_sim_1_name">
+		<text>普里皮亚季郊区. 普罗米修斯电影院</text>
+	</string>
+	<string id="st_pri_b303_name">
+		<text>普里皮亚季郊区. 旧服务中心</text>
+	</string>
+	<string id="st_pri_a28_evac_name">
+		<text>普里皮亚季郊区. 公寓停车场</text>
+	</string>
+	<string id="st_pri_b302_name">
+		<text>普里皮亚季郊区. 藏身处</text>
+	</string>
+	<string id="st_pri_sim_6_name">
+		<text>普里皮亚季郊区. 医院小道</text>
+	</string>
+	<string id="st_pri_a17_name">
+		<text>普里皮亚季郊区. 医院</text>
+	</string>
+	<string id="st_pri_b301_name">
+		<text>普里皮亚季郊区. 废弃学校</text>
+	</string>
+	<string id="st_pri_a28_school_name">
+		<text>普里皮亚季郊区. 学校大门</text>
+	</string>
+	<string id="st_pri_b306_name">
+		<text>普里皮亚季郊区. 尤拜林尼服务中心</text>
+	</string>
+	<string id="st_pri_sim_10_name">
+		<text>普里皮亚季郊区. 险恶道路</text>
+	</string>
+	<string id="st_pri_sim_12_name">
+		<text>普里皮亚季郊区. 怪物巢</text>
+	</string>
+	<string id="st_pri_a16_name">
+		<text>普里皮亚季郊区. 洗衣店</text>
+	</string>
+	<string id="st_pri_a28_base_name">
+		<text>普里皮亚季郊区. 洗衣店院子</text>
+	</string>
+	<string id="st_pri_b35_military_name">
+		<text>普里皮亚季郊区. 城市哨站</text>
+	</string>
+	<string id="st_pri_sim_5_name">
+		<text>普里皮亚季郊区. 雕像旁的通道</text>
+	</string>
+	<string id="st_pri_a28_shop_name">
+		<text>普里皮亚季郊区. 废弃商店</text>
+	</string>
+	<string id="st_pri_a28_arch_name">
+		<text>普里皮亚季郊区. 拱形建筑</text>
+	</string>
+	<string id="st_pri_a22_smart_terrain_name">
+		<text>普里皮亚季郊区. 公寓间的营地</text>
+	</string>
+	<string id="st_pri_sim_3_name">
+		<text>普里皮亚季郊区. 幼儿园大门</text>
+	</string>
+	<string id="st_pri_a25_smart_terrain_name">
+		<text>普里皮亚季郊区. 幼儿园</text>
+	</string>
+	<string id="st_pri_b307_name">
+		<text>普里皮亚季郊区. 燃烧公园</text>
+	</string>
+	<string id="st_pri_sim_7_name">
+		<text>普里皮亚季郊区. 寂静角落</text>
+	</string>
+	<string id="st_pri_sim_9_name">
+		<text>普里皮亚季郊区. 变电站附近的营地</text>
+	</string>
+	<string id="st_pri_a21_smart_terrain_name">
+		<text>普里皮亚季郊区. 食品杂货店</text>
+	</string>
+	<string id="st_pri_sim_8_name">
+		<text>普里皮亚季郊区. 狗巢</text>
+	</string>
+	<string id="st_pri_sim_11_name">
+		<text>普里皮亚季郊区. 开阔营地</text>
+	</string>
+	<string id="st_pri_a18_smart_terrain_name">
+		<text>普里皮亚季郊区. 书店</text>
+	</string>
+	<string id="st_pri_b304_monsters_smart_terrain_name">
+		<text>普里皮亚季郊区. 百货商店</text>
+	</string>
+	<string id="st_pri_sim_4_name">
+		<text>普里皮亚季郊区. 巴士站</text>
+	</string>
+	<string id="st_pri_b35_mercs_name">
+		<text>普里皮亚季郊区. 复式公寓</text>
+	</string>
+	<string id="st_pri_b305_dogs_name">
+		<text>普里皮亚季郊区. 复式公寓后院</text>
+	</string>
+	<string id="st_pri_a15_name">
+		<text>普里皮亚季郊区. 地下通道入口</text>
+	</string>
+
+
+	<string id="st_jup_a12_name">
+		<text>木星地区. 集装箱仓库</text>
+	</string>
+	<string id="st_jup_sim_10_name">
+		<text>木星地区. 巢穴</text>
+	</string>
+	<string id="st_jup_a12_merc_name">
+		<text>木星地区. 车边路牌</text>
+	</string>
+	<string id="st_jup_sim__name">
+		<text>木星地区. 坍塌的火车隧道</text>
+	</string>
+	<string id="st_jup_b203_name">
+		<text>木星地区. 通风口地下区域</text>
+	</string>
+	<string id="st_jup_b212_name">
+		<text>木星地区. 综合设施通风口</text>
+	</string>
+	<string id="st_jup_b32_name">
+		<text>木星地区. 停车场</text>
+	</string>
+	<string id="st_jup_sim_1_name">
+		<text>木星地区. 铁道营地</text>
+	</string>
+	<string id="st_jup_b205_smart_terrain_name">
+		<text>木星地区. 沃尔库霍夫防空基地</text>
+	</string>
+	<string id="st_jup_sim_16_name">
+		<text>木星地区. 湖边营地</text>
+	</string>
+	<string id="st_jup_sim_9_name">
+		<text>木星地区. 僵尸领地</text>
+	</string>
+	<string id="st_jup_b19_name">
+		<text>木星地区. 科帕奇村庄</text>
+	</string>
+	<string id="st_jup_b6_anom_2_name">
+		<text>木星地区. 科帕奇哨塔</text>
+	</string>
+	<string id="st_jup_b1_name">
+		<text>木星地区. 西北隧道</text>
+	</string>
+	<string id="st_jup_b46_name">
+		<text>木星地区. 冷却塔</text>
+	</string>
+	<string id="st_jup_sim_21_name">
+		<text>木星地区. 独行者藏身处</text>
+	</string>
+	<string id="st_jup_sim_8_name">
+		<text>木星地区. 沼泽</text>
+	</string>
+	<string id="st_jup_sim_14_name">
+		<text>木星地区. 怪物巢</text>
+	</string>
+	<string id="st_jup_b202_name">
+		<text>木星地区. 车站</text>
+	</string>
+	<string id="st_jup_a6_name">
+		<text>木星地区. 亚诺瓦车站</text>
+	</string>
+	<string id="st_jup_b211_name">
+		<text>木星地区. 车站营地</text>
+	</string>
+	<string id="st_jup_sim_20_name">
+		<text>木星地区. 断桥</text>
+	</string>
+	<string id="st_jup_b200_name">
+		<text>木星地区. 警戒哨</text>
+	</string>
+	<string id="st_jup_b200_tushkan_smart_terrain_name">
+		<text>木星地区. 水泥厂</text>
+	</string>
+	<string id="st_jup_sim_7_name">
+		<text>木星地区. 采石场瞭望塔</text>
+	</string>
+	<string id="st_jup_b25_name">
+		<text>木星地区. 采石场</text>
+	</string>
+	<string id="st_jup_b207_name">
+		<text>木星地区. 临时前哨</text>
+	</string>
+	<string id="st_jup_b207_depot_attack_name">
+		<text>木星地区. 开阔地</text>
+	</string>
+	<string id="st_jup_sim_15_name">
+		<text>木星地区. 山顶</text>
+	</string>
+	<string id="st_jup_b206_name">
+		<text>木星地区. 路边营地</text>
+	</string>
+	<string id="st_jup_a10_smart_terrain_name">
+		<text>木星地区. 检查站</text>
+	</string>
+	<string id="st_jup_b41_name">
+		<text>木星地区. 赫尔曼的碉堡</text>
+	</string>
+	<string id="st_jup_sim_6_name">
+		<text>木星地区. 采石场陡坡</text>
+	</string>
+	<string id="st_jup_b209_name">
+		<text>木星地区. 沥青变异点入口</text>
+	</string>
+	<string id="st_jup_sim_5_name">
+		<text>木星地区. 交叉路口</text>
+	</string>
+	<string id="st_jup_sim_4_name">
+		<text>木星地区. 遗弃机车</text>
+	</string>
+	<string id="st_jup_b204_name">
+		<text>木星地区. 运河哨卡</text>
+	</string>
+	<string id="st_jup_sim_11_name">
+		<text>木星地区. 偏僻之地</text>
+	</string>
+	<string id="st_jup_sim_12_name">
+		<text>木星地区. 综合设施前方服营地</text>
+	</string>
+	<string id="st_jup_sim_18_name">
+		<text>木星地区. 木星地区工厂仓库</text>
+	</string>
+	<string id="st_jup_sim_17_name">
+		<text>木星地区. 干涸运河</text>
+	</string>
+	<string id="st_jup_a9_name">
+		<text>木星地区. 工厂入口</text>
+	</string>
+	<string id="st_jup_b47_name">
+		<text>木星地区. 内部道路</text>
+	</string>
+	<string id="st_jup_sim_19_name">
+		<text>木星地区. 工厂垃圾场</text>
+	</string>
+	<string id="st_jup_b8_smart_terrain_name">
+		<text>木星地区. 坠毁直升机</text>
+	</string>
+	<string id="st_jup_b219_name">
+		<text>木星地区. 木星工厂</text>
+	</string>
+	<string id="st_jup_b4_name">
+		<text>木星地区. 桥下藏身处</text>
+	</string>
+	<string id="st_jup_sim_3_name">
+		<text>木星地区. 浅沼泽</text>
+	</string>
+	<string id="st_jup_sim_13_name">
+		<text>木星地区. 危险营地</text>
+	</string>
+	<string id="st_jup_b205_smart_terrain_tushkano_name">
+		<text>木星地区. 防空基地地下室</text>
+	</string>
+	<string id="st_jup_sim_2_name">
+		<text>木星地区. 西部隧道</text>
+	</string>
+	<string id="st_jup_b208_name">
+		<text>木星地区. 东部隧道</text>
+	</string>
+	<string id="st_depo_terrain_name">
+		<text>木星地区. 木星工厂地下区</text>
+	</string>
+
+
+	<string id="st_aes_smart_terrain_monolit_blockpost4_name">
+		<text>核电站南部. 发电机</text>
+	</string>
+	<string id="st_aes_smart_terrain_monolit_blockpost2_name">
+		<text>核电站南部. 油罐</text>
+	</string>
+	<string id="st_aes_smart_terrain_monolit_blockpost_name">
+		<text>核电站南部. 电站入口</text>
+	</string>
+	<string id="st_aes_smart_terrain_soldier2_name">
+		<text>核电站南部. 综合办公区</text>
+	</string>
+	<string id="st_aes_smart_terrain_monsters1_name">
+		<text>核电站南部. 主干路</text>
+	</string>
+	<string id="st_aes_smart_terrain_monsters2_name">
+		<text>核电站南部. 遥远营地</text>
+	</string>
+	<string id="st_aes_smart_terrain_monsters3_name">
+		<text>核电站南部. 输电塔</text>
+	</string>
+	<string id="st_aes_smart_terran_soldier_name">
+		<text>核电站南部. 哨卡</text>
+	</string>
+	<string id="st_aes_smart_terrain_monsters4_name">
+		<text>核电站南部. 孤独营地</text>
+	</string>
+
+
+	<string id="st_sar_monolith_general_name">
+		<text>石棺</text>
+	</string>
+	<string id="st_sar_monolith_sklad_name">
+		<text>石棺</text>
+	</string>
+	<string id="st_sar_monolith_bloodsuckers_name">
+		<text>石棺</text>
+	</string>
+	<string id="st_sar_monolith_poltergeists_name">
+		<text>石棺</text>
+	</string>
+	<string id="st_sar_monolith_guard_name">
+		<text>石棺</text>
+	</string>
+	<string id="st_sar_monolith_zombies_name">
+		<text>石棺</text>
+	</string>
+
+
+	<string id="st_aes2_monolith_snipers_2_name">
+		<text>核电站北部. 内部营地</text>
+	</string>
+	<string id="st_aes2_monolith_snipers_1_name">
+		<text>核电站北部. 顶层</text>
+	</string>
+	<string id="st_aes2_monolith_camp1_name">
+		<text>核电站北部. 大型营地</text>
+	</string>
+	<string id="st_aes2_monolith_camp2_name">
+		<text>核电站北部. 内部哨卡</text>
+	</string>
+	<string id="st_aes2_monsters2_name">
+		<text>核电站北部. 着陆区</text>
+	</string>
+	<string id="st_aes2_monolith_camp3_name">
+		<text>核电站北部. 顶层营地</text>
+	</string>
+	<string id="st_aes2_monsters1_name">
+		<text>核电站北部. 后方出口</text>
+	</string>
+	<string id="st_aes2_monolith_snipers_3_name">
+		<text>核电站北部. 电站仓库</text>
+	</string>
+	<string id="st_aes2_monolith_camp4_name">
+		<text>核电站北部. 顶层仓库</text>
+	</string>
+
+
+	<string id="st_zat_b40_smart_terrain_name">
+		<text>河湾. 废料处理站</text>
+	</string>
+	<string id="st_zat_sim_10_name">
+		<text>河湾. 险恶的偏僻地</text>
+	</string>
+	<string id="st_zat_sim_14_name">
+		<text>河湾. 南部高地</text>
+	</string>
+	<string id="st_zat_b12_name">
+		<text>河湾. 普鲁布拉金斯基大桥</text>
+	</string>
+	<string id="st_zat_sim_11_name">
+		<text>河湾. 临时营地</text>
+	</string>
+	<string id="st_zat_b54_name">
+		<text>河湾. 毁坏营地</text>
+	</string>
+	<string id="st_zat_sim_24_name">
+		<text>河湾. 河流交叉处</text>
+	</string>
+	<string id="st_zat_b5_smart_terrain_name">
+		<text>河湾. 管理站</text>
+	</string>
+	<string id="st_zat_sim_28_name">
+		<text>河湾. 桥边藏身处</text>
+	</string>
+	<string id="st_zat_sim_16_name">
+		<text>河湾. 怪物巢</text>
+	</string>
+	<string id="st_zat_b14_smart_terrain_name">
+		<text>河湾. 疏浚站</text>
+	</string>
+	<string id="st_zat_sim_18_name">
+		<text>河湾. 寂静山丘</text>
+	</string>
+	<string id="st_zat_sim_1_name">
+		<text>河湾. 坡上巢穴</text>
+	</string>
+	<string id="st_zat_b53_name">
+		<text>河湾. 锅炉变异点营地</text>
+	</string>
+	<string id="st_zat_sim_29_name">
+		<text>河湾. 多树小山</text>
+	</string>
+	<string id="st_zat_a1_name">
+		<text>河湾. 远程营地</text>
+	</string>
+	<string id="st_zat_sim_15_name">
+		<text>河湾. 东北河流制高点</text>
+	</string>
+	<string id="st_zat_b42_smart_terrain_name">
+		<text>河湾. 旧码头</text>
+	</string>
+	<string id="st_zat_sim_2_name">
+		<text>河湾. 岸边营地</text>
+	</string>
+	<string id="st_zat_sim_30_name">
+		<text>河湾. 失落山丘</text>
+	</string>
+	<string id="st_zat_sim_3_name">
+		<text>河湾. 北部河流制高点</text>
+	</string>
+	<string id="st_zat_sim_19_name">
+		<text>河湾. 危险的山顶</text>
+	</string>
+	<string id="st_zat_sim_4_name">
+		<text>河湾. 北方的路</text>
+	</string>
+	<string id="st_zat_b104_zombied_name">
+		<text>河湾. 锯木厂</text>
+	</string>
+	<string id="st_zat_sim_5_name">
+		<text>河湾. 岩石后的藏身处</text>
+	</string>
+	<string id="st_zat_b101_name">
+		<text>河湾. 致命营地</text>
+	</string>
+	<string id="st_zat_sim_6_name">
+		<text>河湾. 沼泽变异点哨卡</text>
+	</string>
+	<string id="st_zat_b38_name">
+		<text>河湾. 克鲁格雷达站</text>
+	</string>
+	<string id="st_zat_b38u_name">
+		<text>河湾. 雷达站通风口</text>
+	</string>
+	<string id="st_zat_sim_7_name">
+		<text>河湾. 偏远地带</text>
+	</string>
+	<string id="st_zat_sim_8_name">
+		<text>河湾. 怪物巢穴</text>
+	</string>
+	<string id="st_zat_sim_26_name">
+		<text>河湾. 林间旧营地</text>
+	</string>
+	<string id="st_zat_b39_name">
+		<text>河湾. 松橡变异点营地</text>
+	</string>
+	<string id="st_zat_sim_25_name">
+		<text>河湾. 加油站</text>
+	</string>
+	<string id="st_zat_sim_13_name">
+		<text>河湾. 路边营地</text>
+	</string>
+	<string id="st_zat_b33_name">
+		<text>河湾. 史诺克巢</text>
+	</string>
+	<string id="st_zat_b55_name">
+		<text>河湾. 利爪变异点营地</text>
+	</string>
+	<string id="st_zat_b100_name">
+		<text>河湾. 钢铁森林</text>
+	</string>
+	<string id="st_zat_a23_smart_terrain_name">
+		<text>河湾. 坠毁直升机</text>
+	</string>
+	<string id="st_zat_sim_9_name">
+		<text>河湾. 钢铁森林的空地</text>
+	</string>
+	<string id="st_zat_b103_merc_smart_name">
+		<text>河湾. 变电站</text>
+	</string>
+	<string id="st_zat_b56_name">
+		<text>河湾. 圆形广场变异点营地</text>
+	</string>
+	<string id="st_zat_stalker_base_smart_name">
+		<text>河湾. 斯卡多夫斯克号</text>
+	</string>
+	<string id="st_zat_sim_20_name">
+		<text>河湾. 地下入口</text>
+	</string>
+	<string id="st_zat_b20_smart_terrain_name">
+		<text>河湾. 燃烧的农场</text>
+	</string>
+	<string id="st_zat_b28_name">
+		<text>河湾. 秘密洞穴</text>
+	</string>
+	<string id="st_zat_b106_smart_terrain_name">
+		<text>河湾. 翡翠</text>
+	</string>
+	<string id="st_zat_sim_17_name">
+		<text>河湾. 神秘地洞入口</text>
+	</string>
+	<string id="st_zat_sim_21_name">
+		<text>河湾. 中心优势点</text>
+	</string>
+	<string id="st_zat_sim_27_name">
+		<text>河湾. 浅水河</text>
+	</string>
+	<string id="st_zat_b7_stalker_raider_name">
+		<text>河湾. 舍甫琴科号舱室</text>
+	</string>
+	<string id="st_zat_b7_name">
+		<text>河湾. 舍甫琴科号</text>
+	</string>
+	<string id="st_zat_sim_23_name">
+		<text>河湾. 泥沼河</text>
+	</string>
+	<string id="st_zat_b18_name">
+		<text>河湾. 旧驳船</text>
+	</string>
+	<string id="st_zat_medic_home_start_name">
+		<text>河湾. 码头营地</text>
+	</string>
+	<string id="st_zat_b52_name">
+		<text>河湾. 码头起重机</text>
+	</string>
+	<string id="st_zat_sim_12_name">
+		<text>河湾. 路边野餐</text>
+	</string>
+	<string id="st_zat_sim_22_name">
+		<text>河湾. 山丘</text>
+	</string>
+	<string id="st_zat_medic_home_smart_name">
+		<text>河湾. 废弃房屋</text>
+	</string>
+
+
+	<string id="st_agr_u_monsters_name">
+		<text>农研所地下通道</text>
+	</string>
+	<string id="st_agr_u_bloodsucker_name">
+		<text>农研所地下通道</text>
+	</string>
+	<string id="st_agr_u_bloodsucker_2_name">
+		<text>农研所地下通道</text>
+	</string>
+	<string id="st_agr_u_bandits_name">
+		<text>农研所地下通道</text>
+	</string>
+	<string id="st_agr_u_soldiers_name">
+		<text>农研所地下通道</text>
+	</string>
+
+
+	<string id="st_lx8_smart_terrain_name">
+		<text>X-8</text>
+	</string>
+
+	<string id="st_bun2_st_bloodsucker_name">
+		<text>X-19</text>
+	</string>
+	<string id="st_bun_krovosos_nest_name">
+		<text>X-19</text>
+	</string>
+	<string id="st_bun2_tushkano_lair_name">
+		<text>X-19</text>
+	</string>
+
+
+	<string id="st_dar_control_poltergeist_name">
+		<text>X-18</text>
+	</string>
+	<string id="st_dar_angar_name">
+		<text>X-18</text>
+	</string>
+	<string id="st_dar_smart_snork_name">
+		<text>X-18</text>
+	</string>
+	<string id="st_dar_poltergeist_ring_name">
+		<text>X-18</text>
+	</string>
+	<string id="st_dar_poltergeist_tele_name">
+		<text>X-18</text>
+	</string>
+	<string id="st_dar_military_scout_name">
+		<text>X-18</text>
+	</string>
+	<string id="st_dar_poltergeist_tele_round_name">
+		<text>X-18</text>
+	</string>
+
+
+	<string id="st_x162_st_snork_name">
+		<text>X-16</text>
+	</string>
+	<string id="st_x162_st_gigant_name">
+		<text>X-16</text>
+	</string>
+	<string id="st_x162_st_burer_name">
+		<text>X-16</text>
+	</string>
+	<string id="st_x162_st_poltergeist_name">
+		<text>X-16</text>
+	</string>
+
+
+	<string id="st_pas_b400_canalisation_name">
+		<text>木星工厂地下通道</text>
+	</string>
+	<string id="st_pas_b400_downstairs_name">
+		<text>木星工厂地下通道</text>
+	</string>
+	<string id="st_pas_b400_elevator_name">
+		<text>木星工厂地下通道</text>
+	</string>
+	<string id="st_pas_b400_fake_name">
+		<text>木星工厂地下通道</text>
+	</string>
+	<string id="st_pas_b400_hall_name">
+		<text>木星工厂地下通道</text>
+	</string>
+	<string id="st_pas_b400_track_name">
+		<text>木星工厂地下通道</text>
+	</string>
+	<string id="st_pas_b400_tunnel_name">
+		<text>木星工厂地下通道</text>
+	</string>
+	<string id="st_pas_b400_way_name">
+		<text>木星工厂地下通道</text>
+	</string>
+
+<!-- MLR -->
+	<string id="ui_st_red_forest_vagon_csky">
+		<text>显著营地 (红森林)</text>
+	</string>
+	<string id="ui_st_truck_cemetery_bandits_post">
+		<text>郊区营地 (卡车公墓)</text>
+	</string>
+	<string id="ui_st_yanov_depo_monolith">
+		<text>东部隧道 (木星地区)</text>
+	</string>
+	<string id="ui_st_bridge_red_forest_mon">
+		<text>通往利曼斯克的桥 (红森林)</text>
+	</string>
+	<string id="ui_st_fo_cordon">
+		<text>南部军方前哨 (封锁线)</text>
+	</string>
+	<string id="ui_st_dasc_sawwill">
+		<text>锯木厂 (黑暗之径)</text>
+	</string>
+	<string id="ui_st_l13_generators">
+		<text>战争实验室 (发电机)</text>
+	</string>
+
+	<string id="st_bar100rent_name">
+		<text>辐射100酒吧</text>
+	</string>
+	<string id="st_gar_baraholka_name">
+		<text>跳蚤市场</text>
+	</string>
+	<string id="st_gar_outpost_name">
+		<text>罗斯托克检查站</text>
+	</string>
+	<string id="st_gar_angar_name">
+		<text>列车库</text>
+	</string>
+	<string id="st_yanbunker_name">
+		<text>研究所</text>
+	</string>
+	<string id="st_yancomplex_name">
+		<text>工业区</text>
+	</string>
+	<string id="st_novice_village_name">
+		<text>新手村</text>
+	</string>
+	<string id="st_south_blokpost_name">
+		<text>南部前哨</text>
+	</string>
+	<string id="st_ATP_name">
+		<text>车站</text>
+	</string>
+	<string id="st_elevator_name">
+		<text>磨坊</text>
+	</string>
+	<string id="st_tunnel_electr_name">
+		<text>有电电镀隧道</text>
+	</string>
+	<string id="st_neut_base_name">
+		<text>农场</text>
+	</string>
+	<string id="st_north_blockpost_name">
+		<text>北部前哨</text>
+	</string>
+	<string id="st_dar_farm_name">
+		<text>农庄</text>
+	</string>
+	<string id="st_dar_complex_name">
+		<text>厂区</text>
+	</string>
+	<string id="st_bs_village_name">
+		<text>吸血鬼村</text>
+	</string>
+	<string id="st_base_freedom_name">
+		<text>军方仓库</text>
+	</string>
+	<string id="st_border_name">
+		<text>障碍</text>
+	</string>
+	<string id="st_mon_base_name">
+		<text>皮城文化宫</text>
+	</string>
+	<string id="st_hotel_poless_name">
+		<text>酒店</text>
+	</string>
+	<string id="st_big_bus_station_name">
+		<text>巴士站</text>
+	</string>
+	<string id="st_ds_administration_name">
+		<text>管理区</text>
+	</string>
+	<string id="st_ds_market_name">
+		<text>商店</text>
+	</string>
+	<string id="st_ds_HoC_name">
+		<text>文化宫</text>
+	</string>
+	<string id="st_lim_zastava_name">
+		<text>前哨</text>
+	</string>
+	<string id="st_lim_bubbles_name">
+		<text>空间泡变异点</text>
+	</string>
+	<string id="st_lim_nonbuild_name">
+		<text>工地</text>
+	</string>
+	<string id="st_lim_dyga_name">
+		<text>啄木鸟雷达设施</text>
+	</string>
+	<string id="st_lim_old_church_name">
+		<text>古老的教堂</text>
+	</string>
+	<string id="st_lim_village_csky_name">
+		<text>晴空基地</text>
+	</string>
+	<string id="st_lim_water_pump_station_name">
+		<text>抽水站</text>
+	</string>
+	<string id="st_lim_mechanic_yard_name">
+		<text>机械大院</text>
+	</string>
+	<string id="st_lim_bridge_name">
+		<text>通往利曼斯克的桥</text>
+	</string>
+	<string id="st_lim_house_lesnik_name">
+		<text>守林人的塔楼</text>
+	</string>
+	<string id="st_lim_post_vishka_name">
+		<text>观察哨</text>
+	</string>
+	<string id="st_agr_SRI_name">
+		<text>农研所研究大楼</text>
+	</string>
+	<string id="st_red_crap_name">
+		<text>险恶营地</text>
+	</string>
+	<string id="st_red_dark_yar_name">
+		<text>黑暗滩涂</text>
+	</string>
+	<string id="st_red_central_mine_name">
+		<text>矿洞</text>
+	</string>
+	<string id="st_tc_bandit_base_name">
+		<text>东部基地</text>
+	</string>
+	<string id="st_tc_kpp_name">
+		<text>木星地区检查站</text>
+	</string>
+	<string id="st_tc_vert_name">
+		<text>红森林的直升机</text>
+	</string>
+	<string id="st_radar_first_zastava_name">
+		<text>一号哨卡</text>
+	</string>
+	<string id="st_rad_bunker_name">
+		<text>碉堡</text>
+	</string>
+	<string id="st_dasc_treesucker_state_name">
+		<text>锯木厂</text>
+	</string>
+
+<!-- Missing Smarts -->
+
+	<string id="st_esc_smart_terrain_9_10_name">
+		<text>封锁线. 隧道篝火</text>
+	</string>	
+
+	<string id="st_agr_smart_terrain_7_4_name">
+		<text>农研所. 通往废弃区的路</text>
+	</string>
+	<string id="st_agr_smart_terrain_5_4_name">
+		<text>农研所. 岔路口</text>
+	</string>	
+	<string id="st_agr_smart_terrain_6_6_name">
+		<text>农研所. 临时营地</text>
+	</string>	
+
+	<string id="st_pol_sim_1_name">
+		<text>牧场. 工厂大院</text>
+	</string>
+	<string id="st_pol_smart_terrain_1_1_name">
+		<text>牧场. 村庄</text>
+	</string>
+	<string id="st_pol_smart_terrain_1_2_name">
+		<text>牧场. 14号食堂</text>
+	</string>
+	<string id="st_pol_smart_terrain_1_3_name">
+		<text>牧场. 旧车场</text>
+	</string>
+	<string id="st_pol_smart_terrain_2_1_name">
+		<text>牧场. 工厂行政区</text>
+	</string>
+	<string id="st_pol_smart_terrain_2_2_name">
+		<text>牧场. 工厂车间</text>
+	</string>
+	
+	<string id="st_val_smart_terrain_5_8_name">
+		<text>黑暗山谷. 荒野营地</text>
+	</string>	
+	<string id="st_val_smart_terrain_5_7_name">
+		<text>黑暗山谷. 尽头哨卡</text>
+	</string>	
+	
+	<string id="st_rad_prip_road_name">
+		<text>雷达. 水泥板</text>
+	</string>
+	<string id="st_rad_rusty_forest_center_name">
+		<text>雷达. 死亡森林</text>
+	</string>
+	<string id="st_rad_freedom_vs_duty_name">
+		<text>雷达. 通往普里皮亚季的路</text>
+	</string>
+	<string id="st_rad2_rad_prip_road_name">
+		<text>雷达. 十字路口</text>
+	</string>
+	
+	<string id="st_hotel_poless_smart_alife_name">
+		<text>普里皮亚季. 酒店后院</text>
+	</string>
+	<string id="st_mlr_terrain_name">
+		<text>普里皮亚季. 剧院房间</text>
+	</string>
+	<string id="st_monolith_snipers_smart_1_mlr_name">
+		<text>普里皮亚季. 死亡小巷</text>
+	</string>
+	
+	<string id="st_kbo_terrain_name">
+		<text>普里皮亚季郊区. 服务中心入口</text>
+	</string>
+	<string id="st_pri_a16_mlr_copy_name">
+		<text>普里皮亚季郊区. 洗衣店入口</text>
+	</string>
+
+<string id="st_gen_undeground_smart_mlr_burers_name">
+		<text>发电机侏儒巢</text>
+	</string>
+	<string id="st_gen_undeground_smart_mlr_giant_name">
+		<text>发电机大脚怪巢</text>
+	</string>
+	<string id="st_gen_undeground_smart_mlr_controller_name">
+		<text>发电机脑波怪巢</text>
+	</string>
+
+</string_table>

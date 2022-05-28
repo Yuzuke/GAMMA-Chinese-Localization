@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<string_table>
+	<string id="st_zat_b55_name_land">
+		<text>利爪变异区</text>
+	</string>
+	<string id="st_zat_b100_name_land">
+		<text>钢铁森林变异区</text>
+	</string>
+	<string id="st_zat_b104_name_land">
+		<text>锯木厂</text>
+	</string>
+	<string id="st_zat_b38_name_land">
+		<text>克鲁格雷达站</text>
+	</string>
+	<string id="st_zat_b40_name_land">
+		<text>垃圾处理站</text>
+	</string>
+	<string id="st_zat_b56_name_land">
+		<text>圆形广场变异区</text>
+	</string>
+	<string id="st_zat_b5_name_land">
+		<text>管理站</text>
+	</string>
+	<string id="st_zat_a2_name_land">
+		<text>斯卡多夫斯克号</text>
+	</string>
+	<string id="st_zat_b20_name_land">
+		<text>烧毁的农场</text>
+	</string>
+	<string id="st_zat_fire_name_land">
+		<text>驳船地狱变异区</text>
+	</string>
+	<string id="st_zat_b53_name_land">
+		<text>锅炉变异区</text>
+	</string>
+	<string id="st_zat_b101_name_land">
+		<text>沼泽</text>
+	</string>
+	<string id="st_zat_waste_name_land">
+		<text>污泥变异区</text>
+	</string>
+	<string id="st_zat_b106_name_land">
+		<text>翡翠</text>
+	</string>
+	<string id="st_zat_b7_name_land">
+		<text>舍甫琴科号</text>
+	</string>
+	<string id="st_zat_b14_name_land">
+		<text>疏浚站</text>
+	</string>
+	<string id="st_zat_tide_name_land">
+		<text>激流变异区</text>
+	</string>
+	<string id="st_zat_b52_name_land">
+		<text>码头起重机</text>
+	</string>
+	<string id="st_zat_b39_name_land">
+		<text>松橡变异区</text>
+	</string>
+	<string id="st_zat_b33_name_land">
+		<text>燃料供应站</text>
+	</string>
+	<string id="st_zat_b18_name_land">
+		<text>旧驳船</text>
+	</string>
+	<string id="st_zat_b54_name_land">
+		<text>断层变异区</text>
+	</string>
+	<string id="st_zat_b12_name_land">
+		<text>断裂的大桥</text>
+	</string>
+	<string id="st_zat_b28_name_land">
+		<text>南部高地</text>
+	</string>
+	<string id="st_zat_b103_name_land">
+		<text>变电站</text>
+	</string>
+	<string id="st_jup_b1_name_land">
+		<text>废墟变异区</text>
+	</string>
+	<string id="st_jup_b46_name_land">
+		<text>冷却塔</text>
+	</string>
+	<string id="st_jup_b202_name_land">
+		<text>车站</text>
+	</string>
+	<string id="st_jup_b211_name_land">
+		<text>毒沼变异区</text>
+	</string>
+	<string id="st_jup_b200_name_land">
+		<text>水泥厂</text>
+	</string>
+	<string id="st_jup_b19_name_land">
+		<text>科帕奇</text>
+	</string>
+	<string id="st_jup_a6_name_land">
+		<text>亚诺瓦</text>
+	</string>
+	<string id="st_jup_b25_name_land">
+		<text>采石场</text>
+	</string>
+	<string id="st_jup_earth_name_land">
+		<text>地裂变异区</text>
+	</string>
+	<string id="st_jup_b6_name_land">
+		<text>科学家的碉堡</text>
+	</string>
+	<string id="st_jup_b205_name_land">
+		<text>沃尔库霍夫防空基地</text>
+	</string>
+	<string id="st_jup_b206_name_land">
+		<text>丛林变异区</text>
+	</string>
+	<string id="st_jup_grove_name_land">
+		<text>腐烂树林变异区</text>
+	</string>
+	<string id="st_jup_b32_name_land">
+		<text>停车场</text>
+	</string>
+	<string id="st_jup_a10_name_land">
+		<text>检查站</text>
+	</string>
+	<string id="st_jup_b209_name_land">
+		<text>沥青变异区</text>
+	</string>
+	<string id="st_jup_b208_name_land">
+		<text>东部隧道</text>
+	</string>
+	<string id="st_jup_a12_name_land">
+		<text>集装箱仓库</text>
+	</string>
+	<string id="st_jup_b212_name_land">
+		<text>综合设施通风口</text>
+	</string>
+	<string id="st_jup_b9_name_land">
+		<text>直升机场</text>
+	</string>
+	<string id="st_jup_b201_name_land">
+		<text>水泥浴室变异区</text>
+	</string>
+	<string id="st_jup_a9_name_land">
+		<text>木星工厂</text>
+	</string>
+	<string id="st_pri_a28_name_land">
+		<text>普罗米修斯电影院</text>
+	</string>
+	<string id="st_pri_b36_name_land">
+		<text>河港</text>
+	</string>
+	<string id="st_pri_b303_name_land">
+		<text>旧服务中心</text>
+	</string>
+	<string id="st_pri_b301_name_land">
+		<text>学校</text>
+	</string>
+	<string id="st_pri_a17_name_land">
+		<text>医院</text>
+	</string>
+	<string id="st_pri_b306_name_land">
+		<text>尤拜林尼服务中心</text>
+	</string>
+	<string id="st_pri_plug_name_land">
+		<text>火花塞变异区</text>
+	</string>
+	<string id="st_pri_a16_name_land">
+		<text>洗衣店</text>
+	</string>
+	<string id="st_pri_a25_name_land">
+		<text>幼儿园</text>
+	</string>
+	<string id="st_pri_b35_name_land">
+		<text>复式公寓</text>
+	</string>
+	<string id="st_pri_a21_name_land">
+		<text>食品杂货店</text>
+	</string>
+	<string id="st_pri_b304_name_land">
+		<text>百货公司</text>
+	</string>
+	<string id="st_pri_bath_name_land">
+		<text>酸浴变异区</text>
+	</string>
+	<string id="st_pri_a18_name_land">
+		<text>书店</text>
+	</string>
+	<string id="st_pri_b302_name_land">
+		<text>藤蔓变异区</text>
+	</string>
+	<string id="st_pri_b307_name_land">
+		<text>火山变异区</text>
+	</string>
+	<string id="st_mar_2c_01_anomaly_spot_name">
+		<text>墓地变异区</text>
+	</string>
+	<string id="st_mar_2c_02_anomaly_spot_name">
+		<text>探险者的命运变异区</text>
+	</string>
+	<string id="st_ds_2c_01_anomaly_spot_name">
+		<text>乱石岗变异区</text>
+	</string>
+	<string id="st_ds_2c_02_anomaly_spot_name">
+		<text>光明之路变异区</text>
+	</string>
+	<string id="st_ds_2c_03_anomaly_spot_name">
+		<text>秃山变异区</text>
+	</string>
+	<string id="st_ds_2c_04_anomaly_spot_name">
+		<text>鼓棒变异区</text>
+	</string>
+	<string id="st_trc_2c_01_rift_anom_spot_name">
+		<text>巴士车辙变异区</text>
+	</string>
+	<string id="st_trc_2c_02_chem_anom_spot_name">
+		<text>荆棘变异区</text>
+	</string>
+	<string id="st_trc_2c_03_desolation_anom_spot_name">
+		<text>煤灰堆变异区</text>
+	</string>
+	<string id="st_esc_2c_01_high_hopes_anomaly_spot_name">
+		<text>希望变异区</text>
+	</string>
+	<string id="st_gar_2c_01_nwi_anomaly_spot_name">
+		<text>拔河变异区</text>
+	</string>
+	<string id="st_gar_2c_02_toaster_anomaly_spot_name">
+		<text>希腊火变异区</text>
+	</string>
+	<string id="st_agr_2c_01_hg_anomaly_spot_name">
+		<text>草丛变异区</text>
+	</string>
+	<string id="st_labx18_2c_01_deep_burn_anomaly_spot_name">
+		<text>灼烧变异区</text>
+	</string>
+	<string id="st_labx18_2c_02_ff_anomaly_spot_name">
+		<text>火焰喷泉变异区</text>
+	</string>
+	<string id="st_labx18_2c_03_elders_anomaly_spot_name">
+		<text>蠕虫之餐变异区</text>
+	</string>
+	<string id="st_labx18_2c_04_bioh_anomaly_spot_name">
+		<text>生化变异区</text>
+	</string>
+	<string id="st_bar_2c_01_grant_anomaly_spot_name">
+		<text>险途变异区</text>
+	</string>
+	<string id="st_ros_2c_01_tunnel_anomaly_spot_name">
+		<text>频闪变异区</text>
+	</string>
+	<string id="st_ros_2c_02_crispy_train_anomaly_spot_name">
+		<text>脆皮火车变异区</text>
+	</string>
+	<string id="st_ros_2c_03_yc_anomaly_spot_name">
+		<text>烈火变异区</text>
+	</string>
+	<string id="st_mil_2c_01_hw_anomaly_spot_name">
+		<text>地狱之墙变异区</text>
+	</string>
+	<string id="st_yan_2c_01_cd_anomaly_spot_name">
+		<text>水泥堆变异区</text>
+	</string>
+	<string id="st_x16_lab_2c_01_fb_anomy_spot_name">
+		<text>足浴变异区</text>
+	</string>
+	<string id="st_cit_2c_01_ch_anomaly_spot_name">
+		<text>洒花器变异区</text>
+	</string>
+	<string id="st_cit_2c_02_pg_anomaly_spot_name">
+		<text>试验场变异区</text>
+	</string>
+	<string id="st_lim_2c_01_ls_anomaly_spot_name">
+		<text>末路变异区</text>
+	</string>
+	<string id="st_lim_2c_02_ib_anomaly_spot_name">
+		<text>勃拉第变异区</text>
+	</string>
+	<string id="st_rad_2c_01_bl_anomaly_spot_name">
+		<text>行走的鬼魂 变异区</text>
+	</string>
+	<string id="st_rad_2c_02_pp_anomaly_spot_name">
+		<text>苦难之池变异区</text>
+	</string>
+	<string id="st_bun_2c_01_f_anomaly_spot_name">
+		<text>熔炉变异区</text>
+	</string>
+	<string id="st_bun_2c_02_gp_anomaly_spot_name">
+		<text>重力管变异区</text>
+	</string>
+	<string id="st_pri_2c_01_pp_anomaly_spot_name">
+		<text>烂根变异区</text>
+	</string>
+	<string id="st_pri_2c_02_gt_anomaly_spot_name">
+		<text>路障变异区</text>
+	</string>
+	<string id="st_pri_2c_03_wr_anomaly_spot_name">
+		<text>对撞机变异区</text>
+	</string>
+	<string id="st_pri_2c_04_o_anomaly_spot_name">
+		<text>奥林匹克变异区</text>
+	</string>
+	<string id="st_aes_2c_01_ce_anomaly_spot_name">
+		<text>守门人变异区</text>
+	</string>
+	<string id="st_aes_2c_02_p_anomaly_spot_name">
+		<text>桥头堡变异区</text>
+	</string>
+	<string id="st_aes2_2c_01_bo_anomaly_spot_name">
+		<text>手风琴变异区</text>
+	</string>
+	<string id="st_aes2_2c_02_at_anomaly_spot_name">
+		<text>锈车变异区</text>
+	</string>
+	<string id="st_sar_2c_01_r_anomaly_spot_name">
+		<text>反应堆变异区</text>
+	</string>
+	<string id="st_gen_2c_01_ss_anomaly_spot_name">
+		<text>灵魂台阶变异区</text>
+	</string>
+	<string id="st_mar_smart_terrain_11_3_anomaly_spot_name">
+		<text>差错变异区</text>
+	</string>
+	<string id="st_mar_smart_terrain_12_2_anomaly_spot_name">
+		<text>兆伏变异区</text>
+	</string>
+	<string id="st_mar_smart_terrain_10_10_anomaly_spot_name">
+		<text>霹雳变异区</text>
+	</string>
+	<string id="st_mar_smart_terrain_base_anomaly_spot_name">
+		<text>沼泽杵变异区</text>
+	</string>
+	<string id="st_mar_smart_terrain_8_8_anomaly_spot_name">
+		<text>费尔米变异区</text>
+	</string>
+	<string id="st_mar_smart_terrain_3_7_anomaly_spot_name">
+		<text>践踏变异区</text>
+	</string>
+	<string id="st_mar_smart_terrain_3_3_anomaly_spot_name">
+		<text>肺部杀手变异区</text>
+	</string>
+	<string id="st_esc_smart_terrain_1_11_anomaly_spot_name">
+		<text>垃圾压实机变异区</text>
+	</string>
+	<string id="st_esc_smart_terrain_8_9_anomaly_spot_name">
+		<text>碎石机变异区</text>
+	</string>
+	<string id="st_esc_smart_terrain_5_4_anomaly_spot_name">
+		<text>菜鸟噩梦变异区</text>
+	</string>
+	<string id="st_gar_smart_terrain_3_7_anomaly_spot_name">
+		<text>炙热的直升机变异区</text>
+	</string>
+	<string id="st_gar_smart_terrain_3_7_anomaly_spot_2_name">
+		<text>熔融的拉达变异区</text>
+	</string>
+	<string id="st_gar_smart_terrain_2_4_anomaly_spot_name">
+		<text>突触变异区</text>
+	</string>
+	<string id="st_gar_smart_terrain_6_7_anomaly_spot_name">
+		<text>抨击者变异区</text>
+	</string>
+	<string id="st_gar_smart_terrain_5_6_anomaly_spot_name">
+		<text>女巫果冻变异区</text>
+	</string>
+	<string id="st_gar_smart_terrain_1_7_anomaly_spot_name">
+		<text>监狱变异区</text>
+	</string>
+	<string id="st_agr_smart_terrain_1_3_anomaly_spot_name">
+		<text>石爪变异区</text>
+	</string>
+	<string id="st_agr_smart_terrain_4_4_near_3_anomaly_spot_name">
+		<text>疯子变异区</text>
+	</string>
+	<string id="st_agr_smart_terrain_5_7_anomaly_spot_name">
+		<text>游击队变异区</text>
+	</string>
+	<string id="st_agr_smart_terrain_5_2_anomaly_spot_name">
+		<text>盲犬绞肉机变异区</text>
+	</string>
+	<string id="st_agr_smart_terrain_1_2_anomaly_spot_name">
+		<text>化学沼泽变异区</text>
+	</string>
+	<string id="st_val_smart_terrain_9_10_anomaly_spot_name">
+		<text>光洞变异区</text>
+	</string>
+	<string id="st_val_smart_terrain_6_4_anomaly_spot_name">
+		<text>袭击变异区</text>
+	</string>
+	<string id="st_val_smart_terrain_8_6_anomaly_spot_name">
+		<text>灭虫器变异区</text>
+	</string>
+	<string id="st_val_smart_terrain_9_4_anomaly_spot_name">
+		<text>泡泡浴变异区</text>
+	</string>
+	<string id="st_val_smart_terrain_8_9_anomaly_spot_name">
+		<text>残害者变异区</text>
+	</string>
+	<string id="st_mil_smart_terrain_4_7_anomaly_spot_name">
+		<text>碎尸机变异区</text>
+	</string>
+	<string id="st_mil_smart_terrain_2_1_anomaly_spot_name">
+		<text>休克疗法变异区</text>
+	</string>
+	<string id="st_mil_smart_terrain_2_6_anomaly_spot_name">
+		<text>牛顿变异区</text>
+	</string>
+	<string id="st_mil_smart_terrain_7_4_anomaly_spot_name">
+		<text>捣棒变异区</text>
+	</string>
+	<string id="st_mil_smart_terrain_8_3_anomaly_spot_name">
+		<text>褐煤与野草变异区</text>
+	</string>
+	<string id="st_yan_smart_terrain_2_5_anomaly_spot_name">
+		<text>特斯拉变异区</text>
+	</string>
+	<string id="st_yan_smart_terrain_zombi_spawn_anomaly_spot_name">
+		<text>爱迪生变异区</text>
+	</string>
+	<string id="st_yan_smart_terrain_5_3_anomaly_spot_name">
+		<text>黑水变异区</text>
+	</string>
+	<string id="st_yan_smart_terrain_4_2_anomaly_spot_name">
+		<text>篝火变异区</text>
+	</string>
+	<string id="st_red_smart_terrain_6_3_anomaly_spot_name">
+		<text>共生变异区</text>
+	</string>
+	<string id="st_red_smart_terrain_4_5_anomaly_spot_name">
+		<text>超导体变异区</text>
+	</string>
+	<string id="st_red_smart_terrain_monsters_anomaly_spot_name">
+		<text>秋千变异区</text>
+	</string>
+	<string id="st_red_smart_terrain_3_2_anomaly_spot_name">
+		<text>死亡金丝雀变异区</text>
+	</string>
+	<string id="st_red_smart_terrain_6_6_anomaly_spot_name">
+		<text>旋木变异区</text>
+	</string>
+	<string id="st_red_smart_terrain_3_1_anomaly_spot_name">
+		<text>斯勒茨基休息站变异区</text>
+	</string>
+	<string id="st_gen_smart_terrain_urod_anomaly_spot_name">
+		<text>碎肉机变异区</text>
+	</string>
+	<string id="st_trc_sim_13_anomal_zone_spot_name">
+		<text>狂热者的迷宫变异区</text>
+	</string>
+	<string id="st_pol_smart_terrain_1_1_anomaly_spot_name">
+		<text>绞肉机变异区</text>
+	</string>
+	<string id="st_pol_smart_terrain_1_2_anomaly_spot_name">
+		<text>伏特变异区</text>
+	</string>
+</string_table>

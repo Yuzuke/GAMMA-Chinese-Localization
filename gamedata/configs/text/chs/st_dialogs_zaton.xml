@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<string_table>
+
+<!-- (Mercenary Guide) at the merc base -->
+<!-- (Mercenary Trader) at the merc base -->
+	<string id="meet_zaton_killer_guide_station_0">
+		<text>你是谁?</text>
+	</string>
+	<string id="meet_zaton_killer_guide_station_1">
+		<text>我可以给你一句话作为回应: 关你屁事? 但是那可能并不是你想听到的, 对吧? 我是个交易商, 以及往返于我们在死城的前哨站的向导.</text>
+	</string>
+
+	<string id="meet_zaton_killer_guide_station_list_0">
+		<text>额, 你能再提醒我下你是往返哪里的吗?</text>
+	</string>
+	<string id="meet_zaton_killer_guide_station_list_1">
+		<text>你来这里的时候穿过了焦脑器影响区么? 只有一条路. 去死城, 8000卢布.</text>
+	</string>
+
+	<string id="travel_zaton_killer_guide_station_base_0">
+		<text>我想去死城.</text>
+	</string>
+	<string id="travel_zaton_killer_guide_station_base_1">
+		<text>好的. 准备好一次漫长的下水道之旅. 也许某天我能攒够钱买个像样的面罩. 你准备好了么?</text>
+	</string>
+	<string id="travel_zaton_killer_guide_station_base_2">
+		<text>我准备好了. %c[d_orange][8000 RU]</text>
+	</string>
+	<string id="travel_zaton_killer_guide_station_base_3">
+		<text>我改变主意了.</text>
+	</string>
+
+	
+<!-- Pilot (Loner Guide) -->
+	<string id="meet_guid_zat_0">
+		<text>你看上去是个有趣的家伙.</text>
+	</string>
+	<string id="meet_guid_zat_1">
+		<text>领航员为你服务.我能带你去的地方并不多, 但是可以肯定的是旅途更安全更快速. 我的同行盖瑞提供前往普里皮亚季及普里皮亚季郊区的服务, 另外我可以自己带你去木星地区.</text>
+	</string>
+
+	<string id="meet_guid_zat_list_0">
+		<text>把你的旅行方案再给我看看.</text>
+	</string>
+	<string id="meet_guid_zat_list_1">
+		<text>我可以去和盖瑞谈谈, 然后把你带到普里皮亚季, 4000卢布, 到普里皮亚季郊区则要5000卢布. 我可以自己带你去木星地区, 收你2000块.</text>
+	</string>
+
+	<string id="travel_guid_zat_0">
+		<text>带我去个地方.</text>
+	</string>
+	<string id="travel_guid_zat_1">
+		<text>想去哪?</text>
+	</string>
+	<string id="travel_guid_zat_2">
+		<text>去普里皮亚季. %c[d_orange][4000 RU]</text>
+	</string>
+	<string id="travel_guid_zat_3">
+		<text>去普里皮亚季郊区. %c[d_orange][5000 RU]</text>
+	</string>
+	<string id="travel_guid_zat_4">
+		<text>去木星地区. %c[d_orange][2000 RU]</text>
+	</string>
+	<string id="travel_guid_zat_5">
+		<text>我改变主意了.</text>
+	</string>
+
+	<string id="stalker_guide_about_himself_0">
+		<text>聊聊你自己吧.</text>
+	</string>
+	<string id="stalker_guide_about_himself_1">
+		<text>我名叫领航员是有原因的. 我只会采用安全的路线. 我没啥收集神器和对抗强盗的本领, 所以... 大家都有自己的本事, 且能让别人从中受益,对吧. 当然, 所有本事都能明码标价.</text>
+	</string>
+	
+	<string id="stalker_guide_about_anomalies_1116">
+		<text>好吧,别在意.</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_1111">
+		<text>和我聊聊关于高温变异点的事.</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_11111">
+		<text>如果你看到一丝丝的光芒, 就像在炎热的夏天人行道冒着的热气 - 那就是高温变异点. 如果有啥东西走进去了, 那地方就会突然喷射出一团炽热的火焰. 起初人们以为是天然气喷出来了, 但是后来这理论就变的很模糊不清了.</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_1112">
+		<text>和我聊聊化学变异点.</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_11121">
+		<text>这种变异点因为非常奇怪所以被称为, 从不结束的化学反应. 他们产生的酸性物质会在几秒钟里腐蚀你的皮肤, 与此同时有毒气体会以同样的速度毁灭你的肺... 感谢老天, 化学变异点在野外非常容易被发现. 但是当你走进一个黑暗的隧道 - 那就很糟糕了.</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_1113">
+		<text>告诉我些电流变异点的知识.</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_11131">
+		<text>这是一种非常有趣的特异点, 它聚集了大量的静电. 潜行者们通常会利用这么一个原理: 任何金属物品都能快速释放掉电流变异点的能量. 他们会扔一个螺栓然后再特异点再次充满电之前冲过去. 我个人比较偏向绕过去 - 它们的充能阶段真的是转瞬即逝.</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_1114">
+		<text>和我聊聊重力变异点.</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_11141">
+		<text>它们通常是处于静止状态的. 当你看着一个特殊的地方, 发现他后面的物体是扭曲的 - 那你就找到了一个. 而且你最好和它保持距离. 已知的三个变种都会在有东西碰到它们的时候立即反应. 跳板会把所有东西都甩出去 - 通常会扔个很不错的距离. 漩涡则正好相反: 它把东西都吸进去, 然后用可怕的力量把它们碾碎, 只是过几秒就会有碎片飞出来. 旋转则是把受害者聚到空中, 然后把他扯成小块... 一个不是很舒适的结局, 不管你碰到了哪种.</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_1">
+		<text>一旦你靠近了一个变异点, 一定要记住几点; 不是变得超级热, 就是空气中突然就满是有毒气体, 再或者就是突然成为了辐射区. 有些也能让你精神错乱, 但是我现在并不是很想谈这些. 这取决于变异点的属性 - 高温, 气体或者电流... 或者重力, 但是我希望你不需要对付它们. 另外还有些会移动的变异点, 但是那完全是另外一回事了.</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_0">
+		<text>和我聊聊变异点.</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_1115">
+		<text>和我聊聊移动变异点.</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_11151">
+		<text>就我个人而言, 我只遇到过彗星和特斯拉. 前者是一个直径大概三英尺的火球. 但是我跟你保证, 你在大老远就能感受到它的炽热... 后者呢, 额不太好描述, 一个球型的闪电. 它绝逼是个球, 而且是带着电的. 两种变异点都会一直保持移动, 但是通常会在固定的路线里循环. 一个谨慎的潜行者应该是可以轻松的绕过它的... 只是记得别注意力不集中就好.</text>
+	</string>
+	
+<!-- Gonta -->
+	<string id="gonta_about_himself_0">
+		<text>和我聊聊你自己吧.</text>
+	</string>
+	<string id="gonta_about_himself_1">
+		<text>我是哥恩特, 狩猎小队的队长. 我们靠消灭变异生物赚钱. 也有时候我们会抓活的 - 用于科学实验或者某人想来个劲爆的宠物... 就像夹兽者常说的, "每种动物都有对应的子弹..."</text>
+	</string>
+	
+	<string id="gonta_about_mutants_0">
+		<text>和我聊聊狩猎变种怪的事.</text>
+	</string>
+	<string id="gonta_about_mutants_1">
+		<text>嗯,我并不是最有经验的猎人, 但是我可以告诉你一些关于动物的事情. 豚兽, 野猪, 盲狗, 地狱犬, 史洛克, 变异鼠... 我甚至知道点吸血鬼的东西.</text>
+	</string>
+	<string id="gonta_about_mutants_1111">
+		<text>告诉我点关于野猪和豚兽的.</text>
+	</string>
+	<string id="gonta_about_mutants_11111">
+		<text>好的, 豚兽应该是最无害的变种怪了. 它们会尽量离潜行者远远的, 但是如果你攻击它们, 它们还是会反击的. 但是如果一群豚兽里有一只野猪, 那就麻烦了. 三百公斤重的怪胎愤怒起来可不是闹着玩的. 尽量别站在它们朝你冲锋的路径上... 用它的冲劲来对付它. 像那样的大块头搞不了针线活, 不是么? 躲到一边, 然后把它打成筛子.</text>
+	</string>
+	<string id="gonta_about_mutants_1112">
+		<text>和我聊聊盲狗和地狱犬吧.</text>
+	</string>
+	<string id="gonta_about_mutants_11121">
+		<text>单个的傻狗没啥威胁, 但是一群的话绝对可以啃爆你的屁股. 它们只会在饥饿的时候攻击人... 但是坏事是, 它们几乎无时不刻处于饥饿的状态. 如果你面对一整群狗的话, 试着找个高处躲着搞它们, 不然它们就直冲过来干你了. 特别是如果其中有成年的地狱犬的话. 它们没比它们的瞎子兄弟们强多少, 但是更狡猾更危险... 如果它们突然变成了一群, 那就记住: 那是幻影. 真正的地狱犬会躲起来并会伺机攻击你... 试着辨别一下. 只要是真的地狱犬死了, 幻影就会消失.</text>
+	</string>
+	<string id="gonta_about_mutants_1113">
+		<text>和我聊聊史诺克.</text>
+	</string>
+	<string id="gonta_about_mutants_11131">
+		<text>变异的人类... 单只的史诺克对于一个经验丰富的猎人来说并没有什么大问题. 你只需要等它跳起来然后在它还在半空的时候一枪爆了它就行了. 但是如果是几只一起的话... 你只能在躲过它们飞扑的同时尽快的打死它们了. 它们知道落单没啥优势, 所以通常是成群结队的攻击人的.</text>
+	</string>
+	<string id="gonta_about_mutants_1114">
+		<text>讲点变异鼠的故事.</text>
+	</string>
+	<string id="gonta_about_mutants_11141">
+		<text>猎人的噩梦... 最糟糕的事情就是你看到它们这么小就低估了它们. 它们速度惊人, 动作敏捷, 而且总是成群结队的跑. 当你感觉到几十对尖牙在啃你的时候 - 那就是你停止小看它们且开始射击的时候... 而且最可怕的是: 它们真的是超级难打中. 那正是为啥我总告诉潜行者们带一把上满子弹的霰弹枪的原因.</text>
+	</string>
+	<string id="gonta_about_mutants_1115">
+		<text>说说吸血鬼吧.</text>
+	</string>
+	<string id="gonta_about_mutants_11151">
+		<text>它们天生就是拥有超棒伪装的狩猎专家. 它们开始隐身之后你就几乎看不见它们了. 如果你在狩猎一只吸血鬼, 试着伏击它. 你可以在它移动的时候很容易的发现它... 记住, 吸血鬼会试着从你背后溜过来并且用它的触手缠住你的脖子. 吓死个人啊, 兄弟... 如果你倒霉的碰到了几只吸血鬼一起的, 小心你的背后.</text>
+	</string>
+	<string id="gonta_about_mutants_1116">
+		<text>好吧, 别在意.</text>
+	</string>
+
+	
+<!-- Owl (Loner Trader) -->
+	<string id="owl_story_0">
+		<text>和我聊聊这个安静的港湾吧.</text>
+	</string>
+	<string id="owl_story_1">
+		<text>那你特么又是谁想从我嘴里套情报了, 啊? 我就告诉你大家都知道的事情吧. 这里以前有个奇怪的潜行者, 原来是乌克兰安全局的少校. 他是个好帮手, 也处理了不少危险. 但是最近所有事情都在走下坡路... 杨塔生物场发射器和焦脑器又重新启动了. 很显然切尔诺贝利核电站里有不少活动, 而且触手可及. 一群有经验的潜行者去了之后就失踪了, 然后我听说在那之后另一支小队就在锯木厂附近偶然发现了一队黑石. 在那之后, 人们都走了, 变异生物就一直把这当成它们的大好机会, 不受控制的繁衍. 我可以告诉你, 这里已经不适合新人了.</text>
+	</string>
+	<string id="owl_story_2">
+		<text>但是目前我觉得并不是这里的所有人都很颓废了. 还有啥我需要记住的吗?</text>
+	</string>
+	<string id="owl_story_3">
+		<text>我是个情报交易商. 你懂得, 一些勇者, 他们来到这里,想摆脱竞争且致富. 但是这里, 到处都是危险 - 狂热的疯子, 变异生物, 僵尸, 你说呢. 潜行者们很容易死在沼泽里. 所以如果你刚好, 额, '碰到' 他们的尸体...你可以把他们的PDA拿来找我换钱, 别问任何问题. 了解?</text>
+	</string>
+	<string id="owl_story_4">
+		<text>你想让我收集死掉的潜行者的PDA...然后在北边远处有不少潜行者死在那里了. 我想我了解了.</text>
+	</string>
+
+	<string id="information_about_stash_owl_zat_0">
+		<text>你搞到了什么情报吗?</text>
+	</string>
+	<string id="information_about_stash_owl_zat_1">
+		<text>我啥都有 - 如果你有钱, 那就够了. 我从各种渠道搞到的大量备用信息. 这个收8000卢布, 不讲价.</text>
+	</string>
+
+	<string id="information_about_stash_owl_zat1_0">
+		<text>给. %c[d_orange][8000 RU]</text>
+	</string>
+	<string id="information_about_stash_owl_zat1_1">
+		<text>好的, 这是坐标.</text>
+	</string>
+
+	<string id="find_blackbox_mlr_reward_owl_0">
+		<text>你对黑匣子里的情报感兴趣么?</text>
+	</string>
+	<string id="find_blackbox_mlr_reward_owl_1">
+		<text>啥...当然! 交给我!</text>
+	</string>
+
+	
+<!-- Beard (Loner Barman) -->
+	<string id="boroda_story_0">
+		<text>你一定就是大胡子吧.</text>
+	</string>
+	<string id="boroda_story_1">
+		<text>正是. 我以前没见过你 - 欢迎来到斯卡多夫斯克号.</text>
+	</string>
+	<string id="boroda_story_2">
+		<text>在这我能干点什么?</text>
+	</string>
+	<string id="boroda_story_3">
+		<text>你喜欢干啥都行. 自从苏丹离开之后, 在这里找神器比以往任何时候都要轻松. 如果你打算往南去到变电站和垃圾处理厂的方向的话就要小心了. 佣兵或黑石控制了那块地方. 如果你发现任何神器, 请带到这里来 - 我非常乐意给你提供一个合理的价格. 在外面注意安全, 潜行者.</text>
+	</string>
+	<string id="boroda_story_4">
+		<text>谢谢你.</text>
+	</string>
+
+	<string id="devushka_boroda_help_0">
+		<text>嘿大胡子! 我们还没迟到吧, 对吧? 我们给你搞了个礼物.</text>
+	</string>
+	<string id="devushka_boroda_help_1">
+		<text>事实上刚刚好. 给, 你俩, 补偿你们碰到的麻烦的奖励.</text>
+	</string>
+
+	
+<!-- Noah (Loner Honcho) Character Description -->
+	<string id="noah_start_dialog_0">
+		<text>老哥, 你特么朝哪儿开枪啊? 你差点崩了我!</text>
+	</string>
+	<string id="noah_start_dialog_1">
+		<text>然后你在这里干啥? 别扯淡 - 别浪费我时间.</text>
+	</string>
+	<string id="noah_start_dialog_2">
+		<text>好吧好吧, 冷静. 只是路过. 需要帮助吗? 你能回答我几个问题吗?</text>
+	</string>
+	<string id="noah_start_dialog_3">
+		<text>我会回答的, 但是别瞎搞.</text>
+	</string>
+
+	<string id="noah_start_dialog1_0">
+		<text>我有几个问题.</text>
+	</string>
+	<string id="noah_start_dialog1_1">
+		<text>...</text>
+	</string>
+		<string id="noah_start_dialog1_2">
+			<text>这狗你从哪搞来的?</text>
+		</string>
+		<string id="noah_start_dialog1_7">
+			<text>那是莱西. 一个可爱的小婊砸... 如果不是她, 我早在睡觉的时候被吃掉了. 这些被诅咒的怪物... 我恨它们! 只要你一闭上你的双眼, 它们就开始用它们令人憎恶的爪子, 尖牙和触角来抓你...</text>
+		</string>
+		<string id="noah_start_dialog1_8">
+			<text>我懂.</text>
+		</string>
+		<string id="noah_start_dialog1_9">
+			<text>还有这些小狗 - 如果她一直在你身边的话, 那它们能从哪来的啊? 呵呵.</text>
+		</string>
+		<string id="noah_start_dialog1_3">
+			<text>你为啥住在这垃圾桶里?</text>
+		</string>
+		<string id="noah_start_dialog1_10">
+			<text>这是方舟! 记住... 如果你想活下来的话你会记住的! 当波来临的时候, 在这呆着. 在这里你就有机会活下来. 没有变种怪可以攻进来.</text>
+		</string>
+		<string id="noah_start_dialog1_11">
+			<text>啥 "波"? 你在胡咧咧什么东西?</text>
+		</string>
+		<string id="noah_start_dialog1_12">
+			<text>那些生物从早到晚都在盯着我. 你不懂... 那些从南部高地来的史诺克一直跟着我到我的方舟! 我是个经验丰富的猎手, 我确信它们不会追踪它们的目标这么久. 有什么地方不对劲... 他们肯定是被控制着, 我的想法已经被之前那些怪物袭击驳船的事情证实了.</text>
+		</string>
+		<string id="noah_start_dialog1_13">
+			<text>我想特异区里什么都会发生, 但是如果你的猜想是正确的, 那我们有大麻烦了.</text>
+		</string>
+		<string id="noah_start_dialog1_4">
+			<text>你为啥不相信别人?</text>
+		</string>
+		<string id="noah_start_dialog1_14">
+			<text>因为我经历了太多了.</text>
+		</string>
+	<string id="noah_start_dialog1_5">
+		<text>我想我该走了.</text>
+	</string>
+
+	<string id="tasks_noah_dialog_0">
+		<text>需要帮忙吗?</text>
+	</string>
+	<string id="tasks_noah_dialog_1">
+		<text>嗯... 我的确有些事情需要你帮忙.</text>
+	</string>
+	<string id="tasks_noah_dialog_2">
+		<text>找到一把新的霰弹枪</text>
+	</string>
+		<string id="tasks_noah_dialog_5">
+			<text>我现在的霰弹枪就是一坨屎. 如果你可以给我搞一把更好的, 像自动霰弹枪之类的... 好吧, 我不确定能不能在特异区里搞到那样的武器. 我之前见过几个戴着臂章的强盗. 你去给我搞一个来.</text>
+		</string>
+	<string id="tasks_noah_dialog_3">
+		<text>对付南部高地的史诺克</text>
+	</string>
+		<string id="tasks_noah_dialog_6">
+			<text>是时候了结那些可怕的怪物了. 每天晚上我都能听到他们在驳船上爬来爬去, 等待,呼吸,嗅探. 去南部高地, 你需要进入那个传送点. 我已经标记在你的地图上了 - 离烧毁的农庄不远.</text>
+		</string>
+	<string id="tasks_noah_dialog_4">
+		<text>我改变主意了.</text>
+	</string>
+	
+	<string id="task_1_noah_done_0">
+		<text>这是你要的臂章.</text>
+	</string>
+	<string id="task_1_noah_done_1">
+		<text>...值得铭记. 谢谢你的帮助. 现在那些野兽将会三思而行了.</text>
+	</string>
+
+	<string id="task_2_noah_done_0">
+		<text>我搞定了那些史诺克, 有一大群呢. 他们之前为啥要追踪你?</text>
+	</string>
+	<string id="task_2_noah_done_1">
+		<text>我不确定. 我以前偶尔去那里清理一下, 但是现在没有时间去了... 必须照顾我的狗狗. 所以, 感谢你的帮助.</text>
+	</string>
+
+	
+
+	<string id="zat_a2_stalker_barmen_actor_info_0">
+		<text>跟我聊聊这里的生活吧.</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_actor_info_1">
+		<text>那是一个很宽泛的话题了. 试着问一些具体的问题, 我会尽我所能回答的.</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_actor_info_1111">
+		<text>潜行者们在这里干啥呢?</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_actor_info_11111">
+		<text>问问你自己咯, 伙计. 他们踏出斯卡多夫斯克号, 探索地形, 寻找神器, 朝着所有朝他们冲过去的东西和人开枪. 然后他们回到斯卡多夫斯克号, 喝成傻逼然后说些胡话... 在下次行动之前享受一些 R&amp;R ... 不过如果有人吃了枪子, 那情况就不同了. 那时候我们就都坐好, 然后铭记那些没有成功冲到掩体的伙计...</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_actor_info_1112">
+		<text>所以是什么驱使潜行者们前往特异区中心的?</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_actor_info_11121">
+		<text>一个有趣的问题. 有些人去寻找下一个神器金矿. 有些人听信了绿洲的谣言去寻找. 还有些人去找许愿石. 还有人类的基本欲望: 贪婪与好奇... 每个人都有自己的理由. 我相信你也有.</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_actor_info_1113">
+		<text>那为什么你回安顿在这里?</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_actor_info_11131">
+		<text>在焦脑器被关闭后我和松鸡来到了这里. 但是我想这个回答你并不满足, 对吧? 我主要做神器生意. 外面已经到处都是小饰品了,所以一些有钱的顾客想要一些稀有的东西. 这就是我在这里,一个仍然能找到高价值神器的地方建立一个潜行者营地的原因. 我的意思是, 当一个潜行者满载而归的时候,他真正需要的是什么? 一个冷冰冰的神器在手上再加上一个很健谈的人,这就是他需要的. 并且这就是斯卡多夫斯克号存在的意义.</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_actor_info_1114">
+		<text>你怎么看待那些强盗?</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_actor_info_11141">
+		<text>嗯,就像这样: 我没啥理由拒绝他们上斯卡多夫斯克号, 只要他们表现得体. 而且, 你并不会经常遇到完全是混蛋的人. 他们中的一些人以前曾是潜行者. 谁知道呢, 也许他们其中的一个可怜的混蛋真的会在他中枪之前决定放弃这混球生意... 生活总是充满了惊喜.</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_actor_info_1115">
+		<text>没啥, 别在意.</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_actor_info_11151">
+		<text>如你所愿.</text>
+	</string>
+
+	<string id="zat_b7_stalkers_victims_dialog_11">
+		<text>你好, 潜行者. 我现在有点忙. 我们稍后再聊, 好吗?</text>
+	</string>
+
+	<string id="zat_b22_stalker_medic_start_1">
+		<text>什么风把你吹来了?</text>
+	</string>
+	<string id="zat_b22_stalker_medic_dialog_start_21">
+		<text>我在听.</text>
+	</string>
+	<string id="zat_b22_stalker_medic_dialog_start_22">
+		<text>你需要帮助吗?</text>
+	</string>
+	<string id="zat_b22_stalker_medic_dialog_start_23">
+		<text>你好.</text>
+	</string>
+	<string id="zat_b22_stalker_medic_need_health_care_0">
+		<text>我需要医疗援助.</text>
+	</string>
+	<string id="zat_b22_stalker_medic_need_health_care_1">
+		<text>好的让我看看.</text>
+	</string>
+	<string id="zat_b22_stalker_medic_need_health_care_2">
+		<text>我看看... 额... 我觉得你挺好的. 你既没有伤也没有辐射病的迹象. 你可以出发了.</text>
+	</string>
+	<string id="zat_b22_stalker_medic_need_health_care_111">
+		<text>我跟你实话实说吧 - 当然你可以用一两个医疗包然后就好了. 而我可以解决你大部分的问题, 只需要花上1850卢布. 我有一种很好的血清可以让你立刻恢复. 但是所有这些发光的辐射粒子仍会留在你的体内. 没法清除. 但是你另付1480卢布的话, 我就能把这些东西清除掉. 所以, 你意下如何?</text>
+	</string>
+	<string id="zat_b22_stalker_medic_need_health_care_11">
+		<text>啥? 一切都这么糟糕吗?</text>
+	</string>
+
+	<string id="zat_b22_stalker_medic_need_health_care_1111">
+		<text>好吧, 拿着钱然后赶快工作. 健康远比钱重要.</text>
+	</string>
+	<string id="zat_b22_stalker_medic_need_health_care_1112">
+		<text>好吧, 把辐射治好就行. 这些伤我自己包扎.</text>
+	</string>
+	<string id="zat_b22_stalker_medic_need_health_care_1113">
+		<text>你知道么, 庸医? 先治治你自己吧你!</text>
+	</string>
+
+	<string id="zat_b22_stalker_medic_need_health_care_11111">
+		<text>请稍等... 好了, 所有都搞定了. 你可以走了.</text>
+	</string>
+
+	<string id="zat_b22_stalker_medic_need_health_care_11112">
+		<text>嗯, 微弱的辐射并不能弄死你. 至少目前是这样的. 但是如果你流血而死了我也不会承担任何责任. 所以祝你好运, 伙计!</text>
+	</string>
+
+	<string id="zat_b22_stalker_medic_need_health_care_11113">
+		<text>如你所愿, 同志. 如果你突然暴毙也不关我事.</text>
+	</string>
+
+	<string id="zat_b18_noah_start_11">
+		<text>你是谁?</text>
+	</string>
+	<string id="zat_b18_noah_start_111">
+		<text>一个潜行者. 我们之前见过.</text>
+	</string>
+	<string id="zat_b18_noah_start_1111">
+		<text>我不记得了... 不管他, 你需要啥么?</text>
+	</string>
+	<string id="zat_b18_noah_start_112">
+		<text>一个潜行者. 一个普通潜行者.</text>
+	</string>
+	<string id="zat_b18_noah_start_1121">
+		<text>嗯. 来方舟寻求庇护? 就把这里当成家吧.</text>
+	</string>
+	<string id="zat_b18_noah_start_113">
+		<text>不关你的事.</text>
+	</string>
+	<string id="zat_b18_noah_start_21">
+		<text>啊, 是你. 怎么了?</text>
+	</string>
+
+	<string id="zat_b3_stalker_tech_start_15">
+		<text>一个明智的选择, 我的朋友. 必须把你把你的枪保持在良好状态... 如果你身上有一两瓶酒的话, 我可以给它来个全面升级. 想把你的降落伞缝在你的霰弹枪上? 我也能搞定, 哈哈.</text>
+	</string>
+	<string id="zat_b3_stalker_tech_drink_1_0">
+		<text>搞了点酒. 来一杯?</text>
+	</string>
+	<string id="zat_b3_stalker_tech_drink_1_2">
+		<text>不了不了, 我不喝酒了, 兄弟. 当我看见高斯枪时, 我想, '就这样了, 我要跳了...' 看, 酒只会让你一团糟. 也并不是健康饮食的一部分. 而且如果我死了, 谁来把你的高斯步枪子弹敲出来?</text>
+	</string>
+	<string id="zat_b3_stalker_tech_drink_2_0">
+		<text>来第二瓶吗.</text>
+	</string>
+	<string id="zat_b3_stalker_tech_drink_3_0">
+		<text>我准备好了第三瓶, 如果你需要的话.</text>
+	</string>
+</string_table>

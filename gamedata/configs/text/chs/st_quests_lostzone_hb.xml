@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!--===========================================================
+<
+< TEX-T STRINGS FOR LOST TO THE ZONE: HOLLOW BOUNDARIES TASKS
+<	Anomaly 1.5 - Lost to the Zone: Hollow Boundaries
+<
+<	Made by: Tronex
+<	Last revised: 10 September 2019
+<
+<===========================================================-->
+
+<string_table>
+
+	<!-- Dushman intel -->
+	<string id="st_hb_isg_dushman_intel_name">
+		<text>杜什曼的情报</text>
+	</string>
+	<string id="st_hb_isg_dushman_intel_desc">
+		<text>如果杜什曼遵守诺言, 那么这个文件中草拟的地图和注释对于UNISG来说便是无价的. 可以大大降低UNISG未来行动的危险性.</text>
+	</string>
+
+
+	<!-- Hollow Boundaries Arc 1 -->
+	<string id="lttz_hb_task_1_1_dushman_intel_name">
+		<text>空洞边缘: 情报</text>
+	</string>
+	<string id="lttz_hb_task_1_1_dushman_intel_desc">
+		<text>埃尔南德斯少校命令你去找一名叫做"杜什曼"的人, 获取到 UN从他那里买到的重要情报.</text>
+	</string>
+	
+	<string id="lttz_hb_task_1_2_recruit_name">
+		<text>空洞边缘: 会面</text>
+	</string>
+	<string id="lttz_hb_task_1_2_recruit_desc">
+		<text>埃尔南德斯少校和他的小队已经在一个叫做"木星地区"的地方驻扎下来. 将他的情报带到指定地点.</text>
+	</string>
+
+	
+	<!-- Hollow Boundaries Arc 2 -->
+	<string id="lttz_hb_task_2_1_guarded_secrets_name_1">
+		<text>空洞边缘: 调查木星工厂</text>
+	</string>
+	<string id="lttz_hb_task_2_1_guarded_secrets_name_2">
+		<text>空洞边缘: 返回埃尔南德斯少校处</text>
+	</string>
+	<string id="lttz_hb_task_2_1_guarded_secrets_desc_1">
+		<text>在木星工厂中寻找文件. 并消灭一切见证人.</text>
+	</string>
+	<string id="lttz_hb_task_2_1_guarded_secrets_desc_2">
+		<text>将文件带回埃尔南德斯少校处. 并保证它的安全.</text>
+	</string>
+
+	<string id="lttz_hb_task_2_2_breakthrough_name_1">
+		<text>空洞边缘: 突破</text>
+	</string>
+	<string id="lttz_hb_task_2_2_breakthrough_name_2">
+		<text>空洞边缘: 与埃尔南德斯少校交谈</text>
+	</string>
+	<string id="lttz_hb_task_2_2_breakthrough_desc_1">
+		<text>与埃尔南德斯少校的小队一同突破木星工厂地下通道. 保证他们的安全, 并尽可能地寻找文件.</text>
+	</string>
+	<string id="lttz_hb_task_2_2_breakthrough_desc_2">
+		<text>你已经找到了一些文件. 给埃尔南德斯少校过目.</text>
+	</string>
+	
+	<!-- Hollow Boundaries Arc 3 -->
+	<string id="st_lttz_hb_task_3_1_search_agr_ug_name">
+		<text>调查农研所地下通道</text>
+	</string>
+	<string id="st_lttz_hb_task_3_1_search_agr_ug_text">
+		<text>调查农研所地下并且寻找阴谋的证据.</text>
+	</string>
+	<string id="st_lttz_hb_task_3_2_search_labx18_name">
+		<text>调查X-18实验室</text>
+	</string>
+	<string id="st_lttz_hb_task_3_2_search_labx18_text">
+		<text>调查X-18实验室并且寻找阴谋的证据.</text>
+	</string>
+	<string id="st_lttz_hb_task_3_3_search_labx16_name">
+		<text>调查X-16实验室</text>
+	</string>
+	<string id="st_lttz_hb_task_3_3_search_labx16_text">
+		<text>调查X-16实验室并且寻找阴谋的证据.</text>
+	</string>
+	<string id="st_lttz_hb_task_3_4_search_labx10_name">
+		<text>调查X-19(X10)实验室</text>
+	</string>
+	<string id="st_lttz_hb_task_3_4_search_labx10_text">
+		<text>调查X-19(X10)实验室并且寻找阴谋的证据.</text>
+	</string>
+	<string id="st_lttz_hb_task_3_5_search_labx8_name">
+		<text>调查X-8实验室</text>
+	</string>
+	<string id="st_lttz_hb_task_3_5_search_labx8_text">
+		<text>调查X-8实验室并且寻找阴谋的证据.</text>
+	</string>
+	
+	<string id="lttz_hb_task_3_8_handle_docs_name">
+		<text>揭开神秘的面纱</text>
+	</string>
+	<string id="lttz_hb_task_3_8_handle_docs_text">
+		<text>你找到了关于一个巨大阴谋的确凿证据. 报告给埃尔南德斯少校 - 他会很高兴的.</text>
+	</string>
+
+	<!-- Hollow Boundaries Arc 4 -->
+	<string id="lttz_hb_task_4_1_crossfire_1_name">
+		<text>交火: 消灭军队</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_2_name">
+		<text>交火: 与史特列洛克谈谈</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_3_name">
+		<text>交火: 护送史特列洛克</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_4_name">
+		<text>交火: 与史特列洛克交流</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_5_name">
+		<text>交火: 杀死史特列洛克</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_6_name">
+		<text>交火: 找到史特列洛克的尸体</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_7_name">
+		<text>交火: 返回埃尔南德斯少校处</text>
+	</string>
+	
+	<string id="lttz_hb_task_4_1_crossfire_1_desc">
+		<text>埃尔南德斯少校命令你从史特列洛克那里弄到情报, 但是你必须先消灭正在尾随史特列洛克的军队.</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_2_desc">
+		<text>军队被消灭了, 套出史特列洛克的话.</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_3_desc">
+		<text>帮助并护送史特列洛克前往红森林. 或者诱导他进入木星工厂地下通道的UNISG基地来抓捕他.</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_4_desc">
+		<text>作为承诺, 史特列洛克和你都安全的抵达了红森林, 与他交谈.</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_5_desc">
+		<text>史特列洛克插翅难逃. 干掉他.</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_6_desc">
+		<text>史特列洛克死了. 搜索他的尸体以查找任何有用的情报.</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_7_desc">
+		<text>你在史特列洛克的随身物品中找到了一个闪存盘. 返回埃尔南德斯少校处并报告你的发现.</text>
+	</string>
+
+	
+	<!-- Maus (ISG Mechanic) Find Level 1 Toolkit Task -->
+	<string id="jup_depo_isg_tech_task_1_name">
+		<text>寻找%s</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_1_text">
+		<text>莫斯中尉需要一个%s来进行基础升级. 如果你找到了就带给他.</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_1_about">
+		<text>我有个好活给你干. 给我弄来一些好工具, 你就会收到一些报酬. 你干不干?</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_1_fetch_about">
+		<text>当然有. 我一直缺少一组%s. 里面包含一些处理枪用的枪油和工具. 如果你能带来一组完整的, 我会好好的报答你.</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_1_fetch_finish">
+		<text>很好! 这就是我一直需要的. 谢谢!</text>
+	</string>
+
+	<!-- Maus (ISG Mechanic) Find Level 2 Toolkit Task -->
+	<string id="jup_depo_isg_tech_task_2_name">
+		<text>找到%s</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_2_text">
+		<text>莫斯中尉需要一个%s来进行进阶升级, 如果你找到了就带给他.</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_2_about">
+		<text>我还有一个工作. 你给我的工具确实不错, 但总感觉少点什么.你能帮我弄来一套更好的吗?</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_2_fetch_about">
+		<text>我需要一个%s. 但我不确定你能在哪里弄到, 希望你能弄到一个, 我很需要.</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_2_fetch_finish">
+		<text>工具基本都齐了. 谢谢你.</text>
+	</string>
+
+	<!-- Maus (ISG Mechanic) Find Level 3 Toolkit Task -->
+	<string id="jup_depo_isg_tech_task_3_name">
+		<text>寻找%s</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_3_text">
+		<text>莫斯中尉需要一个%s来进行精校升级. 如果你找到了就带给他.</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_3_about">
+		<text>我还有一个工作. 你给我的工具非常好用, 但并不是我需要的全部. 你能帮我弄来一套更好的吗?</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_3_fetch_about">
+		<text>我需要一个%s. 但我不确定你能在哪里弄到, 希望你能弄到一个, 这很关键.</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_3_fetch_finish">
+		<text>这就是我要的一切了. 非常感谢.</text>
+	</string>
+	
+</string_table>

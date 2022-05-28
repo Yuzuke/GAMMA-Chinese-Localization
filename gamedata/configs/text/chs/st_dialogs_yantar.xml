@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<string_table>
+
+<!-- (Military Mechanic) -->
+	<string id="army_yan_mec_about_tool_0">
+		<text>嗨, 你是谁?</text>
+	</string>
+	<string id="army_yan_mec_about_tool_1">
+		<text>我是从当地军队调来的, 在应征入伍前代号是"游隼", 我是一名技师. 总部最终发现了我修理东西的本领并认为我在这里会更有用, 帮助维护科研设备. 我们的主管萨哈罗夫, 显然同意了. 嗯 - 他甚至松了一口气.</text>
+	</string>
+	<string id="army_yan_mec_about_tool_2">
+		<text>你是碉堡的新技术员吗? 到目前为止情况如何?</text>
+	</string>
+	<string id="army_yan_mec_about_tool_3">
+		<text>总比被困在总部, 被一个愤怒的狱警紧盯着要强, 或者被命令去巡逻, 朝绝望的人脸上开枪要强. 我需要的工具一件都没有, 这些都要归功于高层出色的补给.\n \n但说实话, 还是挺糟糕的. 多亏了我们补给队的杰出贡献, 仅仅是为了维持我们目前的状况我需要争论到脸色发青. 科学家们保存在这里的神秘设备很难用现有的资源维持下去, 更不用说升级或适应特异区不断变化的环境了.\n \n我想把这里的旧接收器修好, 但它只会发出一堆乱码. 我们七年前就死在军方仓库的人, 这该死的机器还能听到他们的声音.</text>
+	</string>
+	<string id="army_yan_mec_about_tool_4">
+		<text>嗯, 这就是特异区嘛, 你永远猜不到会发生什么. 不管怎么说, 祝你好运.</text>
+	</string>
+
+	
+<!-- (Military Cooker) -->
+	<string id="meet_povar_army_0">
+		<text>你是谁?</text>
+	</string>
+	<string id="meet_povar_army_1">
+		<text>我是本地的厨子, 我猜的. 纸面上, 我应该是科学家的战场助理. 实习中的...额, 距离上次他们派我出去已经好几个月了, 我越来越觉得我哪里也去不了了. 抛开不说, 他们叫我"神灵".</text>
+	</string>
+	<string id="meet_povar_army_2">
+		<text>那为啥他们不再派你出去了?</text>
+	</string>
+	<string id="meet_povar_army_3">
+		<text>我觉得只是有些误会. 这里的人都认为我是个酒鬼. 你在逗我? 现在黑石又活跃起来了, 任何一个心智正常的人在他的朋友们被困在木星地区的时候都会去喝酒. 我知道他们可能安然无恙, 但是我仍然很担心. 另外, 如果你能拿到我可爱的内米洛夫伏特加, 我可以用些好东西跟你交换...
+		\n你说啥? 你可以拿5小杯来跟我换4匣9x18子弹或者2匣5.45子弹, 或者10杯来换4匣5.45的.
+		\n10杯的话,我能提供1匣7.62mm 7N1子弹, 或者3盒12X70的霰弹枪子弹, 自己选.
+		\n15杯 - 大概就是5满瓶 - 以及7000卢布, 你能得到3匣的7.62x54mm PP子弹. 它们可贵了, 你懂的...
+		\n喝20杯, 不到七瓶, 我就从箱子里偷一套铍-5M战斗装甲给你. 别觉得我是个无赖... 这很不错了已经, 别狮子大开口. 我可是省吃俭用藏下来的.</text>
+	</string>
+	<string id="meet_povar_army_4">
+		<text>我会考虑的, 多谢.</text>
+	</string>
+
+	<string id="barter_povar_army_0">
+		<text>我给你带来了些伏特加.</text>
+	</string>
+	<string id="barter_povar_army_1">
+		<text>太棒了! 这有啥你特别想要的吗?</text>
+	</string>
+		<string id="barter_povar_army_2">
+			<text>4匣9x18.</text>
+		</string>
+		<string id="barter_povar_army_3">
+			<text>2匣5.45.</text>
+		</string>
+		<string id="barter_povar_army_4">
+			<text>4匣5.45.</text>
+		</string>
+		<string id="barter_povar_army_5">
+			<text>3盒散弹.</text>
+		</string>
+		<string id="barter_povar_army_6">
+			<text>1匣7.62mm 7N1.</text>
+		</string>
+		<string id="barter_povar_army_7">
+			<text>3盒PKP子弹.</text>
+		</string>
+		<string id="barter_povar_army_8">
+			<text>铍-5M战斗装甲.</text>
+		</string>
+	<string id="barter_povar_army_10">
+		<text>好的. 给你.</text>
+	</string>
+	<string id="barter_povar_army_11">
+		<text>好的, 给.</text>
+	</string>
+	<string id="barter_povar_army_12">
+		<text>嗯... 公平的交易. 这是你要东西.</text>
+	</string>
+	<string id="barter_povar_army_13">
+		<text>哈! 一路顺风, 潜行者!</text>
+	</string>
+	<string id="barter_povar_army_14">
+		<text>嗯... 好选择.</text>
+	</string>
+	<string id="barter_povar_army_15">
+		<text>我已经等不及把它们灌进肚子里然后听听它们在我肚子里能奏出啥美妙的音乐了.</text>
+	</string>
+	<string id="barter_povar_army_16">
+		<text>给你.</text>
+	</string>
+	<string id="barter_povar_army_9">
+		<text>给, 好好享受. 反正我会的.</text>
+	</string>
+
+	<string id="remember_dyx_barter_0">
+		<text>再说说你有啥?</text>
+	</string>
+	<string id="remember_dyx_barter_1">
+		<text>我有这些都行: 5杯尼米洛夫伏特加换4匣9x18, 或者2匣5.45, 10杯换4匣5.45x39, 或者3盒12x70霰弹枪子弹, 也可以换1匣7.62mm 7N1子弹, 5满瓶换3盒PKP子弹, 然后就是20杯换铍-5M战斗装甲.</text>
+	</string>
+
+
+<!-- Kruglov -->
+	<string id="yan_ecolog_kruglov_start_dialog_1">
+		<text>你好, 潜行者.</text>
+	</string>
+
+	<!-- yan_ecolog_semenov -->
+	<string id="yan_ecolog_semenov_start_dialog_1">
+		<text>啊, 潜行者, 看看你有啥需要的?</text>
+	</string>
+	<string id="yan_ecolog_semenov_start_dialog_yan_ecolog_semenov_task_1">
+		<text>我还需要收集更多的数据, 我们再去找些变异生物.</text>
+	</string>
+
+	<!-- yan_ecolog_vasilyev -->
+	<string id="yan_ecolog_vasilyev_start_dialog_1">
+		<text>你好, 潜行者.</text>
+	</string>
+	
+
+<!-- Sakharov -->
+	<string id="st_yan_saharov_message_free_upgrade">
+		<text>潜行者你救了我们! 如果没了你的帮忙, 我们的碉堡绝对完蛋了. 为了表达我的感激, 我能帮你免费升级你的psy头盔!</text>
+	</string>
+	<string id="yan_stalker_sakharov_start_1">
+		<text>你好, 潜行者. 什么风把你吹来了?</text>
+	</string>
+	<string id="yan_stalker_sakharov_player_query_brain_scorcher">
+		<text>你能跟我说说焦脑器吗?</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_query_brain_scorcher">
+		<text>嗯...好的...我们所知的不多, 但是我觉得我们分享一下这些知识并无坏处. 焦脑器似乎会发出一种具有入侵性的频率, 这频率会影响到任何靠近普里皮亚季中心的人的脑子, 包括核电站和红森林的另一头. 症状包括偏头痛;幻觉;幻视;还有一个听起来很不专业的描述词,僵尸化. 如果我必须给个科学的猜测, 我认为焦脑器就是个远程的生物场发射器, 不过在完全确定这个结论之前,我还是必须得做更多的实质研究.</text>
+	</string>
+	<string id="yan_stalker_sakharov_player_query_psi_helmet">
+		<text>教授,我需要一个psy头盔.我的任务需要我进入焦脑器的影响范围内,没有这个头盔我就没法完成我的任务.</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_query_psi_helmet">
+		<text>我想你应该知道进入这些会导致你精神不稳定的地区的风险对吧?... 噢好吧, 我相信你都懂. 不然你也不会让我帮你这个忙. 嗯,我们有个一直在研究的原型, 但是还没有完成, 而且它缺少最终的校准. 我们可以立马把这个psy头盔提供给你, 只要10000卢布就行, 但是你必须独自承受使用未经测试的硬件的风险! 不过还有另外一种选项: 我们可以加速研发校准的进度,但是这需要更多的资金而且你也必须等待. 大概会花掉你17500卢布. 如果你愿意花这些钱, 我们将立刻开始校准它, 大概会花上两天的时间.</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_query_psi_helmet_free">
+		<text>我想你知道经过这些精神不稳定区域的风险, 对吗? 好吧, 我相信你知道. 不然你就不会问我了. 我们一直在仔细研究这个模型, 但它仍未完成, 也缺少最后的校准.\n \n它应该可以保护你不受psy风暴的伤害, 但我要强调的是: 你可能会因为不完整的硬件而冒着生命危险.</text>
+	</string>
+	<string id="yan_stalker_sakharov_player_psi_helmet_1_1">
+		<text>我急得很, 把原型头盔给我吧.</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_psi_helmet_1_1">
+		<text>如果你坚持的话, 我确信你需要你的装备处于良好工作的状态... 噢, 我差点忘了: 你随时都可以把它带过来做最终的校准. 如果你觉得有什么不对劲的话,直接到我们这儿来. 我们不能承受任何损失,所以你得花上10000卢布才行.</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_player_psi_helmet_1_2">
+		<text>钱给你, 谢谢你教授.</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_psi_helmet_1_2">
+		<text>客气了. 但是我比较喜欢你能先测试一下. 你可以试着去帮我们把北边实验室里的生物场发射器关掉. 希望它能好好的把你的意识保住...</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_player_psi_helmet_1_3">
+		<text>我决定还是让你们完成最后的工作, 请完全校准这个头盔</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_psi_helmet_1_3">
+		<text>你无法想象你给我和我的同时带来了怎样的解脱. 让我们完成最终的校准将会大大减少受伤的风险, 而且我们也不想因为提供给你未经测试的装备感到内疚... 既然你已经为我们的事业提供了经济上的援助, 那么最终校准就收你8000卢布吧, 然后你得等上两天.</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_player_psi_helmet_2_1">
+		<text>我希望这最终校准的版本值得我耐心去等.</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_psi_helmet_2_1">
+		<text>那是肯定的. 一旦我们完成这个头盔的工作, 你就可以在特异区里自由的游荡且不用担心受到精神堕落的伤害了, 它的psy防护性能将被最大化. 所以...17500卢布.</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_psi_helmet_2_1_free">
+		<text>那是肯定的. 一旦我们完成这个头盔的工作, 你就可以在特异区里自由的游荡且不用担心受到精神堕落的伤害了, 它的psy防护性能将被最大化. 之前你在紧要关头帮助了我们, 我们可以放心的把这个装置免费给你用,好好使用它.</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_player_psi_helmet_2_2">
+		<text>好的, 我会等待psy头盔的完全校准, 施展你们的魔法吧.</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_psi_helmet_2_2">
+		<text>谢谢你, 潜行者. 我立马开始最后的校准. 几天后再来看看吧.</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_player_psi_helmet_2_3">
+		<text>搞定了嘛?</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_psi_helmet_2_3">
+		<text>搞定了! 给你. 不过我希望你可以先测试一下. 你可以去帮我们把北边实验室的生物场发射器给关掉. 祈祷这玩意儿能把你的意识保护的好好的...</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_psi_helmet_2_3_1">
+		<text>还没呢, 请晚点再来.</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_player_psi_helmet_3_1">
+		<text>我需要考虑一下.</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_psi_helmet_3_1">
+		<text>很好. 别担心; 我们会一直留着这个psy头盔的.</text>
+	</string>
+	
+	<string id="st_yan_stalker_sakharov_life_ask">
+		<text>最近科学界发生了什么有趣的事情没有?</text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_1">
+		<text>我们的研究表明夜星神器有助于推进防护装甲的升级,几年后我们可能会发现一些惊人的结果.</text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_2">
+		<text>有一个古老的假说认为打呼噜是人类进化的下一个阶段,我们在获取了组织样本之后这个话题引起了激烈的讨论.</text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_3">
+		<text>我们最近在吸血鬼身上做了一些有趣的实验... 我觉得你还是不要知道的好.</text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_4">
+		<text>作为一个知识分子你可以能可以欣赏到这点 - 我们的研究发现,豚兽身上所谓"眼睛"的组织,他们不仅有视觉,他们还配备了嗅觉受体!意思是他们不仅能看,还能闻!这不神奇吗?</text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_5">
+		<text>你有看到最近运来的那一批变异生物样本吗?我们已经尽可能多的把它们移植到了我们的... 志愿助手身上...我们可能快疯了!</text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_6">
+		<text>我们成功了!我们再实验室条件下创造出了这种罕见的薄膜神器!这是一个真正值得得到诺贝尔奖的突破!</text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_7">
+		<text>我们的一些同事已经开始吃煮熟的变异生物肉,以此测试突变蛋白质对人体的影响....我不知道他们为啥不直接去受个100拉德的辐射呢.</text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_8">
+		<text>海胆神器的能让我们制造出有效的抗辐射药物,你很可能已经从我们的研究中受益很多次了.</text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_9">
+		<text>最近的研究进展很慢,外面那些变种怪的声音让我们很难集中注意力.</text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_10">
+		<text>我们正在尝试证明漩涡变异点不仅仅只是一个重力异常,而是时间和空间性质的变异.如果真是这样的话它产生的神器将会是传送技术的关键所在.</text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_11">
+		<text>月光神器很有可能是解决迫在眉睫的全球能源危机的办法,对我们来说电子异常是我们一个非常大的兴趣点.</text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_end">
+		<text>最近没啥有趣的事情.</text>
+	</string>
+
+	<!-- yan_merc_guards -->
+	<string id="yan_merc_guards_start_2">
+		<text>现在不是时候, 我在值班. 如果你需要什么,你可以去找游隼或随便一个书呆子.</text>
+	</string>
+	<string id="yan_merc_guards_start_3">
+		<text>快一点儿. 我可不想让那些人发现我们在聊天.</text>
+	</string>
+	<string id="yan_merc_guards_start_4">
+		<text>从北边传来的嗡嗡声让我牙齿发痒.真希望那个该死的厨师别一直喝那么多酒...</text>
+	</string>
+</string_table>

@@ -1,0 +1,3782 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!--===========================================================
+<
+< TEXT  STRINGS FOR DIALOGS
+<	CoC 1.4.21 - DoctorX Questlines 1.20
+<
+<	Modified by: DoctorX
+<	Last revised: December 21, 2016
+<
+<===========================================================-->
+
+
+<string_table>
+
+	<!-- ACTOR:  Meets honcho after being sent by another honcho: -->
+	<string id="st_drx_sl_meet_honcho">
+		<text>我来找你了.</text>
+	</string>
+
+	<!-- ACTOR:  Accepts storyline task from honcho: -->
+	<string id="st_drx_sl_accept_task">
+		<text>很好.</text>
+	</string>
+
+	<!-- HONCHO:  Affirmation of task acceptance: -->
+	<string id="st_drx_sl_task_accepted">
+		<text>祝你好运, 潜行者.</text>
+	</string>
+
+	<!-- ACTOR:  Leaves honcho: -->
+	<string id="st_drx_sl_actor_exit">
+		<text>谢谢.</text>
+	</string>
+
+	<!-- DEFAULT END GAME TEXT: -->
+	<string id="drx_sl_default_endgame">
+		<text>许愿石在召唤你, 属于你的时刻就快到了. 去吧, 你会得到你想要的.</text>
+	</string>
+
+
+	<!-- SIDOROVICH STORYLINE START GAME 1 DIALOG -->
+	<string id="drx_sl_start_msg_stalker">
+		<text>潜行者, 我有些有趣的工作, 你可能会有兴趣. 你对冒险感兴趣么? 或者名声? 现金? 到新手村这边来和我聊聊吧.</text>
+	</string>
+	
+	<string id="sidorovich_questlines_about_dialog_0">
+		<text>我听说你这有冒险任务, 能赢得名声和钱. 你能帮我找到许愿石么?</text>
+	</string>
+	<string id="sidorovich_questlines_about_dialog_1">
+		<text>当然, 很简单, 在切尔诺贝利. 下一班巴士二十分钟后出发, 呵呵...
+		\n听着潜行者, 很多人来这里都是在寻找许愿石. 你知道他们现在有什么共同点么? 他们都成了蛆虫的美餐... 除了史特列洛克. 我的意思是, 许愿石只是一个传说, 一个神话. 但是我提供的钱是真的. 努力工作聪明行事, 你很快就能发财的.</text>
+	</string>
+	
+	<string id="drx_sl_esc_m_trader_game_start_dialog_1_0">
+		<text>好吧, 所以我要怎么发财?</text>
+	</string>
+	<string id="drx_sl_esc_m_trader_game_start_dialog_1_1">
+		<text>来, 把你的PDA给我... 如果你想努力工作, 或者想多赚点钱, 去看看这些联系人. 他们会开个好价钱, 一路上你也会有很多好关系. 这是需要诚信的工作, 或者至少是要在特异区尽量诚信的工作. 别让我失望.</text>
+	</string>
+	
+	<!--string id="drx_sl_esc_m_trader_game_start_dialog_1_1">
+		<text>当然, 很简单, 在切尔诺贝利,下一班巴士二十分钟后出发,呵呵... 听着潜行者, 很多人来这里都是在寻找许愿石. 你知道他们现在有什么共同点么?他们都喂虫子了. 许愿石只是个传说, 它不存在的. 即使真的存在, 你是否知道你真正的愿望是什么? 你一点都没有概念. 你想发财, 是么? 那你完全不必为了财富而许愿. 像你这样的人可以在特异区赚很多的钱, 只要你够聪明的话. 这是我能帮你的;把你的PDA给我... 啊, 搞定, 我给你植入了一个联系人列表, 我认识的一些在特异区里可以提供工作的人. 你准备好了就可以去拜访一下他们, 他们中有些人给的报酬很不错. 另外去周围的营地问问,也有很多工作可以做, 见鬼, 甚至连我也时不时会有工作提供. 做个老实人吧, 至少在特异区里要做个老实人.</text>
+	</string-->
+
+	<!-- SIDOROVICH STORYLINE START GAME 1 END GAME 1 TEXT: -->
+	<string id="drx_sl_esc_m_trader_start_game_1_endgame_1">
+		<text>你在这儿的名声很不错, 潜行者. 沃夫有点信任你了, 他甚至在篝火边讲着你的故事 - 哈哈哈! 感谢你的帮助, 别因为些蠢事把自己害死了.</text>
+	</string>
+
+
+	<!-- PETRENKO STORYLINE START GAME 1 DIALOG -->
+	<string id="drx_sl_start_msg_dolg">
+		<text>有一个很重要的任务给你. 我需要一位勇敢的志愿者去找彼得连科上校报告并接受进一步任务指令.</text>
+	</string>
+	
+	<string id="petrenko_questlines_about_dialog_0">
+		<text>我准备好了, 长官. 你有什么指示?</text>
+	</string>
+	<string id="petrenko_questlines_about_dialog_1">
+		<text>纪律团目前的首要目标有两个. 首先, 我们需要些志愿者执行一系列重要的任务, 履行我们的义务, 帮助那些需要我们帮助的人. 其次, 我们有理由相信一个很有影响力的潜行者重返特异区了, 将军希望有勇敢的人可以去找找他. 你可以和我聊聊我们的第一任务, 然后和沃罗宁将军去聊聊第二任务.</text>
+	</string>
+	
+	<string id="drx_sl_bar_dolg_general_petrenko_stalker_game_start_dialog_1_0">
+		<text>我已经准备好履行纪律团的义务了. 有谁需要我们的帮助?</text>
+	</string>
+	<string id="drx_sl_bar_dolg_general_petrenko_stalker_game_start_dialog_1_1">
+		<text>我会把所有的相关信息传到你的PDA上. 你有和我们一样的信仰, 士兵. 你现在肩负重任. 好好负责.</text>
+	</string>
+
+	<!-- PETRENKO STORYLINE START GAME 1 END GAME 1 TEXT: -->
+	<string id="drx_sl_bar_dolg_general_petrenko_stalker_start_game_1_endgame_1">
+		<text>你坚定的履行了义务, 值得钦佩. 然而, 虽然我们正在努力阻止特异区的恐怖浪潮, 但是我们离让它完全消失还相距甚远. 现在, 继续保护无辜的人不被特异区所伤害. 当有机会终结特异区的时候, 我相信你会毫不犹豫做出正确的选择.</text>
+	</string>
+
+
+	<!-- LUKASH STORYLINE START GAME 1 DIALOG -->
+	<string id="drx_sl_start_msg_freedom">
+		<text>到我们在军方仓库的总部来见我, 我会给你提供一段难忘的冒险.</text>
+	</string>
+	
+	<string id="lukash_questlines_about_dialog_0">
+		<text>怎么了卢卡许? 你想见我?</text>
+	</string>
+	<string id="lukash_questlines_about_dialog_1">
+		<text>对. 史特列洛克最近出现后, 一场风暴正在酝酿. 你敢相信么? 我需要有人试着去找出史特列洛克的下落. 如果你还没准备好的话, 我还有一份全特异区需要自由团帮助的人的人名单. 你加入么?</text>
+	</string>
+	
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_game_start_dialog_1_0">
+		<text>给我名单. 我们会让这些人看看自由团是怎么做事的.</text>
+	</string>
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_game_start_dialog_1_1">
+		<text>就是这个精神! 给, 我已经把名单传到了你的PDA上. 按照他们的要求去做, 你不仅可以帮助保证特异区的自由, 还能赚些钱.</text>
+	</string>
+
+	<!-- LUKASH STORYLINE START GAME 1 END GAME 1 TEXT: -->
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_start_game_1_endgame_1">
+		<text>嘿伙计, 感谢你帮助这附近的人们保证了他们在特异区的自由. 可惜不是每个人都可以和睦相处的, 但是你又能怎样呢, 对吧? 我们又不能指望每个人都能和睦相处. 不管怎么说, 你做了件好事. 自由团以你为荣.</text>
+	</string>
+
+
+	<!-- COLD STORYLINE START GAME 1 DIALOG -->
+	<string id="drx_sl_start_msg_csky">
+		<text>我能为愿意帮忙的人提供一个重要的任务. 来我办公室详谈细节.</text>
+	</string>
+	
+	<string id="cold_questlines_about_dialog_0">
+		<text>我收到了你的消息. 你能告诉我目前的情况么?</text>
+	</string>
+	<string id="cold_questlines_about_dialog_1">
+		<text>一个志愿者? 我们正在扩大我们在特异区的业务, 而且特异区每天都会给我们带来不同的惊喜. 然而, 最大的惊喜就是史特列洛克归来的消息. 鉴于他在列别捷夫失败的地方幸存了下来... 所以我觉得我们这里的一些老伙计需要一些答案. 另外, 如果你不感兴趣的话, 我也有一个需要帮助的联系人名单. 晴空总是能从维系友谊中受益, 特别是因为我们以前的一些无法弥补的过错.</text>
+	</string>
+	
+	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_game_start_dialog_1_0">
+		<text>我准备好帮助晴空维系友谊了. 你能把我们的联系人的资料给我么?</text>
+	</string>
+	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_game_start_dialog_1_1">
+		<text>你走的时候我会把他们的详情发到你的PDA上, 你所要做的就是按计划与联系人见面. 遗憾的是, 我不能告诉你更多了, 只能说这一切都很有意义. 我相信你知道该怎么做. 祝你好运.</text>
+	</string>
+
+	<!-- COLD STORYLINE START GAME 1 END GAME 1 TEXT: -->
+	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_start_game_1_endgame_1">
+		<text>好样的. 你做的非常好. 你给了我们足够的空间来确保通往切尔诺贝利的道路被清理干净. 反应堆的核心就是许愿石. 找到它, 然后你知道该怎么做.</text>
+	</string>
+
+
+	<!-- SAKHAROV STORYLINE START GAME 1 DIALOG -->
+	<string id="drx_sl_start_msg_ecolog">
+		<text>我有一个很重要的任务要交给你,%s. 请到杨塔的移动实验室来找我报到. 我会在那里告诉你详情.</text>
+	</string>
+	
+	<string id="sakharov_questlines_about_dialog_0">
+		<text>你想见我, 教授?</text>
+	</string>
+	<string id="sakharov_questlines_about_dialog_1">
+		<text>哦, 是的, 是的. 很好! 很高兴你能来. 一些出乎意料的事情发生了, 年轻人. 史特列洛克又一次出现在了特异区! 找到他是目前我和我们上级们的首要任务. 如果你想参与我们对史特列洛克的搜寻, 我可以告诉你更多细节. 如果不想... 嗯... 我还有一个重要的任务. 它涉及到周游四方, 遇见不同的人以及学习尽可能多的知识 - 还有很多是我们尚未发现的东西呢. 你可以考虑一下... 探索式的研究.</text>
+	</string>
+	
+	<string id="drx_sl_yan_stalker_sakharov_game_start_dialog_1_0">
+		<text>我对科学家的探索式研究感兴趣, 教授. 我该从哪里开始?</text>
+	</string>
+	<string id="drx_sl_yan_stalker_sakharov_game_start_dialog_1_1">
+		<text>这是一份在旅途中可以给予你帮助的人的名单. 去拜访他们, 他们可以为你提供工作, 食物或者住所. 探索且保持积极! 大胆冒险! 对所有人和事物保持好奇! 我希望你的经历会大大增加你对特异区的了解.</text>
+	</string>
+
+	<!-- SAKHAROV STORYLINE START GAME 1 END GAME 1 TEXT: -->
+	<string id="drx_sl_yan_stalker_sakharov_start_game_1_endgame_1">
+		<text>你为我们与外部世界的关系做了很多工作 - 没有你情况肯定会更糟糕. 我可以看看你的PDA吗...? 啊, 很好. 让我拷贝一下你PDA里的数据... 搞定! 这些是最有价值的. 你真是个好助手. 我等不及想知道你下一次会发现什么!</text>
+	</string>
+
+
+	<!-- DUSHMAN STORYLINE START GAME 1 DIALOG -->
+	<string id="drx_sl_start_msg_killer">
+		<text>一个重要的雇主提供了一份新合同. 你现在需要都知道的就是, 他们开的价钱很不错. 到总部来, 我们可以讨论进一步的细节.</text>
+	</string>
+	
+	<string id="dushman_questlines_about_dialog_0">
+		<text>我收到你的消息了, 你能告诉我目前的情况么?</text>
+	</string>
+	<string id="dushman_questlines_about_dialog_1">
+		<text>一个重要雇主提供了一份新合同. 我们的探员还报告说, 一个臭名昭著的潜行者, 史特列洛克又出现了, 我需要有人去跟踪他. 这两项任务都有非常好的报酬.</text>
+	</string>
+	
+	<string id="drx_sl_cit_killers_merc_trader_stalker_game_start_dialog_1_0">
+		<text>你能告诉我点关于我们雇主的事情么?</text>
+	</string>
+	<string id="drx_sl_cit_killers_merc_trader_stalker_game_start_dialog_1_1">
+		<text>我不能告诉你他们是谁, 他们的详情和他们在哪. 只能说他们有很多钱. 不说这个, 这位雇主要求我们提供一份"利害关系人"的名单. 你的PDA会收到相关信息. 保持冷静, 小心背后 - 特异区里可能有利可图, 但它肯定也是个地狱, 目前还没有什么能让我改变这种想法.</text>
+	</string>
+
+	<!-- SWEDE STORYLINE START GAME 1 END GAME 1 TEXT: -->
+	<string id="drx_sl_cit_killers_merc_trader_stalker_start_game_1_endgame_1">
+		<text>谢谢. 听着, 我有个事要告诉你. 这直接来自你的雇主. 看上去你给他留下了深刻的印象. 他有一个特殊的任务要给你, 而且只给你. 你必须找到许愿石. 一旦你找到了, 向它说这句话:"富贵的王子". 搞定这件事后, 你的王子会给你非常丰厚的报酬.</text>
+	</string>
+
+
+	<!-- KUZNETSOV STORYLINE START GAME 1 DIALOG -->
+	<string id="drx_sl_start_msg_army">
+		<text>士兵们, 我们收到了乌克兰安全局的新命令. 来此报到并接受新任务.</text>
+	</string>
+	
+	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_game_start_dialog_1_0">
+		<text>前来报到, 长官.</text>
+	</string>
+	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_game_start_dialog_1_1">
+		<text>欢迎来到地狱, 士兵. 听我说你就能活下来. 保持你的警觉, 不断探索. 这里的所有人所有东西都想杀了你. 在交火中放低姿势, 找好掩护. 不要相信任何人, 先开枪然后再提问. 你这次的任务之旅可能会把你带到特异区的任何地方, 大多数时候没人会来帮你. 你只能依靠你生存下去. 与你的PDA中的联系人会面, 他们会给你下达命令. 只要你完成任务, 活着, 那你就可以回家了. 解散.</text>
+	</string>
+
+	<!-- KUZNETSOV STORYLINE START GAME 1 END GAME 1 TEXT: -->
+	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_start_game_1_endgame_1">
+		<text>感谢你士兵. 你做的很好, 我现在还要跟你说点别的, 尽管你可能不想听. 你希望尽快离开这里, 对吗? 恐怕你们的指挥官还有别的想法. 封锁线已经完全关闭且被封锁, 没有任何东西也没有任何人可以出入特异区, 包括军队. 你被留在了这里等死, 你的尸体都会被留在这儿给虫子当食物. 你甚至没法马革裹尸还. 但是你如果足够勇敢的话, 那就并不是毫无希望了. 你只有一条路可以离开这里, 那就是切尔诺贝利. 埋在核电站最深处的许愿石. 如果你能活着找到它, 那你就可以向它来许愿让你离开这里. 它是你唯一的希望, 士兵.祝你好运.</text>
+	</string>
+
+
+	<!-- SULTAN STORYLINE START GAME 1 DIALOG -->
+	<string id="drx_sl_start_msg_bandit">
+		<text>让我提醒你下, 我们这里有个生意要做. 如果你想好好的活着, 那你会为我工作的. 到我这来我跟你讲细节.</text>
+	</string>
+	
+	<string id="drx_sl_zat_b7_bandit_boss_sultan_game_start_dialog_1_0">
+		<text>你想让我帮你做事么? 是什么活?</text>
+	</string>
+	<string id="drx_sl_zat_b7_bandit_boss_sultan_game_start_dialog_1_1">
+		<text>特异区里有些人需要帮忙. 我可以说, 正常来说有些事情是不能做的. 所以他们就来找我. 我帮他们处理这些事情, 作为回报, 他们将付我一大笔的钱. 我会给你这些人的名单. 去找他们, 按他们的要求去做, 然后收账. 你完成后我会给你百分之二十作为你的工资. 你在外面另外赚的钱都是你自己的. 很好的生意, 是吧? 我敢保证这会比你的基本工资还要多, 你可以去抢劫, 去摸藏匿物, 去坑蒙拐骗. 只是别跟我耍花招, 你明白么? 我认识这里的每一个人, 想搞我的人都成为了很好的实例. 现在滚出我的视线, 我还有别的重要的事情要处理.</text>
+	</string>
+
+	<!-- SULTAN STORYLINE START GAME 1 END GAME 1 TEXT: -->
+	<string id="drx_sl_zat_b7_bandit_boss_sultan_start_game_1_endgame_1">
+		<text>你要干神马? .. *嗝* .. 噢, 是里 .. *嗝* .. 我认识你. 嘿, 里完成了我让里做的拉件事情么? 啊, 我就知道你不会让我失望的, 你向来如此 .. *嗝* .. 来, 跟我一起喝亿杯.. 亿杯.. 我的酒瓶子去拉了? .. *嗝* .. 这是清 - 轻 - 请 - 庆祝! 因为窝要暴富了! .. *嗝* .. 我刚发现了一些别人不知道的事情, 但是嘘... 你不会说出去的, 对吧? 因为如果别人知道了他们可能会来把我干掉. 现在那焦脑器 .. *嗝* .. 被关闭了,通往许愿石的路被打通了. 我需要做的就是一路干掉一些黑石屌人然后找到它. 我要许愿给窝大把大把滴钱, 还有酒, 还有枪, 以及酒, 还有酒 .. *嗝* .. 呃. 你知道那意味着啥, 嘿嘿 .. *嗝* .. 所以听号了, 别告诉任何人我杠杠告诉你的事情, 好咩? 因为我肯定会第一个到达那里然后成为一锅大 - 富 - 逼!</text>
+	</string>
+
+
+	<!-- RABBIT STORYLINE START GAME 1 DIALOG -->
+	<string id="drx_sl_start_msg_monolith">
+		<text>兄弟们, 现在是你们实现黑石的神意的时候了. 到普里皮亚季文化宫的地下室接受任务.</text>
+	</string>
+	
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_game_start_dialog_1_0">
+		<text>我能为全能的黑石做点什么?</text>
+	</string>
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_game_start_dialog_1_1">
+		<text>有很多工作要做, 兄弟. 我们必须清除特异区的异教徒. 另外必须处理下变异生物. 你的兄弟们需要食物和武器. 你要去找你的黑石前辈报到, 然后我们会给你分配任务.你必须尽到你的职责. 赞美黑石, 愿黑石保佑你.</text>
+	</string>
+
+	<!-- RABBIT STORYLINE START GAME 1 END GAME 1 TEXT: -->
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_start_game_1_endgame_1">
+		<text>你做的很好, 你用许多的事情来证明了你的信仰. 你赢得了拜见全能黑石的特权. 没多少人能有幸看到上帝的眼睛. 你需要准备好贡品, 向我们的主起誓. 进入石棺的路很不容易, 你必须一个人去. 但是听着, 如果你的信仰足够忠诚, 那么黑石也会召唤你, 指引你前进的道路.</text>
+	</string>
+	
+	
+	<!-- STRIBOG STORYLINE START GAME 1 DIALOG -->
+	<string id="drx_sl_start_msg_greh">
+		<text>"黑暗之神"切尔诺伯格说话了. 是时候让世界听听我们的声音了. 回到我这里来兄弟们. 我告诉你们任务.</text>
+	</string>
+	
+	<string id="drx_sl_red_greh_trader_game_start_dialog_1_0">
+		<text>我能为我们的大业做些什么?</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_game_start_dialog_1_1">
+		<text>传播信息. 让所有人知道特异区的本质. 这是个奇迹. 它将帮助我们进步, 它能拯救人类脱离自我毁灭的本性. 你要向前辈们报到, 然后我们会给你分配任务. 你必须尽到你的职责, 我们要帮助世人赎罪.</text>
+	</string>
+
+	<!-- STRIBOG STORYLINE START GAME 1 END GAME 1 TEXT: -->
+	<string id="drx_sl_red_greh_trader_start_game_1_endgame_1">
+		<text>你做的很好, 你用许多实际行动来证明了你的信仰. 你赢得了拜见全能黑石的特权. 没多少人能有幸看到主的眼睛. 你需要准备好贡品, 向我们的主起誓. 进石棺的路很不容易, 你必须一个人去. 但是听着, 如果你的信仰足够忠诚, 那么黑石会召唤你, 指引你前进的道路.</text>
+	</string>
+
+
+	<!-- ACTOR:  Requests to change factions: -->
+	<string id="st_drx_sl_change_factions_request">
+		<text>我想改变我所属的派系.</text>
+	</string>
+
+	<!-- ACTOR:  Accepts change factions task from npc -->
+	<string id="st_drx_sl_accept_change_factions_task">
+		<text>我一拿到你要的东西就会回来.</text>
+	</string>
+
+	<!-- NPC:  Affirmation of task acceptance: -->
+	<string id="st_drx_sl_change_factions_task_accepted">
+		<text>很好. 如果你运气好的话, 我们应该很快就会再见面.</text>
+	</string>
+
+	<!-- ACTOR:  Leaves npc: -->
+	<string id="st_drx_sl_change_factions_actor_exit">
+		<text>下次见.</text>
+	</string>
+
+
+
+<!-- GENERAL -->
+	<string id="dm_universal_actor_start">
+		<text>我想问你些问题.</text>
+	</string>
+	<string id="dm_universal_actor_exit">
+		<text>没什么.</text>
+	</string>
+	<string id="dm_universal_actor_agree">
+		<text>好的.</text>
+	</string>
+	<string id="dm_universal_actor_exit_thanks">
+		<text>谢谢.</text>
+	</string>
+	<string id="dm_universal_npc_start_1">
+		<text>干哈?</text>
+	</string>
+	<string id="dm_universal_npc_start_2">
+		<text>当然.</text>
+	</string>
+	<string id="dm_universal_npc_start_3">
+		<text>继续.</text>
+	</string>
+	<string id="dm_universal_npc_start_4">
+		<text>嗯?</text>
+	</string>
+	<string id="dm_no_more_1">
+		<text>我已经告诉过你了.</text>
+	</string>
+	<string id="dm_no_more_2">
+		<text>我知道的不多.</text>
+	</string>
+	<string id="dm_no_more_3">
+		<text>那就是全部我所知道的了. 去问问别人.</text>
+	</string>
+	<string id="dm_no_more_4">
+		<text>该死的, 老哥. 你是在找我的茬么? 去问别人.</text>
+	</string>
+	<string id="dm_no_more_5">
+		<text>我没啥能告诉你的, 老哥.</text>
+	</string>
+	<string id="dm_no_more_6">
+		<text>你可以继续问同样的屁事, 但是我已经没什么可说的了.</text>
+	</string>
+	<string id="dm_no_more_7">
+		<text>别提了.</text>
+	</string>
+	<string id="dm_no_more_8">
+		<text>得闲饮茶.</text>
+	</string>
+	<string id="dm_no_more_9">
+		<text>改天再来, 我也许会告诉你更多.</text>
+	</string>
+	<string id="dm_no_more_10">
+		<text>额. 我不想再深入探讨了. 你还有别的问题么?</text>
+	</string>
+	<string id="dm_do_not_know_1">
+		<text>兄弟, 如果我知道所有的答案, 我就不会困在这个垃圾堆里了.</text>
+	</string>
+	<string id="dm_do_not_know_2">
+		<text>好问题. 如果你找到答案了, 跟我分享一下, 好吗?</text>
+	</string>
+	<string id="dm_do_not_know_3">
+		<text>你把我问住了, 伙计. 我不知道.</text>
+	</string>
+	<string id="dm_do_not_know_4">
+		<text>我怎么会知道, 伙计.</text>
+	</string>
+	<string id="dm_do_not_know_5">
+		<text>特异区里总会有些事情发生, 但是我没啥能和你分享的.</text>
+	</string>
+	<string id="dm_do_not_know_6">
+		<text>我没啥能跟你说的, 伙计. 没人跟我讲过这些东西.</text>
+	</string>
+	<string id="dm_do_not_know_7">
+		<text>你问错人了.</text>
+	</string>
+	<string id="dm_do_not_know_8">
+		<text>我也想知道.</text>
+	</string>
+	<string id="dm_do_not_know_9">
+		<text>抱歉, 我爱莫能助.</text>
+	</string>
+	<string id="dm_do_not_know_10">
+		<text>抱歉, 不知道.</text>
+	</string>
+
+	<!-- Greetings -->
+	<string id="dm_hello_general_1">
+		<text>近况如何?</text>
+	</string>
+	<string id="dm_hello_general_2">
+		<text>嘿兄弟. 你好么?</text>
+	</string>
+	<string id="dm_hello_general_3">
+		<text>你好, 最近怎么样?</text>
+	</string>
+	<string id="dm_hello_1">
+		<text>你好, 兄弟.</text>
+	</string>
+	<string id="dm_hello_2">
+		<text>你好, 潜行者.</text>
+	</string>
+	<string id="dm_hello_3">
+		<text>我很好. 你呢?</text>
+	</string>
+	<string id="dm_hello_4">
+		<text>你好.</text>
+	</string>
+	<string id="dm_hello_5">
+		<text>你好吗?</text>
+	</string>
+	<string id="dm_hello_6">
+		<text>你要干什么?</text>
+	</string>
+	<string id="dm_hello_7">
+		<text>目前为止还行, 你呢?</text>
+	</string>
+	<string id="dm_hello_8">
+		<text>这几天还不错, 你需要什么吗?</text>
+	</string>
+	<string id="dm_hello_9">
+		<text>很不错!</text>
+	</string>
+	<string id="dm_hello_10">
+		<text>嗯, 怎么了?</text>
+	</string>
+	<string id="dm_hello_11">
+		<text>滚开, 潜行者.</text>
+	</string>
+	<string id="dm_hello_12">
+		<text>你想干嘛?</text>
+	</string>
+	<string id="dm_hello_13">
+		<text>好吧, 只特么想问个问题, 但是我最好还是小心点.</text>
+	</string>
+	<string id="dm_hello_14">
+		<text>你需要什么, 潜行者?</text>
+	</string>
+
+	<!-- Help -->
+	<string id="dm_help_1">
+		<text>请救救我... 我要死了...</text>
+	</string>
+	<string id="dm_help_2">
+		<text>帮帮我, 兄弟... 噢, 老天, 痛死我了!</text>
+	</string>
+	<string id="dm_help_3">
+		<text>朋友, 医疗包... 给我个医疗包...</text>
+	</string>
+	<string id="dm_help_4">
+		<text>兄弟... 兄弟, 救救我!</text>
+	</string>
+	<string id="dm_help_5">
+		<text>朋友, 医疗包... 医疗包!</text>
+	</string>
+	<string id="dm_help_6">
+		<text>潜行者, 帮帮我... 给我个医疗包...</text>
+	</string>
+	<string id="dm_help_7">
+		<text>我受伤了... 救命!</text>
+	</string>
+	<string id="dm_help_8">
+		<text>操这烂地方!</text>
+	</string>
+	<string id="dm_help_9">
+		<text>医疗包!</text>
+	</string>
+	<string id="dm_help_10">
+		<text>救命, 老兄!</text>
+	</string>
+	<string id="dm_help_11">
+		<text>医疗包! 快!</text>
+	</string>
+	<string id="dm_help_12">
+		<text>救命! 我要死了!</text>
+	</string>
+	<string id="dm_help_13">
+		<text>我需要医疗包, 伙计们! 快!</text>
+	</string>
+	<string id="dm_help_14">
+		<text>我需要个医疗包! 救命!</text>
+	</string>
+	<string id="dm_help_15">
+		<text>医生!</text>
+	</string>
+	<string id="dm_help_16">
+		<text>嘿兄弟, 能给我个医疗包吗?</text>
+	</string>
+	<string id="dm_help_17">
+		<text>给我找个该死的医生! 额, 你有医疗包吗? 求你了! 我需要它!</text>
+	</string>
+
+	<!-- Anomalies -->
+	<string id="dm_anomalies_general_1">
+		<text>你对神器和变异点有什么了解?</text>
+	</string>
+	<string id="dm_anomalies_general_2">
+		<text>关于神器和变异点你有什么知道的?</text>
+	</string>
+	<string id="dm_anomalies_general_3">
+		<text>关于神器和变异点有什么可以跟我说说的?</text>
+	</string>
+	<string id="dm_anomalies_0">
+		<text>我不想告诉你任何事情.</text>
+	</string>
+	<string id="dm_anomalies_1">
+		<text>见过"锅炉"么? 即使在白天也能看到有一层薄雾. 不过你如果没丢个螺栓就踩进去的话你会被火烧成焦炭的.</text>
+	</string>
+	<string id="dm_anomalies_2">
+		<text>彗星不总是出现在夜空中. 前几天, 我看到了一个巨大的火球在给一堆高温变异点加热 - 好像还嫌不够热似的.</text>
+	</string>
+	<string id="dm_anomalies_3">
+		<text>你见过漩涡变异点吗, 伙计? 它们几乎看不出来, 但是一旦你靠的太近, 它们就会把你吸进去然后扯碎你并把你甩的满地都是.</text>
+	</string>
+	<string id="dm_anomalies_4">
+		<text>如果你听到嗡嗡声就马上停住别动, 可能有个跳板变异点在附近 - 一个重力区, 如果你碰到了它, 它立马就会在你脸上爆炸. 这骚东西到处都是, 所以你要随时准备好螺栓.</text>
+	</string>
+	<string id="dm_anomalies_5">
+		<text>看到灰尘和树叶到处飞扬? 那可能不是风. 旋转是一种非常令人讨厌的重力变异点, 如果你陷进去了, 它会让你一直旋转... 直到那力量把你撕成碎片.</text>
+	</string>
+	<string id="dm_anomalies_6">
+		<text>"水果酒"变异点可不像它听起来那么美味. 如果你没有适当的化学防护又靠的太近的话, 它会把你的脸融化掉.</text>
+	</string>
+	<string id="dm_anomalies_7">
+		<text>别相信这里的苔藓和藤蔓, 潜行者. 这里的人称他们为"烧绒"是有原因的 - 你碰到烧绒就会被它那微小的孢子活活蚀穿.</text>
+	</string>
+	<string id="dm_anomalies_8">
+		<text>留意酸雾变异点上面飘着的绿色气体. 它有很强的酸性, 如果你踩进去, 它会把你的腿给腐蚀了.</text>
+	</string>
+	<string id="dm_anomalies_9">
+		<text>注意观察化学彗星的情况. 如果你看到一个像是酸性物质的球飞来飞去, 绕过去或者躲过它, 否则你会变成一摊烂肉.</text>
+	</string>
+	<string id="dm_anomalies_10">
+		<text>科学家们说电镀变异点在放电后需要时间充能. 所以如果你掌握好时机, 可以丢一个螺栓触发它然后快速安全通过.</text>
+	</string>
+	<string id="dm_anomalies_11">
+		<text>几天前我看到过一个巨大的电球 - 木星地区的教授以一位老发明家的名字为它命名"特斯拉变异点". 它以一种固定的巡逻模式移动, 所以只要你抓准时机就可以躲过它.</text>
+	</string>
+	<string id="dm_anomalies_12">
+		<text>远离空间泡变异点, 伙计. 它们可能会把你传送到什么有趣的地方, 也可能会把你传送到某个地狱饿死你, 这是一个类似掷硬币的赌法. 除非你是疯了不然你肯定不会像冒这个险.</text>
+	</string>
+	<string id="dm_anomalies_13">
+		<text>晴空肯定是在2011年的时候用了一些奇怪的巫术. 据我所知, 空间泡变异点一直在帮助他们接近那个他们要追捕的人. 真是奇怪.</text>
+	</string>
+	<string id="dm_anomalies_14">
+		<text>有胆量去红森林么? 听说那地狱里有个叫"共生体"的变异点, 实际上是一个神奇的金矿. 你可以通过它周围参差不齐的岩石和扭曲的树木来辨认它.</text>
+	</string>
+	<string id="dm_anomalies_15">
+		<text>你知道么, 这块地方其实不是地震带. 但是你会看到地上有些巨大的裂缝, 那是"断层"变异点的杰作, 那里充满了"锅炉"或者奇怪的引力场. 令人失去意志力.</text>
+	</string>
+	<string id="dm_anomalies_16">
+		<text>我同情那些在网上吹嘘他们找到神器的傻逼. 他们很幸运, 因为一些卑鄙的投机者还没有抢劫他们的战利品.</text>
+	</string>
+	<string id="dm_anomalies_17">
+		<text>重力变异点 - 像旋转之类的 - 绝对是个地狱, 但是有时候你可以摆脱它, 只要你腿脚麻利的话. 就像在你平时做的一样, 加速跑然后跳出去就可以了 - 可能会奏效.</text>
+	</string>
+	<string id="dm_anomalies_18">
+		<text>听说过重力神器吗? 它看起来就像一坨金属的狗屎, 但是科学家会开个很好的价钱, 因为它的反重力作用 - 这也让大多数潜行者不愿卖掉它.</text>
+	</string>
+	<string id="dm_anomalies_19">
+		<text>总是, 总是, 总是要保证你身上有些可以处理辐射的东西. 我已经看腻了菜鸟们死于忘了吃药或者撑不到到医生那里了...</text>
+	</string>
+	<string id="dm_anomalies_20">
+		<text>很显然, 所有这些新的腰带设备都是基于科学对神器的研究. 不过, 神器的买卖永远不会停, 他们不在乎效果是好是坏 - 只在乎它的强大与否.</text>
+	</string>
+	<string id="dm_anomalies_21">
+		<text>我听说过一种稀有的神器可以治愈你的伤, 甚至可以治愈那些致命的伤口, 或者在你眼前把伤口结痂. 如果你有幸找到一个, 同时拥有AAM神器容器或者什么的东西, 你最好留着它.</text>
+	</string>
+	<string id="dm_anomalies_22">
+		<text>我一直有听说关于传说中的神器"指南针"的故事. 人们说, 如果你有一个那东西, 那么任何变异点都碰不到你, 更不用说伤害你了. 我想知道那是不是真的?</text>
+	</string>
+	<string id="dm_anomalies_23">
+		<text>去和坐在篝火旁的那些更有经验的潜行者们聊聊. 你很快就能学会你需要的一切.</text>
+	</string>
+	<string id="dm_anomalies_24">
+		<text>需要我的建议么? 那就是远离那些神器. 它们就像捕蝇草的香味. 引诱你去找他们, 然后你就会突然发现你被困在一个变异区中间无路可走.</text>
+	</string>
+	<string id="dm_anomalies_25">
+		<text>我能说的就是好好准备你的装备. 确保你有足够的LLC型神器容器, 确保你的防毒面具状态良好, 以及你带了正确的药物. 如果你现在死了, 就不能卖掉你的宝物了, 对吧?</text>
+	</string>
+	<string id="dm_anomalies_26">
+		<text>寻找神器最困难的就是刚开始. 一旦你有了足够的保护和药物, 剩下需要的就只有耐心, 一个像样的探测器, 以及大量的实践经验了.</text>
+	</string>
+	<string id="dm_anomalies_27">
+		<text>好好休息好好照顾自己, 伙计. 变异点并不那么容易发现, 所以你必须确保你能随时保持警惕. 你想想你怎么可能在一晚上的伏特加狂欢后躲开一个漩涡呢?</text>
+	</string>
+	<string id="dm_anomalies_28">
+		<text>你有听到那些低语吗? 那是特异区正在和你说话. 在离中心较近的位置或者风暴中, 有些声音就变的难以分辨. 如果没有psy防护你肯定会变成僵尸.</text>
+	</string>
+	<string id="dm_anomalies_29">
+		<text>记住, 这里可不是每个人都喜欢寻找神器. 有些人喜欢猎杀变异生物... 有些喜欢猎杀人. 小心别把你的战利品乱给别人看.</text>
+	</string>
+	<string id="dm_anomalies_30">
+		<text>你知道神器几乎是坚不可摧的么? 所以有时候挖神器最好的办法是对神器开枪, 让它跳出变异点而不是害你被吸进去.</text>
+	</string>
+	<string id="dm_anomalies_31">
+		<text>我怀念那些美好的旧时光. 那时候, 持有神器不会受到辐射. 我猜这是特异区对它的宝藏加强保护了吧, 嗯?</text>
+	</string>
+	<string id="dm_anomalies_32">
+		<text>兄弟, 神器行业的竞争已经足够激烈了. 如果你真想参加这场疯狂竞争, 去找找科学家. 他们可以让你全副武装.</text>
+	</string>
+	<string id="dm_anomalies_33">
+		<text>很多新来的菜鸟怀着"神器可以让你致富"的梦想. 虽然这在特异区的确可以, 但是把它当作某种彩票来对待是不对的. 只要坚持, 你就会成功.</text>
+	</string>
+	<string id="dm_anomalies_34">
+		<text>在军方仓库北边寻找神器非常危险, 但是成功的几率也很高. 只有少数人能成功.</text>
+	</string>
+	<string id="dm_anomalies_35">
+		<text>对你带回家的每件神器抱有感激之心. 特异区是一个极其复杂的陷阱迷宫, 你应该为可以活到现在而谢天谢地.</text>
+	</string>
+	<string id="dm_anomalies_36">
+		<text>河湾的西部有个沼泽, 那里充满了化学和重力变异. 准备一些解毒剂对付有毒气体, 而水面的波动会帮你指示重力变异. 神器轻松到手.</text>
+	</string>
+	<string id="dm_anomalies_37">
+		<text>河湾西南部的钢铁森林变异区是个好地方. 老前辈们说那里有成堆的神器! 坏消息是有传言说那里闹鬼, 所以特异区的潜行者都离那里远远的.</text>
+	</string>
+	<string id="dm_anomalies_38">
+		<text>老兵们说, 如果你有热能防护装备, 那么河湾北部烧毁的农场在风暴后是个最好的地方.</text>
+	</string>
+	<string id="dm_anomalies_39">
+		<text>我听说一些最大胆的潜行者敢于去河湾的烧毁的农场地下的洞穴里探险. 进去容易, 出来就难疯了. 但是如果你真的那么做了, 那我觉得你应该能找到不少宝藏.</text>
+	</string>
+	<string id="dm_anomalies_40">
+		<text>你有见过圆形广场变异区么? 北边的老兵们说, 在河湾的南部可以找到一个, 这真是一个值得一看的景象. 当然, 最好是远远的看, 除非你想被活活烧死.</text>
+	</string>
+	<string id="dm_anomalies_41">
+		<text>你之前有走进过psy变异点么? 不得不说这是我这辈子最"好"的经历. 几分钟后你的大脑就会非常混乱, 以至于你开始忘记如何呼吸, 更别说知道怎么出去了.</text>
+	</string>
+	<string id="dm_anomalies_42">
+		<text>通常重力变异点都是几乎看不见的, 但是我永远不会忘记它们上演的景象 - 我见过的最怪异的岩石和水的构造.</text>
+	</string>
+	<string id="dm_anomalies_43">
+		<text>经验丰富的潜行者们经常会讨论"锅炉"变异点; 在河湾东北边的一个独特的高温变异点, 会喷射滚烫的蒸汽把人活活烤熟. 不过, 那里的神器只是那些普通的高温神器.</text>
+	</string>
+	<string id="dm_anomalies_44">
+		<text>如果你能找到亚诺瓦附近那个巨特么大的采石场的话就去看看吧. 在那里即使戴着面罩, 毒气也会让你的眼睛感到刺痛, 但是那里的宝藏往往可以弥补这些痛苦.</text>
+	</string>
+	<string id="dm_anomalies_45">
+		<text>我听过很多关于木星地区科帕奇村的鬼故事, 但是如果你穿过了那些僵尸, 墓地附近的高温变异点通常会有一些很值钱的宝藏.</text>
+	</string>
+	<string id="dm_anomalies_46">
+		<text>老兵们说过在木星地区十字路口站以西的停车场的电镀变异区是寻找神器的好地方. 当然, 如果你想去北方冒险的话.</text>
+	</string>
+	<string id="dm_anomalies_47">
+		<text>你知道亚诺瓦附近的科学家碉堡吗? 几年前他们在研究丛林变异点. 他们发现每当一件神器被移走时那些树就会长大一些. 很可怕, 不是么?</text>
+	</string>
+	<string id="dm_anomalies_48">
+		<text>如果你要找酸性的神器. 最好的去处就是木星地区东南部的水泥浴室变异区. 你不会有太多的竞争对手: 大多数的潜行者觉得那地方太令人毛骨悚然了.</text>
+	</string>
+	<string id="dm_anomalies_49">
+		<text>离木星工厂不远的地方, 有一段路坍塌了. 他们称那个地方为"沥青", 因为那里的路面融化了. 那是一个热能和重力混合体. 奇妙的魔法, 不是么?</text>
+	</string>
+	<string id="dm_anomalies_50">
+		<text>酸雾变异区是最糟糕的. 他们会导致皮肤的刺痛, 令人不爽的沼泽. 有时候那水已经不是水了, 是酸性物质. 太可怕了.</text>
+	</string>
+	<string id="dm_anomalies_51">
+		<text>寻找神器的最佳地点是探索无人到访的变异区. 神器可能更难到手, 当然, 但是至少你可以安心的花上点时间把它们搞到手.</text>
+	</string>
+	<string id="dm_anomalies_52">
+		<text>有听说过"松橡"吗? 我听说可以在特异区的北部找到, 它的名字是由一个鉴定了它的树皮基因的科学家命名的. 既有松树基因, 也有橡树基因, 那东西还带毒, 他妈的.</text>
+	</string>
+	<string id="dm_anomalies_53">
+		<text>如果你想要搞些好的神器, 一定要先到地点 - 搞点能量饮料, 风暴一结束就直冲最近的变异点.</text>
+	</string>
+	<string id="dm_anomalies_54">
+		<text>还没有人在普里皮亚季找神器. 我认识的每个人都只在那儿待很短一段时间, 他们都很谨慎.</text>
+	</string>
+	<string id="dm_anomalies_55">
+		<text>我不知道有没有人知道些什么好地方. 目前为止对普里皮亚季的探索还很少.</text>
+	</string>
+	<string id="dm_anomalies_56">
+		<text>我会去地下通道看看. 他们说在这城市的地下有很多.</text>
+	</string>
+	<string id="dm_anomalies_57">
+		<text>我对这些所知甚少... 主要是盖瑞的故事. 他说有个地方, 有一根巨大的葡萄藤生长在一个酸性变异点里, 有十层楼这么高. 你觉得那是真的吗?</text>
+	</string>
+
+	<!-- Information -->
+	<string id="dm_information_general_1">
+		<text>特异区有什么新鲜事么?</text>
+	</string>
+	<string id="dm_information_general_2">
+		<text>你知道这附近的情况么?</text>
+	</string>
+	<string id="dm_information_general_3">
+		<text>我在寻找情报.</text>
+	</string>
+	<string id="dm_information_0">
+		<text>我没任何情报.</text>
+	</string>
+	<string id="dm_information_1">
+		<text>据我所知, 军队还驻扎在农研所. 他们还在那里干什么? 他们有什么计划? 它让我的鼻子痒痒.</text>
+	</string>
+	<string id="dm_information_2">
+		<text>很显然军队还驻扎在农研所那里. 他们可能还在其地下的实验室里寻找些有趣的东西. 我有点想去参一脚, 但是我现在很清醒.</text>
+	</string>
+	<string id="dm_information_3">
+		<text>罗斯托克是个中立潜行者落脚的好地方. 有酒吧, 有娱乐, 整个地方都被纪律团看守. 他们没什么值得喜欢的, 但是他们知道如何让强盗离远点.</text>
+	</string>
+	<string id="dm_information_4">
+		<text>封锁线不只是一个新手获取经验的地方, 也是老兵们的一个不错的度假胜地. 与其他地方相比, 那地方令人放松但是又不会太无聊.</text>
+	</string>
+	<string id="dm_information_5">
+		<text>如果你想远离一切的话黑暗之径和牧场都是不错的地方. 某天, 我会考虑我自己去.</text>
+	</string>
+	<string id="dm_information_6">
+		<text>你可能不知道, 但是所有暴徒都知道, 黑暗山谷曾经是测量师的基地 - 科学家之类的. 听说有些实验室不仅仅是为了测量地球而建的...</text>
+	</string>
+	<string id="dm_information_7">
+		<text>死城的地下有一套完整的下水道系统. 更奇妙的是, 一个成年男子可以在里面走动. 我曾在里面偷过几次佣兵的藏匿物还没被发现.</text>
+	</string>
+	<string id="dm_information_8">
+		<text>我不相信那些在废弃区开跳蚤市场的家伙. 他们说他们只是交易者, 那他们为什么会占据那个有利位置呢? 他们在监视什么? 监视谁? 为什么? 我不喜欢他们.</text>
+	</string>
+	<string id="dm_information_9">
+		<text>如果你需要情报, 最好的就是你的PDA指南. 里面有各种有用的东西. 除此这外, 可以去罗斯托克找找"小贼"</text>
+	</string>
+	<string id="dm_information_10">
+		<text>你可能听说过利曼斯克北部有个废弃医院. 那里到处都是疯子, 任何有用的医疗设备早就坏掉或者消失了.</text>
+	</string>
+	<string id="dm_information_11">
+		<text>我和许多潜行者交谈的时候, 他们都告诉我木星地区是一个找神器的好地方, 但是从那里到文明世界的每一条路都充满了致命的陷阱. 全是怪物的树林, 心灵控制设备... 太多了...</text>
+	</string>
+	<string id="dm_information_12">
+		<text>如果你去到了木星地区, 小心那些地下通道.据我所知, 黑石已经封锁了入口, 而里面则充满了成群结队潜伏在那里的变种怪.</text>
+	</string>
+	<string id="dm_information_13">
+		<text>利曼斯克, "秘密"之城... 有些日子很安静, 有些就很可怕. 黑石从北方推进, 佣兵试图从南方推进, 其间则有无数的变异点和变异生物.</text>
+	</string>
+	<string id="dm_information_14">
+		<text>你听说过晴空的...嗯..."秘密"基地吗? 在沼泽区的西南部. 他们是很友好的一群人, 只是有点冷漠. 仅次于封锁线, 是菜鸟的好去处</text>
+	</string>
+	<string id="dm_information_15">
+		<text>自由团一直在说他们在保护特异区不受黑石的侵袭, 但是那就是胡扯. 如果你连强盗都不反抗, 你怎么可能能抵御住那些狂热分子呢?</text>
+	</string>
+	<string id="dm_information_16">
+		<text>黑石重新占领了普里皮亚季, 他们回来后就看的很紧. 唯一的安慰就是变种人现在有东西吃了, 除了我在普里皮亚季郊区的朋友.</text>
+	</string>
+	<string id="dm_information_17">
+		<text>我听说有一帮佣兵在普里皮亚季郊区和组织脱离了. 他们一定是绝望了: 他们在以非常便宜的价格出售很好的装备, 甚至向潜行者也出售.</text>
+	</string>
+	<string id="dm_information_18">
+		<text>远离雷达站, 我只能说这么多. 即使焦脑器被关闭了, 那地方就是现实里的噩梦. 知道了吗? 知道了吗?! 唉... 抱歉. 总之, 远离那里.</text>
+	</string>
+	<string id="dm_information_19">
+		<text>我听说过一个叫守林人的技师很有本事 - 他赤手空拳做着别人需要整套工具才能做的事情. 唯一的问题是他收钱... 而且他住在红森林里.</text>
+	</string>
+	<string id="dm_information_20">
+		<text>大荒野 - 或者我喜欢称之为邪恶的罗斯托克附属区 - 是一个可怕的地方. 那里只有一些好斗分子和一群变异生物. 无论你要去哪里, 有比通过邪恶的罗斯托克更好的方式到达那里.</text>
+	</string>
+	<string id="dm_information_21">
+		<text>你有听说过许愿石吗? 我的老导师说它埋在核电站地下, 只要你去许愿, 它就会给你任何东西 - 即便是你最疯狂的愿望. 我等不急要去那里了!</text>
+	</string>
+	<string id="dm_information_22">
+		<text>杨塔那地方被死亡浸透了. 无脑的僵尸不断从工厂里出来, 有可能你把其中一个干掉之后会发现你的一个老朋友在向你开枪. 真特么操蛋.</text>
+	</string>
+	<string id="dm_information_23">
+		<text>如果你去了河湾, 去斯卡多夫斯克号看看. 那里什么都有 - 有医生, 技师, 情报商, 酒保, 枪手... 甚至明眼也在那里开了一家店.</text>
+	</string>
+	<string id="dm_information_24">
+		<text>在排名前十的潜行者中有一个不久前被干掉了. 大家都争先恐后的寻找他的传奇藏匿物. 我不知道该从哪开始, 但是我希望我很快能走运.</text>
+	</string>
+	<string id="dm_information_25">
+		<text>可能很快我们就都会接到去某个废弃实验室的深处寻回情报的任务. 我大多数接了那个任务的朋友都没有再回来. 我们得确保做好准备.</text>
+	</string>
+	<string id="dm_information_26">
+		<text>你是认真的, 伙计? 你只要去看看你PDA的指南就行了. 我不知道那是谁更新的, 但是我知道它帮了我很多. 如果你被什么问题卡住了就去看看.</text>
+	</string>
+	<string id="dm_information_27">
+		<text>你知道他们为什么会说你没法活捉一个黑石么? 好吧, 这是真的 - 我一个朋友在去了结一个受伤的狂热分子的时候死了... 该死的疯子在他面前自爆了.</text>
+	</string>
+	<string id="dm_information_28">
+		<text>黑暗之径曾是强盗们在封锁线和黑暗山谷之间最喜欢走的路. 然而, 自从牧场被发现之后, 人们很快就忘记了它... 这使得那儿成了很好的藏身之处.</text>
+	</string>
+	<string id="dm_information_29">
+		<text>在苏丹的保护下, 没有佣兵敢找你的茬 - 他和他们的承包商有些关系. 当然, 如果你滥用苏丹的保护, 他会把你喂狗的.</text>
+	</string>
+	<string id="dm_information_30">
+		<text>这里大多数的潜行者不过就是拿着些流行武器的小男孩. 他们很弱, 反抗的本事烂的批爆, 也不尊重那些比他们强的人... 那些傻屌是完美的练习目标.</text>
+	</string>
+	<string id="dm_information_31">
+		<text>红色, 橙色, 黄色, 绿色, 蓝色, 白色. 听起来像孩子们画出来的彩虹? 这也是科学家们的防护服的颜色. 幸好他们的卫兵也是穿着那样的衣服所以很容易认出来.</text>
+	</string>
+	<string id="dm_information_32">
+		<text>比在封锁线和斯卡多夫斯克号的那些白痴脑子更少的就是黑石的成员, 他们似乎都是一根筋的弱智. 坏消息是他们太蠢了, 蠢到根本不怕死.</text>
+	</string>
+	<string id="dm_information_33">
+		<text>所有的书呆子都弱的和鸡一样. 他们自认为很聪明, 但是他们甚至搞不清楚如何在特异区生存或者特异区给了他们什么, 他们甚至不知道怎么用枪!</text>
+	</string>
+	<string id="dm_information_34">
+		<text>该死的纪律团, 伙计. 他们可能装备精良, 穿着华丽的制服, 但是他们和我在外面认识的一些帮派和黑手党没啥不同的.他们太自以为是了.</text>
+	</string>
+	<string id="dm_information_35">
+		<text>别相信自由团的胡说八道, 伙计. 我们把他们赶出了黑暗山谷, 他们却啥都不敢做. 下次在听到他们声称自己是特异区自由的保卫者和战士的时候再想想吧.</text>
+	</string>
+	<string id="dm_information_36">
+		<text>据说特异区的军队正在走下坡路. 他们就像一群被无能者控制的羊. 在他们经历了这么多失败后, 你甚至都有点可怜他们, 希望他们很快就能分清是非.</text>
+	</string>
+	<string id="dm_information_37">
+		<text>萨哈罗夫的研究小组最近证明了一个闪光神器有比尼米兹级航母的两个反应堆加起来还要多的能量. 不过他们对此保持沉默 - 想象不到这是为什么.</text>
+	</string>
+	<string id="dm_information_38">
+		<text>不久前纪律团不得不撤出杨塔. 看到他们离开有点难过 - 他们给我们科学家带来了极大的安慰和帮助, 也让我们的警卫可以松一口气. 希望他们很快可以恢复到原来的力量</text>
+	</string>
+	<string id="dm_information_39">
+		<text>我不喜欢说人坏话, 但是我发誓, 强盗是特异区最低级的人. 没有道德, 没有人品, 只有卑鄙的态度, 招摇傲慢贪得无厌. 希望他们能永远离开这里.</text>
+	</string>
+	<string id="dm_information_40">
+		<text>即使是特异区最不祥的地方也会有一条安全的通道. 在一些营地闲逛的向导们都知道这点, 不过他们的专业服务是需要付钱的.</text>
+	</string>
+	<string id="dm_information_41">
+		<text>尽量找个有利位置扎营. 可以研究变异点发出的嗡嗡声和放电时形成的图案和它们的构造, 或者太阳落山时的颜色变化. 特异区可以是致命的, 但也可以是美丽的.</text>
+	</string>
+	<string id="dm_information_42">
+		<text>我真的有点等累了, 什么时候沃罗宁派我去执行一个真正的任务, 而不是这些新人垃圾任务. 如果再这样下去, 我都有点想自己动手了.</text>
+	</string>
+	<string id="dm_information_43">
+		<text>不像自由团, 纪律团会采取行动对付特异区真正的威胁, 保护世界免受特异区可怕的变异点和变种怪的威胁, 保护普通潜行者免受强盗的暴行.</text>
+	</string>
+	<string id="dm_information_44">
+		<text>我最近都没见过军方潜行者. 乌克兰安全局一件会派这些训练有素装备精良的特工到特异区执行任务, 但是我现在只能听到些传说. 这太安静了, 有点安静过头了.</text>
+	</string>
+	<string id="dm_information_45">
+		<text>不像纪律团, 自由团会采取行动对付特异区真正的威胁, 在死亡屏障防守黑石的进攻, 保护普通的潜行者不受军队腐败残暴的伤害.</text>
+	</string>
+	<string id="dm_information_46">
+		<text>自由团的领袖通过获取大家的尊重赢得了现在的地位. 如果守林人加入我们, 他可能有足够的影响力左右整个派系. 可惜他已经厌倦了特异区的政治活动.</text>
+	</string>
+	<string id="dm_information_47">
+		<text>抱歉, 伙计. 我没任何情报可以给你. 我一直在想2012年的死亡卡车, 以及它们从核电站带到封锁线和黑暗之径的所有老朋友, 他们都死了...</text>
+	</string>
+	<string id="dm_information_48">
+		<text>在库兹涅佐夫上校上任之前, 乌克兰军方似乎不介意我们在特异区住下, 但是他们现在似乎没法区分我们和普通罪犯的差别.</text>
+	</string>
+	<string id="dm_information_49">
+		<text>下次风暴结束后, 我们会派出更多的人来支持我们的团队. 有传言说这次有法国, 芬兰还有英国的特工... 很有趣.</text>
+	</string>
+	<string id="dm_information_50">
+		<text>事情可能很糟糕, 但这并不意味研究已经停止. 多亏了诺维科夫和与科学家的非正式合作, 我们取得了惊人的进步. 列别捷夫会感到欣慰的...</text>
+	</string>
+	<string id="dm_information_51">
+		<text>我们仍会因为焦脑器失去朋友. 出于某种原因, 就算他们吃药, 在头上贴箔纸, 然后进入雷达站... 通常他们回来后几乎说不出话, 如果他们能回来的话.</text>
+	</string>
+	<string id="dm_information_52">
+		<text>萨哈罗夫在精神研究方面取得了很大的进步. 据我所知, 他受委托开始制作高质量的反psy感应装置. 如果他会做广告 - 或者做的更好 - 他会赚一大笔钱的.</text>
+	</string>
+	<string id="dm_information_53">
+		<text>你觉得那些地下实验室里都有什么? 据我所知, 大多数下了船的人再也不会回来了, 但那些回来的人总是带着大量的战利品, 神器或信息.</text>
+	</string>
+	<string id="dm_information_54">
+		<text>伙计, 我怀念在黑暗山谷的老基地. 当然那地方令人毛骨悚然, 但是总比在雷达站南边扎营要好. 但愿卢卡许能狠狠对付那些强盗, 这样我们就可以让伙计们再搬回南方.</text>
+	</string>
+	<string id="dm_information_55">
+		<text>好吧, 如果你需要省钱, 你可以坚持吃你杀死的变种生物的肉. 虽然这不是最健康的生活方式, 但当你在存钱买一套闪亮的新服装或探测器时, 它还是可以的</text>
+	</string>
+	<string id="dm_information_56">
+		<text>你认识林布吗? 听说他在2011年的时候陷入了一个空间变异点, 他在那里待了好几天, 被困在一片草地上, 有一座永远在地平线上的城市, 没有任何通讯和补给. 不过他很幸运的活了下来.</text>
+	</string>
+	<string id="dm_information_57">
+		<text>巡逻任务总是很烦人, 但是你必须这么做, 最好的地方就是封锁线. 你几乎不需要在路上走来走去. 当然比在沼泽被怪物吃掉要好的多.</text>
+	</string>
+	<string id="dm_information_58">
+		<text>我希望我很快能在杨塔找到一份工作, 甚至可以成为科学家卫队永久成员. 他们有更高的地位, 更友善的老板, 更少的仇恨... 嗯, 我真的很想在杨塔找个工作.</text>
+	</string>
+	<string id="dm_information_59">
+		<text>一个很酷的把戏, 我碰到一些潜行者总是会随身携带一些螺栓和弹壳. 你可以通过把螺栓丢向前面来检查有没有变异点. 听起来很荒谬, 但是在特异区, 这可是救命稻草.</text>
+	</string>
+	<string id="dm_information_60">
+		<text>有了这样的后勤保障, 一定要把从死潜行者身上捡到的药都藏好. 也许不像我们的药箱那么无菌, 但总比你的伙伴倒下时没有好.</text>
+	</string>
+	<string id="dm_information_61">
+		<text>我不知道军队和反叛者哪种更糟糕. 他们到底以为自己在沼泽区里干什么呢? 也许有一天会有一个像疤脸那样的佣兵回来然后再一次帮我们把他们赶出去..</text>
+	</string>
+	<string id="dm_information_62">
+		<text>在特异区有对工具包的真实需求 - 大多数正经的技术人员喜欢每种类型工具包至少有一个. 可惜的是, 大多数的工具包在它们的前任主人死后就会消失在特异区里</text>
+	</string>
+	<string id="dm_information_63">
+		<text>你在找情报么? 我在这里已经三年了, 我也不知道我在找什么. 我所有的朋友都因为一些愚蠢的冒险已经被埋在了坟坑里. 我想我也可以加入他们了.</text>
+	</string>
+	<string id="dm_information_64">
+		<text>我听说军方仓库那里的吸血鬼村其实空无一物, 当然对于吸血鬼来说你发现它们时就已经太晚了, 所以我也相信我听说的.</text>
+	</string>
+	<string id="dm_information_65">
+		<text>每个人来这里都是有原因的, 朋友. 以我为例: 我来这里是因为我的祖父在1986年的事故中未被疏散, 我希望某天我能找到他, 或者至少埋葬他的遗体.</text>
+	</string>
+	<string id="dm_information_66">
+		<text>很显然, 特异区有些地方扭曲的可怕, 无法预见, 甚至连怪物都会绕开它们走. 一想到这, 我就毛骨悚然 - 有什么比怪物更可怕的呢?</text>
+	</string>
+	<string id="dm_information_67">
+		<text>强盗们又发明了一种"运动". 他们称之为"菜鸟马拉松" - 他们会把受害者扒到只剩内裤, 然后让他跑回基地... 唯一的结果就是受到过多辐射惨死...</text>
+	</string>
+	<string id="dm_information_68">
+		<text>这里最好的杀手绝不会不伪装就动手. 不知道他们怎么负担的起这么多的人命, 但是可以肯定的是受害者几乎都永远见不到他们的到来.</text>
+	</string>
+	<string id="dm_information_69">
+		<text>过去雇佣兵队是由许多独立的小队互相合作的, 但是如今似乎我们的主要雇主已经联合到了一起. 不知道他们的最终目的是什么, 但是我们得到了一大笔的钱, 所以我想我并不在乎.</text>
+	</string>
+	<string id="dm_information_70">
+		<text>这里大多数的人都有某种军事背景... 我见过一些曾是外籍军团, 阿尔法小组, 反叛分子, 特种兵的人... 不同行业的佣兵, 但是他们都是真正的战士.</text>
+	</string>
+	<string id="dm_information_71">
+		<text>我不知道是我们打击的潜行者更糟还是与我们共事的强盗更糟. 有时候我希望有人能付钱让我把这些混蛋的尸骨打包丢到最近的变异点里去.</text>
+	</string>
+	<string id="dm_information_72">
+		<text>死城的位置可能已经不再是秘密了, 但是除了那些该死的黑石, 我们依然没有多少的拜访者. 考虑到我们周围的地方都是一团糟, 所以我也一点都不惊讶.</text>
+	</string>
+	<string id="dm_information_73">
+		<text>我已经厌倦了一些菜鸟的自大. 大声吹嘘他们的战利品, 在战场上玩PDA, 以为只需要一把PM就可以干死一个步枪兵... 他们太蠢了, 伙计.</text>
+	</string>
+	<string id="dm_information_74">
+		<text>特异区最好的地方就是没有真正的政府.当然, 有军队和科学家, 但是他们几乎不管这个地方.没有规则, 没有税收. 只有自由和冒险. 我太爱它了.</text>
+	</string>
+	<string id="dm_information_75">
+		<text>如果你有铁胆, 可以去试试搞一下那些佣兵甚至是黑石, 扒他们的尸 - 他们有着特异区里最好的装备和武器. 不过, 我更喜欢搞那些菜鸟.</text>
+	</string>
+	<string id="dm_information_76">
+		<text>别和这里的军队瞎搞. 他们唯一有价值的战利品就是武器和他们的护甲, 但是你永远没办法在不破坏它们的情况下把它们搞到手. 所以选择更好的目标吧.</text>
+	</string>
+	<string id="dm_information_77">
+		<text>一些小屁孩们想突袭科学家们的碉堡. 弱智, 即使他们突破了科学家的堡垒, 也不能在熊还活着的时候剥皮.</text>
+	</string>
+	<string id="dm_information_78"> <!-- army -->
+		<text>士气空前低落, 原因也不足为奇. 我们的目标是什么? 这是入侵吗? 还是维和任务? 把人挡在外面? 把怪物留在里面? 我特么怎么知道. 这地方太糟糕了.</text>
+	</string>
+	<string id="dm_information_79">
+		<text>特异区的违禁品出口创下了历史新高, 管制部门几乎没有实行任何管制手段. 我发誓, 至少有一半的参谋部职员从中获利, 另一半要么不知道, 要么不在乎.</text>
+	</string>
+	<string id="dm_information_80">
+		<text>我们的雷达一定发生了故障 - 上面不断显示有飞机企图飞到特异区的中心... 然后再尝试飞出去. 很明显这是不可能的 - 没有飞机可以安全接近核电站.</text>
+	</string>
+	<string id="dm_information_81">
+		<text>这里的军队有特殊的人员分类办法. 如果你搞砸了太多事情, 或者问了太多问题, 我听说你会被派到死亡屏障的北边, 没有空中支援, 没有医疗护送. 我不想说我羡慕那些混蛋.</text>
+	</string>
+	<string id="dm_information_82">
+		<text>你听说了么?乌克兰安全局负责了基本上这里所有的活动. 有些老兵对此不太满意, 但我真的不确定这笔交易里有什么. 我们一起合作不是很好么?</text>
+	</string>
+	<string id="dm_information_83"> <!-- monolith -->
+		<text>不要忘记您作为黑石的看守人的职责. 服侍祂我们才能得到祂的祝福. 祂预示了未来我们作为有远见者在新世界秩序的胜利. 我们要守护祂不被侵犯.</text>
+	</string>
+	<string id="dm_information_84">
+		<text>兄弟, 如果你被异教徒俘虏了, 在你说出什么之前一定要献出你的生命. 对黑石的保密和保护是首要的. 其他都是次要的.</text>
+	</string>
+	<string id="dm_information_85">
+		<text>和我一起祈祷, 兄弟! 
+		\n\n不走不义之路, 不挡罪人之路的人, 将受黑石之祝福. 惟独全能黑石的荣耀, 令他所神牵梦绕. 这无上荣耀令他朝思暮想. 受荣耀指引的他像悬崖, 立于湍溪两岸, 就像信仰的基石. 而异教徒并非如此, 他们就像随风飞舞的谷壳, 随波逐流的鱼虾. 因此异教徒无缘与你们并肩而立. 没有一个罪人能侥幸被你的光辉所沐浴. 因为有我们这些忠诚的信徒守护着你, 我坚信, 我们前路光明, 惟有异教徒的道路, 必然灭亡!</text>
+	</string>
+	<string id="dm_information_86">
+		<text>你记得你过去的生活吗?我记得我的家, 妻子, 孩子. 他们现在看起来都很遥远, 仿佛在另一个次元. 我现在所能做的就是为黑石服务.黑石会保佑他们的.</text>
+	</string>
+	<string id="dm_information_87">
+		<text>你认为是高斯枪, 还是外骨骼在保护我们不受异教徒攻击吗? 不! 只有我们的心, 我们纯洁的信仰, 才能带领我们度过贪婪, 毁灭, 堕落的混乱!</text>
+	</string>
+	<string id="dm_information_88">
+		<text>特异区对人类构成了一种独特的威胁, 这世界从未见过这种威胁. 我们只能希望更多的潜行者能认识到真相, 并在为时已晚之前加入我们. 这是唯一我们能希望的...</text>
+	</string>
+	<string id="dm_information_89">
+		<text>我受够了那些自由团让潜行者染上毒品. 他们把有干劲, 有献身精神的人变成了懒鬼, 那些认为吸血鬼是个笑话的流浪汉!</text>
+	</string>
+	<string id="dm_information_90">
+		<text>我们必须提醒潜行者们: 即使是科学家们也不完全了解神器, 在没有记录或者监管的情况下传播它们就好比是在地球上埋下了地雷.</text>
+	</string>
+	<string id="dm_information_91">
+		<text>你应该加入纪律团. 我们为之而战的信念很简单:因为我在特异区失去了一个人, 当然这并不意味着所有别人都会这样. 当你的朋友在你眼前变成僵尸的时候, 你会明白我说的意思的.</text>
+	</string>
+	<string id="dm_information_92">
+		<text>现在, 一个强盗或者佣兵很容易就能伪装成一个潜行者, 然后悄悄溜进罗斯托克. 我们之前的进入要求是很有必要的, 我还是不敢相信他们把它取消了.</text>
+	</string>
+	<string id="dm_information_93">
+		<text>操他妈的纪律团, 伙计. 他们不了解特异区, 也不知道它对人类的未来意味着什么. 他们身处一个充满奇迹的世界, 但是他们想做的只有当尿壶警察然后开启他们的权力之旅.</text>
+	</string>
+	<string id="dm_information_94">
+		<text>如果你住在死亡屏障附近或者靠近普里皮亚季, 风暴是不容忽视的. 那些黑石怪胎是免疫的, 而你不是, 所以他们会经常利用psy波来破坏你美好的一天, 或者很多天.</text>
+	</string>
+	<string id="dm_information_95">
+		<text>佣兵是有些阴暗, 但是别的方面还可以. 目前还没看到他们对我们的伙计们有任何打算, 而且他们也在忙着躲避纪律团. 所以... 谁知道呢?也许他们并不像一些潜行者们说的那么糟糕.</text>
+	</string>
+	<string id="dm_information_96">
+		<text>尽管他们一直在说他们在保护世界"不受危险的变异生物和强盗的侵害", 但是纪律团甚至肃清不了大荒野, 甚至保护不了那些书呆子. 我想这说明了一切, 真的.</text>
+	</string>
+	<string id="dm_information_97">
+		<text>我不知道怎么做到的, 但是纪律团从我们眼皮底下偷走了一堆榴弹发射器. 希望他们会把那些榴弹发射器用在变异生物身上而不是用到我们身上.</text>
+	</string>
+	<string id="dm_information_98">
+		<text>虽然我们总是为了神器付出高昂的代价, 但是变异生物样本也同样重要! 各种各样的组织可以让我们对遗传学领域有更深入的了解, 甚至研发出各种疾病的新疗法.</text>
+	</string>
+	<string id="dm_information_99">
+		<text>我们实验室的教授花这么多钱收神器是有原因的, 我们害怕它们的潜力. 每一件非法离开特异区的神器都是一个定时炸弹...</text>
+	</string>
+	<string id="dm_information_100">
+		<text>我们的科学家不仅开始研究变异生物和神器, 还开始研究潜行者的行为.看他们是如何适应的;很显然, 特异区不仅改变了自然, 也改变了它的居民.</text>
+	</string>
+	<string id="dm_information_101">
+		<text>自由团, 纪律团... 这都无关紧要. 双方似乎都没有掌握全部的真相 - 要理解如何对待特异区, 首先需要一种科学的办法. 只有这样我们才能充分利用它.</text>
+	</string>
+	<string id="dm_information_102">
+		<text>焦脑器和生物场发射器产生的精神频率似乎与其他psy生物不同. 萨哈罗夫完善了对焦脑器免疫的装置, 但是对脑波怪却无效.</text>
+	</string>
+	<string id="dm_information_103">
+		<text>纪律团, 自由团, 甚至科学家们似乎都不明白特异区需要被治愈. 不管是你反抗它, 侵略性的研究它, 还是利用它完成你幼稚的计划, 它都会痛苦的扭曲着, 等待着救赎.</text>
+	</string>
+	<string id="dm_information_104">
+		<text>嘿潜行者, 如果你遇到任何有趣的科学资料, 一定要去拜访我们在大沼泽的家, 让卡南查教授看看. 通过一个又一个的样本, 这将有助于特异区变得更好.</text>
+	</string>
+	<string id="dm_information_105">
+		<text>自从库兹涅佐夫掌权以来, 军方就一直想整我们.他们似乎还没有尽全力, 但是我们总是担心他们的无知会毁掉什么东西.</text>
+	</string>
+	<string id="dm_information_106">
+		<text>最近特异区里的车辆中的辐射都在扩散... 并影响到了所有的水源.这可不是啥好事 - 净化饮用水变的更难了.</text>
+	</string>
+	<string id="dm_information_107">
+		<text>卡南查教授说黑石是特异区很多神秘事物的关键.当然, 他们对普里皮亚季和核电站的控制权令人印象深刻, 更不用说他们的技术了... 我想知道他们怎么做到?</text>
+	</string>
+	<string id="dm_information_108"> <!-- Living Legend -->
+		<text>人们一直在讨论那个传奇潜行者, 他几年前去了切尔诺贝利核电站.显然, 他前几天又出现了. 为什么他还在特异区里?我特么在不在乎. 你想要线索的话最好去问问对的人.</text>
+	</string>
+	<string id="dm_information_109"> <!-- Mortal Sin -->
+		<text>我和我的朋友昨晚在篝火旁吃了一顿美餐. 但是突然那个令人毛骨悚然的家伙不知道从哪突然冒出来, 向我们宣扬他那愚蠢的邪教, 神秘的特异区还有些我记不清了的东西.显然, 他们正在招募新成员... 见鬼, 我不知道他是嗨了还是认真的.
+		\n整件事都很可疑, 所以你要小心. 我听说有很多别的小队都见过这个人. 我敢打赌肯定有人会傻到相信他的鬼话.</text>
+	</string>
+	<!-- Brain Scorcher is off -->
+	<string id="dm_information_110">
+		<text>你告诉我. 你他妈是不是把焦脑器关掉了.</text>
+	</string>
+	<string id="dm_information_111">
+		<text>最近有人关掉了焦脑器. 希望可以一直保持下去.</text>
+	</string>
+	<string id="dm_information_112">
+		<text>我就知道! 我就知道史特列洛克回来的传言是真的!就在前几天, 焦脑器被关闭了. 如果有人能做到的话, 那肯定就是史特列洛克!</text>
+	</string>
+	<string id="dm_information_113">
+		<text>听说焦脑器终于又被关闭了. 从2012年之后就再没有过了.</text>
+	</string>
+	<string id="dm_information_114">
+		<text>伙计们正考虑再次向普里皮亚季推进, 因为焦脑器又被关闭了. 我们要把那些该死的邪教分子赶出去, 然后看看他们到底在保护什么.</text>
+	</string>
+	<string id="dm_information_115">
+		<text>北方可能会再次掀起淘金热, 因为焦脑器被关闭了.</text>
+	</string>
+	<string id="dm_information_116">
+		<text>随着黑石被赶出雷达站, 探索X实验室肯定会更容易.想象下能在那些古老机器里能发现什么.</text>
+	</string>
+	<string id="dm_information_117">
+		<text>我不知道怎么形容, 但感觉... 好多了. 也许是因为黑石被赶出雷达站了, 谁知道呢?</text>
+	</string>
+	<!-- Brain Scorcher enabled -->
+	<string id="dm_information_118">
+		<text>普里皮亚季已经不安全了, 伙计. 有人认为他们可以从核电站里偷出神器. 之前有一大群黑石狂热分子不知道从哪冒出来的. 他们回来了, 回来复仇了.</text>
+	</string>
+	<string id="dm_information_119">
+		<text>据我所知, 如果不是纪律团在木星工厂的行动, 黑石真的会让所有人都陷入困境. 也许沃罗宁的手下并不像有些人说的那么坏.</text>
+	</string>
+	<string id="dm_information_120">
+		<text>我们曾一度与自由团联盟, 试图将黑石赶回核电站. 但是那出了问题, 我知道我们在木星工厂的小队失踪的时候, 而那些自由团的人仍在亚诺瓦车站坐的好好的. 我发誓, 那是我们最后一次信任无政府主义者.</text>
+	</string>
+	<!-- Miracle Machine disabled -->
+	<string id="dm_information_121">
+		<text>杨塔的生物场发射器终于被关闭了. 或许现在我们可以对其机制进行更深入的研究... 或许可以找出它当时是如何重新自行启动的.</text>
+	</string>
+	<string id="dm_information_122">
+		<text>我也听说了从杨塔工厂里出来的僵尸越来越少了. 也许现在我们终于可以让死者安息了.</text>
+	</string>
+	<!-- Miracle Machine enabled -->
+	<string id="dm_information_123">
+		<text>萨哈罗夫, 那个在杨塔的书呆子, 终于做出一个可以防护特定精神频率的装置了. 由于一些焦脑设施再次启动了, 我可能应该去拜访他一下.</text>
+	</string>
+	<string id="dm_information_124">
+		<text>萨哈罗夫教授在psy防护装置的领域取得了重大突破. 如果运气好的话, 我的贡献将得到好评.</text>
+	</string>
+	<!-- Sin appearance -->
+	<string id="dm_information_125">
+		<text>所有关于"暗黑潜行者"的传说可能都是真的. 我和我的伙伴常常能看到这些带着黑兜帽的人影在树林里漫步... 在那里睡觉可真不容易.</text>
+	</string>
+	<string id="dm_information_126">
+		<text>所以我在前几天搜刮尸体的时候, 发现几具尸体的服装颜色是我之前没见过的. 他们的脸, 耶稣啊, 他们的脸... 我希望那只是腐烂, 但是敢肯定那是些别的东西, 伙计...</text>
+	</string>
+	<string id="dm_information_127">
+		<text>有个戴着兜帽的怪人前几天来到我的营地, 向我们要水, 并告诉了我们他的信仰. 他听起来像个十足的疯子.</text>
+	</string>
+	<string id="dm_information_128">
+		<text>前几天, 一个神密的兜帽人来到我的营地. 他做了一个非常动人的演讲, 谈到如何利用它特异区来治愈整个世界. 我想有机会的话可以尽快和他谈谈.</text>
+	</string>
+	<string id="dm_information_129">
+		<text>即使焦脑器被关闭了, 地平线上的东西也显得黯淡了. 还记得黑石是怎么出现的吗 - 你真的认为他们孤立无援吗? 我们将进入黑暗时代, 朋友, 非常黑暗的黑暗时代.</text>
+	</string>
+	<!-- Sin attack on Limansk -->
+	<string id="dm_information_130">
+		<text>卧槽兄弟, 你怎么会不知道? 黑石有了新朋友, 他们要发疯了! 自由团已经守不住死亡屏障了. 事情会变的糟糕.</text>
+	</string>
+	<string id="dm_information_131">
+		<text>北边的情况更糟糕了. 最后降临的将是黑暗十字军的血雨腥风, 他们的子弹会向我们倾泻过来.希望我能活着度过这场风暴.</text>
+	</string>
+	<string id="dm_information_132">
+		<text>嗯, 已经发生了很多事情了, 所以我只想简单的说一句: "现在的局势跟狗屎一样, 妈的."</text>
+	</string>
+	<string id="dm_information_133">
+		<text>被外星水晶糊弄的无神论的野蛮人. 他们聚集在死城北部的废墟里. 我必须去见见他们, 告诉他们什么是真正的信仰.</text>
+	</string>
+	<string id="dm_information_134">
+		<text>史特列洛克的人聚集在利曼斯克, 帮助阻止那里发生的混乱. 希望他们能成功, 否则对我们来说黑暗的日子就要降临了.</text>
+	</string>
+	<string id="dm_information_135">
+		<text>利曼斯克那边很疯狂. 充满了新的狂热分子的味道, 最糟糕的是... 我从中认出了我的一些老朋友. 我再也无法忍受这种事了.</text>
+	</string>
+	<string id="dm_information_136">
+		<text>事情就是我特么要离开这里. 棕色的东西正在造反, 而我不想被波及.</text>
+	</string>
+	<string id="dm_information_137">
+		<text>你有听说过一个叫恶棍的人吗? 显然他是唯一一个站在我们和那些血腥特异区崇拜者之间的人. 我想去帮助他, 但是我的领导让我去守卫其他战线. 有什么事情发生我的神经就要崩溃了.</text>
+	</string>
+	<!-- Generator Big Emission -->
+	<string id="dm_information_138">
+		<text>外界消息称, 远在英国的人都能看到天空变成了橙色, 而且带有放射性. 没有人受伤, 但是即使是外国科学家, 当他们看到一场风暴时也会明白... 我觉得现在每个人都会对特异区更加感兴趣了.</text>
+	</string>
+	<string id="dm_information_139">
+		<text>如果我听到的传言是真的, 你就是阻止了最近一次大规模风暴的人, 防止所有人都被消灭... 防止给世界带去恐怖. 如果是真的话... 谢谢你.</text>
+	</string>
+	<string id="dm_information_140">
+		<text>现在全世界都在讨论"2018年最大风暴". 除非现在是2019. 我已经不记得年份了. 不管怎么说, 我预计现在特异区会吸引更多的外国金主. 耶...</text>
+	</string>
+	<!-- UNISG Appearance -->
+	<string id="dm_information_141">
+		<text>听说ISG终于恢复元气了. 也许那些脾气暴躁的科学家终于能振作起来了.</text>
+	</string>
+	<string id="dm_information_142">
+		<text>有些麻烦正在被酝酿. 联合国认为在特异区建立一个独立的科学小组是合理的. 这种行动其实没有必要, 除非他们在试图隐藏什么东西...</text>
+	</string>
+	<string id="dm_information_143">
+		<text>公共部门从不管自己的工作. 据我所知, 联合国已经决定派遣自己的部队, 从我们手里窃取我们的工作.</text>
+	</string>
+	<string id="dm_information_144">
+		<text>别相信那些关于一个新的科学团队来到特异区的传言 - 他们肯定藏了些书呆子在某些地方, 但是我看到过他们的眼神. 他们是杀手.</text>
+	</string>
+	<string id="dm_information_145">
+		<text>听说西方国家最近入驻了. 甚至不需要代理人 - 据我听说, 他们现在派遣了联合国部队. 我猜是原罪引起的大规模风暴吸引了他们的眼球, 嗯?</text>
+	</string>
+	
+	<!-- Military vs UNISG -->
+	<string id="dm_information_146">
+		<text>乌克兰安全局肯定是走投无路了. 我现在在为他们工作, 我可以向你保证, 因为他们也不知道应该怎么办.</text>
+	</string>
+	<string id="dm_information_147">
+		<text>我听到很多传言说乌克兰军队开始频繁对潜行者示以友好. 我希望我能加入其中.</text>
+	</string>
+	<string id="dm_information_148">
+		<text>很明显UNISG并不是真正的科学家. 实话说, 他们的行为方式很难讲他们与佣兵区分开来.</text>
+	</string>
+	<string id="dm_information_149">
+		<text>希望UNISG能赢得他们与军队的战斗. 现在是乌克兰政府得到他们应有的惩罚的时候了.</text>
+	</string>
+	
+	<!-- Added Dialog -->
+	
+	<!-- ECOLOGIST -->
+	<string id="dm_information_150">
+		<text>你去过北部靠近发电厂的地区吗? 我听说那里有的变异区让我们研究的东西看起来像小孩子的科学项目. 想想那些只有疯子才能拿到的神器!</text>
+	</string>
+	<string id="dm_information_151">
+		<text>前几天我看到地下室下面的楼梯里有奇怪的光. 自从我来到这里, 我见过很多变异现象, 但这光... 我实在不知道是什么颜色, 感觉就像... 浸透周围的一切: 墙壁, 空气... 总之, 一群狗出现后我不得不离开, 但从那以后我一直在外面看.</text>
+	</string>
+	<string id="dm_information_152">
+		<text>我注意到特异区里的奇迹总是夹杂着恐惧. 以所谓的"僵尸"为例:它们似乎违背了生物学机制, 并呈现出一种非常有趣的人类心理学观点, 但要接近一个活着的僵尸而不被撕成碎片, 那就太幸运了.</text>
+	</string>
+	<string id="dm_information_153">
+		<text>这些动物一直在越来越多地变异. 我昨天看到一个双头的啮齿动物. 奇怪的时代.</text>
+	</string>
+	<string id="dm_information_154">
+		<text>你见过他们吗? 萨哈罗夫刚从一群衣衫褴褛的潜行者那里收到了两件从未见过的神器他们刚从隔离区中心回来. 他们第二天早上就离开了, 奇怪的是, 他们的发现只带走了很少的钱. 就好像他们很乐意摆脱他们一样.</text>
+	</string>
+	<string id="dm_information_155">
+		<text>我真的不想来这里. 我有妻子, 孩子, 房子... 但事实证明, 乌克兰政府除了把物理学家扔进绞肉机外, 对他们毫无用处. 好吧, 我们看看明天会发生什么.</text>
+	</string>
+	<string id="dm_information_156">
+		<text>外面的科学家们迫切地想得到特异区里哪怕是最小的样本. 那些真正被收集起来, 安全运出这里值得对科学界来说价值连城. 如果你知道这些天烂肉样品卖多少钱的话...</text>
+	</string>
+	<string id="dm_information_157">
+		<text>我们在外面的上级总是在放射性风暴的本质上纠缠我们 - 他们说一些放射性风暴已经远远超出了特异区的边缘, 给边防部队造成了严重破坏. 我们中的一些人假设, 像2006年那样的"超级风暴"可能会使该地区的规模扩大一倍.</text>
+	</string>
+	<string id="dm_information_158">
+		<text>我认为这特异区可以提供几十年甚至几个世纪的发现. 如果我们能想办法摆脱这些暴力分子!</text>
+	</string>
+	<string id="dm_information_159">
+		<text>这里的大多数团队都在研究生物、热力学或精神变异现象, 但我认为真正的宝藏是在地下实验室里大量腐烂的文件中. 我们还没有看到任何东西: 留下这些文件的科学家已经研究了几十年了!</text>
+	</string>
+	<string id="dm_information_160">
+		<text>你知道脑波怪的脑组织在被移出身体后仍然保持着脑活动吗? 奥泽斯基教授正试图确定这些组织是否仍能通过植入躯体感觉皮层的传感器对刺激做出反应.</text>
+	</string>
+	<string id="dm_information_161">
+		<text>psy技术是下一个前沿. 一个世纪前, 我们都嘲笑超自然现象, 但这里发现的令人难以置信的离散和强大的领域, 特别是在生物场发射器和焦脑器周围, 已经证明了大量传统的怀疑论是错误的.</text>
+	</string>
+	<string id="dm_information_162">
+		<text>我不敢相信, 我只是花了整整一周的时间测量了工厂的高温变异点的矢量场, 结果我所有的研究文件都不见了! 该死的特异区! 如果没有这样的事情发生,  您就无法在这里构建合适的测试环境!</text>
+	</string>
+	<string id="dm_information_163">
+		<text>如果你在特异区发现了一盏死亡之灯, 那就明智地把它放回原处. 自从我发现了一种幻觉后, 我仍然会有听觉幻觉-无法很快摆脱它. 你可能听说了整个研究所发生的事情, 那是在研究一个... 这不值得.</text>
+	</string>
+	<string id="dm_information_164">
+		<text>你可能已经注意到, 我们科学家正在走得更远, 为自己研究遥远的环境... 甚至武装我们自己的巡逻队. 我们不能再胆怯了, 要想继续研究, 就必须主动.</text>
+	</string>
+	<string id="dm_information_165">
+		<text>只要被警告: 如果你去看他, 萨哈罗夫很有可能会送你去执行自杀任务. 如果我是你我会放弃的.</text>
+	</string>
+	<string id="dm_information_166">
+		<text>我听说黑石越来越强大了. 虽然这不是我们现在关心的问题, 但我还是不明白这些狂热分子从哪来的力量. 不管怎样, 这是特异区的其他潜行者要处理的.</text>
+	</string>
+	<string id="dm_information_167">
+		<text>我开始认同纪律团对特异区的看法了. 我见过那么多痛苦和恶意, 我无法适应一个不寻常的生态系统. 你能感觉到. 看看当你的同事一头栽进水果酒里会发生什么, 然后告诉我特异区有多棒.</text>
+	</string>
+	<string id="dm_information_168">
+		<text>我们第一次注意到奇美拉是在我们刚进入特异区的时候, 但它们的数量在2012年之后暴增. 它们是非凡的生物, 毫无疑问, 军事机构对研究它们的肌肉结构和隐藏成分非常感兴趣. 至于我自己, 我宁愿远离他们.</text>
+	</string>
+	<string id="dm_information_169">
+		<text>想整晚熬夜吗? 考虑一下, 现在地下实验室和工厂的污水池里是如何酝酿着新的恐怖. 不仅有新的怪物从黑暗中爬出来, 而且还有更多的微妙现象. 祝你好运!</text>
+	</string>
+	<string id="dm_information_170">
+		<text>就我个人立场, 我认为我们需要更多物资来保护自己. 纪律团被削弱了, 佣兵不值得信赖, 更别提军队了. 我们需要更多生存空间, 同时也要有能力保护它.</text>
+	</string>
+	<string id="dm_information_171">
+		<text>在杨塔实验室当警卫简直了: 无聊到死直到你被地狱般的怪物所吓晕, 然后醒来发现自己的内脏到处都是. 操, 纪律团回来该多好.</text>
+	</string>
+	<string id="dm_information_172">
+		<text>我担心我们的研究任务与一些相当可疑的动机混在一起; 我认为我们可以使用道德委员会来保持我们的正常运转.</text>
+	</string>
+	<string id="dm_information_173">
+		<text>曾经觉得政府和机构与这里毫不相干: 潜行者, 放射性风暴, 黑石... 他们, 在他们那舒服的办公室里, 根本不懂这里的情况. 在这里, 只有生或死, 战或逃. 我本人, 在特异区混那么久了, 轮得到外面那帮逼教我做事吗?!</text>
+	</string>
+	<string id="dm_information_174">
+		<text>是否曾经希望直升机会回来, 收拾我们的小实验室并将其带走?</text>
+	</string>
+	<string id="dm_information_175">
+		<text>你厌倦了这恶臭的战区吗? 特异区充满科学奇迹, 需要仔细研究, 但我们却要与这些捡破烂的军阀讨价还价, 或者雇些脏兮兮的小派系来保护我们. 我是来做研究的, 不是来参加这些亡命之徒的帮派战争.</text>
+	</string>
+	<string id="dm_information_176">
+		<text>我无意中听到萨哈罗夫教授和赫尔曼教授: 显然我们亲爱的萨哈罗夫教授已经给赫尔曼教授准备了一些物资和人员, 他在这件事上有些口是心非. 有科学家知道如何和蔼地对待权威吗?</text>
+	</string>
+	<string id="dm_information_177">
+		<text>我完全相信特异区里的其他居民都疯了. 人们听到的只有暴力、叛国和可怕的死亡. 哪个正常人会自愿来这里?</text>
+	</string>
+	<string id="dm_information_178">
+		<text>我越来越尊重纪律团了. 我讨厌看到这里的大多数潜行者拿起我们还不能理解的东西, 把它们当成幸运符来用. 至少纪律团有很好的判断力, 要么把他们的发现交给适当的研究, 要么干脆销毁它们, 让它们远离完全无知的人.</text>
+	</string>
+	<string id="dm_information_179">
+		<text>希望我们这些科学家能低调点, 呃? 如果我们被卷入某种地盘之争, 我们最终会像晴空一样在特异区的一个小角落里为自己的生命而战.</text>
+	</string>
+	<string id="dm_information_180">
+		<text>杨塔看起来很没有意义. 这些长官是受虐狂吗? 为什么我们被安排在这个特异区最糟糕的地下恐怖实验室的入口旁边, 更不用说生物场发射器了? 我开始羡慕晴空在沼泽里的藏身之处了.</text>
+	</string>
+	<string id="dm_information_181">
+		<text>我记得有一天特别糟糕: 我们刚刚击退了一场史诺克攻击, 还没喘过气; 一些人需要修补, 另一些人则被困在地上, 哭喊着. 在嘈杂声中, 突然传来一阵沉重的寂静. 我们都困惑地环顾四周, 不知道会发生什么. 接着, 传来一种低沉得几乎听不见的声音, 就像猛犸象在大口吸气. 然后, 突然开始了一场持续了两天的雷雨. 那是生物场发射器重新启动的那天.</text>
+	</string>
+	<string id="dm_information_182">
+		<text>X-16实验室让我毛骨悚然. 难怪杨塔总是需要替补.</text>
+	</string>
+	<string id="dm_information_183">
+		<text>只要能和赫尔曼教授一起在木星地区谋到一个永久职位, 我是多么愿意啊! 他们至少不用每隔两天就面对一群僵尸的入侵. 唯一的问题是如何到达那里... 直升飞机现在供不应求, 尤其是在阿尔法小组搞砸了坦途项目之后.</text>
+	</string>
+	<string id="dm_information_184">
+		<text>我们花了很多时间在杨塔和木星地区学习, 想象一下特异区的其他地方! 如果路过的潜行者说的故事有一半是真的... 好了, 回去工作.</text>
+	</string>
+	<string id="dm_information_185">
+		<text>前几天我听到了一个关于神器本质的很遥远的理论. 如你所知, 大多数科学家认为变异点会随着时间的推移与物质发生反应而形成神器, 但这个理论认为某些神器实际上是通过异常之门从其他维度传送过来的. 这主要是基于从实验室获得的一些文件以及风暴中的反常现象. 我从来没有看到过所谓的"智域"的证据, 所以我不认为这个理论有多大价值.</text>
+	</string>
+	<string id="dm_information_186">
+		<text>我认为科学界比特异区的其他居民更有理由来这里. 因为... 我们和最初在这里的科学家很像, 他们创造了这个地方. 在我看来, 不管是作为惩罚还是奖励, 我们应该待在这里, 努力把事情做对. 只有科学家才能在科学家的坟墓里挖洞.</text>
+	</string>
+	<string id="dm_information_187">
+		<text>自从我来到这里, 我对特异区奇观的热情就减退了. 不是因为暴力, 也不是因为这个地方被玷污了 - 不, 我明白有时候好东西必须从痛苦的地方取出来. 是什么让我警惕: 人所获得的每一种力量, 都是一种战胜自己的力量. 当我的同事们在得意洋洋地展示某种新能源或工程应用时, 我不禁想象这些东西可以制造出多么可怕的武器. 一个人怎么就能发射出人工动力的中子弹. 没有特异区的神器, 也就没有大自然的奇迹能消除人类的邪恶倾向.</text>
+	</string>
+	<string id="dm_information_188">
+		<text>我一直在研究特异区里野生动物的行为, 特别是它们的智力. 和往常一样, 这次的结果极不寻常. 这里的许多生命形式似乎正在迅速获得综合能力和解决问题的技能. 根据初步观察, psy地狱犬似乎比其他任何犬类都聪明, 甚至比除我们之外的任何哺乳动物都聪明. 我的很多研究由于... 这么多学科的起源都很模糊. 以吸血鬼为例; 很难确定它应该被认为是聪明的动物还是退化的人类.</text>
+	</string>
+	<string id="dm_information_189">
+		<text>自从军队撤退后, 该研究所要求所有进入特异区的科学家都要熟悉枪支. 哦, 可怜的阿尔捷米耶夫教授! 他无法克服对枪声的恐惧, 他六次考试都没及格. 他太想进入特异区了... 我觉得他不可能在这里活下来.</text>
+	</string>
+	<string id="dm_information_190">
+		<text>有时我真希望我能一走了之, 加入晴空; 等级制度中有太多的繁文缛节和拙劣的领导, 我们的发现通常被埋没在无用的限制之下. 但是晴空实际上对做出实际的发现并将其付诸实践很感兴趣. 总有一天...</text>
+	</string>
+	<string id="dm_information_191">
+		<text>雇佣兵让我浑身不舒服; 我真的很讨厌和他们一起工作, 我相信他们会拿我去喂变异生物, 好让我快速逃跑.</text>
+	</string>
+	<string id="dm_information_192">
+		<text>自由团是一群愚蠢的堕落者; 他们在特异区中寻找价值是对的, 但他们真的不比那些在角落里嗅油漆的孩子好多少. 他们的神器和我们在一起会更安全, 更有用.</text>
+	</string>
+	<string id="dm_information_193">
+		<text>这些独行者似乎是一群混杂的人: 当我们想要进行危险的实验时, 他们中的一些人非常有用, 但大多数人似乎只是为了他们自己而来. 尽管如此, 当一个独行者杀死了一个从我身后悄悄靠近的吸血鬼时, 我还是从一个悲惨的结局中被救了出来, 我永远不会忘记这一点.</text>
+	</string>
+	<string id="dm_information_194">
+		<text>那些军人完全犯了错误. 他们一到这里就犯了一个又一个的错误. 他们被派来保护我们, 但他们已经很久没有以任何常规的方式来保护我们了.</text>
+	</string>
+	<string id="dm_information_195">
+		<text>注意安全, 潜行者. 我见过太多自信和武装精良的团体进入红森林或普里皮亚季, 然后再也没有回来. 值得吗?</text>
+	</string>
+	<string id="dm_information_196">
+		<text>我真的不能理解冒着生命和理智的危险在这里发财. 如果我处在你的位置, 我会寻找最短的逃跑路线.</text>
+	</string>
+	<string id="dm_information_197">
+		<text>我觉得晴空是我们的兄弟. 我对你们团队的勤奋和克服困难的韧性印象深刻. 我希望我们最终能以某种方式帮助你.</text>
+	</string>
+	<string id="dm_information_198">
+		<text>自从你的领导撤回了你的正式保护服务, 我们在特异区的安全变得更加脆弱. 黑石复苏了, 僵尸正在涌入杨塔, 更多的领土正在被派系战争吞噬. 我们需要所有能得到的帮助.</text>
+	</string>
+	<string id="dm_information_199">
+		<text>我们想和自由团建立更紧密的联系, 但上级不赞成你的...行为准则. 不过,如果你发现任何神器，可以随时带过来.</text>
+	</string>
+	
+	<!-- DUTY -->
+	<string id="dm_information_200">
+		<text>是啊, 白天很长, 食物通常很糟糕, 工作也很危险. 但是我又看到了特异区的腐败: 变异点像癌症一样生长, 成群的变异生物, 有组织的小偷和杀人犯... 是啊, 如果我能帮上忙我会开枪的. 你来干什么, 我的朋友?</text>
+	</string>
+	<string id="dm_information_201">
+		<text>纪律团有些不顺, 但我们还有罗斯托克. 罗斯托克是特异区里的心智健全的潜行者的聚集地, 而纪律团打算保持这种方式.</text>
+	</string>
+	<string id="dm_information_202">
+		<text>我们花了数千小时的人力挖遍了罗斯托克周围所有的小通风口和地下室以确保我们能控制所有进出的通道 - 主要是为了防止大荒野的变异怪物和偶尔出现的无政府主义间谍. 尽管如此, 特异区总能带来新的惊喜 - 即使在罗斯托克.</text>
+	</string>
+	<string id="dm_information_203">
+		<text>前几天有个扫荡变种生物的任务, 侥幸逃过一劫: 我和我的小队在一片林间空地上走散了, 还没来得及在无线电上报告我的位置, 我就发现自己摔倒了, 屁股先着地掉进了一个地下洞穴网络里. 我抬头一看, 看到了我在15英尺高的森林地面上摔倒的洞, 但我突然被后面黑暗中传来的难听的咆哮占据了. 我猛地转过身来, 看见一只盲犬和它的一窝小怪物. 就在它冲过来之前, 我用我的马卡洛夫在它漂亮的脸上清空弹匣. 然后, 那些小朋友想要撕破我的喉咙, 所以我只好施恩给他们我的刺刀. 不管怎样, 我猜你得小心脚下.</text>
+	</string>
+	<string id="dm_information_204">
+		<text>我们前几天击毙了一个试图从北边入口溜进罗斯托克的无政府主义者. 我们在他的背包里发现了一些塑料炸药和某种生物制剂. 别搞错了: 并非所有人都是没脑子的瘾君子.</text>
+	</string>
+	<string id="dm_information_205">
+		<text>多年来, 我们一直想让一些BTR战车投入使用, 但没有成功. 别误会我的意思, 我们这儿有几个很厉害的家伙; 尽管曼冈喝酒, 在机械方面, 他算是个专家. 无论如何, 特异区似乎讨厌复杂的设备 - 它总是无缘无故地坏掉.</text>
+	</string>
+	<string id="dm_information_206">
+		<text>大多数潜行者都不知道如果没有"纪律团"的变异清扫行动这座城市会变得多么糟糕. 成群的野猪和野狗在特异区中更偏僻的地方繁殖, 然后被更可恶的变异生物赶到南方. 大行动后, 我见过成堆的20英尺高的怪物. 更不用说我们经常在任何地方搜捕到的腐烂的地下实验室里产生的恐怖生物.</text>
+	</string>
+	<string id="dm_information_207">
+		<text>自由团在对抗北方的黑石时总是失败. 当我们收回亚诺瓦车站, 我们会让那些疯子知道他们错过了什么.</text>
+	</string>
+	<string id="dm_information_208">
+		<text>卡车墓地简直就是噩梦, 但就在我们家门口所以我们得派人过去. 这是一个被上帝遗弃的地方, 如果住在垃圾房里的变态不朝你背后开枪, 你就会被辐射过的狗群撕成碎片, 或者... 更糟. 聊点别的吧.</text>
+	</string>
+	<string id="dm_information_209">
+		<text>我们看到越来越多邪恶的东西从特异区出来 - 特别是在地下和城市地区. 类人动物的新变种以及未知起源的实体. 我的一个朋友在大荒野被某种乌云吞噬了 - "纪律团"驾驭任务的能力似乎一天比一天重要.</text>
+	</string>
+	<string id="dm_information_210">
+		<text>我们希望能用这些神器来对抗特异区本身 - 以毒攻毒. 你知道脑波怪会从一件叫空洞的神器面前逃跑吗? 好吧, 我说着玩的.</text>
+	</string>
+	<string id="dm_information_211">
+		<text>我记得很清楚: 那是几年前的事了, 当时我在亚诺瓦车站站岗 - 那时候我们在那里有个基地 - 那是在半夜. 我渐渐感到有声音从南方传来 - 一种敲击声. 我知道这不是风暴, 因为我没有听到警报, 所以我就呆在原地检查我的弹药. 一分钟后, 很明显那声音来自一个直升机中队! 它们飞得很低, 我用手电筒的光清楚地看到了它们. 显然, 那是一次下克上的军事行动, 因为我从来没听说过直升机在这么靠北的地方. 好了, 今天的故事时间到此为止.</text>
+	</string>
+	<string id="dm_information_212">
+		<text>每个月左右,我注意到似乎有一帮特别的变异狗在针对罗斯托克; 我们习惯于射杀流浪狗, 甚至驱赶它们, 但这帮不同. 它们的攻击总是非常突然, 从四面八方而来, 一般的狗都是特别垃圾的和退化了的, 我们在这些狗中却看不到. 还有一点... 它们似乎总是在特定的时间袭击: 换班, 饭点... 对我来说, 我觉得那些 psy地狱犬在作怪. 他们在学习如何思考.</text>
+	</string>
+	<string id="dm_information_213">
+		<text>我们喜欢了解特异区内的发展趋势. 除了与路过的旅客交谈和与我们的盟友会面, 我们还派遣了一些侦察小组深入特异区跟踪事态发展, 以便为即将发生的事情做好准备. 他们很有可能再也不会回来了.</text>
+	</string>
+	<string id="dm_information_214">
+		<text>我没什么要告诉你的. 总之... 不要背对特异区. 别过得太舒服. 我认识很多潜行者, 他们倒是很自在: 我可以告诉你他们的坟墓在哪, 但只有上帝知道他们是怎么进去的.</text>
+	</string>
+	<string id="dm_information_215">
+		<text>我真的不知道. 特异区会在你最意想不到的时候袭击你. 即使是现在, 我还是觉得外面有什么东西在动... 特异区这婊子在隐藏些什么...</text>
+	</string>
+	<string id="dm_information_216">
+		<text>我听说强盗们又故技重施了: 在废弃区里杀人越货. 该是我们派一支强队穿过废弃区的时候了; 那些混蛋太安逸了.</text>
+	</string>
+	<string id="dm_information_217">
+		<text>我一定是惹毛了谁, 因为他们把我累死了. 从突袭变异生物到守卫, 从守卫到侦察, 再回到守卫岗位... 我几乎受够了.</text>
+	</string>
+	<string id="dm_information_218">
+		<text>纪律团要求士兵保持健康: 每天练习, 不嗑药, 不暴食... 祖鲁也一样, 我猜他是不能节食吧.</text>
+	</string>
+	<string id="dm_information_219">
+		<text>两年前: 我当时在一个远征巡逻队里, 我们不得不在普里皮亚季过夜. 我们从一栋公寓里收到无线电信号, 听起来像是有几个独行者陷入了困境. 我们商量了一下, 决定帮助他们. 等我们到那儿, 天已经黑了, 我第二个进去. 我们不知道会发生什么, 但我们来到里面只有一盏灯的房间, 我们马上被盯上了. 明白了吗, 是黑石的伏击. 我们的领队侧身中枪, 很快就流血过多而死. 尽管如此, 我们还是成功地放到了那些疯子, 我们觉得奇怪的是, 他们竟然这么少人. 这时我们发现了在我们打开的门上的巨大炸药: 它并没有炸. 那里的狂热分子们以为会和我们一起化为灰烬, 甚至还有整栋大楼. 至于无线电信号, 我们发现一具头部中枪的尸体被绑在椅子上. 他们一直在折磨他, 让他通过无线电讲话. 这就这样.</text>
+	</string>
+	<string id="dm_information_220">
+		<text>我想知道自由团在特异区里看到什么美事. 是放射性尘埃云吗? 或者是畸形的人和动物? 这些倒霉的流浪者被卷入了漩涡, 被压成浆糊? 我还可以继续说, 我亲眼目睹了这一切. 也许如果那些白痴戒掉致幻剂, 他们就能看到现实.</text>
+	</string>
+	<string id="dm_information_221">
+		<text>纪律团在这的时间比大多数人想象的要长. 虽然很多新兵都是天真的理想主义者, 但我和我的手下还是看出了一些事情. 我们曾经是士兵, 当我们觉得自己在保护人类免受特异区伤害方面做得不够时, 我们就成群结队地离开去加入了纪律团. 之所以这样做是因为:他们有组织的领导和纪律, 有明确的对抗特异区的目标. 只是每当我们因为腐败或琐碎而偏离使命时, 我们都很难受.</text>
+	</string>
+	<string id="dm_information_222">
+		<text>要是我们能让强盗去和无政府主义者战斗就好了? 如果这些堕落的人不经常站在同一阵线上, 我们的大多数问题都能得到解决.</text>
+	</string>
+	<string id="dm_information_223">
+		<text>你见过一个叫卡马罗夫的巡逻队吗? 他和他的团队两周前失踪了; 我们大多数人都认为他们已经死了, 但我...嗯, 我还在为他祈祷呢.</text>
+	</string>
+	<string id="dm_information_224">
+		<text>忘了核电站吧, 我想大多数变异生物都是从红森林出来的. 那地方是各种变态的滋生地. 甚至有鲜为人知的隧道和洞穴, 很少有人能活着说这些.</text>
+	</string>
+	<string id="dm_information_225">
+		<text>我听说离开特异区的潜行者一生都会改变, 我说的不仅仅是辐射的影响. 显然, 他们身上带着某种诅咒 - 灾难和奇怪的事故似乎与他们如影随形. 特异区想以任何可能的方式扩散, 我们甚至还不知道它有多危险.</text>
+	</string>
+	<string id="dm_information_226">
+		<text>大荒野是人类与怪物战斗的地方. 再加些讨厌的雇佣兵, 你就有了个不错的小屠宰场.</text>
+	</string>
+	<string id="dm_information_227">
+		<text>纪律团的人还在, 但我们需要用上所有能用的资源. 几个月前, 布哈洛夫的小队偶然发现了一个能容纳50名士兵的苏联辐射尘地堡! 口粮不是我的最爱, 但我们需要装备.</text>
+	</string>
+	<string id="dm_information_228">
+		<text>我只是在等待着有一天, 黑石会集中力量穿过罗斯托克进入南部地区. 正如大家所知, "纪律团"在不断缩小, 而"黑石"却在不断增长, 所以我对我们的机会并不乐观. 但我们会跟那些疯狂的混蛋拼死一搏, 我们每个人都会站着死去. 要给他们点颜色看看.</text>
+	</string>
+	<string id="dm_information_229">
+		<text>听起来很奇怪, 但我真的不想去别的地方. 我真的认为"纪律团"站在了正确的一边, 我真的愿意用我的生命来对抗黑暗. 我不知道, 可能听起来很扯淡, 但我就是这么想的.</text>
+	</string>
+	<string id="dm_information_230">
+		<text>我从彼得连科那里听到了一些好消息: 我们很快就要和那些自由的混蛋开战了! 具体细节我还没听过, 但我们想杀杀他们的威风.</text>
+	</string>
+	<string id="dm_information_231">
+		<text>好吧, 我受够了那个混蛋阿尼和他的手下 - 我们为什么要让他们的斗鸡行动得逞? 这种事情发生在纪律团领地是可耻的.</text>
+	</string>
+	<string id="dm_information_232">
+		<text>你听说有个新成员从'阿司匹林'那里偷了一些药酒给他的朋友们喝? 第二天晚上, 加夫里伦科狠狠地揍了他一顿 - 他看起来不太好. 不知道他会怎么样.</text>
+	</string>
+	<string id="dm_information_233">
+		<text>沃罗宁说新的锁定系统将被安装在... 哦, 当我没说. 你没有知情权.</text>
+	</string>
+	<string id="dm_information_234">
+		<text>那些书呆子给了我一个变异生物巢穴的错误情报: 差点被杀. 我被烧伤太多次了; 从现在开始, 我不会相信任何来自纪律团以外的人.</text>
+	</string>
+	<string id="dm_information_235">
+		<text>新地图基本可以发行了. 我们的侦察员正在寻找更好的远程侦察路径将已知的敌方区域和变异区考虑在内. 通过这种方式, 我们的士兵在进行观察路线时可以走得更快、更安全. 我们的人必须知道这些信息, 不能让他们走错路.</text>
+	</string>
+	<string id="dm_information_236">
+		<text>我刚在PDA上看到苏尔加的就消息. 你觉得他出了什么事? 我听过各种说法, 但我不相信 - 大多数人不知道那家伙的能力. 如果你问加夫里伦科, 他可以告诉你一些故事.</text>
+	</string>
+	<string id="dm_information_237">
+		<text>深入侦察前哨报告说, 核电站周围的奇美拉活动明显增加. 希望它们乖乖呆在那儿.</text>
+	</string>
+	<string id="dm_information_238">
+		<text>彼得连科告诉我我们的常规供应商在农研所附近丢失了一批5.45的货. 我就听到这么多, 你最好数一下你的弹药.</text>
+	</string>
+	<string id="dm_information_239">
+		<text>最近我在酒吧里看到很多奇怪的人: 独行者前往北方的深处, 晴空走出沼泽, 一些安静的戴着兜帽的混蛋会在半夜离开. 我觉得我们背后有什么事.</text>
+	</string>
+	<string id="dm_information_240">
+		<text>当我参观斯卡多夫斯克号的时候, 我真的很了解一些独行者: 大多数人都是好人, 但他们只是把特异区看作等待他们的某种金矿或冒险. 他们并没有意识到这里局势的严重性 - 只是他们能从中得到什么. 当它们成熟一点时, 有些会加入纪律团.</text>
+	</string>
+	<string id="dm_information_241">
+		<text>我们照顾潜行者, 他们通常也照顾我们. 如果我们不在这里为特异区的中心提供稳定... 我认为这将是一个只有亡命徒和黑石的战场.</text>
+	</string>
+	<string id="dm_information_242">
+		<text>你觉得那些晴空的潜行者怎么样? 纪律团和他们没多少往来, 但有时在酒吧里可以见到他们. 他们通常不与人交往, 但也不会制造麻烦.</text>
+	</string>
+	<string id="dm_information_243">
+		<text>我们过去有时和军队联合远征, 通常是扫荡变异生物和强盗. 有一两次, 我们甚至参与了电厂周围的行动. 不过有一段时间没有了, 我们最近都得管好自己的事.</text>
+	</string>
+	<string id="dm_information_244">
+		<text>我们把神器交给知识分子, 他们就会知道这些神器是怎么工作的, 这样我们就能和特异区对抗了. 就我个人而言, 我认为他们中的一些人可能习惯了这些新玩具来的这么容易.但总比让自由团得到好.</text>
+	</string>
+	<string id="dm_information_245">
+		<text>雇佣兵一心要控制大荒野 - 一直都是. 至于为什么... 考倒我了. 为这事争吵太不值得了, 有时我真希望能让他们留着那个疯人院.</text>
+	</string>
+	<string id="dm_information_246">
+		<text>每个人都知道纪律团为什么而战, 但那些雇佣兵在这里做什么? 永远不要相信他们, 最好也不要和他们作对.</text>
+	</string>
+	<string id="dm_information_247">
+		<text>有没有考虑过加入纪律团? 我们一直在寻找有能力阻挡潮流的人. 更重要的是, 你可以成为比你自己更大的事物的一部分. 不管怎样, 考虑一下.</text>
+	</string>
+	<string id="dm_information_248">
+		<text>你可以放心, 因为纪律团站在你这边. 人们可以称我们为法西斯主义者, 但我们实际上只反对那些害人的人. 土匪和黑石是显而易见的, 但自由团支持一种致命的意识形态, 无法无天, 一不留神就让恐怖的特异区蔓延.</text>
+	</string>
+	<string id="dm_information_249">
+		<text>萨哈罗夫教授用豚鼠来测试人工制品的效果, 是真的吗? 我想那可能是胡扯, 但我一直想知道. 事实上, 纪律团里流传着很多关于他的谣言.</text>
+	</string>
+	<string id="dm_information_250">
+		<text>这些怪胎真是没完没了 - 我们杀的越多, 就有越多的人从他们的洞里爬出来. 你是科学家, 这些变异生物怎么... 繁殖? 好吧, 我不是在找图解什么的, 但它们仍然来自地下区域吗? 我明白豚兽和野猪生殖, 但吸血鬼? 事实上, 我不确定我想不想知道.</text>
+	</string>
+	<string id="dm_information_251">
+		<text>你来这里干什么? 不要搅动任何东西, 好吗?</text>
+	</string>
+	<string id="dm_information_252">
+		<text>哦, 一切如常. 阿巴库明还是农研所的舵手吗? 当我还在军队里的时候, 他说他有一天会加入纪律团. 那是五年前的事了, 但我们一直没有他的消息.</text>
+	</string>
+	<string id="dm_information_253">
+		<text>前几天看到你们的直升机飞过废弃区 - 你们几个在干什么? 天啊, 纪律团这几天真需要一辆. 不过, 如果你听了一些传言... 好吧, 祝你愉快.</text>
+	</string>
+	<string id="dm_information_254">
+		<text>哦, 我们在坚守阵地. 我听说西德洛维奇和以前一样又肥又富, 这个老混蛋. 自从他把我喝过的最稀释的伏特加卖给我之后我就再没见过他.</text>
+	</string>
+	
+	<!-- MILITARY -->
+	<string id="dm_information_255">
+		<text>你认为呢? 我们的装备完全无法对付特异区. 在早期, 我们得到了良好的支持, 有大量的增援部队和特殊设备. 现在不再是了. 现在: 这是你的步枪, 这是你的旧夏季制服, 这是一罐面包 - 现在, 去安抚下黑社会和一些动物园里的动物吧. 还有, 不要踩到那块模糊的地方, 否则你会失去双腿的.</text>
+	</string>	
+	<string id="dm_information_256">
+		<text>坦白说: 我对保护区的生活有点厌倦了. 我想看到一些行动, 所以我自告奋勇. 嗯, 特异区里的生活有很多东西, 但并不无聊. 仅上周, 我就进行了四次突袭. 这里发生了很多事情.</text>
+	</string>
+	<string id="dm_information_257">
+		<text>我很确定他们送来的人都是他们想除掉的人. 嗯... 还有那些可能喜欢这里的阿尔法小组疯子.</text>
+	</string>
+	<string id="dm_information_258">
+		<text>你知道, 如果我们在特异区刚出现的时候能更了解情况, 我们现在就不会这么紧张了. 如果我们严密封锁边境, 我们现在所做的就是监视围栏并监督政府科学家. 事实上, 我们更像是一支入侵敌方领土的军队. 我们的情况不太好, 但那些潜行者似乎在这里越来越多了.</text>
+	</string>
+	<string id="dm_information_259">
+		<text>我父亲当兵时去了阿富汗, 他死在那里 - 死于载具伏击. 我以为他过得很艰难. 当你把阿富汗和这里正在发生的鸟事作比较, 阿富汗简直是渴望. 黑暗山谷的一整个小队, 在午夜被吸血鬼一个接一个地消灭了. 我想我父亲不会想到会发生这种事.</text>
+	</string>
+	<string id="dm_information_260">
+		<text>唯一能让这里的生活有价值的事情就是看到我们的武装直升机投入战斗. 我的小队前几天发现了一大群无脑的僵尸, 我们决定呼叫他们. 几分钟后, 旋翼声在地平线上响起, 火箭在空中飞过, 大炮在开火 - 宏伟壮观! 很快就把那些混混清理干净了.</text>
+	</string>
+	<string id="dm_information_261">
+		<text>很明显, 上级想让每个小队都有个带探测器的人能熟悉变异点的情况. 好像我们脑子里的东西还不够多似的, 这不是给科学家的东西吗?</text>
+	</string>
+	<string id="dm_information_262">
+		<text>你知道, 特异区还不算太糟, 让我修饰一下: 当你和你的朋友在农研所墙内的篝火旁时, 特异区不是太坏. 否则呢? 这是一场醒着的噩梦.</text>
+	</string>
+	<string id="dm_information_263">
+		<text>队伍里有各种各样的腐败. 有些只是一些人想要通过, 比如在潜行者外出巡逻时给他们一张免费通行证. 不过, 有些人就是彻头彻尾的烂透了. 接受雇佣兵或暴徒的贿赂, 进行暗杀, 出售神器... 我希望事情不是这样的.</text>
+	</string>
+	<string id="dm_information_264">
+		<text>那些黑石怪胎是怎么回事? 当我被送到这里时, 我以为我要对付的是一些小罪犯和非法侵入者. 我不知道有一群愚蠢的狂热分子用现代武器发动叛乱. 可怕的是, 他们似乎一直在变得更强大.</text>
+	</string>
+	<string id="dm_information_265">
+		<text>我确实看到了一些东西; 我在车臣待过一段时间. 但这滩狗屎... 真是一团糟. 再多的训练, 再多的经验也无法让你适应这里. 有些人为了逃避而开枪自杀, 我不怪他们.</text>
+	</string>
+	<string id="dm_information_266">
+		<text>特异区对我们来说太大太危险了, 我们不能完全占领它, 所以我们选择了战略位置来保持压力. 很明显, 我们有边界哨所, 比如封锁线, 还在农研所运作. 我们在黑暗山谷也有一个前哨站, 在中心附近也有几个. 我们要等待时机, 抓住机会.</text>
+	</string>
+	<string id="dm_information_267">
+		<text>别被罗戈维茨害羞的举止给骗了: 他是个资深潜行者. 他和科瓦尔斯基一起在坦途行动中活了下来, 还遇见过德格特雅里夫甚至史特列洛克本人! 有时问他关于普里皮亚季的事, 他很有故事.</text>
+	</string>
+	<string id="dm_information_268">
+		<text>我们的勺子中士很有人脉. 除了在农研所为我们提供补给外, 他显然还在特异区里安排了一些军事潜行者. 是啊, 尽量别惹毛他.</text>
+	</string>
+	<string id="dm_information_269">
+		<text>近距离看过黑石吗? 给你个建议: 不要这样做. 你在巡逻或者夜间行军, 突然... 有大量的火, 有时从多个方面而来. 即使是在愤怒的枪击事件中, 你也能听到死亡, 吟唱的声音告诉你你会怎么死, 还有其他疯狂的邪教. 他们不会疲倦, 不会投降, 他们似乎从来不会耗尽弹药. 我他妈一提起这事就发抖.</text>
+	</string>
+	<string id="dm_information_270">
+		<text>你离特异区中心有多远? 似乎越往里走, 情况就越糟. 首先, 你只需要对付一些独行者和小强盗. 此外, 你还将穿越有组织派系的永久战场: 雇佣兵, 纪律团, 还有无政府主义者. 之后... 这里到处都是怪物和狂热分子. 我想知道那里发生的事. 显然没有好事. 越往里走, 特异区就越纯粹, 也就越邪恶. 中心应该是最纯粹最邪恶的.</text>
+	</string>
+	<string id="dm_information_271">
+		<text>在我去过的所有地方中, 我想我最讨厌大沼泽区. 其他地区的危险活动更多, 空气中的铅更多... 但那个沼泽是被诅咒了什么的. 我想那里有我们不知道的东西, 潜伏在水下和草丛里, 沉睡着... 这还不算战斗本身. 是啊, 找天派人去废弃区或黑暗山谷巡逻.</text>
+	</string>
+	<string id="dm_information_272">
+		<text>几年前我和一个下士在一个班; 这家伙真是个混蛋, 比我见过的任何强盗都更卑鄙. 我记得我们在黑暗山谷巡逻时突然被一个人开枪了, 他非常古怪, 也很没用. 我们抓到他了, 他只是个小菜鸟, 刚从封锁线出来包里还装着些没用的小玩意; 他看到了我们的巡逻队, 惊慌失措, 试图逃跑时开枪. 不管怎么说, 这个下士中了一枪, 几乎没有擦破皮. 这就是他所做的: 当我们回到X-18基地, 队长想见我们俘虏的人, 但我们找不到他, 我们以为他找到机会逃跑了. 几天后, 有人问下士这件事, 他很随便地回答说, 他把这个新手扔进了实验室, 并锁上了门. 我们发现了他的尸体, 紧抓着门把手, 脸上的表情非常可怕...</text>
+	</string>
+	<string id="dm_information_273">
+		<text>你需要有人在外面帮你望风. 你可能见过尸体: 躺在地上, 皮肤都是灰白色的, 脖子后面有恶心的痕迹. 我们刚到特异区, 我就这样找到了我的朋友: 在黑暗中我什么也看不见, 只听到口水声然后有两只眼睛抬头看着我. 吸血鬼. 你永远不知道他们什么时候在身边.</text>
+	</string>
+	<string id="dm_information_274">
+		<text>普里皮亚季: 寂静之城, 坟场之城. 每次我们走那条路, 特异区就把我们吐出来. 我只能希望我们已经吸取了教训: 我们不应该出现在那里.</text>
+	</string>
+	<string id="dm_information_275">
+		<text>说来奇怪, 虽然这里很糟糕, 但有些人就是因为某种原因茁壮成长. 他们中的一些人被任命为阿尔法小组的外勤人员, 从事深度侦察、渗透或特殊的变异生物追捕工作. 其他人则变成了那些"军事潜行者": 不再是真正的军队, 而是因为有用而被赋予了更大的自主权. 他们肯定是最奇怪的; 特异区现在是他们的家. 它们似乎都有某种特殊的感觉或本能, 也许这与我们经常收到警告的那些psy波有关.</text>
+	</string>
+	<string id="dm_information_276">
+		<text>我本来应该是个心理学家. 只要回答一个问题就值得了: 人们到底为什么要来这里? 来到这里的人被可怕地肢解、辐射、勒索、奴役、背叛, 并不可避免地以某种可怕的方式被杀害. 有什么意义? 赚快钱? 你为什么不去抢银行呢? 这比想办法来这里好多了. 好了, 我们在这里, 试图清理这些死成水果蛋糕悲惨家伙. 不如我们都回家吧? 我来开大巴.</text>
+	</string>
+	<string id="dm_information_277">
+		<text>当你一个人的时候, 有没有听过窃窃私语? 要么是精神分裂症, 要么就是附近有一只脑波怪什么的. 我们曾经在一个军营里遇到过暴力和自杀的问题. 然后我们在墙外的灌木丛里发现了一个巢穴. 是他妈脑波怪的.</text>
+	</string>
+	<string id="dm_information_278">
+		<text>好吧, 来点恐怖的? 就是这个: 一天晚上, 我在为我们的小队放哨, 因为我们在普里皮亚季南部的某个地方迷路了...算了, 这不是重点. 我只是坐在那里, 我的战友们都在睡觉, 而我却完全清醒着, 警惕着危险. 然后, 不知从哪里悄无声息地, 我面前的山谷里出现了一架直升机. 我只是坐在那里眨着眼睛. 就像我说的: 没有任何声音, 没有旋翼或任何东西. 飞机着陆后, 舱门打开, 一群军人出来了; 看着像阿尔法小组. 他们似乎注意到了我, 一个家伙走上前来, 挥手打招呼 - 显然, 我吓得不敢动. 然后他摘下头盔... 里面什么都没有! 我跳了起来, 整个场景渐渐消失, 模糊了. 我叫醒了我的朋友, 但他们不相信我. 你觉得怎么样?</text>
+	</string>
+	<string id="dm_information_279">
+		<text>老掉牙的故事. 外面有个胖将军抱怨特异区里的情况: 即便他从来没去过50公里以内的地方. 命令层层下达, 直到某个中尉被迫在完全未知的领域下达自杀任务. 一些不知情的上班族被送走, 并立即被野兽或疯子屠杀. 通常, 幸存者回来后会描述这次行动的徒劳. 并重复这一切.</text>
+	</string>
+	<string id="dm_information_280">
+		<text>想看看特异区为你准备了什么? 看那只史诺克. 史诺克曾经是士兵, 但他们已经被扭曲成现在的样子: 特异区的士兵. 在这里待久了, 我们也会像他们一样.</text>
+	</string>
+	<string id="dm_information_281">
+		<text>如果你需要检查你的装备, 就来找基里洛夫中尉. 那家伙可真会创造奇迹; 从对讲机到轻机枪, 他都是最佳人选.</text>
+	</string>
+	<string id="dm_information_282">
+		<text>别跟库兹涅佐夫过不去, 好吗? 你的生活将突然变得非常不愉快. 就像那个中士, 呃... 乌里扬诺夫. 我听说他的新任务是在大沼泽区传话.</text>
+	</string>
+	<string id="dm_information_283">
+		<text>如果有疑问, 就开枪. 如果你在特异区里看到动静, 别他妈犹豫. 我见过一些人犹豫而死. 有时是雇佣兵或疯子, 但奇美拉能像子弹一样快地杀死你. 点亮你看到的任何东西.</text>
+	</string>
+	<string id="dm_information_284">
+		<text>我们的指挥官就是个笑话. 任何想进入特异区的潜行者只要找指挥官, 亮出一些卢布就行了. 甚至还很便宜. 然后就得靠我们来清理了.</text>
+	</string>
+	<string id="dm_information_285">
+		<text>最好还是和你的上司保持良好的关系, 否则你可能会"不小心"被丢在特异区里. 如果你身边有个真正的混蛋, 你的日子就屈指可数了. 几年前, 当我们大量参与打击有组织的团体时, 我就听说过极端纪律的做法了. 如果你不按队长说的做, 卡勒茨基那个杀人不赦的混蛋就会处决士兵. 这可很好! 一头扎进有辐射地狱景观的特异区, 每棵树背后都有拿枪管的手和杀人变异生物, 或被手枪打中后脑勺.</text>
+	</string>
+	<string id="dm_information_286">
+		<text>你见过科瓦尔斯基吗? 我有过一次. 老实说, 他是个很可靠的人; 他关心他的手下, 手下为他拼命工作. 发生在他身上的事说明事情有多糟糕.</text>
+	</string>
+	<string id="dm_information_287">
+		<text>我们什么时候对农研所地下的隧道采取行动? 你知道那里到处都是强盗和变异生物? 如果他们半夜来搞事怎么办? 见鬼, 我不想下去; 我们给里面倒点油或者什么吧.</text>
+	</string>
+	<string id="dm_information_288">
+		<text>他们从没告诉过你河湾的事? 嗯, 这是北边一个湖泊的沼泽遗迹. 我们以前在那里驻扎过, 直到我们失去了与车队的联系. 机械化运输似乎永远也行不通, 就像向特异区广播的信息一样: "请把你的变异现象, 风暴和愚蠢的恐怖带到这里!" 和其他许多地方一样, 我们不得不撤离.</text>
+	</string>
+	<string id="dm_information_289">
+		<text>不管怎么说, 这些变异现象是怎么回事? 它们来自哪里? 为什么书呆子们就搞不懂呢? 它们在生长吗, 它们活着吗? 我是一名士兵: 我已经习惯被枪击了. 但没人告诉过我这种事... 不管它是什么.</text>
+	</string>
+	<string id="dm_information_290">
+		<text>是我们对抗他们. 他们不想让我们来, 我们也不想让他们来. 我想有些纪律团还行, 但谁也说不准. 总有一天, 援军到来我们会一路扫荡到发电厂.</text>
+	</string>
+	<string id="dm_information_291">
+		<text>在这里你甚至不能呼吸; 空气里充满了辐射, 毒素和天知道还有什么. 随着时间的推移, 我感觉自己被勒死了... 非常糟糕的事. 嗯, 还有事吗?</text>
+	</string>
+	<string id="dm_information_292">
+		<text>库兹涅佐夫会毫不犹豫地用你当人肉盾牌来救自己的命. 你觉得他为了到达现在的位置会送多少人去送死? 你知道吗, 有一次我试图... 我不应该说这个的.</text>
+	</string>
+	<string id="dm_information_293">
+		<text>我们在墓地里打仗, 看看周围. 锈迹斑斑的装甲运兵车炮弹、被撞得粉碎的卡车、失事的直升机... 他们都在讲一个故事. 这还不包括尸体, 很多尸体都是直立行走的. 我怀疑我们是不是也会变成它们...</text>
+	</string>
+	<string id="dm_information_294">
+		<text>很多人都说在这里没意义 - 我不赞同. 我以前也是这么想的, 直到我见识了黑石的威力. 如果它们开始在特异区外扩散会发生什么? 谁去阻止他们? 潜行者? 对吧... 我们必须留下来战斗.我们必须.</text>
+	</string>
+	<string id="dm_information_295">
+		<text>嘿, 游隼在杨塔过得怎么样? 我们这里需要更可靠的人. 不爱说话那种.</text>
+	</string>
+	<string id="dm_information_296">
+		<text>很高兴见到真正应该在这里的人. 这些天, 特异区里的潜行者比授权人员还多.</text>
+	</string>
+	<string id="dm_information_297">
+		<text>入乡随俗, 是吗? 在我看来没问题. 我们也需要一些人在特异区里工作.</text>
+	</string>
+	<string id="dm_information_298">
+		<text>我听说库兹涅佐夫想在阿尔法小组安置一些纪律团的顾问. 我想你们不会太喜欢这个吧.</text>
+	</string>
+	<string id="dm_information_299">
+		<text>你要注意自己. 我们休战了不代表我们是朋友.</text>
+	</string>
+	<string id="dm_information_300">
+		<text>别被晴空派愚弄了, 他们已经一次又一次地证明了他们的敌意. 他们在自己的沼泽巢穴里都做些什么呢? 他们的忠诚在哪里?</text>
+	</string>
+	<string id="dm_information_301">
+		<text>我们和纪律团有些关系. 在这里的潜行者中, 他们是最冷静的. 我们在力所能及的时候不会犹豫帮助他们.</text>
+	</string>
+	<string id="dm_information_302">
+		<text>雇佣兵是一些讨厌的顾客. 他们说的关于他们的事情只有不到有一半是真的, 你不会想和他们混在一起的. 他们想在特异区里建立自己的小王国, 他们不想让军队挡住他们的去路.</text>
+	</string>
+	<string id="dm_information_303">
+		<text>别相信自由团的鬼话. 特异区不是你的朋友, 他们也不是. 那些邪恶的无政府主义者唯一关心的就是拆除恐怖的特异区与世界其他地方之间的障碍.</text>
+	</string>
+	<string id="dm_information_304">
+		<text>独行者完全被欺骗了. 他们来这里是为了发财, 但他们没有意识到他们不过是磨坊里的谷物. 潜行者走进去, 僵尸, 狂热分子和尸体走出来. 让天真的独行者远离特异区是一种仁慈的行为.</text>
+	</string>
+	
+	<!-- CLEAR SKY -->
+	<string id="dm_information_305">
+		<text>其他派系在这个特异区里摸索着; 有些人讨厌它, 有些人崇拜它, 但没有人真正知道这个特异区是关于什么的. 晴空离我们更近. 我们已经部署了很长时间了, 我们不能让修复特异区的最佳机会因为一些暴力的混蛋不理解这一点而消失.</text>
+	</string>
+	<string id="dm_information_306">
+		<text>如果晴空想要生存下去, 我们需要齐心协力, 寻求与盟友的合作. 不幸的是, 有时候似乎每个人都想要谋害我们...</text>
+	</string>
+	<string id="dm_information_307">
+		<text>大沼泽, 尽管是最底层的巢穴, 实际上是一个很好的研究场所. 隐蔽并不是我们选择总部的唯一因素; 沼泽还提供了过多的生物标本和各种不同的变异现象. 特异区中心附近可能有更多的极端条件, 但它们无法以同样严格的水平进行研究.</text>
+	</string>
+	<string id="dm_information_308">
+		<text>我们中的一些人的任务是保护我们的领土周边, 但我们也要求团队去特异区更远的地方, 以便进行各种研读并报告其他地方研究机会的有效性.</text>
+	</string>
+	<string id="dm_information_309">
+		<text>冷风对我们来说一直是一个非常能干的领导, 尽管他有点不够格担任这个职位. 我们许多人推举卡南查教授担任这个职务, 但他谢绝了. 回想起来, 我觉得那是个不错的选择; 卡南查博士真的太高尚了, 不适合战斗.</text>
+	</string>
+	<string id="dm_information_310">
+		<text>特异区里发生的事是一场悲剧. 如果我们能团结起来解决眼前的问题, 我们既可以容纳特异区, 也可以从中获益. 现在的情况是, 贪婪和愚蠢主宰一切. 特异区里尸横遍野.</text>
+	</string>
+	<string id="dm_information_311">
+		<text>在交火中, 仔细试验总是很困难的. 长期以来, 我们已经认识到, 我们的使命和命运与特异区的生活息息相关, 我们不能成为超然的观察者. 在某种程度上, 我们的军事目标和我们的研究项目一样与特异区的控制有关.</text>
+	</string>
+	<string id="dm_information_312">
+		<text>我加入是因为我察觉和潜行者呆在一起是徒劳的; 我需要集中精力来了解这个特异区. 我不是什么科学家, 真的... 但我们也需要射手.</text>
+	</string>
+	<string id="dm_information_313">
+		<text>我们总是需要更多的设备, 所以我们最终自己制造了很多. 诺维科夫在这方面绝对是聪明的, 我不知道他从哪里得到的材料, 但他总是从无到有地制造出防护服和通讯设备.</text>
+	</string>
+	<string id="dm_information_314">
+		<text>沼泽不像某些地方那么危险, 但永远不会让人感到舒适. 一天晚上, 我正从瞭望塔往回走, 忽然听到一阵微弱的痛苦呻吟. 我推开芦苇, 看到一具脸朝下的尸体 - 看起来像个独行者. 我把他翻了个身, 很明显他已经死了好几个星期了. 我听到一声巨响, 抬头一看, 在我周围的草丛中有六双眼睛. 如果不是因为身手敏捷和碰巧路过的巡逻队, 我想我可能会成为下一个诱饵.</text>
+	</string>
+	<string id="dm_information_315">
+		<text>每一个伤亡对我们来说都是巨大的打击, 所以我们选择了谨慎和秘密行动作为策略. 显然, 我们并不是总有大量人力涌入. 不像以前...</text>
+	</string>
+	<string id="dm_information_316">
+		<text>我认为我们有整个特异区里最好的神器猎人. 大多数人会认为是科学家, 但我们有一些人生活和呼吸在变异区. 虽然我们可能没有最先进的技术或稳定的资金, 但我们在神器方面比任何人都有经验.</text>
+	</string>
+	<string id="dm_information_317">
+		<text>辐射中毒可不是什么好玩的事, 所以走路要小心. 建筑物和积水是危险的, 特别是在没有密闭循环呼吸器的情况下. 但最糟糕的是, 直到你朋友的探测器响了, 你才意识到你已经下了地狱. 有一次我们不得不把一个人从特异区里救出来, 但我没听说他是否还活着.</text>
+	</string>
+	<string id="dm_information_318">
+		<text>我有几个朋友跟那个雇佣兵一起去了核电站. 我真的很想去, 但我被感染了, 正在康复, 所以他们让我留下来. 然后, 他们都死了. 我在斯卡多夫斯克号待了一段时间, 直到明眼告诉我晴空还没完蛋. 我们不会再相信疤脸这种能创造奇迹的人了.</text>
+	</string>
+	<string id="dm_information_319">
+		<text>我知道卡南查教授的一个测试刚刚确定豚兽的DNA是几种不同物种的合成物. 在你问之前, 是的: 不知为何, 里面有点人类的影子. 他们总是让我毛骨悚然.</text>
+	</string>
+	<string id="dm_information_320">
+		<text>你能从收音机里听到各种诡异的东西. 首先, 我知道特异区里有人在用数字电台 - 可能是军队. 除此之外, 我曾经听到普里皮亚季核灾难期间的民间广播! 就好像特异区里有什么东西储存了这些信号, 让它们每隔一段时间就蹦出来. 你应该和诺维科夫谈谈, 他听到的比我多.</text>
+	</string>
+	<string id="dm_information_321">
+		<text>黑石的崛起令人担忧. 当列别捷夫和突击部队失败时, 我们受到了第一击, 但天知道他们现在有多强大. 它们总是出现在越来越南的地方; 很快, 他们也会来到沼泽区.</text>
+	</string>
+	<string id="dm_information_322">
+		<text>我认为, 我们最大的优势不是武器或据点, 而是我们十多年来一直在研究的信息数据库. 毋庸置疑的, 控制特异区, 喷射流, 黑石的秘密 - 所有这些, 都可能在我们积累的研究中找到. 即使这个派别不能继续存在, 我也希望有个聪明的人能接手我们的工作.</text>
+	</string>
+	<string id="dm_information_323">
+		<text>对于生物学家来说, 吸血鬼的光学伪装一直是个谜, 也是一个非常吸引人的目标. 但就目前而言, 我不认为我们会看到任何隐形的潜行者在特异区里搞破坏. 获取生物样本已经够难的了; 当我们被活生生的吸血鬼攻击时我们通常不会考虑保留全尸.</text>
+	</string>
+	<string id="dm_information_324">
+		<text>有晴空的生活就像尼希米: 一手拿铲子, 一手拿剑. 我想那会是... 一手拿着探测器, 一手拿着手枪.</text>
+	</string>
+	<string id="dm_information_325">
+		<text>冷风觉得基地里有人在出卖我们. 我们在半夜侦测到一些无法识别的无线电信号它们似乎被编码了. 我们可能很快就会有新的安全措施了.</text>
+	</string>
+	<string id="dm_information_326">
+		<text>孢子和明眼保持着联系, 他是来自北方的一个很好的信息流. 他刚告诉我明眼报告说他所在区域的活动增加了: 传感器捕捉到了更多的变异体移动, 变异点变化甚至风暴强度 - 那里正在酝酿着什么.</text>
+	</string>
+	<string id="dm_information_327">
+		<text>为了那个破泵站, 你流了多少血? 我都不明白: 它是什么? 是谁造的? 我真希望它已经崩溃了.</text>
+	</string>
+	<string id="dm_information_328">
+		<text>我们有一些真正的老前辈, 但他们越来越少了. 为ISG工作! 但我觉得它们可能随着列别捷夫的出现而消失了.</text>
+	</string>
+	<string id="dm_information_329">
+		<text>见过大沼泽的博士吗? 他像隐士一样住在破铁路桥旁边. 一天晚上, 我看见他在附近游荡; 他吓死我了. 他好像也在梦游. 嗯... 我听说他没有恶意.</text>
+	</string>
+	<string id="dm_information_330">
+		<text>我们需要一把高斯步枪 - 或者是一打. 机会对我们不利, 我们一直被逼得越来越紧. 我们需要扭转局面. 也许我们可以向黑石借一个.</text>
+	</string>
+	<string id="dm_information_331">
+		<text>晴空很幸运, 它的队伍中有忠诚的潜行者, 但我们也有卑鄙的人. 你可能听说过那个叫秃鹰的家伙他从实验室偷了一些神器然后叛逃了; 我们听说他是军方的告密者. 结果, 我们在前几天逮到的叛变暴徒中发现了他的尸体. 真是一件杰作</text>
+	</string>
+	<string id="dm_information_332">
+		<text>老教堂的景色很美, 几乎使大沼泽看起来平静而自然. 走上去摘下我的面具... 我的头脑比特异区里任何地方都清醒. 我认为这是一个神圣的地方. 想笑就笑吧.</text>
+	</string>
+	<string id="dm_information_333">
+		<text>冷风一直在跟我说要和独行者达成某种协议, 不是大胡子就是酒保. 我们总是需要更多的帮助, 多一些情报也无妨, 但领导层中的一些人对潜行者们非常警惕.</text>
+	</string>
+	<string id="dm_information_334">
+		<text>小心你在跟谁说话. 我们需要谨慎行事外面有很多无耻的混蛋为了几卢布就把情报卖给我们的敌人. 保持沉默, 不要和外人一起喝酒</text>
+	</string>
+	<string id="dm_information_335">
+		<text>兄弟, 卡南查教授老了. 总有一天, 他会走的. 谁来填补这个空缺呢? 所有的伟人都死了, 都被埋葬了.</text>
+	</string>
+	<string id="dm_information_336">
+		<text>我想如果食物的情况好一点, 我会更满足. "当地菜"有很多种烹饪方法, 但我就是受够了. 请给我真正的符合辐射标准的食物.</text>
+	</string>
+	<string id="dm_information_337">
+		<text>又一批韦莱斯探测器在途中被盗. 照这样下去, 我们只能用占卜棒来寻找神器了.</text>
+	</string>
+	<string id="dm_information_338">
+		<text>酒吧里有个潜行者告诉我军方正在派特工渗透到所有主要的派系. 我们应该担心吗? 你知道他们有多想终结我们.</text>
+	</string>
+	<string id="dm_information_339">
+		<text>你觉得我们能坚持多久, 真的? 我知道有些人说局势正在稳定, 但我没有看到. 军队一直在逼近我们, 而暴徒们也从不缺少战士. 如果他们占领了基地, 我们能去哪里? 我不确定我们是否能在下一次迁移中生存下来.</text>
+	</string>
+	<string id="dm_information_340">
+		<text>纪律团和自由团完全搞错了. 特异区不是可以"支持"或"反对"的东西, 而是可以理解和容纳的东西. 这些情绪反应给我们带来了麻烦.</text>
+	</string>
+	<string id="dm_information_341">
+		<text>我们当然欣赏科学家们对知识的追求, 但我不确定他们是否理解特异区不仅仅是一个可供提取知识的数据银行. 另一方面, 我也遇到了一些科学家, 他们对特异区里发生的事情很感兴趣.</text>
+	</string>
+	<string id="dm_information_342">
+		<text>军队似乎并不比它声称要对付的土匪强多少. 如果他们是从苏丹的手下招募的, 我一点也不惊讶.</text>
+	</string>
+	<string id="dm_information_343">
+		<text>只要有五分之一的无组织潜行者们相信有必要集中研究和控制特异区我们的人数就能翻一番.</text>
+	</string>
+	<string id="dm_information_344">
+		<text>如果那个混蛋西德洛维奇没有养成在送新人去送死之前给他们灌输童话故事的习惯的话, 独行者可能会有更大的机会.</text>
+	</string>
+	<string id="dm_information_345">
+		<text>晴空一直在寻找更多的人工设备, 所以请让萨哈罗夫教授知道我们有研究可以作为交换.</text>
+	</string>
+	<string id="dm_information_346">
+		<text>如果你碰巧去河湾, 告诉大胡子我们对他手上的任何不寻常的神器都感兴趣. 我们已经有一段时间没和他达成协议了.</text>
+	</string>
+	<string id="dm_information_347">
+		<text>小心你腰带上的东西, 好吗? 这些神器不仅仅有辐射, 所以你需要小心对待它们. 我见过一个潜行者因为他的神器相互作用而被烧死.</text>
+	</string>
+	<string id="dm_information_348">
+		<text>如果你见到酒保, 告诉他我们正在讨论的事情我差不多已经完成了. 他会明白我的意思.</text>
+	</string>
+	<string id="dm_information_349">
+		<text>我想我没有任何你感兴趣的信息 - 我只有在南方发生的信息. 对你们来说一定显得相当不重要; 你们有自己的问题.</text>
+	</string>
+	
+	<!-- FREEDOM -->
+	<string id="dm_information_350">
+		<text>没有什么比特异区更好的了, 兄弟. 你曾见过风暴后的天空吗... 凉爽的风和宁静的空气... 妈的, 我可以写些诗.</text>
+	</string>
+	<string id="dm_information_351">
+		<text>我不是说自由团没种, 好吗? 就像那两个捷克人, 他们是坚定的素食主义者和和平主义者. 拜托, 你见过那种吃人的猫吗? 我打赌他们俩从没出过基地.</text>
+	</string>
+	<string id="dm_information_352">
+		<text>你这些规矩和控制是怎么回事? 我们需要确保自由团组织忠于其根源: 个人自由和自由表达. 我以为我们是在和法西斯作战, 而不是邀请他们进来...</text>
+	</string>
+	<string id="dm_information_353">
+		<text>一些潜行者认为特异区只是他们暴力倾向的释放场所. 就像那些四处射击小鸟或小狗的混蛋... 有些人到底怎么了?</text>
+	</string>
+	<string id="dm_information_354">
+		<text>自由团最大的好处就是我们都是兄弟. 这里没有模仿军队打手的可悲行为: "是的, 长官, 不, 长官"之类的屁话. 不, 我们互相照顾是因为我们在乎对方, 而不是某个自大的混蛋让我们这么做.</text>
+	</string>
+	<string id="dm_information_355">
+		<text>我知道所有的笑话, 但别对吸血鬼掉以轻心. 不止一个, 几个自大的菜鸟跑进了废弃的村庄再也没人见过他们. 他们再也没有完整地出现过.</text>
+	</string>
+	<string id="dm_information_356">
+		<text>我喜欢把仓库想象成特异区的快乐小中心. 纪律团来自罗斯托克, 雇佣兵来自死城, 狂热分子来自雷达, 吸血鬼在西方, 游客从北方红森林来, 我们在南方. 你可以想象, 这个中心是一个非常繁忙的地方.</text>
+	</string>
+	<string id="dm_information_357">
+		<text>法西斯主义者也许处于守势, 但不要低估他们. 他们仍然有足够多的怒火, 可能变成一个麻烦.</text>
+	</string>
+	<string id="dm_information_358">
+		<text>所以纪律团是特异区的防御者, 对吗? 我没看到他们在死亡屏障干活, 他们有多少人在和被洗脑的疯子战斗中牺牲? 嗯, 我也得表扬守门人, 他真是个令人印象深刻的人.</text>
+	</string>
+	<string id="dm_information_359">
+		<text>如果你感到沮丧, 去找指路人聊一会儿. 那家伙即使在风暴, 雨中也睡得着, 没什么能破坏他的心情.</text>
+	</string>
+	<string id="dm_information_360">
+		<text>大自然给了我们一份不可思议的礼物 - 美丽和神秘的特异区, 政府把它围起来, 卖给出价最高的人. 就像那些经典故事一样. 即便如此也比只想看着它燃烧的纪律团的混蛋强.</text>
+	</string>
+	<string id="dm_information_361">
+		<text>自由团里没有假正经, 但某些行为是群体所不能接受的. 例如, 我们都喜欢吃点东西来缓解压力, 但是不要对冰毒上瘾 - 你会被解雇的. 他们大多数都加入了土匪, 我们不希望这种人在这里.</text>
+	</string>
+	<string id="dm_information_362">
+		<text>在那个世界里, 我是一个背包客, 而且是一个极端的背包客. 这就是我来这里的真正原因, 去探索一些超越世界上其他一切的自然. 我觉得自由很酷, 所以我加入了, 但我还是有机会去特异区深处旅行. 你应该什么时候跟我一起来, 伙计 - 只要给所有的变异生物都带点见面礼就行了.</text>
+	</string>
+	<string id="dm_information_363">
+		<text>这个故事怎么样, 兄弟: 我在红森林是因为我的一个朋友刚离开特异区给我留下了他藏物的坐标和找神器的工具. 我不是傻子, 所以我会慢慢来, 先观察, 然后偷偷摸摸. 我的PDA把我带到一棵大树前; 我绕着它走了一圈, 发现我朋友的背包在树干下的一个大裂缝里. 我正要离开, 这时我听到树的另一边传来了脚步声. 我想大概有5到6个人, 他们停止移动了一段时间, 所以我偷偷地看了看旁边: 一群黑石! 所以我就蹲在那里, 躲在树后, 一半的身体在裂缝里. 他们不说话, 但会发出奇怪的嗡嗡声. 与此同时, 我在想对我来说一切都结束了; 他们随时都会注意到我. 想象一下, 我就这样等了六个小时! 然后他们就走了, 我赶紧回家了.</text>
+	</string>
+	<string id="dm_information_364">
+		<text>自由团里那些渴望权力的混蛋是怎么了? 我建议我们应该把在特异区里找到的资源集中起来然后平均分配给所有派系成员, 但他们拒绝了我! 我猜这群人都是奸商. 这里没人想谈经济.</text>
+	</string>
+	<string id="dm_information_365">
+		<text>很遗憾, 在亚诺瓦车站和仓库之间往来如此之难 - 虽然你可以在雷达和红森林选择道路. 哦, 天哪, 多好的选择啊! 去吧, 在注定的死亡和几乎注定的死亡之间做出选择. 老兄, 我有段时间没见老朋友了.</text>
+	</string>
+	<string id="dm_information_366">
+		<text>如果你既需要对付当地的动物, 也需要对付军队里的小工, 那就去吝啬鬼家吧. 他可以帮你找个真正的北约配件. 不过你卖东西给他的时候要小心 - 他真是精打细算.</text>
+	</string>
+	<string id="dm_information_367">
+		<text>就拿特异区来说吧, 伙计 - 世界上最自由的地方. 不用法律, 不用警察, 不用掐脖子. 这是自然法则, 你最好遵守它的程序, 否则你会被废掉. 我就不会. 特异区和我很合拍.</text>
+	</string>
+	<string id="dm_information_368">
+		<text>如果你想知道什么, 就去亚诺瓦车站找雅叔. 那家伙见识了不少 - 他来特异区比你我都早. 从黑暗山谷到普里皮亚季他都见过; 如果他没有安顿下来, 永久成为一名修理工, 那他依然是我的后盾.</text>
+	</string>
+	<string id="dm_information_369">
+		<text>你知道科学家们只接触特异区的表面吗? 好吧, 你可能不知道, 但这个特异区实际上是一个全球神秘能量热点. 不, 我不是说狗屁的占卜, 我是说它是物质现实和存在的统一能量之间的生命线. 是的, 大多数人都太封闭了, 不愿听这些, 但当你考虑到特异区已经是多么的怪异和陌生时, 这并不牵强. 你觉得那些Psy风暴是从哪里来的, 那些我们一直听到的疯狂的精神控制的东西? 这里隐藏着一种力量, 一种生命力. 我只是想了解这一切, 仅此而已.</text>
+	</string>
+	<string id="dm_information_370">
+		<text>林布真的很吸引我, 他讲的是普里皮亚季北边的各种神器. 如果你要相信任何一个变异点专家, 为什么不选择一个真正去过变异点里的人?</text>
+	</string>
+	<string id="dm_information_371">
+		<text>我想祖鲁是我唯一喜欢的纪律团成员, 他似乎还有点理智. 大多数纪律团成员宁愿在暴风暴中坐在外面, 也不愿与自由团共处一室. 他做得很好, 但不可能永远好下去. 现在, 我们是亚诺瓦的合法所有者 - 本来就该如此.</text>
+	</string>
+	<string id="dm_information_372">
+		<text>我认为严格的等级制度会扼杀一个人的创造潜力. 他不仅成为了一个有辱人格的机器齿轮, 而且我认为他也失去了他的能力. 没骨气会失去效率. 这也是洛基告诉我的. 他是个有见地的人.</text>
+	</string>
+	<string id="dm_information_373">
+		<text>那些潜伏者是从哪来的? 有一天每个人都开始谈论他们就像他们一直在这里一样. 这说明特异区里不友好的区域总是在为你制造新的惊喜. 我还想补充一点, 仓库真的不需要更多的客人, 尤其是那些喜欢吃人肉的人.</text>
+	</string>
+	<string id="dm_information_374">
+		<text>我不怀疑有更可怕的地方, 但我认为最令人不安的是死亡屏障. 你只是在那里等待, 凝视着被刺穿的头骨和燃烧的残骸, 想知道这条路上会发生什么, 想知道是否有什么即将出现. 总有一天, 某个无法阻挡的东西会从那个通道里出来, 那将是我们的末日.</text>
+	</string>
+	<string id="dm_information_375">
+		<text>哟, 最近他妈的怎么了? 有个家伙正在将LSD与某种变异物质混合 - 杀了几个人. 然后那些爱沙尼亚人被电死了, 他们想做一个盗版收音机来激怒纪律团. 然后是黑石 - 这些天供水情况如何?</text>
+	</string>	
+	<string id="dm_information_376">
+		<text>兄弟, 注意新人做任何可疑的事情. 卢卡许说这些天纪律团正试图渗透我们. 纪律团! 你能想象一些顽固的军队小鬼试图把自己伪装成自由团吗? 无论如何, 请保持警惕.</text>
+	</string>
+	<string id="dm_information_377">
+		<text>我知道卢卡许与外面的一些同事保持密切联系, 以维持通过边境的安全路径. 除了加强自由团的战斗力外, 他还努力为爱好者提供便利, 让他们能进入自由开放的特异区. 但他必须小心, 因为几年前有人告密, 军队的痞子们像一堆砖头一样砸向我们.</text>
+	</string>
+	<string id="dm_information_378">
+		<text>该死的, 我们真的需要更加注意风暴警告; 每次我们从洞里爬出来, 都会有另一个人再也听不到广播了. 我们发现他们时, 通常都蜷着身子, 胡言乱语.这是一种悲惨的死亡方式.</text>
+	</string>
+	<string id="dm_information_379">
+		<text>伙计, 我的皮疹已经灼烧了我好几个星期了. 我一直在回避索里德, 因为... 好吧, 特异区里没有任何渎职的律师. 也许这是一种祝福.</text>
+	</string>
+	<string id="dm_information_380">
+		<text>几个月前, 自由团有一个真正的精神病患者离开了, 你认识他吗? 好吧, 我不记得他的名字了, 但这很奇怪, 即使对于特异区来说. 这家伙还以为自己是弗拉基米尔·列宁的转世, 就这样到处乱说. 他不只是一个对马克思主义产生兴趣的孩子, 这家伙有问题. 他想在特异区进行经济改革, 在自由方面一切都很好, 但是... 他认为变异生物是被压迫阶级, 所有潜行者都是剥削者. 是的. 虽然, 我确实看到他亲自杀死了一个吸血鬼, 我认为他在这样做时称其为"阶级叛徒". 是的, 那个人真的疯了. 不过我们有点喜欢他, 他就像村里的疯子. 有一天, 他走出了基地, 再也没有回来. 现在的自由团有点沉闷.</text>
+	</string>
+	<string id="dm_information_381">
+		<text>有点讽刺的是, 我们一直在谈论开放的特异区, 却负责管理死亡屏障. 嘿, 我不是在抱怨, 只是觉得讽刺在特异区通常很有意思.</text>
+	</string>
+	<string id="dm_information_382">
+		<text>伙计, 去他妈的林布, 这家伙是个隐蔽的纪律团成员和前雇佣兵. 就因为他被一个变异点搞砸了, 现在他讨厌特异区创造的奇迹. 我的意思是, 如果他这么想, 他还在自由团中做什么? 无论如何, 他对我们人的方式就是个混蛋, 只是我们的人遇到了困难, 他就让我们的人退出. 他比自由团更像雇佣兵 - 当我们最好的潜行者被干掉时, 他根本不在乎; 他还要拿这个开玩笑!</text>
+	</string>
+	<string id="dm_information_383">
+		<text>坚持住, 我们是唯一能阻止工业化占领特异区的人. 没有人会做这件事. 当我在游览完特异区的自然防御系统后, 手里拿着一份月光, 我看到了它绚丽的美丽, 看到大自然的奥秘在我面前解开... 我在想如果这地方变成政府采石场会是什么样子, 提取这些神器来制造武器, 全都卖给全球市场上的最高出价者. 不能让它发生.</text>
+	</string>
+	<string id="dm_information_384">
+		<text>我不知道自己是不是疑神疑鬼了, 但我总有种被跟踪的感觉. 无论我在哪里: 在亚诺瓦车站闲逛, 在仓库值勤, 外出巡逻... 有个东西在那里, 在我的眼角有个东西一直缠着我不放, 像是不祥的预兆. 也许我应该暂时放下这些沉重的东西, 但它能帮我忘记这是什么. 你觉得呢? 是有几只脑波怪在扰乱我的思绪吗? 这破东西让我连个好觉都睡不好. 如果我死的不明不白, 你就会知道我是对的.</text>
+	</string>
+	<string id="dm_information_385">
+		<text>我不懂那些喜欢雇佣兵的自由主义者 - 什么鬼? 那些家伙是比我们对抗的军队白痴更糟糕的奸商; 他们每个人来这里都是为了把特异区的一部分卖给他们的私人雇主</text>
+	</string>
+	<string id="dm_information_386">
+		<text>我们中有些人对死城中的贪财佣兵非常警惕, 但据我所知他们还不错. 纪律团和自由团多年来几乎处于僵持状态; 雇佣兵也许能帮我们扭转局面. 他们不是很友好, 但他们真的能对付射手.</text>
+	</string>
+	<string id="dm_information_387">
+		<text>这些土匪中的一些是坏消息, 但其他的家伙更像我们: 他们只想过得愉快, 他们不希望任何木偶操纵他们. 如果你情绪低落, 他们也能帮你.</text>
+	</string>
+	<string id="dm_information_388">
+		<text>什么时候更多的独行者才会意识到他们必须为特异区而战? 否则, 它就不会存在了. 他们在口袋里塞满了神器, 然后就离开了. 没有感谢, 没有感激.</text>
+	</string>
+	<string id="dm_information_389">
+		<text>爱死书呆子了. 他们太关注自己的测量结果和测试结果以至于无法看清特异区的真实面目. 他们只看到了特异区的用处, 而不是它本身的价值. 你能指望政府的人做什么呢?</text>
+	</string>
+	<string id="dm_information_390">
+		<text>诶, 自己人! 去仓库或者木星地区找我们. 我们会玩得很开心的!</text>
+	</string>
+	<string id="dm_information_391">
+		<text>嘿, 兄弟, 你知道夏威夷吗? 他让我问潜行者们知不知道一个叫德格特雅里夫的人. 嗯, 我不知道. 告诉他我会帮他个忙.</text>
+	</string>
+	<string id="dm_information_392">
+		<text>你们在卡车墓地喜欢干什么? 观鸟吗? 我只看到恶心的乌鸦和偶尔的武装直升机.</text>
+	</string>
+	<string id="dm_information_393">
+		<text>你好, 我的科研同事! 你手头有药品吗? 我现在就需要一些.</text>
+	</string>
+	<string id="dm_information_394">
+		<text>嘿, 这家伙想杀了我!... 没有, 只是说说而已. 你做什么鬼脸? 你得放松点, 朋友.</text>
+	</string>
+	
+	<!-- MERCENARIES -->
+	<string id="dm_information_395">
+		<text>这只是另一份工作. 不多, 不少. "特异区这!", "特异区那!". 谁他妈在乎? 它只是个地方, 只是碰巧比大多数地方都要危险. 我是来工作的, 而且我会把该做的事做好.</text>
+	</string>
+	<string id="dm_information_396">
+		<text>我是资讯亭吗? 你为什么不四处看看呢? 反正别人都在跟你胡言乱语, 还是亲眼看看比较好.</text>
+	</string>	
+	<string id="dm_information_397">
+		<text>效率是特异区的关键. 为什么任务会失败? 为什么潜行者在变异区会死亡? 这是效率的问题. 你必须知道你应该做什么, 并以最合适的方式去做. 一旦你决定了要做什么, 就去做 - 不要再猜测, 不要犹豫. 不要让某种错位的同情心妨碍你; 射击然后继续.</text>
+	</string>	
+	<string id="dm_information_398">
+		<text>我们不是第一个对特异区感兴趣的外部机构, 也不是最后一个; 他们都在特异区里试探, 看能不能从中得到些什么. 你在篝火旁遇到的那个友善健谈的独行者 - 他可能在替任何人做事. 你不会相信我在这里看到了多少外国关系 - 伊朗人, 中共, CIA... 还有一些我最好不要提的.</text>
+	</string>	
+	<string id="dm_information_399">
+		<text>最好做好应急计划, 尤其是在这里. 我今天的友好建议是: 必须做. 花几个小时带张地图, 计划好路上可能发生的一切, 以及你会怎么做. 然后, 记住这个计划, 这样你就可以随时利用它. 这是在这里取得成功的唯一方法, 你需要为每件事制定计划. 这就是为什么当黑石从北方泛滥而来时, 我们的人将是唯一活着讲述故事的人.</text>
+	</string>		
+	<string id="dm_information_400">
+		<text>如果你感到地动山摇, 那很有可能你完蛋了. 那可能是一个大脚怪渴望你美味的肉. 有一个轻型侦察小队被盯上, 所以他们决定与之交战. 他们向它打铅弹, 而它依然不退缩. 他们打光了所有的弹匣, 它依然不退缩. 你觉得他们被追杀时是什么感觉? 你能向那些怪物求饶吗? 不. 他们死时手里只拿着一把刀. 这个故事的寓意是: 带上一挺榴弹发射器或者一双好的跑鞋.</text>
+	</string>
+	<string id="dm_information_401">
+		<text>人们认为人多力量大. 也许吧. 但特异区是分而治之的大师. 我们观察到这支军队曾试图向河湾推进, 以便在那里建立桥头堡; 我们要确保我们的利益不受损害. 这些人拥有一切: 机动运输载具, 重型武器, 直升机还有你想要的人手. 在数英里的受辐射的、地图上未标明的、敌对的领土上, 它们开始解体; 特异区收取了通行费. 人消失得无影无踪, 车辆抛锚或被困住, 无法通过的变异区阻碍了行动. 当探险队的残骸一瘸一拐地进入河湾时, 几乎什么都没留下. 然后, 有人伏击了他们, 结束了这一切. 特异区才不在乎你的军力.</text>
+	</string>	
+	<string id="dm_information_402">
+		<text>我发现特异区似乎吸引了人性中最糟糕的元素, 并使它们更加堕落. 各种肮脏的人在这里游荡试图逃避法律, 甚至是自然法则. 我们发现了一个类似撒旦崇拜之类的巢穴. 他们绑架路过的潜行者, 把他们折磨致死, 喝他们的血. 没有开玩笑. 我们的一个人失踪时听到了风声; 我们最终在一个肮脏的地下室找到了他们的小洞, 我们就扔了几十个手雷, 直到抵抗停止. 问题是, 我们认为可能有更多. 我们在红森林和亚诺瓦也听到了类似的故事.</text>
+	</string>
+	<string id="dm_information_403">
+		<text>死城还没死. 一开始看起来是这样, 但在阳光照射不到的暗处, 通常有什么东西潜伏着. 我们已经走遍了所有的建筑和通道, 但别一个人进去. 自从老住户搬出去后, 就有一群安静但稳定的新住户陆续搬进来. 我们的设备是最新增加的.</text>
+	</string>
+	<string id="dm_information_404">
+		<text>这一切到底有什么意义? 回答我. 这些非常重要的文件, "至关重要的"神器, 我们需要消灭的卑鄙小人... 一共多少钱? 这地方就是个屠宰场和某种变态实验室的综合体. 拿着这个, 杀了那个... 他们懂什么?</text>
+	</string>
+	<string id="dm_information_405">
+		<text>你想要什么? 也许你应该停止寻找免费的资料, 自己去看看. 这里有一个提示: 南方又臃肿又无聊, 北方充满了死亡, 军队的马屁精从另一边包围了我们, 所以选个方向, 开始走吧.</text>
+	</string>
+	<string id="dm_information_406">
+		<text>在利曼斯克有一个类似无人区的地方, 在那里我们可以看到敌人的土地, 黑石. 那里总是有点怪异, 而且很安静; 好吧, 在事态发展之前保持安静. 我可以告诉你为什么他们被称为黑石: 这是因为他们总是作为一个整体像石头一样. 这是"石"的部分. 他们也不会停下, 直到你结束他们的生命, 他们只是不在乎 - 当他们有行动能力时, 他们会试图一枪爆了你的头. 这是"黑"的部分. 他们不顾一切 - 疼痛, 寒冷, 黑暗, 人数 - 他们将像完美的机器, 像磐石一样坚不可摧.</text>
+	</string>
+	<string id="dm_information_407">
+		<text>特异区的北方饥肠辘辘. 普里皮亚季, 核电站, 雷达 - 他们嗷嗷待哺. 他们最喜欢资金充裕的军事探险队的血肉. 独行者寻求未知的奇迹, 强盗低等人喜欢打劫他们, 各种派系追求他们的小目标 - 所有的肉都是为特异区饥饿的肚子准备的. 我相信你已经注意到很少有潜行者去了那里并且再也没回来. 这取决于你, 你够绝望了吗?</text>
+	</string>
+	<string id="dm_information_408">
+		<text>如果你喜欢战区, 军方仓库是一个有趣的度假胜地. 这也是我们的后院, 所以我们需要一个边境警卫来阻止不三不四的人进入; 幸运的是, 大部分都被吸血鬼村封锁了, 大多数潜行者甚至一提到那个地方就会呕吐. 有时感觉我们是操场上唯一的成年人.</text>
+	</string>
+	<string id="dm_information_409">
+		<text>我不知道. 似乎有人在其中一个地下实验室中打开了一扇门, 因为怪物正以前所未有的方式涌入特异区. 我以前在木星地区附近的时候见过一种叫狂暴侏儒的东西. 邪恶又危险的小混蛋, 他们也有自己的小把戏, 所以别小看他们. 他们用你自己的力量来对付你, 当你和你的设备都坏了的时候 - 然后他们就会靠近你, 用牙齿咬断你的喉咙.</text>
+	</string>
+	<string id="dm_information_410">
+		<text>有一次找工作, 跟杨塔的一些卤蛋脑袋签约, 真简单: 去农研所地下通道从保险箱里拿些文件. 没什么大不了的: 隧道里很安静, 我们在各个方面都有掩护, 保险柜甚至还为我们打开了. 我们把这个叫沃龙的白俄罗斯人留在外面的房间, 而我们去了里面的房间, 里面有文件. 五分钟后, 我们找到了需要的东西, 返回时却发现沃龙不见了; 没有痕迹, 没有线索, 什么都没有. 他在一堵墙的另一边, 离我们十英尺远, 我们什么也没听到或看到. 他消失了 - 或者, 在我看来, 被带走了. 特异区安静的时候, 你就该紧张了.</text>
+	</string>
+	<string id="dm_information_411">
+		<text>没有比从死城到杨塔的漫长而安静的道路更让我讨厌的地方了. 我想我还是去雷达里转转吧. 当你走到城市以南一公里左右的地方, 你会发现除了自己的脚步, 你什么声音都听不到. 那里总是黑暗的, 即使阳光在晴朗的天空中闪耀也不足以照亮那片灰色的荒芜. 更不用说你脑子里响起的警钟, 告诉你有什么大东西一直在盯着你. 然后你必须穿过工厂的生物场发射器, 这是一个非常糟糕的主意, 即使那个讨厌的东西碰巧被关闭了. 从现在开始我要四处走走.</text>
+	</string>
+	<string id="dm_information_412">
+		<text>不要和外人过于亲近;你永远不知道他们什么时候会是你的下一个任务.</text>
+	</string>
+	<string id="dm_information_413">
+		<text>过去是不一样的. 在过去, 我们受雇于各种各样的外部雇主来完成一项小任务 - 通常是有人在找一些特殊的神器, 一套研究文件, 或者是几个怪人来收集某人的私人收藏. 我们曾经是特种小组: 进去, 设立前哨, 完成任务, 尽快离开. 现在一切都变了. 当杜什曼决定将特异区的所有雇佣兵组织成一个严格的等级制度并有一个永久的基地时, 私人团队被赶出特异区或被杀. 问题一直是 - 就这样了吗? 是否有一些非常强大的雇主在寻找特别的东西? 我们是为杜什曼工作还是为其他人工作? 我说的够多了.</text>
+	</string>
+	<string id="dm_information_414">
+		<text>你得放松一下, 否则你会疯掉的. 大多数人去喝酒, 我觉得这可能是个好主意. 否则, 你就会开始毫无理由地杀人. 例如, 我们快乐的调酒师阿斯兰; 当他第一次来到这里时, 他就以真正的疯子而闻名. 你别他妈跟他过不去, 否则你会被扔进沟里, 或者谁知道什么地方. 正如你所看到的, 从那以后他变得成熟了, 尽管他仍然非常神秘. 但你仍不知道他是怎么脱身的; 也许这是一个最好不要回答的问题.</text>
+	</string>
+	<string id="dm_information_415">
+		<text>美洲豹在我们把死城作为总部之前就已经在这里了, 自从他几年前进入特异区, 这里就一直是他的家. 他大部分时间都待在死城, 在隧道和地下室里寻找着什么, 但他从来没说过是什么东西. 和我们一样, 他选择把体育中心作为自己的藏身之处; 出于某种原因, 它是死城中少数几个相对平和的地方之一. 你能想象他在早晨独自一人, 安静地抽着香烟望着城市广场吗?</text>
+	</string>
+	<string id="dm_information_416">
+		<text>我认识一个多年前离开特异区的老家伙, 但他可能是我见过的最厉害的潜行者. 他曾经隶属于海豹特种部队, 他知道如何在世界上最烂的地方生存, 听说我们有最烂的地方他就来了. 那个疯狂的混蛋独自生活在荒野里, 收获变异生物的肉并通过变异点和辐射绘制路径. 那家伙根本不在乎什么神器或者理想主义, 他只是想要挑战.</text>
+	</string>
+	<string id="dm_information_417">
+		<text>我可以告诉你, 在这里有大约6000种方法可以导致你的死亡, 而新的方法一直在被发明. 几天前的晚上, 我们的一些特工被听起来像哨子的东西惊醒. 随着夜幕的降临, 声音越来越大, 直到他们塞住耳朵, 试图掩盖痛苦. 到日出的时候, 它已经消失得无影无踪了, 但这并不是故事的结局. 那四个人中有三个人后来死了, 显然是某种脑动脉瘤. 他们遵守了所有的规则, 结果: 败给了特异区.</text>
+	</string>
+	<string id="dm_information_418">
+		<text>这次行动不同于以往, 这里不是摩苏尔, 不是格罗兹尼, 也不是塞拉利昂. 这里没有平民, 没有友邦领土, 没有后援. 每当你走进一个新地方, 你可以打赌当地居民想要你死, 还有野生动物, 甚至是该死的自然法则. 特异区不想让我们来, 没人想让我们来. 赶快醒醒吧.</text>
+	</string>
+	<string id="dm_information_419">
+		<text>多年来我一直在说我们需要调整军备以适应这种环境. 花里胡哨的步枪、轻机枪和自动霰弹枪都很不错, 但如果奇美拉毁了你的一天, 那还有什么意义? 这是特异区: 没有日内瓦公约, 没有海牙, 所以这鬼地方是什么毛病? 一战的重演? 每个探险队都有火焰喷射器和毒气. 这样就能把怪物挡在外面了. 下一步是不是该上白磷弹了? 还是别跟特异区对着干.</text>
+	</string>
+	<string id="dm_information_420">
+		<text>军事训练有助于保持冷静和警惕, 但这对特异区来说是不够的. 很多强悍的特种部队都因为低估了特异区而失败了. 另一方面, 许多传说中的潜行者都是无名之辈: 渔民、电工、小偷小摸的罪犯... 有人说这是经验, 也有人说这是一种与生俱来的本能. 我只知道, 这里的规矩都不一样.</text>
+	</string>
+	<string id="dm_information_421">
+		<text>妈的, 那些法国混蛋喝醉了还能唱歌. 还能不能他妈的好好睡了? 而且他们的俄语很烂, 也许他们可以多花几天时间学习这门语言. 啊, 见鬼. 只要他们能掌握野外的情况, 他们就算用中文交谈, 我都不在乎. 你刚刚说了什么?</text>
+	</string>
+	<string id="dm_information_422">
+		<text>现在体制好多了. 当承包商将自己的团队派往特异区时, 他们组织的一团糟, 几乎没有避免被雇主自己或特异区其他居民搞砸的保护措施. 现在, 特异区内的任何工作都要经过杜什曼, 杜什曼会协商出更好的价格, 同时也为特异区内的特工提供更多安全保障. 不过, 有时外部组织会试图绕过他. 去年, 阿斯兰抓获了一小队以色列人, 他们试图带着一些可再生的神器离开特异区; 我们在他们的个人资料中发现了资助他们的制药集团的通信. 我们给他们发了一条信息, 非常明确的信息. 如果他们想在这里完成任务, 你要么付我们钱, 要么下地狱.</text>
+	</string>
+	<string id="dm_information_423">
+		<text>通讯中断时, 我们以为格里芬的团队完蛋了. 我们听说他们发现了特种部队, 然后就沉默了; 自然地, 我们认为他们已经死了. 几个月后, 我们的一个小队在普里皮亚季郊区追踪一个受伤的大脚怪, 嘿看那边, 格里芬的小队还活着, 还在书店里. 他们解释了自己的处境, 但杜什曼还是很生气. 他们不想空手而归, 因为他们知道杜什曼会责骂他们. 所以我们出现了一种僵局, 在普里皮亚季郊区的前哨站在自己的指挥下, 但仍然忠于杜什曼. 这情况不可能永远持续下去, 必须得快点了.</text>
+	</string>
+	<string id="dm_information_424">
+		<text>有时候, 让一些潜行者来指导你去更棘手的地方是值得的. 记住, 如果他们发现了什么不光彩的东西, 你可能需要清理一下.</text>
+	</string>
+	<string id="dm_information_425">
+		<text>我们必须保留一个安全的行动基地, 以便在其他地方发动任务. 这就是为什么杜什曼对任何未经他同意就接近死城的人如此偏执. 这就是为什么那些被抓到做间谍的土匪们食指都被砍掉了. 还有其它一些人... 再也没有消息了.</text>
+	</string>
+	<string id="dm_information_426">
+		<text>你打算如何使用你的报酬? 我都无法想象外面的世界了. 别墅, 女孩, 酗酒... 他们不像以前那样吸引我了. 现在感觉这就是现实: 特异区. 我觉得我永远都不会离开.</text>
+	</string>
+	<string id="dm_information_427">
+		<text>特异区是最近记忆中最大的机会. 不, 我不会喋喋不休地说什么神器, 发现什么的. 我的意思是, 这可能会成为一个新国家的开端, 由懂得如何办事的有能力的人统治. 我见过几次起义失败, 但特异区不一样. 这里的无法无天和无政府状态足以让我们从头开始. 好在这地方能把弱者和无用的人都挑出来, 这样我们就不用为他们操心了. 我们真正要对付的只是这里的小派系, 但别以为我们不能对付他们. 我们真正要担心的是黑石 - 他们才是真正能发号施令的人.</text>
+	</string>
+	<string id="dm_information_428">
+		<text>我能看到不存在的面孔. 我知道这是陈词滥调, 但事实就是这样. 你用12倍的放大镜观察目标你可以看到他脸上的每一个表情, 每一次眨眼. 然后, 你扣动扳机, 你就能看到那张脸是怎么死的, 你就能读出眼睛后面发生了什么. 即使他们戴着面具... 他们仍然有"面孔" - 那些也在你的大脑中留下了印记. 它们在你的梦里变成了脸, 它们的玻璃眼睛和橡胶嘴扭曲成痛苦和困惑的表情. 真是见鬼, 离我远点.</text>
+	</string>
+	<string id="dm_information_429">
+		<text>外科医生已经放弃了用枪的方法, 但对我来说, 他还不如十个笨拙的士兵. 那家伙几乎能让死人起死回生. 有一次他救了一个人, 他的胸腔有一根一米长的钢筋伸出来 - 一只吵闹鬼把它插在了他的右肺里. 经过三个小时的主刀手术, 雇佣兵的情况稳定了. 这家伙是个奇迹创造者! 有趣的是, 没有人了解他; 有传言说他曾经驻扎在木星地区附近, 但没人确切知道.</text>
+	</string>
+	<string id="dm_information_430">
+		<text>好吧, 一个经典的故事, 但很值得再讲一遍. 甚至可能是真事. 日落的时候, 一些雇佣兵车辆在工厂的南边, 刚刚绕过一个巨大的重力场. 他们找到了某种工厂的车库, 决定在这里过夜. 他们推开那扇锈迹斑斑的大门, 屋里一片漆黑, 真的很黑. 一个手电筒打开, 他们马上看到一个奇美拉的脸 - 它就在那里等着. 那个开灯的人甚至没有机会转弯, 他的同伴们惊慌失措地向他开枪, 他被猛扑过来, 撕成碎片, 然后向不同的方向逃跑了. 很快, 就只剩下一个人了, 他躲在一个旧油箱后面. 他等待, 他等待, 他听到接近他的东西, 他知道他要完了. 变种怪物转过街角发现了他... 突然, 一辆蓝色的BTR不知从哪开过来, 撞上了奇美拉. 然后它驶进了夕阳之下. 什么, 你不相信吗?</text>
+	</string>
+	<string id="dm_information_431">
+		<text>维克托是垃圾处理站的人, 他负责向我们在这片区域的团队出售补给. 他也是个十足的混蛋. 别想着你借给他的东西能要回来. 他说的关于变异点的任何一个字都不要相信 - 我相信他实际上是想害死人. 科林是更好的信息来源.</text>
+	</string>
+	<string id="dm_information_432">
+		<text>野猪可不是开玩笑的, 如果你想证明这一点, 我的整条腿上都有一道漂亮的疤痕. 你在远离工厂和城镇的农村看到它们, 通常只是在远处吃草, 你不会注意它们. 然后, 突然间, 他们就毫无征兆地扑到你身上 - 那可是600磅愤怒的变种生物的角和蹄. 把他们引到爆炸陷阱里通常很好, 但如果你有撤退路线, 你也可以从远处狙击他们.</text>
+	</string>
+	<string id="dm_information_433">
+		<text>都是狗屎. 为什么这么说. 我以前在叙利亚开过直升机. 现在我要在几公里外的受辐射的地狱里弓着背, 留意那些携带实验用高斯炮逃跑的精神病患者. 也可能是基因缺陷的愤怒心灵控制者. 我等不及要离开这里了.</text>
+	</string>
+	<string id="dm_information_434">
+		<text>阿斯兰曾经把我和其他一些特工当作一种渗透单位, 潜入其他派系一段时间, 然后我们就会被报告失踪, 消失在特异区里. 是啊, 我们喜欢监视特异区里的其他玩家, 我们对他们的了解比他们想象的要多.</text>
+	</string>
+	<string id="dm_information_435">
+		<text>没有什么比所谓的"潜行者"更可悲的了 - 没有培训, 没有组织, 没有计划... 他们通常都是容易下手的目标, 但通常特异区的其他人会比我们先下手为强.</text>
+	</string>
+	<string id="dm_information_436">
+		<text>土匪是完全的渣滓, 他们屁兜里都找不到一张地图, 但他们可以在我们的行动过程中提供帮助. 我们有时也和他们做生意, 通常是出售装备和军火, 以换取从独行者那里掠夺来的文物.</text>
+	</string>
+	<string id="dm_information_437">
+		<text>豪格以前和军方仓库里的一些自由主义者是好朋友, 我们有时还和他们谈生意. 至于我自己, 我觉得那些笨蛋瘾君子不配活下去. 我怎么会不喜欢让其中一些笨蛋永远闭嘴呢.</text>
+	</string>
+	<string id="dm_information_438">
+		<text>我们和这些书呆子打交道的历史很长, 也很复杂. 有时我们在军队溃败时保护他们, 有时他们未经授权就派我们到特异区去取东西, 有时他们有个新大哥帮他们看管些没用的玩意. 你可能也知道布莱克的团队发生了什么, 但那是过去的事了. 我想我们最近已经达成了停火协议, 但谁知道呢?</text>
+	</string>
+	<string id="dm_information_439">
+		<text>那些军队的孩子是如此的没有希望 - 他们的指挥结构充满了愚蠢和贪婪的傲慢. 如果我们被雇来阻止特异区里的潜行者, 事情可能就不一样了. 公平地说, 一些军人是很好的运营商, 我想有些人甚至已经站到我们这边来了.</text>
+	</string>
+
+	<!-- BANDITS -->
+	<string id="dm_information_440">
+		<text>你所要做的就是遵循常识的规则: 当你可以从一个被骗的人身上取下神器时为什么要冒险去进入变异点? 为什么要等那个独行者杀了你而不是在他有机会之前废了他? 为什么要被一群狗吃掉? 你可以打你朋友的膝盖然后逃走. 别跟我说什么做好人的话, 这是真实的世界. 就像它来的那样真实.</text>
+	</string>
+	<string id="dm_information_441">
+		<text>你见过那些把你脑子搞得一团糟的光头党怪人吗? 一些人叫它们脑波怪. 我叫它们婊子. 只要在他们脑子里放点铅他们就不会那么坚强了. 办不到吗, 娘炮? 我杀过几十个人, 问问这里真正的战士就知道了.</text>
+	</string>
+	<string id="dm_information_442">
+		<text>在外面的世界里, 我是一个非常令人向往的男人. 没错, 我身边有当地警察, 内政部, 甚至该死的国际刑警组织. 我想看到他们现在如何找到我. 你能想象有个只上白班的猪或者自大的鬼想要进来吗?</text>
+	</string>
+	<string id="dm_information_443">
+		<text>我老爸年轻的时候就在营地里, 他在那里为自己赢得了名声, 从不接受任何人指责, 并从别人那里得到他想要的东西. 你知道那时候怎么处理事吗? 他被称为"手腕"因为他反手打了一些笨蛋. 他总是把我打得屁滚尿流, 但我现在感谢他 - 他教会了我需要知道的一切.</text>
+	</string>
+	<string id="dm_information_444">
+		<text>整个特异区都在呼吁秩序, 对吧? 谁来给他们? 独行者不感兴趣, 军队就是个笑话, 纪律团? 别逗我笑. 唯一能给这个疯人院一个结构的人是我们和那些黑石的疯子. 我觉得你不会想看到他们会下什么样的命令.</text>
+	</string>
+	<string id="dm_information_445">
+		<text>我给你讲些奇怪的东西. 一天晚上, 我在卡车墓地前哨站的南边抽烟休息, 周围没有其他人. 然后我听到了引擎的声音, 不是开玩笑, 在南边的某个地方. 我想: "所有这些卡车都锈了五十年了", 但事实就是如此. 它在移动, 听起来就像有人在开车. 我想如果有人想把他们的车藏起来, 墓地是最好的地方. 或者只是特异区又在耍我们了.</text>
+	</string>
+	<string id="dm_information_446">
+		<text>如果我是你, 我就会在你伏击之前准备点东西. 喝点伏特加确实能缓解压力, 但没有什么比喝点可卡因更能提神的了. 做决定要容易得多, 你也不怕受伤.</text>
+	</string>
+	<string id="dm_information_447">
+		<text>你永远不知道会在潜行者身上发现什么. 我曾经见过一个人, 他的包里一无所有除了 - 数百块漂亮的手表! 我们和他的东西玩得很开心, 我想我仍然对此感到不安.</text>
+	</string>
+	<string id="dm_information_448">
+		<text>是啊, 我可不会免费施舍. 如果你在找线索, 就别挡我的路. 我才不管你是谁, 我会把你当盲犬一样干掉.</text>
+	</string>
+	<string id="dm_information_449">
+		<text>听说过亚罗诺斯吗? 他是我们中的一个, 他变得软弱, 开始对军队婊子发脾气. 当苏丹发现后, 他准备了一些特别的待遇. 他把他的胳膊和腿捆起来, 捆成一个哭闹的小包袱, 然后... 然后, 他把他扔进一个黑暗的地下室, 关上了活板门. 但地下室不是空的. 第二天, 我们把它打开, 亚罗看起来有点不同; 十几个饥饿的变异鼠发现了他. 我们把他的尸体挂在外面一段时间就是为了向那些混混们解释告密的后果.</text>
+	</string>
+	<string id="dm_information_450">
+		<text>苏丹曾起起落落, 但没人能让他沉沦. 他们过去常说, 有一天他会掌管特异区 - 也许是, 也许不是. 但自从他在黑暗山谷任职以来, 没有其他老大升职... 嗯, 有一两个. 但这些很快就被淘汰了; 现在没人记得舒沙克的名字了.</text>
+	</string>
+	<string id="dm_information_451">
+		<text>伙计, 我们还真耍了点花招. 这里有一个你也可以用. 你可以去那些傻瓜们会去找神器的地方看看, 直到你发现某个独行者的尸体, 他离电镀变异点太近, 被电击了. 然后你拿着他的PDA, 告诉他的朋友你把他当作人质, 想要他们能想到的所有现金和赃物. 然后, 安排一个对你有利的会面, 并给他们指出他们老朋友的方向, 享受吧! 也许给他留张纸条解释他是怎么死的. 我们可不想惹怒那些潜行者, 对吧?</text>
+	</string>
+	<string id="dm_information_452">
+		<text>那些该死的怪物到处都是, 就是这样. 嘿, 如果你和变异生物的相遇想活下来, 千万不要省子弹. 你给他们灌了一些铅弹, 以为他们完蛋了, 然后当你转身时, 他们跳了起来想要报仇. 即使他们不动了也要对着脑袋开两枪, 这是唯一能确认死亡的方法. 他妈的特异区.</text>
+	</string>
+	<string id="dm_information_453">
+		<text>你见过那种移动的火球吗? 是啊, 别太得意了. 就在你认为你已经搞清楚了它们的模式的时候, 它们就会过来毁了你的一天. 我的朋友说它们会被无线电信号和神器吸引. 我也不知道, 但别犯傻了.</text>
+	</string>
+	<string id="dm_information_454">
+		<text>是啊, 尽量别被派去巡逻. 你出去了, 很可能就再也不会回来了. 有时候你完全消失了, 没人能找到你的尸体, 但通常尸体会被狗吃了, 或者被子弹打得千疮百孔, 直到被值班巡逻队发现. 这里的美好生活就是围坐在篝火旁喝着进口的伏特加发呆. 以前的弱智才当英雄.</text>
+	</string>
+	<string id="dm_information_455">
+		<text>这里的每个人一看到黑石就会尿裤子, 土匪里怎么有这么多小婊子? 是啊, 我才不管什么黑石呢. 我被关在外面的时候, 没人敢惹我. 如果他们敢惹我, 他们知道总有一天他们会被杀. 我不是要当个小婊子才来到这里的. 我想看看那些穿白衣服的小混蛋怎么对付我.</text>
+	</string>
+	<string id="dm_information_456">
+		<text>没有什么比去黑暗之径度假更好的了: 你可以看到切尔诺贝利所有美丽和繁华的地方! 在一个风景优美的地方徒步旅行, 穿越迷人的森林, 晚上在野外露营来结束一天! 如果被辐射的野猪不把你撕成碎片, 巡逻队也会一枪崩了你!</text>
+	</string>
+	<string id="dm_information_457">
+		<text>封锁线是世界上最好的地方, 不服来辩! 你可以和你的朋友们坐在一起抽着烟, 而那些可爱的独行菜鸟们则日夜不停的经过. 你只需要拿着枪出现在他们身后, 他们就会交出他们从特异区外带来的所有新装备 - 太容易了! 不过得小心那些军人.</text>
+	</string>
+	<string id="dm_information_458">
+		<text>一些白痴认为如果他们进入这附近的废弃建筑, 或者更糟的地下实验室就能发财. 听着, 里面什么都没有, 只有一堆坏掉的科学玩具和一堆愤怒的怪物. 你不会想进去的.</text>
+	</string>
+	<string id="dm_information_459">
+		<text>以前来过亚诺瓦吗? 集装箱仓库的工作很紧张, 尤其是在纪律团被赶出车站之后. 不过, 你得小心那些来自普里皮亚季的疯子. 关于他们, 你不能收买他们, 也不能恐吓他们. 操, 这是真正的坏消息.</text>
+	</string>
+	<string id="dm_information_460">
+		<text>伙计, 我不喜欢这里发生的枪战. 我们以前可以对新人进行搜身然后让他们上路, 但现在只能一见面就开枪. 连撒泡尿都得冒着被开枪的危险吗.</text>
+	</string>
+	<string id="dm_information_461">
+		<text>我嘲笑这一切. 究竟是什么样的傻瓜才会来特异区寻找财富和"新发现"? 所有笨蛋都以为在这里他们会变得富有和出名, 而实际上, 他们会一头扎进旁边变异生物的肚子里. 这可真疯狂. 至于我, 我在旁边看戏. 拿走他们留下的东西.</text>
+	</string>
+	<string id="dm_information_462">
+		<text>废弃区以前是我们管理的, 伙计; 经营的很好. 但尤加太弱了, 看看他给我们带来了什么. 来自南方的潜行者和北方的那些纪律团的混蛋, 更不用说到处游荡的军队了. 那个火车站现在几乎空无一人, 过去是休息和吃点东西的好地方.</text>
+	</string>
+	<string id="dm_information_463">
+		<text>大多数戴着头盖骨补丁的混蛋都是大嘴巴的小流氓, 他们看到任何真家伙都会吓得尿裤子. 我在外面做过一些事. 我曾经是打手, 不只是肥佬毒贩 - 不, 我曾经把政府官员和联邦监狱里的犯人逼疯过. 去他的雇佣兵, 他们不想为我的技能付钱, 对他们来说我太糟糕了. 现在我在这里, 看着一群懒散的下等人, 只会抢夺老太太的钱包.</text>
+	</string>
+	<string id="dm_information_464">
+		<text>特异区有办法帮你扭转局面 - 你做了一件事一千次之后, 第一千零一次, 你就完蛋了. 我们在黑暗之径附近的树林里找到了一个独行者 - 没什么特别的, 就是个穿着脏兮兮的黎明防护服戴着面具的人. 除了他以外也没其他人而且他什么都没说. 我们刚拿枪指着他的脸, 他突然举起手来. 我们翻遍他的包, 发现他所有的东西都是垃圾: 腐烂的食物, 破旧的电子产品, 诸如此类. 所以我们把他带走, 说不定有人会赎回他, 可是感觉特异区在积极地和我们作对. 我们总是被绊倒, 被卡住, 我们找不到出路, 我们不得不击退一群当地的野生动物, 非常有攻击性. 这时, 我们被吓坏了, 所以我们告诉那家伙走开, 他一句话也没说就走开了. 当我们回到路上时, 我们发现他的衣服和装备就放在一个树桩上 - 里面没有人! 我不知道那个潜行者是什么, 但你得学会什么时候放手.</text>
+	</string>
+	<string id="dm_information_465">
+		<text>那些地狱犬是他妈的疯子, 它们就像打扮成狗的变态. 我知道它们不仅仅是动物; 动物不喜欢残忍, 但那些怪物喜欢. 我见过, 它们把人弄残, 扯断四肢然后跟他玩. 有时这家伙几个小时后才死. 你可以从它们的脸上看出来, 它们更像人而不是狗. 这可真够扭曲的.</text>
+	</string>
+	<string id="dm_information_466">
+		<text>我讨厌psy风暴, 天啊. 就在你认为特异区里的风暴已经够糟糕的时候, 它又用另一个可以炸烂你大脑的把戏给你惊喜. 我也会头疼, 但我是在风暴来袭前头疼的, 所以我有自己的预警系统. 对我好点, 我就告诉你.</text>
+	</string>
+	<string id="dm_information_467">
+		<text>你知道吗, 有些加入土匪的人也没那么坏. 有些人被推到特异区里, 他们感到有点迷失, 他们看到这里的一切, 然后为了一种安全感, 一种兄弟情谊而联合起来. 如果我们不组织起来, 特异区会把我们嚼碎再吐出来.</text>
+	</string>
+	<string id="dm_information_468">
+		<text>我以前认识一个叫布兰德的人, 他很厉害. 如果你惹到他, 你就会被埋掉. 有一次, 他诱骗一个小分队参加一个会议, 然后伏击他们, 把他们废掉 - 那些混蛋以为他们找到了另一个告密者. 他还做过情报经纪人, 他用武器藏匿处的坐标交换情报. 但有一天, 他被发现从利牙的军火运输中偷东西. 虽然你很可怕, 但你搞不过利牙. 那是我们最后一次听到布兰德的消息, 但有人说他们在风暴前把他绑在了外面. 如果你看到一个愤怒的僵尸左手竖着三根手指四处走动, 那就是他.</text>
+	</string>
+	<string id="dm_information_469">
+		<text>沼泽区完蛋了, 伙计. 你知道有多少人进去不出来吗? 更不用说持续了很多年的战争了. 就像下水道里的一场刀战.</text>
+	</string>
+	<string id="dm_information_470">
+		<text>利牙曾经是黑暗山谷的老大, 但当苏丹出现时, 被踢出了河湾, 看起来要打起来了. 幸运的是, 水晶介入并达成了一项协议. 但是, 说实话, 大家都很清楚苏丹现在想做什么就做什么. 利牙一点也不高兴.</text>
+	</string>
+	<string id="dm_information_471">
+		<text>怎么, 你觉得我欠你什么, 就因为我们戴着同样的眼罩吗? 你以为我们是兄弟吗? 我宁愿用你的屁股换一条逃生路线. 当子弹开始飞的时候, 每个人都为自己, 所以不要指望得到什么施舍.</text>
+	</string>
+	<string id="dm_information_472">
+		<text>看在上帝的份上, 别把我们的行动细节告诉外人. 一群脑子不好使的蠢蛋到处向别人泄露我们的埋伏地点和贸易协议, 我们不知道为什么经常被耍.</text>
+	</string>
+	<string id="dm_information_473">
+		<text>当你设下埋伏时, 不要上当, 让自己处于劣势. 你要做的是在路上放个小地雷, 不会把人炸飞, 但会炸掉他们的腿让他们的朋友都变残废. 现在讨价还价就容易多了, 是吧? 或者像我一样, 给他们几颗子弹然后你可以在悠哉地翻他们的口袋.</text>
+	</string>
+	<string id="dm_information_474">
+		<text>天啊, 我都等不及要接管整个特异区 - 这样事情就容易多了. 对大家都好, 真的: "当然, 我们可以让你进特异区, 但你得把你赚的钱分给我们一半". 给我们一些现金, 我们会确保你得到保护. 很简单. 总比我们现在的烂摊子好.</text>
+	</string>
+	<string id="dm_information_475">
+		<text>想要开怀大笑吗? 看看封锁线那边那些独行者的混蛋在干什么. 特异区里到处都是笨蛋, 但没有一个像那些白痴一样绝望的. 在他们可怜的小藏身处之外的任何地方, 他们都会像苍蝇一样死去.</text>
+	</string>
+	<string id="dm_information_476">
+		<text>在毫无头绪的独行者面前晃一件神器, 你就能骗他们做任何事. 他们为什么要来这里? 我觉得他们最好在某个地方当薪奴.</text>
+	</string>
+	<string id="dm_information_477">
+		<text>雇佣兵认为他们很厉害因为他们的爸爸给他们买了很好的武器和装备. 试着用一把刀干掉一头猛冲过来的野猪, 然后你就可以说自己是什么精英杀手了.</text>
+	</string>
+	<string id="dm_information_478">
+		<text>我很惊讶我们没有拥有军队中的马屁精线人, 我们经常贿赂他们, 所以我们可以在这里为所欲为. 他们什么时候才能学会不再试图扳倒我们? 我们是特异区里唯一能给他们下命令的人.</text>
+	</string>
+	<string id="dm_information_479">
+		<text>纪律团的小混蛋很生气, 只是因为他们总是把屁股交给我们. 这就是为什么当你看到他们时他们会很生气. 真是一群婊子.</text>
+	</string>
+	<string id="dm_information_480">
+		<text>我在自由团有几个朋友. 他们还好, 但他们还是坚持自己的道德准则和好人之类的. 真正的自由是想做什么就做什么, 真正的自由是和土匪在一起, 伙计.</text>
+	</string>
+	<string id="dm_information_481">
+		<text>啊, 是的, 晴空... 小沼泽蝌蚪没有足够的肌肉来保卫自己的领土. 真是帮天才?</text>
+	</string>
+	<string id="dm_information_482">
+		<text>兄弟, 你身上有什么好东西吗? 雅里克在哪? 他欠我的三瓶伏特加呢, 我还没醉到不记得.</text>
+	</string>
+	<string id="dm_information_483">
+		<text>其实, 也许你可以告诉我为什么你的老板总是像个混蛋? 放轻松, 老兄.</text>
+	</string>
+	<string id="dm_information_484">
+		<text>不, 你可以自己去查. 我是你的朋友吗? 滚蛋.</text>
+	</string>
+	
+	<!-- RENEGADES -->
+	<string id="dm_information_485">
+		<text>我曾经在自由团. 他们真够松懈, 可以随心所欲 - 真是一团糟. 当我和一个人质玩得开心时, 他们都很生气, 尤其是石匠这个白痴. 那天晚上我也和他玩得很开心, 但他不太喜欢. 他们威胁要杀了我, 把我赶出去. 哦操他们妈.</text>
+	</string>
+	<string id="dm_information_486">
+		<text>我在土匪队里待过直到我意识到那是给娘们待的. 一些有情绪的朋克一直对我指手画脚, 尽管我来这里就是为了摆脱这个. 好吧, 有天晚上我割了他的喉咙, 还有他的几个兄弟. 有个家伙很厉害, 他真的冲我来了, 血从他的喉咙里喷涌而出. 我离开了那个破地方, 独自出发了. 故事时间结束了, 好吗?</text>
+	</string>
+	<string id="dm_information_487">
+		<text>我不会侍奉任何人. 这些可怜的小帮派的共同点是什么? 他们都需要屈从于别的混蛋. 没人是我的主人, 我不会向狗屁低头. 事情本该是这样的: 我还有我的手下, 还有我他妈的想做什么就做什么.</text>
+	</string>
+	<string id="dm_information_488">
+		<text>有些人在沼泽地拉屎. 天才. 这是真实的世界, 你最好小心点不然你会被抓去送死的. 没有什么比等着一个穿蓝衣服的小混混经过, 然后跳出来轰掉几个膝盖骨更爽的了. 然后真正的乐趣开始了.</text>
+	</string>
+	<string id="dm_information_489">
+		<text>哈哈哈哈, 他们在这里找不到我. 是啊, 联邦调查局让我在外面干一些很重要的工作... 他们从未停止过追查... 让他们试试吧. 到我的地盘来看看会发生什么. 现在这是我的地盘了. 没人能把我打倒在地.</text>
+	</string>	
+	<string id="dm_information_490">
+		<text>我必须离开那里, 伙计. 肥屁股西德洛维奇的手下, 他们都在找我. 从未停止追查, 简直让我无法入睡. 他们只是在等着, 等着我放下防备. 去他妈的, 我才不要当他们的小白鼠. 我愿意来这里碰碰运气.</text>
+	</string>	
+	<string id="dm_information_491">
+		<text>那天在泵站附近... 往水里看. 我看到... 眼睛, 一开始只有几只, 后来全是眼睛了. 水里有东西, 好吗? 某种又深又暗的东西, 会让人失踪. 离那玩意远点.</text>
+	</string>	
+	<string id="dm_information_492">
+		<text>没有什么比一个安置妥当的炸弹在一个猪头军人鼻子底下爆炸更美妙的了. 火柱升向天空... 这就像日落. 然后是寂静. 有时候, 我最喜欢安静. 特异区里又少了一个混蛋.</text>
+	</string>	
+	<string id="dm_information_493">
+		<text>我以前以为我们是特异区里最坚强的人. 但有一个吸血鬼... 它和其他的都不一样. 它不仅把尸体榨干, 还把它们切成各种形状. 就像他用别的语言写东西一样: "他在地狱, 下一个就是你." 如果我是你, 我就不睡觉, 保持清醒.</text>
+	</string>	
+	<string id="dm_information_494">
+		<text>总有一天, 黑石的名字不会再让人颤抖和畏缩了. 总有一天, 会是我们. 我们会成为人们担心的人, 我们会从天而降夺走你们的生命. 等等, 我们要把这地方的人都杀了. 那将是一个比现在更大的墓地, 我们将成为国王.</text>
+	</string>
+	
+	<!-- LONERS -->
+	<string id="dm_information_495">
+		<text>特异区不是我所期望的那样. 当我决定进入特异区时, 我想象着自己每天都会发现神器, 与强盗搏斗, 开辟新的道路... 还有更多的冥想、苦差事、琐碎的交易和努力谋生. 这有点像外面的生活, 但不那么容易. 谁知道呢, 也许明天会改变呢.</text>
+	</string>
+	<string id="dm_information_496">
+		<text>我听过科学家和其他有经验的潜行者的意见, 他们对特异区会发生什么, 接下来会发生什么都有不同的看法. 这是一个没有人想到的问题: 如果特异区决定悄悄消失呢? 有一天, 神器停止了, 所有的变异生物都灭绝了, 黑石崩溃了, 然后变异点也消失了... 我不认为这是痴心妄想, 因为特异区在本质上是出人意料的. 还有什么比这更出乎意料的呢?</text>
+	</string>
+	<string id="dm_information_497">
+		<text>特异区的神秘事物要比人们意识到的要多, 那些不能被科学整齐分类的东西. 有时你在某个地方, 在特异区里某个僻静的地方, 你看到了某个你想去的地方 - 某个门洞或是山与山之间的小路. 然后你停下来. 你不能去. 没有什么可以阻止你, 只有一种完全压倒一切的力量会压扁你的意志. 你不能走那条路即使你在逃避死亡, 这不可能. 我也不是唯一一个有这种经历的人.</text>
+	</string>
+	<string id="dm_information_498">
+		<text>前几天我看到了相当罕见的东西. 我用瞄准器盯着我面前的道路, 我看到了一个明显是僵尸的东西在蹒跚地走来走去, 除了这个家伙穿着一套我从未见过的古怪衣服. 我蹑手蹑脚地靠近他, 果然, 他穿着一件看起来很旧的生态防护服背面印着"ISG"! 一个古董! 差点不舍得把他干掉.</text>
+	</string>
+	<string id="dm_information_499">
+		<text>好吧, 问个奇怪的问题, 这里有没有带小孩的人? 你见过这样的东西吗? 黄昏的时候, 我看见一个潜行者在路上走, 我发誓他牵着一个小孩的手. 见鬼了? 我打赌肯定不是好东西, 不管是什么. 特异区时时刻刻在糊弄你.</text>
+	</string>
+	<string id="dm_information_500">
+		<text>第一代伟大的潜行者已经去世了, 尽管我有时会听到史特列洛克的一些事情. 这些新来的孩子总是这样: 更闪亮的装备和更少的常识. 以前向导凭着自己的本事成功地到达了特异区的中心. 这你现在可看不到了.</text>
+	</string>
+	<string id="dm_information_501">
+		<text>啊, 很容易在脑海中规划你的旅行, 你要去哪里, 你将在那里发现什么. 但当你走到那里, 特异区就掌握了一切所以你最好准备好跟着它的节奏起舞. 也许你的路被一群豚兽挡住了, 或者你所指望的门现在完全被堵住了. 发生在我身上的最糟糕的事情是某种高温变异点在我头顶上出现了! 那时, 背部被烤脱皮了, 我脸朝下躺在泥土里. 我设法从山上滚下来, 拖着身子向一群过路的人走去. 那真是千钧一发.</text>
+	</string>
+	<string id="dm_information_502">
+		<text>你可能认为你已经看到了特异区的所有事物, 直到你见到某种非人的可憎怪物可以溜进去的那种, 最深最黑暗的洞, 才明白自己什么也没见过. 我曾经有过这样的经历. 在特异区深处, 我正经过一个井盖时却听到了声音, 所以我想看看是不是有人被困在下面了. 我推开盖子, 看着一片漆黑, 我听到了这个声音, 它试图让我下去. 一开始它假装需要帮助, 但后来它开始承诺给我很多钱. 在这一点上, 我确信它甚至不是人类, 它不像人类那样说话. 我有一种近乎疯狂的冲动, 想按他说的去做, 但我还是挣脱了自己, 跑出了那鬼地方. 我应该往那丢颗手雷的, 但除了离开我什么都不想.</text>
+	</string>
+	<string id="dm_information_503">
+		<text>还在等着我的那堆财宝和那些聚集在我脚边的漂亮女人, 快对那个勇敢高贵的潜行者致敬. 他们在外面说的都是些什么屁话, 真不敢相信我信了.</text>
+	</string>
+	<string id="dm_information_504">
+		<text>我从没想过要杀任何人. 我没想到这里是种景象. 我已经准备好冒险了也许还能赚点小钱, 而不是这一切. 你知道吗, 在外面并没有人提起过这种事.</text>
+	</string>
+	<string id="dm_information_505">
+		<text>有件事我考虑很久了, 听我说完. 我认为"智域"是特异区产生的真正原因, 我也认为接触"智域"会对生物产生那些奇怪的心理影响. 例如, 得到一点剂量的"智域", 你会变成一个疯狂的黑石, 再多一点, 你会被僵尸化, 以不同的方式应用, 你得到一个新的感觉, 意识到"智域"像一只脑波怪. 好吧, 你听说过"陌生人"吗? 这有点像都市传说, 但显然在第二次风暴之前, 有传言说在特异区里发现了可以随意变成其他形式的人. 大多数人只是认为这是幻觉, 就像你在生物场发射器周围看到的一样, 但我不这么认为. 如果潜行者或测试对象以某种方式与"智域"完美的融合会怎么样? 在那里, 他们可以随心所欲地在两个世界之间转换, 也可以改变现实? 我想知道他们发生了什么.</text>
+	</string>
+	<string id="dm_information_506">
+		<text>我和朋友们一起来的, 我们都在同一个村庄长大, 做任何事情都在一起. 我们决定来这里, 而不是去上大学或其他城市. 我们想要冒险, 我们想象着那片充满机遇的土地, 没有人能阻止我们... 他们现在都死了. 马特维上周死了, 史诺克把他的内脏掏了出来. 所以我在这里, 为了我所有的朋友而活着.</text>
+	</string>
+	<string id="dm_information_507">
+		<text>花上几天听听你的射频收音机, 你就能听到特异区里充满了生机: 探险报告, 援助请求, 讲骚话... 还有一些我不太理解的奇怪的事情. 我想我有时能捕捉到黑石的信号, 一些吟诵和哼唱.</text>
+	</string>
+	<string id="dm_information_508">
+		<text>也许你会惊讶, 但我在这里已经很久了, 比大多数人都久. 当我被强盗抓去当奴隶的时候我还是个聪明的小菜鸟 - 是的, 这种事以前在特异区里经常发生. 他们让我挖掘神器, 他们似乎认为这些神器会像宝箱一样被埋起来. 那时我差点没了, 既饥饿又受了辐射, 但突然我们被另一组独行者解救了. 我永远不会忘记这份恩情.</text>
+	</string>
+	<string id="dm_information_509">
+		<text>我的一个朋友说有天晚上他在木星工厂的南边看到一辆"死亡卡车". 晦气! 我很久没听说过这种事了, 但如果你提起, 潜行者们会在篝火旁安静下来. 总是问同样的问题: 谁驾驶的? 开去哪? 干嘛去? 噢, 也可能是我朋友喝多了普京伏特加.</text>
+	</string>
+	<string id="dm_information_510">
+		<text>你永远不会想在夜幕降临的时候到野外去, 除非你真的知道自己在做什么. 聪明点, 计划进入一个安全的地点, 最好是一个友好的营地. 我无法想象在特异区的某个地方睡着, 肯定有个怪物正等着你睡着好让他吃. 我不干这种事.</text>
+	</string>
+	<string id="dm_information_511">
+		<text>我唯一想说的是我以前的伙伴, 一个叫多布雷纳 弓箭的潜行者 - 你可能听说过他. 他是个十足的疯子, 曾经一个人去追捕危险的变异生物好几天, 他在变异区里发现了一些了一些鹅卵石, 没有神器... 他什么都不怕, 他有一种特殊的运气. 不管怎样, 有一天他想到木星工厂去, 他说他听说有什么魔法球能让他成为特异区里最富有的人. 我当然不能拒绝他. 他坚持要一个人进去, 把我留在楼门口, 吹嘘说他很快就会带着他的财富出来. 那是我最后一次见到他. 好吧, 看来他的谢幕礼, 是通过一场战斗完成的.</text>
+	</string>
+	<string id="dm_information_512">
+		<text>在特异区里就像坐在一座活火山上. 我们不知道它接下来会做什么, 什么时候会做. 该死, 科学家甚至不能定期预测风暴. 突然, 在一个晴朗的早晨, 特异区里突然发生了一场大爆炸, 把所有的人都消灭了. 以前不是发生过这种事吗? 我想说的是你应该把每一天都当成人生的最后一天来对待.</text>
+	</string>
+	<string id="dm_information_513">
+		<text>如果我再听到一个低能的菜鸟唠叨他找到许愿石后要许什么愿, 我就要发火了. 这些还没学会刮胡子的孩子, 真的以为他们要去发电厂吗? 当他们意识到没有"许愿石", 特异区里只有痛苦和痛苦的死亡时, 他们才会猛然觉醒. 如果他们能顺利到达废弃区而不被"跳板"绊倒, 我会很惊讶的.</text>
+	</string>
+	<string id="dm_information_514">
+		<text>很遗憾, 特异区已成为一些严重智障人士的主要景点. 他们听到关于特异区的屁话就来了, 通常攒够钱在边境给蛇头付钱然后就再也没机会离开了. 有时独行者或土匪会把他们当成怪人, 但他们经常会被任何发生在他们身边的危险所折磨. 这真的很可悲.</text>
+	</string>
+	<string id="dm_information_515">
+		<text>这是一个很有趣的想法, 从一个老前辈那里学来的: 变异区基本上控制了潜行者们可以去的地方和可以到达的区域. 你可能听说过, 十年前, 酒吧和特异区 的其他地方被一堵变异区形成的墙隔开了. 这不是唯一一次了. 我的线人说, 这就是为什么特异区的大部分地方是无法进入的, 除了一些知道秘密路径的专家导游. 想象一下! 明天, 一个全新的特异区可能会开放... 或者关闭. 想象一下, 如果我们能从北方进入切尔诺贝利, 我们就能绕开所有的危险, 得到真正的宝藏.</text>
+	</string>
+	<string id="dm_information_516">
+		<text>特异区里的独行者有各种类型. 当我第一次进入特异区时, 我需要一个探测器而那个混蛋西德洛维奇想让我费尽周折才能得到一个. 好吧, 我开始四处打听, 遇到了一个有经验的独行者, 看起来很友好, 他知道有人有一个备用的, 而且愿意便宜地卖掉它. 他让我带着我的钱去废弃区的一个小峡谷见他, 我同意了. 就在我快要到达那个地方的时候, 我有了一种危险的感觉, 幸运的是, 我决定相信我的直觉 - 我躲在一堆垃圾后面. 好家伙. 一小时后, 四个全副武装的潜行者走出了峡谷我确信他们在等着杀我. 我不知道那天是什么救了我, 但不要相信你遇到的每个人.</text>
+	</string>
+	<string id="dm_information_517">
+		<text>有一次我在特异区迷路了, 非常迷. 我和其他几个没有经验的潜行者组成了一个小组, 我们决定自己创业. 我们没有走习惯的路, 而是故意选择了更加荒凉和不祥的道路 - 虽然我们做得很仔细. 从酒吧出发五天以后, 我们完全迷了路, 也迷了方向. 我们的PDA出故障了我们可能穿过了某个空间泡变异点. 总之, 我看到了一些潜行者从没说过的事: 一个有一艘部分完工的油轮的船坞, 一个位于黑色湖泊中央的森林岛, 还有数英里长的仓库, 除此之外还有其他东西. 有一天, 我们意识到, 不知怎的, 我们在河湾里出现了. 除了一个人, 我们都走到一个变异点, 然后回来了. 我们并没有变得更富有, 但我们已经足够庆幸自己还活着.</text>
+	</string>
+	<string id="dm_information_518">
+		<text>好像特异区里的疯子还不够多似的, 我遇到了这些德国潜行者他们确信这个特异区是外星人来访的产物. 这地方还不够奇怪吗? 我们真的要把"x档案"的破玩意带进来吗?</text>
+	</string>
+	<string id="dm_information_519">
+		<text>我们被困在这里, 都没意识到我们错过了什么. 我当时在特异区一个偏僻的角落里, 寻找藏匿处, 当我来到这个腐烂的谷仓时, 我在地下室发现了某种隧道. 我沿着那条路走了很长一段路, 路的尽头是一扇活板门, 门通向一片草地. 我环顾四周, 注意到感觉有多么不同 - 有风, 有鸟叫, 还有平静的感觉. 那时我意识到... 我离开了特异区! 隧道肯定就在围栏下面. 我只是坐在草地上, 呼吸着新鲜的空气, 很长一段时间以来最快乐的时光. 然后我听到一辆车开过来了, 我赶紧躲进了隧道. 就在那时我决定: 一有机会, 我就离开这里!</text>
+	</string>
+	<string id="dm_information_520">
+		<text>我等着死神来找我的那一天. 我看到我身边所有的朋友和同志死去, 我只知道我的时间很快就要到了. 在特异区里, 我做了所有我想做的事, 看的比我想看的还要多... 我不害怕, 我只是确信我很快就会死去. 你可以随时关注死亡, 但它总有办法在你最意想不到的时候抓住你.</text>
+	</string>
+	<string id="dm_information_521">
+		<text>你想听我的故事? 这是一个简短的版本 - 我弟弟来到特异区, 六个月后去世了. 他设法让我知道他已经积累了大量珍贵的神器, 他希望我能得到它们. 嗯, 我一直不喜欢到特异区来, 但家里的情况不太好, 所以我决定放手去干. 那是两年前的事了. 仍在寻找. 不, 我不介意告诉你 - 我想我永远找不到它了.</text>
+	</string>
+	<string id="dm_information_522">
+		<text>亚诺瓦有个潜行者跟我说有个神器猎人发现了一件特别的神器, 他第一次碰它的时候听觉就被剥夺了. 完全聋了! 显然那些书呆子们花了一大笔钱买它, 但我觉得这听起来不公平.</text>
+	</string>
+	<string id="dm_information_523">
+		<text>现在大多数潜行者都穿防弹衣, 如果他们买不起, 就在大衣上缝金属板. 特异区总是那么像战场吗?</text>
+	</string>
+	<string id="dm_information_524">
+		<text>我发誓, 暴风雨并不总是这么频繁. 这地方还不够糟吗, 你还总是被淋湿屁股?</text>
+	</string>
+	<string id="dm_information_525">
+		<text>这里的规则是要把自己放在第一位. 你知道我见过多少人死于徒劳的营救任务吗? 别试了, 在这里求生已经够难的了.</text>
+	</string>
+	<string id="dm_information_526">
+		<text>以前有一些有钱的笨蛋想徒步旅行穿过普里皮亚季. 我很抱歉地说, 几年前我曾参与过其中一场节目, 但我一直在外面担任主持人. 一段时间内还不错, 现金从愚蠢的企业高管和对冲基金经理那里源源不断地涌入, 我们的向导在保护这些软目标不受伤害方面很有技巧. 然后, 一切都化为乌有了. 向导回来了, 浑身是血, 一瘸一拐的, 他告诉我们他们是如何被看不见的东西袭击的 - 可能就是我们现在所说的吵闹鬼. 事情就这样结束了, 再也没有度假者了.</text>
+	</string>
+	<string id="dm_information_527">
+		<text>我想有时候在特异区里也不全是坏事. 有次我发现了一个地方, 我称它为"我的幸运之地". 每当我去那里, 在靠近地面的地方坐一会儿, 我的头脑就会清醒, 我就能把以前做不到的事情在脑海里整理好. 我以前总能在人们说之前就知道他们会说什么, 我知道哪条路会挤满了变异生物, 诸如此类. 但有一天, 它突然不灵了. 我不太清楚那是什么, 但我觉得是特异区送的小礼物.</text>
+	</string>
+	<string id="dm_information_528">
+		<text>有个潜行者, 整天在酒吧里喝酒, 他有个最宏伟最复杂的计划要整顿特异区, 组建自己的派系. 如果我没记错的话, 他的组织应该叫"崛起"之类的; 显然, 他打算单枪匹马地让纪律团和自由团和解好带领他们袭击发电厂. 他喜欢的另一个话题是关于钢铁森林变异区下面的秘密武器, 但那家伙是个十足的疯子, 所以我不会去那里看.</text>
+	</string>
+	<string id="dm_information_529">
+		<text>在你离开这里之前你都不知道这地方对你造成了多大的伤害. 一年前我离开了特异区因为我长了个肿瘤医生都治不好, 我还记得我出狱的第一个晚上. 我找到了一家便宜的汽车旅馆, 锁上了门, 就这样在热水淋浴下站了几个小时. 我也哭了, 但是以一种机械的、没有感情的方式, 某种对这一切的身体反应. 我想我这样做了大概6个小时. 这个地方... 是如此违背事物的自然状态以至于你的身体总是在反抗. 你只有在体验到正常生活应该是什么样子的时候才会振作起来. 有时候, 我真的很后悔回来, 但是... 没有一个地方像这里一样.</text>
+	</string>
+	<string id="dm_information_530">
+		<text>黑石的复苏不亚于令人震惊. 我有一个朋友, 他经常去特异区深处探险, 通常在普里皮亚季郊区安家. 他告诉我黑石真的要灭亡了. 多年前, 在一次失败的军事行动后, 他们被一路赶回了普里皮亚季. 焦脑器, 生物场发射器以及, 如果你相信一些谣言, 就连许愿石本身都被关闭了. 黑石正在加速萎缩. 之后的几年里, 我们几乎没有他们的消息 - 我们以为他们可能永远打卡下班了. 现在, 他们已经走出阴影, 威胁要占领整个南部地区. 最大的问题是: 在那些平静的岁月里发生了什么? 这些psy设施又启动了吗? 或者他们找到了另一种继续前进的方式?</text>
+	</string>	
+	<string id="dm_information_531">
+		<text>我真的不建议你再相信别人了.我有个生意上的朋友他有一套很特别的防护服, 一个他自己拼凑的晴空防护服. 无论如何, 我只是失去了他很长一段时间的联系, 他没有回复我的信息. 我四处打听, 发现他经常去奇怪的地方, 举止可疑. 我终于在农研所北部附近找到了他... 出事了. 他从我的问候中跑开, 我聪明了, 把他打倒在地, 拔出手枪对着他. 我强迫他摘下面具... 并不是他. 这个卑鄙小人谋杀了他, 然后冒充了他的身份. 他到处去找我的朋友, 利用我朋友所有的关系, 他通过PDA交流, 假装是他... 这里的世界并不容易混.</text>
+	</string>	
+	<string id="dm_information_532">
+		<text>几个月前, 封锁线出现了某种疾病, 一种瘟疫. 有一段时间, 这个旧农场成了那些有可怕变异症状的潜行者的病室. 就像麻风病人的聚集地. 一个医生自愿去那里, 知道他也会生病. 上帝保佑他. 想想看, 症状也有点像麻风病.</text>
+	</string>	
+	<string id="dm_information_533">
+		<text>我都认不出一年前的自己了. 我来到这里, 相信一切. "特异区是一个奇迹! 特异区是上天的恩赐, 来这里解决我们所有的问题!" 我现在真不敢想象自己会这么蠢. 在我看到这些之后... 是啊, 我现在什么都不相信了.</text>
+	</string>	
+	<string id="dm_information_534">
+		<text>我们冒着生命危险进入特异区, 去看它的奇观, 也许还想赚点钱. 一直在我脑海里闪过的是... 当我们回家的时候, 家不在那里了. 如果都变成整个特异区呢? 整个. 谁能说现在不是这样呢? 你怎么知道还有一个真实的世界? 该死的, 伙计, 吓死我了.</text>
+	</string>	
+	<string id="dm_information_535">
+		<text>看来潜行者很快就会过时了. 我的外部联系人告诉我, 研究所正在研究机械潜行者, 一种能进入变异点并取回神器的机器. 据我所知, 他们快开工了. 我很想看到其中一个被扔进特异区, 然后它被六个派系同时射击的场景.</text>
+	</string>	
+	<string id="dm_information_536">
+		<text>有一天, 我在散步, 一边摆弄着我的射频接收器, 一边注意到一个不寻常的信号, 我追踪到一个隐蔽的舱口, 那是在一座山坡上, 上面覆盖着树叶. 它只是用挂锁锁着, 所以我很快就把它打开了, 走下几级黑暗的台阶, 走进了一间满是箱子的小房间. 结果这些箱子里装满了武器和炸药! 更奇怪的是, 有些盒子上还有阿拉伯文字! 我决定不去管那桩生意了, 拿脑袋换钱是没有用的. 我觉得乌克兰安全局在搞见不得人的东西.</text>
+	</string>	
+	<string id="dm_information_537">
+		<text>特异区要求这里的每个人要么行动, 要么死. 我想这就是为什么这里的枪匠可能是全世界最好的. 他们有一群混蛋要一起工作, 他们得忍受特异区的屁话, 尽管如此, 他们仍能做出令人惊叹的机械改进, 让工程师们头昏脑胀. 没有他们, 情况将会怎样?</text>
+	</string>	
+	<string id="dm_information_538">
+		<text>我们回到了传奇时代, 潜行者. 我们曾以为现代人已经不再需要勇气和坚韧了, 我们以为我们可以躺在床上让机器为我们做事. 不再是了, 我的朋友. 特异区将人的本性从沉睡中唤醒, 我们又一次变得强大起来. 传奇就在我们身边 - 谁没听过史特列洛克和向导的故事? 新的英雄出现了, 去杀死新的怪物. 珀尔修斯和吉尔伽美什的灵魂与我们同在.</text>
+	</string>	
+	<string id="dm_information_539">
+		<text>特异区里又一个黎明, 又一个日落. 也许我终有一天会死去. 我快要不在这里了. 我仍然在做事: 我清理我的武器, 我吃东西, 我与敌人战斗... 哪些部分是现实? 我不知道我什么时候做梦, 什么时候醒来. 我能看见人, 但很难记起他们是谁. 我看到那些我认识的人已经死了很久而那些可能还活着. 我必须继续前进, 我知道我正在朝着某个目标努力. 可那是什么, 我却说不出来.</text>
+	</string>	
+	<string id="dm_information_540">
+		<text>嘿, 也许别太担心, 好吗? 我可以一整天都给你讲令人毛骨悚然的可怕故事, 但我认为最好的办法是吃顿好饭, 睡个安稳觉, 然后随心所欲. 人总有一死, 你知道的.</text>
+	</string>	
+	<string id="dm_information_541">
+		<text>我听说有个苏联地下车库里面停放着一辆正常工作的T-72. 想象一下! 想象一下, 其中一个派系得到了一辆能用的坦克! 你看到的所有生锈的船壳都被破坏了, 即使它们通常不会因为变异或辐射而失效. 但一个能工作的坦克会改变这里的游戏规则.</text>
+	</string>	
+	<string id="dm_information_542">
+		<text>正如你所知道的,在有风暴的时候打开门绝对不是一个好主意. 不要受诱惑. 我以前听过这些声音. 不, 不是无线电里的那些, 而是在敲门的那些, 那些不应该在那里的. 我听说它藏在一个不知名的地方 - 为了躲避电磁风暴, 突然有人来敲我的门! 一个声音在恳求我, 痛苦地哭泣. 不要相信它. 一切结束后你再开门... 那里什么都没有, 没有人. 人们有不同的理论: 有人说这只是发射波的声音, 还有人说有超自然的东西想杀了你, 还有人说是死掉的潜行者的灵魂在敲门. 不管怎样, 永远不要打开.</text>
+	</string>	
+	<string id="dm_information_543">
+		<text>嗯, 现在挺艰难的. 除了这些变异现象, 你还有各种各样想杀你的杀手和野兽. 但我这么做都是为了我的尼诺卡, 亲爱的! 等我出来的时候她会很有钱, 所有的痛苦都值得了.</text>
+	</string>	
+	<string id="dm_information_544">
+		<text>这些神器... 对我们不好. 我并不是说他们本质上就是邪恶的 - 老实说, 我不知道. 我只知道我们不应该和它们乱搞, 因为这总是会引诱我们更坏的本性, 驱使我们做坏事. 我已经有足够的决心跟随我的良心, 现在我只是陷得太深了. 为我祈祷吧, 潜行者.</text>
+	</string>	
+	<string id="dm_information_545">
+		<text>这地方有办法把现代人变成野蛮人. 我记得我曾经看到过一具尸体, 就在黑暗之径北边. 这个潜行者完全穿着兽皮, 脸上只戴着一个旧防毒面具, 可以把他和穴居人区别开来. 我可没乱说, 他手里拿着一根野猪长矛, 他看上去就像一个从来没进过房子的人. 这就是特异区对人们的影响吗? 这就是我们用完高科技后的发展方向吗?</text>
+	</string>	
+	<string id="dm_information_546">
+		<text>有些人很幸运. 我不想要这个头衔, 我认为这样做可能会带来坏运气. 但我见证过一些戏剧性的命运转折. 像那次我在峡谷被两只地狱犬逼的走投无路, 而我的枪卡壳了. 我完蛋了. 我退了一步... 一个漩涡变异点把我抛向空中, 落到一个高高的窗台上! 我都没看到, 我也不介意我那淤青的屁股. 幸运女神是潜行者的赞助人, 但它肯定是个冷漠的婊子.</text>
+	</string>	
+	<string id="dm_information_547">
+		<text>有没有想过这个特异区只是一个大骗局? 这是乌克兰安全局的总策略? 他们只是"意外地"让我们通过边境, 我们一头钻进一些变异点, 出现时抓着一些闪亮的小饰品, 很快就会因为盗窃或交易而丢失. 如果政府只是买了它们? 让我们干脏活, 被杀而他们却在一旁大笑.这对我们有什么好处? 喝点便宜的伏特加, 后背挨一枪.</text>
+	</string>	
+	<string id="dm_information_548">
+		<text>有些潜行者只是运气不好, 就好像他们能传达特异区的仇恨. 但这并不是有些人能吸引灾难的唯一原因 - 有时候答案太人性化了. 我认识一个在地狱里腐烂的潜行者, 叫喜鹊. 他告诉我有个藏匿处, 听起来是个好机会. 我真是个白痴. 他把我关在木星地区附近的某个隧道里等死, 以为变异生物会把我生吞活剥. 他抓起我带来的一些装备, 回去告诉其他人我失踪了. 其实我找到了去特异区另一个地方的路. 我听说那个混蛋得到了应有的惩罚 - 害了太多的人. 盯紧你的潜行者同伴.</text>
+	</string>	
+	<string id="dm_information_549">
+		<text>经过这片被上帝遗弃的废墟, 没有什么比一个坚固的前哨站更好的了, 在那里你可以坐在火边, 暂时忘记你的烦恼. 睡觉、吃饭、音乐... 你偶尔会遇到一个咄咄逼人的混蛋, 但那是意料之中的. 特异区里有很多这类地方. 该死, 我累了.</text>
+	</string>	
+	<string id="dm_information_550">
+		<text>你需要一双好靴子, 否则你不会在这里生活的. 我见识过人们穿着蹩脚的鞋子到处跑会发生什么 - 你得到了脏水, 辐射, 只有上帝知道你的脚里还有什么, 这就是末日的开始.</text>
+	</string>	
+	<string id="dm_information_551">
+		<text>我觉得特异区里有些东西我们还不能理解, 我们只碰到过一两次. 我以前见过这些东西. 虽然不是亲眼所见, 但我感觉有个东西从我身边溜走了一次 - 它绝对是活的, 而且很聪明. 它似乎在离开前看了我一眼. 我不知道那是什么也没人听说过.</text>
+	</string>	
+	<string id="dm_information_552">
+		<text>我记得从一个值班士兵那里听说在普里皮亚季有一个组织, 他们的唯一目的就是与黑石战斗. 我好几年没听说过他们了, 所以我猜是他们的敌人杀了他们. 有趣的是, 它显然是由"前黑石人"创建的. 我不认为存在这样的东西.</text>
+	</string>	
+	<string id="dm_information_553">
+		<text>特异区内的秘密组织来来去去, 有的比其他更恶毒. 我敢打赌, 在"末日组织"被摧毁之前, 没有多少人听说过它. 啊, 只是一个古老的鬼故事.</text>
+	</string>	
+	<string id="dm_information_554">
+		<text>听说过"死亡篝火"吗? 据说有个旅行者晚上在特异区 里寻找避难所, 这时他发现远处有一个孤独的篝火. 他走近发现有一些奇怪的、安静的潜行者坐在那里, 他们看起来很不自在. 旅行者睡着了, 早上醒来时发现自己在另一个地方; 他再也找不到那个孤独的篝火了. 听起来有点俗套, 但事实就是如此.</text>
+	</string>	
+	<string id="dm_information_555">
+		<text>我来这里是为了绿洲. 我知道你要说什么: 那不是真的, 那是在浪费时间. 我想我为你感到遗憾. 之前有传言说一些科学家发现了一个独特的神器产生了这些传说, 但那只是胡扯. 我认识一些去过的人. 忘了许愿石吧, 这才是特异区真正的核心, 所有这些危险都要保护的核心.</text>
+	</string>	
+	<string id="dm_information_556">
+		<text>不管你做什么, 千万别为了找到许愿石而毁了自己的生活. 我应该知道的, 差点害死我. 我差点就迷路了. 我想要它胜过一切, 我想用它来弥补我的损失给我带来的悲伤. 忘记它. 现在就忘掉它吧. 适应这个世界要比追求这个世界容易得多... 它有诅咒. 好好看看那些磕磕绊绊的外壳, 考虑一下你的未来吧.</text>
+	</string>
+	<string id="dm_information_557">
+		<text>我不需要钱, 你知道的. 我不是一个穷困潦倒的父亲, 开车去特异区拿我的健康换些钱. 对我来说, 这是一次挑战, 一次旅程. 你可能不相信我, 但我在这个世界上已经很富有了. 但是房子、汽车和旅行都不能满足我. 我厌倦了狩猎、洞穴潜水... 一切都如此商业化, 如此平庸. 这才是真的 - 这事关生死.</text>
+	</string>
+	<string id="dm_information_558">
+		<text>大多数潜行者不会多看一眼信息收集, 但他们真的应该这么做. 比起寻找神器, 我更成功地找到了有关切尔诺贝利 秘密行动的文件. 有相当多的人想知道苏联当时在做些什么. 不过你得小心你的交易对象.</text>
+	</string>
+	<string id="dm_information_559">
+		<text>人们不想和你有任何瓜葛除非他们觉得能从你身上捞点好处. 一个方便的工具人, 仅此而已. 我没什么可说的了.</text>
+	</string>
+	<string id="dm_information_560">
+		<text>特异区本身就是一个世界, 这里有各种各样的人. 我和一大群人一起待在农研所的火车隧道里然后我们在夜里被吸血鬼袭击了. 我们往隧道里扔了一大堆火, 它们放弃了, 但我们的一个人, 只是个孩子, 倒在地上流血, 躯干上有一道巨大的伤口 - 他活不下去了. 突然间, 另一个和我并肩作战的潜行者走到躺在地上的孩子身边, 开始给他做最后的祈祷 - 他是个牧师! 那个孩子不应该来特异区, 但不知怎的, 这个行为让整个情况散发了几丝人性的光辉.</text>
+	</string>
+	<string id="dm_information_561">
+		<text>有个人跟我说过一件能跟他说话的神器. 我笑完后, 他说它开始试图操纵他做事; 它不想被卖掉, 它想留下来. 他说他最后把它扔进了一个洞里, 他认为它在吸食他的生命力之类的东西. 我告诉他他应该倒入硫酸.</text>
+	</string>
+	<string id="dm_information_562">
+		<text>有时迅速而猛烈地死去会更好. 有一些潜行者在特异区迷路了, 却没有死. 有人说, 红森林下面的矿井里住着潜行者, 他们是被迫驱赶到那里的, 变得像动物一样 - 它们生活在黑暗中, 躲避人类, 用四肢爬行. 有些人说他们完全失去了理智, 变得疯狂. 我们很难把真相和谣言分开.</text>
+	</string>
+	<string id="dm_information_563">
+		<text>每个人都以为他们要进入特异区, 找到致富的金券, 然后出来. 事情不是这样的. 离开这里很难, 从中获利更难. 如果我知道我要面对的是什么, 我就不会离开我的村庄, 我的家人...</text>
+	</string>
+	<string id="dm_information_564">
+		<text>我来这里之前什么都不在乎, 我唯一的想法就是在打卡下班之前尽可能地享受生活. 那时我才意识到世界的痛苦和自私, 人类是无法自给自足的. 总之, 我找到了基督. 是哲学把我带到了这里, 我看到了一个不变的标准的必要性, 一个终极原因. 我不指望你相信, 只要知道这一切背后都有目的.</text>
+	</string>
+	<string id="dm_information_565">
+		<text>除了那个因为我搞砸而死的人我很难去想其他的事情. 他是一个老格鲁吉亚人, 非常乐于助人和慷慨大方. 现在他死了, 都是我的错. 这该死的地方. 如果许愿石是真的, 那就是我的愿望.</text>
+	</string>
+	<string id="dm_information_566">
+		<text>我真是受够了这里的一些白痴说我们应该遵守什么"独行者守则. 呃, 不应该. 那就是不隶属的意思. 所以, 我真的没有义务帮你, 也没有义务遵守任何原则.</text>
+	</string>
+	<string id="dm_information_567">
+		<text>每个人都有自己的理论, 他们的意识形态和目的... 我? 我只是想在杀掉几只变异生物后好好喝一杯. 这没什么错.</text>
+	</string>
+	<string id="dm_information_568">
+		<text>啊, 有时候我真希望我能回到我的"伟大国度", 驾驶我的BMP进行演习. 也没那么糟, 对吧? 我现在就需要一个, 直接开到工厂去杀那些疯子.</text>
+	</string>
+	<string id="dm_information_569">
+		<text>外面有个人一心想要杀我. 不, 我不是多疑, 我知道这是事实. 你看, 在特异区里有很高比例的疯子, 并不是所有人都穿着白色迷彩服. 我所做的只是捡起这个散落在地上的神器然后卖掉了; 然后有个疯子来找我, 指责我偷了他的东西. 他想杀我, 但我逃脱了. 从那以后, 他就一直在找我. 无论我走到哪里, 他似乎总是出现, 而且从不停止. 除非我们中有人死了, 否则这事不会结束.</text>
+	</string>
+	<string id="dm_information_570">
+		<text>我以前常取笑诺阿, 以为他只是个活在幻想中的宗教疯子直到他救了我. 在最糟糕的时候, 警报响起, 我们被困在沼泽里受伤了. 诺阿不知从哪儿冒出来, 把我们带了进去, 保护我们免受喷射流和一群史诺克的伤害. 他比这里大多数人都要好.</text>
+	</string>
+	<string id="dm_information_571">
+		<text>西德洛维奇是一个混蛋, 就是这么简单. 但在有人能做他做的事之前, 我们只能跟着他. 对他来说, 雇一名职业杀手是很经典的, 他一直知道出来混早晚要还. 就算听到他去世的消息, 也很少有人会流泪.</text>
+	</string>
+	<string id="dm_information_572">
+		<text>有时, 如果你想开辟通往中心的新途径, 酒保愿意资助你的探险. 他还会让你看看这些年来他积累的情报 - 地图和报告. 即使只有十分之一的努力成功了, 对他也是一个很好的投资.</text>
+	</string>
+	<string id="dm_information_573">
+		<text>没有什么比在酒吧里喝一杯更放松的了, 但是有些人迷失了方向, 喝得酩酊大醉. 一段时间后, 酒保通常会把它们扔出去 - 他们没有帮到任何人, 尤其是他们自己. 有趣的是: 他们设法避开子弹、怪物和变异点... 但他们被一些进口伏特加搞晕了.</text>
+	</string>
+	<string id="dm_information_574">
+		<text>如果你要找特异区中心附近的供应商, 大胡子绝对不会错. 与特异区里的大多数交易商不同, 大胡子是我们中的一员 - 他关心他人的利益, 而不仅仅是他自己.</text>
+	</string>
+	<string id="dm_information_575">
+		<text>斯卡多夫斯克号是唯一一个我可以放松的地方. 大胡子一直盯着我们, 给我们提供有利可图的工作. 虽然, 我很怀念过去的日子, 当时黑石只呆在普里皮亚季的地狱里 - 河湾现在是一个危险的地区.</text>
+	</string>
+	<string id="dm_information_576">
+		<text>如果没有沃夫和狂热者, 新手村早就不复存在了. 他们才是特异区真正的英雄: 他们给了新人一个机会. 他们没必要这么做, 你知道的. 我想知道的是他们怎么能忍受西德洛维奇的屁话.</text>
+	</string>
+	<string id="dm_information_577">
+		<text>封锁线北部的农场有点像是新手村的前哨, 但西德洛维奇和洛里斯之间有些紧张. 显然, 西德洛维奇憎恨在他的地盘上的任何竞争, 但他也发现在桥北有一个贸易伙伴是有用的. 在洛里斯方面, 是晴空潜行者穿越到北方的必要条件.</text>
+	</string>
+	<string id="dm_information_578">
+		<text>除了夹兽者, 火车站的屠夫是特异区最好的变异生物猎人. 我听说废弃区在他出现并单枪匹马将他们全部清除之前已经被变异生物占领了.</text>
+	</string>
+	<string id="dm_information_579">
+		<text>跳蚤市场的那些潜行者几乎都有他们自己的小派别 - 他们一直都是秘密和独立的. 显然, 他们在那里有多年的前哨基地, 靠出售废弃区里的垃圾来赚钱. 我并不完全信任他们.</text>
+	</string>
+	<string id="dm_information_580">
+		<text>守林人'的建筑物是红森林噩梦中唯一安全的地方; 我不知道他是怎么做到的, 但多年来他一直在为访客提供庇护, 甚至在特异区建成之前. 如果你能活着见到他, 听听他怎么说.</text>
+	</string>
+	<string id="dm_information_581">
+		<text>有一次我绝望地想要进入竞技场, 我几乎没能回来. 我真的不建议你去, 你不该为了几个卢布赌上你的命. 如果你要死了, 至少做点重要的事.</text>
+	</string>
+	<string id="dm_information_582">
+		<text>当你和"小贼"打交道时, 你说话要小心. 你付钱让他提供情报, 但他可能想和你做交易. 总有一天, 那个潜行者会惹毛不该惹的人.</text>
+	</string>
+	<string id="dm_information_583">
+		<text>没有人拥有像明眼这样的产品. 如果你有昂贵的品味, 想要一些特别的东西, 去看看他. 他一直在特异区附近, 但他现在住在斯卡多夫斯克号.</text>
+	</string>
+	<string id="dm_information_584">
+		<text>我听说卡丹抛弃了河湾, 还有他的酗酒问题. 他现在住在亚诺瓦车站, 他和硝基 认为两个脑袋总比一个好. 很高兴在切尔诺贝利看到一些好消息.</text>
+	</string>
+	<string id="dm_information_585">
+		<text>除了自助洗衣店, 书店里的那些雇佣兵构成了普里皮亚季郊区的另一个前哨. 不像其他雇佣兵, 这些雇佣兵都愿意讲理. 如果你友好地请求, 他们甚至会让你购买他们的一些顶级装备.</text>
+	</string>
+	<string id="dm_information_586">
+		<text>亚诺瓦车站的接骨师告诉我通往普里皮亚季的道路又被打通了. 显然, 一些专家团队成功地突破了木星工厂地下通道然后盖瑞发现了新的通道. 我不禁在想, 也许这些路线不应该被打扰...</text>
+	</string>
+	<string id="dm_information_587">
+		<text>向导是一个奇怪的种族. 他们是安静的天才, 艺术家, 他们会带你参观特异区里的任何地方而不会被发现或攻击. 但你在野外的时候最好照他们说的做; 如果你愚蠢到无视他们的命令, 他们就会让你自生自灭.</text>
+	</string>
+	<string id="dm_information_588">
+		<text>猫头鹰是斯卡多夫斯克号的装备商人, 但许多潜行者对他感到不安. 有人说他在秘密地为那些土匪工作, 他只是在等待他们在河湾占了上风之后才公开露面. 但这从未发生过. 他似乎不情愿地变成了一个真正的潜行者, 但有人说他仍然从亚诺瓦的土匪那里得到补给.</text>
+	</string>
+	<string id="dm_information_589">
+		<text>夹兽者比任何人都了解变异生物. 他猎杀了特异区里所有能找到的猎物, 除了核电站本身. 他有一种不可思议的能力, 知道去哪里和做什么; 只有拥有超人直觉的人才能活得这么久. 遗憾的是, 他现在退休了 - 看到太多好朋友以可怕的方式被杀. 现在他坚持为亚诺瓦车站的潜行者们提供猎杀变异生物的建议.</text>
+	</string>
+	<string id="dm_information_590">
+		<text>为什么你在世界上的任何地方都能找到想要抢劫和杀害你的卑鄙暴徒? 我在家乡见过他们, 我祖父在古拉格见过他们, 现在他们又来了. 他们是人类的瘟疫, 必须被根除.</text>
+	</string>
+	<string id="dm_information_591">
+		<text>强盗除了杀人、贪婪和狡诈之外, 什么都不会. 如果你能在公开场合和他们打一架, 他们通常会逃跑.</text>
+	</string>
+	<string id="dm_information_592">
+		<text>我听说军方组织了"潜行者狩猎", 他们在人口稠密的地区出没, 看到什么就开枪. 我自己没见过, 但我不觉得难以置信. 我不知道他们在哪找到这些疯子的.</text>
+	</string>
+	<string id="dm_information_593">
+		<text>你是怎么通过边境的? 我的小组在边境巡逻队有联络人: 他刚在栅栏上留了个小洞让我们溜过去. 都没花那么多钱. 你可以贿赂其中一个, 给的钱够他都能不认自己的父亲.</text>
+	</string>
+	<string id="dm_information_594">
+		<text>潜行者们对晴空的目的有很多推测. 一些人说, 他们只是想和平地研究特异区, 而其他人认为他们在寻找某种神秘的psy武器来控制黑石. 至于我自己, 我觉得他们是在拼命求生.</text>
+	</string>
+	<string id="dm_information_595">
+		<text>对科学家来说是好事, 他们以正确的方式进入了特异区; 他们是受人尊敬的潜行者. 嗯, 说实话, 这样的生活不适合我. 我宁愿走自己的路.</text>
+	</string>
+	<string id="dm_information_596">
+		<text>科学家给了我一份工作, 让我到一个实验室去为他们采集一些样本. 我告诉他们让他们滚蛋, 到底是什么样的白痴才会接受这种工作? 当然... 费用相当诱人...</text>
+	</string>
+	<string id="dm_information_597">
+		<text>那些纪律团的人似乎有点自以为是. 也许他们对变异生物的看法很有道理, 但收集神器也有错吗? 不管怎样, 我很高兴他们盯着罗斯托克.</text>
+	</string>
+	<string id="dm_information_598">
+		<text>我有几次想加入纪律团 - 但我一直没能做到. 我看到的变种生物已经够多了, 不用亲自去找了. 谢谢您.</text>
+	</string>
+	<string id="dm_information_599">
+		<text>自由团似乎是一个混合体. 我让他们给我指了一些好的神器点, 他们还告诉了我变异现象的诀窍. 另一方面, 他们中的许多人只是堕落的人, 让土匪在他们的领土上自由统治.</text>
+	</string>
+	<string id="dm_information_600">
+		<text>我觉得自由团的整个任务都很蠢. 你看到特异区里的奇迹了吗? 我只见过死亡和热力学中令人厌恶的东西. 你能从特异区里得到的最好的东西就是丰厚的回报. 老实说, 我宁愿避免卷入纪律团或自由团.</text>
+	</string>
+	<string id="dm_information_601">
+		<text>有传言说死城的雇佣兵基地下面有个审讯室. 有时, 他们会抓住掌握特殊情报的人, 带他们去那里. 我听说如果需要的话他们会折磨他们好几年. 离那些雇佣兵远点.</text>
+	</string>
+	<string id="dm_information_602">
+		<text>今天的雇佣兵与他们早些年签约的前辈们没有什么共同之处. 他们不再进行为了自己的目的而分散的临时行动. 在杜什曼的领导下, 进行某种秘密的活动, 将不同的团队联合起来, 把不愿友好的团队踢出去. 有些组织, 比如战斧的手下, 在事态开始升温时就离开了. 另一方面, 铁钩的士兵不得不被消灭. 现在他们已经是一支中央集权私兵了, 我们必须非常小心.</text>
+	</string>
+	<string id="dm_information_603">
+		<text>你在为晴空说话. 我觉得我们是同一战线的, 有共同的敌人. 你的隐秘会让人很反感的; 让一些潜行者有点心惊肉跳.</text>
+	</string>
+	<string id="dm_information_604">
+		<text>现在你想从我们这里得到什么了? 你通常都是一见人就开枪. 我想说的是你最好把枪藏在我们身边, 否则你就会失踪.</text>
+	</string>
+	<string id="dm_information_605">
+		<text>潜行者和科学家应该一起坚持到底 - 我们是一个生态系统. 你喜欢有大量来自特异区各地的稀有神器供应, 我们偶尔也有不错的收入.</text>
+	</string>
+	<string id="dm_information_606">
+		<text>我觉得你们这些科学家可以从我们这些卑微的潜行者身上学到点东西. 我们可能没有你的大学学位或政府设备, 但每个活着带回神器的潜行者都比你所有的博士加起来还要有经验.</text>
+	</string>
+	<string id="dm_information_607">
+		<text>更多的潜行者应该感谢你为我们所做的一切. 多亏了你, 罗斯托克 是特异区里最好的地方. 不过你真的可以把废弃区清理干净, 它又变得狂野和危险了.</text>
+	</string>
+	<string id="dm_information_608">
+		<text>老兄, 纪律团怎么了? 你们的领地都到哪里去了? 看来你们剩下的人不多了. 我有时会听到关于苏尔加和他手下的谣言. 通常他们都躲在普里皮亚季里, 但我没看到.</text>
+	</string>
+	<string id="dm_information_609">
+		<text>对你来说, 维护死亡屏障是件好事; 大多数组织都会避免这样危险的任务. 我听说来自雷达的攻击越来越频繁, 我不希望看到黑石巡逻封锁线.</text>
+	</string>
+	<string id="dm_information_610">
+		<text>给你点信息: 你的手下偷了我的东西. 搞什么? 你现在让匪帮加入你的队伍了吗?</text>
+	</string>
+	<string id="dm_information_611">
+		<text>你看起来就像杀了我兄弟的雇佣兵. 我真搞不懂你们这些人是干什么的, 今天还在杀人, 明天就来跟我们聊天了. 你来这儿干什么?</text>
+	</string>
+	<string id="dm_information_612">
+		<text>潜行者应该团结起来, 对吧? 我讨厌听到独行者如何互相伤害 - 特异区里的危险还不够多吗?</text>
+	</string>
+	<string id="dm_information_613">
+		<text>独行者们一天比一天看起来更像一个帮派: 领袖,目标... 我想现在只能这样了. 如果有新的团体成立, 比如"真正独行者"之类的, 我不会感到惊讶.</text>
+	</string>
+	<string id="dm_information_614">
+		<text>其他团体完全搞错了. 他们认为处理特异区的最好方法是让特异区更像外面的世界. 你的派系救不了你! 就像这里的一切一样, 它会腐烂和腐败. 作为一个人, 你的选择才是最重要的: 勇敢或怯懦, 愚蠢或智慧...</text>
+	</string>
+	
+	<!-- GENERAL: MUTANTS -->
+	<string id="dm_information_615">
+		<text>在特异区里有第六感是很有用的, 有时这是你唯一的帮助. 有一天我走在路上, 突然觉得有点不对劲, 好像出了什么事. 我根据这种感觉, 爬上了一根树枝 - 非常及时! 马上, 一大群盲狗跑了过去 - 应该有30只吧! 两个教训: 相信你的直觉, 在你和那些杂种之间树立一个高度差.</text>
+	</string>
+	<string id="dm_information_616">
+		<text>我们越懂得如何控制特异区, 它就越懂得如何挣脱束缚. 吸血鬼已经够糟糕的了, 但是这些新的怪物呢? 我曾听人把它们叫做精神吸食者, 但大多数人都喜欢避免谈论它们. 即使在营地中间, 你也感觉不到安全.</text>
+	</string>
+	<string id="dm_information_617">
+		<text>如果你看到远处有一个巨大的斑点在爬行, 在它看到你之前赶紧离开. 那些低估大脚怪的人再也见不到了. 你觉得你能跑得过他们, 对吧? 然后你意识到, 他们可以永远爬, 他们一旦看到你就不会停止. 他们会磨垮你, 然后把你撕成碎片.</text>
+	</string>
+	<string id="dm_information_618">
+		<text>这些僵尸到底是从哪来的? 我不是指那些不幸的潜行者朋友, 他们的来源很明显. 我指的是那些被老科学家带到这里做实验的人. 这真的让人想知道在实验室里做的测试有多广泛.</text>
+	</string>
+	<string id="dm_information_619">
+		<text>豚兽是一个非常极端的例子, 说明了特异区对生物生命的影响. 然而, 我认为它们实际上可能是进化阶梯的下一步. 看看他们开发出对环境的有效适应有多快? 你有没有感觉, 肉体的感觉器官, 自卫能力和解决问题的行为在自然界中是无与伦比的? 也许我不该再想像下去了.</text>
+	</string>
+	<string id="dm_information_620">
+		<text>豚兽是特异区里可怕的基因垃圾, 只是生物垃圾. 他们太操蛋了, 太悲惨了. 当你见到他们时, 让他们摆脱痛苦是个好主意.</text>
+	</string>
+	<string id="dm_information_621">
+		<text>见过那种邪恶的小妖精吗? 小矮人? 我在杨塔找到了一个, 我把它灌满了铅弹. 我希望我从来没有看到过它. 问题是, 它还在进行报复. 不知怎么的, 我脑子里想起来了. 我不能一个人去任何地方, 不然我的眼角就会出现小小的咧嘴笑的头骨, 我感觉它一直在看着我. 特异区里最糟糕的就是那些能改变思维的怪胎... 我都睡不着了.</text>
+	</string>
+	<string id="dm_information_622">
+		<text>不要害怕最强大的敌人, 而要害怕最聪明的敌人, 这才是明智的. 我觉得脑波怪是最聪明的, 也许比我们还聪明. 几年前我从一个自由团的人那里听说了一个关于一些脑波怪假装潜行者的故事. 它穿着一件连帽外套径直走进了自由团基地 - 守卫们被它的psy力场吓得手足无措, 却没有注意到它. 然后它就造成了巨大的破坏. 你能想象吗?</text>
+	</string>
+	<string id="dm_information_623">
+		<text>一个警世故事怎么样? 我的一个朋友和他的同伴们在篝火旁喝酒时睡着了. 他醒来后, 发现自己在黑暗中, 被拖着一只脚在地上滑. 他往下一看, 一只丑陋的大猫正拖着他! 幸运的是, 他的手枪还在.</text>
+	</string>
+	<string id="dm_information_624">
+		<text>那些潜伏者的问题越来越严重了. 以前, 他们只是从普里皮亚季回来的潜行者的篝火故事. 现在, 即使是经验丰富的潜行者也会失踪, 然后出现时都是伤痕累累. 那些怪物甚至不需要吃东西, 他们只是杀人为乐.</text>
+	</string>
+	
+	<!-- SIN -->
+	<string id="dm_information_625">
+		<text>"黑暗之神"切尔诺伯格, 命运和生育女神"莫科什"向他致敬, 他没有死, 而是通过特异区的散发而活了下来. 他只是被查伦扎(地名)神化为一个与永恒者联合的更大的整体. 特异区在大地上生长, 他也在生长.</text>
+	</string>
+	<string id="dm_information_626">
+		<text>上主们的秘密是与无所不包的虚无统一的道路. 参悟祂们! 高分子核物理学的三头神"特里格拉夫", 离散能量场的"太阳神"达日博格, 新兴酶学的雷神"佩龙", 还有许多. 只有钻研秘密的人才能溶入天堂.</text>
+	</string>
+	<string id="dm_information_627">
+		<text>确定你是一个提升者? 你上次服用"圣水"是什么时候? 你必须始持续使用它它, 才会发生次神化! 你必须确保你的萨满在这方面不能松懈!</text>
+	</string>
+	<string id="dm_information_628">
+		<text>经验最丰富的萨满通常会做出身体上的牺牲, 尽管"牺牲"这个词不太准确. 自我造成的苦难是对物质世界邪恶的宣言; 正如所有不是在天堂的东西都是没有价值的, 物理物质的变形是对特异区的大业一种崇高的承诺. 很多人摘除手指, 但也有一些人摘除眼睛或生殖器.</text>
+	</string>
+	<string id="dm_information_629">
+		<text>造物的世界对我们来说一直是一根刺, 嘲笑着它令人眩目的光芒、快乐和痛苦, 嘲笑着所有那些自鸣得意、面带微笑的人. 特异区是对它的终极侮辱, 向世界竖起中指. 当特异区在这个毫无价值的世界中展现出天堂时, 这个地方的结构已经被腐蚀和折磨透了. 堕落的邪恶就是善良的.</text>
+	</string>
+	<string id="dm_information_630">
+		<text>更不用说特异区里的孩子们了, 那些被赋予了对未来现实的憧憬的孩子们. 弱智者称他们为变异生物, 但他们非常堕落和扭曲的天性使他们成为天堂的见证. 他们中的一些人已经被赋予了理解天堂大业的知识, 他们可能会把我们视为盟友; 别人和我们是如此相似, 以至于我们把他们当作兄弟.</text>
+	</string>
+	<string id="dm_information_631">
+		<text>根本真理是"一"的虚无, 而在"一"之前, 理性就是大便. 理性是生活在这个幻想世界里的人的愚蠢发明, 它让心灵屈服于一个虚假的神. 跟格诺莫斯拉瓦谈谈, 他会帮你祈求虚无.</text>
+	</string>
+	<string id="dm_information_632">
+		<text>随着特异区的扩大, 对现实的幻想也将化为虚无. 首先我们将推翻基督徒, 然后穆斯林的安拉会倒下, 然后希伯来的上帝会被抛弃并被遗忘. 世界将不复存在. 在永恒的幻象面前, 将只剩下令人眩目的虚无.</text>
+	</string>
+	<string id="dm_information_633">
+		<text>提升者们可能满足于杀死特异区的敌人, 但萨满们渴望更进一步地耗散特异区. 我看到过他们走进psy风暴, 他们享有自由操控死气沉沉的特异区和它的自我溶解的能力. 他们获得了使我们的敌人畏惧的力量. 他们说伟大的"黑暗之神"切尔诺伯格也享有这种能力.</text>
+	</string>
+	<string id="dm_information_634">
+		<text>当你和我们在一起时, 你会意识到这个特异区的繁殖力, 它如何从我们身上索取, 又给予我们不期望的东西. 大多数情况下, 你会失去自我的肤浅和具体性; 一开始可能会很痛苦, 但所有的幻觉都是痛苦的, 直到你摆脱它们. 你的付出都是值得的. 你已经看到我们伟大的战士像水一样在子弹和炸弹中挣扎, 他们几乎不需要睡觉. 你将成为什么, 只有在你被神化到进一步的等级时才会不言而喻.</text>
+	</string>
+	<string id="dm_information_635">
+		<text>在过去的年代, 那些信徒给我们起了名字, 他们叫我们异教徒或异端. 他们是对的. 他们所谓的异端邪说, 其实只是对事物的一种叫法. 那些他妈的傻瓜盲目地相信一个现实, 不变和永恒地 - 幻想的奴隶! 唯一的现实是在被天真地称为"真理"的混乱变化中. 别弄错了, 天堂不是那个"天堂", 而是天堂的毁灭. 在那里, 罪固然被除去, 万物也被完全消灭了. 如果没有意义, 那么罪就不能存在.</text>
+	</string>
+	<string id="dm_information_636">
+		<text>也许你一直在为特异区的大业而战? 许多同修觉得痛苦很难接受, 但这不是必须的. 当然, 痛苦是一种幻觉, 是这个邪恶世界的一场阴影把戏. 接受这一点是进入更高阶的必要条件.我们的一个亲爱的兄弟, 贝兹拉, 被一些特异区否定者严重致残. 他的手臂, 如果有的话, 是被一块肉吊着的, 腹部各处都是碎片. 他感觉不到痛苦, 对他来说没有痛苦, 因为他逃离了幻觉. 但他是一个强大的萨满, 对"折磨之神"兹勒博格的智慧有深刻的了解.</text>
+	</string>
+	<string id="dm_information_637">
+		<text>上主们的工作通过我们继续下去. 他们生活中最大的讽刺是他们认为自己失败了. 他们认为特异区和不洁的现实的交集是个错误. 然而, 一些人后来得到了他们想要的东西. 他们要除掉世上的罪, 却不晓得怎样才做到. 正如我们所知, 这是天堂的引入抹去了世界. 随着特异区的发展, 上主们的计划将会实现.</text>
+	</string>
+	<string id="dm_information_638">
+		<text>"圣水"是一门艺术, 需要大量参悟上主们, 甚至我们的萨满也可能会犯错误. 一名信徒, 实际上是来自特异区的敌人的志愿者, 受到了受污染血清的最不利影响; 他变得异常激动, 面部肌肉开始松弛. 就像我们在所有这类案例中所做的那样, 他被扔进了"粉碎世界"并被消灭了. 这是我们能为他们做的最好的事了 - 简直就像自愿进入天堂一样消失了.</text>
+	</string>
+	<string id="dm_information_639">
+		<text>我不知道该怎么相信这些背叛特异区的谣言. 有人说, 一名"新郎"级的提升者自愿试图通过欺骗来破坏特异区的大业. 由于他被发现退化到一个世俗的世界, 他被迫进入"燃烧的粉碎机"中作为反对"伪现实"的声明.</text>
+	</string>
+	<string id="dm_information_640">
+		<text>那些新来者是俘虏, 对吧? 他们需要被彻底的启蒙, 否则我们会再次遇到更多的问题. 我说, 给他们双倍剂量的"圣水". 别再搞砸了.</text>
+	</string>
+	<string id="dm_information_641">
+		<text>这是我从被抹杀的茨纳戈米尔那里学到的: 曾经有一个邪恶的特异区否定者教派, 比其他教派更直接, 甚至比现在的"孽债"教派更直接. 这个团体的成立是为了和特异区对抗, 甚至摧毁它. 这就是他们自称为"末日组织", 的原因, 但这不是我们的末日, 而是他们的末日. 就在强大的"黑暗之神"切尔诺伯格要摧毁他们之前, 一个不知名的人杀死了受诅咒的领袖并消失了. 这时, 高贵的"黑暗之神"切尔诺伯格学会了让即将到来的特异区的敌人自相残杀.</text>
+	</string>
+	<string id="dm_information_642">
+		<text>我想我需要更深刻的领悟. 有时我看到以前的自己, 想起以前的同志 - 不, 不要想! 那不是真的, 那是一个该死的谎言造成的幻觉. 它们和我一样都不是真的. 天堂, 请来抹杀我的存在!</text>
+	</string>
+	<string id="dm_information_643">
+		<text>每一次感受到高贵风暴的聚集, 专注于特异区的扩张, 想象天堂的领域的成长. 团结你们的意志, 它可能会被通过的力量淹没. 想想看, 它不断生长, 直到吞噬了整个地球! 三思而后行.</text>
+	</string>
+	<string id="dm_information_644">
+		<text>伟大的"林地与野生动物之神"贝尔斯图克创造了我们的祖先. 他带走了生活在邪恶幻觉中的卑贱的世人, 打开了他们最深处的眼睛, 看到了令人眩目的虚空. 我们是在巨大的实验室和通往深渊之塔下面的黑暗裂缝中形成的. 许多被带到那里的人没有那么幸运, 他们只是变成了野兽或低能儿, 尽管他们被赋予了特异区的奇迹. 即使是现在, 强大的贝尔斯图克乘着发射波, 试图扩展这个领域.</text>
+	</string>
+	<string id="dm_information_645">
+		<text>听说过格罗米吗? 他们和我们一样都是提升者, 但是当他们被神化的时候就被赋予了特殊的力量. 我认识的一个兄弟, 奥列格·密特拉, 他被赋予了召唤风暴的力量 - 这是多好的恩赐! 或者帖木儿·马格斯, 他能让他所见过的任何一个人慢慢死去. 至于我自己, 我只是个卑微的仆人, 乐于射杀那些胆敢与特异区作对的贱人.</text>
+	</string>
+	<string id="dm_information_646">
+		<text>愿特异区诅咒你的子弹, 它从特异区仆人的武器飞出, 然后出现在敌人的重要器官. 愿他们在痛苦中死去 - 与那些反对天堂降临的人相比, 这是一种仁慈.</text>
+	</string>
+	<string id="dm_information_647">
+		<text>史特列洛克是最伟大的敌人, 他反对新的虚空. "光明之神"贝洛伯格, 重伤史特列洛克! "战神"斯文托维特, 用烈焰爆破史特列洛克! "三头神"特里格拉夫, 把史特列洛克从世界上抹去! "魔法之神"札尼尔查, 把黑死病传给史特列洛克!</text>
+	</string>
+	<string id="dm_information_648">
+		<text>多年来, 我们的黑石同志们英勇地保卫着特异区的心脏, 希望他们很快就会完全解散! 然而, 他们没有得到我们祖先得到的秘密, 而且他们对即将到来的特异区所知甚少, 他们只知道保护中心免受敌人的攻击. 另一方面, 特异区也为他们抹去了人性.</text>
+	</string>
+	<string id="dm_information_649">
+		<text>强大的黑石是特异区, 的盾牌, 他们保卫伟大的作品, 传播了即将到来的空虚王国. 我们是天堂的矛, 真正的虚无的先驱, 向虚假的现实施加压力.</text>
+	</string>
+	<string id="dm_information_650">
+		<text>帮我们个忙, 让他们活下去. 要么打爆膝盖, 要么打爆内脏, 等他们拿到血清, 就会稳定下来. 我们得在实战中更加狡猾, 我们无法在那些土匪们不注意的情况下从他们那里拿更多东西.</text>
+	</string>
+	<string id="dm_information_651">
+		<text>我很难相信我曾经有过物质需求, 我甚至渴望为人... 我们没有什么可做的, 只有带来最后的夜晚, 特异区战胜万物的胜利.</text>
+	</string>
+	<string id="dm_information_652">
+		<text>嘲笑那些该死的小教派吧 - 一群傻瓜. 特异区变得越来越强大, 什么也不能用他们微弱的力量. 所有萨满们都同意了, 最后的打击很快就会到来, 然后现在的特异区就会被清除.</text>
+	</string>
+	<string id="dm_information_653">
+		<text>派别, 政府和教会都会反对我们, 但都无济于事. 他们会意识到, 他们一直害怕的那一天终将到来, 但为时已晚. 他们有许多罪恶, 但没有什么比存在于这个腐朽的现实中更罪恶, 渴望作为一个有意识的实体更卑鄙了... 特异区会把他们都压进冰冷的土地里.</text>
+	</string>
+	<string id="dm_information_654">
+		<text>看看奇迹的面孔, 我们敬爱的上主们的眼睛! 祂们的梦想几乎成了现实. 夜军已经准备好了, 特异区很快就会醒来并伸展开来. 我只提升到了低阶, 但如果特异区能扩大, 我会把自己刺在祂们的剑上.</text>
+	</string>
+	<string id="dm_information_655">
+		<text>你为什么要努力控制特异区? 你为什么不帮它成长呢? 世界上大多数人都认识到特异区的内在价值; 我们只是想与世界分享这一价值观.</text>
+	</string>
+	<string id="dm_information_656">
+		<text>你对黑石有如此多的敌意是一个悲剧, 但你必须意识到那些只是一种防御机制. 毕竟, 是那些潜行者首先侵入了特异区的中心地带.</text>
+	</string>
+	<string id="dm_information_657">
+		<text>试图阻止特异区的发展是愚蠢的. 你没看到它在生长吗? 特异区从来没变小, 它不能. 所以为什么要反抗呢?</text>
+	</string>
+	<string id="dm_information_658">
+		<text>控制特异区是不可能的, 这是一头你无法驯服的野兽. 为什么不让它驯服你呢? 你为什么不让它洗刷你呢? 带走所有的伤痛, 所有的焦虑? 它可以做到, 你知道的.</text>
+	</string>
+	<string id="dm_information_659">
+		<text>你何不作为一个受人尊敬的同志加入我们呢? 难道你不应该停止为伪君子, 甚至为你自己的贪婪而战? 原罪试图给这个世界它应得的: 彻底的净化.</text>
+	</string>
+	<string id="dm_information_660">
+		<text>你为什么还要继续为那些伪善的人渣而战? 责任, 自由, 军队, 都一样 - 你懂的. 你已经看到了人类的领导力带给你的是无用的. 加入我们, 做正确的事.</text>
+	</string>
+	<string id="dm_information_661">
+		<text>你一定看过特异区里的奇景了吧? 思想粗俗的人称之为危险或过失, 但那是心胸狭窄的人说的话; 说这种话的人会因为火可以燃烧而拒绝火吗? 不, 你不是那样的 - 你来这里是为了看到奇迹和特异区里各种各样的美景. 接下来是什么? 特异区应该把它的财宝分散到世界各地, 对吧? 你必须是一个真正盲目的混蛋才能反对. 这就是原罪的职责, 这就是我们想要做的.</text>
+	</string>
+	<string id="dm_information_662">
+		<text>被看见的东西不能是无形的. 当你走进这个地方的时候, 你是不是被这个特异区的勃勃生机所震撼? 它的力量? 当你看穿了光的把戏, 找回初心, 你就会看到在特异区里显现出来的生活目的. 我们称之为天堂.</text>
+	</string>
+	<string id="dm_information_663">
+		<text>与特异区达成和解是真正符合你的最大利益 - 这就是我们的目的. 不要害怕黑石? 不觉得他们的胜利不可避免吗? 每个人都这么说. 做明智的事, 以朋友的身份加入"原罪". 黑石让我们安宁, 我们没有恐惧. 这不是你想要的吗?</text>
+	</string>
+	<string id="dm_information_664">
+		<text>恭喜你来到特异区! 这确实是个开始! 有些人要远离这里 - 在他们狭隘的思想里, 他们想要避免任何威胁到他们自私的平情的事. 然而, 你在这里, 这意味着你一定对这个特异区有某种吸引力或魅力. 即使这是一种个人利益, 你现在肯定认为这个特异区是值得保护的? 如果你想帮助保护它, 请找我们的一位领袖并与他们交谈.</text>
+	</string>
+	<string id="dm_information_665">
+		<text>您好, 兄弟. 成就大业之战进展如何? 如果你需要援助的话, 请去红森林拜访其中一位萨满.</text>
+	</string>
+	<string id="dm_information_666">
+		<text>愿特异区抹去你的灵魂吗, 朋友. 你们是特异区领域的守望者你们不能失败. 上主们指望着你的奉献.</text>
+	</string>
+	<string id="dm_information_667">
+		<text>我们不应该在隔阂中工作, 但我们应该并肩对抗特异区的敌人! 嗯... 萨满们总是建议谨慎, 所以他们希望我们隐藏我们与黑石的友谊. 当我们去找那些特异区否定者时, 我们必须为我们的大业争取更多的人, 所以谨慎是明智的.</text>
+	</string>
+	<string id="dm_information_668">
+		<text>黑石的进展有多伟大! 您的臂膀已经带着您远远离开了城市, 来到了特异区的敌人的中心地带! 我们很乐意帮助您.</text>
+	</string>
+	<string id="dm_information_669">
+		<text>切尔诺博格是明智的, 他与黑石这样强大的军队共同努力. 我们岂不是精神上的弟兄吗? 你们想保护高贵的特异区而我们想让它成长. 毫无疑问, 我们的工作大致相同.</text>
+	</string>
+	<string id="dm_information_670">
+		<text>我最近才进入特异区, 它的痛苦使我想到所有关于黑石的邪恶流言. 难道他们不知道是特异区的敌人无缘无故地袭击了特异区的中心吗? 他们生活在无知和痛苦中, 死亡对他们来说应该是一种安慰.</text>
+	</string>
+	<string id="dm_information_671">
+		<text>下一批武器什么时候来? 我们在意志和韧性方面没有失败, 但我们的弹药越来越少了. 尽管"大气之神"斯特利伯格已经正确地建议我们去特异区否定者的营地趁他们睡觉的时候割断他们的喉咙. 虽然不是所有人都能回来, 但这是一件好事.</text>
+	</string>
+	<string id="dm_information_672">
+		<text>是不是上次的风暴扩大了特异区的边界? 我想是的, 即使只有一米. 特异区夺走的每一寸都是无法被释放的.</text>
+	</string>
+	<string id="dm_information_673">
+		<text>导师让我收集敌人的手指. 当我看到他们的时候, 我就想起了特异区即将取得的胜利, 想起了我们自己肉体的价值. 你很幸运, 我的朋友, 因为你几乎没有什么想法扰乱你的平静.</text>
+	</string>
+	<string id="dm_information_674">
+		<text>就在昨天, "大气之神"斯特利伯格还告诉我永恒的黑石战胜了毫无价值的宗派"晴空"的伟大胜利. 就在那时, 特异区的敌人以强大的力量起来反对我们, 意图将特异区赶回外部的黑暗之中. 在最令人怀疑的时候, 特异区获胜了! 将来也会如此.</text>
+	</string>
+	
+	<!-- UNISG -->
+	<string id="dm_information_675">
+		<text>这个地方完全让我困惑. 我们都认为切尔诺贝利的情况是一堆被轻信的新闻机构夸大的传闻. 我以为会发现奇怪的辐射模式也许还有某种不稳定的气象. 真不敢相信我错得这么离谱...</text>
+	</string>
+	<string id="dm_information_676">
+		<text>我记得我第一次看到变异点, 真的不是很久以前. 我只是呆呆地盯着它, 想知道这样的事情怎么会发生在我们这个秩序井然科学解释一切的星球上. 这个地方就是未来 - 你在这里进行的测试会让大多数研究领域都过时.</text>
+	</string>
+	<string id="dm_information_677">
+		<text>毫无疑问, 这是我听说过的最不适合远征的地方. 我们有糟糕的供应链, 不稳定的通信, 过时的上级, 而我们被敌对的武装力量包围, 我们甚至不了解他们. 这让我希望我是在巴尔干半岛.</text>
+	</string>
+	<string id="dm_information_678">
+		<text>这里的人员流失很严重, 非常严重. 我们不应该在天黑后出去或在我们没有预先研究的地方. 我们每天都失去更多的人, 有一半的时间我不知道该写什么死亡报告.</text>
+	</string>
+	<string id="dm_information_679">
+		<text>我只希望我们比其他人先到这里. 这是一项全职工作来对付攻击性动物和环境危险, 但这里是世界级的冲突区! 如果理事会想控制这个地方, 我想他们需要把我们的人数增加十倍.</text>
+	</string>
+	<string id="dm_information_680">
+		<text>不要相信那些潜行者. 在他们面前永远不要放松警惕. 我们进入了一个战区, 我们甚至不知道参与其中的人是谁. 你永远不知道这些人是为黑社会犯罪组织还是某个极端的准军事组织工作. 我知道一件事: 你不能和穿白衣服的人讨价还价. 一见他们就开枪.</text>
+	</string>
+	<string id="dm_information_681">
+		<text>这是一个自杀式的任务. 我们上周失去了一整支研究团队他们被某种嗜血的野人吃掉了. 这肯定不在简报里. 我们在这里完全看不见, 只等着下一个超级捕食者找到我们.</text>
+	</string>
+	<string id="dm_information_682">
+		<text>特异区似乎被划分为几个由武装派别控制的领土. 当我们以一种有组织的方式进入时, 这里的"潜行者"将我们视为另一个可以竞争的派别. 我们既没有足够的兵力也没有足够的情报来从各个方面保护自己, 所以我们最重要的是要与特定的团体结成联盟. 我们只需要弄清楚哪些是足够可信的哪些是完全疯狂的.</text>
+	</string>
+	<string id="dm_information_683">
+		<text>一个完整的生态系统绝对不可能在几十年的时间里仅仅因为辐射就突变成这种状态. 不可能! 我有遗传学和行为生物学方面的经验, 我们现在最应该看到的是异常生长和更激进的行为. 这都有点轻描淡写了! 这是一个经过疯狂改造的生态系统, 似乎包含了在自然界中找不到的新物种. 我们得查个水落石出, 这是前所未闻的.</text>
+	</string>
+	<string id="dm_information_684">
+		<text>我在波斯尼亚和阿富汗待过一段时间, 我从未见过比这更恶劣的环境. 每一次交战都变成了残酷的交火, 在这个精神病院的大多数假想敌都配备了军队级别的设备和一个复杂的组织. 这是世界上最无法无天的地方我不知道我们能在这里做什么.</text>
+	</string>
+	<string id="dm_information_685">
+		<text>如果你看到有异常活动的区域, 在你的PDA上做个标记我们会尽快派人过去. 这些事情我们已经积压了很多, 但我们需要开始形成精确的地图.</text>
+	</string>
+	<string id="dm_information_686">
+		<text>我从营里听到的最后一件事是补给因为天气原因推迟了. 我觉得"天气"可能是别的词的暗号. 感觉我们离世界有百万公里远.</text>
+	</string>	
+	<string id="dm_information_687">
+		<text>我非常不喜欢他们派到我们公司的那些人的长相: 安静的人, 带着伤疤, 态度优越. 为什么研究委员会认为我们需要这些人? 他们中的一些人似乎渴望打架.</text>
+	</string>	
+	<string id="dm_information_688">
+		<text>我觉得你最好坚强点否则你在这里撑不了多久的. 就算你躲过了乌克兰军队, 这里的敌人也会让特别空勤团遭殃. 就在前几天, 一个小队追踪到一个前沿观察站, 结果他们差点被消灭.</text>
+	</string>	
+	<string id="dm_information_689">
+		<text>我们迫切需要乌克兰人提供一些特殊的研究服. 我一直听说我们的研究人员的防护装备坏了 - 有些人已经离开我们了. 我们的装备不足以对付这些新的危险.</text>
+	</string>	
+	<string id="dm_information_690">
+		<text>我不相信早期关于特异区里有杀人动物的报道 - 我以为是一些受了惊吓的科学家看到了疯狗什么的. 现在我亲眼看到了世界上的人都不敢相信的事情. 最糟糕的是我不知道我看到的是人类还是... 其他的东西. 这地方简直就是个噩梦.</text>
+	</string>	
+	<string id="dm_information_691">
+		<text> 我一直在外面从当地人那里收集信息我可以告诉你研究委员会对这个地方的自然状况一无所知. 我们被告知要去观察切尔诺贝利核灾难造成的辐射天气异常. 跟我谈话的那些潜行者暗示了一些我们做梦都想不到的事情: 在地下实验室进行的秘密生物实验以及某种新发现的能量场. 通常他们不喜欢谈论这些话题, 这让他们很紧张. 我得亲自去看看这些地下设施.</text>
+	</string>	
+	<string id="dm_information_692">
+		<text>我从90年代莫桑比克内战开始就和联合国签约了. 海湾战争之后, 所有的冲突地区在我的脑海里都融合在一起了. 我不是那种会出现在报纸照片上戴着蓝盔的士兵. 当事情需要更顺利, 操作需要看起来更干净时, 他们会找我这样的人. 我觉得这是我喜欢的地方. 不再畏畏缩缩, 不再有种族灭绝的平民, 也不再有哭诉战争罪行的记者. 这是我擅长的.</text>
+	</string>	
+	<string id="dm_information_693">
+		<text>所有来自东欧的科学期刊现在都开始有意义了 - 对物理学的惊人见解和令人困惑的部位编辑实验. 我们以为我们已经落后了, 我们变得软弱了. 这就说得通了. 这些人认为他们可以把这个科学金矿留给自己. 希望这次探险只是第一次; 等特异区平息下来, 我们可以在这里安装一些设施. 不再有秘密.</text>
+	</string>	
+	<string id="dm_information_694">
+		<text>我们是第四组探路者, 就在那个完全失踪的探路者之后. 除了我们的新卫星图像, 我们只找到了一个愿意帮忙的当地导游, 一个态度恶劣的酒鬼俄罗斯人. 每个人都发现, 卫星地图完全没用, 我们不得不依靠阴沉的导游. 三天后, 他让我们停下来, 说我们不能一直往前走, 我们必须绕道而行. 我们已经准备好听他的, 但几个有男子气概的特遣部队侦察兵坚持要继续. 那晚我们听到了尖叫声, 无法恢复联系. 从那以后, 就没有人再抱怨导游了. 我想指挥官的费用甚至翻了一番.</text>
+	</string>
+	<string id="dm_information_695">
+		<text>我终于明白几年前的那次探险是怎么回事了. 他们失踪的时候真是个谜, 我们一点线索都没有. 我现在明白了. 就我个人而言, 我觉得是那场风暴把他们给毁了 - 他们可以在我们获得行动授权之前干掉整个纵队.</text>
+	</string>
+	<string id="dm_information_696">
+		<text>我想是时候提醒安理会这里的局势了. 不仅乌克兰军队在光天化日之下向我们开火, 准军事组织还在这里发动了整个战区. 人们需要知道这一点!</text>
+	</string>
+	<string id="dm_information_697">
+		<text>有没有见过潜行者从变异区收集神器? 很神奇. 他们进入那里, 其中一些人只穿着皮大衣, 戴着旧苏联面具, 他们开始投掷小物体来标记危险地点. 非常巧妙! 它们中的许多甚至不使用探测器! 我听说研究委员会在神器感应方面没有任何进展.</text>
+	</string>
+	<string id="dm_information_698">
+		<text>我听这里的一些当地人说过一种"许愿石", 据说就在这里的某个地方, 而且... 嗯, 实现愿望. 我想我应该已经猜到, 这样一个混乱和极端的环境会产生它自己的神话和实际的科学现象</text>
+	</string>
+	<string id="dm_information_699">
+		<text>当外勤行动指挥部收到正在搜查仓库的特遣部队的通讯时你应该在场的 - 他们被砍成了碎片. 这是令人不寒而栗的事情, 执行人员完全不知所措 - 我从未见过这样的无助. 野战队员对着麦克风尖叫说敌人从四面八方伏击了他们, 还有手榴弹和自动武器. 我们以为可能是乌克兰人, 但后来我们听到我们死去的先头部队的麦克风里传来某种疯狂的呼喊. 我还记得那些军官们在为行动指挥官翻译时的表情: "你不应该来这里. 你会死在这里, 死在我们脚下. 黑石已经发令了."</text>
+	</string>
+	<string id="dm_information_700">
+		<text>我想表达研究委员会的愿望, 我们非常感谢当地潜行者的合作, 我们非常愿意为你们提供帮助作为回报. 敌对行动必须停止.</text>
+	</string>
+	<string id="dm_information_701">
+		<text>在我们开发出大规模神器收集所需的设备和方法之前, 我们会非常感激为任何通过其他途径进入我们手中的物品付费. 如果你有东西要给我们, 也请提供一个安全的容器, 因为我们目前很短缺.</text>
+	</string>
+	<string id="dm_information_702">
+		<text>看到一张友善的脸我就放心了! 我去过一些很暴力的地方, 但我从没听说过这样的敌意. 请努力说服你的特异区同胞,  我们只是来这里研究和报道的, 没有别的.</text>
+	</string>
+	<string id="dm_information_703">
+		<text>当我说我不太相信你的时候, 别惊讶. 自从我们来到这里, 就是像你这样的人无缘无故地把我们撕成碎片. 别怪我们在安全措施上更加强硬.</text>
+	</string>
+	<string id="dm_information_704">
+		<text>我真的应该问你一些信息. 自从我几周前来到这里, 我看到的一切都是无法解释的或危险的, 通常两者都有. 控制发电厂的准军事组织真的在改变他们新兵的想法使他们更加狂热吗? 对我来说有点牵强...</text>
+	</string>
+	<string id="dm_information_705">
+		<text>我们不想让你在这里逗留. 无意冒犯, 但我们过去经常被陌生人烧伤. 除非你能证明你和我们是一伙的, 否则最好还是保持距离.</text>
+	</string>
+	<string id="dm_information_706">
+		<text>我们的任务不是在特异区里开辟一个小王国; 我们甚至不想阻止你的同类继续在这里做生意. 我们在这里学习只是为了丰富我们对世界的集体知识. 也许你该转告你的朋友们.</text>
+	</string>
+	<string id="dm_information_707">
+		<text>我们没想到这地方会这么疯狂. 我们当然没有预料到这里科学现象的规模和威力, 更没有预料到我们会遇到野蛮的武装抵抗. 你想知道我们为什么要反击吗? 更有侵略性?</text>
+	</string>
+	<string id="dm_information_708">
+		<text>别惹我们. 不值得. 让我们河水不犯井水. 如果你或你的朋友尝试任何有趣的事情, 他们可能不喜欢被打断.</text>
+	</string>
+	<string id="dm_information_709">
+		<text>这里有很多潜行者他们对特异区有丰富的知识和经验. 如果你消息灵通, 想帮助我们, 为什么不考虑成为一名顾问? 你不觉得帮助一个高尚的事业是件好事吗? 我们也可以付你薪水.</text>
+	</string>
+	<string id="dm_information_710">
+		<text>你难道没受够军队的废话吗? 难道你不想让一个不那么腐败的组织来管理特异区吗? 我不是说UNISG一定会在这里掌权, 但是军队一方面接受贿赂, 另一方面射杀无辜的潜行者...没必要这样.</text>
+	</string>
+	<string id="dm_information_711">
+		<text>你为什么不帮我们对付库兹涅佐夫和他的暴徒们呢? 他们已经霸占这个地方太久了, 虐待任何不愿与他们腐败和不公平的行为合作的人. 一定很痛苦吧, 总是有一群暴徒朝你开枪.</text>
+	</string>
+	<string id="dm_information_712">
+		<text>我觉得你的人和我的人可以进行一些卓有成效的合作. 我想我们都需要一些帮助来对付共同的敌人. 你不觉得?</text>
+	</string>
+	<string id="dm_information_713">
+		<text>你知道吗, 我以前跟你一样. 雇来的枪, 幸运的士兵, 诸如此类. 不是很浪漫的生活, 对吧? 我不是在扯淡, 我说我住的地方生活会好得多. 在这种情况下, 他们通常对我们所做的一切睁一只眼闭一只眼.</text>
+	</string>
+	<string id="dm_information_714">
+		<text>我们真的需要像你这样的人. 我们在这鬼地方遇到的大多数潜行者都是些笨手笨脚的暴徒只有足够的脑细胞来开枪. 我相信你知道, 特异区真正需要的是学习和智慧的思考. 我无法想象不得不为腐败的军队暴徒工作 - 不比你在这附近看到的街头垃圾好多少.</text>
+	</string>
+	
+	<!-- Jobs -->
+	<string id="dm_job_general_1">
+		<text>有人在附近发布工作吗?</text>
+	</string>
+	<string id="dm_job_general_2">
+		<text>我想找份工作.</text>
+	</string>
+	<string id="dm_job_general_3">
+		<text>知道我能在哪找到工作吗?</text>
+	</string>
+	<string id="dm_job_0">
+		<text>抱歉, 我不知道.</text>
+	</string>
+	<string id="dm_job_1">
+		<text>孢子总是时不时会找人打点零工. 同时他也是一个情报商, 会为其他潜行者的PDA开个很高的价钱.</text>
+	</string>
+	<string id="dm_job_2">
+		<text>图书管理员总想招募一些潜行者到大沼泽去清除怪物和强盗. 他开的工资也很高; 很惊讶没有更多纪律团的人接受他的任务.</text>
+	</string>
+	<string id="dm_job_3">
+		<text>西德洛维奇总是会给工作的, 他给的工资通常很高, 但是我不建议你接他的工作, 除非你已经准备好弄脏自己的手了, 非常脏.</text>
+	</string>
+	<string id="dm_job_4">
+		<text>沃夫一直在寻求帮助. 他花钱雇佣潜行者在当地猎杀变异生物, 以确保新手村的安全.</text>
+	</string>
+	<string id="dm_job_5">
+		<text>那个斯卡多夫斯克号的猫头鹰, 总是在做情报生意. 是我的话我会去问问他.</text>
+	</string>
+	<string id="dm_job_6">
+		<text>苏丹在找些有种的人帮他做事. 他在基地里蹲着呢.</text>
+	</string>
+	<string id="dm_job_7">
+		<text>去科学家的碉堡. 我敢肯定他们肯定有活.他们总是在寻找潜行者或者佣兵来帮助他们.</text>
+	</string>
+	<string id="dm_job_8">
+		<text>利牙总是在找想打零工的人. 他是个留在黑暗山谷基地里的交易商.</text>
+	</string>
+	<string id="dm_job_9">
+		<text>是的, 我有份工作给你. 从这出发, 往西走, 然后再往西走.等你搞定了就别回来了.</text>
+	</string>
+	<string id="dm_job_10">
+		<text>抱歉, 伙计, 我们没工作能给你. 我们刚来.</text>
+	</string>
+
+	<!-- Tips -->
+	<string id="dm_tips_general_1">
+		<text>知道有什么有用的么?</text>
+	</string>
+	<string id="dm_tips_general_2">
+		<text>你如何保证自己在这里活着?</text>
+	</string>
+	<string id="dm_tips_general_3">
+		<text>关于特异区你能给出什么样的建议?</text>
+	</string>
+	<string id="dm_tips_0">
+		<text>我没啥建议能给你的.</text>
+	</string>
+	<string id="dm_tips_1">
+		<text>你要打人, 朝他脸上打上几枪, 他就死定了.他穿什么都无所谓, 只要不是外骨骼就行.</text>
+	</string>
+	<string id="dm_tips_2">
+		<text>用一两颗手雷让一个家伙转移位置. 如果他看到边上有一颗菠萝他就不会躲在那里了.</text>
+	</string>
+	<string id="dm_tips_3">
+		<text>如果你扣扳机的手指够快, 你可以同时发射霰弹枪的两根枪管里的子弹. 如果你碰到吸血鬼, 记住这点.</text>
+	</string>
+	<string id="dm_tips_4">
+		<text>别小看手枪, 潜行者. 如果你的主武器没有足够的弹药, 他们会很好用, 而且他们可以废掉任何轻型护甲.</text>
+	</string>
+	<string id="dm_tips_5">
+		<text>如果你准备进行攻击, 你可以用狙击枪废掉那个可怜的混蛋; 你可以从比别的武器射程更远的距离干掉他.</text>
+	</string>
+	<string id="dm_tips_6">
+		<text>如果你边打边跑, 你啥都打不中. 找个掩体, 躲在后面, 然后探身射击, 那就会准的多.</text>
+	</string>
+	<string id="dm_tips_7">
+		<text>保持你的装备在良好状态. 如果你不经常去找技工, 你的武器会卡弹, 你的衣服上会全是洞.</text>
+	</string>
+	<string id="dm_tips_8">
+		<text>上次我去见一个技工, 我有一半的东西他都没法升级... 他让我出去帮他找工具.啥?我是他的员工么?</text>
+	</string>
+	<string id="dm_tips_9">
+		<text>有见过在风暴时站在外面的人么?你当然没有! 只要风暴来了, 就藏好, 除非你想让你的脑子沸腾.</text>
+	</string>
+	<string id="dm_tips_10">
+		<text>几天前我差点失去双腿. 我埋了一堆蝴蝶雷掩护我的屁股, 然后在回来的路上忘记了这茬. 不管是谁埋的,它们都会爆炸.</text>
+	</string>
+	<string id="dm_tips_11">
+		<text>交易商没有工作给你不代表我们都没有.你可以为别人跑腿赚钱. 同时也有机会找到一些好的战利品.</text>
+	</string>
+	<string id="dm_tips_12">
+		<text>留着你能找到的所有药品; 你永远不知道什么时候它们会派上用场. 大力神是你在背着一堆物品的时候不错的选择, 而精神阻断片能帮助你对抗脑波怪.</text>
+	</string>
+	<string id="dm_tips_13">
+		<text>即使你觉得不需要, 也要带上一些多余的弹药.没什么比你需要用你的刀来击退一大群怪物来的更糟糕了.</text>
+	</string>
+	<string id="dm_tips_14">
+		<text>你试过寻找神器吗?找个探测器, 靠近一些变异点; 如果拿东西开始发出哔哔声, 那附近就有一个.尽管你需要一个很贵的型号来找些好的.</text>
+	</string>
+	<string id="dm_tips_15">
+		<text>别傻乎乎地朝着一个变异点跑进去. 如果你觉得附近有变异点, 扔几个螺栓, 总比你把自己扔进去要好, 对吧?</text>
+	</string>
+	<string id="dm_tips_16">
+		<text>如果你感觉不太好, 那就试着吃点东西. 可能不会有和药包一样的效果, 但是它能让你振作起来, 让你坚持下去.</text>
+	</string>
+	<string id="dm_tips_17">
+		<text>不要忽视你的PDA. 它会帮你追踪任务, 如果你迷路了或者计划去某个地方, 它能帮你找到路线.</text>
+	</string>
+	<string id="dm_tips_18">
+		<text>如果你要和人谈话就把枪收起来, 没人喜欢有枪口对着他们.</text>
+	</string>
+	<string id="dm_tips_19">
+		<text>一定要带上能量饮料. 如果你带着战利品在回营地的路上疲惫不堪时, 它们就会派上用场.</text>
+	</string>
+	<string id="dm_tips_20">
+		<text>如果你的头盔有夜视功能, 一定要升级.找个技工花上点钱, 你就可以看的更清楚.</text>
+	</string>
+	<string id="dm_tips_21">
+		<text>你不可能手无寸铁的去寻找神器. 那如果你拿着探测器呢? 那你另一只手还可以拿着手枪.</text>
+	</string>
+	<string id="dm_tips_22">
+		<text>如果你需要打发时间的话可以睡觉. 大多数营地都有免费的床, 当然你也可以在任何地方用睡袋.</text>
+	</string>
+	<string id="dm_tips_23">
+		<text>神器并不是全是好效果; 除非你是铅做的, 否则它们的辐射会慢慢杀死你, 不过请记住, 有些神器可以吸收辐射.</text>
+	</string>
+	<string id="dm_tips_24">
+		<text>你的刀不止是用来偷袭人的武器; 你也可以用它砸开箱子, 柜子还有锁. 谁知道呢, 你没准能在里面找到些很酷的东西...</text>
+	</string>
+	<string id="dm_tips_25">
+		<text>如果你不断的觉得自己上气不接下气, 那就别带这么多东西了. 你可以把它们藏在某个地方, 或者卖给交易商.</text>
+	</string>
+	<string id="dm_tips_26">
+		<text>如果你需要医疗, 就去找医生, 如果你想喝酒, 那就去找酒保; 这里有很多交易商专门经营各种商品.</text>
+	</string>
+	<string id="dm_tips_27">
+		<text>在同一个地方并不会一直有神器, 它们会在风暴之后刷新. 所以下次在你接近变异点的时候请记住.</text>
+	</string>
+	<string id="dm_tips_28">
+		<text>特异区是会变化的, 潜行者. 上次你去某个地方没碰到什么怪胎不代表它们不会动...</text>
+	</string>
+	<string id="dm_tips_29">
+		<text>如果你没有办法处理辐射中毒, 那就尽量保持自己活着, 直到你找到医生. 但是问问你自己: 为什么不带伏特加?</text>
+	</string>
+	<string id="dm_tips_30">
+		<text>如果有什么东西看着觉得太远了, 就试着跑起来跳吧; 你的冲力会让你跳的更远. 摆脱怪物的简单办法, 因为它们不会想着跳过东西.</text>
+	</string>
+	<string id="dm_tips_31">
+		<text>出售神器并不是赚钱的唯一途径; 卖装备也是一项有利可图的生意. 不过记住, 交易商不会对破损的物品感兴趣.</text>
+	</string>
+	<string id="dm_tips_32">
+		<text>如果你不想被人看见或者听到, 那就蹲下偷偷移动. 战斗都是不值得的, 或者你只是想跳到别人身上?</text>
+	</string>
+	<string id="dm_tips_33">
+		<text>你可以把瞄准镜和榴弹发射器装到枪上, 知道么? 只是有些事情技工做不到, 所以你得自己找零件.</text>
+	</string>
+	<string id="dm_tips_34">
+		<text>有不同的办法可以消灭不同类型的怪物; 他们都有自己的弱点. 你可以把老鼠直接踩死, 知道么?</text>
+	</string>
+	<string id="dm_tips_35">
+		<text>有人在朝你开枪的时候不要躲在门后. 子弹并不会在乎你们之间有什么... 它们能穿过任何薄弱的东西.</text>
+	</string>
+	<string id="dm_tips_36">
+		<text>如果你受伤了或者被怪物抓到了, 用绷带包扎自己. 出血的时候用医疗包要比用绷带的成本高出太多..</text>
+	</string>
+	<string id="dm_tips_37">
+		<text>如果你在寻找武器的配件或者护甲的升级包, 可以以搜寻藏匿物来作为一个开始. 一些交易商和在卖藏匿物坐标, 所以可以去看看.</text>
+	</string>
+	<string id="dm_tips_38">
+		<text>注意动态通讯消息, 这可以帮你了解特异区. 你可以为任何被困在枪战中或者被变种怪包围的情况下的人提供帮助.</text>
+	</string>
+
+	<!-- Wounded -->
+	<string id="dm_wounded_general">
+		<text>帮帮我!</text>
+	</string>
+	<string id="dm_wounded_medkit">
+		<text>给你医疗包.</text>
+	</string>
+	<string id="dm_wounded_sorry">
+		<text>抱歉, 我没有医疗包.</text>
+	</string>
+
+	<string id="dm_traveler_bye">
+		<text>好的.</text>
+	</string>
+	<string id="dm_traveler_what_are_you_doing">
+		<text>你在干嘛?</text>
+	</string>
+	<string id="dm_traveler_can_i_go_with_you">
+		<text>你能带上我吗?</text>
+	</string>
+	<string id="dm_traveler_stalker_actor_companion_yes">
+		<text>当然. 一起行动总是更有趣.</text>
+	</string>
+	<string id="dm_traveler_stalker_actor_companion_no">
+		<text>不, 抱歉. 我偏向单独行动.</text>
+	</string>
+	<string id="dm_traveler_actor_go_with_squad">
+		<text>我们走.</text>
+	</string>
+	<string id="dm_traveler_take_me_to">
+		<text>你可以带我去某个地方么? 我会付钱的.</text>
+	</string>
+	<string id="dm_traveler_stalker_where_do_you_want">
+		<text>没问题. 你想去哪? 你说吧.</text>
+	</string>
+	<string id="dm_traveler_actor_agree">
+		<text>好的. 走.</text>
+	</string>
+	<string id="dm_traveler_actor_refuse">
+		<text>我改变主意了.</text>
+	</string>
+	<string id="dm_traveler_stalker_i_cant_travel">
+		<text>不是现在.</text>
+	</string>
+	<string id="dm_stalker_doing_nothing_1">
+		<text>哦, 没事.</text>
+	</string>
+	<string id="dm_stalker_doing_nothing_2">
+		<text>没事. 只是放松下.</text>
+	</string>
+	<string id="dm_stalker_doing_nothing_3">
+		<text>看起来怎么样? 我只是在偷懒...</text>
+	</string>
+	<string id="dm_stalker_chasing_squad_monster">
+		<text>我在狩猎一只变异生物.</text>
+	</string>
+	<string id="dm_stalker_chasing_squad_bandit">
+		<text>我在追踪某个人渣强盗.</text>
+	</string>
+	<string id="dm_stalker_chasing_squad_killer">
+		<text>正在追踪一些佣兵. 那些家伙都是混蛋.</text>
+	</string>
+	<string id="dm_stalker_chasing_squad_monolith">
+		<text>我在追踪一群狂热分子. 他们自称为"黑石"...</text>
+	</string>
+	<string id="dm_stalker_chasing_squad_zombied">
+		<text>我们在追踪一个僵尸. 他曾是一个好潜行者. 可怜虫...</text>
+	</string>
+	<string id="dm_traveler_travel_cost">
+		<text>很好, 你要付钱</text>
+	</string>
+	<string id="dm_traveler_actor_dont_go_with_squad">
+		<text>我改变主意了.</text>
+	</string>
+	<string id="dm_traveler_actor_has_no_money">
+		<text>我没钱.</text>
+	</string>
+	<string id="dm_freedom_doing_nothing_1">
+		<text>我啥也没干.</text>
+	</string>
+	<string id="dm_freedom_chasing_squad_monster">
+		<text>我在追踪一些变异生物.</text>
+	</string>
+	<string id="dm_freedom_chasing_squad_bandit">
+		<text>我参加了缉拿强盗的行动.</text>
+	</string>
+	<string id="dm_freedom_chasing_squad_killer">
+		<text>我在追踪一群佣兵. 他们会为攻击我们付出代价的.</text>
+	</string>
+	<string id="dm_freedom_chasing_squad_monolith">
+		<text>我们在追踪一些黑石的怪人.</text>
+	</string>
+	<string id="dm_freedom_chasing_squad_duty">
+		<text>自由团肯定就在这附近... 这些混蛋肯定没走远.</text>
+	</string>
+	<string id="dm_duty_doing_nothing_1">
+		<text>我们啥也没做.</text>
+	</string>
+	<string id="dm_duty_chasing_squad_monster">
+		<text>我们在追杀这边的变异生物.</text>
+	</string>
+	<string id="dm_duty_chasing_squad_bandit">
+		<text>我在执行任务, 追捕一支强盗小队.</text>
+	</string>
+	<string id="dm_duty_chasing_squad_killer">
+		<text>我们之前被佣兵攻击了. 他们不死我不休.</text>
+	</string>
+	<string id="dm_duty_chasing_squad_monolith">
+		<text>我们在猎杀一群黑石怪胎.</text>
+	</string>
+	<string id="dm_duty_chasing_squad_freedom">
+		<text>我们在清理那些自称"自由团"的垃圾.</text>
+	</string>
+	<string id="dm_stalker_searching_artefacts_1">
+		<text>我在寻找神器.</text>
+	</string>
+	<string id="dm_stalker_searching_artefacts_2">
+		<text>我们在采蘑菇... 你觉得我们在干什么, 白痴? 我们在找神器!</text>
+	</string>
+	<string id="dm_stalker_searching_artefacts_3">
+		<text>我正在寻找神器.</text>
+	</string>
+
+	<!-- Technician -->
+	<string id="st_mechanic_query_items">
+		<text>我的装备准备好了吗?</text>
+	</string>
+	<string id="st_mechanic_repair_done">
+		<text>是的, 给你.</text>
+	</string>
+	<string id="st_mechanic_repair_not_done">
+		<text>还没有. 晚点再来吧.</text>
+	</string>
+
+	<!-- Surrender -->
+	<string id="st_surrender_victim">
+		<text>...我放弃.</text>
+	</string>
+	<string id="st_surrender_query_victim_1">
+		<text>给我你的武器加一个重要情报: 一个藏匿物点, 一个补给交换点, 一个你的伏击计划, 都可以, 我就留你一命.</text>
+	</string>
+	<string id="st_surrender_query_victim_2">
+		<text>你他妈的把东西藏哪了? 告诉我, 我会考虑留你一命.</text>
+	</string>
+	<string id="st_surrender_query_victim_3">
+		<text>这有个医疗包... 但是我得拿走你的武器.</text>
+	</string>
+	<string id="st_surrender_query_victim_4">
+		<text>还有遗言么? 我是来收你头上的赏金的.</text>
+	</string>
+
+	<string id="st_surrender_actor_1">
+		<text>你会活下来的.</text>
+	</string>
+	<string id="st_surrender_actor_2">
+		<text>祝你好运...</text>
+	</string>
+	<string id="st_surrender_actor_3">
+		<text>是时候了结你了.</text>
+	</string>
+	<string id="st_surrender_victim_answer_1">
+		<text>好的, 好的, 别杀我!</text>
+	</string>
+	<string id="st_surrender_victim_answer_2">
+		<text>操! 好好好!</text>
+	</string>
+	<string id="st_surrender_victim_answer_3">
+		<text>求你了, 伙计! 我会告诉你的!</text>
+	</string>
+	<string id="st_surrender_victim_answer_4">
+		<text>求你了, 别杀我! 拿走我的PDA! 你想知道的都在那里了!</text>
+	</string>
+	<string id="st_surrender_victim_answer_5">
+		<text>去你妈的!</text>
+	</string>
+	<string id="st_surrender_victim_answer_6">
+		<text>谢谢你!</text>
+	</string>
+
+	<string id="st_surrender_victim_answer_default_bounty_1">
+		<text>好的, 好的, 只是别杀我!</text>
+	</string>
+	<string id="st_surrender_victim_answer_default_bounty_2">
+		<text>操! 好好好!</text>
+	</string>
+	<string id="st_surrender_victim_answer_default_bounty_3">
+		<text>求你了, 伙计! 我会告诉你的!</text>
+	</string>
+	<string id="st_surrender_victim_answer_default_bounty_4">
+		<text>求你了, 别杀我! 拿走我的PDA! 你想知道的都在那里了!</text>
+	</string>
+	<string id="st_surrender_victim_answer_default_bounty_5">
+		<text>去你妈的!</text>
+	</string>
+
+	<string id="st_surrender_victim_answer_esc_m_trader_bounty_1">
+		<text>那混蛋西德洛维奇派你来的, 不是么? 你想要什么? 现金么?! 拿着我的PDA和钱... 饶我一命!</text>
+	</string>
+	<string id="st_surrender_victim_answer_esc_m_trader_bounty_2">
+		<text>你知道为什么派你来杀我吗? 你甚至都不在乎对吧? 狗老西就该下地狱!</text>
+	</string>
+	<string id="st_surrender_victim_answer_esc_m_trader_bounty_3">
+		<text>操你妈!</text>
+	</string>
+	<string id="st_surrender_victim_answer_esc_m_trader_bounty_4">
+		<text>让我从痛苦中解脱吧! 动手吧!</text>
+	</string>
+	<string id="st_surrender_victim_answer_esc_m_trader_bounty_5">
+		<text>...</text>
+	</string>
+	<string id="st_surrender_victim_answer_zat_b7_bandit_boss_sultan_bounty_1">
+		<text>那混蛋苏丹派你来的, 不是么? 你想要什么? 现金么?! 拿着我的PDA和钱...饶我一命!</text>
+	</string>
+	<string id="st_surrender_victim_answer_zat_b7_bandit_boss_sultan_bounty_2">
+		<text>你这个没魂的混蛋! 你知道为什么派你来杀我吗? 你甚至都不在乎对吧?苏二蛋就该下地狱!</text>
+	</string>
+	<string id="st_surrender_victim_answer_zat_b7_bandit_boss_sultan_bounty_3">
+		<text>操你妈!</text>
+	</string>
+	<string id="st_surrender_victim_answer_zat_b7_bandit_boss_sultan_bounty_4">
+		<text>让我他妈赶快解脱吧! 动手吧!</text>
+	</string>
+	<string id="st_surrender_victim_answer_zat_b7_bandit_boss_sultan_bounty_5">
+		<text>...</text>
+	</string>
+
+
+	<!-- 
+	PDA BROKER DIALOG STRINGS
+	
+	Modified by DoctorX
+	for DoctorX Questlines 1.9
+	October 30, 2016
+	-->
+
+	<string id="st_drx_broker_finish_1">
+		<text>我收了.</text>
+	</string>
+	<string id="st_drx_broker_finish_2">
+		<text>好的, 我收下了.</text>
+	</string>
+	<string id="st_drx_broker_finish_3">
+		<text>好的.</text>
+	</string>
+
+	<string id="st_broker_query">
+		<text>我有些情报可以卖.</text>
+	</string>
+	<string id="st_broker_query_more">
+		<text>我有你要的东西.</text>
+	</string>
+	<string id="st_broker_query_pda">
+		<text>我找到一个PDA. 也许会有些有用的东西.</text>
+	</string>
+	<string id="st_broker_query_pdas">
+		<text>我找到了%s个PDA. 里面可能有些有用的情报.</text>
+	</string>
+	<string id="st_broker_query_valuable">
+		<text>我找到了一些可能能包含有用情报的东西.</text>
+	</string>
+	<string id="st_broker_trade_valuable">
+		<text>%s... 非常有价值. 我很感兴趣, 当然.</text>
+	</string>
+	<string id="st_broker_give_pda">
+		<text>给.</text>
+	</string>
+	<string id="st_broker_npc_start_1">
+		<text>我会判断的.你有什么?</text>
+	</string>
+	<string id="st_broker_npc_start_2">
+		<text>你最好希望如此. 时间就是金钱.</text>
+	</string>
+	<string id="st_broker_npc_start_3">
+		<text>这最好值得我花时间. 你有什么?</text>
+	</string>
+	<string id="st_broker_npc_answer_pda_query">
+		<text>好的.让我看看.</text>
+	</string>
+	
+	<string id="st_broker_npc_about_pda_junk_1">
+		<text>没啥有用的.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_junk_2">
+		<text>本地毒贩的联系方式.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_junk_3">
+		<text>日记.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_junk_4">
+		<text>只是一些废物.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_junk_5">
+		<text>这个没用.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_junk_6">
+		<text>没用, 但是有人可能会要.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_junk_7">
+		<text>大多都是垃圾. 我能找个买家.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_junk_8">
+		<text>这个里面没啥有用的.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_junk_9">
+		<text>这个提到了一个正在进行的本地会面.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_junk_10">
+		<text>对当地植物群突变的详细观察.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_junk_11">
+		<text>里面有个看起来很不错的游戏.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_junk_12">
+		<text>关于豚兽的详细观察报告.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_junk_13">
+		<text>关于野猪的详细观察报告.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_junk_14">
+		<text>关于旋涡变异点的详细观察报告.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_junk_15">
+		<text>一张自由团的人试图和吸血鬼...的照片</text>
+	</string>
+	<string id="st_broker_npc_about_pda_junk_16">
+		<text>一段疯狂的日记.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_junk_17">
+		<text>提到了一个纪律团的人和当地强盗的会面.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_junk_18">
+		<text>关于老鼠和变异鼠的详细信息.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_junk_19">
+		<text>黄片... 这里头全是黄片.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_junk_20">
+		<text>各种变异点详细观察的报告.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_junk_21">
+		<text>很多聊天记录, 可能会有有用的东西.</text>
+	</string>
+	
+	<string id="st_broker_npc_about_pda_info_1">
+		<text>几处藏匿物.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_info_2">
+		<text>藏匿物的坐标.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_info_3">
+		<text>一些有用的联系方式.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_info_4">
+		<text>一些有用的情报.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_info_5">
+		<text>一个密码列表.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_info_6">
+		<text>有些银行的详细资料.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_info_7">
+		<text>我知道有人想要这个.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_info_8">
+		<text>这个提到了藏匿物地点.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_info_9">
+		<text>一些有用的联系方式.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_info_10">
+		<text>走私路线情报.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_info_11">
+		<text>我能给这个找个买家.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_info_12">
+		<text>这个里面有些有用的情报.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_info_13">
+		<text>银行账号信息.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_info_14">
+		<text>这有个交换补给点的坐标.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_info_15">
+		<text>穿越红森林的捷径的情报.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_info_20">
+		<text>好极了. 一些大胡子的污点.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_info_21">
+		<text>提到一个丰厚的藏匿点... 这我当然要了.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_info_23">
+		<text>很好! 这个提到了毒品走私者和军方的交易.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_info_24">
+		<text>这个提到了一个藏匿物的坐标.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_info_25">
+		<text>未解密的银行账户和密码的信息.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_info_26">
+		<text>这个提到了一些佣兵和当地强盗的会面.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_info_27">
+		<text>这有个补给交换点的坐标.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_info_28">
+		<text>这个提到了几天后有个会面.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_info_29">
+		<text>地图! 一个制图员! 这很有用.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_info_30">
+		<text>穿过变异点的捷径的情报.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_info_31">
+		<text>即将到来的补给交换点.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_info_32">
+		<text>科学家可能会想要这个.</text>
+	</string>
+	
+	<string id="st_broker_npc_about_pda_encrypted_1">
+		<text>加密了. 可能会有价值.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_encrypted_2">
+		<text>这个被加密了.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_encrypted_3">
+		<text>加密了. 可能会有价值; 这个我要了.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_encrypted_4">
+		<text>加密了. 如果他们有什么要藏的, 那可能就是我想要的.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_encrypted_5">
+		<text>绿洲的据称位置.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_encrypted_6">
+		<text>一个被加密的, 我要了.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_encrypted_7">
+		<text>一个被加密的PDA. 有趣...</text>
+	</string>
+	<string id="st_broker_npc_about_pda_encrypted_8">
+		<text>这个肯定有价值. 它被加密了.</text>
+	</string>
+	
+	<string id="st_broker_npc_about_pda_kill_the_strelok_1">
+		<text>什么鬼...? 这个里面写着"杀了史特列洛克".</text>
+	</string>
+	
+	<string id="st_broker_npc_about_pda_common_1">
+		<text>没啥有用的.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_common_2">
+		<text>几个藏匿物.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_common_3">
+		<text>本地毒贩的联系方式.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_common_4">
+		<text>日记.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_common_5">
+		<text>藏匿物的坐标.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_common_6">
+		<text>一些废物.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_common_7">
+		<text>这个没啥有用的.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_common_8">
+		<text>一些有用的联系方式.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_common_9">
+		<text>没用, 但是可能会有人要.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_common_10">
+		<text>大多数是垃圾. 我能找个买家.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_common_11">
+		<text>一些有用的情报.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_common_12">
+		<text>一个密码列表.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_common_13">
+		<text>一些银行的信息.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_common_14">
+		<text>这个没啥东西.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_common_15">
+		<text>这个提到了一个正在进行的本地会面.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_common_16">
+		<text>对当地植物群突变的详细观察.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_common_17">
+		<text>里面有个看起来很不错的游戏.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_common_18">
+		<text>关于豚兽的详细观察报告.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_common_19">
+		<text>关于野猪的详细观察报告.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_common_20">
+		<text>关于旋涡变异点的详细观察报告.</text>
+	</string>
+
+	<string id="st_broker_npc_about_pda_uncommon_1">
+		<text>我知道有人想要这个.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_uncommon_2">
+		<text>一张自由团的人试图和吸血鬼...的照片...</text>
+	</string>
+	<string id="st_broker_npc_about_pda_uncommon_3">
+		<text>一个毒贩的联系方式.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_uncommon_4">
+		<text>加密了. 可能会有价值.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_uncommon_5">
+		<text>这个提到了一个藏匿物的位置.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_uncommon_6">
+		<text>这个被加密了.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_uncommon_7">
+		<text>一段疯狂的日记.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_uncommon_8">
+		<text>一些有用的联系方式.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_uncommon_9">
+		<text>走私路线的情报.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_uncommon_10">
+		<text>我可以在这里找到一个买家.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_uncommon_11">
+		<text>这个里面有些有用的情报.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_uncommon_12">
+		<text>一些银行账号信息, 然而特异区里没银行.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_uncommon_13">
+		<text>这提到了纪律团与当地暴徒团伙之间的一次会面.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_uncommon_14">
+		<text>这有个交换补给点的坐标.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_uncommon_15">
+		<text>有人提到当地会议要举行.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_uncommon_16">
+		<text>关于老鼠和变异鼠的详细信息.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_uncommon_17">
+		<text>穿越红森林的捷径的情报.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_uncommon_18">
+		<text>黄片... 这里头全是黄片.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_uncommon_19">
+		<text>各种变异点详细观察的报告.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_uncommon_20">
+		<text>很多聊天记录, 可能会有有用的东西.</text>
+	</string>
+
+	<string id="st_broker_npc_about_pda_rare_1">
+		<text>好极了. 一些大胡子的污点</text>
+	</string>
+	<string id="st_broker_npc_about_pda_rare_2">
+		<text>提到一个巨大的藏匿点... 这我当然要了.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_rare_3">
+		<text>很好! 这个提到了毒品走私者和军方的交易.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_rare_4">
+		<text>加密了. 可能会有价值; 这个我要了.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_rare_5">
+		<text>这个提到了一个藏匿物的坐标.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_rare_6">
+		<text>加密了. 如果他们有什么要藏的, 那可能就是我想要的.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_rare_7">
+		<text>这个里面有关于纪律团的详细情报...自由团可能会感兴趣.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_rare_8">
+		<text>银行账户和信用卡信息.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_rare_9">
+		<text>绿洲的据称位置.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_rare_10">
+		<text>我可以为这个找个买家.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_rare_11">
+		<text>这个里面有些有用的情报.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_rare_12">
+		<text>未解密的银行账户和密码的信息.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_rare_13">
+		<text>这个提到了一些雇佣兵和当地强盗的会面.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_rare_14">
+		<text>这有个补给交换点的坐标.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_rare_15">
+		<text>这个提到了几天后有个会面.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_rare_16">
+		<text>地图! 一个制图员! 这很有用.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_rare_17">
+		<text>穿过变异点的捷径的情报.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_rare_18">
+		<text>即将到来的补给交换点.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_rare_19">
+		<text>科学家可能会想要这个.</text>
+	</string>
+	<string id="st_broker_npc_about_pda_rare_20">
+		<text>什么鬼...? 这个里面写着"杀了史特列洛克".</text>
+	</string>
+
+	<string id="st_broker_npc_about_pda_bonus_coords">
+		<text>作为奖励, 给你几个不太想要的藏匿物坐标.</text>
+	</string>
+
+	<!-- Tasks -->
+	<string id="st_ordered_task_query">
+		<text>你有什么需要完成的工作吗?</text>
+	</string>
+	<string id="st_ordered_task_query_finished">
+		<text>任务完成了.</text>
+	</string>
+	<string id="st_ordered_task_not_given_task">
+		<text>什么? 我想你还没完成我让你做的事.</text>
+	</string>
+	<string id="st_ordered_task_accept">
+		<text>这活我接了.</text>
+	</string>
+	<string id="st_ordered_task_next">
+		<text>还有别的吗?</text>
+	</string>
+	<string id="st_ordered_task_already">
+		<text>先完成我交给你的任务, 然后我们再谈.</text>
+	</string>
+	<string id="st_ordered_task_already_reply">
+		<text>好吧.</text>
+	</string>
+	<string id="st_accepted_task_1">
+		<text>很好!搞定了再跟我谈谈.</text>
+	</string>
+	<string id="st_accepted_task_2">
+		<text>你为我做事我也会为你做事.回来找我.</text>
+	</string>
+	<string id="st_accepted_task_3">
+		<text>很高兴你能帮忙.</text>
+	</string>
+	<string id="st_default_task_finished_1">
+		<text>谢谢你, 潜行者.这是你的奖励.</text>
+	</string>
+	<string id="st_default_task_finished_2">
+		<text>很高兴你能帮忙.这是我答应过的.</text>
+	</string>
+	<string id="st_default_task_finished_3">
+		<text>好的, 现在要付你钱了.</text>
+	</string>
+	<string id="st_no_available_task">
+		<text>抱歉, 没有.</text>
+	</string>
+	<string id="st_about_fetch_task_default">
+		<text>我忘记我要说什么了... 去拿来!你知道我要什么的!</text>
+	</string>
+	<string id="st_return_for_reward">
+		<text>回来领赏.</text>
+	</string>
+	<string id="st_nevermind">
+		<text>仔细想想, 没关系. 晚点再来.</text>
+	</string>
+
+	<!-- Task cancelling -->
+	<string id="dm_universal_actor_exit_sorry">
+		<text>抱歉我爱莫能助.</text>
+	</string>
+	<string id="st_ordered_task_query_cancel">
+		<text>我完成不了这任务.</text>
+	</string>
+	<string id="st_task_none_active">
+		<text>什么任务?</text>
+	</string>
+	<string id="st_ordered_task_query_cancel_next_job">
+		<text>不, 我还在努力.</text>
+	</string>
+	<string id="st_task_default_excuse_cancel_job">
+		<text>是的, 我忙着做别的工作.</text>
+	</string>
+	<string id="st_default_task_cancel_1">
+		<text>我对你很失望, 潜行者.</text>
+	</string>
+	<string id="st_default_task_cancel_2">
+		<text>什么?我还对你期望有佳, 潜行者.</text>
+	</string>
+	<string id="st_default_task_cancel_3">
+		<text>我猜这就是我对一个菜鸟的期望.</text>
+	</string>
+
+	<!-- Repair -->
+	<string id="st_inventory_upgrade_reply_1">
+		<text>你的%s会在%s分钟后搞定. 晚点再来.</text>
+	</string>
+	<string id="st_inventory_upgrade_reply_2">
+		<text>快乐, 你的%s就快好了. %s分钟后再来.</text>
+	</string>
+	<string id="st_inventory_upgrade_reply_3">
+		<text>额, 滚开. 我还没喝醉.</text>
+	</string>
+	<string id="st_inventory_upgrade_reply_4">
+		<text>你那%s将会在一小时%s分钟后搞定. 到时候我就醉了.</text>
+	</string>
+	<string id="st_inventory_upgrade_reply_5">
+		<text>当你手抖的时候修东西很不容易... 大概一小时后回来拿你的%s.</text>
+	</string>
+	<string id="st_inventory_upgrade_reply_6">
+		<text>嘿, 噢, 操, 我忘了我正在修你的装备. 要拿你的%s?一小时%s分钟后再来吧.</text>
+	</string>
+	<string id="st_inventory_upgrade_reply_7">
+		<text>你的%s大概一小时%s后搞定, 所以晚点再来, 好吗?</text>
+	</string>
+	<string id="st_inventory_upgrade_reply_8">
+		<text>你的%s大概需要%s小时%s. 晚点再来.</text>
+	</string>
+	<string id="st_inventory_upgrade_reply_9">
+		<text>就快搞定了.</text>
+	</string>
+</string_table>

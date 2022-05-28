@@ -1,0 +1,635 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--===========================================================
+<
+< TEXT STRINGS FOR LOST TO THE ZONE: HOLLOW BOUNDARIES TASKS
+<	Anomaly 1.5 - Lost to the Zone: Hollow Boundaries
+<
+<	Made by: Tronex
+<	Last revised: 10 September 2019
+<
+<===========================================================-->
+
+<string_table>
+	<!-- Messages -->
+	<string id="st_msg_hb_isg_dushman_intel">
+		<text>好了, 杜什曼刚刚呼我了, 我想他已经把情报给你了. 我在本地叫木星的地方定居了下来. 别担心, 我会尽快精确坐标发给你.</text>
+	</string>
+	<string id="st_msg_hb_isg_tech_goodluck">
+		<text>祝好运, 伙计们.</text>
+	</string>
+	<string id="st_msg_hb_isg_breakthrough">
+		<text>士兵们, 木星工厂的地下通道已经安全了, 我把坐标发给你们的小队, 等待新的命令.</text>
+	</string>
+	<string id="st_msg_hb_isg_petray">
+		<text>我就知道不应该相信你.</text>
+	</string>
+	
+	<!-- Dynamic ISG stash news -->
+	<string id="st_dyn_news_isg_stash_1">
+		<text>我在当地放了些应急物资, 给你坐标, 一定要把信息带给警卫们.</text>
+	</string>
+	<string id="st_dyn_news_isg_stash_2">
+		<text>希望你们的任务进展顺利, 我会告诉警卫们一个藏匿点, 有一些补给的东西, 希望你们物尽其用.</text>
+	</string>
+	<string id="st_dyn_news_isg_stash_3">
+		<text>嗯... 这是$name, 我在当地找到一条路. 该死的怪物到处都是... 我留了些东西在这里, 以防万一. 这是坐标, 如果你有麻烦的话.</text>
+	</string>
+	
+	<!-- Main Dialog -->
+	<string id="hb_hernandez_ds_start_dialog_0">
+		<text>士兵?</text>
+	</string>
+	
+	<string id="hb_hernandez_ds_intro_dialog_0">
+		<text>嗯, 我们成功了, 长官, 接下来的计划是什么?</text>
+	</string>
+	<string id="hb_hernandez_ds_intro_dialog_1">
+		<text>我们很幸运隐秘的突破了乌克兰军队的防线, 其他UNISG特别行动小组也都成功地进入了特异区, 并且在计划地点安顿下来了. 在其他的小队执行计划的时候, 我需要你完成一项特殊的任务. 去见一个叫杜什曼的人, 他是佣兵和委托人之间的主要联络员, 怎么样?</text>
+	</string>
+	
+	<string id="hb_hernandez_about_dushman_dialog_0">
+		<text>去见杜什曼的目的是什么?</text>
+	</string>
+	<string id="hb_hernandez_about_dushman_dialog_1">
+		<text>为了情报. 佣兵在这已经有很长时间了, 他们的地图和记录对我们来说很有用. 这些情报将有助于减少深入特异区进行长期探索的风险.</text>
+	</string>
+	<string id="hb_hernandez_about_dushman_dialog_2">
+		<text>他会把所有的情报都交给我吗?</text>
+	</string>
+	<string id="hb_hernandez_about_dushman_dialog_3">
+		<text>差不多吧, 联合国已经为此支付了一笔巨款. 去吧, 他会很乐意给你一份的.</text>
+	</string>
+	<string id="hb_hernandez_about_dushman_dialog_4">
+		<text>难道他不能把这些情报用电子方式发给我吗?</text>
+	</string>
+	<string id="hb_hernandez_about_dushman_dialog_5">
+		<text>佣兵非常喜欢贩卖情报, 通过网络很容易被复制和窃取. 越是容易复制或窃取的情报, 就越不值钱. 你可能已经注意到, 他们并不关心让事情简单化, 而且我们也没什么选择.</text>
+	</string>
+	
+	<string id="hb_hernandez_about_darkscape_dialog_0">
+		<text>如果我需要帮助, 能在这里找到你吗?</text>
+	</string>
+	<string id="hb_hernandez_about_darkscape_dialog_1">
+		<text>不行, 其余部队要继续前进. 一旦你拿到情报, 我会发给你新位置和进一步命令.</text>
+	</string>
+
+	<string id="hb_hernandez_about_isg_groups_dialog_0">
+		<text>为什么我们的小队人这么少?</text>
+	</string>
+	<string id="hb_hernandez_about_isg_groups_dialog_1">
+		<text>就目前而言, 最重要的是我们不要吸引太多的注意力, 人越少越不容易引起怀疑. 如果乌克兰政府知道了我们的特种作战部队, 那简直是一场政治闹剧. 假如被发现, 我们也可以迅速分散, 这种间谍形式很难被定性, 在搞砸之前将为我们赢得足够的时间来挽救任务.</text>
+	</string>
+	
+	<string id="hb_hernandez_about_disguise_dialog_0">
+		<text>我们在当地是怎样的立场?</text>
+	</string>
+	<string id="hb_hernandez_about_disguise_dialog_1">
+		<text>当地知道我们是官方批准研究特异区的, 但是他们不能知道我们的秘密任务. 然而, 还是会有"意识形态不同"的人来抢劫、攻击或打我们的报告, 但一定要对秘密任务守口如瓶, 如果被佣兵以外的人发现秘密行动, 一定要斩草除根.</text>
+	</string>
+	<string id="hb_hernandez_about_disguise_dialog_2">
+		<text>你认为当地人会打我们的报告给乌克兰安全局?</text>
+	</string>
+	<string id="hb_hernandez_about_disguise_dialog_3">
+		<text>没错, 即便是间接的也不行, 那些为贩卖信息的普通潜行者、向政府监管机构提交报告的科学家, 以及像纪律团那样的派系, 到处都有像他们这样的眼线. 如果其中任何一个人透露UNISG正在搜索官方禁止进入的区域, 我们的整个行动就会处于危险之中.</text>
+	</string>
+	<string id="hb_hernandez_about_disguise_dialog_4">
+		<text>那我怎么穿过人口密集的地区呢, 大屠杀肯定也会引起不必要的注意吧?</text>
+	</string>
+	<string id="hb_hernandez_about_disguise_dialog_5">
+		<text>. 特异区的死亡率极高, 每天有许多潜行者消失的无影无踪. 不过, 你讲到点了, 伪装成潜行者是个好主意, 这样你就可以经过他们的主要营地. 虽然本身有风险, 但是可行性很大.</text>
+	</string>
+	
+	<string id="hb_hernandez_about_mercs_dialog_0">
+		<text>我们怎么知道杜什曼和佣兵是值得相信的?</text>
+	</string>
+	<string id="hb_hernandez_about_mercs_dialog_1">
+		<text>联合国与佣兵的关系很暧昧. 然而, 我们不只为情报付出了很多, 如果行动顺利的话, 他们还会得到更多, 我们已经收买了他们, 而且我们成功的话也最符合他们的利益. 当然, 如果我们搞砸, 他们过河拆桥, 我也不会惊讶. 你自己小心吧.</text>
+	</string>
+	
+	<string id="hb_hernandez_about_operation_dialog_0">
+		<text>我们的战略目标是什么?</text>
+	</string>
+	<string id="hb_hernandez_about_operation_dialog_1">
+		<text>UNISG有双重任务: 首先是科学家对特异区的一般性研究.  然后, 特种部队会对一些老实验室进行搜查, 以获得散落在特异区的实地调查资料.  我们怀疑特异区是人为的, 如果我们证实的话, 就能更深入、更公开地进行调查.  你和我就是隶属于这个特种部队.</text>
+	</string>
+	
+	<string id="hb_hernandez_about_operation_more_dialog_0">
+		<text>关于UNISG在特异区的行动, 你还能告诉我什么?</text>
+	</string>
+	<string id="hb_hernandez_about_operation_more_dialog_1">
+		<text>据我所知, 这并不是特异区的第一次国际行动. 我们的前小组, 简称为"ISG", 过去相当活跃. 他们是由联合国资助的环境研究人员, 而不是听命于乌克兰政府的科学家. 然而, 在2011年9月第二次特大风暴后不久, 由于大量人员伤亡, 他们不得不解散.</text>
+	</string>
+	<string id="hb_hernandez_about_operation_more_dialog_2">
+		<text>ISG解散后发生了什么?</text>
+	</string>
+	<string id="hb_hernandez_about_operation_more_dialog_3">
+		<text>幸存者不多, 但大多数人离开了. 然而, 有些人选择了与佣兵或科学家合作, 或者干脆以自由人或潜行者的身份单干. 
+                \n一些成员勇敢地继续他们最初的使命, 但他们的人数在持续减少. 简而言之, 联合国在特异区的眼线也渐渐消失了.</text>
+	</string>
+	<string id="hb_hernandez_about_operation_more_dialog_4">
+		<text>然而我们却在这里.</text>
+	</string>
+	<string id="hb_hernandez_about_operation_more_dialog_5">
+		<text>确实. 多年来, ISG的一些顽固分子一直在向联合国默默呼吁, 希望得到联合国的支持, 尽管他们大多被忽视了. 最近, 自远方的伦敦也检测到了大量辐射后, 情况有所变化. 我们所能确定活着的前ISG成员, 要么在新派系中做间谍, 要么被联合国召回, 组成UNISG的科学核心.</text>
+	</string>
+	<string id="hb_hernandez_about_operation_more_dialog_6">
+		<text>听起来前ISG和新ISG很不一样.</text>
+	</string>
+	<string id="hb_hernandez_about_operation_more_dialog_7">
+		<text>前组织主要由科学家组成, 他们得到乌克兰的支持和允许, 但也伴随乌克兰的监督、干涉和审查. 我怀疑, 特异区的真相被前研究员隐瞒了, 这对整个世界都是个威胁!这一次, 我们有自己的资源, 我们自己的警卫. 联合国已经提供了我们所有的资金, 所以这次我们可以自己发现真相.</text>
+	</string>
+	
+	<string id="hb_hernandez_ds_break_dialog_0">
+		<text>没有问题了, 长官. 我准备好了.</text>
+	</string>
+	<string id="hb_hernandez_ds_break_dialog_1">
+		<text>很好, 当你见到杜什曼时, 记住暗号:"我犹然还记得, 在这濒死的世界上曾有过蓝色的汪洋?"
+		\n我会在你的PDA上标出他的位置, 还有去那里的路.</text>
+	</string>
+	<string id="hb_hernandez_ds_break_dialog_2">
+		<text>这是《星球挽歌》的歌词吗?</text>
+	</string>
+	<string id="hb_hernandez_ds_break_dialog_3">
+		<text>... 嗯, 现在就去吧.</text>
+	</string>
+	<string id="hb_hernandez_ds_break_dialog_4">
+		<text>嗨.</text>
+	</string>
+	
+	<string id="hb_dushman_isg_intel_dialog_0">
+		<text>埃尔南德斯少校派我来的, 为了情报.</text>
+	</string>
+	<string id="hb_dushman_isg_intel_dialog_1">
+		<text>哦, 口令是什么?</text>
+	</string>
+	<string id="hb_dushman_isg_intel_dialog_2">
+		<text>"我犹然还记得, 在这濒死的世界上曾有过蓝色的汪洋".</text>
+	</string>
+	<string id="hb_dushman_isg_intel_dialog_3">
+		<text>希望它永远不会只是一段回忆. 这是联合国要求的全部情报资料.</text>
+	</string>
+	<string id="hb_dushman_isg_intel_dialog_4">
+		<text>谢谢.</text>
+	</string>
+	<string id="hb_dushman_isg_intel_dialog_5">
+		<text>在你走之前, 我知道政府工作的报酬很低. 如果你想赚点真金白银, 够谨慎的话, 那就来这里吧 - 我们佣兵总是有很多工作要做, 非常赚钱的工作.</text>
+	</string>
+	<string id="hb_dushman_isg_intel_dialog_6">
+		<text>我会考虑的.</text>
+	</string>
+	<string id="hb_dushman_isg_intel_dialog_7">
+		<text>嗯, 我不想让你觉得现在的工作是个坑, 且不是每个人都愿意为政客的胡扯而卖命, 既然你可以为自己而活, 为什么还要为他们卖命呢?</text>
+	</string>
+	<string id="hb_dushman_isg_intel_dialog_8">
+		<text>这次行动非常重要, 杜什曼. 如果我们再见, 希望能合作.</text>
+	</string>
+	
+	<string id="drx_isg_cit_killers_merc_trader_stalker_game_start_dialog_1_0">
+		<text>嗯, 你给了我一份工作, 我很感兴趣.</text>
+	</string>
+	<string id="drx_isg_cit_killers_merc_trader_stalker_game_start_dialog_1_1">
+		<text>好啊, 雇主希望完成一些重要的工作, 但连我也不知道这些雇主是谁, 在哪里, 只是他们非常非常有钱. 这雇主要求我们提供一份"相关方"的名单. 这些会在你的PDA上进行细节更新, 你要小心背后, 还要保持冷静. 特异区可能让你大赚特赚, 但同时也能让你下地狱, 到目前为止一切都是未知数.</text>
+	</string>
+	
+	<string id="hb_hernandez_jup_start_dialog_0">
+		<text>啊, 你还活着, 太好了.</text>
+	</string>
+	
+	<string id="hb_hernandez_jup_dushman_intel_0">
+		<text>啊, 你还活着, 太好了.</text>
+	</string>
+	<string id="hb_hernandez_jup_dushman_intel_1">
+		<text>我也有情报.</text>
+	</string>
+	<string id="hb_hernandez_jup_dushman_intel_2">
+		<text>那就更好了. 如你所见, 我们在这里找到了一个很好的避难所, 但还是太暴露了. 我们想去地下通道探险, 看看那里是否适合居住, 但我们派去的最后一批人已经失去了联系, 从那以后就再也没有回来过. 这是我的过错, 太草率了. 在我们派人去之前, 我们需要在山上的工厂里搜寻任何可能给我们提供地下通道布局的线索.</text>
+	</string>
+	
+	<string id="hb_hernandez_about_jup_factory_dialog_0">
+		<text>你凭什么认为我们能在上面那家工厂找到有用的东西?</text>
+	</string>
+	<string id="hb_hernandez_about_jup_factory_dialog_1">
+		<text>正如你所看到的, 我们现在有一个额外的小队. 当我们找到他们的时候, 他们说一直在调查木星工厂, 发现了一个密封的公文包, 里面装满了文件、平面图、建筑布局等. 然而, 为了避免被军队发现而发生意外. 
+        \n他们必须迅速撤退, 而那个公文包弄丢了, 必须找回来.</text>
+	</string>
+	
+	<string id="hb_hernandez_about_jup_factory_enter_dialog_0">
+		<text>我们怎么去工厂?</text>
+	</string>
+	<string id="hb_hernandez_about_jup_factory_enter_dialog_1">
+		<text>当心点, 有消息说有一个排的乌克兰军队在那里鬼鬼祟祟不知道干嘛, 必须尽快、尽可能悄无声息地消灭他们.</text>
+	</string>
+	
+	<string id="hb_hernandez_search_jup_factory_dialog_0">
+		<text>我准备好协助搜查工厂了.</text>
+	</string>
+	<string id="hb_hernandez_search_jup_factory_dialog_1">
+		<text>太好了, 你带上一个小队, 把文件找回来, 消灭在那栋楼里的任何目击者. 同时, 我会检查你从杜什曼带来的情报, 解散.</text>
+	</string>
+	<string id="hb_hernandez_search_jup_factory_dialog_2">
+		<text>长官.</text>
+	</string>
+	
+	<string id="hb_hernandez_found_jupiter_documents_dialog_0">
+		<text>这是公文包, 所有目击者人都被消灭了.</text>
+	</string>
+	<string id="hb_hernandez_found_jupiter_documents_dialog_1">
+		<text>好吧, 让我们看看... 嗯 - 啊!在这儿. "普里皮亚季地下通道", 当地人称之为"木星工厂地下通道". 布局看起来很简单. 然而, 根据杜什曼的文件, 它看起来也正是怪物喜欢的那种环境. 黑暗, 潮湿, 有些地方有点拥挤. 嗯, 现在我们知道为什么我们的最后一个小队没有从那里回来. 不过, 从布局上看, 那里也有一些大而深的区域... 根据工厂和地下通道之间的运输清单, 还有下面有一些文件显示, 应该是在1986年疏散的, 在2006年再次疏散. 但这两次他们都没能成功, 有意思吧?</text>
+	</string>
+	<string id="hb_hernandez_found_jupiter_documents_dialog_2">
+		<text>计划是什么, 长官?</text>
+	</string>
+	<string id="hb_hernandez_found_jupiter_documents_dialog_3">
+		<text>先搜索这个地方, 找到遗留下来的文件, 然后找个宽敞的地方安顿下来. 我们人不多, 所以那里对我们来说很合适. 你准备好下去了吗?</text>
+	</string>
+	<string id="hb_hernandez_found_jupiter_documents_dialog_4">
+		<text>好的, 我们出发吧.</text>
+	</string>
+	<string id="hb_hernandez_found_jupiter_documents_dialog_41">
+		<text>很好. 我们会一起行动, 彼此照顾, 确保同伴一直在身边. 你们中的一些人可能已经遭遇过变异生物了, 但我听说地下的突变体会更难对付. 所以准备好装备, 保持头脑清醒, 到达指点位置.</text>
+	</string>
+	<string id="hb_hernandez_found_jupiter_documents_dialog_42">
+		<text>是, 长官.</text>
+	</string>
+	<string id="hb_hernandez_found_jupiter_documents_dialog_5">
+		<text>等等, 我需要点时间喘口气.</text>
+	</string>
+	<string id="hb_hernandez_found_jupiter_documents_dialog_51">
+		<text>好吧, 但我们待在这里时间越长, 就越有可能被发现.</text>
+	</string>
+	
+	<string id="hb_hernandez_start_jup_u_breakthrough_dialog_0">
+		<text>我准备好去地下了.</text>
+	</string>
+	<string id="hb_hernandez_start_jup_u_breakthrough_dialog_1">
+		<text>很好. 我们会一起行动, 彼此照顾, 确保同伴一直在身边. 你们中的一些人可能已经遭遇过突变体了, 但我听说地下的突变体会更难对付. 所以系好安全带, 保持头脑清醒, 到达指点位置.</text>
+	</string>
+	<string id="hb_hernandez_start_jup_u_breakthrough_dialog_2">
+		<text>是, 长官.</text>
+	</string>
+	
+	<string id="hb_hernandez_found_jup_u_documents_dialog_0">
+		<text>长官, 这些一定是货单上提到的文件.</text>
+	</string>
+	<string id="hb_hernandez_found_jup_u_documents_dialog_1">
+		<text>这... 难以置信. 仅这一点就能让联合国对特异区公开和升级调查. 但我们必须找出更多证据, 这些迹象肯定很难应付. 我将联系剩下的UNISG小队, 让他们知道我们已经为他们建立了一个强大的基地, 就在普里皮亚季的下面, 嘿嘿.</text>
+	</string>
+	<string id="hb_hernandez_found_jup_u_documents_dialog_2">
+		<text>我猜我们已经准备好了吧?</text>
+	</string>
+	<string id="hb_hernandez_found_jup_u_documents_dialog_3">
+		<text>还没有, 但是也快了, 还有很多准备工作. 我之前提过, 我们到这里的部分原因是为了搜素特异区的各个老实验室. 感谢你从杜什曼那带来的情报, 现在有希望了. 他的笔记中提到, 许多这样的实验室已经被搜查过, 然而那些搜到的文件却神秘的消失了, 也许是乌克兰安全局的借口. 笔记还提到, 进入实验室的人很少能出来, 因此, 很可能仍然包含大量我们正在寻找的证据. 考虑到我们在这条地下通道里发现的东西, 感觉可以赌一把.</text>
+	</string>
+	
+	<string id="hb_hernandez_about_evidence_dialog_0">
+		<text>我们在寻找什么样的证据?</text>
+	</string>
+	<string id="hb_hernandez_about_evidence_dialog_1">
+		<text>你在实验室里找到的任何文件, 你都可以拿. 很有可能特异区的许多现象都是由这些实验室的研究引起的. 换句话说, 这些生态灾难的反常事故有可能是蓄意设计的结果, 违反了《日内瓦公约》的大规模毁灭性武器. 我们需要任何能证明这一点的东西.  
+        \n最好我们能带着大量的证据离开这个鬼地方, 有证据表明, 特异区里的东西会带来实质性的国际威胁, 对东欧产生社会倒退的危害.
+		\n这将迫使乌克兰让联合国自由控制切尔诺贝利及其秘密. 甚至可能把国家对神器的垄断转移到别人手中...</text>
+	</string>
+	<string id="hb_hernandez_about_evidence_dialog_2">
+		<text>听起来很槽糕.</text>
+	</string>
+	<string id="hb_hernandez_about_evidence_dialog_21">
+		<text>不管是不是浑水, 这是我们的工作, 我们会坚持到底的.</text>
+	</string>
+	<string id="hb_hernandez_about_evidence_dialog_3">
+		<text>是啊, 特异区可能威胁到整个世界, 不应该只让一个国家去控制.</text>
+	</string>
+	<string id="hb_hernandez_about_evidence_dialog_31">
+		<text>我很高兴你同意.</text>
+	</string>
+	<string id="hb_hernandez_about_evidence_dialog_4">
+		<text>你认为联合国真正关心的是什么:保护公众还是截取神器贸易?</text>
+	</string>
+	<string id="hb_hernandez_about_evidence_dialog_41">
+		<text>我无权评论, 你也不能.</text>
+	</string>
+	
+	<string id="hb_hernandez_search_labs_dialog_0">
+		<text>派谁去调查这些实验室呢?</text>
+	</string>
+	<string id="hb_hernandez_search_labs_dialog_1">
+		<text>我认为你最合适. 你不仅在战斗中证明了自己的能力, 也很好的完成了独立任务和当地关系, 而且也没有得罪乌克兰安全局. 不过, 在你走之前, 先拿着这个.</text>	
+        </string>
+	<string id="hb_hernandez_search_labs_dialog_2">
+		<text>这是什么?</text>
+	</string>
+	<string id="hb_hernandez_search_labs_dialog_3">
+		<text>我们科学家内部的一个探员给我们的一个... 呃... "psy防护装置"</text>
+	</string>
+	<string id="hb_hernandez_search_labs_dialog_4">
+		<text>什么, 像精神控制类的?</text>
+	</string>
+	<string id="hb_hernandez_search_labs_dialog_5">
+		<text>对. 我发誓, 你越了解这个地方, 就越难看懂. 无论如何, 我们制造的这个头盔应该可以保护你不受任何"精神控制"设备的影响.</text>
+	</string>
+	<string id="hb_hernandez_search_labs_dialog_6">
+		<text>见鬼, 感觉像是恐怖电影一样.</text>
+	</string>
+	<string id="hb_hernandez_search_labs_dialog_7">
+		<text>你不会有事的, 我已经给他们一些类似的装备, 所以如果你愿意, 你可以带着它们. 记住:你的任务是从实验室中找到任何有关绝密文件, 并且不留目击者. 让我在你的掌上电脑上标出位置.</text>
+	</string>
+	<string id="hb_hernandez_search_labs_dialog_8">
+		<text>我不会让你失望的, 长官.</text>
+	</string>
+	
+	<string id="hb_hernandez_found_labs_docs_dialog_0">
+		<text>好的, 你的首席向导回来了, 看看这些.</text>
+	</string>
+	<string id="hb_hernandez_found_labs_docs_dialog_1">
+		<text>不可思议... 做得好!联合国将很高兴地得到我们现在所了解的情况.</text>
+	</string>
+	<string id="hb_hernandez_found_labs_docs_dialog_2">
+		<text>我不在的时候发生了什么有趣的事吗?</text>
+	</string>
+	<string id="hb_hernandez_found_labs_docs_dialog_3">
+		<text>UNISG的其余小队也从核电站调查中回来了. 通过大家的共同努力, 我们已经对特异区过去几十年发生的事情有了很好的了解. 然而还有很多未解之谜, 如果特异区缔造者已经消失或灭亡, 那环境怎么会变得更严酷?还有叫"黑石"的邪教组织在这些年里怎么会如此壮大?</text>
+	</string>
+	<string id="hb_hernandez_found_labs_docs_dialog_4">
+		<text>你知道我们在哪里可以找到这些谜团的答案吗?</text>
+	</string>
+	<string id="hb_hernandez_found_labs_docs_dialog_5">
+		<text>知道. 还记得我们在木星工厂遇到的那个军队吗?原来他们不是偶然来的, 他们想要完成和我们一样的事情, 只是他们宁愿烧掉文件也不愿让全世界知道.</text>
+	</string>
+	<string id="hb_hernandez_found_labs_docs_dialog_6">
+		<text>你发现了另一个小队的位置?</text>
+	</string>
+	<string id="hb_hernandez_found_labs_docs_dialog_7">
+		<text>是的. 而且我的密探还推断出了他们的目标:这个军事小队正在追捕他们的前首席科学顾问.</text>
+	</string>
+	<string id="hb_hernandez_found_labs_docs_dialog_8">
+		<text>听起来有点奇怪. 他们为什么要这么做?</text>
+	</string>
+	<string id="hb_hernandez_found_labs_docs_dialog_9">
+		<text>他们的首席顾问不是正儿八经的博士, 而是掌握特异区第一手资料而获得这一职位的. 显然, 他发现了许多秘密, 包括特异区的起源, 这些细节至今仍未在我们的笔记中找到, 关于他的事迹真假参半. 无论如何, 考虑到他既然逃回了这里, 他显然对自己的官方职位不满意. 无法想象什么样的工作能让一个人想在这种鬼地方度假.</text>
+	</string>
+	<string id="hb_hernandez_found_labs_docs_dialog_10">
+		<text>这个人是谁?</text>
+	</string>
+	<string id="hb_hernandez_found_labs_docs_dialog_11">
+		<text>他们叫他... 史特列洛克.</text>
+	</string>
+	<string id="hb_hernandez_found_labs_docs_dialog_12">
+		<text>你要我把他找回来吗?</text>
+	</string>
+	<string id="hb_hernandez_found_labs_docs_dialog_13">
+		<text>是的, 他是最后的线索了. 把他从普里皮亚季的军队手中救出来, 说服他帮助我们. 如果他能在联合国作证反对乌克兰政府对特异区的处理, 那么诉讼程序就变得容易得多.</text>
+	</string>
+	<string id="hb_hernandez_found_labs_docs_dialog_14">
+		<text>如果他拒绝呢?</text>
+	</string>
+	<string id="hb_hernandez_found_labs_docs_dialog_15">
+		<text>那就想办法得到那些情报. 如果你认为事情不乐观的话, 我会给你安排一个小队. 据我所知, 他的危险程度更大一点.</text>
+	</string>
+	<string id="hb_hernandez_found_labs_docs_dialog_16">
+		<text>我不太想冒险. 长官, 请安排一个小队和我一起走. 我们会找到史特列洛克, 也会兼顾那些追捕者, 在他发现之前就制服他.</text>
+	</string>
+	<string id="hb_hernandez_found_labs_docs_dialog_17">
+		<text>我一个人去. 我相信一旦帮助了史特列洛克, 他会帮助我们的, 我不想让他冒着被友军火力击中的危险.</text>
+	</string>
+	<string id="hb_hernandez_found_labs_docs_dialog_18">
+		<text>很好, 祝你好运.</text>
+	</string>
+	
+	<string id="hb_hernandez_strelok_pendrive_dialog_0">
+		<text>长官, 关于史特列洛克...</text>
+	</string>
+	<string id="hb_hernandez_strelok_pendrive_dialog_1">
+		<text>我看得出, 你干掉了他, 发生了什么?</text>
+	</string>
+	<string id="hb_hernandez_strelok_pendrive_dialog_11">
+		<text>他拒绝投降, 我别无选择. 然而, 我在他身上找到了这个闪存盘. 也许里面有什么有价值的东西.</text>
+	</string>
+	<string id="hb_hernandez_strelok_pendrive_dialog_2">
+		<text>你在没有解除他的武装的情况下, 就把整个地区最有见识、最狡猾、最危险的人带进了我们的战地总部, 你想干什么?</text>
+	</string>
+	<string id="hb_hernandez_strelok_pendrive_dialog_21">
+		<text>这是制服他的最好办法, 更不用说隐藏他踪迹的证据了. 你可能想看看他带了什么东西.</text>
+	</string>
+	<string id="hb_hernandez_strelok_pendrive_dialog_3">
+		<text>我还以为你被敌人俘虏了呢, 怎么去了这么久?</text>
+	</string>
+	<string id="hb_hernandez_strelok_pendrive_dialog_31">
+		<text>作为回报, 他给了我这个闪存盘. 它包含了特异区历史的信息... 和它的奥秘.</text>
+	</string>
+	<string id="hb_hernandez_strelok_pendrive_dialog_4">
+		<text>嗯... 让我瞧瞧... 
+		\n难以置信... 这简直超出了我们的期望...</text>
+	</string>
+	<string id="hb_hernandez_strelok_pendrive_dialog_5">
+		<text>长官, 你在里面发现了什么?</text>
+	</string>
+	<string id="hb_hernandez_strelok_pendrive_dialog_6">
+		<text>绝密文件, 实验室信息, 复杂装置, 个人经历和对切尔诺贝利核电站的观察, 许愿石... 史特列洛克不仅经历了这一切, 而且还记录了下来. 我认为这一使命已经完成, 干的不错, 士兵!</text>
+	</string>
+	<string id="hb_hernandez_strelok_pendrive_dialog_7">
+		<text>那么, 我们成功了吗, 接下来呢?</text>
+	</string>
+	<string id="hb_hernandez_strelok_pendrive_dialog_8">
+		<text>是时候离开这个鬼地方了, 联合国会很满意我们的成果. 我会通知所有的UNISG小队指挥官, 现在是他们撤离特异区的时候了. 解散.</text>
+	</string>
+	<string id="hb_hernandez_strelok_pendrive_dialog_9">
+		<text>明白.</text>
+	</string>
+	<string id="hb_hernandez_strelok_pendrive_dialog_10">
+		<text>我们的一些科研部队将留下来研究神器和异常区域. 我们的一些士兵也选择了与佣兵合作, 这样他们就可以待得更久.</text>
+	</string>
+	<string id="hb_hernandez_strelok_pendrive_dialog_11">
+		<text>允许那样吗?</text>
+	</string>
+	<string id="hb_hernandez_strelok_pendrive_dialog_12">
+		<text>我已经同意了, 而且他们也愿意融入特异区的生活. 我也相信他们会保守秘密, 而且和他们保持联系迟早也会有用的. 
+		\n我们成功了, 你的任务也完成了. 如果你也选择留在特异区, 我祝福你, 尽管这样做可能意味着错过一些诱人的晋升机会, 你考虑考虑. 
+		\n解散.</text>
+	</string>
+	
+	<string id="hb_hernandez_guide_dialog_0">
+		<text>嗯... 我有点迷茫, 我想离开这儿.</text>
+	</string>
+	<string id="hb_hernandez_guide_dialog_1">
+		<text>嗯, 我会叫小队的人来接你, 你想从那条路走?</text>
+	</string>
+	<string id="hb_hernandez_guide_dialog_2">
+		<text>回到我们之前的藏身之处, 木星地区工厂下面.</text>
+	</string>
+	<string id="hb_hernandez_guide_dialog_3">
+		<text>到普里皮亚季郊区.</text>
+	</string>
+	<string id="hb_hernandez_guide_dialog_4">
+		<text>没关系, 我自己去.</text>
+	</string>
+	<string id="hb_hernandez_guide_dialog_5">
+		<text>很好.</text>
+	</string>
+	<string id="hb_hernandez_guide_dialog_6">
+		<text>很好.</text>
+	</string>
+	
+	<string id="hb_maus_start_0">
+		<text>...</text>
+	</string>
+	<string id="hb_maus_start_1">
+		<text>嘿, 我认识你吗?</text>
+	</string>
+	<string id="hb_maus_start_2">
+		<text>是啊, 你看起来有点眼熟... 等等, 啊, 我认识你!不会吧!伙计, 你怎么当上上尉的?</text>
+	</string>
+	<string id="hb_maus_start_3">
+		<text>我没有这次行动的官衔, 我只是直接向少校汇报.</text>
+	</string>
+	<string id="hb_maus_start_4">
+		<text>看来他对你有特别的安排. 如果你不再特别, 也就没有价值了.</text>
+	</string>
+	<string id="hb_maus_start_5">
+		<text>你呢? 你现在是中尉了.</text>
+	</string>
+	<string id="hb_maus_start_6">
+		<text>我太自豪了. 也别提我的第一志愿是做一名工程师了, 但我还是得承认, 事情进展的非常顺利!</text>
+	</string>
+	<string id="hb_maus_start_7">
+		<text>被困在辐射堆里, 你也算够开心的啊.</text>
+	</string>
+	<string id="hb_maus_start_8">
+		<text>和别的地方比起来也不错啦, 周围的人一半时间喝的烂醉枪都射不准, 呵呵...</text>
+	</string>
+	<string id="hb_maus_start_9">
+		<text>说到射的准...</text>
+	</string>
+	<string id="hb_maus_start_10">
+		<text>啊, 对哦, 我早知道你不是因为我长得好看才来的. 如果你的枪械有一点脏污, 即使只是灰尘, 把它交给我, 我会让它比冰面上的浮油更光滑.</text>
+	</string>
+	
+	<string id="hb_maus_leave_0">
+		<text>任务结束后你打算做什么?</text>
+	</string>
+	<string id="hb_maus_leave_1">
+		<text>呃... 和其他人一起走? 什么, 你没想过要入乡随俗吧?</text>
+	</string>
+	<string id="hb_maus_leave_2">
+		<text>没有, 我宁愿回家再见到我的家人, 这才舒服啊.</text>
+	</string>
+	<string id="hb_maus_leave_3">
+		<text>当然不是. 我将和UNISG的其他成员一起离开. 也许有一天我们会见面.</text>
+	</string>
+	<string id="hb_maus_leave_4">
+		<text>不一定, 但我觉得我必须留在特异区. 不管少校怎么想, 我不相信我的工作已经完成了.</text>
+	</string>
+	<string id="hb_maus_leave_5">
+		<text>既然行动已经结束了, 我可能要单干了. 也许我能在佣兵间成名, 我还是很期待的.</text>
+	</string>
+	<string id="hb_maus_leave_6">
+		<text>啊, 很好. 随便你啦.</text>
+	</string>
+	<string id="hb_maus_leave_7">
+		<text>听起来像是个计划, 不过, 如果你有麻烦, 和我没有关系, 行吧?</text>
+	</string>
+	
+	<string id="hb_maus_guide_0">
+		<text>嘿, 茅斯, 我需要向导带我去新的藏匿点...</text>
+	</string>
+	<string id="hb_maus_guide_1">
+		<text>老鼠让你做噩梦对吧?别担心朋友. 我会联系一个人来接你.</text>
+	</string>
+	<string id="hb_maus_guide_2">
+		<text>...</text>
+	</string>
+	
+	<string id="hb_strelok_start_dialog_0">
+		<text>好险, 你是谁?</text>
+	</string>
+	<string id="hb_strelok_start_dialog_1">
+		<text>我代表联合国, 史特列洛克, 我们需要你受到我们的监管, 为我们指证乌克兰政府.</text>
+	</string>
+	<string id="hb_strelok_start_dialog_2">
+		<text>真是特异区固有的扭曲幽默感, 我一点也不感激被一群政府走狗从另一群走狗手中救出.</text>
+	</string>
+	<string id="hb_strelok_start_dialog_3">
+		<text>我已经证明了他们不是我的对手, 否则我早投降了.</text>
+	</string>
+	<string id="hb_strelok_start_dialog_31">
+		<text>我拒绝.</text>
+	</string>
+	<string id="hb_strelok_start_dialog_4">
+		<text>没有必要有更多的牺牲. 只有我一个人, 你很安全, 告诉我你所知道的. 它可以帮助世界对特异区展开调查. 而且它将处于国际管理之下, 不再有政府的谎言和秘密</text>
+	</string>
+	<string id="hb_strelok_start_dialog_5">
+		<text>我凭什么相信你说的话?</text>
+	</string>
+	<string id="hb_strelok_start_dialog_6">
+		<text>因为这意味着你的余生将不再受到乌克兰军队的追捕.</text>
+	</string>
+	<string id="hb_strelok_start_dialog_7">
+		<text>. 听起来不错. 但我也不能让联合国一直盯着我, 软禁我. 如果你带我离开这个地方, 我可以和你分享一些特异区的秘密.</text>
+	</string>
+	<string id="hb_strelok_start_dialog_8">
+		<text>很好, 你想去哪儿?</text>
+	</string>
+	<string id="hb_strelok_start_dialog_9">
+		<text>红森林. 那个地方是个死亡地带, 但我知道怎么走安全, 这将阻碍军队的进一步追捕.</text>
+	</string>
+	<string id="hb_strelok_start_dialog_10">
+		<text>好吧, 你对特异区的了解反而使你很安全, 走吧.</text>
+	</string>
+	
+	<string id="hb_strelok_escorted_dialog_0">
+		<text>好了, 史特列洛克.  你现在很安全.</text>
+	</string>
+	<string id="hb_strelok_escorted_dialog_1">
+		<text>你是个守信用的人, 谢谢你!</text>
+	</string>
+	<string id="hb_strelok_escorted_dialog_2">
+		<text>现在听你的, 史特列洛克.</text>
+	</string>
+	<string id="hb_strelok_escorted_dialog_3">
+		<text>OK, 这是我的个人闪存. 它包含了我所有关于特异区的经历和想法, 以及我在旅行中发现的许多有趣的论文和其他信息. 联合国将找到他们需要的所有答案, 但要知道: 特异区远不止这么简单. 我们就像山顶洞人, 把两块石头刮在一起, 却不小心点着了火. 我们不知道发生了什么, 也不知道我们在看什么. 与此同时, 大火正在蔓延, 吞噬着周围的一切...</text>
+	</string>
+	<string id="hb_strelok_escorted_dialog_4">
+		<text>谢谢你!这可能超出了我的预期. 我会回到我长官那里, 你呢?</text>
+	</string>
+	<string id="hb_strelok_escorted_dialog_5">
+		<text>我有几个老朋友要埋葬, 还有一个要拜访. 过了一段时间, 你就会真正意识到时间是多么宝贵, 记住你已经度过的时光是多么重要...</text>
+	</string>
+	<string id="hb_strelok_escorted_dialog_6">
+		<text>再见, 史特列洛克.</text>
+	</string>
+	<string id="hb_strelok_escorted_dialog_21">
+		<text>妈的, 经过这一切, 我不确定我能不能把这个消息带给我的长官.</text>
+	</string>
+	<string id="hb_strelok_escorted_dialog_31">
+		<text>有意思, 再考虑下?</text>
+	</string>
+	<string id="hb_strelok_escorted_dialog_41">
+		<text>也许吧. 我知道我之前说了什么, 但是我越想, 我越不相信联合国会好好利用. 你和我分享的一切可以改变整个世界, 它不应该留给那些已经掌握所有权力的人. 
+		\n我需要到处转转多了解一下特异区. 在我确定正确的选择之前, 我需要了解更多. 我还无法确定, 除非我成为潜行者.</text>
+	</string>
+	<string id="hb_strelok_escorted_dialog_51">
+		<text>我比你更能理解那种感觉.</text>
+	</string>
+	<string id="hb_strelok_escorted_dialog_61">
+		<text>我可能会因为逃跑而被抓起来送上军事法庭. 讽刺的是, 由于我之前就找到的文件, 也许某天, 他们会允许UNISG入侵特异区.</text>
+	</string>
+	<string id="hb_strelok_escorted_dialog_71">
+		<text>我也非常怀疑政府处理这种情况的能力. 但如果那些文件不被带走, 那就没有问题了. 事实上, 我可以利用潜行者的关系向军队放出消息, 这样他们就会戒严, 防止你的同伴逃跑, 这可以操作.</text>
+	</string>
+	<string id="hb_strelok_escorted_dialog_81">
+		<text>谢谢, 但我不想让我以前的伙伴受到伤害.</text>
+	</string>
+	<string id="hb_strelok_escorted_dialog_91">
+		<text>也许还有别的办法, 等着吧. 如果你真的打算坚持下去, 我建议你去罗斯托克或河湾. 对潜行者来说总会有一些工作, 或者隐匿的地方. 说不定你还可以交到一些朋友. 
+		\n不管怎样, 我们快没时间了, 让我们走吧.</text>
+	</string>
+	<string id="hb_strelok_escorted_dialog_101">
+		<text>我还会再见到你吗?</text>
+	</string>
+	<string id="hb_strelok_escorted_dialog_111">
+		<text>可能不会. 我需要埋葬一些老朋友, 去问候还活着的人, 然后可能找个地方消失. 我找到了我的答案, 希望你能找到你的. 你可以保留我的闪存, 我再也不需要它了.</text>
+	</string>
+	<string id="hb_strelok_escorted_dialog_121">
+		<text>再见, 史特列洛克.  也许有天我会在路边野餐时再遇见你.</text>
+	</string>
+
+</string_table>

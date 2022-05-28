@@ -1,0 +1,743 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+	UNUSED!
+	Fieldcraft Crafting Overhaul
+
+
+<string_table>
+	<string id="fieldcraft_survivalguide_name">
+		<text>乌克兰特种部队生存指南(编号. 76)</text>
+	</string>
+	<string id="fieldcraft_survivalguide_descr">
+		<text>在你的旅行中, 你已经学习了很多像这样的生存指南. 然而, 它仍然具有一定的教育价值, 当你被迫在现场制造一些临时设备时, 它可能会派上用场. 提供了关于如何制作几个有用的物品的紧凑的说明: \n • 医药箱 \n • 临时制作的医疗针 \n • 背包 \n • 睡袋 \n • 化学IED \n • RPG IED \n • 高敏地雷 \n • 简易防护板 \n • 军用水壶 \n • 手枪修理包 \n • 猎枪修理包 \n • 小口径步枪修理包 \n • 中、大口径步枪修理包 \n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 制作指南\n%c[d_orange] • %c[ui_gray_2] 可用于:%c[ui_gray_1] 武器清洗和润滑 (+3%)</text> 
+	</string>
+	
+	<string id="fieldcraft_pkg_medkit_0_name">
+		<text>手工包: 医疗包</text>
+	</string>
+	<string id="fieldcraft_pkg_medkit_0_descr">
+		<text>安排好的, 用于制作医疗包的包囊. 根据生存指南, 你需要收集以下物品:\n - 1x 针线包 \n - 1x 绷带 \n - 烈酒 \n - 1x 布条 \n \n按顺序添加物品. 然后添加缝纫工具.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_medkit_1_name">
+		<text>手工包: 医疗包</text>
+	</string>
+	<string id="fieldcraft_pkg_medkit_1_descr">
+		<text>安排好的, 用于制作医疗包的包囊. 根据生存指南, 你需要收集以下物品:\n - 1x 针线包 \n - 1x 绷带 \n - 烈酒 \n - 1x 布条 \n \n按顺序添加物品. 然后添加绷带.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_medkit_2_name">
+		<text>手工包: 医疗包</text>
+	</string>
+	<string id="fieldcraft_pkg_medkit_2_descr">
+		<text>安排好的, 用于制作医疗包的包囊. 根据生存指南, 你需要收集以下物品:\n - 1x 针线包 \n - 1x 绷带 \n - 烈酒 \n - 1x 布条 \n \n按顺序添加物品. 然后加入烈酒.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_medkit_3_name">
+		<text>手工包: 医疗包</text>
+	</string>
+	<string id="fieldcraft_pkg_medkit_3_descr">
+		<text>安排好的, 用于制作医疗包的包囊. 根据生存指南, 你需要收集以下物品:\n - 1x 针线包 \n - 1x 绷带 \n - 烈酒 \n - 1x 布条 \n \n按顺序添加物品. 然后添加布条.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_medkit_4_name">
+		<text>手工包: Medkit (ready)</text>
+	</string>
+	<string id="fieldcraft_pkg_medkit_4_descr">
+		<text>安排好的, 用于制作医疗包的包囊. 根据生存指南, 你需要收集以下物品:\n - 1x 针线包 \n - 1x 绷带 \n - 烈酒 \n - 1x 布条 \n \n准备好制作.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	
+	<string id="fieldcraft_pkg_stimpack_0_name">
+		<text>手工包: 简易医疗针</text>
+	</string>
+	<string id="fieldcraft_pkg_stimpack_0_descr">
+		<text>用于制作医疗针的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 1x 空注射器 \n - 1x 酒精 \n - 制药盒 \n - 1x 血液凝固剂 \n - 1x 金霉素(抗生素) \n - 工具: 野战刀(可反复使用) \n \n按顺序添加物品. 然后添加空注射器.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_stimpack_1_name">
+		<text>手工包: 简易医疗针</text>
+	</string>
+	<string id="fieldcraft_pkg_stimpack_1_descr">
+		<text>用于制作医疗针的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 1x 空注射器 \n - 1x 酒精 \n - 制药盒 \n - 1x 血液凝固剂 \n - 1x 金霉素(抗生素) \n - 工具: 野战刀(可反复使用) \n \n按顺序添加物品. 然后加入酒精.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_stimpack_2_name">
+		<text>手工包: 简易医疗针</text>
+	</string>
+	<string id="fieldcraft_pkg_stimpack_2_descr">
+		<text>用于制作医疗针的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 1x 空注射器 \n - 1x 酒精 \n - 制药盒 \n - 1x 血液凝固剂 \n - 1x 金霉素(抗生素) \n - 工具: 野战刀(可反复使用) \n \n按顺序添加物品. 然后添加制药盒.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_stimpack_3_name">
+		<text>手工包: 简易医疗针</text>
+	</string>
+	<string id="fieldcraft_pkg_stimpack_3_descr">
+		<text>用于制作医疗针的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 1x 空注射器 \n - 1x 酒精 \n - 制药盒 \n - 1x 血液凝固剂 \n - 1x 金霉素(抗生素) \n - 工具: 野战刀(可反复使用) \n \n按顺序添加物品. 然后加入血液凝固剂.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_stimpack_4_name">
+		<text>手工包: 简易医疗针</text>
+	</string>
+	<string id="fieldcraft_pkg_stimpack_4_descr">
+		<text>用于制作医疗针的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 1x 空注射器 \n - 1x 酒精 \n - 制药盒 \n - 1x 血液凝固剂 \n - 1x 金霉素(抗生素) \n - 工具: 野战刀(可反复使用) \n \n按顺序添加物品. 然后加入金霉素.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_stimpack_5_name">
+		<text>手工包: 简易医疗针</text>
+	</string>
+	<string id="fieldcraft_pkg_stimpack_5_descr">
+		<text>用于制作医疗针的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 1x 空注射器 \n - 1x 酒精 \n - 制药盒 \n - 1x 血液凝固剂 \n - 1x 金霉素(抗生素) \n - 工具: 野战刀(可反复使用) \n \n按顺序添加物品. 然后添加户外刀具.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_stimpack_6_name">
+		<text>手工包: 简易医疗针 (ready)</text>
+	</string>
+	<string id="fieldcraft_pkg_stimpack_6_descr">
+		<text>用于制作医疗针的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 1x 空注射器 \n - 1x 酒精 \n - 制药盒 \n - 1x 血液凝固剂 \n - 1x 金霉素(抗生素) \n - 工具: 野战刀(可反复使用) \n \n准备好制作.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	
+	<string id="fieldcraft_pkg_backpack_0_name">
+		<text>手工包: 背包</text>
+	</string>
+	<string id="fieldcraft_pkg_backpack_0_descr">
+		<text>用于制作背包的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 压缩包 \n - 合成线束 \n - 针线包 \n \n按顺序添加物品. 然后添加压缩包.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_backpack_1_name">
+		<text>手工包: 背包</text>
+	</string>
+	<string id="fieldcraft_pkg_backpack_1_descr">
+		<text>用于制作背包的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 压缩包 \n - 合成线束 \n - 针线包 \n \n按顺序添加物品. 然后添加合成线束.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_backpack_2_name">
+		<text>手工包: 背包</text>
+	</string>
+	<string id="fieldcraft_pkg_backpack_2_descr">
+		<text>用于制作背包的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 压缩包 \n - 合成线束 \n - 针线包 \n \n按顺序添加物品. 然后添加缝纫工具.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_backpack_3_name">
+		<text>手工包: Backpack (ready)</text>
+	</string>
+	<string id="fieldcraft_pkg_backpack_3_descr">
+		<text>用于制作背包的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 压缩包 \n - 合成线束 \n - 针线包 \n \n准备好制作.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	
+	<string id="fieldcraft_pkg_sleepbag_0_name">
+		<text>手工包: 睡袋</text>
+	</string>
+	<string id="fieldcraft_pkg_sleepbag_0_descr">
+		<text>A用于制作睡袋的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 迷彩篷布 \n - 床罩 \n - 针线包 \n \n按顺序添加物品. 然后添加迷彩篷布.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_sleepbag_1_name">
+		<text>手工包: 睡袋</text>
+	</string>
+	<string id="fieldcraft_pkg_sleepbag_1_descr">
+		<text>A用于制作睡袋的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 迷彩篷布 \n - 床罩 \n - 针线包 \n \n按顺序添加物品. 然后添加床罩.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_sleepbag_2_name">
+		<text>手工包: 睡袋</text>
+	</string>
+	<string id="fieldcraft_pkg_sleepbag_2_descr">
+		<text>A用于制作睡袋的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 迷彩篷布 \n - 床罩 \n - 针线包 \n \n按顺序添加物品. 然后添加缝纫工具.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_sleepbag_3_name">
+		<text>手工包: 睡袋 (ready)</text>
+	</string>
+	<string id="fieldcraft_pkg_sleepbag_3_descr">
+		<text>A用于制作睡袋的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 迷彩篷布 \n - 床罩 \n - 针线包 \n \n准备好制作.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	
+	<string id="fieldcraft_pkg_ied_0_name">
+		<text>手工包: 化学IED</text>
+	</string>
+	<string id="fieldcraft_pkg_ied_0_descr">
+		<text>用于制作化学简易爆炸装置的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 汽油 (jerrycan) \n - 铝热手榴弹 \n - 铜线 \n - 感应装置 \n \n按顺序添加物品. 接下来加点汽油.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_ied_1_name">
+		<text>手工包: 化学IED</text>
+	</string>
+	<string id="fieldcraft_pkg_ied_1_descr">
+		<text>用于制作化学简易爆炸装置的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 汽油 (jerrycan) \n - 铝热手榴弹 \n - 铜线 \n - 感应装置 \n \n按顺序添加物品. 然后添加铝热手榴弹.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_ied_2_name">
+		<text>手工包: 化学IED</text>
+	</string>
+	<string id="fieldcraft_pkg_ied_2_descr">
+		<text>用于制作化学简易爆炸装置的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 汽油 (jerrycan) \n - 铝热手榴弹 \n - 铜线 \n - 感应装置 \n \n按顺序添加物品. 然后添加铜线.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_ied_3_name">
+		<text>手工包: 化学IED</text>
+	</string>
+	<string id="fieldcraft_pkg_ied_3_descr">
+		<text>用于制作化学简易爆炸装置的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 汽油 (jerrycan) \n - 铝热手榴弹 \n - 铜线 \n - 感应装置 \n \n按顺序添加物品. 然后添加感应装置.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_ied_4_name">
+		<text>手工包: 化学IED (ready)</text>
+	</string>
+	<string id="fieldcraft_pkg_ied_4_descr">
+		<text>用于制作化学简易爆炸装置的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 汽油 (jerrycan) \n - 铝热手榴弹 \n - 铜线 \n - 感应装置 \n \n准备好制作.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	
+	<string id="fieldcraft_pkg_iedrpg_0_name">
+		<text>手工包: RPG弹头IED</text>
+	</string>
+	<string id="fieldcraft_pkg_iedrpg_0_descr">
+		<text>用于制作RPG弹头IED的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 1x RPG弹药 \n - 铜线 \n - 感应装置 \n \n按顺序添加物品. 然后添加RPG弹药.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_iedrpg_1_name">
+		<text>手工包: RPG弹头IED</text>
+	</string>
+	<string id="fieldcraft_pkg_iedrpg_1_descr">
+		<text>用于制作RPG弹头IED的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 1x RPG弹药 \n - 铜线 \n - 感应装置 \n \n按顺序添加物品. 然后添加铜线.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_iedrpg_2_name">
+		<text>手工包: RPG弹头IED</text>
+	</string>
+	<string id="fieldcraft_pkg_iedrpg_2_descr">
+		<text>用于制作RPG弹头IED的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 1x RPG弹药 \n - 铜线 \n - 感应装置 \n \n按顺序添加物品. 然后添加感应装置.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_iedrpg_3_name">
+		<text>手工包: RPG弹头IED (ready)</text>
+	</string>
+	<string id="fieldcraft_pkg_iedrpg_3_descr">
+		<text>用于制作RPG弹头IED的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 1x RPG弹药 \n - 铜线 \n - 感应装置 \n \n准备好制作.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	
+	<string id="fieldcraft_pkg_mine_0_name">
+		<text>手工包: 地雷</text>
+	</string>
+	<string id="fieldcraft_pkg_mine_0_descr">
+		<text>用于制作邻近地雷的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 1x 爆炸手榴弹 / 榴弹发射器弹药\n - 铜线 \n - 塑料件 \n \n按顺序添加物品. 然后添加一颗手榴弹.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_mine_1_name">
+		<text>手工包: 地雷</text>
+	</string>
+	<string id="fieldcraft_pkg_mine_1_descr">
+		<text>用于制作邻近地雷的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 1x 爆炸手榴弹 / 榴弹发射器弹药\n - 铜线 \n - 塑料件 \n \n按顺序添加物品. 然后添加铜线.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_mine_2_name">
+		<text>手工包: 地雷</text>
+	</string>
+	<string id="fieldcraft_pkg_mine_2_descr">
+		<text>用于制作邻近地雷的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 1x 爆炸手榴弹 / 榴弹发射器弹药\n - 铜线 \n - 塑料件 \n \n按顺序添加物品. Add 塑料件 next.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_mine_3_name">
+		<text>手工包: Mine (ready)</text>
+	</string>
+	<string id="fieldcraft_pkg_mine_3_descr">
+		<text>用于制作邻近地雷的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 1x 爆炸手榴弹 / 榴弹发射器弹药\n - 铜线 \n - 塑料件 \n \n准备好制作.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+
+	<string id="fieldcraft_pkg_plate_attch_0_name">
+		<text>手工包: 简易保护板</text>
+	</string>
+	<string id="fieldcraft_pkg_plate_attch_0_descr">
+		<text>用于制作临时保护板的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 2x 金属板\n - 一些螺丝、螺栓 (金属废料) \n - 合成线束 \n - 工具: 锤子 (可重复使用) \n \n按顺序添加物品. 然后添加金属板.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_plate_attch_1_name">
+		<text>手工包: 简易保护板</text>
+	</string>
+	<string id="fieldcraft_pkg_plate_attch_1_descr">
+		<text>用于制作临时保护板的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 2x 金属板\n - 一些螺丝、螺栓 (金属废料) \n - 合成线束 \n - 工具: 锤子 (可重复使用) \n \n按顺序添加物品. 然后添加金属板.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_plate_attch_2_name">
+		<text>手工包: 简易保护板</text>
+	</string>
+	<string id="fieldcraft_pkg_plate_attch_2_descr">
+		<text>用于制作临时保护板的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 2x 金属板\n - 一些螺丝、螺栓 (金属废料) \n - 合成线束 \n - 工具: 锤子 (可重复使用) \n \n按顺序添加物品. 然后添加金属废料.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_plate_attch_3_name">
+		<text>手工包: 简易保护板</text>
+	</string>
+	<string id="fieldcraft_pkg_plate_attch_3_descr">
+		<text>用于制作临时保护板的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 2x 金属板\n - 一些螺丝、螺栓 (金属废料) \n - 合成线束 \n - 工具: 锤子 (可重复使用) \n \n按顺序添加物品. 然后添加合成线束.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_plate_attch_4_name">
+		<text>手工包: 简易保护板</text>
+	</string>
+	<string id="fieldcraft_pkg_plate_attch_4_descr">
+		<text>用于制作临时保护板的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 2x 金属板\n - 一些螺丝、螺栓 (金属废料) \n - 合成线束 \n - 工具: 锤子 (可重复使用) \n \n按顺序添加物品. 然后添加锤子\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_plate_attch_5_name">
+		<text>手工包: 简易保护板 (ready)</text>
+	</string>
+	<string id="fieldcraft_pkg_plate_attch_5_descr">
+		<text>用于制作临时保护板的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 2x 金属板\n - 一些螺丝、螺栓 (金属废料) \n - 合成线束 \n - 工具: 锤子 (可重复使用) \n \n准备好制作.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	
+	<string id="fieldcraft_pkg_army_bowler_0_name">
+		<text>手工包: 军用水壶</text>
+	</string>
+	<string id="fieldcraft_pkg_army_bowler_0_descr">
+		<text>用于制作军用水壶的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 另一个烹饪器材中的锅\n - 金属板\n - 几个螺栓，把手 (金属废料) \n - 铜线 \n - 工具: 锤子 (可重复使用) \n \n按顺序添加物品. 然后添加烹饪器材.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_army_bowler_1_name">
+		<text>手工包: 军用水壶</text>
+	</string>
+	<string id="fieldcraft_pkg_army_bowler_1_descr">
+		<text>用于制作军用水壶的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 另一个烹饪器材中的锅\n - 金属板\n - 几个螺栓，把手 (金属废料) \n - 铜线 \n - 工具: 锤子 (可重复使用) \n \n按顺序添加物品. 然后添加金属板.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_army_bowler_2_name">
+		<text>手工包: 军用水壶</text>
+	</string>
+	<string id="fieldcraft_pkg_army_bowler_2_descr">
+		<text>用于制作军用水壶的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 另一个烹饪器材中的锅\n - 金属板\n - 几个螺栓，把手 (金属废料) \n - 铜线 \n - 工具: 锤子 (可重复使用) \n \n按顺序添加物品. Add 金属废料 next.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_army_bowler_3_name">
+		<text>手工包: 军用水壶</text>
+	</string>
+	<string id="fieldcraft_pkg_army_bowler_3_descr">
+		<text>用于制作军用水壶的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 另一个烹饪器材中的锅\n - 金属板\n - 几个螺栓，把手 (金属废料) \n - 铜线 \n - 工具: 锤子 (可重复使用) \n \n按顺序添加物品. 然后添加铜线.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_army_bowler_4_name">
+		<text>手工包: 军用水壶</text>
+	</string>
+	<string id="fieldcraft_pkg_army_bowler_4_descr">
+		<text>用于制作军用水壶的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 另一个烹饪器材中的锅\n - 金属板\n - 几个螺栓，把手 (金属废料) \n - 铜线 \n - 工具: 锤子 (可重复使用) \n \n按顺序添加物品. 然后添加锤子\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_army_bowler_5_name">
+		<text>手工包: Army kettle (ready)</text>
+	</string>
+	<string id="fieldcraft_pkg_army_bowler_5_descr">
+		<text>用于制作军用水壶的整理好的手工包. 根据生存指南, 你需要收集以下物品:\n - 另一个烹饪器材中的锅\n - 金属板\n - 几个螺栓，把手 (金属废料) \n - 铜线 \n - 工具: 锤子 (可重复使用) \n \n准备好制作.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	
+	
+	<string id="fieldcraft_pkg_toolkit_p_0_name">
+		<text>手工包: 手枪修理包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_p_0_descr">
+		<text>一个精心设计的手枪修理工具包. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 手枪握把 \n - 瑞士刀 \n \n按顺序添加物品. 然后添加擦枪油/溶剂.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_p_1_name">
+		<text>手工包: 手枪修理包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_p_1_descr">
+		<text>一个精心设计的手枪修理工具包. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 手枪握把 \n - 瑞士刀 \n \n按顺序添加物品. 然后添加弹簧.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_p_2_name">
+		<text>手工包: 手枪修理包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_p_2_descr">
+		<text>一个精心设计的手枪修理工具包. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 手枪握把 \n - 瑞士刀 \n \n按顺序添加物品. 然后添加击发机构.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_p_3_name">
+		<text>手工包: 手枪修理包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_p_3_descr">
+		<text>一个精心设计的手枪修理工具包. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 手枪握把 \n - 瑞士刀 \n \n按顺序添加物品. 然后添加合适的清洁套件.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_p_4_name">
+		<text>手工包: 手枪修理包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_p_4_descr">
+		<text>一个精心设计的手枪修理工具包. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 手枪握把 \n - 瑞士刀 \n \n按顺序添加物品. 然后添加手枪握把.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_p_5_name">
+		<text>手工包: 手枪修理包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_p_5_descr">
+		<text>一个精心设计的手枪修理工具包. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 手枪握把 \n - 瑞士刀 \n \n按顺序添加物品. 然后添加一把瑞士刀.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_p_6_name">
+		<text>手工包: 手枪修理工具包(准备就绪)</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_p_6_descr">
+		<text>一个精心设计的手枪修理工具包. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 手枪握把 \n - 瑞士刀 \n \n准备好制作.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	
+	
+	<string id="fieldcraft_pkg_toolkit_s_0_name">
+		<text>手工包: 猎枪修理工具包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_s_0_descr">
+		<text>一个精心设计的工具包, 用来进行猎枪修理. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 步枪枪托 \n - 撬棍 \n - 2x 滑膛枪枪管 \n \n按顺序添加物品. 然后添加擦枪油/溶剂.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_s_1_name">
+		<text>手工包: 猎枪修理工具包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_s_1_descr">
+		<text>一个精心设计的工具包, 用来进行猎枪修理. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 步枪枪托 \n - 撬棍 \n - 2x 滑膛枪枪管 \n \n按顺序添加物品. 然后添加弹簧.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_s_2_name">
+		<text>手工包: 猎枪修理工具包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_s_2_descr">
+		<text>一个精心设计的工具包, 用来进行猎枪修理. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 步枪枪托 \n - 撬棍 \n - 2x 滑膛枪枪管 \n \n按顺序添加物品. 然后添加击发机构.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_s_3_name">
+		<text>手工包: 猎枪修理工具包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_s_3_descr">
+		<text>一个精心设计的工具包, 用来进行猎枪修理. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 步枪枪托 \n - 撬棍 \n - 2x 滑膛枪枪管 \n \n按顺序添加物品. 然后添加合适的清洁套件.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_s_4_name">
+		<text>手工包: 猎枪修理工具包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_s_4_descr">
+		<text>一个精心设计的工具包, 用来进行猎枪修理. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 步枪枪托 \n - 撬棍 \n - 2x 滑膛枪枪管 \n \n按顺序添加物品. 然后添加一把步枪枪托.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_s_5_name">
+		<text>手工包: 猎枪修理工具包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_s_5_descr">
+		<text>一个精心设计的工具包, 用来进行猎枪修理. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 步枪枪托 \n - 撬棍 \n - 2x 滑膛枪枪管 \n \n按顺序添加物品. 然后添加一支撬棍.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_s_6_name">
+		<text>手工包: 猎枪修理工具包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_s_6_descr">
+		<text>一个精心设计的工具包, 用来进行猎枪修理. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 步枪枪托 \n - 撬棍 \n - 2x 滑膛枪枪管 \n \n按顺序添加物品. 然后添加一根滑膛枪枪管.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_s_7_name">
+		<text>手工包: 猎枪修理工具包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_s_7_descr">
+		<text>一个精心设计的工具包, 用来进行猎枪修理. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 步枪枪托 \n - 撬棍 \n - 2x 滑膛枪枪管 \n \n按顺序添加物品. 然后添加一根滑膛枪枪管.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_s_8_name">
+		<text>手工包: 猎枪修理工具包(准备就绪)</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_s_8_descr">
+		<text>一个精心设计的工具包, 用来进行猎枪修理. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 步枪枪托 \n - 撬棍 \n - 2x 滑膛枪枪管 \n \n准备好制作.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	
+	
+	<string id="fieldcraft_pkg_toolkit_r5_0_name">
+		<text>手工包: 小口径步枪修理工具包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_0_descr">
+		<text>一个精心设计的工具包, 用来进行小口径步枪修理. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 枪机框 \n - 步枪枪托 \n - 撬棍 \n - 5.45毫米口径枪管 \n - 5.56毫米口径枪管 \n \n按顺序添加物品. 然后添加擦枪油/溶剂.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_1_name">
+		<text>手工包: 小口径步枪修理工具包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_1_descr">
+		<text>一个精心设计的工具包, 用来进行小口径步枪修理. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 枪机框 \n - 步枪枪托 \n - 撬棍 \n - 5.45毫米口径枪管 \n - 5.56毫米口径枪管 \n \n按顺序添加物品. 然后添加弹簧.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_2_name">
+		<text>手工包: 小口径步枪修理工具包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_2_descr">
+		<text>一个精心设计的工具包, 用来进行小口径步枪修理. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 枪机框 \n - 步枪枪托 \n - 撬棍 \n - 5.45毫米口径枪管 \n - 5.56毫米口径枪管 \n \n按顺序添加物品. 然后添加击发机构.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_3_name">
+		<text>手工包: 小口径步枪修理工具包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_3_descr">
+		<text>一个精心设计的工具包, 用来进行小口径步枪修理. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 枪机框 \n - 步枪枪托 \n - 撬棍 \n - 5.45毫米口径枪管 \n - 5.56毫米口径枪管 \n \n按顺序添加物品. 然后添加合适的清洁套件.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_4_name">
+		<text>手工包: 小口径步枪修理工具包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_4_descr">
+		<text>一个精心设计的工具包, 用来进行小口径步枪修理. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 枪机框 \n - 步枪枪托 \n - 撬棍 \n - 5.45毫米口径枪管 \n - 5.56毫米口径枪管 \n \n按顺序添加物品. 然后添加一个枪机框.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_5_name">
+		<text>手工包: 小口径步枪修理工具包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_5_descr">
+		<text>一个精心设计的工具包, 用来进行小口径步枪修理. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 枪机框 \n - 步枪枪托 \n - 撬棍 \n - 5.45毫米口径枪管 \n - 5.56毫米口径枪管 \n \n按顺序添加物品. 然后添加一把步枪枪托.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_6_name">
+		<text>手工包: 小口径步枪修理工具包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_6_descr">
+		<text>一个精心设计的工具包, 用来进行小口径步枪修理. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 枪机框 \n - 步枪枪托 \n - 撬棍 \n - 5.45毫米口径枪管 \n - 5.56毫米口径枪管 \n \n按顺序添加物品. 然后添加一支撬棍.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_7_name">
+		<text>手工包: 小口径步枪修理工具包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_7_descr">
+		<text>一个精心设计的工具包, 用来进行小口径步枪修理. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 枪机框 \n - 步枪枪托 \n - 撬棍 \n - 5.45毫米口径枪管 \n - 5.56毫米口径枪管 \n \n按顺序添加物品. 然后添加一根5.45毫米口径枪管.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_8_name">
+		<text>手工包: 小口径步枪修理工具包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_8_descr">
+		<text>一个精心设计的工具包, 用来进行小口径步枪修理. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 枪机框 \n - 步枪枪托 \n - 撬棍 \n - 5.45毫米口径枪管 \n - 5.56毫米口径枪管 \n \n按顺序添加物品. 然后添加一根5.56毫米口径枪管.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_9_name">
+		<text>手工包: 小口径步枪修理工具包(准备就绪)</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r5_9_descr">
+		<text>一个精心设计的工具包, 用来进行小口径步枪修理. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 枪机框 \n - 步枪枪托 \n - 撬棍 \n - 5.45毫米口径枪管 \n - 5.56毫米口径枪管 \n \n准备好制作.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	
+	
+	<string id="fieldcraft_pkg_toolkit_r7_0_name">
+		<text>手工包: 中大口径步枪固定套件</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_0_descr">
+		<text>一个精心设计的用来制作中大口径步枪固定套件的工具包. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 枪机框 \n - 步枪枪托 \n - 撬棍 \n - 7.62毫米口径枪管 \n - 7.92毫米口径枪管 \n - 9毫米口径枪管 \n \n按顺序添加物品. 然后添加擦枪油/溶剂.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_1_name">
+		<text>手工包: 中大口径步枪固定套件</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_1_descr">
+		<text>一个精心设计的用来制作中大口径步枪固定套件的工具包. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 枪机框 \n - 步枪枪托 \n - 撬棍 \n - 7.62毫米口径枪管 \n - 7.92毫米口径枪管 \n - 9毫米口径枪管 \n \n按顺序添加物品. 然后添加弹簧.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_2_name">
+		<text>手工包: 中大口径步枪固定套件</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_2_descr">
+		<text>一个精心设计的用来制作中大口径步枪固定套件的工具包. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 枪机框 \n - 步枪枪托 \n - 撬棍 \n - 7.62毫米口径枪管 \n - 7.92毫米口径枪管 \n - 9毫米口径枪管 \n \n按顺序添加物品. 然后添加击发机构.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_3_name">
+		<text>手工包: 中大口径步枪固定套件</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_3_descr">
+		<text>一个精心设计的用来制作中大口径步枪固定套件的工具包. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 枪机框 \n - 步枪枪托 \n - 撬棍 \n - 7.62毫米口径枪管 \n - 7.92毫米口径枪管 \n - 9毫米口径枪管 \n \n按顺序添加物品. 然后添加合适的清洁套件.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_4_name">
+		<text>手工包: 中大口径步枪固定套件</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_4_descr">
+		<text>一个精心设计的用来制作中大口径步枪固定套件的工具包. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 枪机框 \n - 步枪枪托 \n - 撬棍 \n - 7.62毫米口径枪管 \n - 7.92毫米口径枪管 \n - 9毫米口径枪管 \n \n按顺序添加物品. 然后添加一个枪机框.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_5_name">
+		<text>手工包: 中大口径步枪固定套件</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_5_descr">
+		<text>一个精心设计的用来制作中大口径步枪固定套件的工具包. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 枪机框 \n - 步枪枪托 \n - 撬棍 \n - 7.62毫米口径枪管 \n - 7.92毫米口径枪管 \n - 9毫米口径枪管 \n \n按顺序添加物品. 然后添加一把步枪枪托.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_6_name">
+		<text>手工包: 中大口径步枪固定套件</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_6_descr">
+		<text>一个精心设计的用来制作中大口径步枪固定套件的工具包. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 枪机框 \n - 步枪枪托 \n - 撬棍 \n - 7.62毫米口径枪管 \n - 7.92毫米口径枪管 \n - 9毫米口径枪管 \n \n按顺序添加物品. 然后添加一支撬棍.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_7_name">
+		<text>手工包: 中大口径步枪固定套件</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_7_descr">
+		<text>一个精心设计的用来制作中大口径步枪固定套件的工具包. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 枪机框 \n - 步枪枪托 \n - 撬棍 \n - 7.62毫米口径枪管 \n - 7.92毫米口径枪管 \n - 9毫米口径枪管 \n \n按顺序添加物品. 然后添加一根7.62毫米口径枪管.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_8_name">
+		<text>手工包: 中大口径步枪固定套件</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_8_descr">
+		<text>一个精心设计的用来制作中大口径步枪固定套件的工具包. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 枪机框 \n - 步枪枪托 \n - 撬棍 \n - 7.62毫米口径枪管 \n - 7.92毫米口径枪管 \n - 9毫米口径枪管 \n \n按顺序添加物品. 然后添加一根7.92毫米口径枪管.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_9_name">
+		<text>手工包: 中大口径步枪固定套件</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_9_descr">
+		<text>一个精心设计的用来制作中大口径步枪固定套件的工具包. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 枪机框 \n - 步枪枪托 \n - 撬棍 \n - 7.62毫米口径枪管 \n - 7.92毫米口径枪管 \n - 9毫米口径枪管 \n \n按顺序添加物品. 然后添加一根9毫米口径枪管.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_10_name">
+		<text>手工包: 中大口径步枪固定套件 (准备就绪)</text>
+	</string>
+	<string id="fieldcraft_pkg_toolkit_r7_10_descr">
+		<text>一个精心设计的用来制作中大口径步枪固定套件的工具包. 根据生存指南, 你需要收集以下物品:\n - 擦枪油/溶剂\n - 弹簧\n - 击发机构\n - 合适的清洁套件 \n - 枪机框 \n - 步枪枪托 \n - 撬棍 \n - 7.62毫米口径枪管 \n - 7.92毫米口径枪管 \n - 9毫米口径枪管 \n \n准备好制作.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 手工包</text>
+	</string>
+	
+	<string id="fieldcraft_plate_attch_name">
+		<text>Improvised protective plate</text>
+	</string>
+	<string id="fieldcraft_plate_attch_descr">
+		<text>一种临时的防护板, 由从装甲背心中取出的两块金属板组成.它具有各种各样的功能, 其中最重要的是吸收火器弹丸的冲击.使用附加的合成束带, 它可以绑在躯干的前面或后面.它的防护能力有限, 是一种廉价但较弱的凯夫拉或钢板替代品. 此外, 任何类型的装甲板也有助于保持良好的状态, 防止在穿着时磨损退化.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 简易军事装备\n%c[d_cyan] • %c[ui_gray_2] 具有多重有效性. 各个模块可堆叠嵌套使用\n%c[d_orange] • %c[ui_gray_2] 可用于:%c[ui_gray_1] 成套装备维修 (+9%)</text>
+	</string>
+	<string id="syringe_empty_name">
+		<text>空注射器</text>
+	</string>
+	<string id="syringe_empty_descr">
+		<text>在临床医学中, 注射器经常用于注射、向血液中注入静脉治疗、涂抹胶水或润滑剂等化合物以及抽取/测量液体. 这个注射器以前用过, 桶内还有几滴残留液体可见. 应该在再次使用前消毒.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 医疗用品\n%c[d_orange] • %c[ui_gray_2] 可用于:%c[ui_gray_1] 手工制作的 (医疗针)</text>
+	</string>
+	<string id="dis_metalplate_name">
+		<text>金属板</text>
+	</string>
+	<string id="dis_metalplate_descr">
+		<text>从某个装甲装备的保护层中撕下的一块磨损的坚固金属片. 仍可用于维修或制造其他设备.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 日用品\n%c[d_orange] • %c[ui_gray_2] 可用于:%c[ui_gray_1] 成套装备维修 (+5%)</text>
+	</string>
+	<string id="dis_scrap_name">
+		<text>各种金属废料</text>
+	</string>
+	<string id="dis_scrap_descr">
+		<text>一把金属螺栓、螺丝等等零碎的设备. 可以用来在野外或徒手的条件下修理装备.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 日用品\n%c[d_orange] • %c[ui_gray_2] 可用于:%c[ui_gray_1] 成套装备维修, 武器维护保养 (+3%)</text>
+	</string>
+	<string id="st_copper_wire_name">
+		<text>铜线</text>
+	</string>
+	<string id="st_copper_wire_descr">
+		<text>一把没有涂层的实心铜线, 是从某些设备或电气设备中直接拽出来的. 可能仍然有别的用处.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 科技物品 \n%c[d_orange] • %c[ui_gray_2] 可用于:%c[ui_gray_1] 成套装备维修 (+4%)</text>
+	</string>
+	<string id="st_synth_harness_name">
+		<text>合成束带</text>
+	</string>
+	<string id="st_synth_harness_descr">
+		<text>一种临时的合成扎带, 系在一起, 用来固定其他物品.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 科技物品</text>
+	</string>
+	<string id="st_proxim_device_name">
+		<text>感应装置</text>
+	</string>
+	<string id="st_proxim_device_descr">
+		<text>从人造物探测器取出的实用的近距离传感器. 可用于设置各种爆炸物.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 科技物品</text>
+	</string>
+	<string id="st_cloth_strip">
+		<text>布条</text>
+	</string>
+	<string id="st_cloth_strip_descr">
+		<text>从衬衫或者床单或某种织物上剪下来的布. 可用于辅助清洁齿轮. 尺寸大到足以用作绷带, 但使用前可能首先应该消毒.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 日用品\n%c[d_orange] • %c[ui_gray_2] 可用于:%c[ui_gray_1] 成套装备维修, 武器维护保养 (+1%)</text>
+	</string>
+	<string id="st_shotgunbarrelw">
+		<text>滑膛枪枪管 (磨损)</text>
+	</string>
+	<string id="st_shotgunbarrelw_descr">
+		<text>12毫米口径猎枪上磨损的滑膛枪枪管. 它可以用来替换不同猎枪的枪管, 但你最好先把它清理干净.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 军用品\n%c[d_orange] • %c[ui_gray_2] 可用于:%c[ui_gray_1] 武器维护保养 (+10%)</text>
+	</string>
+	<string id="st_shotgunbarrelr">
+		<text>滑膛枪枪管 (生锈)</text>
+	</string>
+	<string id="st_shotgunbarrelr_descr">
+		<text>一根12毫米口径猎枪上生锈的滑膛枪枪管. 在它当前的状态下是毫无价值的, 但是你也许可以清理它.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 军用品\n%c[d_orange]</text>
+	</string>
+	<string id="st_762_barrel">
+		<text>7.62毫米口径枪管</text>
+	</string>
+	<string id="st_762_barrel_descr">
+		<text>苏联武器的枪管, 使用直径7.62毫米的子弹. 它仍处于相当不错的状态, 可以用来代替相似类型的枪的枪管.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 军用品\n%c[d_orange] • %c[ui_gray_2] 可用于:%c[ui_gray_1] 武器维护保养 (+20%)</text>
+	</string>
+	<string id="st_762_barrelw">
+		<text>7.62毫米口径枪管 (磨损)</text>
+	</string>
+	<string id="st_762_barrelw_descr">
+		<text>一种苏联武器的磨损的枪管, 使用7.62毫米口径的弹药. 它可以用来替换另一支步枪的枪管, 但你最好先把它清理干净.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 军用品\n%c[d_orange] • %c[ui_gray_2] 可用于:%c[ui_gray_1] 武器维护保养 (+10%)</text>
+	</string>
+	<string id="st_762_barrelr">
+		<text>7.62毫米口径枪管 (生锈)</text>
+	</string>
+	<string id="st_762_barrelr_descr">
+		<text>一支7.62毫米口径步枪的生锈枪管. 在它当前的状态下毫无价值, 但是你也许可以清理它.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 军用品\n%c[d_orange]</text>
+	</string>
+	<string id="st_545_barrel">
+	<text>5.45毫米口径枪管</text>
+	</string>
+	<string id="st_545_barrel_descr">
+		<text>某种武器的枪管, 使用5.45毫米口径的子弹. 它仍处于相当不错的状态, 可以用来代替相似类型的枪的枪管.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 军用品\n%c[d_orange] • %c[ui_gray_2] 可用于:%c[ui_gray_1] 武器维护保养 (+20%)</text>
+	</string>
+	<string id="st_545_barrelw">
+		<text>5.45毫米口径枪管 (磨损)</text>
+	</string>
+	<string id="st_545_barrelw_descr">
+		<text>某种武器的磨损的枪管, 使用5.45毫米口径的弹药. 它可以用来替换另一支步枪的枪管, 但你最好先把它清理干净.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 军用品\n%c[d_orange] • %c[ui_gray_2] 可用于:%c[ui_gray_1] 武器维护保养 (+10%)</text>
+	</string>
+	<string id="st_545_barrelr">
+		<text>5.45毫米口径枪管 (生锈)</text>
+	</string>
+	<string id="st_545_barrelr_descr">
+		<text>一根5.45毫米口径步枪的生锈枪管. 在它当前的状态下毫无价值, 但是你也许可以清理它.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 军用品\n%c[d_orange]</text>
+	</string>
+		<string id="st_556_barrel">
+		<text>5.56毫米口径枪管</text>
+	</string>
+	<string id="st_556_barrel_descr">
+		<text>某种武器的枪管, 使用5.56毫米口径的子弹. 它仍处于相当不错的状态, 可以用来代替相似类型的枪的枪管.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 军用品\n%c[d_orange] • %c[ui_gray_2] 可用于:%c[ui_gray_1] 武器维护保养 (+20%)</text>
+	</string>
+	<string id="st_556_barrelw">
+		<text>5.56毫米口径枪管 (磨损)</text>
+	</string>
+	<string id="st_556_barrelw_descr">
+		<text>某种武器的枪管, 使用5.56毫米口径的子弹. 它仍处于相当不错的状态, 可以用来代替相似类型的枪的枪管.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 军用品\n%c[d_orange] • %c[ui_gray_2] 可用于:%c[ui_gray_1] 武器维护保养 (+10%)</text>
+	</string>
+	<string id="st_556_barrelr">
+		<text>5.56毫米口径枪管 (生锈)</text>
+	</string>
+	<string id="st_556_barrelr_descr">
+		<text>一根5.56毫米口径步枪的生锈枪管. 在它当前的状态下毫无价值, 但是你也许可以清理它.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 军用品\n%c[d_orange]</text>
+	</string>
+	<string id="st_9x_barrel">
+		<text>9毫米口径枪管</text>
+	</string>
+	<string id="st_9x_barrel_descr">
+		<text>某种武器的枪管, 使用9毫米口径的子弹. 它仍处于相当不错的状态, 可以用来代替相似类型的枪的枪管.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 军用品\n%c[d_orange] • %c[ui_gray_2] 可用于:%c[ui_gray_1] 武器维护保养 (+20%)</text>
+	</string>
+	<string id="st_9x_barrelw">
+		<text>9毫米口径枪管 (磨损)</text>
+	</string>
+	<string id="st_9x_barrelw_descr">
+		<text>某种武器的磨损的枪管, 使用9毫米口径的弹药. 它可以用来替换另一支步枪的枪管, 但你最好先把它清理干净.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 军用品\n%c[d_orange] • %c[ui_gray_2] 可用于:%c[ui_gray_1] 武器维护保养 (+10%)</text>
+	</string>
+	<string id="st_792_barrel">
+		<text>7.92毫米口径枪管</text>
+	</string>
+	<string id="st_792_barrel_descr">
+		<text>一种武器的枪管, 使用7.92毫米口径的子弹. 它仍处于相当不错的状态, 可以用来代替相似类型的枪的枪管.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 军用品\n%c[d_orange] • %c[ui_gray_2] 可用于:%c[ui_gray_1] 武器维护保养 (+20%)</text>
+	</string>
+	<string id="st_792_barrelw">
+		<text>7.92毫米口径枪管 (磨损)</text>
+	</string>
+	<string id="st_792_barrelw_descr">
+		<text>一种武器的磨损的枪管, 使用7.92毫米口径的弹药. 它可以用来替换另一支步枪的枪管, 但你最好先把它清理干净.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 军用品\n%c[d_orange] • %c[ui_gray_2] 可用于:%c[ui_gray_1] 武器维护保养 (+10%)</text>
+	</string>
+	<string id="st_stock">
+		<text>步枪枪托</text>
+	</string>
+	<string id="st_stock_descr">
+		<text>来自于步枪或猎枪的枪托和套件. 可以用来翻新武器.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 军用品\n%c[d_orange] • %c[ui_gray_2] 可用于:%c[ui_gray_1] 武器维护保养 (+6%)</text>
+	</string>
+	<string id="st_shotgunbarrel">
+		<text>滑膛枪管</text>
+	</string>
+	<string id="st_shotgunbarrel_descr">
+		<text>12毫米口径猎枪的滑膛枪管. 它的状况仍然相当不错, 可以用来替换其他猎枪的枪管.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 军用品\n%c[d_orange] • %c[ui_gray_2] 可用于:%c[ui_gray_1] 武器维护保养 (+20%)</text>
+	</string>
+	<string id="st_trigger">
+		<text>击发机构</text>
+	</string>
+	<string id="st_trigger_descr">
+		<text>来自未知枪支的击发机构和组件. 大多数触发机制都是非常相似的, 有理由调低要求来适应几乎任何武器.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 军用品\n%c[d_orange] • %c[ui_gray_2] 可用于:%c[ui_gray_1] 武器维护保养 (+5%)</text>
+	</string>
+	<string id="st_triggerrusty">
+		<text>击发机构 (生锈)</text>
+	</string>
+	<string id="st_triggerrusty_descr">
+		<text>一个来自于未知枪支的锈迹斑斑的击发机构和组件. 在目前的条件下毫无价值, 但通过使用一些溶剂或油, 可以再次制成可用的触发器组件.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 军用品\n%c[d_orange]</text>
+	</string>
+	<string id="st_spspring">
+		<text>弹簧</text>
+	</string>
+	<string id="st_spspring_descr">
+		<text>在一个未知的火器的触发器组件或内部工作的小弹簧. 几乎可以用来替换任何其他小弹簧.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 军用品\n%c[d_orange] • %c[ui_gray_2] 可用于:%c[ui_gray_1] 武器维护保养 (+2%)</text>
+	</string>
+	<string id="st_pistolgrip">
+		<text>手枪握把</text>
+	</string>
+	<string id="st_pistolgrip_descr">
+		<text>某种来自于未知武器的手枪握把. 这种橡胶手柄可能是塑型或者锻造的, 以用来适合几乎任何火器.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 军用品\n%c[d_orange] • %c[ui_gray_2] 可用于:%c[ui_gray_1] 武器维护保养 (+6%)</text>
+	</string>
+	<string id="st_boltcarrier">
+		<text>枪机框</text>
+	</string>
+	<string id="st_boltcarrier_descr">
+		<text>一把不明来复枪的枪托和撞针. 它太大了以至于无法适用于任何使用手枪口径子弹的武器, 但在几乎任何类型的步枪中, 可能有助于更换损坏的撞针或枪栓. 如果位置向下降低一些, 它甚至可以用来安装某些冲锋枪.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 军用品\n%c[d_orange] • %c[ui_gray_2] 可用于:%c[ui_gray_1] 武器维护保养 (+8%)</text>
+	</string>
+	<string id="st_boltcarrierrusty">
+		<text>枪机框 (生锈)</text>
+	</string>
+	<string id="st_boltcarrierrusty_descr">
+		<text>一把未知来复枪上生锈的枪托和撞针. 它太大了以至于无法适用于任何使用手枪口径子弹的武器, 但如果你能清理干净的话, 可以用来替换几乎任何类型步枪中损坏的撞针或枪栓. 如果位置向下降低一些, 它甚至可以用来安装某些冲锋枪.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] military item</text>
+	</string>
+	<string id="st_barrelkit_762">
+		<text>枪管替换工具 (7.62毫米)</text>
+	</string>
+	<string id="st_barrelkit_762_descr">
+		<text>这是一个专门的套件, 用于在野外更换各种步枪的枪管. 包括各种尺寸的内六角扳手和一些基本校准工具. 这种专用的套件可用于枪管直径为7.62毫米的武器.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 军用品\n%c[d_orange] • %c[ui_gray_2] 可用于:%c[ui_gray_1] 武器修理\n%c[d_orange] • %c[ui_gray_2] 低于状态水平不可用 %c[ui_gray_1] 45%</text>
+	</string>
+	<string id="st_barrelkit_545">
+		<text>枪管替换工具 (5.45毫米)</text>
+	</string>
+	<string id="st_barrelkit_545_descr">
+		<text>这是一个专门的套件, 用于在野外更换各种步枪的枪管. 包括各种尺寸的内六角扳手和一些基本校准工具. 这种专用的套件可用于枪管直径为5.45毫米的武器.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 军用品\n%c[d_orange] • %c[ui_gray_2] 可用于:%c[ui_gray_1] 武器修理\n%c[d_orange] • %c[ui_gray_2] 低于状态水平不可用 %c[ui_gray_1] 45%</text>
+	</string>
+		<string id="st_barrelkit_556">
+		<text>枪管替换工具 (5.56毫米)</text>
+	</string>
+	<string id="st_barrelkit_556_descr">
+		<text>这是一个专门的套件, 用于在野外更换各种步枪的枪管. 包括各种尺寸的内六角扳手和一些基本校准工具. 这种专用的套件可用于枪管直径为5.56毫米的武器.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 军用品\n%c[d_orange] • %c[ui_gray_2] 可用于:%c[ui_gray_1] 武器修理\n%c[d_orange] • %c[ui_gray_2] 低于状态水平不可用 %c[ui_gray_1] 45%</text>
+	</string>
+		<string id="st_barrelkit_9x">
+		<text>枪管替换工具 (9毫米)</text>
+	</string>
+	<string id="st_barrelkit_9x_descr">
+		<text>这是一个专门的套件, 用于在野外更换各种步枪的枪管. 包括各种尺寸的内六角扳手和一些基本校准工具. 这个专用的套件可以用于那些罕见的使用直径为9毫米枪管的步枪.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 军用品\n%c[d_orange] • %c[ui_gray_2] 可用于:%c[ui_gray_1] 武器修理\n%c[d_orange] • %c[ui_gray_2] 低于状态水平不可用 %c[ui_gray_1] 45%</text>
+	</string>
+		<string id="st_barrelkit_792">
+		<text>枪管替换工具 (7.92毫米)</text>
+	</string>
+	<string id="st_barrelkit_792_descr">
+		<text>这是一个专门的套件, 用于在野外更换各种步枪的枪管. 包括各种尺寸的内六角扳手和一些基本校准工具. 这种专用的套件可用于枪管直径为7.92毫米的武器.\n \n%c[ui_gray_2]属性:\n%c[d_cyan] • %c[ui_gray_2] 军用品\n%c[d_orange] • %c[ui_gray_2] 可用于:%c[ui_gray_1] 武器修理\n%c[d_orange] • %c[ui_gray_2] 低于状态水平不可用 %c[ui_gray_1] 45%</text>
+	</string>
+</string_table>
+
+-->

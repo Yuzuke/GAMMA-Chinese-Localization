@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<string_table>
+	
+	<string id="st_achievement_1_name">
+		<text>土豪</text>
+	</string>
+	<string id="st_achievement_1_hint">
+		<text>商人们都乐于向你兜售更高级的装备,即使你与他们所属阵营的关系还没那么好.</text>
+	</string>
+	<string id="st_achievement_1_descr">
+		<text>腰缠万贯的你已成为特异区交易商口中的传奇人物. 他们渴望您的惠顾, 他们会向你提供最好的商品, 无论你在派系中的地位如何.</text>
+	</string>
+	<string id="st_achievement_1_unlock">
+		<text>你已经解锁了"土豪"成就.</text>
+	</string>
+	
+	<string id="st_achievement_2_name">
+		<text>风暴洗礼</text>
+	</string>
+	<string id="st_achievement_2_hint">
+		<text>当核能风暴或心灵风暴来临时, 即便没有庇护所你也会有几率幸存.</text>
+	</string>
+	<string id="st_achievement_2_descr">
+		<text>奇怪的是, 你的精神似乎受到了风暴的影响. 让你不再担心核能风暴或心灵风暴的来袭. 实际上, 当风暴来临时, 你反而会感到心神宁静.</text>
+	</string>
+	<string id="st_achievement_2_unlock">
+		<text>你已经解锁了"风暴洗礼"成就.</text>
+	</string>
+	
+	<string id="st_achievement_3_name">
+		<text>信息商</text>
+	</string>
+	<string id="st_achievement_3_hint">
+		<text>交易商现在将为你卖给他们的任何PDA支付额外小费.</text>
+	</string>
+	<string id="st_achievement_3_descr">
+		<text>无论是买还是卖, 对于许多人来说, 信息与神器一值钱. 多亏你老练的贩卖经验, 现在你可以从信息交易中获得更多卢布.</text>
+	</string>
+	<string id="st_achievement_3_unlock">
+		<text>你已经解锁了"信息商"成就.</text>
+	</string>
+	
+	<string id="st_achievement_4_name">
+		<text>啄木鸟雷达清理者</text>
+	</string>
+	<string id="st_achievement_4_hint">
+		<text>潜行者更有可能穿过杨塔和雷达, 这可能会增加他们在北部地区的数量.</text>
+	</string>
+	<string id="st_achievement_4_descr">
+		<text>在看到那些变成僵尸的鲁莽者后, 你选择了关闭一些腐朽的科学项目. 由于生物场发射器和焦脑器失效了, 通过杨塔和雷达的路径比以往任何时候都更容易到达.</text>
+	</string>
+	<string id="st_achievement_4_unlock">
+		<text>你已经解锁了"啄木鸟雷达清理者"成就.</text>
+	</string>
+	
+	<string id="st_achievement_5_name">
+		<text>庖丁宰牛</text>
+	</string>
+	<string id="st_achievement_5_hint">
+		<text>你搜集变异生物肢体的速度更快了.</text>
+	</string>
+	<string id="st_achievement_5_descr">
+		<text>毫无疑问, 特异区的生物们视你为瘟神 - 因为你那沾满鲜血的双手. 掌握熟练的收割技巧可以提高效率, 而你正在不断进步.</text>
+	</string>
+	<string id="st_achievement_5_unlock">
+		<text>你已经解锁了"庖丁宰牛"成就.</text>
+	</string>
+	
+	<string id="st_achievement_6_name">
+		<text>给钱或丢命</text>
+	</string>
+	<string id="st_achievement_6_hint">
+		<text>投降的潜行者可能会供出额外藏匿点.</text>
+	</string>
+	<string id="st_achievement_6_descr">
+		<text>你走过的路遍布弹壳和尸体. 凶神恶煞的你使敌人知道你不太好惹. 那些从你枪口下幸存的人愿意舍弃家当换取苟活的机会.</text>
+	</string>
+	<string id="st_achievement_6_unlock">
+		<text>你已经解锁了"给钱或丢命"成就.</text>
+	</string>
+	
+	<string id="st_achievement_7_name">
+		<text>机械化战争</text>
+	</string>
+	<string id="st_achievement_7_hint">
+		<text>维修时使用的道具效果会增强.</text>
+	</string>
+	<string id="st_achievement_7_descr">
+		<text>为了报答你的勤勉协助, 你所帮助的技师决定教你点维修的手艺, 你可以自己进行高效率的维修了.</text>
+	</string>
+	<string id="st_achievement_7_unlock">
+		<text>你已经解锁了"机械化战争"成就.</text>
+	</string>
+	
+	<string id="st_achievement_8_name">
+		<text>旅行家</text>
+	</string>
+	<string id="st_achievement_8_hint">
+		<text>你对特异区的了如指掌使你可以推断出一些藏匿点的位置.</text>
+	</string>
+	<string id="st_achievement_8_descr">
+		<text>尽管危险重重, 你还是探索了特异区的每一个角落. 从大沼泽的阴暗芦苇丛到卡车公墓的废铁迷宫... 你对特异区真是了如指掌.</text>
+	</string>
+	<string id="st_achievement_8_unlock">
+		<text>你已经解锁了"旅行家"成就.</text>
+	</string>
+	
+	<string id="st_achievement_9_name">
+		<text>拾荒者</text>
+	</string>
+	<string id="st_achievement_9_hint">
+		<text>当搜索藏匿点时, 你偶尔会发现更多的战利品.</text>
+	</string>
+	<string id="st_achievement_9_descr">
+		<text>别人的东西都会是你的, 你觉得自己掌握了寻找藏匿点的诀窍. 尽管藏匿点是从死者身上得知的, 但你觉得自己总是很幸运.</text>
+	</string>
+	<string id="st_achievement_9_unlock">
+		<text>你已经解锁了"拾荒者"成就.</text>
+	</string>
+	
+	<string id="st_achievement_10_name">
+		<text>完美主义</text>
+	</string>
+	<string id="st_achievement_10_hint">
+		<text>所有成就都被解锁了.</text>
+	</string>
+	<string id="st_achievement_10_descr">
+		<text>所有成就已被解锁. 你比特异区还了解特异区. 尽管仍然危险重重, 但你始终保持着不败的传奇.</text>
+	</string>
+	<string id="st_achievement_10_unlock">
+		<text>你已经解锁了"完美主义"成就.</text>
+	</string>
+	
+	<string id="st_achievement_11_name">
+		<text>痴心妄想</text>
+	</string>
+	<string id="st_achievement_11_hint">
+		<text>你已经解锁新的可玩阵营: 反叛者.</text>
+	</string>
+	<string id="st_achievement_11_descr">
+		<text>你不惜一切代价从特异区最老的潜行者那里获取秘密信息. 当你怀疑他是否向你透露了全部真相时, 你在追求知识的过程中所取得的成就是不可否认的.</text>
+	</string>
+	<string id="st_achievement_11_unlock">
+		<text>你已经解锁了"痴心妄想"成就.</text>
+	</string>
+	
+	<string id="st_achievement_12_name">
+		<text>脚踏实地</text>
+	</string>
+	<string id="st_achievement_12_hint">
+		<text>米-2武装直升机将会取代米-24武装直升机.</text>
+	</string>
+	<string id="st_achievement_12_descr">
+		<text>米-24直升机飞起来一架摔一架. 敌人不想浪费这些昂贵的大鸟了, 特异区的巡逻直升机换成了米-2老式直升机. 但它们同样不好惹.</text>
+	</string>
+	<string id="st_achievement_12_unlock">
+		<text>你已经解锁了"脚踏实地"成就.</text>
+	</string>
+	
+	<string id="st_achievement_13_name">
+		<text>地质学家</text>
+	</string>
+	<string id="st_achievement_13_hint">
+		<text>风暴后发现神器的几率更大.</text>
+	</string>
+	<string id="st_achievement_13_descr">
+		<text>嗡嗡, 噗噗, 呼呼 - 特异区的变异点吓不到你了. 经过了大量努力之后, 你注意到神器似乎比以往任何时候都多.</text>
+	</string>
+	<string id="st_achievement_13_unlock">
+		<text>你已经解锁了"地质学家"成就.</text>
+	</string>
+	
+	<string id="st_achievement_14_name">
+		<text>领袖</text>
+	</string>
+	<string id="st_achievement_14_hint">
+		<text>你可以让更多潜行者加入你的队伍.</text>
+	</string>
+	<string id="st_achievement_14_descr">
+		<text>你在特异区的经历已成为传奇. 现在, 丰富的经验与能力将赋予你自信和领导才能. 无论是有意还是无意地, 你都知道如何让他人与你同甘共苦, 同生共死.</text>
+	</string>
+	<string id="st_achievement_14_unlock">
+		<text>你已经解锁了"领袖"成就.</text>
+	</string>
+	
+	<string id="st_achievement_15_name">
+		<text>书虫</text>
+	</string>
+	<string id="st_achievement_15_hint">
+		<text>普通U盘现在会被稀有的PDA取代.</text>
+	</string>
+	<string id="st_achievement_15_descr">
+		<text>通过你自己的努力或学习其他人的经历, 你学到了许多关于特异区的知识. 也许你应该考虑分享一些知识?</text>
+	</string>
+	<string id="st_achievement_15_unlock">
+		<text>你已经解锁了"书虫"成就.</text>
+	</string>
+	
+	<string id="st_achievement_16_name">
+		<text>小孩的快乐</text>
+	</string>
+	<string id="st_achievement_16_hint">
+		<text>翻箱倒柜时有更高的几率找到好东西.</text>
+	</string>
+	<string id="st_achievement_16_descr">
+		<text>储藏箱现在在你的到来时颤抖, 因为成百上千的箱子在你的手中被打碎了. 从那以后, 你就把箱子砸成一种艺术形式, 而且把里面的东西的损坏程度降到最小.</text>
+	</string>
+	<string id="st_achievement_16_unlock">
+		<text>你已经解锁了"小孩的快乐"成就.</text>
+	</string>
+	
+	<string id="st_achievement_17_name">
+		<text>废物利用</text>
+	</string>
+	<string id="st_achievement_17_hint">
+		<text>你拆掉的每件物品几乎没有浪费掉的玩意儿.</text>
+	</string>
+	<string id="st_achievement_17_descr">
+		<text>相信每个部分都很重要, 你会忍不住把垃圾分解成更有用的部分. 经过多次经验你变得更精确了. 不浪费, 不愁缺.</text>
+	</string>
+	<string id="st_achievement_17_unlock">
+		<text>你已经解锁了"废物利用"成就.</text>
+	</string>
+	
+	<string id="st_achievement_18_name">
+		<text>能工巧匠</text>
+	</string>
+	<string id="st_achievement_18_hint">
+		<text>自制道具时可以少用一点材料.</text>
+	</string>
+	<string id="st_achievement_18_descr">
+		<text>打造自己的装备一直是允许的, 但现在你在这方面的经验增加让你能够更有效地使用你的组件.</text>
+	</string>
+	<string id="st_achievement_18_unlock">
+		<text>你已经解锁了"能工巧匠"成就.</text>
+	</string>
+	
+	<string id="st_achievement_19_name">
+		<text>伪装大师</text>
+	</string>
+	<string id="st_achievement_19_hint">
+		<text>你伪装时敌人不太容易看出破绽.</text>
+	</string>
+	<string id="st_achievement_19_descr">
+		<text>介于你高超的伪装技巧, 你简直穿什么像什么. 因此, 你甚至可以站在敌人面前撅屁股, 因为他们多疑的眼睛看不出你有什么破绽.</text>
+	</string>
+	<string id="st_achievement_19_unlock">
+		<text>你已经解锁了"伪装大师"成就.</text>
+	</string>
+	
+	<string id="st_achievement_20_name">
+		<text>赦免者</text>
+	</string>
+	<string id="st_achievement_20_hint">
+		<text>你已经解锁新的可玩阵营: 原罪.</text>
+	</string>
+	<string id="st_achievement_20_descr">
+		<text>当原罪的暗黑潜行者看着这丑恶人世的黎明时, 你与他们并肩而立, 给这个世界一个自行解决的机会, 而无需动用"智域".</text>
+	</string>
+	<string id="st_achievement_20_unlock">
+		<text>你已经解锁了"赦免者"成就.</text>
+	</string>
+	
+	<string id="st_achievement_21_name">
+		<text>合作者</text>
+	</string>
+	<string id="st_achievement_21_hint">
+		<text>你已经解锁新的可玩阵营: UNISG.</text>
+	</string>
+	<string id="st_achievement_21_descr">
+		<text>无论前路如何, 你都坚持走自己的路. 很难判断你是对还是错... 但你还是做到了. 有人猜你应该为此感到感激.</text>
+	</string>
+	<string id="st_achievement_21_unlock">
+		<text>你已经解锁了"合作者"成就.</text>
+	</string>
+	
+	<string id="st_achievement_22_name">
+		<text>铁幕崛起</text>
+	</string>
+	<string id="st_achievement_22_hint">
+		<text>你已获得50,000 RU的奖励, 因为你对自身派系的战事作出了卓越贡献.</text>
+	</string>
+	<string id="st_achievement_22_descr">
+		<text>你的派系已成为特异区的强大势力, 一些较小的团体甚至将其视作地头蛇. 你的派系很快就会获得更多的资源.</text>
+	</string>
+	<string id="st_achievement_22_unlock">
+		<text>你已经解锁了"铁幕崛起"成就.</text>
+	</string>
+	
+	<string id="st_achievement_23_name">
+		<text>幽灵</text>
+	</string>
+	<string id="st_achievement_23_hint">
+		<text>你的等级大大的提高了.</text>
+	</string>
+	<string id="st_achievement_23_descr">
+		<text>你经历了无数险境, 同样的险境足以使大多数潜行者死好几次. 一些潜行者开始怀疑你是不是无敌的.</text>
+	</string>
+	<string id="st_achievement_23_unlock">
+		<text>你已经解锁了"幽灵"成就.</text>
+	</string>
+	
+	<string id="st_achievement_24_name">
+		<text>势不可挡</text>
+	</string>
+	<string id="st_achievement_24_hint">
+		<text>现在, 你可以截图并向好友吹牛.</text>
+	</string>
+	<string id="st_achievement_24_descr">
+		<text>尽管在你的道路上经历了许多坎坷, 但你已经证明了自己巨大的成功. 很明显, 特异区内还没有你的对手, 并且也许是时候 -也许是带着苦难- 去挑战茫茫的未来.</text>
+	</string>
+	<string id="st_achievement_24_unlock">
+		<text>你已经解锁了"势不可挡"成就.</text>
+	</string>
+	
+</string_table>

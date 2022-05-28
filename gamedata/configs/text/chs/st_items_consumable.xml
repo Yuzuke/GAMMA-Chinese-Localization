@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+	Consumable Items (Alcohol + Food + Smoke)
+-->
+
+<string_table>
+
+<!--< ALCOHOL >-->
+	<string id="st_vodka">
+		<text>内米洛夫伏特加</text>
+	</string>
+	<string id="st_vodka_descr">
+		<text>内米洛夫是乌克兰的酒精饮料生产商. 专门生产伏特加和其他烈酒. 其总部位于文尼茨卡的内米洛夫镇. 这是特异区乃至世界上最好的伏特加酒之一.\n \n
+		%c[ui_gray_3]提示:\n \n
+		%c[ui_gray_1]杨塔的生态学家的厨子热爱这种伏特加. 据说他很乐于地把武器装备走私给潜行者, 仅仅是为了换一瓶伏特加痛饮一杯, 但这种说法尚未得到证实.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 饮品\n
+		%c[d_blue] • %c[ui_gray_2] 刺激性\n
+		%c[d_red] • %c[ui_gray_2] 烈酒\n
+		</text>
+	</string>
+	
+	<string id="st_vodka2">
+		<text>普京伏特加</text>
+	</string>
+	<string id="st_vodka2_descr">
+		<text>遵循俄罗斯总统为伏特加品牌命名的传统. 普京牌伏特加在弗拉基米尔·普京当选总统后首次投产. 使用西伯利亚最优质的谷物和最清澈的水制造. 三重净化, 口感绵柔, 独特的味道不仅仅是这种伏特加的唯一亮点.另外请适度饮酒.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 饮品\n
+		%c[d_blue] • %c[ui_gray_2] 刺激性\n
+		%c[d_red] • %c[ui_gray_2] 烈酒\n
+		</text>
+	</string>
+	
+	<string id="st_vodka_quality">
+		<text>斯通尼奇纳亚伏特加</text>
+	</string>
+	<string id="st_vodka_quality_descr">
+		<text>这种伏特加在俄罗斯和世界上广受欢迎. 优质的俄罗斯伏特加. 在特异区中非常受欢迎. 并且因交易商的走私活动而广泛流通. 为了避免被驻扎在特异区的军队检查到. 通常将其装在军用容器或金属桶中. 然后再分装到坚固的金属瓶中.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 刺激性\n
+		%c[d_red] • %c[ui_gray_2] 烈酒\n
+		%c[d_blue] • %c[ui_gray_2] 上等货\n
+		</text>
+	</string>
+	
+		<string id="st_beer">
+		<text>乌克兰啤酒</text>
+	</string>
+	<string id="st_beer_descr">
+		<text>乌克兰啤酒. 继伏特加后又一种在特异区极受欢迎的饮料.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 饮品\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_blue] • %c[ui_gray_2] 刺激性\n
+		%c[d_red] • %c[ui_gray_2] 低度酒\n
+		%c[d_blue] • %c[ui_gray_2] 干净营养来源\n
+		%c[d_blue] • %c[ui_gray_2] 上等货\n
+		</text>
+	</string>
+	
+	<string id="st_bottle_metal">
+		<text>土产伏特加</text>
+	</string>
+	<string id="st_bottle_metal_descr">
+		<text>金属瓶子. 里面好像装了些特异区土产的伏特加. 闻起来不对劲.有油烟味.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 刺激性\n
+		%c[d_red] • %c[ui_gray_2] 高度劣酒\n
+		</text>
+	</string>
+	
+<!--< FOOD >-->
+	<string id="st_energy_drink">
+		<text>强劲能量饮料</text>
+	</string>
+	<string id="st_energy_drink_descr">
+		<text>潜行者经常在长途旅行中喝几罐. 因为它有强劲的兴奋效果. 如果你喝醉了. 这种饮料还能让你醒酒. 并促使肾上腺素释放到血液中. 但别过量饮用.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 饮品\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_blue] • %c[ui_gray_2] 刺激性\n
+		%c[d_blue] • %c[ui_gray_2] 强力醒酒效果\n
+		%c[d_blue] • %c[ui_gray_2] 干净营养来源\n
+		</text>
+	</string>
+	
+	<string id="st_flask">
+		<text>纯净水</text>
+	</string>
+	<string id="st_flask_descr">
+		<text>军用水壶装了点水. 由医生或科学家调制. 下面是制作方法: 首先, 将水与特殊类型的酒精混合, 然后在高温下煮沸以进行净化和消毒. 之后将其放在冰箱中冷却, 由于高温煮沸最终得到的是完全不含辐射的水. 如果你仍然对它的纯度有疑问, 可以随时使用试剂检测, 医生也会出售纯净水, 但它们的价格略高一些, 因为作为容器的军用水壶数量有限, 而且还包括运输成本.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 饮品\n
+		%c[d_blue] • %c[ui_gray_2] 干净营养来源\n
+		</text>
+	</string>
+		
+	<string id="st_kolbasa">
+		<text>变质肉卷</text>
+	</string>
+	<string id="st_kolbasa_descr">
+		<text>一个包装着陈面包和臭肉的牛皮纸包裹. 外观和气味表明它霉了.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_red] • %c[ui_gray_2] 劣质货\n</text>
+	</string>
+	
+	<string id="st_tea">
+		<text>大胡子的茶</text>
+	</string>
+	<string id="st_tea_descr">
+		<text>大胡子发明的热茶. 由糖, 可食用的干蘑菇和开水的混合物制成. 据说没辐射. 买得起它的潜行者经常会在特异区长途旅行. 当你感到疲倦或在寒冷的夜晚外出探索时, 这是一种放松的好方法.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 饮品\n
+		%c[d_blue] • %c[ui_gray_2] 强力醒酒效果\n
+		%c[d_blue] • %c[ui_gray_2] 干净营养来源\n
+		</text>
+	</string>
+	
+	<string id="st_tomato">
+		<text>番茄罐头</text>
+	</string>
+	<string id="st_tomato_descr">
+		<text>装有切片或切丁的番茄罐头. 定期走私进特异区. 底部的生产日期表明它们仍然新鲜.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 食物\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_blue] • %c[ui_gray_2] 干净营养来源\n
+		</text>
+	</string>
+	
+	<string id="st_sausage">
+		<text>熏肠</text>
+	</string>
+	<string id="st_sausage_descr">
+		<text>由牛肉和猪肉熏制制成. 真空包装, 可以长期保存. 这种特别的食物是从俄罗斯进口的. 因其独特的风味和口感在某些俄罗斯黑手党领袖中享有盛名.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 食物\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_blue] • %c[ui_gray_2] 干净营养来源\n
+		</text>
+	</string>
+	
+	<string id="st_corn">
+		<text>玉米罐头
+	       </text>
+	</string>
+	<string id="st_corn_descr">
+		<text>从外界进口的甜玉米罐头. 可以直接食用, 但有些人用它来做汤.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 食物\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_blue] • %c[ui_gray_2] 干净营养来源\n
+		</text>
+	</string>
+	
+	<string id="st_beans">
+		<text>焗豆罐头</text>
+	</string>
+	<string id="st_beans_descr">
+		<text>从西方走私来的罐装烤豆. 这些番茄酱里的美味烤豆可能会给某些人留下美好的印象.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 食物\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_blue] • %c[ui_gray_2] 干净营养来源\n
+		</text>
+	</string>
+	
+	<string id="st_chili">
+		<text>辣豆罐头</text>
+	</string>
+	<string id="st_chili_descr">
+		<text>从西方走私来的罐装辣味豆. 可以作为特异区某些菜肴的配料, 很受欢迎.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 食物\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_blue] • %c[ui_gray_2] 干净营养来源\n
+		</text>
+	</string>
+	
+	<string id="st_conserva">
+		<text>金枪鱼罐头</text>
+	</string>
+	<string id="st_conserva_descr">
+		<text>锡罐底部的保质期表明你别指望它能好吃.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 食物\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_blue] • %c[ui_gray_2] 干净营养来源\n
+		</text>
+	</string>
+	
+	<string id="st_tushonka">
+		<text>阿巴坎牛肉土双卡</text>
+	</string>
+	<string id="st_tushonka_descr">
+		<text>土双卡是苏联和其他华约组织国家/地区生产的罐装炖荤菜的通用名称. 具有讽刺意味的是, 这种菜肴最初是二战时美国进行物资援助时传入苏联的. 从那时起, 各种各样的土双卡已经成为长期保存肉类的主要方式, 既在民间流传, 又被用作红军的定量配给粮. 土双卡的有效期很长, 营养价值也高(主要是由于脂肪含量高), 并因相对较好的口味而闻名.特异区内已经有了数百种不同口味的土桑卡. 在2013年春, 阿巴坎牌牛肉土双卡无疑是当之无愧的王者, 然而特异区的食物情况可没那么好.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 食物\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_blue] • %c[ui_gray_2] 干净营养来源\n
+		</text>
+	</string>
+	
+	<string id="st_salmon">
+		<text>烟熏三文鱼
+		</text>
+	</string>
+	<string id="st_salmon_descr">
+		<text>乌克兰烟熏三文鱼, 一旦走私进特异区, 这东西就会被转手以高价出售. 价格不菲.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 食物\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_blue] • %c[ui_gray_2] 上等货\n
+		%c[d_blue] • %c[ui_gray_2] 干净营养来源\n
+		</text>
+	</string>
+	
+	<string id="st_raisins">
+		<text>葡萄干</text>
+	</string>
+	<string id="st_raisins_descr">
+		<text>一包葡萄干. 营养很丰富, 可以维持血液中的糖分.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 食物\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_blue] • %c[ui_gray_2] 干净营养来源\n
+		</text>
+	</string>
+	
+	<string id="st_chocolate">
+		<text>俄罗斯巧克力</text>
+	</string>
+	<string id="st_chocolate_descr">
+		<text>俄罗斯巧克力. 在特异区中很罕见, 它的味道没什么特别的, 但很值钱. 令人回想起美好的童年, 这可能有助于缓解在特异区严酷无情的条件下生活的苦闷.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 食物\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_blue] • %c[ui_gray_2] 上等货\n
+		%c[d_blue] • %c[ui_gray_2] 值钱\n
+		%c[d_blue] • %c[ui_gray_2] 干净营养来源\n
+		</text>
+	</string>
+	
+    <string id="st_chocolate_p">
+		<text>俄罗斯巧克力(啃过的)</text>
+	</string>
+    <string id="st_chocolate_p_descr">
+		<text>俄罗斯巧克力. 在特异区中很罕见, 它的味道没什么特别的, 但很值钱. 令人回想起美好的童年, 这可能有助于缓解在特异区严酷无情的条件下生活的苦闷.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 食物\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_blue] • %c[ui_gray_2] 上等货\n
+		%c[d_blue] • %c[ui_gray_2] 值钱\n
+		%c[d_blue] • %c[ui_gray_2] 干净营养来源\n
+		</text>
+	</string>
+	
+	<string id="st_mint">
+		<text>埃尔托伊斯</text>
+	</string>
+	<string id="st_mint_descr">
+		<text>美国产的名牌薄荷糖. 具有清新效果, 并能清除口腔中的辐射颗粒. 它们还可以在短时间内减轻困倦. 你一次最多只能吃10颗薄荷糖, 因为你嘴塞不下.\n \n
+		%c[ui_gray_3]属性:\n
+		</text>
+	</string>
+	
+	<string id="st_nuts">
+		<text>混装坚果</text>
+	</string>
+	<string id="st_nuts_descr">
+		<text>花生, 榛子, 腰果和杏仁都有, 非常受欢迎. 营养价值很高,从南非进口的.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 食物\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_blue] • %c[ui_gray_2] 上等货\n
+		%c[d_blue] • %c[ui_gray_2] 干净营养来源\n
+		</text>
+	</string>
+	
+	<string id="st_mineral_water">
+		<text>矿泉水</text>
+	</string>
+	<string id="st_mineral_water_descr">
+		<text>从乌克兰温泉采集的矿泉水. 含碳酸和矿物质.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 饮品\n
+		%c[d_blue] • %c[ui_gray_2] 上等货\n
+		%c[d_blue] • %c[ui_gray_2] 轻微醒酒效果\n
+		%c[d_blue] • %c[ui_gray_2] 干净营养来源\n
+		</text>
+	</string>
+	
+	<string id="st_mre">
+		<text>MRE即食军粮</text>
+	</string>
+	<string id="st_mre_descr">
+		<text>即食食品(通常称为MRE)是一种采取独立的轻量化包装的野战配给粮, 由军方为部队开发, 以便在野外作战时能吃顿饱饭. 一小包是一餐的分量. MRE的包装可以承受恶劣的条件. 包含一道主菜以及各种小食和饮料. 虽然可以冷食, 但使用附带的无焰加热器(FRH, 一种由水激活的发热装置, 会发热)加热时, 味道通常会好得多.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 军用口粮\n\n
+		%c[d_blue] • %c[ui_gray_2] 上等货\n
+		%c[d_blue] • %c[ui_gray_2] 干净营养来源\n
+		%c[d_blue] • %c[ui_gray_2] 一包3份.总共1398大卡\n
+		</text>
+	</string>
+	
+	<string id="st_ration_ru">
+		<text>俄罗斯IRP-B作战配给粮
+		</text>
+	</string>
+	<string id="st_ration_ru_descr">
+		<text>早餐, 中餐和晚餐都装在这个包里. 包括各种食品, 其功能是为身体提供至关重要的矿物质和微量元素, 以及加热设备(小型金属燃烧台, 燃料片, 火柴, 针)和其他便于在野外使用的物品(例如餐巾). 带有一个饭盒, 可以保护成分免受有害环境的影响. 饭盒分为三个部分, 分别用于早餐, 中餐和晚餐.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 军用口粮\n
+		%c[d_blue] • %c[ui_gray_2] 干净营养来源\n
+		%c[d_blue] • %c[ui_gray_2] 一包7份.总共3661大卡\n
+		</text>
+	</string>
+	
+	<string id="st_ration_ukr">
+		<text>乌克兰战斗口粮
+		</text>
+	</string>
+	<string id="st_ration_ukr_descr">
+		<text>这种乌克兰战斗口粮是基于俄罗斯的版本开发的, 内含市场上常见的罐头和干粮, 它们装在由非常薄的绿色塑料制成的分段盒(类似于外卖盘)中. 包含为健康的成年人提供一天所需的所有卡路里和矿物质的所有必需品.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 军用口粮\n
+		%c[d_blue] • %c[ui_gray_2] 干净营养来源\n
+		%c[d_blue] • %c[ui_gray_2] 一包6份.总共3186大卡\n
+		</text>
+	</string>
+	
+	<string id="st_bread">
+		<text>面包</text>
+	</string>
+	<string id="st_bread_descr">
+		<text>由明眼居住在特异区外的妻子烤好的面包. 这是明眼在开展他的业务之前开始销售的第一种商品. 如今, 他作为中介向酒保提供这种精致的面包. 他还有自己的事业要操心, 因此他没时间去亲自卖那些面包.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 食物\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_blue] • %c[ui_gray_2] 干净营养来源\n
+		</text>
+	</string>
+	
+	<string id="st_breadold">
+		<text>面包渣</text>
+	</string>
+	<string id="st_breadold_descr">
+		<text>这是在"伟大国度"烤的面包屑.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 食物\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_blue] • %c[ui_gray_2] 干净营养来源\n
+		</text>
+	</string>
+	
+	<string id="st_protein">
+		<text>巧克力蛋白棒</text>
+	</string>
+	<string id="st_protein_descr">
+		<text>这根棒棒为人体提供需要的蛋白质和糖, 可让人活力焕发. 在长途旅行中吃几根很有用.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 食物\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_blue] • %c[ui_gray_2] 干净营养来源\n
+		%c[d_blue] • %c[ui_gray_2] 上等货\n
+		</text>
+	</string>
+	
+	<string id="st_water_drink">
+		<text>苏打水</text>
+	</string>
+	<string id="st_water_drink_descr">
+		<text>解渴苏打水. 可以缓解疲惫.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 饮品\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_blue] • %c[ui_gray_2] 轻微醒酒效果\n
+		%c[d_blue] • %c[ui_gray_2] 干净营养来源\n
+		</text>
+	</string>
+	
+	<string id="st_drink_crow">
+		<text>喙</text>
+	</string>
+	<string id="st_drink_crow_descr">
+		<text>"喙"是由特异区土产的伏特加和乌鸦的喙磨粉混合成的饮品. 并不是每只乌鸦喙都可以作为原料, 只有在特异区生活了15年以上的雄性黑色乌鸦才能充分变异. 有传言说, 这种喙含有一种丰富的蛋白质, 可以在一定程度上清除体内的辐射. 甚至有人说喝"喙"会让你在几秒内感觉长了翅膀. 然而它的味道本身很糟糕.\n
+		</text>
+	</string>
+	
+<!--< SMOKE >-->
+	<string id="st_cuban_cigar">
+		<text>古巴雪茄</text>
+	</string>
+	<string id="st_cuban_cigar_descr">
+		<text>这种珍贵的古巴雪茄可以带给你短暂的愉快, 尤其是当你欣赏美丽的日落时. 一些潜行者发现抽烟可以驱蚊. 古巴雪茄被认为是世界上的顶级雪茄. 这是稀有商品.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 刺激性\n
+		%c[d_blue] • %c[ui_gray_2] 进口货\n
+		%c[d_blue] • %c[ui_gray_2] 上等货\n
+		%c[d_blue] • %c[ui_gray_2] 值钱\n
+		%c[d_blue] • %c[ui_gray_2] 强力醒酒效果\n
+		</text>
+	</string>
+	
+	<string id="st_cigarettes_lucky">
+		<text>好彩牌香烟</text>
+	</string>
+	<string id="st_cigarettes_lucky_descr">
+		<text>从西方走私来的经典香烟. 一些潜行者用这些东西为派系换来了点弹药.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 刺激性\n
+		%c[d_blue] • %c[ui_gray_2] 上等货\n
+		%c[d_blue] • %c[ui_gray_2] 轻微醒酒效果\n
+		</text>
+	</string>
+	
+	<string id="st_cigarettes_russian">
+		<text>俄罗斯牌卷烟</text>
+	</string>
+	<string id="st_cigarettes_russian_descr">
+		<text>特异区最便宜的香烟. 俄罗斯廉价品牌.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 刺激性\n
+		%c[d_red] • %c[ui_gray_2] 劣质货\n
+		%c[d_blue] • %c[ui_gray_2] 轻微醒酒效果\n
+		</text>
+	</string>
+	
+	<string id="st_cigar1">
+		<text>苏维埃牌香烟</text>
+	</string>
+	<string id="st_cigar1_descr">
+		<text>一包廉价, 劲大但质量很差的香烟. 由于只剩下几根, 所以一定有人抽过了. "真正"的苏联风味尽在其中.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 刺激性\n
+		%c[d_blue] • %c[ui_gray_2] 轻微醒酒效果\n
+		</text>
+	</string>
+	
+	<string id="st_cigar2">
+		<text>苏维埃牌香烟</text>
+	</string>
+	<string id="st_cigar2_descr">
+		<text>一包廉价, 劲大但质量很差的香烟. 由于只剩下几根, 所以一定有人抽过了. "真正"的苏联风味尽在其中.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 刺激性\n
+		%c[d_blue] • %c[ui_gray_2] 轻微醒酒效果\n
+		</text>
+	</string>
+	
+	<string id="st_cigar3">
+		<text>苏维埃牌香烟</text>
+	</string>
+	<string id="st_cigar3_descr">
+		<text>一包廉价, 劲大但质量很差的香烟. 由于只剩下几根, 所以一定有人抽过了. "真正"的苏联风味尽在其中.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 刺激性\n
+		%c[d_blue] • %c[ui_gray_2] 轻微醒酒效果\n
+		</text>
+	</string>
+	
+	<string id="st_hand_rolling_tobacco">
+		<text>手卷烟</text>
+	</string>
+	<string id="st_hand_rolling_tobacco_descr">
+		<text>从西方走私来的珍贵手卷烟. 没有其他成分, 你可以享受烟叶本身的原始味道.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 刺激性\n
+		%c[d_red] • %c[ui_gray_2] 缓慢使用(要先卷烟)\n
+		%c[d_blue] • %c[ui_gray_2] 强力醒酒效果\n
+		%c[d_blue] • %c[ui_gray_2] 上等货\n
+		</text>
+	</string>
+	
+	<string id="st_cigarettes">
+		<text>万宝路香烟</text>
+	</string>
+	<string id="st_cigarettes_descr">
+		<text>从西方走私来的香烟. 由于只剩下几根, 所以一定有人抽过了. 仅抽一根就能可以稳定你的精神状态, 并可以稍微缓解饥饿感. 它们在特异区中很少见, 价格高昂.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 刺激性\n
+		%c[d_blue] • %c[ui_gray_2] 轻微醒酒效果\n
+		</text>
+	</string>
+	
+	<string id="st_tobacco">
+		<text>俄罗斯烟叶</text>
+	</string>
+	<string id="st_tobacco_descr">
+		<text>卷烟在特异区中价格昂贵且稀有, 拥有未加工的烟草使你能够以低成本自制香烟. 罐子是密封的, 能让烟草根据存放条件保存几天或几周.\n \n
+		%c[ui_gray_3]属性:\n
+		%c[d_blue] • %c[ui_gray_2] 刺激性\n
+		%c[d_red] • %c[ui_gray_2] 缓慢使用(要先卷烟)\n
+		%c[d_blue] • %c[ui_gray_2] 强力醒酒效果\n
+		%c[d_red] • %c[ui_gray_2] 劣质货\n
+		</text>
+	</string>
+	
+	<!-- unused -->
+	<!--
+	<string id="st_vodka_1_radiated">
+		<text>普京伏特加 (辐射过)</text>
+	</string>
+	<string id="st_beer_large_1_radiated">
+		<text>日古列夫斯科耶啤酒 (辐射过)</text>
+	</string>
+	<string id="st_beer_large_2_radiated">
+		<text>奥彻科沃啤酒 (辐射过)</text>
+	</string>
+	<string id="st_beer_1_radiated">
+		<text>巴尔迪卡 #3啤酒 (辐射过)</text>
+	</string>
+	<string id="st_beer_2_radiated">
+		<text>斯拉夫奇上等啤酒 (辐射过)</text>
+	</string>
+	<string id="st_beer_can_1_radiated">
+		<text>皮城啤酒 (辐射过)</text>
+	</string>
+	<string id="st_beer_can_2_radiated">
+		<text>喜力啤酒 (辐射过)</text>
+	</string>
+	<string id="st_water_large_1_radiated">
+		<text>纳诺奇矿泉水 (辐射过)</text>
+	</string>
+	<string id="st_water_large_2_radiated">
+		<text>莱纳德矿泉水 (辐射过)</text>
+	</string>
+	<string id="st_water_can_1_radiated">
+		<text>纯净水 (辐射过)</text>
+	</string>
+	<string id="st_water_can_2_radiated">
+		<text>矿泉水 (辐射过)</text>
+	</string>
+	<string id="st_cocacola_radiated">
+		<text>可口可乐 (辐射过)</text>
+	</string>
+	<string id="st_redbull_radiated">
+		<text>红牛能量饮料</text>
+	</string>
+	<string id="st_guru_radiated">
+		<text>GURU能量饮料 (辐射过)</text>
+	</string>
+	<string id="st_marlboro_radiated">
+		<text>万宝路香烟 (辐射过)</text>
+	</string>
+	<string id="st_lucky_radiated">
+		<text>好彩牌香烟 (辐射过)</text>
+	</string>
+	<string id="st_cuban_radiated">
+		<text>古巴雪茄 (辐射过)</text>
+	</string>
+	<string id="st_cigarettes_1_radiated">
+		<text>古巴雪茄 (辐射过)</text>
+	</string>
+	<string id="st_wild_drink_radiated">
+		<text>特异区土产酒 (辐射过)</text>
+	</string>
+	<string id="st_kolbasa_smoked_radiated">
+		<text>烟熏香肠 (辐射过)</text>
+	</string>
+	<string id="st_beanz_radiated">
+		<text>焗豆罐头 (辐射过)</text>
+	</string>
+	<string id="st_tomatoes_radiated">
+		<text>番茄罐头 (辐射过)</text>
+	</string>
+	<string id="st_chocolatebar_radiated">
+		<text>巧克力蛋白棒 (辐射过)</text>
+	</string>
+	<string id="st_snickers_radiated">
+		<text>士力架 (辐射过)</text>
+	</string>
+	<string id="st_mars_radiated">
+		<text>Mars巧克力 (辐射过)</text>
+	</string>
+	<string id="st_nuts_2_radiated">
+		<text>混合干果 (辐射过)</text>
+	</string>
+	<string id="st_beef_radiated">
+		<text>土双卡 (辐射过)</text>
+	</string>
+	<string id="st_bullheads_radiated">
+		<text>意大利面和肉丸 (辐射过)</text>
+	</string>
+	<string id="st_sardina_radiated">
+		<text>"海盗"沙丁鱼 (辐射过)</text>
+	</string>
+	<string id="st_olivki_radiated">
+		<text>橄榄 (辐射过)</text>
+	</string>
+	<string id="st_cheese_radiated">
+		<text>杨塔牌加工奶酪 (辐射过)</text>
+	</string>
+	<string id="st_galet_radiated">
+		<text>饼干 (辐射过)</text>
+	</string>
+	<string id="st_shokolad_radiated">
+		<text>"Aljinushka" 巧克力 (辐射过)</text>
+	</string>
+	<string id="st_batonchik_radiated">
+		<text>巧克力棒 (辐射过)</text>
+	</string>
+	<string id="st_jerky_radiated">
+		<text>牛肉干 (辐射过)</text>
+	</string>
+	<string id="st_chips_radiated">
+		<text>薯片 (辐射过)</text>
+	</string>
+	<string id="st_hash_radiated">
+		<text>芝士烤饼 (辐射过)</text>
+	</string>
+	<string id="st_cpcb_radiated">
+		<text>咸饼干 (辐射过)</text>
+	</string>
+	<string id="st_juice_radiated">
+		<text>橙汁 (辐射过)</text>
+	</string>
+	<string id="st_mre_1_3_radiated">
+		<text>军队MRE (辐射过)</text>
+	</string>
+	<string id="st_mre_1_2_radiated">
+		<text>军队MRE (辐射过)</text>
+	</string>
+	<string id="st_mre_1_1_radiated">
+		<text>军队MRE (辐射过)</text>
+	</string>
+	<string id="st_bandage_israeli_radiated">
+		<text>绷带 (辐射过)</text>
+	</string>
+	<string id="st_amphetamines_4_radiated">
+		<text>安非他命 (辐射过)</text>
+	</string>
+	<string id="st_amphetamines_3_radiated">
+		<text>安非他命 (辐射过)</text>
+	</string>
+	<string id="st_amphetamines_2_radiated">
+		<text>安非他命 (辐射过)</text>
+	</string>
+	<string id="st_amphetamines_1_radiated">
+		<text>安非他命 (辐射过)</text>
+	</string>
+	<string id="st_diazepam_radiated">
+		<text>安定 (辐射过)</text>
+	</string>
+	<string id="st_psy_complex_radiated">
+		<text>精神错乱药物 (辐射过)</text>
+	</string>
+	<string id="st_bio_bandage_radiated">
+		<text>特殊绷带 (辐射过)</text>
+	</string>
+	<string id="st_drug_engine_radiated">
+		<text>抗致幻剂 (辐射过)</text>
+	</string>
+	<string id="st_drug_cat_eye_radiated">
+		<text>猫眼 (辐射过)</text>
+	</string>
+	<string id="st_medo_radiated">
+		<text>私酿酒 (辐射过)</text>
+	</string>
+	<string id="st_mbk_radiated">
+		<text>咖啡因药片 (辐射过)</text>
+	</string>
+	<string id="st_medkit_elite_radiated">
+		<text>精英医疗包 (辐射过)</text>
+	</string>
+	<string id="st_bag_medkit_1_radiated">
+		<text>基本医疗包 (辐射过)</text>
+	</string>
+	<string id="st_bag_medkit_2_radiated">
+		<text>军队医疗包 (辐射过)</text>
+	</string>
+	<string id="st_bag_medkit_3_radiated">
+		<text>科学医疗包 (辐射过)</text>
+	</string>
+	<string id="st_bag_medkit_4_radiated">
+		<text>特殊医疗包 (辐射过)</text>
+	</string>
+	-->
+</string_table>

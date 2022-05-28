@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<string_table>
+
+ <!-- Dusman (Mercenary Leader) -->
+ 	<string id="find_blackbox_mlr_reward_killer_0">
+		<text>杜什曼, 看这个, 我找到了一个飞行记录器. 我猜里面的信息能让你花一大笔钱买到.</text>
+	</string>
+	<string id="find_blackbox_mlr_reward_killer_1">
+		<text>军用的? 很好. 你得到的这玩意事实上是个不错的发明 - 我会用钱来和你交换它的.</text>
+	</string>
+
+
+<!-- (Mercenary Guide) -->
+	<string id="meet_ds_killer_guide_main_base_0">
+		<text>我怎么离开这里?</text>
+	</string>
+	<string id="meet_ds_killer_guide_main_base_1">
+		<text>这个地方危险的要命, 但还好我们还有下水道网络. 向导可以把你带离这个城市前往我们的分基地, 它坐落在河湾南部.</text>
+	</string>
+
+	<string id="meet_ds_killer_guide_main_base_list_0">
+		<text>提醒下我, 我能去哪里?</text>
+	</string>
+	<string id="meet_ds_killer_guide_main_base_list_1">
+		<text>你唯一的去处就是河湾的垃圾处理厂. 需要花费你8000卢布.</text>
+	</string>
+	
+	<string id="travel_ds_killer_guide_main_base_0">
+		<text>我想离开这个城市.</text>
+	</string>
+	<string id="travel_ds_killer_guide_main_base_1">
+		<text>你确定吗? 我们唯一的选择只有北方 - 我们将抵达河湾的垃圾处理站. 收8000卢布.</text>
+	</string>
+	<string id="travel_ds_killer_guide_main_base_2">
+		<text>我准备好了, 让我们起身去河湾吧. %c[d_orange][8000 RU]</text>
+	</string>
+	<string id="travel_ds_killer_guide_main_base_3">
+		<text>我改变主意了.</text>
+	</string>
+	
+	
+ <!-- Aslan (Mercenary Barman) -->
+	<string id="talk_to_aslan_on_main_base_merk_0">
+		<text>说说你自己吧.</text>
+	</string>
+	<string id="talk_to_aslan_on_main_base_merk_1"> <!-- Fixed -->
+		<text>有什么可说的? 我是这里的酒保 - 但是何必说这些垃圾呢, 对吧? 我们被困在这里好几天了, 勉强维持着生活. 那时我参加了总统府的保卫工作, 后来移居瑞士. 接着我来了特异区. 我就喜欢和狐朋狗友们去酒吧, 大杯畅饮, 然后谈论过去的时代... 就在这么一次拜访中我被邀请到了财团并且占有一席之地. 但并没有坚持下来, 所以杜什曼和我都是这方面的先驱. 但那又怎样呢? 这种地方显然是最合适不过了, 这里有人已经去过阿富汗和格鲁吉亚. 反倒是波罗的海国家的人不那么急于来, 更别提第一世界国家的人了.</text>
+	</string>
+
+
+	<string id="talk_to_aslan_about_lottery_0">
+		<text>听说你对派系臂章有兴趣.</text>
+	</string>
+	<string id="talk_to_aslan_about_lottery_1">
+		<text>我该怎么说呢? 就我个人而言, 并不是的, "没有兴趣" - 不过, 由于最近士气低落, 这便成了领取战利品的最好方法. 所以, 大佬们想要它们. 和你说一下吧: 你带来一些潜行者的臂章, 你会获得一些装备或者啥也没有 - 有时托盘肯定是空的, 对吧? 25个任意派系的臂章, 除了科学家和黑石之外你就有可能获得一个垃圾的神器或者什么都没有. 50个臂章, 你就有可能拿到一件像样的神器或是不错的装备, 但也有可能一无所获. 然后25个黑石或是科学家的臂章,你得到一个不错的神器的机会和之前提到的50个的情况相同. 50个黑石或是科学家的臂章的话你肯定会得到一件出色的神器或是精良的装备, 这些东西只提供给有资格用它的潜行者, 没有失败的可能. 你也许会问, "为什么这么慷慨?"... 因为许多人把臂章撕下来作为胜利的证明.</text>
+	</string>
+	<string id="talk_to_aslan_about_lottery_2">
+		<text>你呢? 你拿它们来做什么?</text>
+	</string>
+	<string id="talk_to_aslan_about_lottery_3">
+		<text>这就和你无关了. 只要给我臂章, 然后期待好东西的到来. 就如同买彩票一样.</text>
+	</string>
+
+	<string id="lottery_ds_aslan_mlr_0">
+		<text>我有一些臂章.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_1">
+		<text>不错, 哪种呢?</text>
+	</string>
+		<string id="lottery_ds_aslan_mlr_2">
+			<text>晴空, 25个臂章.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_3">
+			<text>自由团, 25个臂章.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_4">
+			<text>独行者, 25个臂章.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_5">
+			<text>科学家, 25个臂章.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_6">
+			<text>强盗, 25个臂章.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_7">
+			<text>纪律团, 25个臂章.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_8">
+			<text>黑石, 25个臂章.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_9">
+			<text>军方, 25个臂章.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_11">
+			<text>晴空, 50个臂章.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_12">
+			<text>自由团, 50个臂章.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_13">
+			<text>独行者, 50个臂章.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_14">
+			<text>科学家. 足足50个臂章.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_15">
+			<text>强盗, 50个臂章.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_16">
+			<text>纪律团, 50个臂章.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_17">
+			<text>黑石, 50个臂章.</text>
+		</string>
+		<string id="lottery_ds_aslan_mlr_18">
+			<text>军方, 50个臂章.</text>
+		</string>
+	<string id="lottery_ds_aslan_mlr_10">
+		<text>我改变主意了.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_19">
+		<text>这里, 收好你的神器.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_20">
+		<text>这里.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_21">
+		<text>这里, 拿走吧.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_22">
+		<text>这是你的神器.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_23">
+		<text>今晚有人很幸运啊.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_24">
+		<text>你得到一份不错的礼物.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_25">
+		<text>这是个不错的神器.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_26">
+		<text>你真幸运! 这个是一个带点辐射的玩意.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_27">
+		<text>一个漂亮的神器. 干得好.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_28">
+		<text>两个神器! 你真幸运.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_29">
+		<text>这是头奖!</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_30">
+		<text>你太幸运了.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_31">
+		<text>一套为神器猎人准备的工具!</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_34">
+		<text>一个稀有而出色的神器.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_35">
+		<text>干, 你太幸运了!</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_36">
+		<text>头奖!</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_37">
+		<text>唉, 你啥也没得到.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_38">
+		<text>哎呀! 脸太黑了吧! 下次好运.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_39">
+		<text>下次好运吧.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_40">
+		<text>为优秀射手而准备的装备.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_41">
+		<text>远程攻击的理想选择.</text>
+	</string>
+
+	<string id="aslan_st_0">
+		<text>现在是什么情况?</text>
+	</string>
+	<string id="aslan_st_1">
+		<text>好吧, 财团在特异区只有一个中央基地, 就在这里. 由于焦脑器的缘故通往杨塔的路被切断了, 并且时不时的往这边冒出僵尸和变异生物. 利曼斯克更是一团糟 - 一个充满了危险的迷宫. 红森林就更危险了, 黑石一屁股坐在了通往利曼斯克的桥上, 其他地方就爬满了怪物. 军方仓库就在东边, 那里全部是自由团的地盘.</text>
+	</string>
+	<string id="aslan_st_2">
+		<text>继续.</text>
+	</string>
+	<string id="aslan_st_3">
+		<text>至于危险, 你自己会慢慢体会到的. 在你执行命令时, 你是有工作要做的, 所以任何多余的情绪都会分散你的注意力. 抛开那些东西... 不要留下情感,抛开所有的道德 - 只剩下你的智慧和衡量. 至于其他的路子, 最安全的便是经过利曼斯克. 封闭的空间可以让你避开狙击火力, 并且有让你远离变异点和交火的庇护所. 你可以躲起来, 但是这里永远是那么不可捉摸 - 你永远也不知道角落里藏着什么.</text>
+	</string>
+	<string id="aslan_st_4">
+		<text>你说这里是中心. 是否意味着有其他的前哨?</text>
+	</string>
+	<string id="aslan_st_5">
+		<text>我所知有两个小的. 一个在河湾, 北部沼泽的边缘. 第二个在普里皮亚季郊区的西南部. 我们还有一个小组驻扎在大荒野, 当我们的人在执行合同时, 你会在特异区各个地方见到他们.</text>
+	</string>
+	<string id="aslan_st_6">
+		<text>因此利曼斯克北部就是黑石的天下了.</text>
+	</string>
+	<string id="aslan_st_7">
+		<text>大致如此了. 利曼斯克不远的地方有一家废弃医院. 那里没有什么意义 - 一条通往切尔诺贝利核电站的道路, 但就像通往杨塔的小路一样被psy风暴阻断了.</text>
+	</string>
+	<string id="aslan_st_8">
+		<text>了解了, 谢谢你的信息.</text>
+	</string>
+
+	<string id="information_about_stash_aslan_0">
+		<text>听说你有一些藏匿点的消息.</text>
+	</string>
+	<string id="information_about_stash_aslan_1">
+		<text>确实有. 每次执行任务后我们都会好好打点战利品. 6500一个.</text>
+	</string>
+
+	<string id="information_about_stash_aslan1_0">
+		<text>拿好. %c[d_orange][6500 RU]</text>
+	</string>
+	<string id="information_about_stash_aslan1_1">
+		<text>很好. 好好享受.</text>
+	</string>
+
+</string_table>
