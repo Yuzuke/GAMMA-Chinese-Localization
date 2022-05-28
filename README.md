@@ -1,6 +1,7 @@
 # GAMMA-TRANSLATION
 GAMMA TRANSLATION
 
-
-此汉化在原版异常汉化基础上制作, 感谢先行者的努力
-增加了部分GAMMA模组新增的mod汉化文本
+感谢前人的不懈努力
+此汉化在原版异常汉化基础上制作
+目的只为让使用GAMMA的玩家可以享受汉化的便利
+为GAMMA模组新增的主要mod进行文本汉化
