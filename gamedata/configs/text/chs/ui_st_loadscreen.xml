@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<string_table>
+	<string id="ls_header">
+		<text>潜行者 异常1.5.1</text>
+	</string>
+	<string id="ls_tip_number">
+		<text>小贴士 #</text>
+	</string>
+	<string id="ls_tip_1">
+		<text>避免超重, 这会让你丢命. 务必定期出售不需要的物品, 或将它们储备起来. 从交易商那里购买的背包可以作为储物袋.</text>
+	</string>
+	<string id="ls_tip_2">
+		<text>狩猎变异生物可以捞些杂碎. 此外如果你经济条件不好, 你可以试着烹饪点变异生物肉尝尝. 然后再吃点能消辐射的东西.</text>
+	</string>
+	<string id="ls_tip_3">
+		<text>许多技师需要基础、精密和校准工具包, 以便对武器和装备进行改造. 这些工具通常在藏匿点里, 交给技师就能得到奖励.</text>
+	</string>
+	<string id="ls_tip_4">
+		<text>睡眠需求是一项可选功能, 随着时间流逝或某些物品的作用,玩家会逐渐困倦 - 最终会提示急需睡眠. 一直不睡觉的后果很可怕.</text>
+	</string>
+	<string id="ls_tip_5">
+		<text>武装直升机巡逻是一项可选功能, 这会对游戏体验产生很大影响. 在战斗中, 有能力动用它们的派系成员可能会呼叫这些大鸟与他们协同作战.</text>
+	</string>
+	<string id="ls_tip_6">
+		<text>铁人模式能让玩家体验到"真正"的死亡. 当玩家阵亡时, 所有存档都将被删除, 并且永远无法恢复. 所以请考虑好.</text>
+	</string>
+	<string id="ls_tip_7">
+		<text>最好能熟悉使用针线包, 枪油和胶管 - 这些东西可以使你的装备保持良好的状态. 完整的维修包功能更多, 但很罕见, 且更重更昂贵.</text>
+	</string>
+	<string id="ls_tip_8">
+		<text>你可以购买或捡到背包, 然后把你的东西塞进去. 储备物资不会被刷掉, 也不会被其他潜行者偷走. 在删除存档之前, 它们能永久保存.</text>
+	</string>
+	<string id="ls_tip_9">
+		<text>如果你找不到床, 睡袋也是在特异区中休息的好办法. 很多交易商都会出售睡袋, 也可以在其他潜行者的藏匿点找到睡袋.</text>
+	</string>
+	<string id="ls_tip_10">
+		<text>卡车墓地是用来停放被污染的农用, 民用, 军用等废弃车辆的荒地, 很多地方有强辐射. 这是个藏东西的好地方, 眼尖的潜行者可能会在破烂中发现许多好东西.</text>
+	</string>
+	<string id="ls_tip_11">
+		<text>神器类型与变异点类型相对应. 想要一个能够阻燃的神器吗? 那就用探测器搜索"锅炉"或"彗星"变异点.</text>
+	</string>
+	<string id="ls_tip_12">
+		<text>完成派系任务可以增进与派系的好感度. 随着你与交易商交易量的增加, 交易商也会出售更多好东西并为你打大大的折扣.</text>
+	</string>
+	<string id="ls_tip_13">
+		<text>玩家有八个不同的等级阶段, 许多行为都能够提升等级. 某些功能需要高等级才能完全发挥作用或解锁.</text>
+	</string>
+	<string id="ls_tip_14">
+		<text>如果你不想做某个随机小任务, 便可以取消它们. 你可以找提供任务的潜行者沟通此事. 但记住, 取消任务会影响你的名声.</text>
+	</string>
+	<string id="ls_tip_15">
+		<text>声望会影响派系对潜行者的态度. 你可以通过帮助或坑害一个派系的潜行者来增加或降低声望.</text>
+	</string>
+	<string id="ls_tip_16">
+		<text>声望是可变化的,有以下几种声望等级: "极恶","混球","贱人","不咋地","默默无闻","老实人","好帮手","能人"和"万事通".</text>
+	</string>
+	<string id="ls_tip_17">
+		<text>黑暗之径是封锁线和黑暗山谷之间的一片山谷. 即便这里鸟不拉屎,但被追杀的独行者和强盗经常躲在这里.</text>
+	</string>
+	<string id="ls_tip_18">
+		<text>多问问潜行者有没有可干的工作. 虽然他们只是普通潜行者, 但这并不意味着他们不愿意付钱让你去干脏活累活.</text>
+	</string>
+	<string id="ls_tip_19">
+		<text>罗斯托克的竞技场举办两种比赛: 战斗竞技, 杀死对方潜行者以赢得奖励; 或者怪物挑战, 通过干掉竞技场捕获的怪物来赢钱.</text>
+	</string>
+	<string id="ls_tip_20">
+		<text>可以通过游戏选项菜单设置npc刷新半径. 可以在玩家周围创建一个无刷新区域, 以防止怪物或其他潜行者刷到你脸上.</text>
+	</string>
+	<string id="ls_tip_21">
+		<text>可以向冷风, 孢子或其他晴空幸存者问些故事. 这样你就能了解到晴空是如何幸存至今的.</text>
+	</string>
+	<string id="ls_tip_22">
+		<text>在苏尔加中校被派去参加与黑石的战斗中后, 自由团完全占据了木星的亚努夫车站. 此后, 许多曾经离开自由团的潜行者重新加入, 来帮助派系运转.</text>
+	</string>
+	<string id="ls_tip_23">
+		<text>解锁"完美主义"成就后, 可以解锁其他所有可用成就. 你可获得成就的多少取决于你的阵营以及是否启用了故事模式.</text>
+	</string>
+	<string id="ls_tip_24">
+		<text>在夜间或暴雨天时, 你的视野很受影响, 所以尽量避免被敌人发现.你还可能会遭遇强大的怪物.</text>
+	</string>
+	<string id="ls_tip_25">
+		<text>对于吃喝之物, 可在酒保那里仔细比较它们的属性和价格, 货比三家是好习惯嘛. 赶路时最好再多带点喝的解渴.</text>
+	</string>
+	<string id="ls_tip_26">
+		<text>有多种类型的背包可供选择, 其中一些可以增加负重, 另一些背包则有附加功能, 例如"猎人工具包".</text>
+	</string>
+	<string id="ls_tip_27">
+		<text>如果事情变得有些棘手, 你可以通过菜单来降低难度, 在主菜单界面按F1来调整.</text>
+	</string>
+	<string id="ls_tip_28">
+		<text>派系基地通常都有一名医生, 可以以低价治愈你并消除你的辐射.你也可以以更低的价格购买到药品.</text>
+	</string>
+	<string id="ls_tip_29">
+		<text>人脉发达的交易商可以贿赂各个派系, 以实现暂时的中立. 至于这种中立是否值得... 嗯, 这取决于你.</text>
+	</string>
+	<string id="ls_tip_30">
+		<text>科学家一直没有充足的变异的身体部位样本以供研究, 尤其是稀有怪物. 这些东西通常能以不错的价格出售, 科学家还可能会让你去找更有价值的特定样本.</text>
+	</string>
+	<string id="ls_tip_31">
+		<text>一定要随身携带手电筒, 或者考虑买个夜视仪, 你绝不想在晚上抓瞎然后误入险境.</text>
+	</string>
+	<string id="ls_tip_32">
+		<text>获得的弹药最好储存起来, 无论是什么种类, 也许你马上就会用到. 当然也许不会, 但最好还是储存起来, 毕竟弹药也是特异区内的硬通货之一.</text>
+	</string>
+	<string id="ls_tip_33">
+		<text>不要忽略你不常使用的武器. 即使是最强大的狙击手偶尔也需要换下狙击枪设法脱身.</text>
+	</string>
+	<string id="ls_tip_34">
+		<text>在抗电磁辐射属性上最好多花点钱. 至少也要准备一些抗电磁辐射的药物吧, 也许下一秒你就会碰到脑波怪呢.</text>
+	</string>
+	<string id="ls_tip_35">
+		<text>竖起你的耳朵. 聆听那转瞬即逝的杂音. 这对于潜行和偷袭都很有帮助.</text>
+	</string>
+	<string id="ls_tip_36">
+		<text>别看不起手枪, 考虑用用. 它们重量轻, 十分灵活且维护费很便宜, 如果你能照顾好它, 它也一定会照顾你的.</text>
+	</string>
+	<string id="ls_tip_37">
+		<text>随着你与派系的声望值升高, 交易商将为你提供更困难的任务. 尽管报酬高, 但也会更危险, 而且很考验玩家的能力.</text>
+	</string>
+	<string id="ls_tip_38">
+		<text>找到的神器可以多屯点, 它们的属性可能会在将来派上大用场.</text>
+	</string>
+	<string id="ls_tip_39">
+		<text>如果敌人又多又强, 请考虑逃跑. 这不仅可以保命, 还可以节省卢布和药品.</text>
+	</string>
+	<string id="ls_tip_40">
+		<text>如果你被打中了, 请保持冷静, 分辨敌人的火力, 并在他们装弹时反击.</text>
+	</string>
+	<string id="ls_tip_41">
+		<text>包里多带点可以止血的东西. 医生虽然可以以低价治愈你, 但前提是血流满地的你能撑到那时候.</text>
+	</string>
+	<string id="ls_tip_42">
+		<text>考虑入个消音器, 它可以降低被敌人发现的几率. 虽然它不会使你隐形, 但敌人因此要花点时间找你.</text>
+	</string>
+	<string id="ls_tip_43">
+		<text>大多数潜行者都喜欢在特异区南方寻找神器, 但是老练的潜行者知道最好的地点都在红森林以北. 然而不做好充分准备只会在那里丢命.</text>
+	</string>
+	<string id="ls_tip_44">
+		<text>如果没有合适的装备, 去搜寻神器无异于自杀. 确保随身携带探测器和一些铅衬容器, 同时要对变异点有足够的抵抗能力.</text>
+	</string>
+	<string id="ls_tip_45">
+		<text>有备则无患. 在进行某些行动之前先收集一些信息.</text>
+	</string>
+	<string id="ls_tip_46">
+		<text>如果遭遇了脑波怪, 请尝试躲在他看不到你的地方(树木, 岩石, 墙壁).如果他看不到你, 就无法控制你.</text>
+	</string>
+	<string id="ls_tip_47">
+		<text>抵抗怪物的最佳方法是让其他潜行者帮你解决.</text>
+	</string>
+	<string id="ls_tip_48">
+		<text>兴奋剂包非常有用. 相比常规医疗包, 它可以更快地治愈你.</text>
+	</string>
+	<string id="ls_tip_49">
+		<text>戴头盔会影响你的跑步能力.</text>
+	</string>
+	<string id="ls_tip_50">
+		<text>如果你的主武器弹药用完了, 快速掏出副武器. 手枪是潜行者的朋友,当然一把霰弹枪也很好用.</text>
+	</string>
+	<string id="ls_tip_51">
+		<text>搜寻神器时要小心. 为了保证活动能力, 你可以将一些杂物先放到储物背包里, 然后再进入变异区域, 目的达成后再回来拿.</text>
+	</string>
+	<string id="ls_tip_52">
+		<text>射频收音机可以帮助你找到一些东西. 您可以腾出另一只手通过左键, 右键和Shift+左键/右键更改收音机的频率.</text>
+	</string>
+	<string id="ls_tip_53">
+		<text>尽管军方和潜行者是不共戴天之敌, 但他们还是会接受贿赂的.</text>
+	</string>
+	<string id="ls_tip_54">
+		<text>你若能保证装备处于最佳状态, 装备也能保证你处于最佳状态.</text>
+	</string>
+	<string id="ls_tip_55">
+		<text>如果要将叠加的同个物品快速移入/移出, 请按住CTRL并双击它.</text>
+	</string>
+	<string id="ls_tip_56">
+		<text>使用旧弹药会更快地使损耗你的武器状态. 不过, 请不要将其丢弃, 它们还是能派上用场的.</text>
+	</string>
+	<string id="ls_tip_57">
+		<text>记得检查死者的PDA, 你可以从中获得有用的信息. 如果它们有设备锁, 可以去找精通电子技术的人打开它.</text>
+	</string>
+	<string id="ls_tip_58">
+		<text>你可以通过右键单击物品的详细信息菜单来了解它. 详细信息窗口将展示物品的各项属性和描述, 如果是武器和装备, 将显示它们可能需要的升级项目.</text>
+	</string>
+	<string id="ls_tip_59">
+		<text>在修理严重受损的武器时, 技师会开高价. 如果你决定自己维修, 那么从磨损的武器中拆出零件来修理可以省点钱.</text>
+	</string>
+	<string id="ls_tip_60">
+		<text>聆听变异点的声音, 对于部分变异点, 听觉通常能比视觉更先发现它们.</text>
+	</string>
+	<string id="ls_tip_61">
+		<text>可以利用地雷设下埋伏, 如果使用得当, 它们会发挥强大的作用,例如将敌人引入雷区或吸引目标.</text>
+	</string>
+	<string id="ls_tip_62">
+		<text>务必带点诸如医疗包, 电磁辐射药或抗菌素之类的药物, 以免风暴来临时附近没有庇护所. 也许它们无法完全保护你,但至少能让你活着找到庇护所.</text>
+	</string>
+	<string id="ls_tip_63">
+		<text>弹药是特异区的硬通货. 为不常用的枪支收集弹药也许能让你在将来省下一笔钱. 即便弹药老化也照样能用. 你也可以用枪匠工具包自制弹药.</text>
+	</string>
+	<string id="ls_tip_64">
+		<text>外出时尽量少带东西, 这样你可以在返程时背负更多物品并卖给交易商.</text>
+	</string>
+	<string id="ls_tip_65">
+		<text>多把神器探测器掏出来看看. 有时在风暴后神器会刷新.</text>
+	</string>
+	<string id="ls_tip_66">
+		<text>游戏选项菜单中的延迟维修选项意味着技师维修物品需要一段时间, 直到完成修复才会还给你. 这就让自己学会修理变得十分重要.</text>
+	</string>
+	<string id="ls_tip_67">
+		<text>做个老实人, 奸诈的潜行者也许会赚到更多的钱, 但是最终那些痛恨你的人会设法报复你. 即使你很低调, 也会被追杀.</text>
+	</string>
+	<string id="ls_tip_68">
+		<text>将三种改造工具提供给一位技师, 可以获得"机械化战争"的成就. 这样维修道具的效果会更强.</text>
+	</string>
+	<string id="ls_tip_69">
+		<text>一些守旧的潜行者会在纸上做笔记, 而不是用PDA. 这些纸片可能值得一读, 你甚至能学到一些东西.</text>
+	</string>
+	<string id="ls_tip_70">
+		<text>电子设备需要使用一组电池. 每当设备耐久耗尽时,你必须换上新的电池. 可以通过右键单击设备来更换电池.</text>
+	</string>
+	<string id="ls_tip_71">
+		<text>记住各种怪物的声音. 遭遇它们时便可以更快地作出反应.</text>
+	</string>
+	<string id="ls_tip_72">
+		<text>无论你拥有哪种枪支, 最好常备一点穿甲弹. 怪物可能不会穿盔甲, 但敌对的潜行者会穿.</text>
+	</string>
+	<string id="ls_tip_73">
+		<text>抗辐射药有更便宜的替代品. 其中一些具有强大的副作用,因此每当你服用时, 都应尽量避免药效冲突.</text>
+	</string>
+	<string id="ls_tip_74">
+		<text>如果一个人整天啥都不干, 只是突突突或者跑马拉松, 即使他是最强大的战士也将很快精疲力尽. 所以最好尽快解决你的口腹之需.</text>
+	</string>
+	<string id="ls_tip_75">
+		<text>试图偷偷靠近某人或某物时, 请关闭手电筒.</text>
+	</string>
+	<string id="ls_tip_76">
+		<text>身体健康很重要, 如果可以的话, 别老是嗑药,多吃干净的食物, 喝干净的水, 并保证充足的睡眠, 做健康的潜行者.</text>
+	</string>
+	<string id="ls_tip_77">
+		<text>工具会磨损. 例如刀之类的可以修理. 但是大多数都不行, 所以请随身携带备用的.</text>
+	</string>
+	<string id="ls_tip_78">
+		<text>赶路时请仔细注意周围情况. 免得从草丛里冒出个吸血鬼把你榨干.</text>
+	</string>
+	<string id="ls_tip_79">
+		<text>独自一人进行枪战时, 找好掩护. 发动攻击的最佳时刻是在对手攻击的间隙.</text>
+	</string>
+	<string id="ls_tip_80">
+		<text>密切注意电子设备的电量, 多带几块备用电池. 不要在关键时候掉链子.</text>
+	</string>
+	<string id="ls_tip_81">
+		<text>如果启用了"限制螺栓"选项, 你身上的螺栓是有限的. 可以找交易商购买一包螺栓, 或者用旧弹药当螺栓.</text>
+	</string>
+	<string id="ls_tip_82">
+		<text>盖革计数器具有三种不同的模式: 手持模式, 手持时显示值; 持续模式, 即在背包界面显示值; 按键模式, 按下绑定键时显示值.</text>
+	</string>
+	<string id="ls_tip_83">
+		<text>制药工具包可用于自制药物, 这可以为你省下一笔钱.</text>
+	</string>
+	<string id="ls_tip_84">
+		<text>枪匠工具包可以重新利用旧弹药和弹药零件, 以制造新的更有效的子弹.</text>
+	</string>
+	<string id="ls_tip_85">
+		<text>一些交易商愿意购买你从其他潜行者那里获得的PDA. 交付的PDA越多, 在解锁"信息商"成就后你获得的报酬会越高.</text>
+	</string>
+	<string id="ls_tip_86">
+		<text>在向交易商展露自己的能力后, 他们会为你提供更好的装备. 这些特殊优惠也适用于那些取得了"土豪"成就的人.</text>
+	</string>
+	<string id="ls_tip_87">
+		<text>您可以在背包中使用乐器, 演奏出特异区之声.</text>
+	</string>
+	<string id="ls_tip_88">
+		<text>如果你需要前往某个地方但又不知道怎么走, 可以问一下交易商.</text>
+	</string>
+	<string id="ls_tip_89">
+		<text>向导通常在酒吧或派系基地内. 只要有钱, 向导就可以让你安全地到达任何地方.</text>
+	</string>
+	<string id="ls_tip_90">
+		<text>死城佣兵酒保阿斯兰可以让你参加"抽奖", 你只需要交给他一些其他阵营的臂章即可.</text>
+	</string>
+	<string id="ls_tip_91">
+		<text>技师需要新的零件才能工作.你可以将零件出售给他们, 以获得一些现金, 但是不要指望从中赚钱.</text>
+	</string>
+	<string id="ls_tip_92">
+		<text>支付一千卢布, 技师会让你使用他的工作台, 可以用虎钳修理自己的枪支.</text>
+	</string>
+	<string id="ls_tip_93">
+		<text>如果你在派系中的声望足够高, 则可以说服一些派系潜行者加入你的队伍. 从那时起, 你需要对他们负责, 如果队友出了什么事你是要付代价的.</text>
+	</string>
+	<string id="ls_tip_94">
+		<text>默认设置下, 鼠标中键可以用于向你的同伴快速下达指令.</text>
+	</string>
+	<string id="ls_tip_95">
+		<text>要拆卸装备和枪支, 你需要一种特殊的工具, 可以从交易商那里获得.</text>
+	</string>
+	<string id="ls_tip_96">
+		<text>与现实情况相反, 戴着防毒面具并不会妨碍你进食或饮水.</text>
+	</string>
+	<string id="ls_tip_97">
+		<text>必要情况下按下F9读档并不是什么羞耻的事情.</text>
+	</string>
+	<string id="ls_tip_98">
+		<text>当你停下来时, 你就像一个活靶子. 所以, 不要停下来... .</text>
+	</string>
+	<string id="ls_tip_99">
+		<text>保持敏锐,潜行者.死神随时会降临,如果看到敌人了,尽量照着头打.</text>
+	</string>
+	<string id="ls_tip_100">
+		<text>如果不吃饭, 人一周之内就会死亡. 但是, 如果子弹击中你, 几秒钟内你就会凉. 所以始终保证护甲状态良好, 以便你可以长寿一点.</text>
+	</string>
+	<string id="ls_tip_101">
+		<text>少想别的, 多看PDA中的指南. 你可能会找到解决困惑的方法.</text>
+	</string>
+</string_table>

@@ -1,0 +1,1234 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<string_table>
+	<!-- Sorter -->
+	<string id="ui_st_tab_all">
+		<text>全部物品 (1)</text>
+	</string>
+	<string id="ui_st_tab_weapons">
+		<text>武器和附件 (2)</text>
+	</string>
+	<string id="ui_st_tab_armor">
+		<text>盔甲, 头盔和背包 (3)</text>
+	</string>
+	<string id="ui_st_tab_ammo">
+		<text>弹药和手榴弹 (4)</text>
+	</string>
+	<string id="ui_st_tab_artefact">
+		<text>神器和变异部件 (5)</text>
+	</string>
+	<string id="ui_st_tab_tools">
+		<text>设备、工具和维修物品 (6)</text>
+	</string>
+	<string id="ui_st_tab_consumables">
+		<text>药品和耗材 (7)</text>
+	</string>
+	<string id="ui_st_tab_misc">
+		<text>杂物 (8)</text>
+	</string>
+	
+	<!-- Loot mode -->
+	<string id="ui_st_put_all">
+		<text>全部放入</text>
+	</string>
+	<string id="ui_st_put_all_hint">
+		<text>放入全部物品 (SHIFT + P)</text>
+	</string>
+	<string id="ui_st_take_all">
+		<text>全部拿走</text>
+	</string>
+	<string id="ui_st_take_all_hint">
+		<text>全部放入背包 (SHIFT + T)</text>
+	</string>
+	
+	<!-- Trade mode -->
+	<string id="ui_total_price">
+		<text>总价</text>
+	</string>
+	<string id="ui_st_buy">
+		<text>购入</text>
+	</string>
+	<string id="ui_st_sell">
+		<text>卖出</text>
+	</string>
+	<string id="ui_st_sell_hint">
+		<text>出售选定的物品</text>
+	</string>
+	<string id="ui_st_buy_hint">
+		<text>购买选定的物品</text>
+	</string>
+	<string id="not_enough_money_actor">
+		<text>你没钱了</text>
+	</string>
+	<string id="not_enough_money_partner">
+		<text>对方钱不够</text>
+	</string>
+	<string id="st_no_trade_tip_1">
+		<text>商贩对该物品没兴趣.</text>
+	</string>
+	<string id="st_no_trade_tip_2">
+		<text>该物品状况太差不能交易.</text>
+	</string>
+
+	<!-- Upgrade mode -->
+	<string id="ui_st_inv_repair">
+		<text>修理</text>
+	</string>
+	<string id="ui_repair_button_hint">
+		<text>修理选中的物品</text>
+	</string>
+	
+	<!-- Quick use items -->
+	<string id="quick_use_str_1">
+		<text>$$ACTION_QUICK_USE_1$$</text>
+	</string>
+	<string id="quick_use_str_2">
+		<text>$$ACTION_QUICK_USE_2$$</text>
+	</string>
+	<string id="quick_use_str_3">
+		<text>$$ACTION_QUICK_USE_3$$</text>
+	</string>
+	<string id="quick_use_str_4">
+		<text>$$ACTION_QUICK_USE_4$$</text>
+	</string>
+	
+	<!-- Item Properties -->
+	<string id="st_activate_artefact">
+		<text>激活神器</text>
+	</string>
+	<string id="st_attach_gl_to_rifle">
+		<text>安装榴弹发射器至</text>
+	</string>
+	<string id="st_attach_scope_to_pistol">
+		<text>安装瞄具至</text>
+	</string>
+	<string id="st_attach_silencer_to_pistol">
+		<text>安装消音器至</text>
+	</string>
+	<string id="st_base_cost">
+		<text>售价</text>
+	</string>
+	<string id="st_community">
+		<text>组合:</text>
+	</string>
+	<string id="st_condition">
+		<text>状态</text>
+	</string>
+	<string id="st_detach_gl">
+		<text>分离榴弹发射器</text>
+	</string>
+	<string id="st_detach_scope">
+		<text>分离瞄具</text>
+	</string>
+	<string id="st_detach_silencer">
+		<text>分离消音器</text>
+	</string>
+	<string id="st_drop">
+		<text>扔掉</text>
+	</string>
+	<string id="st_drop_all">
+		<text>全部扔掉</text>
+	</string>
+	<string id="st_eat">
+		<text>食用</text>
+	</string>
+	<string id="st_donate">
+		<text>白送</text>
+	</string>
+	<string id="st_move_on_belt">
+		<text>系在腰带上</text>
+	</string>
+	<string id="st_move_to_bag">
+		<text>放入背包</text>
+	</string>
+	<string id="st_move_to">
+		<text>移动</text>
+	</string>
+	<string id="st_move_all">
+		<text>全部移动</text>
+	</string>
+	<string id="st_unequip">
+		<text>卸下背包</text>
+	</string>
+	<string id="st_move_to_slot">
+		<text>移动至装备栏</text>
+	</string>
+	<string id="st_play">
+		<text>play</text>
+	</string>
+	<string id="st_sell_item">
+		<text>出售物品</text>
+	</string>
+	<string id="st_item_use">
+		<text>使用</text>
+	</string>
+	<string id="st_item_sort">
+		<text>分类</text>
+	</string>
+	<string id="st_item_unpack">
+		<text>打开</text>
+	</string>
+	<string id="st_item_play">
+		<text>演奏</text>
+	</string>
+	<string id="st_item_open">
+		<text>打开</text>
+	</string>
+	<string id="st_item_reveal">
+		<text>揭示</text>
+	</string>
+	<string id="st_item_read">
+		<text>阅读</text>
+	</string>
+	<string id="st_item_separate">
+		<text>分离</text>
+	</string>
+	<string id="st_item_disassemble">
+		<text>拆解</text>
+	</string>
+	<string id="st_item_charge">
+		<text>UPD充电</text>
+	</string>
+	<string id="st_item_money">
+		<text>取出%sRU</text>
+	</string>
+	<string id="st_item_details">
+		<text>详细信息</text>
+	</string>
+	<string id="st_item_unpack_battery">
+		<text>取出电池</text>
+	</string>
+	<string id="st_item_tear_patch">
+		<text>撕下阵营标志</text>
+	</string>
+	<string id="st_item_attach_patch">
+		<text>贴上阵营标志</text>
+	</string>
+	<string id="st_awr_r_detail">
+		<text>恢复部分 [!]</text>
+	</string>
+	<string id="st_awr_disassembly_weapon">
+		<text>拆卸武器 [!]</text>
+	</string>
+	<string id="st_awr_disassembly_outfit">
+		<text>拆卸服装 [!]</text>
+	</string>
+	<string id="st_awr_disassembly_helmet">
+		<text>拆卸头盔 [!]</text>
+	</string>
+	<string id="st_awr_disassembly_cloth">
+		<text>拆卸 [!]</text>
+	</string>
+	<string id="st_drink">
+		<text>喝</text>
+	</string>
+	<string id="st_unload_magazine">
+		<text>卸下弹药</text>
+	</string>
+	<string id="st_use">
+		<text>使用</text>
+	</string>
+	<string id="st_dress_outfit">
+		<text>穿上防护服</text>
+	</string>
+	<string id="st_dress_helmet">
+		<text>戴上头盔</text>
+	</string>
+	<string id="st_equip_backpack">
+		<text>背上背包</text>
+	</string>
+	<string id="st_undress_outfit">
+		<text>脱掉防护服</text>
+	</string>
+	<string id="st_undress_helmet">
+		<text>脱掉头盔</text>
+	</string>
+	<string id="st_unequip_backpack">
+		<text>脱掉背包</text>
+	</string>
+
+	<string id="st_plant_explosive_prox">
+		<text>埋设触发式炸药</text>
+	</string>
+	<string id="st_plant_explosive_timer_10">
+		<text>埋设炸药10秒计时</text>
+	</string>
+	<string id="st_plant_explosive_timer_30">
+		<text>埋设炸药30秒计时</text>
+	</string>
+
+	<!-- Units -->
+	<string id="st_perc">
+		<text>%</text>
+	</string>
+	<string id="st_kg">
+		<text>千克</text>
+	</string>
+	<string id="st_g">
+		<text>克</text>
+	</string>
+	<string id="st_kcal">
+		<text>千卡</text>
+	</string>
+	<string id="st_kcal_sec">
+		<text>千卡每秒</text>
+	</string>
+	<string id="st_msv">
+		<text>微西弗</text>
+	</string>
+	<string id="st_msv_sec">
+		<text>微西弗每秒</text>
+	</string>
+	<string id="st_microg">
+		<text>微克肾上腺</text>
+	</string>
+	<string id="st_microg_sec">
+		<text>微克肾上腺每秒</text>
+	</string>
+	<string id="st_ml_min">
+		<text>毫升每分钟</text>
+	</string>
+	<string id="st_kw_m2">
+		<text>千瓦每平方米</text>
+	</string>
+	<string id="st_kv">
+		<text>千伏</text>
+	</string>
+	<string id="st_mt">
+		<text>公吨</text>
+	</string>
+	<string id="st_ppm">
+		<text>ppm浓度</text>
+	</string>
+	<string id="st_j">
+		<text>硬度</text>
+	</string>
+	<string id="st_ah_sec">
+		<text>安时/秒</text>
+	</string>
+	<string id="st_mah_sec">
+		<text>毫安时/秒</text>
+	</string>
+	<string id="st_uah_sec">
+		<text>微安时/秒</text>
+	</string>
+	<string id="st_pah_sec">
+		<text>皮安时/秒</text>
+	</string>
+	<string id="st_hz">
+		<text>赫兹</text>
+	</string>
+	<string id="st_khz">
+		<text>千赫兹</text>
+	</string>
+	<string id="st_mhz">
+		<text>兆赫兹</text>
+	</string>
+	<string id="st_ghz">
+		<text>千兆赫兹</text>
+	</string>
+	<string id="ui_inv_seconds_short">
+		<text>秒</text>
+	</string>
+	<string id="ui_inv_seconds">
+		<text>秒</text>
+	</string>
+	
+	<!-- Player states -->
+	<string id="st_ui_main_sensor">
+		<text>电离辐射中毒\n %c[ui_gray_1]电离辐射非常危险,很可能会要你的命,所以测量电离辐射是一项至关重要的技能.电离辐射的基本单位是 %c[ui_gray_3](mSv)%c[ui_gray_1]. 大约 %c[ui_gray_3]8000 mSv %c[ui_gray_1]的剂量就会致命并且没有救治的可能.人体暂时可以承受大于1000 mSv左右的剂量,但是如果没有及时进行处理,就会产生严重的后果,所以强烈建议在受到辐射以后尽快服用具有相应功效的抗辐射药物. 表3.2 就示意了各种剂量下辐射病的症状:%c[0,102,255,0]250 - 1500 mSv: %c[ui_gray_2]几乎没有症状且远期影响可以忽略不记.%c[0,255,255,0]1500 - 3000 mSv: %c[ui_gray_2]能感受到中等或重度的虚弱,头晕, 皮肤斑点.远期影响较轻,及时治疗后可以完全康复.%c[0,255,122,0]3000 - 4500 mSv: %c[ui_gray_2]非常严重的虚弱, 神志不清以及头晕.短时间内没有进行治疗的话会导致死亡.基本丧失饥渴感,有异味,腹泻,皮肤溃烂以及脱发,具有很高的失去生育功能的可能性.使用大量清洗剂可以恢复身体机能.%c[d_red]4500 - 6000 mSv: %c[ui_gray_2]上述症状加剧,此外,此时中枢神经系统已产生严重伤害,死亡率很高.%c[d_red]6000 mSv 以及更高: %c[ui_gray_2]你没救了,等死吧.%c[d_cyan] • %c[ui_gray_2] 单位: %c[ui_gray_1]mSv (milisivert)\n%c[d_cyan] • %c[ui_gray_2] 快速致死辐射剂量: %c[ui_gray_1]~6000+ mSv\n%c[d_cyan] • %c[ui_gray_2] av. 外侧半径. 热点效力: %c[ui_gray_1]~900 mSv / min\n \n \n</text>
+	</string>
+	<string id="ui_inv_burn_protection">
+		<text>灼烧保护\n%c[ui_gray_1]灼烧保护主要是衡量你的能力, 以抵御高热变异点, 以及生存遇到热动力变异点. 高热变异点有几种形式: 它们可以表现为热辐射的半球, 慢慢地烹饪任何进入它们的东西. 它们可以表现为闪烁的空气波, 喷发成强大的火焰喷流, 甚至可以表现为移动彗星. 两种或两种以上的变形体同时出现并不罕见: 例如, 从大荒野通往杨塔的桥隧由彗星和喷发变种组成.\n \n喷发变种, 俗称"炉灶", 温度高达几百摄氏度, 有些喷发形态的威力足以让不幸的受害者立即被烤焦, 而不管他们受到什么保护. 在特异区的北部, 一种被称为"锅炉"的炉灶变体的工作原理相同, 但它利用过热的蒸汽喷涌而不是火焰.\n \n有传言说, 高热变异点孕育了特异区一些威力更大的神器, 但危险是如此之大, 即使有适当的保护, 大多数人都选择避开它们.\n \n%c[d_orange]. 酸性物质 %c[ui_gray_1]重要提示: 以下建议的百分比值仅指燃烧阻力条的显示程度, 这主要由装甲决定.这不应与携带品或消耗品上显示的任何百分比相混淆, 这些携带品或消耗品不会叠加在一起.\n \n%c[d_cyan] •%c[ui_gray_1]由于热动力变异点的稀有性, 以及大多数潜行者不被活活烤的倾向, 一般潜行者不太在意灼烧保护, 选择完全避开高热变异点, 当他们买得起第一套像样的衣服时, 可能会顺便获得15%的灼烧保护.\n%c[d_cyan] •%c[ui_gray_1] 受委托的军事潜行者, 需要能够在最恶劣的条件下行动, 通常至少有40%的灼烧保护, 这让他们通过高热变异点接近敌人, 从而让侧翼多了几个惊讶的敌人.\n%c[d_cyan] •%c[ui_gray_1] 独立的, 全职的神器猎人和实地研究人员很难负担得起衣服的维修费用, 因为高热变异点可能造成的损害, 因此, 除非履行特殊合同, 否则大多数潜行者都会以同样的方式避免这些损害.\n%c[d_cyan] •%c[ui_gray_1] 然而, 有成就的政府科学家不需要太担心成本, 他们选择穿75%灼烧保护的防护服, 这样他们就可以相对安全地工作.\n \n \n</text>
+	</string>
+	<string id="ui_inv_chemical_burn_protection">
+		<text>化学保护\n%c[ui_gray_1]由于还没弄清楚 %c[ui_gray_3]'酸雾' 或 '化学' 变异点%c[ui_gray_1]中物质的成分,必须采用 %c[ui_gray_3]LC50 (人类)%c[ui_gray_1]标准来评估危险性.%c[ui_gray_1]这个标准以浓度为依据,并表示在持续%c[ui_gray_3]1小时%c[ui_gray_1].的暴露过程中杀死任何随机人类"测试组"的%c[ui_gray_3]50%%c[ui_gray_1]所需的剂量.万分之一%c[ui_gray_3](ppm)%c[ui_gray_1]剂量的变异点的生化毒素就能引起超过 %c[ui_gray_3]50% / 1 h%c[ui_gray_1]的死亡速度,所以可以把它纳入科学界公认毒性最大的%c[ui_gray_3]Class I (C1)类物质组内%c[ui_gray_1].已经证实酸雾变异点内有毒物质的浓度高达%c[ui_gray_3]C1 200 ppm%c[ui_gray_1] (百万分之),这个200表示200份Class I (C1)物质分散到1000000份后的浓度. 这种等级的毒性使得特异区的毒性变异点成为地球上最危险的地方之一,其强度能在%c[ui_gray_3]3 分钟%c[ui_gray_1]杀死一名没有科学防护的人类.所以出于评估的目的,根据每百万分溶液中%c[ui_gray_3](ppm) Class I  (C1)%c[ui_gray_1]类有毒物质的含量对防护用品进行了分类,假如一个护具的防护当量为%c[ui_gray_3]C1 ppm%c[ui_gray_1],那么在C1 ppm的毒性环境中,使用者可以得到妥善的保护.\n%c[d_cyan] • %c[ui_gray_2] 一般的毒雾变异点浓度: %c[ui_gray_1]~200 C1 ppm eq.%c[d_cyan] • %c[ui_gray_2] 已知最强的酸雾变异点浓度: %c[ui_gray_1]~600 C1 ppm eq.%c[d_cyan] • %c[ui_gray_2] 平均无防护生存时间: %c[ui_gray_1]~3 分钟 %c[d_cyan] • %c[ui_gray_2] 在优良保护下的生存时间: %c[ui_gray_1]~25 分钟.\n \n</text>
+	</string>
+	<string id="ui_inv_fire_wound_protection">
+		<text>防弹性能\n%c[ui_gray_1]防弹性能, 正如人们所料, 这表明了你的防弹衣的抗弹道性能. 它是衡量你的装甲安全吸收小型高速物体(如子弹或弹片)动能的能力. 理想情况下, 这意味着子弹根本无法穿透你的盔甲, 但遗憾的是, 这并不是一个完美的世界, 特别重的子弹即使不能完全穿透, 仍然会导致流血. 装备多个凯夫拉, 钛或钢板可以大大提高防弹性能, 几乎不管你穿什么.\n \n%c[d_orange]你需要多少保护?\n%c[ui_gray_1]重要提示: 以下建议的百分比值仅指防弹性能条的完整程度, 这主要由装甲决定. 这不应与皮带物品或消耗品上显示的任何百分比相混淆, 这些物品或消耗品不会叠加在一起.\n \n%c[d_cyan] •%c[ui_gray_1] 一般的潜行者知道最好不要去寻找一场战斗, 因此可以通过10%的防弹性能.\n%c[d_cyan] •%c[ui_gray_1] 职业雇佣兵、侦察兵或杀手至少需要15%的防弹性能, 一旦他们能负担得起, 他们就会瞄准更好的目标.\n%c[d_cyan] •%c[ui_gray_1] 阿尔法小组的操作员通常被期望驱散小型潜行者营地, 并对盘踞阵地进行外科手术打击, 他们将接受不低于40%的防弹性能.\n%c[d_cyan] •%c[ui_gray_1] 受委托的军事潜行者, 预计将打破绞肉机和扭转最恶性的交火浪潮, 投入战斗的防弹性能至少为60%.\n \n \n</text>
+	</string>
+	<string id="ui_inv_radiation_protection">
+		<text>辐射保护\n%c[ui_gray_1]当前的文献表明, 目前特异区内的辐射是由放射性粒子辐射的 %c[ui_gray_3]alpha射线 %c[ui_gray_1]这些放射性粒子隐藏于泥土, 沙子, 水和其他的物体中, 并通过食物链流入特异区的生物中. 这种辐射只在放射性粒子和组织接触并进入循环系统时才会穿透皮肤而对人体产生伤害 - 比如吸入放射性粉尘或是食用被污染的食物. 正因为如此, 强烈建议始终在特异区内佩戴防毒面具, 避免食用当地的食物或是饮用当地的水. ad.%c[ui_gray_1]至于穿透性强的%c[ui_gray_3]beta%c[ui_gray_1]射线我们核电站四号堆的石棺附近有发现, 然而特异区内的某些生物能在近距离内发射穿透性电离辐射场. 但不知道为什么, 在这种生物死亡后, 辐射场就消失了.\n%c[ui_gray_1]特异区内最后的也是最危险的辐射形式还是当属风暴, 期间能够检测到各种效能的伽马射线暴, 考虑到伽马射线暴极强的能量和穿透性, 强烈建议在每次风暴期间呆在适当的掩体内.\n%c[d_cyan] • %c[ui_gray_2]布制面罩的防护率: %c[ui_gray_1]45% %c[d_cyan] • %c[ui_gray_2]防毒面具的防护率: %c[ui_gray_1]90% %c[d_cyan] • %c[ui_gray_2]防化服的防护率: %c[ui_gray_1]100% \n%c[d_red]高度注意\n \n%c[ui_gray_1]所有的服装和头部护具都经过了针对所有类型辐射的大范围测试, 这些测试结果都被记录在手册里, 但这些结果都应该被视为值得怀疑的, 仅能提供粗略的参考. \n \n \n</text>
+	</string>
+	<string id="ui_inv_shock_protection">
+		<text>电击保护\n \n%c[ui_gray_1]W更大的科学界认为电变异点是可再生能源的潜在来源, 对你来说, 这些电表现是不稳定和致命的能量, 必须小心处理.\n \n%c[ui_gray_1]为了达到这个目的, 电阻测量的是你的盔甲能很好地将你从电击中隔离出来.电变异点既可以表现为地面上的"电池", 也可以表现为"特斯拉"彗星有节奏地漂浮.\n \n%c[d_orange]你需要多少保护?\n%c[ui_gray_1]重要的: 下面建议的百分比值仅指电阻条出现的满度, 这主要由装甲决定.这不能与腰带物品或消耗品上的百分比混淆, 因为它们不能叠加.\n \n%c[d_cyan] •%c[ui_gray_1] 电变异点强度各不相同, 但一潜行者发现20%的电击保护足以帮助他们在偶然的事故中幸存下来.\n%c[d_cyan] •%c[ui_gray_1] 受派遣的军事潜行者必须对任何事情都做好充分的准备, 他们喜欢至少有40%的电击保护, 因为他们知道在这个区域最危险的地方这种变异现象会有多么强烈.\n%c[d_cyan] •%c[ui_gray_1] 独立的, 全职的神器猎人和特异区科学家一致认为, 在大多数情况下, 40%-45%的电击保护是足够的保护.\n%c[d_cyan] •%c[ui_gray_1] 然而, 政府的科学家们会在任何可能的情况下使用至少70%的电击保护.\n \n \n</text>
+	</string>
+	<string id="ui_inv_telepatic_protection">
+		<text>psy保护\n \n%c[ui_gray_1]特异区是一个复杂的迷宫, 充满了致命的和不寻常的陷阱, 没有什么比致命的psy变异点更能说明这一点了. 最臭名昭著的超自然现象的来源包括烧脑机, 奇迹机器, 电磁风爆和psy风暴, 它们的力量太强大了, 除了最深奥的或专门的装备外无法抵抗.\n \n因此, psy保护主要是衡量你能承受psy变异生物的psy攻击的能力, 或者你能在较弱的psy变异点中呆多久.\n \n精神伤害的不同寻常之处在于, 它不会伤害你的身体, 而是会削弱你的自制力或生存意志(如果你在寻找生存意志, 它就在生命条上方). 过度接触psy能量不可避免地会导致记忆丧失、自杀甚至僵尸化, 而从psy能量中恢复需要专门的药物或神器: 常规的医疗包无法治愈破碎的心智, 但科学医疗包明显更成功.\n \n psy力场通常是球形或半球形的, 你离它的中心越近, 它就越强大.\n \n%c[d_orange]你需要多少保护?\n%c[ui_gray_1]重要提示:下面建议的百分比值仅指psy保护条显示的满度, 这主要由装甲决定.这不能与腰带物品或消耗品上的百分比混淆, 因为它们不能叠加.\n \n%c[d_cyan] •%c[ui_gray_1] 一般的潜行者很少遇到psy变异生物, 甚至可能不相信他们的存在. 大多数人的的psy保护目标值是不超过5%, 更聪明的潜行者肯定会携带精神阻断片、阿普唑仑或大麻以备紧急情况.\n%c[d_cyan] •%c[ui_gray_1] 接受军事委托的潜行者必须对任何事情都做好准备, 他们的目标是至少30%的psy保护. 他们中的一些人都非常熟悉如果脑波怪不受约束地访问你的思想会发生什么. \n%c[d_cyan] •%c[ui_gray_1] 独立的、全职的神器猎人或野外科学人员的目标是达到至少50%的psy保护, 这样他们就可以更长时间抵抗更强的精神异常.\n%c[d_cyan] •%c[ui_gray_1] 政府的科学家将更进一步, 以55%的psy保护为目标, 这样他们就可以把特异区研究这一点推得更深一点.\n \n \n</text>
+	</string>
+	<string id="ui_inv_wound_protection">
+		<text>撕裂保护\n \n%c[ui_gray_1]撕裂保护能力代表了你的护甲吸收和置换各种身体打击和冲击所造成的创伤的能力. 这些包括 - 但不限于 - 试图出拳、踢、刺、割伤、咬和用重力感应扔出碎片. \n \n%c[ui_gray_1]你的护甲不仅减少了这些攻击的初始伤害, 也减少了任何一击所能给你的流血程度.\n \n抗撕裂性也与你的抗弹道能力协同作用. 这是因为即使子弹没有穿透你的防弹装甲, 也会造成钝器创伤, 从而降低了撕裂抗力.\n \n%c[d_orange]你需要多少保护?\n%c[ui_gray_1]重要: 下面建议的百分比值仅指撕裂出现的充分程度, 这主要由护甲决定. 这不能与腰带物品或消耗品上的百分比混淆, 因为它们不能叠加.\n \n%c[d_cyan] •%c[ui_gray_1] 因为知道不能用怪物来推理, 一般的潜行者会在他们负担得起的时候, 就把目标定在至少15%的撕裂保护上.\n%c[d_cyan] •%c[ui_gray_1] 专业的雇佣兵也将目标是15%的撕裂保护作为最低限度, 并且在预算允许的情况下会得到更好的效果.\n%c[d_cyan] •%c[ui_gray_1] 军方人员, 他们被期望清除怪物的巢穴或协助实验室突袭, 不满足低于40%的撕裂保护.\n%c[d_cyan] •%c[ui_gray_1] 受委托的军方潜行者, 被期望能在最危险的区域独自生存很长一段时间, 令人惊讶的是, 他们只满足于25%的撕裂保护能力, 但当任务需要时, 他们会超过他们的特种部队兄弟.\n \n \n</text>
+	</string>
+	<string id="ui_inv_power_restore">
+		<text>体力恢复\n \n%c[ui_gray_1]首先, 让我们来了解一些基本知识:\n \n%c[d_cyan] •%c[ui_gray_1] 你不是一头驮骡子, 你耐力的关键是管理你的物品重量这是事实.\n%c[d_cyan] •%c[ui_gray_1] 高耐力恢复使它更容易冲刺长距离, 逃离重力变异点, 跨越一个又一个障碍, 甚至抵抗一些超自然现象, 如心灵遥感.\n%c[d_cyan] •%c[ui_gray_1] 耐力恢复不好, 即使是轻微的步行也会让你精疲力竭.当耐力储备下降过低时, 就不可能开始冲刺. 当他们空了, 就不可能再走了. 更好的耐力恢复意味着你会更慢地耗尽你的储备, 更快地填补它们.\n \n%c[ui_gray_1]当一枚手榴弹在你身边落起, 或者一群狗决定追你的时候, 你不想失去耐力, 保持你的耐力恢复高是很重要的.\n \n%c[d_cyan] •%c[ui_gray_1] 最基本的方法就是确保你的饮食、休息和水分充足.这三件事已经意味着生与死的差别.\n%c[d_cyan] •%c[ui_gray_1] 其次, 要注意你的体重. 如果你的负重超过了总负重的50%, 你可能会注意到你的恢复速度有点慢. 当您接近最大容量时, 这种效果会变得更加明显. 如果你的负重超过了你的最大负荷, 所有消耗体力的动作 - 包括走路 - 都会明显加快消耗体力的速度.\n%c[d_cyan] •%c[ui_gray_1] 装备更高质量的背包, 或者穿着赋予比他们更多承载能力的盔甲, 让自己携带更多的设备, 而不影响你的耐力恢复.\n%c[d_cyan] •%c[ui_gray_1] 除非经过特别改装, 大多数防毒面具都会让呼吸变得又热又出汗.当你不需要你的头盔的保护性质时, 摘下它来做一个小的耐力恢复提升.\n%c[d_cyan] •%c[ui_gray_1] 许多神器和腰带上的物品可以进一步提高你的恢复率.\n%c[d_cyan] •%c[ui_gray_1] 可以增加负重或恢复力的消耗品, 如大力神或能量饮料, 对于逃避紧急情况是无价的.\n \n \n</text>
+	</string>
+	<string id="st_ui_bleeding_sensor">
+		<text>流血中\n \n%c[ui_gray_1]如果不及时治疗, 出血会迅速耗尽你的健康. 流血最常见的原因是穿刺或砍伤, 这些攻击会穿透你的盔甲, 刺穿你的皮肤, 另外多次的钝器创伤也会导致流血, 即使你穿着是最坚固的衣服.\n \n%c[ui_gray_1]绷带、军用医疗包或止血带可以有效地止血, 而长春花等凝血剂可以用来降低总出血率. 请注意, 直接止血通常比恢复你的生命值更快更便宜. 最后, 要注意出血是累积的: 多个小伤口所导致的失血量与单个严重伤口所导致的失血量相同.\n \n%c[d_cyan] • %c[0,255,255,255]轻微的出血可以用绷带迅速止血, 甚至可以在特定时间自行止血.\n%c[d_cyan] • %c[0,250,250,0]如果不及时处理, 中度出血会造成大量的损伤, 但通常在适当的医疗护理下很快就会停止. 有些伤口会自己愈合, 但有些伤口会在几分钟内慢慢死亡.\n%c[d_cyan] • %c[d_orange] 如果不立即治疗, 严重的失血会在一分钟内导致死亡. 没有立即的医疗护理, 存活的机会很小.\n%c[d_cyan] • %c[d_red] 严重失血可以在几秒内死亡, 即使你身体状态处于巅峰. 可能需要大量的医疗用品在现场治疗.\n \n \n</text>
+	</string>
+	<string id="st_ui_health_sensor_inv">
+		<text>健康\n \n%c[ui_gray_1]你的健康代表你身体承受身体疾病和创伤的能力. 满栏意味着你处于高峰状态, 而几乎空栏意味着你即将陷入休克. 从那开始, 你就像死了一样, 小心行事. \n \n%c[ui_gray_1]护甲, 以及一些药物, 可以保护你免受不同种类的疼痛, 使它更容易忍受. 一些物品, 如药包或兴奋剂, 完全减轻疼痛, 治疗你的受伤和恢复你的健康.\n \n%c[ui_gray_1]然而, 即使是最好的保护也比直接避免损害更糟糕, 你可以通过雇用同伴、掩护、伪装、潜行和注意你的环境来做到这一点. 在特异区, 最直接的路线并不总是最安全的.\n \n%c[ui_gray_1]你生存的另一个重要因素是保持水分充足、营养充足和休息良好: 换句话说, 照顾好自己.一个受到良好照顾的身体比一个营养不良、脱水或精疲力竭的人更容易应付疼痛.\n \n也就是说, 在特异区的生活从来不是没有危险的, 可以这样总结: 带着宝藏回到外面的世界固然好! 这样的同时没有疤痕更好! 如果外出后回不来? 这就是命.\n \n%c[0,255,255,255]出血\n \n%c[ui_gray_1]当刺穿或砍伤攻击设法刺穿你的皮肤时, 出血就会发生, 另外多次的钝器创伤也会导致出血, 即使你穿着是最坚固的护甲.\n \n%c[d_cyan] • %c[0,255,255,255]轻微的出血可以用绷带迅速止血, 甚至可以在一定时间内自行止血, 特别是当你使用了像长春花这样的凝血剂的作用下.\n%c[d_cyan] • %c[0,250,250,0]如果不及时处理, 中度出血可能会造成很大的损伤, 但通常是通过适当的医疗护理, 如绑带, 迅速止血. 有些中等程度的出血会自行停止, 尤其是在使用长春花的时候, 但有些会在几分钟内导致缓慢死亡.\n%c[d_cyan] • %c[d_orange] 严重失血会在一分钟内导致死亡.如果没有立即的医疗救助(最好是军队或科学医疗包), 存活的机会就很小.\n%c[d_cyan] • %c[d_red] 严重的失血会在几秒内夺去你的生命, 即使你处于最佳的身体状态. 治疗时可能需要大量医疗用品.\n \n \n</text>
+	</string>
+	
+	<!-- Item description-->
+	<string id="st_cap_old">
+		<text>旧的</text>
+	</string>
+	<string id="st_cap_verybad">
+		<text>坏的</text>
+	</string>
+	
+	<string id="st_cap_upgr_1">
+		<text>(基础的)</text>
+	</string>
+	<string id="st_cap_upgr_2">
+		<text>(进阶的)</text>
+	</string>
+	<string id="st_cap_upgr_3">
+		<text>(精校的)</text>
+	</string>
+	
+	<string id="st_cap_meal_1">
+		<text>(特异区特产)</text>
+	</string>
+	<string id="st_cap_meal_2">
+		<text>(煮过)</text>
+	</string>
+	<string id="st_cap_meal_3">
+		<text>(无害)</text>
+	</string>
+	
+	<string id="st_cap_con_25_o">
+		<text>撕裂</text>
+	</string>
+	<string id="st_cap_con_50_o">
+		<text>损坏</text>
+	</string>
+	<string id="st_cap_con_75_o">
+		<text>划坏</text>
+	</string>
+	<string id="st_cap_con_100_o">
+		<text>完好</text>
+	</string>
+	<string id="st_cap_con_25_w">
+		<text>变形</text>
+	</string>
+	<string id="st_cap_con_50_w">
+		<text>损坏</text>
+	</string>
+	<string id="st_cap_con_75_w">
+		<text>划坏</text>
+	</string>
+	<string id="st_cap_con_100_w">
+		<text>完好</text>
+	</string>
+
+	<string id="st_ui_armor_static">
+		<text>护甲状态</text>
+	</string>
+	<string id="st_weight">
+		<text>重量.</text>
+	</string>
+	<string id="st_weight_full">
+		<text>重量</text>
+	</string>
+	<string id="ui_ammo_count">
+		<text>弹匣容量</text>
+	</string>
+	<string id="ui_inv_accuracy">
+		<text>精度</text>
+	</string>
+	<string id="ui_inv_damage">
+		<text>伤害</text>
+	</string>
+	<string id="ui_inv_handling">
+		<text>操控性</text>
+	</string>
+	
+	<string id="ui_inv_health">
+		<text>生命恢复</text>
+	</string>
+	<string id="ui_inv_power">
+		<text>耐力恢复</text>
+	</string>
+	
+	<string id="ui_inv_outfit_additional_weight">
+		<text>负重提升</text>
+	</string>
+	<string id="ui_inv_outfit_artefact_count">
+		<text>腰带槽位</text>
+	</string>
+	<string id="ui_inv_outfit_burn_protection">
+		<text>灼烧保护</text>
+	</string>
+	<string id="ui_inv_outfit_chemical_burn_protection">
+		<text>化学保护</text>
+	</string>
+	<string id="ui_inv_outfit_fire_wound_protection">
+		<text>防弹性能</text>
+	</string>
+	<string id="ui_inv_outfit_radiation_protection">
+		<text>辐射保护</text>
+	</string>
+	<string id="ui_inv_outfit_shock_protection">
+		<text>电击保护</text>
+	</string>
+	<string id="ui_inv_outfit_telepatic_protection">
+		<text>psy保护</text>
+	</string>
+	<string id="ui_inv_outfit_wound_protection">
+		<text>撕裂保护</text>
+	</string>
+	<string id="ui_inv_outfit_explosion_protection">
+		<text>爆炸保护</text>
+	</string>
+	<string id="ui_inv_outfit_strike_protection">
+		<text>冲击保护</text>
+	</string>
+	<string id="ui_inv_outfit_hit_fraction_actor">
+		<text>力量</text>
+	</string>
+	
+	<string id="ui_inv_satiety">
+		<text>饱腹度</text>
+	</string>
+	<string id="ui_inv_outfit_power_restore">
+		<text>耐力恢复</text>
+	</string>
+	<string id="ui_inv_weight">
+		<text>最大负重</text>
+	</string>
+	<string id="ui_inv_af_condition">
+		<text>效率</text>
+	</string>
+	<string id="ui_total_weight">
+		<text>总重量:</text>
+	</string>
+	<string id="st_ui_health_sensor">
+		<text>健康值</text>
+	</string>
+	<string id="ui_ammo_types">
+		<text>弹药种类</text>
+	</string>
+	<string id="ui_inv_effect_time">
+		<text>持续时间</text>
+	</string>
+	
+	<string id="st_itm_desc_properties">
+		<text>属性</text>
+	</string>
+	<string id="st_itm_desc_details">
+		<text>详情</text>
+	</string>
+	<string id="st_itm_desc_warning">
+		<text>警告</text>
+	</string>
+	
+	<string id="st_itm_desc_state_possible">
+		<text>可以</text>
+	</string>
+	<string id="st_itm_desc_state_not_possible">
+		<text>不能</text>
+	</string>
+	<string id="st_itm_desc_state_avail">
+		<text>已有</text>
+	</string>
+	<string id="st_itm_desc_state_avail_workshop">
+		<text>可用 (技师)</text>
+	</string>
+	<string id="st_itm_desc_state_not_avail">
+		<text>不可用</text>
+	</string>
+	<string id="st_itm_desc_state_not_included">
+		<text>没有</text>
+	</string>
+	<string id="st_itm_desc_state_low">
+		<text>低</text>
+	</string>
+	<string id="st_itm_desc_state_average">
+		<text>中</text>
+	</string>
+	<string id="st_itm_desc_state_high">
+		<text>高</text>
+	</string>
+	<string id="st_itm_desc_state_slight">
+		<text>小幅度</text>
+	</string>
+	<string id="st_itm_desc_state_moderate">
+		<text>中幅度</text>
+	</string>
+	<string id="st_itm_desc_state_significant">
+		<text>大幅度</text>
+	</string>
+	<string id="st_itm_desc_state_increase">
+		<text>上升</text>
+	</string>
+	<string id="st_itm_desc_state_decrease">
+		<text>降低</text>
+	</string>
+	
+	<string id="st_itm_desc_arty_cont">
+		<text>装有神器</text>
+	</string>
+	<string id="st_itm_desc_arty_cont_rad">
+		<text>可承受的辐射水平</text>
+	</string>
+	
+	<string id="st_itm_desc_eat_sleepiness">
+		<text>%s导致睡意%s</text>
+	</string>
+	<string id="st_itm_desc_eat_thirst">
+		<text>%s导致口渴度%s</text>
+	</string>
+	<string id="st_itm_desc_eat_radiation">
+		<text>辐射污染</text>
+	</string>
+	<string id="st_itm_desc_eat_health">
+		<text>不利于健康</text>
+	</string>
+	
+	<string id="st_itm_desc_outfit_upgradable">
+		<text>可升级</text>
+	</string>
+	<string id="st_itm_desc_outfit_heardgear">
+		<text>头部护具</text>
+	</string>
+	<string id="st_itm_desc_outfit_num_of_slots">
+		<text>神器插槽</text>
+	</string>
+	<string id="st_itm_desc_outfit_carry_weight">
+		<text>负重</text>
+	</string>
+	<string id="st_itm_desc_outfit_run">
+		<text>能否疾跑</text>
+	</string>
+	<string id="st_itm_desc_outfit_patch_torn">
+		<text>%s已经被撕下</text>
+	</string>
+	<string id="st_itm_desc_outfit_faction">
+		<text>派系</text>
+	</string>
+	
+	<string id="st_itm_desc_outfit_repair_bonus">
+		<text>辅助维修增益</text>
+	</string>
+	<string id="st_itm_desc_outfit_required_tool">
+		<text>需要工具</text>
+	</string>
+	
+	<string id="st_itm_desc_workshop_tool">
+		<text>能在技师工作台上用于替换部件和进行升级</text>
+	</string>
+	<string id="st_itm_desc_repair_min_con">
+		<text>在这个状态等级以下不可使用</text>
+	</string>
+	<string id="st_itm_desc_repair_base_con">
+		<text>基础修复提升</text>
+	</string>
+	<string id="st_itm_desc_repair_match">
+		<text>可用对应的物品来修复材料</text>
+	</string>
+	
+	<string id="st_itm_desc_part_usable">
+		<text>可在工作台上用于替换部件</text>
+	</string>
+	<string id="st_itm_desc_part_i">
+		<text>基本组件</text>
+	</string>
+	<string id="st_itm_desc_part_w">
+		<text>武器组件</text>
+	</string>
+	<string id="st_itm_desc_part_o">
+		<text>护甲组件</text>
+	</string>
+	
+	<string id="st_itm_desc_upgr_w">
+		<text>武器升级套件</text>
+	</string>
+	<string id="st_itm_desc_upgr_o">
+		<text>护甲升级套件</text>
+	</string>
+	<string id="st_itm_desc_upgr_usable">
+		<text>于工作台进行相应的升级时使用</text>
+	</string>
+
+<!-- Others -->
+	<string id="ui_inv_ammo_pistol">
+		<text>为手枪购买基本弹药 (Q)</text>
+	</string>
+	<string id="ui_inv_ammo_rifle">
+		<text>购买步枪弹药 (W)</text>
+	</string>
+	<string id="ui_inv_bleeding">
+		<text>控制出血</text>
+	</string>
+	<string id="ui_inv_cancel">
+		<text>取消</text>
+	</string>
+	<string id="ui_inv_cant_buy_item">
+		<text>不能买武器</text>
+	</string>
+	<string id="ui_inv_count_restr">
+		<text>数量限制</text>
+	</string>
+	<string id="ui_inv_default(F5)">
+		<text>默认 (F5)</text>
+	</string>
+	<string id="ui_inv_exit">
+		<text>离开</text>
+	</string>
+	<string id="ui_inv_granadelauncher_rifle">
+		<text>为步枪购买枪管下榴弹发射器 (D)</text>
+	</string>
+	<string id="ui_inv_granades_rifle">
+		<text>购买枪管下榴弹发射器手榴弹 (E)</text>
+	</string>
+	<string id="ui_inv_has">
+		<text>目前</text>
+	</string>
+	<string id="ui_inv_heavy_weapons">
+		<text>重</text>
+	</string>
+	<string id="ui_inv_last_buy">
+		<text>购买上次购买果的装备</text>
+	</string>
+	<string id="ui_inv_last_buy(F4)">
+		<text>购买上次购买果的装备 (F4)</text>
+	</string>
+	<string id="ui_inv_money">
+		<text>钱</text>
+	</string>
+	<string id="ui_inv_need">
+		<text>需要</text>
+	</string>
+	<string id="ui_inv_needs">
+		<text>需要</text>
+	</string>
+	<string id="ui_inv_not_enought_money">
+		<text>不够钱</text>
+	</string>
+	<string id="ui_inv_ok">
+		<text>OK</text>
+	</string>
+	<string id="ui_inv_preset1(F1)">
+		<text>预设装备 1 (F1)</text>
+	</string>
+	<string id="ui_inv_preset2(F2)">
+		<text>预设装备 2 (F2)</text>
+	</string>
+	<string id="ui_inv_preset3(F3)">
+		<text>预设装备 3 (F3)</text>
+	</string>
+	<string id="ui_inv_radiation">
+		<text>辐射</text>
+	</string>
+	<string id="ui_inv_rank_restr">
+		<text>排名限制</text>
+	</string>
+	<string id="ui_inv_rate_of_fire">
+		<text>射速</text>
+	</string>
+	<string id="ui_inv_reset_items(C)">
+		<text>清空 (C)</text>
+	</string>
+	<string id="ui_inv_rifles">
+		<text>突击步枪</text>
+	</string>
+	<string id="ui_inv_scope_rifle">
+		<text>购买步枪光学镜 (S)</text>
+	</string>
+	<string id="ui_inv_sell_items(X)">
+		<text>出售背包中的所有物品 (X)</text>
+	</string>
+	<string id="ui_inv_shotguns">
+		<text>步枪</text>
+	</string>
+	<string id="ui_inv_silencer_pistol">
+		<text>为手枪购买消音器 (A)</text>
+	</string>
+	<string id="ui_inv_silencer_rifle">
+		<text>为步枪购买消音器 (F)</text>
+	</string>
+	<string id="ui_inv_sniper_rifles">
+		<text>狙击步枪</text>
+	</string>
+	<string id="ui_inv_time">
+		<text>时间</text>
+	</string>
+	<string id="ui_inv_you_already_have">
+		<text>已经有了</text>
+	</string>
+	<string id="ui_st_err_gs_not_available">
+		<text>线上 S.T.A.L.K.E.R. 服务不可访问.</text>
+	</string>
+	<string id="ui_st_err_sb_master_server_conn_fail">
+		<text>无法连接到主服务器.</text>
+	</string>
+	<string id="ui_st_outfit_protect">
+		<text>防护:</text>
+	</string>
+	<string id="ui_st_preset_def">
+		<text>预设默认</text>
+	</string>
+	<string id="ui_st_preset_stored_to">
+		<text>装备保存为预设</text>
+	</string>
+	<string id="ui_inv_survive_surge">
+		<text>让你在风暴中幸存</text>
+	</string>
+	<string id="st_ui_containers">
+		<text>容器</text>
+	</string>
+	<string id="st_ui_artifacts">
+		<text>神器</text>
+	</string>
+	<string id="st_ui_itm_repair_base">
+		<text>损坏的物品</text>
+	</string>
+	<string id="st_ui_itm_repair_support">
+		<text>支持的材料</text>
+	</string>
+	<string id="st_ui_itm_cook_fuel">
+		<text>燃料</text>
+	</string>
+	<string id="st_ui_itm_cook_food">
+		<text>食谱</text>
+	</string>
+	<string id="st_ui_repair">
+		<text>修理</text>
+	</string>
+	<string id="st_ui_craft">
+		<text>制作</text>
+	</string>
+	<string id="st_ui_cancel">
+		<text>取消</text>
+	</string>
+	<string id="st_ui_total">
+		<text>总数</text>
+	</string>
+	<string id="st_ui_bonus">
+		<text>奖励</text>
+	</string>
+	<string id="st_ui_base">
+		<text>基本</text>
+	</string>
+	<string id="st_ui_oldcon">
+		<text>破旧</text>
+	</string>
+	
+	<!-- Messages -->
+	<string id="st_news_dis_items">
+		<text>%c[d_red]需要一个适当的拆卸工具.</text>
+	</string>
+	<string id="st_ui_need_charger">
+		<text>%s需要进行电力</text>
+	</string>
+	<string id="st_new_anomaly_map">
+		<text>找到了新的特异点地图</text>
+	</string>
+	<string id="ui_st_create_stash">
+		<text>创造藏匿点</text>
+	</string>
+	<string id="ui_st_geiger_mode_1">
+		<text>模式 1: 手持模式</text>
+	</string>
+	<string id="ui_st_geiger_mode_2">
+		<text>模式 2: 持续模式</text>
+	</string>
+	<string id="ui_st_geiger_mode_3">
+		<text>模式 3: 按键模式</text>
+	</string>
+	<string id="ui_st_npc_pda_unkown">
+		<text>PDA 用不了</text>
+	</string>
+	<string id="ui_st_npc_pda_low_power">
+		<text>低电量</text>
+	</string>
+	<string id="ui_st_npc_pda_access_denied">
+		<text>访问被拒绝</text>
+	</string>
+	<string id="ui_st_npc_pda_strelok">
+		<text>杀死史特列洛克</text>
+	</string>
+	<string id="ui_st_battery_more_power">
+		<text>这个装置功率更大</text>
+	</string>
+	<string id="st_lamp_disconnected">
+		<text>头灯被断开</text>
+	</string>
+	<string id="st_lamp_equipped">
+		<text>头灯已装备</text>
+	</string>
+	<string id="st_lamp_power_left">
+		<text>头灯还剩%s% 的电量</text>
+	</string>
+	<string id="st_lamp_no_power_left">
+		<text>头灯没电了</text>
+	</string>
+	<string id="st_upd_disconnected">
+		<text>你没有通用电源设备 (UPD)</text>
+	</string>
+	<string id="st_upd_low">
+		<text>电池电量低</text>
+	</string>
+	<string id="st_pda_no_power">
+		<text>PDA 没电了</text>
+	</string>
+	<string id="st_pda_no_active">
+		<text>没有正在使用的 PDA</text>
+	</string>
+	
+	<string id="st_ui_scopes">
+		<text>瞄准镜</text>
+	</string>
+	<string id="st_ui_silencer">
+		<text>消音器</text>
+	</string>
+	<string id="st_ui_grenade_launcher">
+		<text>榴弹发射器</text>
+	</string>
+	<string id="st_ui_awr_parts_list">
+		<text>替换件</text>
+	</string>
+	<string id="st_ui_repair_kit_list">
+		<text>兼容维修套件</text>
+	</string>
+	<string id="st_ui_workshop_kit_list">
+		<text>兼容工作台工具</text>
+	</string>
+	<string id="st_ui_disassemly_list">
+		<text>组件</text>
+	</string>
+	<string id="st_ui_upgrade_list">
+		<text>升级</text>
+	</string>
+	<string id="st_ui_arty_rank">
+		<text>神器等级</text>
+	</string>
+	<string id="st_ui_artefact">
+		<text>神器</text>
+	</string>
+	<string id="st_ui_repair_add_condition">
+		<text>基础维修提升</text>
+	</string>
+	<string id="st_ui_repair_min_condition">
+		<text>低于此状态等级时不可使用</text>
+	</string>
+	<string id="st_ui_repair_bonus">
+		<text>维修增益</text>
+	</string>
+	<string id="st_ui_power_loss">
+		<text>电量流失</text>
+	</string>
+	<string id="st_ui_number_of_uses">
+		<text>可使用次数</text>
+	</string>
+	<string id="st_ui_repair_parts_include">
+		<text>可用的材料</text>
+	</string>
+	<string id="st_ui_power">
+		<text>电量</text>
+	</string>
+	<string id="st_ui_amount">
+		<text>总计</text>
+	</string>
+	<string id="st_ui_power_consumption">
+		<text>耗电速度</text>
+	</string>
+	<string id="st_ui_info">
+		<text>信息</text>
+	</string>
+	<string id="st_ui_inventory_unpack">
+		<text>打开</text>
+	</string>
+	<string id="st_ui_inventory_attach">
+		<text>加上</text>
+	</string>
+	<string id="st_ui_inventory_view">
+		<text>查看</text>
+	</string>
+	<string id="st_ui_container_remove">
+		<text>从容器中移除</text>
+	</string>
+	<string id="st_ui_container_place">
+		<text>放入容器</text>
+	</string>
+	<string id="st_imm_swiss_open">
+		<text>开罐</text>
+	</string>
+	<string id="st_item_place">
+		<text>放置</text>
+	</string>
+	<string id="st_cap_companion_inv">
+		<text>交换物品</text>
+	</string>
+	<string id="st_ui_cook_fuel_usable">
+		<text>可用的燃料</text>
+	</string>
+	
+
+	<!-- Workshop-->
+	<string id="st_tab_state">
+		<text>工具</text>
+	</string>
+	<string id="st_tab_repair">
+		<text>修理</text>
+	</string>
+	<string id="st_tab_upgrade">
+		<text>升级</text>
+	</string>
+	<string id="st_tab_craft">
+		<text>制作</text>
+	</string>
+	<string id="st_cap_inventory">
+		<text>物品单</text>
+	</string>
+	<string id="st_cap_menu">
+		<text>制作清单</text>
+	</string>
+	<string id="st_cap_recipes">
+		<text>已知的配方和教程</text>
+	</string>
+	<string id="st_cap_craftables">
+		<text>可制作物品列表</text>
+	</string>
+	<string id="st_cap_components">
+		<text>组件</text>
+	</string>
+	<string id="st_cap_result">
+		<text>成品</text>
+	</string>
+	<string id="st_cap_replace_parts">
+		<text>替换件</text>
+	</string>
+	<string id="st_cap_upgrades">
+		<text>升级</text>
+	</string>
+	<string id="st_cap_req_toolkit">
+		<text>需要的工具箱</text>
+	</string>
+	<string id="st_ui_craft_device">
+		<text>电子设备</text>
+	</string>
+	<string id="st_ui_craft_equipment">
+		<text>装备</text>
+	</string>
+	<string id="st_ui_craft_repair">
+		<text>修理工具箱</text>
+	</string>
+	<string id="st_ui_craft_upgrades">
+		<text>升级部件</text>
+	</string>
+	<string id="st_ui_craft_medical">
+		<text>医疗</text>
+	</string>
+	<string id="st_ui_craft_ammo">
+		<text>弹药</text>
+	</string>
+	
+	<string id="st_ui_workshop_info_state_intro">
+		<text>车间允许您在适当的工具包的帮助下自己修理、升级和制作物品.
+		\n上面所示的工具是本车间可用的主要工具, 允许对您的物品进行进一步的调整.
+		\n选择一个标签继续.
+		</text>
+	</string>
+	<string id="st_ui_workshop_owner">
+		<text>本车间属于%s.</text>
+	</string>
+	<string id="st_ui_workshop_owner_nobody">
+		<text>任何人</text>
+	</string>
+	
+	<string id="st_ui_workshop_info_repair_intro">
+		<text>你可以在相应工具的帮助下使用替换件来替换护甲或者武器上损坏的部件.
+		\n从你的库存中选择需要维修的物品.
+		</text>
+	</string>
+	<string id="st_ui_workshop_info_repair_tip_1">
+		<text>每个物品都有自己的部件与材料.
+		\n灰色的部件表示你身上没有相同的替换件.
+		\n如果你有替换件和可用的 "%s".点击需要更换的部件.
+		</text>
+	</string>
+	<string id="st_ui_workshop_info_repair_warning_1">
+		<text>你身上的物品中还没有可用于这个设备的替换件.</text>
+	</string>
+	<string id="st_ui_workshop_info_repair_solution_1">
+		<text>替换件主要来源于拆解武器和护甲.</text>
+	</string>
+	<string id="st_ui_workshop_info_repair_warning_2">
+		<text>没有这个设备你不能更换零件 "%s"</text>
+	</string>
+	<string id="st_ui_workshop_info_repair_solution_2">
+		<text>大多数技师都卖这种工具. 你也可以通过其他方式获得它们.</text>
+	</string>
+	<string id="st_ui_workshop_info_repair_tip_3">
+		<text>你可以选择相同的替换部件 "%s" 从你的背包.
+		\n只有条件较高的零件才能用来改进你的物品.
+		\n灰色的部分意味着他们的状况比你的物品的部分更糟. 它们不适合适当更换.
+		</text>
+	</string>
+	<string id="st_ui_workshop_info_repair_warning_3">
+		<text>你们库存中的替换部件 "%s" 比你们的设备使用的部件状况更糟. 不能使用.</text>
+	</string>
+	<string id="st_ui_workshop_info_repair_solution_3">
+		<text>许多工具可以使用相应的工具来修复这些部件. 大多数技师都卖这种工具. 你也可以通过其他方式获得它们.</text>
+	</string>
+	<string id="st_ui_workshop_info_repair_tip_4">
+		<text>更换部件已准备好安装, 单击"修复"按钮安装选定的替换.
+		</text>
+	</string>
+	
+	<string id="st_ui_workshop_info_upgrade_intro">
+		<text>拥有正确的工具包, 您可以为您的武器和装备安装升级.
+		\n从库存中选择要升级的项目.
+		</text>
+	</string>
+	<string id="st_ui_workshop_info_upgrade_tip_1">
+		<text>每次升级都需要相同类型的特定工具集, 以及可用的 "%s" 来完成升级过程.
+		\n为了正确安装升级, 还需要满足其他条件.
+		\n单击要在选定项上安装的升级.
+		\n如果升级被禁用, 将鼠标悬停在上面, 查看所有缺少的需求.
+		</text>
+	</string>
+	<string id="st_ui_workshop_info_upgrade_warning_1">
+		<text>您不能在没有此设备的情况下安装升级 "%s"</text>
+	</string>
+	<string id="st_ui_workshop_info_upgrade_solution_1">
+		<text>大多数技师都卖这种工具.你也可以通过其他方式获得它们.</text>
+	</string>
+	<string id="st_ui_workshop_info_upgrade_warning_2">
+		<text>没有可用的升级要安装.</text>
+	</string>
+	<string id="st_ui_workshop_info_upgrade_solution_2">
+		<text>停留在升级上, 以查看缺少的需求.</text>
+	</string>
+	<string id="st_ui_workshop_info_upgrade_tip_3">
+		<text>升级准备安装. 如果您完成了, 请单击"升级"按钮安装选定的升级.</text>
+	</string>
+	
+	<string id="st_ui_workshop_info_craft_intro">
+		<text>许多材料可以用来制作各种物品.
+		\n您通过您的旅程获得的食谱和指南可以为您提供更多的信息, 以制作更多的项目.
+		\n从制作菜单中选择一个条目以查看可制作的物品.
+		</text>
+	</string>
+	<string id="st_ui_workshop_info_craft_tip_1">
+		<text>选择要制作的项目.</text>
+	</string>
+	<string id="st_ui_workshop_info_craft_warning_2">
+		<text>你还不知道如何制作 "%s" .</text>
+	</string>
+	<string id="st_ui_workshop_info_craft_solution_2">
+		<text>指南书和食谱有足够的关于物品的信息, 它们将有助于更多地了解这些物品.</text>
+	</string>
+	<string id="st_ui_workshop_info_craft_warning_3">
+		<text>"%s" 需要使用其组件制作此物品(仅适用于玩家或技师)</text>
+	</string>
+	<string id="st_ui_workshop_info_craft_solution_3">
+		<text>这样的工具通常很少见, 在你的旅途中要注意这些工具.</text>
+	</string>
+	<string id="st_ui_workshop_info_craft_warning_4">
+		<text>您的库存缺乏一些必要的组件来制作这个项目.</text>
+	</string>
+	<string id="st_ui_workshop_info_craft_solution_4">
+		<text>组件可以从你周围的不同物品和材料中获得. 建议您拆卸不需要的物品, 以获得有用的组件.</text>
+	</string>
+	<string id="st_ui_workshop_info_craft_tip_5">
+		<text>你有所有必要的组件来制作 "%s", 如果您想继续, 请选择"制作"按钮.
+		</text>
+	</string>
+	
+	<string id="st_ui_workshop_info_state_1">
+		<text>工作台允许您在适当的工具包的帮助下自己修理、升级和制作物品.
+		上面显示的工具代表了本车间可用的主要工具包, 这些工具包允许对您的项目进行进一步调整.
+		\n选择一个标签继续.
+		</text>
+	</string>
+	
+	<string id="st_ui_workshop_info_repair_1">
+		<text>您可以通过使用替换部件和适当的工具包来替换武器或装备的损坏部件.
+		\n从您的库存中选择要修复的项目.
+		</text>
+	</string>
+	<string id="st_ui_workshop_info_repair_2">
+		<text>每个项目都有自己的零件和材料
+		\n灰色部件表示在您的库存中缺乏相同的替换.
+		\n如果你有替换部分和可用的 "%s" 在您拥有的情况下, 单击您希望替换的部分.
+		</text>
+	</string>
+	<string id="st_ui_workshop_info_repair_3">
+		<text>你可以从你的库存中挑选相同的替换部件.
+		\n只有条件较高的零件才能用来改进你的物品.
+		\n灰色的部分意味着他们的状况比你的物品的部分更糟. 它们不适合适当更换.
+		</text>
+	</string>
+	<string id="st_ui_workshop_info_repair_4">
+		<text>更换部件已准备好安装, 单击"修复"按钮安装选定的替换.
+		</text>
+	</string>
+	
+	<string id="st_ui_workshop_info_upgr_1">
+		<text>拥有正确的工具包, 您可以为您的武器和装备安装升级.
+		\n从库存中选择要升级的项目.
+		</text>
+	</string>
+	<string id="st_ui_workshop_info_upgr_2">
+		<text>除了可用之外, 每次升级都需要相同类型的特定工具集 "%s" 来完成这个过程.
+		\n需要满足其他条件才能正确安装升级.
+		\n单击要安装在所选项目上的升级.
+		\n如果升级被禁用, 将鼠标悬停在上面, 查看所有缺少的需求.
+		</text>
+	</string>
+	<string id="st_ui_workshop_info_upgr_3">
+		<text>升级准备安装. 如果您完成了, 请单击"升级"按钮安装选定的升级.</text>
+	</string>
+	
+	<string id="st_ui_workshop_info_craft_1">
+		<text>许多材料可以用来制作各种物品.
+		\n您通过您的旅程获得的食谱和指南可以为您提供更多的信息, 以制作更多的项目.
+		\n从工艺菜单中选择一个条目来查看可加工的项目.
+		</text>
+	</string>
+	<string id="st_ui_workshop_info_craft_2">
+		<text>选择要制作的项目.</text>
+	</string>
+	<string id="st_ui_workshop_info_craft_3">
+		<text>要制作此项目, 需要一组指定的组件.
+		\n当你没有一些组件的最小数量时, 它将以红色显示. 从而阻止了制作过程.
+		</text>
+	</string>
+	<string id="st_ui_workshop_info_craft_4">
+		<text>你有所有必要的组件来制作这个项目, 如果你想继续, 请选择"制作"按钮.
+		</text>
+	</string>
+	<string id="st_ui_workshop_info_craft_5">
+		<text>你不知道怎么制作这种东西.</text>
+	</string>
+	<string id="st_ui_workshop_info_craft_6">
+		<text>"%s" 是这个车间所要求的, 所以你可以制作这个项目.
+		</text>
+	</string>
+	
+	<string id="st_ui_workshop_no_upgr_1">
+		<text>"%s" 需要安装此升级.</text>
+	</string>
+	<string id="st_ui_workshop_no_upgr_2">
+		<text>"%s" 需要安装此升级.</text>
+	</string>
+	<!--string id="st_ui_workshop_no_upgr_3">
+		<text>这项物品的状态对于升级.</text>
+	</string-->
+	<string id="st_ui_workshop_no_upgr_3">
+		<text>本工作台缺少安装此升级所需的工具.</text>
+	</string>
+	<string id="st_ui_workshop_no_upgr_4">
+		<text>在这个插槽中已经安装了一个替代升级.</text>
+	</string>
+	<string id="st_ui_workshop_no_upgr_5">
+		<text>如果不安装前一个升级, 则不可能安装此升级.</text>
+	</string>
+	
+	<string id="st_ui_upgr_required_con">
+		<text>最低状态要求</text>
+	</string>
+
+</string_table>
