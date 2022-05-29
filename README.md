@@ -9,7 +9,7 @@ GAMMA TRANSLATION
 <li>对人名和地名做了统一</li>
 <li>调整了原版汉化的部分文本行距</li>
 <li>对字库进行补充, 基本解决了原版汉化缺字问题</li>
-<p>
+<p><p>
 汉化者: <p>
 Yuzuke<p>
 天狼sky<p>
