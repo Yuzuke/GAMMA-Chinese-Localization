@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   New Artefacts
+  咩=酵  暨=颅 脒=嗜
 -->
 <string_table>
   <string id="st_pba_af_cocoon_perk">
@@ -211,7 +212,7 @@
           %c[0,192,71,221] -   野猪: 获得25%近战减伤
           %c[0,192,71,221] -   盲犬: 略微提升流血抗性, 每秒1%心灵恢复
           %c[0,192,71,221] -   疯犬: 每秒2%心灵恢复, 获得25%心灵伤害抗性
-          %c[0,192,71,221] -   嗜血猎手: 中等提升流血抗性并获得隐身, 直到进行攻击动作
+          %c[0,192,71,221] -   脒血猎手: 中等提升流血抗性并获得隐身, 直到进行攻击动作
           %c[0,192,71,221] -   心灵猎手: 每秒5%心灵恢复并获得隐身, 直到进行攻击工作
           %c[0,192,71,221] -   史诺克: 获得50%辐射减伤, 每秒5%体力恢复, 每秒5%毫西弗辐射治愈, 大幅降低饱腹度
           %c[0,192,71,221] -   奇美拉: 每秒2%生命恢复, 每秒10%体力恢复, 获得33%辐射减伤
@@ -237,19 +238,19 @@
   </string>
   <string id="st_pba_af_kogot_perk">
     <text>
-    %c[0,209,172,56]异能: %c[d_orange]Bloodlust\n
-    %c[0,209,172,56] • 10% Increase of melee damage.\n
-    %c[0,209,172,56] • Vampire effect: 3.5% of new melee damage is converted to player's health.\n
-    %c[0,209,172,56] • Upon killing certain mutants spawns raw chunk of meat near him.\n
-    %c[0,209,172,56] • Stacks with multiple artefacts.</text>
+    %c[0,209,172,56]异能: %c[d_orange]脒血天性\n
+    %c[0,209,172,56] • 增加10%近战伤害
+    %c[0,209,172,56] • 获得近战吸血特效, 3.5%的近战伤害会转化为生命值
+    %c[0,209,172,56] • 杀死特定种类的变异生物会掉下可食用的肉块
+    %c[0,209,172,56] • 多个同类神器效果可叠加</text>
   </string>
   <string id="st_pba_af_dragon_eye_perk">
     <text>
-    %c[0,209,172,56]异能: %c[d_orange]Good ol' Ultra-Violence\n
-    %c[0,209,172,56] • 5% chance that the shot would be explosive.\n
-    %c[0,209,172,56] • Upon killing an npc or mutant with explosive shot it will explode violently.\n
-    %c[0,209,172,56] • Explosion spawn meaty gibs and hurts everyone in the radius.\n
-    %c[0,209,172,56] • User's discretion is advised.\n
-    %c[0,209,172,56] • Multiple artefacts increase the chance to explode.</text>
+    %c[0,209,172,56]异能: %c[d_orange]死亡引爆\n
+    %c[0,209,172,56] • 5%几率子弹会附加引爆效果
+    %c[0,209,172,56] • 如果有引爆效果的子弹刚好造成击杀, 就会引发剧烈爆炸
+    %c[0,209,172,56] • 爆炸会迸射出尸体碎块, 对周围生物造成伤害
+    %c[0,209,172,56] • 谨慎使用
+    %c[0,209,172,56] • 多个同类神器会增加引爆几率</text>
   </string>
 </string_table>

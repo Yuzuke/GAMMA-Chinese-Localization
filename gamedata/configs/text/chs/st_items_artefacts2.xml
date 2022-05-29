@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   New Artefacts
-  咩=酵  暨=颅
+  咩=酵  暨=颅 脒=嗜
 -->
 <string_table>
   <string id="st_af_cocoon_name">
@@ -59,7 +59,7 @@
     <text>一个形状奇特的神器, 它的水晶核心外形酷似人类的心脏, 自从有传言说这个神器能够使人起死回生, 所有人就开始想尽办法得到它, 有人想把它高价卖到境外, 也有人想用它来帮助自己在特异区生存\n</text>
   </string>
   <string id="st_af_chelust_name">
-    <text>神仆之链</text>
+    <text>神仆脚链</text>
   </string>
   <string id="st_af_chelust_descr">
     <text>一个奇特的链状神器, 当不触碰任何物体时会生成强大的力场, 尽管很重, 但却会略微减轻疲劳和伤痛. 传闻只有那些身心都献给黑石之主的奴仆们, 才会真正领略到这件神器的威能</text>
@@ -149,7 +149,7 @@
     <text>尽管看起来就是一个斑驳的石球, 但却很轻, 并有着难以置信的弹性. 常见于电系异常点. 神器周围似乎有着强大的力场, 能够感知迅速的运动, 并增幅输出的动能. 奇怪的是, 用变异怪兽当作目标效果拔群, 把人类作为目标对象却毫无反应\n</text>
   </string>
   <string id="st_af_fonar_name">
-    <text>磁性探灯</text>
+    <text>磁力探灯</text>
   </string>
   <string id="st_af_fonar_descr">
     <text>这种轻盈的玻璃神器会发出微弱的紫外光. 围绕着它的某种能量会对视觉细胞产生奇怪的影响, 能使肉眼看到特定波长的电磁波. 潜行者们喜欢用它在夜间搜索带有发信装置的藏物点\n</text>
@@ -194,35 +194,35 @@
     <text>巨蜥</text>
   </string>
   <string id="st_af_vaselisk_descr">
-    <text>虽然时不时能观察到它的一些有趣特性, 但基本都没什么太大实际作用. 一些科学家们还在持续地研究, 期待从中得到什么惊人的发现\n \n
+    <text>虽然时不时能观察到它的一些有趣特性, 但基本都没什么太大实际作用. 一些科学家们还在持续地研究, 期待从中得到什么惊人的发现\n
     %c[ui_gray_2]属性:\n
     %c[ui_cyan] %c[ui_gray_2] 惰性神器\n
     %c[d_cyan] %c[ui_gray_2] 交易品</text>
   </string>
   <string id="st_af_geliy_name">
-    <text>Helium</text>
+    <text>氦核</text>
   </string>
   <string id="st_af_geliy_descr">
-    <text>A bright (literally) representative of the family of electrostatic artefacts. It gives off a gaseous substance that has a beneficial effect on the body. Due to its high efficiency, it is in large demand.\n \n
-    %c[ui_gray_2]PROPERTIES:\n
-    %c[ui_cyan] %c[ui_gray_2] inert artefact\n
-    %c[d_cyan] %c[ui_gray_2] valuable</text>
+    <text>有着电系神器的明亮外观, 散发出的气体似乎能使人感到舒适. 因此商人对于它的需求量很大\n
+    %c[ui_gray_2]属性:\n
+    %c[ui_cyan] %c[ui_gray_2] 惰性神器
+    %c[d_cyan] %c[ui_gray_2] 交易品</text>
   </string>
   <string id="st_af_gimlet_name">
-    <text>Gimlet </text>
+    <text>鸡尾酒</text>
   </string>
   <string id="st_af_gimlet_descr">
-    <text>The bowl-shaped petals of this artefact can release a powerful stimulant vapor which can alter the balance of human hormones. Of little use to stalkers, it is very much sought after for medical research. \n \n
-    %c[ui_gray_2]PROPERTIES:\n
-    %c[ui_cyan] %c[ui_gray_2] inert artefact\n
-    %c[d_cyan] %c[ui_gray_2] valuable</text>
+    <text>这件神器的花瓣状结构组成碗的形状, 散发出的气体可以改变人体内分泌, 可能有一些医学上的用途\n
+    %c[ui_gray_2]属性:\n
+    %c[ui_cyan] %c[ui_gray_2] 惰性神器\n
+    %c[d_cyan] %c[ui_gray_2] 交易品</text>
   </string>
   <string id="st_arty_save">
-    <text>Eye of the Noosphere</text>
+    <text>心灵之眼</text>
   </string>
   <string id="st_arty_save_descr">
-    <text>One of the most mysterious artefacts in the Zone, the Eye of the Noosphere can transport its wielder back in time, even to escape death. A tight squeeze of the artefact activates its ability, creating a restoration point to go back to on activation or death. Frequent use can cause the artefact to change colour, but if discharged too frequently it may cease to function altogether. The Eye gradually restores its power over time, supposedly being fuelled by the anomalous energy of the Zone.\n \n
-    %c[ui_gray_2]PROPERTIES:\n
-    %c[0,81,63,22] %c[0,255,215,0] superartefact</text>
+    <text>心灵之眼有着非常神奇的特性, 它能将使用者回溯到之前的某一时间点来避免死亡. 但频繁的使用会使它改变颜色, 也会暂时使其失效. 不过, 它会随着时间的流逝重新积累能量, 就好像是被充斥在特异区的异常能量所加持一般 \n
+    %c[ui_gray_2]属性:\n
+    %c[0,81,63,22] %c[0,255,215,0] 超能神器</text>
   </string>
 </string_table>
