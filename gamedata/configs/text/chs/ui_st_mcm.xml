@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+	Anomaly Mod Configuration Menu strings
+	
+-->
+
+<string_table>
+
+	<string id="ui_mcm_desc_mcm">
+		<text>欢迎使用异常mod设置菜单(MCM), MCM本身就是一个mod, 唯一的作用, 就是提供一个可以显示其他mod选项的UI平台.
+		\n在左边你可以看到所有利用MCM来进行设置的mod列表</text>
+	</string>
+	<string id="ui_mcm_desc_mcm2">
+		<text>如果MCM出现bug, 或是日志中提示ui_mcm.script出错, 则有可能是某个使用MCM的mod出错, 应该联系那个mod的作者</text>
+	</string>
+	<string id="ui_mm_menu_mcm">
+		<text>mod设置菜单</text>
+	</string>
+
+	<string id="ui_mcm_menu_mcm">
+		<text>MCM</text>
+	</string>
+	<string id="ui_mcm_menu_mcm_about">
+		<text>关于MCM</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_about_reset">
+		<text>重载所有菜单</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_about_reset_desc">
+		<text>勾选此选项并点击应用按钮, 会使MCM重新加载所有菜单, 此功能作为调试用途, 通常不应使用</text>
+	</string>
+
+
+	<string id="ui_mcm_menu_mcm_log">
+		<text>导出日志</text>
+	</string>
+	<string id="ui_mcm_mcm_desc_log">
+		<text>此功能专为modder提供, 用于将Xray引擎和游戏控制台的日志导出外部
+		\n 你对于系统卡顿和SSD读写循环的担心我表示充分理解, 因此我提供了一些方法来帮助你控制日志导出的机制
+		\n 日志会用生成它的代码文件来命名, 并加上MCM的会话ID, 并存放于appdata/logs/mcm/</text>
+	</string>
+
+	<string id="ui_mcm_mcm_mcm_log_enable">
+		<text>启用MCM日志功能</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_log_enable_desc">
+		<text>取消此选项会避免新的日志生成或更新.(需要注意此选项需要重新读取存档后才会生效)</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_log_numlogs">
+		<text>日志会话数量</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_log_numlogs_desc">
+		<text>当生成的日志数量超过了这个数量, 旧的日志会被移除 (需要注意如果游戏崩溃, 旧日志移除会失败)</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_log_continuous">
+		<text>允许持续写入文件</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_log_continuous_desc">
+		<text>日志文件通常会分批次更新, 这样会导致游戏崩溃时丢失一部分信息. 某些modder可能会要求你启用该选项以允许他的日志可以即时更新</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_log_savefreq">
+		<text>日志自动保存的间隔(以毫秒为单位)</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_log_savefreq_desc">
+		<text>无论此处设置什么值, 在进入各种UI界面, 保存/加载游戏时仍会保存日志</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_log_timestamp">
+		<text>Xray引擎日志时间戳频率</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_log_timestamp_desc">
+		<text>MCM会向Xray引擎生成的日志添加时间戳, 以便更轻松地协调两者之间的事件. 此选项控制这些时间戳最短间隔. 如果控制台没有其他内容正在输出则mcm也不会输出</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_log_debug_logging2">
+		<text>启用调试日志</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_log_debug_logging2_desc">
+		<text>这会启用MCM自己的调试日志, 在向MCM开发者报告BUG之前应该启用它. 其他的插件也可以用这个功能来启用他们自己的日志</text>
+	</string>
+
+
+	<string id="ui_mcm_menu_mcm_kb">
+		<text>MCM按键绑定</text>
+	</string>
+	<string id="ui_mcm_menu_mcm_kb_main">
+		<text>主要功能</text>
+	</string>
+
+	<string id="ui_mcm_mcm_desc_kb">
+		<text>MCM的键位绑定类似"我的世界"的模式: 点击框体, 然后按下想要绑定的按键. 按下ESC会取消绑定动作
+		\n如果框体中显示的按键与你按下的按键不同, 又或者某些按键被MCM忽略掉的情况, 可能需要编辑mcm_key_localization.ltx这个设置文件来正确映射你的键盘布局
+		\n如果绑定的按键与其他MCM按键冲突, 或者和游戏设定中的按键设置冲突的话, 就会被标记为红色</text>
+	</string>
+	<string id="ui_mcm_mcm_desc_kb2">
+		<text>关于按键标红的说明:
+		\n1. 或许没什么问题, 毕竟在不同的UI界面的不同操作很可能是同一个按键, 也有可能是和某个组合键之一冲突, 所以不会影响使用
+		\n2. 其他mod具体如何使用绑定的按键, MCM对此一无所知, 所以你自己需要判断到底标红的按键会不会影响使用
+		\n3. 如果有多个还未应用起效的键位, 按键冲突有时不会被正确标红, 可以在点击应用按钮后, 重新打开MCM来查看是否有键位标红</text>
+	</string>
+
+	<string id="ui_mcm_mcm_mcm_kb_mcm_kb_main_presstime">
+		<text>长按判定</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_kb_mcm_kb_main_presstime_desc">
+		<text>会被用于双击间隔判定, 以及决定一个按键需要保持按下的状态多久, 才会被算作长按. 只会对依靠MCM来判断长按的mod生效</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_kb_mcm_kb_main_dtaptime">
+		<text>双击间隔</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_kb_mcm_kb_main_dtaptime_desc">
+		<text>两次按键的间隔时间需要多久才会被认为是双击. 只会对依靠MCM来判断长按的mod生效. 这个间隔会影响某些单击事件的判定, 所以在可接受的范围内最好设置的低一些</text>
+	</string>
+
+	<string id="ui_mcm_menu_mcm_all_kb">
+		<text>所有按键</text>
+	</string>
+	<string id="ui_mcm_mcm_desc_kb_all">
+		<text>这个面板集合了所有MCM的按键绑定, 顺序和左边mod的排列顺序相同
+		\n这个面板不会包含mod中对这些按键行为方式的额外设置
+		\n确保已经查看过相关mod的设置界面, 和阅读插件文档, 来正确了解按键作用 </text>
+	</string>
+	<string id="ui_mcm_mcm_desc_kb_all2">
+		<text>其他面板上还未应用的绑定不会在此面板反映, 反之亦然
+		\n使用此面板前后务必应用变更, 否则会导致预料之外的后果
+		\n\n关于按键标红的说明: 
+		\n1. 或许没什么问题, 毕竟在不同的UI界面的不同操作很可能是同一个按键, 也有可能是和某个组合键之一冲突, 所以不会影响使用
+		\n2. 其他mod具体如何使用绑定的按键, MCM对此一无所知, 所以你自己需要判断到底标红的按键会不会影响使用
+		\n3. 如果有多个还未应用起效的键位, 按键冲突有时不会被正确标红, 可以在点击应用按钮后, 重新打开MCM来查看是否有键位标红</text>
+	</string>
+	<string id="ui_mcm_menu_mcm_kb_conflicts">
+		<text>键位冲突</text>
+	</string>
+	<string id="ui_mcm_mcm_desc_kb_conflicts">
+		<text>此面板集合了所有在MCM中有冲突的键位
+		\n如果一些键位在这里只出现了一次, 很可能是与游戏本身的按键设定冲突, 请去主菜单的设置中查看
+		\n这个面板不会包含mod中对这些按键行为方式的额外设置
+		\n确保已经查看过相关mod的设置界面, 和阅读插件文档, 来正确了解按键作用 </text>
+	</string>
+
+	
+	
+	<string id="ui_mcm_mcm_kb_modifier">
+		<text>组合键</text>
+	</string>
+	<string id="ui_mcm_mcm_kb_modifier_desc">
+		<text>上述按键只会在同时按下此键时才会生效</text>
+	</string>
+
+	<string id="ui_mcm_lst_mcm_kb_mod_none">
+		<text>没有组合键</text>
+	</string>
+	<string id="ui_mcm_lst_mcm_kb_mod_ctrl">
+		<text>Ctrl键</text>
+	</string>
+	<string id="ui_mcm_lst_mcm_kb_mod_shift">
+		<text>Shift键</text>
+	</string>
+	<string id="ui_mcm_lst_mcm_kb_mod_alt">
+		<text>Alt键</text>
+	</string>
+
+
+
+	
+	<string id="ui_mcm_mcm_kb_mode">
+		<text>输入模式</text>
+	</string>
+	<string id="ui_mcm_mcm_kb_mode_desc">
+		<text>上述按键只会在这样操作时才会生效</text>
+	</string>
+	
+	<string id="ui_mcm_lst_mcm_kb_mode_press">
+		<text>单击</text>
+	</string>
+	<string id="ui_mcm_lst_mcm_kb_mode_dtap">
+		<text>双击</text>
+	</string>
+	<string id="ui_mcm_lst_mcm_kb_mode_hold">
+		<text>长按</text>
+	</string>
+	
+
+
+
+
+
+</string_table>
+
+
