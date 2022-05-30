@@ -12,9 +12,9 @@
 		<text>
 			%c[pda_white]书虫%c[ui_gray_1] 需要解锁游戏指南中的所有文章.\n
 			\n%c[pda_green]情报%c[ui_gray_1]
-			\n文章可以通过多种方式解锁, 比如与重要人物对话或从U盘中下载数据.\n
+			\n文章可以通过多种方式解锁, 比如与重要人物对话或从U盘中下载数据
 			\n%c[pda_blue]奖励%c[ui_gray_1]
-			\n所有在潜行者尸体上找到的U盘, 都会被稀有PDA取代.\n
+			\n所有在潜行者尸体上找到的U盘, 都会被稀有PDA取代
 			\n如果在解锁该成就后添加额外的物品, 例如通过补丁或mod, 那么该效果将被暂时禁用, 以便再次获得闪存盘.
 		</text>
 	</string>
@@ -70,7 +70,7 @@
 	</string>
 	<string id="encyclopedia_achievements_heavy_pockets_text">
 		<text>
-			%c[pda_white]土豪%c[ui_gray_1] 需要你拥有1,000,000 RU.\n
+			%c[pda_white]土豪%c[ui_gray_1] 需要拥有一千万卢布\n
 			\n%c[pda_blue]奖励%c[ui_gray_1]
 			\n交易商乐于向你兜售更高级的装备, 即使你与交易商所属派系的关系还没那么好.
 		</text>
@@ -286,7 +286,7 @@
 	</string>
 	<string id="encyclopedia_achievements_murky_spirit_text">
 		<text>
-			%c[pda_white]幽灵%c[ui_gray_1] 需要你在铁人模式下完成三个"迷失地带"的故事情节.
+			%c[pda_white]幽灵%c[ui_gray_1] 需要你在铁人模式下完成三个"异域迷失"的故事情节.
 			\n \n%c[pda_green]情报%c[ui_gray_1]
 			\n此成就仅适用于故事模式.但最重要的是,整个游玩过程中必须激活铁人模式.
 		</text>
@@ -298,12 +298,12 @@
 	<string id="encyclopedia_achievements_invictus_text">
 		<text>
 			%c[pda_white]势不可挡%c[ui_gray_1] 需要你做不可能做到的事:
-			\n%c[d_red] • %c[ui_gray_1]在故事模式下, 完成"迷失地带"的三个故事情节
+			\n%c[d_red] • %c[ui_gray_1]在故事模式下, 完成"异域迷失"的三个故事情节
 			\n%c[d_red] • %c[ui_gray_1]铁人模式必须从第一天开始就在这个特异区活动, 直到你完成所有任务.
 			\n%c[d_red] • %c[ui_gray_1]在不改变任何设置的情况下, 玩最难的游戏和生存难度.
 			\n%c[d_red] • %c[ui_gray_1]在游玩过程中不要死过俩次
 			\n%c[d_red] • %c[ui_gray_1]永远不要使用调试模式.
-			\n \n现在你可以去吹牛逼了.
+			\n 现在你可以去吹牛逼了.
 		</text>
 	</string>
 	
