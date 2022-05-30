@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 
 	Anomaly Mod Configuration Menu strings
-	
+	甾=戳
 -->
 
 <string_table>
@@ -65,10 +65,10 @@
 		<text>无论此处设置什么值, 在进入各种UI界面, 保存/加载游戏时仍会保存日志</text>
 	</string>
 	<string id="ui_mcm_mcm_mcm_log_timestamp">
-		<text>Xray引擎日志时间戳频率</text>
+		<text>Xray引擎日志时间甾频率</text>
 	</string>
 	<string id="ui_mcm_mcm_mcm_log_timestamp_desc">
-		<text>MCM会向Xray引擎生成的日志添加时间戳, 以便更轻松地协调两者之间的事件. 此选项控制这些时间戳最短间隔. 如果控制台没有其他内容正在输出则mcm也不会输出</text>
+		<text>MCM会向Xray引擎生成的日志添加时间甾, 以便更轻松地协调两者之间的事件. 此选项控制这些时间甾最短间隔. 如果控制台没有其他内容正在输出则mcm也不会输出</text>
 	</string>
 	<string id="ui_mcm_mcm_mcm_log_debug_logging2">
 		<text>启用调试日志</text>
