@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+	EFT Aim Rattle Strings
+-->
+
+<string_table>
+	<string id="ui_mcm_menu_eft_rattle">
+		<text>EFT 武器瞄准音效</text>
+	</string>
+	<string id="ui_mcm_title_eft_rattle">
+		<text>逃离塔可夫武器瞄准音效</text>
+	</string>
+	<string id="ui_mcm_eft_rattle_aim_rattle">
+		<text>武器瞄准音效</text>
+	</string>
+	<string id="ui_mcm_eft_rattle_lower_raise_rattle">
+		<text>武器放下/抬起音效</text>
+	</string>
+</string_table>
