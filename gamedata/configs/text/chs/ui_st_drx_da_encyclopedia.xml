@@ -18,7 +18,7 @@
 	</string>
 	
 	<string id="zone_mine_gold_section_name">
-		<text>液态黄金</text>
+		<text>流金</text>
 	</string>
 	
 	<string id="zone_mine_green_dragon_section_name">
@@ -90,14 +90,14 @@
 	</string>
 
 	<string id="encyclopedia_anomalies_gold">
-		<text>液态黄金</text>
+		<text>流金</text>
 	</string>
 	<string id="encyclopedia_anomalies_gold_text">
 		<text>
-			&bull; 名称: %c[d_cyan]液态黄金%c[ui_gray_1]
+			&bull; 名称: %c[d_cyan]流金%c[ui_gray_1]
 			\n&bull; 类型: %c[d_orange]生化系
 			\n \n%c[pda_green]相关情报%c[ui_gray_1]
-			\n就像是"剧毒果汁"的孪生姐妹那样, "液态黄金"也有着极其相似的特点, 它会散发出金黄色的剧毒云雾. 这种化合物能进入循环系统后, 能将生物的体温急剧升高到致命的程度, 引发严重的脱水, 甚至会在很短时间内使生物死于血液沸腾
+			\n就像是"剧毒果汁"的孪生姐妹那样, "流金"也有着极其相似的特点, 它会散发出金黄色的剧毒云雾. 这种化合物能进入循环系统后, 能将生物的体温急剧升高到致命的程度, 引发严重的脱水, 甚至会在很短时间内使生物死于血液沸腾
 		</text>
 	</string>
 
