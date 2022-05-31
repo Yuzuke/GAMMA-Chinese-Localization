@@ -12,7 +12,4 @@ GAMMA TRANSLATION
 </br>
 <b>目前仅支持1920x1080, 其他分辨率字体会变形</b>
  
-<p><p>
-汉化者: <p>
-Yuzuke<p>
-天狼sky<p>
+
